@@ -1,0 +1,305 @@
+{
+  "split": "uniform sample of official test.csv without replacement",
+  "sampling_seed": 2026112187,
+  "rows": 1792,
+  "judgments": 559,
+  "protocol": "Row IDs were chosen by a fixed pseudorandom draw independent of labels and predictions. The checkpoint was frozen on validation before this interim evaluation. Final test evaluation covers every row separately.",
+  "selected_checkpoint_sha256": "0a32fe939d96384c3cf3d879e5cfbce76c67172a8f3920961a99df3ba65b7edf",
+  "published_release": {
+    "macro_f1": 0.4907400396912093,
+    "accuracy": 0.5379464285714286,
+    "f1": {
+      "none": 0.6331360946745562,
+      "facts": 0.5749613601236476,
+      "issue": 0.46153846153846156,
+      "petitioner_argument": 0.3973941368078176,
+      "respondent_argument": 0.3146067415730337,
+      "reasoning": 0.36306729264475746,
+      "decision": 0.6904761904761905
+    },
+    "precision": {
+      "none": 0.5521155830753354,
+      "facts": 0.5040650406504065,
+      "issue": 0.6,
+      "petitioner_argument": 0.5258620689655172,
+      "respondent_argument": 0.4444444444444444,
+      "reasoning": 0.5178571428571429,
+      "decision": 0.8055555555555556
+    },
+    "recall": {
+      "none": 0.7420249653259362,
+      "facts": 0.6690647482014388,
+      "issue": 0.375,
+      "petitioner_argument": 0.3193717277486911,
+      "respondent_argument": 0.24347826086956523,
+      "reasoning": 0.27951807228915665,
+      "decision": 0.6041666666666666
+    },
+    "confusion": [
+      [
+        535,
+        82,
+        5,
+        17,
+        7,
+        72,
+        3
+      ],
+      [
+        74,
+        186,
+        1,
+        2,
+        3,
+        9,
+        3
+      ],
+      [
+        5,
+        10,
+        9,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        72,
+        23,
+        0,
+        61,
+        22,
+        13,
+        0
+      ],
+      [
+        32,
+        16,
+        0,
+        28,
+        28,
+        11,
+        0
+      ],
+      [
+        239,
+        48,
+        0,
+        8,
+        3,
+        116,
+        1
+      ],
+      [
+        12,
+        4,
+        0,
+        0,
+        0,
+        3,
+        29
+      ]
+    ]
+  },
+  "original_reloaded": {
+    "macro_f1": 0.3622435951302371,
+    "accuracy": 0.47879464285714285,
+    "f1": {
+      "none": 0.5850556438791733,
+      "facts": 0.4838095238095238,
+      "issue": 0.12903225806451613,
+      "petitioner_argument": 0.4375,
+      "respondent_argument": 0.21348314606741572,
+      "reasoning": 0.2560553633217993,
+      "decision": 0.4307692307692308
+    },
+    "precision": {
+      "none": 0.4734133790737564,
+      "facts": 0.5141700404858299,
+      "issue": 0.2857142857142857,
+      "petitioner_argument": 0.5426356589147286,
+      "respondent_argument": 0.30158730158730157,
+      "reasoning": 0.4539877300613497,
+      "decision": 0.8235294117647058
+    },
+    "recall": {
+      "none": 0.7656033287101248,
+      "facts": 0.4568345323741007,
+      "issue": 0.08333333333333333,
+      "petitioner_argument": 0.36649214659685864,
+      "respondent_argument": 0.16521739130434782,
+      "reasoning": 0.1783132530120482,
+      "decision": 0.2916666666666667
+    },
+    "confusion": [
+      [
+        552,
+        67,
+        5,
+        16,
+        12,
+        68,
+        1
+      ],
+      [
+        134,
+        127,
+        0,
+        3,
+        5,
+        8,
+        1
+      ],
+      [
+        13,
+        8,
+        2,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        89,
+        17,
+        0,
+        70,
+        11,
+        4,
+        0
+      ],
+      [
+        55,
+        5,
+        0,
+        31,
+        19,
+        5,
+        0
+      ],
+      [
+        293,
+        23,
+        0,
+        8,
+        16,
+        74,
+        1
+      ],
+      [
+        30,
+        0,
+        0,
+        0,
+        0,
+        4,
+        14
+      ]
+    ]
+  },
+  "edited": {
+    "macro_f1": 0.41024247187780094,
+    "accuracy": 0.4447544642857143,
+    "f1": {
+      "none": 0.5036284470246735,
+      "facts": 0.4844903988183161,
+      "issue": 0.37209302325581395,
+      "petitioner_argument": 0.3710144927536232,
+      "respondent_argument": 0.1926605504587156,
+      "reasoning": 0.4043321299638989,
+      "decision": 0.5434782608695652
+    },
+    "precision": {
+      "none": 0.528158295281583,
+      "facts": 0.41102756892230574,
+      "issue": 0.42105263157894735,
+      "petitioner_argument": 0.4155844155844156,
+      "respondent_argument": 0.20388349514563106,
+      "reasoning": 0.40384615384615385,
+      "decision": 0.5681818181818182
+    },
+    "recall": {
+      "none": 0.4812760055478502,
+      "facts": 0.5899280575539568,
+      "issue": 0.3333333333333333,
+      "petitioner_argument": 0.33507853403141363,
+      "respondent_argument": 0.1826086956521739,
+      "reasoning": 0.40481927710843374,
+      "decision": 0.5208333333333334
+    },
+    "confusion": [
+      [
+        347,
+        123,
+        8,
+        28,
+        27,
+        179,
+        9
+      ],
+      [
+        73,
+        164,
+        3,
+        9,
+        7,
+        21,
+        1
+      ],
+      [
+        8,
+        7,
+        8,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        52,
+        29,
+        0,
+        64,
+        22,
+        23,
+        1
+      ],
+      [
+        30,
+        14,
+        0,
+        32,
+        21,
+        18,
+        0
+      ],
+      [
+        133,
+        59,
+        0,
+        21,
+        26,
+        168,
+        8
+      ],
+      [
+        14,
+        3,
+        0,
+        0,
+        0,
+        6,
+        25
+      ]
+    ]
+  },
+  "original_replay_matches_published_fraction": 0.6847098214285714,
+  "paired_95pct_gain_vs_replayed": [
+    0.01153279554868093,
+    0.08465288380528396
+  ],
+  "paired_95pct_gain_vs_release": [
+    -0.11760931005004702,
+    -0.04434716704330945
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "freeze_sha256": "34113d1bbb02c98d3016e55a5d0f1dec7da89b7f6c7a2c464e0ca14c4e819098",
+  "weights_sha256": "b2e1ab6d9b862508ad085b4348096c0f1cd6b08d3f3b545837339c7fef4779e2",
+  "selection": "Tune separately for all-seven and pair-only only on the centered reviewer on 48 case-disjoint validation judgments. Rank macro-F1, pair confusions, accuracy, then number of changes. Exact same selected rules are applied to both incumbents.",
+  "confirmation": {
+    "confirm": {
+      "report_sha256": "61fb05e8f1bf22e5aec2a27366cb41eb29b4fff410a84ff5665f1ba79ad0f070",
+      "predictions_sha256": "cbf8e28ccf6612ee9583e813dc7c2c91622efe7e197a8ee0f473333cfabf4c23"
+    },
+    "fresh": {
+      "report_sha256": "a17645440c2d5e7c46c7da150fc62ead8902d6cd74edc3bc8ccbbb8d3e9871a5",
+      "predictions_sha256": "5f150bb981562c6aff144ce5e291497de938b6b38ee699fbe3e31214af75fb26"
+    }
+  },
+  "pooled_macro_f1_delta_ci95": [
+    0.04716239935366456,
+    0.12533648866474037
+  ],
+  "judgments": 168,
+  "sentences": 37279,
+  "evaluation": "Apply both selection-frozen associative writes unchanged. Report all rows and train-passage matching slices for old and centered reviewer baselines, and independently locked whole-sentence model predictions when available.",
+  "test_used_to_select": false
+}

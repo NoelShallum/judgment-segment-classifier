@@ -1,0 +1,142 @@
+{
+  "sources": {
+    "official": {
+      "sha256": "5e1a2f9a03fd7581d4585ef97f55787d058afbed063b5e03b6e3611cbe45f9ee",
+      "url": "https://huggingface.co/datasets/L-NLProc/LegalSeg_CSV/resolve/31217aa845866bbd18a8ad567a785e6f5485435a/test.csv"
+    },
+    "mtl": {
+      "sha256": "3d31adebfb9ba95ca2c3640fb6b5db7bd31fe2c0ddcaa5a079956afd8f93e5ba",
+      "url": "https://huggingface.co/datasets/L-NLProc/LegalSeg_MTL_Predictions/resolve/7e17d45d33ce5d447961ff9f4b5ba1afd7d8efba/predictions.csv"
+    },
+    "role_aware_ci": {
+      "sha256": "c0bf506a8d83d113c3ee37d25c8a6d2bdadc4f46db7c28204581cc6d1b893822",
+      "url": "https://huggingface.co/datasets/L-NLProc/LegalSeg_Role_Aware_Predictions/resolve/352acfeb650da788aaf7acf2c396aeed5b166ee9/predictions_CI.csv"
+    },
+    "previous_predicted": {
+      "sha256": "1de4dabd8e5591ec0db2d469de66f7b5af35f06bb1915dfe1f02a7dbfd7fedd1",
+      "url": "https://huggingface.co/datasets/L-NLProc/LegalSeg_InLegalBERT_Predictions/resolve/e9233636e75dfa221dd18d14c4ecec66942fda13/InLegalBert%28i-1%2C%20label_p%2C%20i%29.csv"
+    },
+    "previous_gold": {
+      "sha256": "7092d69e650ce0d12814e912b955e19665dbd6769dda957e0e47420893ec4212",
+      "url": "https://huggingface.co/datasets/L-NLProc/LegalSeg_InLegalBERT_Predictions/resolve/e9233636e75dfa221dd18d14c4ecec66942fda13/InLegalBert%28i-1%2C%20label_t%2C%20i%29_predictions.csv"
+    },
+    "rhetoricllama": {
+      "sha256": "f4a366643ab5b9edcee38e83549b5c88ff1511fa461b7e018ebaae65711ba1a1",
+      "url": "https://huggingface.co/datasets/L-NLProc/LegalSeg_RhetoricLLaMA_Predictions/resolve/686d8082bdadc4f08cf21ff068b561ac38a88cc4/RhetoricLLaMA_predictions.csv"
+    }
+  },
+  "case_count": 712,
+  "all_rows": 149881,
+  "roles": [
+    "None",
+    "Facts",
+    "Issue",
+    "Arguments of Petitioner",
+    "Arguments of Respondent",
+    "Reasoning",
+    "Decision"
+  ],
+  "metric": "Published predictions receive official sentence boundaries. Omit blank source rows for spans and whitespace-token accuracy, join trimmed rows with one space, and merge adjacent equal roles. Within one case, boundaries at different nonblank row indices map one-to-one to different character offsets. Compute exact labeled span F1 from pooled counts. The separate sentence scores include every official row.",
+  "mtl": {
+    "alignment": "Map published labels 3..9 to ordinal roles 0..6. Match each complete ordered gold-label vector to its unique official case. Stop on duplicates on either side, an incomplete match, extra cases or row count discrepancies. The releases supply no case IDs or sentence text for independent text verification.",
+    "unique_matching_cases": 712,
+    "scores": {
+      "exact_labeled_spans": {
+        "matched": 1037,
+        "predicted": 4300,
+        "gold": 28879,
+        "precision": 0.2411627906976744,
+        "recall": 0.03590844558329582,
+        "f1": 0.06250941860815576
+      },
+      "token_accuracy": 0.4685655767649484,
+      "correct_tokens": 2020101,
+      "total_tokens": 4311245,
+      "sentence_accuracy": 0.4901955551404114,
+      "sentence_macro_f1": 0.3743699072327557
+    }
+  },
+  "role_aware_ci": {
+    "alignment": "The released Role-Aware CI code specifies the 0..6 -> 1,2,3,4,5,6,0 mapping. Every relabeled gold row matches in official order. The release omits text and case IDs. This is a file-level result.",
+    "scores": {
+      "exact_labeled_spans": {
+        "matched": 23,
+        "predicted": 3571,
+        "gold": 28879,
+        "precision": 0.00644077289274713,
+        "recall": 0.000796426469060563,
+        "f1": 0.0014175654853620955
+      },
+      "token_accuracy": 0.02733085222482137,
+      "correct_tokens": 117830,
+      "total_tokens": 4311245,
+      "sentence_accuracy": 0.028696098905131404,
+      "sentence_macro_f1": 0.014144716734653534
+    }
+  },
+  "previous_predicted": {
+    "purpose": "Independent replay of the highest numerical archived projection in the existing comparison.",
+    "scores": {
+      "exact_labeled_spans": {
+        "matched": 6680,
+        "predicted": 28285,
+        "gold": 28879,
+        "precision": 0.23616757998939367,
+        "recall": 0.2313099484054157,
+        "f1": 0.2337135259953817
+      },
+      "token_accuracy": 0.6267859980121752,
+      "correct_tokens": 2702228,
+      "total_tokens": 4311245,
+      "sentence_accuracy": 0.630213302553359,
+      "sentence_macro_f1": 0.6327617229175869
+    }
+  },
+  "previous_gold_oracle": {
+    "purpose": "The source configuration includes the previous true role. This is a diagnostic oracle outside the deployable comparison.",
+    "scores": {
+      "exact_labeled_spans": {
+        "matched": 3021,
+        "predicted": 65363,
+        "gold": 28879,
+        "precision": 0.046218808806205346,
+        "recall": 0.1046088853492157,
+        "f1": 0.06411154262430763
+      },
+      "token_accuracy": 0.47983587107668435,
+      "correct_tokens": 2068690,
+      "total_tokens": 4311245,
+      "sentence_accuracy": 0.47322876148411075,
+      "sentence_macro_f1": 0.37379794127204014
+    }
+  },
+  "rhetoricllama_first_line": {
+    "alignment": "Every row matches exact case ID, text and role after restoring blank released gold cells to None.",
+    "decoding": "Independent sensitivity analysis. Accept the entire first nonblank output line only if it is one digit 0 through 6 or the canonical role name and matching hyphenated digit. Later generated instructions are ignored. Each unresolved row can take any of the seven roles.",
+    "intervals": "Deterministic outer bounds conditional on the first-line decoder. The minimum and maximum number of predicted spans are computed by dynamic programming. Bounds on the number of exact matches check each gold span and its immediate neighbors. The displayed bounds need not be jointly attainable.",
+    "first_lines": {
+      "role_and_number": 138754,
+      "digit": 10401,
+      "unresolved": 726
+    },
+    "counts": {
+      "tokens": 4311245,
+      "known_correct_tokens": 1412268,
+      "unknown_tokens": 49942,
+      "nonblank_unresolved_rows": 726,
+      "certain": 1275,
+      "possible": 1344,
+      "min_predicted": 64293,
+      "max_predicted": 65425,
+      "gold": 28879
+    },
+    "exact_span_f1_bounds": [
+      0.027040210383440788,
+      0.02884986905937406
+    ],
+    "token_accuracy_bounds": [
+      0.32757776465962846,
+      0.3391618894310112
+    ]
+  }
+}

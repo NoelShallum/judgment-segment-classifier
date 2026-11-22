@@ -1,0 +1,7 @@
+{
+  "source_raw_benchmark_sha256": "d1ce8eaabdddc3cde027fe880c2fe4d18342ea8e37def08f65ec45232ccc2799",
+  "decoder_sha256": "a577f71c8976e348c7a77a5f3c7ab36fd4a9e4ea092744ffbfb8f58f58f8bef6",
+  "cases": 712,
+  "units": 137262,
+  "exact_emission_parity_after_replacing_gold_metadata": true
+}

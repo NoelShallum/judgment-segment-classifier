@@ -1,0 +1,70 @@
+{
+  "platform": "x86_64",
+  "torch_threads": 2,
+  "cases": [
+    {
+      "case": "6884",
+      "whitespace_tokens": 489,
+      "candidate_units": 31,
+      "warmed_seconds": {
+        "role-edge exact": [
+          0.06154555399552919,
+          0.06670135999593185,
+          0.05927314799919259
+        ],
+        "segment-exact": [
+          0.06991287999699125,
+          0.07617922099598218,
+          0.0869070529952296
+        ]
+      },
+      "medians": {
+        "role-edge exact": 0.06154555399552919,
+        "segment-exact": 0.07617922099598218
+      }
+    },
+    {
+      "case": "6993",
+      "whitespace_tokens": 4497,
+      "candidate_units": 150,
+      "warmed_seconds": {
+        "role-edge exact": [
+          0.40167154899972957,
+          0.36569720999978017,
+          0.3719538840014138
+        ],
+        "segment-exact": [
+          0.47935859599965625,
+          0.45505060700088507,
+          0.4190416830024333
+        ]
+      },
+      "medians": {
+        "role-edge exact": 0.3719538840014138,
+        "segment-exact": 0.45505060700088507
+      }
+    },
+    {
+      "case": "6723",
+      "whitespace_tokens": 16135,
+      "candidate_units": 382,
+      "warmed_seconds": {
+        "role-edge exact": [
+          1.3323692730045877,
+          1.2564503169996897,
+          1.2312524230001145
+        ],
+        "segment-exact": [
+          1.395980970999517,
+          1.404877569002565,
+          1.413438039002358
+        ]
+      },
+      "medians": {
+        "role-edge exact": 1.2564503169996897,
+        "segment-exact": 1.404877569002565
+      }
+    }
+  ],
+  "protocol": "Already-loaded donated hierarchy and weights. Paired alternating order, three measurements per profile, one warm-up. Timings include text boundary detection and output spans. Other experiment processes were running on this laptop."
+}

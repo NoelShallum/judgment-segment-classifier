@@ -1,0 +1,24 @@
+{
+  "dataset": "L-NLProc/LegalSeg_CSV",
+  "revision": "31217aa845866bbd18a8ad567a785e6f5485435a",
+  "files": {
+    "train.csv": {
+      "file": "train.csv",
+      "bytes": 217019314,
+      "sha256": "60028fc085e3cb018e8d49a8879ba796dd03a0838367891f3312f9e576921794",
+      "source": "User-supplied copy of pinned LegalSeg_CSV"
+    },
+    "val.csv": {
+      "file": "val.csv",
+      "bytes": 51327760,
+      "sha256": "8abb2d789325418fc5ab4186c0dc63798e02b8fd82f9e00c324185e6bd86f816",
+      "source": "User-supplied copy of pinned LegalSeg_CSV"
+    },
+    "test.csv": {
+      "file": "test.csv",
+      "bytes": 27791389,
+      "sha256": "5e1a2f9a03fd7581d4585ef97f55787d058afbed063b5e03b6e3611cbe45f9ee",
+      "source": "User-supplied copy of pinned LegalSeg_CSV"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "freeze_sha256": "eedef96961472a600d5aa60e4ce080d378b3e785be35e28d89caffbdfe87db04",
+  "cases": [
+    {
+      "case": "5989",
+      "rows": 95,
+      "queried": 29,
+      "mean_cosine": 0.9877289533615112,
+      "max_absolute_feature_difference": 0.04562750458717346,
+      "label_disagreements": 0
+    },
+    {
+      "case": "5981",
+      "rows": 174,
+      "queried": 53,
+      "mean_cosine": 0.991180419921875,
+      "max_absolute_feature_difference": 0.029936838895082474,
+      "label_disagreements": 0
+    },
+    {
+      "case": "5662",
+      "rows": 299,
+      "queried": 90,
+      "mean_cosine": 0.9907534122467041,
+      "max_absolute_feature_difference": 0.045200686901807785,
+      "label_disagreements": 0
+    }
+  ],
+  "protocol": "Compare identical selected sentences encoded in the fixed cross-judgment benchmark batch schedule and within their own judgment. Both evaluations use the same frozen graph and readout. Select three validation cases by document size."
+}

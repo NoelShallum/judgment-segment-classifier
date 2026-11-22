@@ -1,0 +1,8 @@
+{
+  "source_edit_sha256": "d625278de12f0f1c310ef66c4a6a40e23e5fe5ffbb3644c79864381123ff2003",
+  "source_bert_overlay_sha256": "d89429cd2b464d03b4666416ff0dc8b0aaaa662b092cea3011e0f940275a3ee6",
+  "pairwise_freeze_sha256": "41f590e56a7836c732f939d62264c196a95aed9e06e78036463720b0084f199a",
+  "arm": "phase",
+  "gradient_steps": 0,
+  "policy": "Keep every accepted BERT revision. Apply the frozen all-sentence edit to the remaining rows."
+}

@@ -1,0 +1,9 @@
+{
+  "model": {
+    "repo": "L-NLProc/LegalSeg_InLegalBERT",
+    "revision": "44d7925e5ab422ecf04acd5dcbb0b62a6f8d8f53",
+    "path": "InLegalBERT/InLegalBERT(i)model.safetensors",
+    "sha256": "bbe8af20d1524c7535b1cbe68c6d4c3c844c6cc9fccef46c03c9ff56e7c18cea"
+  },
+  "protocol_sha256": "47ebf029f6056b563868a5fe1a48c767fd937d82c13df43203705ce5c2208635"
+}

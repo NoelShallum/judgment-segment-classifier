@@ -1,0 +1,77 @@
+{
+  "fp16": {
+    "tested_on": "Native CPU FP16 through classify.py",
+    "package_manifest_sha256": "308485f01a67b6e21a73a59a21c8fa914c66eb1e34a66de35c826fd3eaa7bf60",
+    "cases": {
+      "6045": {
+        "final_match": 41,
+        "sentences": 41,
+        "elapsed_seconds": 524.67
+      }
+    },
+    "limited_scope": "Only completed native CPU runs are counted. The optional FP32 path has the complete two-judgment QA receipt.",
+    "runtime_equivalence": "The tested inference entry point, weights and dependency pins are byte-identical in the final release.",
+    "cpu_qa_candidate_archive_sha256": "be9955dadb1dd23257e00b3083bc676a6226f99979f13efd31304220b109860f"
+  },
+  "fp32": {
+    "platform": "Linux-7.0.0-43-generic-x86_64-with-glibc2.43",
+    "python": "3.11.16",
+    "tested_on": "CPU FP32, ordered public validation sentences through classify_fast.py",
+    "validation_csv_sha256": "8abb2d789325418fc5ab4186c0dc63798e02b8fd82f9e00c324185e6bd86f816",
+    "package_manifest_sha256": "77a3310b4a698fb79a0ffe8a6f8a61e929fc529d84408b8bf14e915a0179baf1",
+    "cases": {
+      "6045": {
+        "cohort": "confirm",
+        "sentences": 41,
+        "final_mismatches": [],
+        "incumbent_mismatches": [],
+        "final_match": 41,
+        "incumbent_match": 41,
+        "cpu_changes_from_incumbent": 3,
+        "archived_changes_from_incumbent": 3,
+        "backbone_windows": {
+          "past": {
+            "windows": 41,
+            "max_tokens": 123,
+            "additional_windows": 0
+          },
+          "both": {
+            "windows": 41,
+            "max_tokens": 123,
+            "additional_windows": 0
+          }
+        },
+        "output_role_count": 7,
+        "elapsed_seconds": 130.51,
+        "expected_predictions_sha256": "e5e7f05ab287148f3868844b94eb217bfe35e1e52ac47d39166713b84f35098d"
+      },
+      "5922": {
+        "cohort": "fresh",
+        "sentences": 78,
+        "final_mismatches": [],
+        "incumbent_mismatches": [],
+        "final_match": 78,
+        "incumbent_match": 78,
+        "cpu_changes_from_incumbent": 16,
+        "archived_changes_from_incumbent": 16,
+        "backbone_windows": {
+          "past": {
+            "windows": 79,
+            "max_tokens": 512,
+            "additional_windows": 1
+          },
+          "both": {
+            "windows": 79,
+            "max_tokens": 512,
+            "additional_windows": 1
+          }
+        },
+        "output_role_count": 6,
+        "elapsed_seconds": 361.56,
+        "expected_predictions_sha256": "57845323ee7f6e06e1746612a7f82d7453ca43369953e68daf5ad9751b6f1f47"
+      }
+    },
+    "runtime_equivalence": "The tested inference entry point, weights and dependency pins are byte-identical in the final release.",
+    "cpu_qa_candidate_archive_sha256": "e5929cb8d99a5af1a12439371710c533ce4084f51bb4bd309558f9436ff3acfe"
+  }
+}

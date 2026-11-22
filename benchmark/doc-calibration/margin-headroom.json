@@ -1,0 +1,340 @@
+{
+  "score_difference_cutoff": 0.046350762248039246,
+  "groups": {
+    "confirm": {
+      "rows": 14879,
+      "base": {
+        "macro_f1": 0.7257273685477932,
+        "accuracy": 0.747899724443847,
+        "per_role_f1": {
+          "None": 0.7548724993560574,
+          "Facts": 0.8271035470017496,
+          "Issue": 0.6552380952380953,
+          "Arguments of Petitioner": 0.7054351957430635,
+          "Arguments of Respondent": 0.6434210526315789,
+          "Reasoning": 0.7018643271189096,
+          "Decision": 0.792156862745098
+        },
+        "none_to_reasoning": 787,
+        "reasoning_to_none": 719,
+        "pair_errors": 1506,
+        "confusion": [
+          [
+            4396,
+            433,
+            36,
+            166,
+            86,
+            787,
+            64
+          ],
+          [
+            311,
+            2600,
+            26,
+            54,
+            34,
+            66,
+            10
+          ],
+          [
+            27,
+            54,
+            172,
+            6,
+            0,
+            10,
+            3
+          ],
+          [
+            172,
+            34,
+            2,
+            928,
+            76,
+            63,
+            1
+          ],
+          [
+            53,
+            26,
+            0,
+            171,
+            489,
+            34,
+            0
+          ],
+          [
+            719,
+            39,
+            16,
+            30,
+            61,
+            2240,
+            35
+          ],
+          [
+            1,
+            0,
+            1,
+            0,
+            1,
+            43,
+            303
+          ]
+        ]
+      },
+      "pair_errors_within_bias_swap_margin": 142,
+      "pair_error_margin_median": 0.29846376180648804,
+      "hypothetical_oracle": {
+        "macro_f1": 0.7305600863156332,
+        "accuracy": 0.7574433765710061,
+        "per_role_f1": {
+          "None": 0.7675833119163883,
+          "Facts": 0.8271035470017496,
+          "Issue": 0.6552380952380953,
+          "Arguments of Petitioner": 0.7054351957430635,
+          "Arguments of Respondent": 0.6434210526315789,
+          "Reasoning": 0.7229825389334592,
+          "Decision": 0.792156862745098
+        },
+        "none_to_reasoning": 703,
+        "reasoning_to_none": 661,
+        "pair_errors": 1364,
+        "confusion": [
+          [
+            4480,
+            433,
+            36,
+            166,
+            86,
+            703,
+            64
+          ],
+          [
+            311,
+            2600,
+            26,
+            54,
+            34,
+            66,
+            10
+          ],
+          [
+            27,
+            54,
+            172,
+            6,
+            0,
+            10,
+            3
+          ],
+          [
+            172,
+            34,
+            2,
+            928,
+            76,
+            63,
+            1
+          ],
+          [
+            53,
+            26,
+            0,
+            171,
+            489,
+            34,
+            0
+          ],
+          [
+            661,
+            39,
+            16,
+            30,
+            61,
+            2298,
+            35
+          ],
+          [
+            1,
+            0,
+            1,
+            0,
+            1,
+            43,
+            303
+          ]
+        ]
+      }
+    },
+    "fresh": {
+      "rows": 22400,
+      "base": {
+        "macro_f1": 0.7238568314001066,
+        "accuracy": 0.7323214285714286,
+        "per_role_f1": {
+          "None": 0.7474037386163924,
+          "Facts": 0.8063171193935565,
+          "Issue": 0.6918238993710691,
+          "Arguments of Petitioner": 0.7318475916606758,
+          "Arguments of Respondent": 0.6566135286514433,
+          "Reasoning": 0.6594550464333095,
+          "Decision": 0.7735368956743003
+        },
+        "none_to_reasoning": 1163,
+        "reasoning_to_none": 1539,
+        "pair_errors": 2702,
+        "confusion": [
+          [
+            7017,
+            701,
+            50,
+            306,
+            177,
+            1163,
+            70
+          ],
+          [
+            374,
+            3191,
+            23,
+            56,
+            34,
+            183,
+            16
+          ],
+          [
+            26,
+            53,
+            220,
+            1,
+            1,
+            8,
+            6
+          ],
+          [
+            209,
+            29,
+            1,
+            1527,
+            161,
+            77,
+            6
+          ],
+          [
+            108,
+            14,
+            0,
+            204,
+            762,
+            49,
+            2
+          ],
+          [
+            1539,
+            50,
+            26,
+            65,
+            41,
+            3231,
+            70
+          ],
+          [
+            20,
+            0,
+            1,
+            4,
+            6,
+            66,
+            456
+          ]
+        ]
+      },
+      "pair_errors_within_bias_swap_margin": 183,
+      "pair_error_margin_median": 0.3549175262451172,
+      "hypothetical_oracle": {
+        "macro_f1": 0.7279198672003269,
+        "accuracy": 0.7404910714285714,
+        "per_role_f1": {
+          "None": 0.7571367703451214,
+          "Facts": 0.8063171193935565,
+          "Issue": 0.6918238993710691,
+          "Arguments of Petitioner": 0.7318475916606758,
+          "Arguments of Respondent": 0.6566135286514433,
+          "Reasoning": 0.6781632653061225,
+          "Decision": 0.7735368956743003
+        },
+        "none_to_reasoning": 1072,
+        "reasoning_to_none": 1447,
+        "pair_errors": 2519,
+        "confusion": [
+          [
+            7108,
+            701,
+            50,
+            306,
+            177,
+            1072,
+            70
+          ],
+          [
+            374,
+            3191,
+            23,
+            56,
+            34,
+            183,
+            16
+          ],
+          [
+            26,
+            53,
+            220,
+            1,
+            1,
+            8,
+            6
+          ],
+          [
+            209,
+            29,
+            1,
+            1527,
+            161,
+            77,
+            6
+          ],
+          [
+            108,
+            14,
+            0,
+            204,
+            762,
+            49,
+            2
+          ],
+          [
+            1447,
+            50,
+            26,
+            65,
+            41,
+            3323,
+            70
+          ],
+          [
+            20,
+            0,
+            1,
+            4,
+            6,
+            66,
+            456
+          ]
+        ]
+      }
+    }
+  },
+  "definition": "Hypothetical correction of all baseline None\u2013Reasoning confusions within the absolute signed margin change induced by the locked seven-value decoder bias. All other outcomes held fixed."
+}

@@ -1,0 +1,22 @@
+{
+  "donor_sha256": "bbe8af20d1524c7535b1cbe68c6d4c3c844c6cc9fccef46c03c9ff56e7c18cea",
+  "study_archive_sha256": "8d66582215c78604f8e09353eadafcf38c8776a6498b437ed31c11d9d5d7e89a",
+  "edited_checkpoint_sha256": "70fd0be20a6c3b1efd7e98a6827fc0f841168c5012d4a52342bffad4e862b5ef",
+  "unedited_tensor_bytes_sha256": "5aff3162a883f8c37398b692c19fb1c9273b4d4a3e0677523e54b5a6bd973d46",
+  "changed": {
+    "bert.encoder.layer.11.attention.self.value.bias": {
+      "shape": [
+        768
+      ],
+      "changed": 768
+    },
+    "bert.encoder.layer.11.attention.self.value.weight": {
+      "shape": [
+        768,
+        768
+      ],
+      "changed": 589824
+    }
+  },
+  "arm": "targeted"
+}

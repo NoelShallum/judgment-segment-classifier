@@ -1,0 +1,64 @@
+{
+  "zip_sha256": "d5100f64b3ebfcae4ab3ba34f7636b391bb2a96d875866f28277f53fe7075510",
+  "device": {
+    "observed_utc": "2026-11-22T09:21:13Z",
+    "nvidia_smi": [
+      "Tesla T4, 15360, 580.82.07"
+    ],
+    "torch_cuda": "13.0",
+    "torch_version": "2.14.1+cu130"
+  },
+  "cohorts": {
+    "train": {
+      "cases": 12,
+      "rows": 357,
+      "blocks": 51,
+      "content_tokens": 12686,
+      "max_abs_cue_drift": 3.0517578125e-05,
+      "seconds": 9.360607185000049,
+      "case_receipts": {
+        "2750": "259712f8daa71a6c74ac43431841775c68b894bf6fa1d9aaa96b70a1b2096f8a",
+        "1504": "5a49061470c37c74695f06d386c99651d118fd64df30eb133d7ee739750e34e6",
+        "474": "87754e9d06298ba14ad3b38a53e6dcd87263f54953639a1c93b4890a76a83ea5",
+        "4063": "7c360680d9510c2df06bec2499c50ab676aaff7c8e5370a557cd348c023766f5",
+        "838": "6ab73c8f8aa9676292dfd5fe5ea30c4aaa20aec67ac4cf72595b99205e5d8c63",
+        "3532": "f4b17a1dc2e076d154d28433e233c3647101c30e1091a756a28e626545c28975",
+        "4128": "6a81e809a3ff5f05672b2c22bfa730a2d3d2fc3059a1a018f6f6aaebb366a59e",
+        "2299": "7d3d296275770023dd86248e63f9b751fbbf73ecee55122e7a4b62967ae67fb2",
+        "4623": "d94c8eb12ee07b672298eb7082f35f518f7aadcb67cd8b9742e05bacc10b5983",
+        "416": "612c14042a11e2deec00863f53eb8188b7217f0ac20c93ba0236c062eae50265",
+        "624": "522decd93419b891175550cf12029f6cee1897bd9663d97fe31264441934d658",
+        "283": "4b2cdcc5d06daf8c940e4f53319e7f1bd5c237ac6ca4dd315db29fe699c998b8"
+      }
+    },
+    "val": {
+      "cases": 16,
+      "rows": 3558,
+      "blocks": 460,
+      "content_tokens": 111196,
+      "max_abs_cue_drift": 0.0002605915069580078,
+      "seconds": 41.736901215000046,
+      "case_receipts": {
+        "5343": "65771614167427030b2b672c9b888a0c61ea2b0d3c6b225f06b99af7b0149045",
+        "6340": "3a908ed1d97a82b8adf997ac58fac15aab1a0924d7ca87da990e47981b4f0b4c",
+        "5379": "b7388e39f3ea9d7f8661aaedb90e713ab6a3590de670ecc3e8a1b628ed35f6e7",
+        "5086": "adce15925b2e60e5a9165bf799f374e6853f28a93a9ecfff48fe8c17b67d6921",
+        "6348": "064677b2a2e560798519e5aa083c9f324e0ef6963cfba2e63b8352de7d92255e",
+        "5194": "8148e80e2339bd4efea25a4f0cd64816f47e733440906b25f41a2762669c29cb",
+        "5523": "d607d458713946a1661f85bf8da5f1c83966d6db4e7b1047b7d7950d9d0799cc",
+        "6287": "caf279aac5dfd75120d95d686e3ae54f74e52cb03f40ab97d525f54bafc84953",
+        "5878": "8cfd0009879b3f4a852e5b8ad89c05f96b05c5d7581d5bd102ef628e27e2cc93",
+        "5053": "fc8762539eb5740b8c4a0b9c814fb0340bf754c15a600fca15a9aab1d02a17ec",
+        "5191": "7dc4827feb6249535d885a2e8ad92997f849416397083735d0c64960be1d5f83",
+        "5713": "99adcfff9e639914e70fedf2d3075ed1dee80289e590ed4720678fde5d7e6c7c",
+        "6055": "801083b667aede08c02c51a998e8d00c2d9bdf53288697db04b8c94561588a30",
+        "6121": "7ee40af546ab12e7cbe26951490028e6f4e621240e9345fbbb7adebf6346c819",
+        "5565": "f1541cf7e169a77c3922e0419d604771a514238ed5d6b0515da5a3a60e91138d",
+        "5761": "6929d077023252dfbec211317aafec39768ab13b5877b3c56979244e5ea41510"
+      }
+    }
+  },
+  "overlapping_independent_cpu_mean_rows": 114,
+  "max_abs_cpu_content_drift": 0.00017547607421875,
+  "checked": "CRC, plan hash, each case file hash, all earlier input-layout hashes and positions, finite 1024-wide means; every originally cached FP32 answer cue was compared during the source CUDA forward."
+}

@@ -1,0 +1,66 @@
+{
+  "scan": "Direct character scan over the complete official training and validation CSV text fields. Report intros use as follows, as under, reads thus, or in the following terms with word boundaries.",
+  "source": {
+    "train": {
+      "nonblank_rows": 1122376,
+      "report_intro_rows": 17851,
+      "ending_in_colon": 0,
+      "quote_mark_presence_rows": {
+        "\"": 0,
+        "\u201c": 0,
+        "\u201d": 0,
+        "\u2018": 0,
+        "\u2019": 0,
+        "'": 0,
+        "`": 0,
+        "\u00ab": 0,
+        "\u00bb": 0
+      },
+      "csv_sha256": "60028fc085e3cb018e8d49a8879ba796dd03a0838367891f3312f9e576921794"
+    },
+    "val": {
+      "nonblank_rows": 293362,
+      "report_intro_rows": 5128,
+      "ending_in_colon": 0,
+      "quote_mark_presence_rows": {
+        "\"": 0,
+        "\u201c": 0,
+        "\u201d": 0,
+        "\u2018": 0,
+        "\u2019": 0,
+        "'": 0,
+        "`": 0,
+        "\u00ab": 0,
+        "\u00bb": 0
+      },
+      "csv_sha256": "8abb2d789325418fc5ab4186c0dc63798e02b8fd82f9e00c324185e6bd86f816"
+    }
+  },
+  "score_banks": {
+    "fit": {
+      "sentences": 43401,
+      "literal_quote_flag_rows": 0,
+      "inferred_quote_source_rows": 4020,
+      "cue_bank_sha256": "4cc405b2d1246f6edf7e3fd5fe55a7824d0daec8b6f43aad01f4371dd36fb327"
+    },
+    "select": {
+      "sentences": 7942,
+      "literal_quote_flag_rows": 0,
+      "inferred_quote_source_rows": 514,
+      "cue_bank_sha256": "ee1ab377fefbcd9232fda86ca842b52797ef54ae9ae184719e78cea300d41eaf"
+    },
+    "confirm": {
+      "sentences": 14879,
+      "literal_quote_flag_rows": 0,
+      "inferred_quote_source_rows": 1224,
+      "cue_bank_sha256": "440b4223f19bec16aa596a39d7144639ae097ce0d4dc997383fc0e1ab98edb55"
+    },
+    "fresh": {
+      "sentences": 22400,
+      "literal_quote_flag_rows": 0,
+      "inferred_quote_source_rows": 2097,
+      "cue_bank_sha256": "4d56b63fde89aa31ea336d24d33169dc7316e45706792bc030c1bc14b7fefe43"
+    }
+  },
+  "official_test_accessed": false
+}

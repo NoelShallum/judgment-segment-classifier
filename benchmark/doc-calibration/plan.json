@@ -1,0 +1,63 @@
+{
+  "parent_frozen_sha256": "296fdffeb275516a2bde015edb4820984e468b9b3144904b18a8969a29c8a4da",
+  "validation_parent_archive_sha256": "b5426e2058be10b57cff61308c021498fdbb0b168a99f6a5cab3eaac85eb761b",
+  "training": "192 official train cases, exact frozen doc-semantic scores; upstream trained on these cases. No new end-to-end training.",
+  "selection": "48 previously used selector judgments. Rank by the mean of full-set and no-exact-key macro-F1, then combined pair error change and accuracy. Require that pair errors do not grow on either set and overall accuracy stays within 0.4 points in selection. Keep zero edit when it is stronger.",
+  "confirmation": "Replay frozen weights on 72 and 96 validation judgments. Earlier project evaluation exposure is possible. Report only label-derived outcomes on the two already-declared sets. Confidence intervals resample whole judgments.",
+  "targets": {
+    "all": "Class-balanced difference between one-hot human roles and temperature-calibrated frozen scores.",
+    "pair": "Signed None\u2013Reasoning preference residual, emphasizing incumbent mistakes within this pair and protecting the remaining positions. At inference only currents already in the pair can switch."
+  },
+  "model_families": {
+    "bias": [
+      "bias",
+      "all"
+    ],
+    "score-affine": [
+      "score",
+      "all"
+    ],
+    "case-affine": [
+      "case",
+      "all"
+    ],
+    "local-experts": [
+      "experts",
+      "all"
+    ],
+    "case-experts": [
+      "case-experts",
+      "all"
+    ],
+    "pair-affine": [
+      "score",
+      "pair"
+    ],
+    "pair-case": [
+      "case-experts",
+      "pair"
+    ]
+  },
+  "ridges": [
+    0.025,
+    0.16
+  ],
+  "gain": [
+    0.08,
+    0.22,
+    0.45,
+    0.75
+  ],
+  "rarity": [
+    0.0,
+    0.35,
+    0.65
+  ],
+  "controls": "Static bias and score-only heads, current donor-expert evidence without case features, length-binned shuffled case summaries matched to learned weight norm, shuffled gold targets matched to the learned head norm.",
+  "novel": "Published train exact key unavailable at 1, 3, 5 and 9 sentence widths.",
+  "accuracy_selection_tolerance": 0.004,
+  "random_seed": 285761,
+  "gradient_steps": 0,
+  "device": "CPU",
+  "official_labels_opened_for_validation_experiments": false
+}

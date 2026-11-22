@@ -1,0 +1,9 @@
+{
+  "dense_weights_sha256": "cff8a10e559bef865815c15a5a3151937b56dd0d0fc3bd40f9be76f570e57095",
+  "arm": "nonlinear",
+  "heldout_sha256": "0701a878af0052ef1af1c0ebfc3b90b2edb1c442a6c4968c68c70d5da5876edd",
+  "hypothesis": "The official-test and first prospective analysis of the nonlinear readout showed that issue corrections contributed little and could hurt issue F1.",
+  "rule": "Keep all predictions to or from issue unchanged by the dense edit. For the combined candidate keep the BERT output on referred rows.",
+  "frozen_dense_sha256": "95adcf1e772c631b99bc26c28de5515e11db9685acb9eafaa6b89f66c10a8c90",
+  "frozen_bert_sha256": "d01057e49dec1d9ceb93ee2f57da1de172e36a2df326d1aa33412ac06e5d09b0"
+}

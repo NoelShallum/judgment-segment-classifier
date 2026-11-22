@@ -1,0 +1,397 @@
+{
+  "rows": 15300,
+  "judgments": 72,
+  "validation_csv_sha256": "8abb2d789325418fc5ab4186c0dc63798e02b8fd82f9e00c324185e6bd86f816",
+  "source_predictions_sha256": "07051f186cb21c1d9bd5615b3ccd57d45eb011e8a9910d67134b6988c343fa0b",
+  "native_patch_sha256": "3f23a6fc4abe4144bd863009ffcd9f03187214359c19e7859c11ccb854541ace",
+  "original_checkpoint_sha256": "b76ebc10abdfa248a88916b049e45b53fa18bcbb4e5307c3828c95342fe563ff",
+  "tensors": {
+    "emitter.hidden2tag.bias": {
+      "shape": [
+        10
+      ],
+      "changed_values": 7,
+      "changed_rows_or_indices_inclusive": [
+        3,
+        9
+      ],
+      "before_sha256": "9aba72e10d9c843609a790d6d784afe663c8909d51e1d02b11a581aa1c9c0cc6",
+      "after_sha256": "b80d5aca04c5a9a4a3f81e20ba8c2a5bdf10ec398b87e9250e1dbfdd6c1c8003",
+      "delta_l2": 0.41598772264751904
+    },
+    "emitter.hidden2tag.weight": {
+      "shape": [
+        10,
+        200
+      ],
+      "changed_values": 1400,
+      "changed_rows_or_indices_inclusive": [
+        3,
+        9
+      ],
+      "before_sha256": "a7bd2efe44dd2ee5859931958c27d802e056b05d3a526abd448a231d64a44511",
+      "after_sha256": "332791873c4cedf73b3020b538324d8f841891b8f9a15b777741aaadd3b22100",
+      "delta_l2": 2.4585067648155965
+    },
+    "emitter.lstm.bias_ih_l0": {
+      "shape": [
+        400
+      ],
+      "changed_values": 100,
+      "changed_rows_or_indices_inclusive": [
+        100,
+        199
+      ],
+      "before_sha256": "ac4c8a159d9f4e48eac7a946040af468c8df74bc4ba5ad9c5f9c49591ff1206c",
+      "after_sha256": "4e75c4f897312e4e9154c134cf026313929730415cd01bc9347caafd405b3c21",
+      "delta_l2": 2.2579723871778725
+    },
+    "emitter.lstm.bias_ih_l0_reverse": {
+      "shape": [
+        400
+      ],
+      "changed_values": 100,
+      "changed_rows_or_indices_inclusive": [
+        100,
+        199
+      ],
+      "before_sha256": "695c1c712149d426a73e2d33a5830bf87e969dc1beeaf031770e90381154390c",
+      "after_sha256": "2941baccff26f1dc0f9d32f08737d358dbf105395b3d03ec15f2154832e3b027",
+      "delta_l2": 4.339135581051234
+    }
+  },
+  "native_parity": {
+    "judgments": [
+      "5533",
+      "5618",
+      "5826",
+      "6120"
+    ],
+    "rows": 1185,
+    "label_disagreements": 0
+  },
+  "labels": "None, Facts, Issue, Arguments of Petitioner, Arguments of Respondent, Reasoning, Decision",
+  "metric": "Exact labeled span requires role and both endpoints on supplied sentence boundaries.",
+  "span_metrics": {
+    "donor-unedited_readout": {
+      "matched": 915,
+      "predicted": 1772,
+      "gold": 3747,
+      "precision": 0.5163656884875847,
+      "recall": 0.24419535628502803,
+      "exact_labeled_span_f1": 0.33158180829860484,
+      "role_boundary_f1": 0.5101395348837209
+    },
+    "donor-legacy_240": {
+      "matched": 937,
+      "predicted": 1846,
+      "gold": 3747,
+      "precision": 0.5075839653304443,
+      "recall": 0.2500667200427008,
+      "exact_labeled_span_f1": 0.33506168424816735,
+      "role_boundary_f1": 0.5178931914112681
+    },
+    "retention-unedited_readout": {
+      "matched": 955,
+      "predicted": 1829,
+      "gold": 3747,
+      "precision": 0.5221432476763258,
+      "recall": 0.2548705631171604,
+      "exact_labeled_span_f1": 0.34253945480631276,
+      "role_boundary_f1": 0.5239322533136966
+    },
+    "retention-legacy_240": {
+      "matched": 978,
+      "predicted": 1902,
+      "gold": 3747,
+      "precision": 0.5141955835962145,
+      "recall": 0.2610088070456365,
+      "exact_labeled_span_f1": 0.3462559745087626,
+      "role_boundary_f1": 0.5293369663941871
+    },
+    "donor-240": {
+      "matched": 921,
+      "predicted": 1821,
+      "gold": 3747,
+      "precision": 0.5057660626029654,
+      "recall": 0.24579663730984788,
+      "exact_labeled_span_f1": 0.3308189655172414,
+      "role_boundary_f1": 0.5103244837758112
+    },
+    "retention-240": {
+      "matched": 932,
+      "predicted": 1846,
+      "gold": 3747,
+      "precision": 0.504875406283857,
+      "recall": 0.24873231918868427,
+      "exact_labeled_span_f1": 0.3332737350259253,
+      "role_boundary_f1": 0.5156909524683428
+    },
+    "donor-240_equal_role_mass": {
+      "matched": 938,
+      "predicted": 2030,
+      "gold": 3747,
+      "precision": 0.46206896551724136,
+      "recall": 0.25033360021350415,
+      "exact_labeled_span_f1": 0.3247360221568288,
+      "role_boundary_f1": 0.5212142730339073
+    },
+    "retention-240_equal_role_mass": {
+      "matched": 956,
+      "predicted": 2042,
+      "gold": 3747,
+      "precision": 0.4681684622918707,
+      "recall": 0.2551374432879637,
+      "exact_labeled_span_f1": 0.33028156849196755,
+      "role_boundary_f1": 0.5271922054915855
+    },
+    "donor-240_lda": {
+      "matched": 613,
+      "predicted": 1361,
+      "gold": 3747,
+      "precision": 0.45040411462160174,
+      "recall": 0.1635975447024286,
+      "exact_labeled_span_f1": 0.24001566170712607,
+      "role_boundary_f1": 0.41740531829170024
+    },
+    "retention-240_lda": {
+      "matched": 619,
+      "predicted": 1381,
+      "gold": 3747,
+      "precision": 0.44822592324402605,
+      "recall": 0.16519882572724848,
+      "exact_labeled_span_f1": 0.24141965678627145,
+      "role_boundary_f1": 0.41974317817014445
+    },
+    "donor-960": {
+      "matched": 943,
+      "predicted": 1867,
+      "gold": 3747,
+      "precision": 0.5050883770755222,
+      "recall": 0.2516680010675207,
+      "exact_labeled_span_f1": 0.3359458496615604,
+      "role_boundary_f1": 0.5217550274223035
+    },
+    "retention-960": {
+      "matched": 995,
+      "predicted": 2032,
+      "gold": 3747,
+      "precision": 0.4896653543307087,
+      "recall": 0.26554576994929274,
+      "exact_labeled_span_f1": 0.34435023360442985,
+      "role_boundary_f1": 0.540550133096717
+    },
+    "donor-960_equal_role_mass": {
+      "matched": 945,
+      "predicted": 2035,
+      "gold": 3747,
+      "precision": 0.4643734643734644,
+      "recall": 0.2522017614091273,
+      "exact_labeled_span_f1": 0.3268765133171913,
+      "role_boundary_f1": 0.5267825470024832
+    },
+    "retention-960_equal_role_mass": {
+      "matched": 959,
+      "predicted": 2065,
+      "gold": 3747,
+      "precision": 0.46440677966101696,
+      "recall": 0.25593808380037364,
+      "exact_labeled_span_f1": 0.330006882312457,
+      "role_boundary_f1": 0.5324629498941426
+    },
+    "donor-960_lda": {
+      "matched": 628,
+      "predicted": 1398,
+      "gold": 3747,
+      "precision": 0.4492131616595136,
+      "recall": 0.16760074726447824,
+      "exact_labeled_span_f1": 0.24412050534499513,
+      "role_boundary_f1": 0.4247150569886023
+    },
+    "retention-960_lda": {
+      "matched": 636,
+      "predicted": 1399,
+      "gold": 3747,
+      "precision": 0.45461043602573264,
+      "recall": 0.16973578863090472,
+      "exact_labeled_span_f1": 0.2471822774970851,
+      "role_boundary_f1": 0.42702918832467013
+    },
+    "donor-2400": {
+      "matched": 990,
+      "predicted": 1999,
+      "gold": 3747,
+      "precision": 0.49524762381190596,
+      "recall": 0.2642113690952762,
+      "exact_labeled_span_f1": 0.3445875391576749,
+      "role_boundary_f1": 0.5355230274901821
+    },
+    "retention-2400": {
+      "matched": 1032,
+      "predicted": 2051,
+      "gold": 3747,
+      "precision": 0.5031691857630424,
+      "recall": 0.2754203362690152,
+      "exact_labeled_span_f1": 0.35598482235253537,
+      "role_boundary_f1": 0.5451008135833039
+    },
+    "donor-2400_equal_role_mass": {
+      "matched": 966,
+      "predicted": 2063,
+      "gold": 3747,
+      "precision": 0.46825012118274356,
+      "recall": 0.2578062449959968,
+      "exact_labeled_span_f1": 0.3325301204819277,
+      "role_boundary_f1": 0.5305330038828098
+    },
+    "retention-2400_equal_role_mass": {
+      "matched": 980,
+      "predicted": 2085,
+      "gold": 3747,
+      "precision": 0.47002398081534774,
+      "recall": 0.26154256738724313,
+      "exact_labeled_span_f1": 0.33607681755829905,
+      "role_boundary_f1": 0.5355133614627285
+    },
+    "donor-2400_lda": {
+      "matched": 625,
+      "predicted": 1387,
+      "gold": 3747,
+      "precision": 0.45061283345349673,
+      "recall": 0.16680010675206833,
+      "exact_labeled_span_f1": 0.24347487339306584,
+      "role_boundary_f1": 0.42324649298597194
+    },
+    "retention-2400_lda": {
+      "matched": 640,
+      "predicted": 1394,
+      "gold": 3747,
+      "precision": 0.45911047345767575,
+      "recall": 0.17080330931411797,
+      "exact_labeled_span_f1": 0.2489787978992414,
+      "role_boundary_f1": 0.4274564738843306
+    },
+    "donor-4792": {
+      "matched": 1015,
+      "predicted": 2034,
+      "gold": 3747,
+      "precision": 0.49901671583087515,
+      "recall": 0.27088337336535895,
+      "exact_labeled_span_f1": 0.35115032001383845,
+      "role_boundary_f1": 0.5428419372006387
+    },
+    "retention-4792": {
+      "matched": 1033,
+      "predicted": 2051,
+      "gold": 3747,
+      "precision": 0.5036567528035105,
+      "recall": 0.2756872164398185,
+      "exact_labeled_span_f1": 0.3563297688858227,
+      "role_boundary_f1": 0.5458082773257871
+    },
+    "donor-4792_equal_role_mass": {
+      "matched": 980,
+      "predicted": 2085,
+      "gold": 3747,
+      "precision": 0.47002398081534774,
+      "recall": 0.26154256738724313,
+      "exact_labeled_span_f1": 0.33607681755829905,
+      "role_boundary_f1": 0.5341068917018285
+    },
+    "retention-4792_equal_role_mass": {
+      "matched": 943,
+      "predicted": 2052,
+      "gold": 3747,
+      "precision": 0.459551656920078,
+      "recall": 0.2516680010675207,
+      "exact_labeled_span_f1": 0.325228487670288,
+      "role_boundary_f1": 0.5248452696728558
+    },
+    "donor-4792_lda": {
+      "matched": 625,
+      "predicted": 1382,
+      "gold": 3747,
+      "precision": 0.45224312590448623,
+      "recall": 0.16680010675206833,
+      "exact_labeled_span_f1": 0.24371222460518618,
+      "role_boundary_f1": 0.42206619859578737
+    },
+    "retention-4792_lda": {
+      "matched": 646,
+      "predicted": 1401,
+      "gold": 3747,
+      "precision": 0.4610992148465382,
+      "recall": 0.17240459033893782,
+      "exact_labeled_span_f1": 0.25097125097125095,
+      "role_boundary_f1": 0.43005595523581136
+    },
+    "donor-4984": {
+      "matched": 1015,
+      "predicted": 2034,
+      "gold": 3747,
+      "precision": 0.49901671583087515,
+      "recall": 0.27088337336535895,
+      "exact_labeled_span_f1": 0.35115032001383845,
+      "role_boundary_f1": 0.5424871385488735
+    },
+    "retention-4984": {
+      "matched": 1034,
+      "predicted": 2052,
+      "gold": 3747,
+      "precision": 0.5038986354775828,
+      "recall": 0.2759540966106218,
+      "exact_labeled_span_f1": 0.3566132091739955,
+      "role_boundary_f1": 0.5460654288240495
+    },
+    "donor-4984_equal_role_mass": {
+      "matched": 977,
+      "predicted": 2093,
+      "gold": 3747,
+      "precision": 0.4667940754897277,
+      "recall": 0.2607419268748332,
+      "exact_labeled_span_f1": 0.33458904109589044,
+      "role_boundary_f1": 0.5330056179775281
+    },
+    "retention-4984_equal_role_mass": {
+      "matched": 943,
+      "predicted": 2053,
+      "gold": 3747,
+      "precision": 0.4593278129566488,
+      "recall": 0.2516680010675207,
+      "exact_labeled_span_f1": 0.32517241379310347,
+      "role_boundary_f1": 0.5254596888260255
+    },
+    "donor-4984_lda": {
+      "matched": 627,
+      "predicted": 1385,
+      "gold": 3747,
+      "precision": 0.4527075812274368,
+      "recall": 0.16733386709367493,
+      "exact_labeled_span_f1": 0.24434918160561184,
+      "role_boundary_f1": 0.4234161988773055
+    },
+    "retention-4984_lda": {
+      "matched": 647,
+      "predicted": 1398,
+      "gold": 3747,
+      "precision": 0.46280400572246067,
+      "recall": 0.17267147050974113,
+      "exact_labeled_span_f1": 0.25150631681243923,
+      "role_boundary_f1": 0.4299140171965607
+    }
+  },
+  "primary_paired_span_f1_ci95": {
+    "retention-legacy_240": [
+      -0.0043222955404749,
+      0.02304892103836943
+    ],
+    "retention-unedited_readout": [
+      -0.0002763059287536728,
+      0.029180492903418554
+    ],
+    "donor-unedited_readout": [
+      0.008895982423465763,
+      0.04227165051527614
+    ]
+  }
+}

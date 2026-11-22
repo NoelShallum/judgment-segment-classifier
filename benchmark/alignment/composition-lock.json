@@ -1,0 +1,8 @@
+{
+  "doc_arm": "doc-semantic",
+  "near_freeze": "2d0f8177ce9d617c7bc20a71c9c7c8aa0e0495c4cfb7a1124d4e80f3e3e3e352",
+  "exact_freeze": "34113d1bbb02c98d3016e55a5d0f1dec7da89b7f6c7a2c464e0ca14c4e819098",
+  "legal_development": "b5426e2058be10b57cff61308c021498fdbb0b168a99f6a5cab3eaac85eb761b",
+  "primary": "Use the frozen doc-semantic model for every row. Use exact training vote if context width >=3, else use preselected near-text aligned vote if eligible, else use matching single-sentence exact vote. Exclude full duplicate judgments from both writes.",
+  "note": "Composition was specified after the old reviewer exact-memory result and earlier historical baseline test audits were known. No official doc-semantic predictions informed the rule. Compare unseen text and report each model separately."
+}

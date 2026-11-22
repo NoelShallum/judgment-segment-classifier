@@ -1,0 +1,43 @@
+{
+  "source_sha256": "60028fc085e3cb018e8d49a8879ba796dd03a0838367891f3312f9e576921794",
+  "cases": 4984,
+  "options": 569004,
+  "gold_role_changes": 7840,
+  "probability": 0.013778462014326788,
+  "counts_by_feature_type": {
+    "type:.": [
+      340504,
+      6276
+    ],
+    "type:cue": [
+      65444,
+      24
+    ],
+    "type:number": [
+      143405,
+      89
+    ],
+    "type:./number": [
+      14081,
+      894
+    ],
+    "type:./cue": [
+      258,
+      15
+    ],
+    "type:?": [
+      5094,
+      489
+    ],
+    "type:?/number": [
+      217,
+      53
+    ],
+    "type:?/cue": [
+      1,
+      0
+    ]
+  },
+  "weights_sha256": "49cd0dd9aeb73ea9f6c98a01161a330d913e0ee8cf8335e8e7328cd5549622e1",
+  "vocab_sha256": "95f9d49586850852d4d587b0456a3cd2f790cf94b1a8051723ed420c5def9710"
+}

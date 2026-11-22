@@ -1,0 +1,19 @@
+{
+  "cases": [
+    {
+      "case": "6723",
+      "rows": 395
+    },
+    {
+      "case": "6884",
+      "rows": 30
+    },
+    {
+      "case": "6993",
+      "rows": 161
+    }
+  ],
+  "freeze_sha256": "1d5ac10866425d6069f920bb14df584a6f86ade1935163f73d7713850b5ddc6b",
+  "weights_sha256": "7bb9f8c4c5f2202b7c6e96c658cd800adde133be3a9eb9930d32100c0c54ee4c",
+  "packed_weights_sha256": "89c484840e6766ebcbf82deecc712bfd72ad30885812f8b5959a26f6456d2829"
+}

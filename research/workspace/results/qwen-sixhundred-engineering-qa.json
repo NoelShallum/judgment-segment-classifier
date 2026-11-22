@@ -1,0 +1,52 @@
+{
+  "purpose": "Engineering check on the same 14 authored cues used to write the associative head.",
+  "readout_sha256": "cb6f574417083e5ccad64123c96835c72091c61f05452550422e70e770b62d93",
+  "readout_bytes": 86464,
+  "head_shapes": {
+    "associative.bias": [
+      7
+    ],
+    "associative.weight": [
+      7,
+      1024
+    ],
+    "bias_control.bias": [
+      7
+    ],
+    "lexicon.weight": [
+      7,
+      1024
+    ],
+    "native.weight": [
+      7,
+      1024
+    ]
+  },
+  "copied_native_rows_byte_equal_to_gguf_dequantization": true,
+  "runtime_vs_copy_max_absolute_logit_difference": 0.09837913513183594,
+  "runtime_vs_copy_top1_matches": 14,
+  "correct_out_of_14_calibration_cues": {
+    "native_runtime": 7,
+    "native_rows": 7,
+    "bias_control": 11,
+    "lexicon": 7,
+    "associative": 14
+  },
+  "seven_native_answer_words_each_tokenize_to_exactly_one_token": true,
+  "lossless_utf8_window_examples_checked": 4,
+  "frozen_public_projection_check": {
+    "units": 10,
+    "top1_matches": 9,
+    "max_abs_logit_delta": 0.152784584625568,
+    "differing_units": [
+      {
+        "case": "6918",
+        "unit": 2,
+        "runtime": "facts",
+        "copy": "reasoning",
+        "max_abs_logit_delta": 0.06713843812679698,
+        "native_top_two_margin": 0.025197982788085938
+      }
+    ]
+  }
+}

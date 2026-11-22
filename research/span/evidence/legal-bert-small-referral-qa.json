@@ -1,0 +1,24 @@
+{
+  "freeze_sha256": "01c758a95a323012e7e6621db5099bda9d1bab778ba226cfaeb8a5ac1c59cdd1",
+  "checked_pooling_inputs": 7,
+  "max_abs_pooling_drift": 1.341104507446289e-06,
+  "paired_small_vs_large": {
+    "macro_f1": [
+      -0.00942196235208243,
+      -0.0009281707179106548
+    ],
+    "accuracy": [
+      -0.005094615581170012,
+      -0.0014892352479542515
+    ],
+    "reasoning": [
+      -0.0056032478442670786,
+      0.0012138301522467208
+    ],
+    "decision": [
+      -0.024164728857776752,
+      -0.002209639658668995
+    ]
+  },
+  "same_confirmation_cases": 72
+}

@@ -1,0 +1,15 @@
+{
+  "sequence_freeze_sha256": "db69792a1b6c079ea6f96dbb739c58176fa7502fc4e2639d3b53bf7676834b3a",
+  "profile": "spans",
+  "supplied": {
+    "case": "6332",
+    "sentences": 44,
+    "label_revisions": 3
+  },
+  "raw": {
+    "case": "6545",
+    "units": 104,
+    "spans": 30,
+    "text_characters": 14210
+  }
+}

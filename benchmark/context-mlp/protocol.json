@@ -1,0 +1,8 @@
+{
+  "model": "The public i-2, i-1, i InLegalBERT checkpoint, keeping the other two release donors unchanged",
+  "edit": "Modify chosen columns of bert.encoder.layer.11.output.dense.weight and its output bias. Map class-centered training residuals to pre-LayerNorm hidden displacements with an analytic local linearization. Select 24 feed-forward neurons per seven role contrasts and three high-priority role pairs, using training labels only.",
+  "cohorts": "192 public train judgments to write tensors, 48 validation for selector, 72 and 96 separate retrospective validation cohorts",
+  "selector": "Maximum mean of all seven-role F1 and lexical-unmatched seven-role F1, with no more pair swaps than incumbent on either selector slice. Zero edit allowed.",
+  "controls": "Native unmodified, norm-matched shuffled writes, per-encoder standalone, replay versus physically installed checkpoint. When zero wins, also physically test the predeclared 0.85-strength context-residual on every validation cohort.",
+  "promotion": "Require a real frozen patch to improve seven-role F1 and reduce total None/Reasoning swaps in each of the 72 and 96 validation cohorts. Then open an official comparison. Only the T4 is used for forward passes."
+}

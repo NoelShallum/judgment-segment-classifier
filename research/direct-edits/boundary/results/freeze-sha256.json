@@ -1,0 +1,15 @@
+{
+  "protocol.json": "774935ce7a811363514d5d1703840aaba8372bd30833168362fb0b50034cc6ac",
+  "analytic-specification.json": "ba3b3f6acaa653518730c02d639ce56dc2ffb729a514d2c7a82b75d7782c4ae5",
+  "collect.py": "cdb3b8211b6a0ae4ae61d0ac2bedefe28a713e9abdf1b4b53113932529f03df6",
+  "score.py": "f3c8b05a87e2e6c0424a91ca010b314d0f597fc01e4710a3eeef70ff85ffab0e",
+  "joint_solver.py": "d57e8c42505359294113ebcacd0a2567c65cad7d5ad7782d9b0dda230edbda44",
+  "verify_edits.py": "dcb42f0535d2d1eb263406a9036454850c1e7cd63105adb99e3303f88b70548b",
+  "classification-sample.json": "f41ff6298d65e55a13b82524dcdabfd5c5ec065b7d05d1e0d85b6f708c9d8ee8",
+  "classifier64.py": "f91ce8a0daffb961991cee072b5f0ca8b51191d0e0e7924fe832eb520db1a458",
+  "results/freeze.json": "220d0cd34d5a73230366fe47e9b83cb42ad2660e3d8e7ce2d2dbd1c53d7363c9",
+  "results/edit-delta.safetensors": "214b0d814e76bf7fa52909b038c471f522734272bd477fb3a8b603d0fc792636",
+  "results/shuffled-delta.safetensors": "228edf0d5a68633d91fea1f3cb8966b5a0b4fc7e94b33880c7a7aa08de7f8e07",
+  "results/edit-replacement.safetensors": "8527157f2f6f3a7614c29f5b80259b7d38cf6c9f8f1e96199a021e35180fe6f1",
+  "results/shuffled-replacement.safetensors": "adff916e55d1a322029e3274b1dabb83d137e53231c8e01769d618ad93f6fe9e"
+}

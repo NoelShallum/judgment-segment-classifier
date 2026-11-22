@@ -1,0 +1,29 @@
+{
+  "cases": 24,
+  "rows": 3946,
+  "independent_reference": "native_memory.fit_head plus original Python path_labels",
+  "checks": [
+    {
+      "class_power": 0,
+      "max_weight_difference": 0.0,
+      "cpp_vs_reference_label_changes": 0
+    },
+    {
+      "class_power": 0.28,
+      "max_weight_difference": 0.0,
+      "cpp_vs_reference_label_changes": 0
+    },
+    {
+      "class_power": 0.6,
+      "max_weight_difference": 0.0,
+      "cpp_vs_reference_label_changes": 0
+    },
+    {
+      "class_power": 1.0,
+      "max_weight_difference": 0.0,
+      "cpp_vs_reference_label_changes": 0
+    }
+  ],
+  "program_sha256": "2d136cda49a1ea691cfa036f28c0f8378c8e8ee6c7f5e76f033e41db4be05515",
+  "decoder_sha256": "eb5c4413c7274a71e0d417558ff7501f585ed3bba1f1273b17a4ff4f5611ba57"
+}

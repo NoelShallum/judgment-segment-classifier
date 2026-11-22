@@ -1,0 +1,54 @@
+{
+  "profile": "internal",
+  "source_url": "https://huggingface.co/L-NLProc/LegalSeg_InLegalBERT/resolve/44d7925e5ab422ecf04acd5dcbb0b62a6f8d8f53/InLegalBERT/InLegalBERT(i)model.safetensors",
+  "source_sha256": "bbe8af20d1524c7535b1cbe68c6d4c3c844c6cc9fccef46c03c9ff56e7c18cea",
+  "target_sha256": "db6d79db77eb09db46b7567a1977a44a761ed3ff40f7472d12be9691a4223453",
+  "head_sha256": "9930d39fe46eec553d750c982932976283e5f55002007a977e57ab1cf4efdff2",
+  "parameters": 109487623,
+  "fp32_checkpoint_bytes": 437974028,
+  "head_scalars": 5383,
+  "replacement_keys": [
+    "classifier.weight",
+    "classifier.bias",
+    "bert.encoder.layer.11.output.dense.weight",
+    "bert.encoder.layer.11.output.dense.bias"
+  ],
+  "labels": [
+    "none",
+    "facts",
+    "issue",
+    "petitioner_argument",
+    "respondent_argument",
+    "reasoning",
+    "decision"
+  ],
+  "sequence": false,
+  "source_edit": {
+    "method": "linearized_margin",
+    "desired_margin": 3.0,
+    "regularization": 0.1,
+    "fraction": 0.5,
+    "parent_sha256": "64ca064fb2faefc250afe73ba88fb86da36a3bafdca5676cb7a8c7f2a8727e75",
+    "target_sha256": "db6d79db77eb09db46b7567a1977a44a761ed3ff40f7472d12be9691a4223453",
+    "programming_keys": 84,
+    "rank_bound": 83,
+    "candidate_count": 36,
+    "tensors": {
+      "bert.encoder.layer.11.output.dense.weight": {
+        "shape": [
+          768,
+          3072
+        ],
+        "changed": 2359279
+      },
+      "bert.encoder.layer.11.output.dense.bias": {
+        "shape": [
+          768
+        ],
+        "changed": 768
+      }
+    },
+    "gradient_steps": 0,
+    "uses_teacher_outputs": false
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "native_backbone": "dmis-lab/UltraBERT-150M",
+  "unchanged_freeze_sha256": "fea51bcd949d01f5f5bff203c7509adb80b70e8b3a9412e176c4136fd1c58ec9",
+  "cases": 16,
+  "rows": 3558,
+  "identical_text_tokens": 120475,
+  "same_human_labels_and_offsets": true,
+  "source_384_archive": "34177521a438c00437a7f976152f1e39c78689a81d6bc4f5c5cbf262d81c91be",
+  "source_2048_archive": "8db1ab8688a7306b672bd85ca23e30fd7b847dcb3dc43b26a3ea1b1798942d0a",
+  "methods": {
+    "edited": {
+      "384_macro_f1": 0.2926668583903811,
+      "2048_macro_f1": 0.3000457096751837,
+      "long_context_minus_short_paired95": [
+        -0.02404497887180521,
+        0.029353603663020204
+      ],
+      "labels_changed": 1229
+    },
+    "matched_head_only": {
+      "384_macro_f1": 0.2744412786398616,
+      "2048_macro_f1": 0.2882466108503311,
+      "long_context_minus_short_paired95": [
+        -0.013910560443136091,
+        0.03324390452669971
+      ],
+      "labels_changed": 1077
+    },
+    "shuffled": {
+      "384_macro_f1": 0.16662217167267926,
+      "2048_macro_f1": 0.162001342116133,
+      "long_context_minus_short_paired95": [
+        -0.02079675300225914,
+        0.012144000982921267
+      ],
+      "labels_changed": 436
+    },
+    "independent_native_head": {
+      "384_macro_f1": 0.3189736741743921,
+      "2048_macro_f1": 0.32205208770615984,
+      "long_context_minus_short_paired95": [
+        -0.019052104122115696,
+        0.025656497854743516
+      ],
+      "labels_changed": 1148
+    },
+    "incumbent": {
+      "384_macro_f1": 0.6988453883363343,
+      "2048_macro_f1": 0.6988453883363343,
+      "long_context_minus_short_paired95": [
+        0.0,
+        0.0
+      ],
+      "labels_changed": 0
+    }
+  },
+  "primary": "Ordered larger inputs. The same classifier and rank-two weight patch were used under both contexts."
+}

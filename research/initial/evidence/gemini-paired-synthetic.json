@@ -1,0 +1,312 @@
+{
+  "source": "168 original fictional passages, 24 per role across 12 scenarios",
+  "gold": "Intended roles fixed by the template author before querying the API",
+  "gemini": {
+    "macro_f1": 0.9940450344271446,
+    "accuracy": 0.9940476190476191,
+    "f1": {
+      "none": 0.9787234042553191,
+      "facts": 0.9795918367346939,
+      "issue": 1.0,
+      "petitioner_argument": 1.0,
+      "respondent_argument": 1.0,
+      "reasoning": 1.0,
+      "decision": 1.0
+    },
+    "precision": {
+      "none": 1.0,
+      "facts": 0.96,
+      "issue": 1.0,
+      "petitioner_argument": 1.0,
+      "respondent_argument": 1.0,
+      "reasoning": 1.0,
+      "decision": 1.0
+    },
+    "recall": {
+      "none": 0.9583333333333334,
+      "facts": 1.0,
+      "issue": 1.0,
+      "petitioner_argument": 1.0,
+      "respondent_argument": 1.0,
+      "reasoning": 1.0,
+      "decision": 1.0
+    },
+    "confusion": [
+      [
+        23,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        24,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        24,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        24,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        24,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        24,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        24
+      ]
+    ]
+  },
+  "models": {
+    "parent": {
+      "metrics": {
+        "macro_f1": 0.39978724471875154,
+        "accuracy": 0.4166666666666667,
+        "f1": {
+          "none": 0.3287671232876712,
+          "facts": 0.15384615384615385,
+          "issue": 0.0,
+          "petitioner_argument": 0.08,
+          "respondent_argument": 0.6666666666666666,
+          "reasoning": 0.8,
+          "decision": 0.7692307692307693
+        },
+        "precision": {
+          "none": 0.19672131147540983,
+          "facts": 1.0,
+          "issue": 0.0,
+          "petitioner_argument": 1.0,
+          "respondent_argument": 1.0,
+          "reasoning": 1.0,
+          "decision": 1.0
+        },
+        "recall": {
+          "none": 1.0,
+          "facts": 0.08333333333333333,
+          "issue": 0.0,
+          "petitioner_argument": 0.041666666666666664,
+          "respondent_argument": 0.5,
+          "reasoning": 0.6666666666666666,
+          "decision": 0.625
+        },
+        "confusion": [
+          [
+            24,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            22,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            24,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            23,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            12,
+            0,
+            0,
+            0,
+            12,
+            0,
+            0
+          ],
+          [
+            8,
+            0,
+            0,
+            0,
+            0,
+            16,
+            0
+          ],
+          [
+            9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            15
+          ]
+        ]
+      },
+      "agrees_with_gemini": 69,
+      "only_model_correct": 1,
+      "only_gemini_correct": 98,
+      "paired_scenario_macro_f1_gain_vs_gemini": [
+        -0.6425843194264247,
+        -0.5374292806553517
+      ]
+    },
+    "direct": {
+      "metrics": {
+        "macro_f1": 0.6688638429239934,
+        "accuracy": 0.6607142857142857,
+        "f1": {
+          "none": 0.5,
+          "facts": 0.7692307692307693,
+          "issue": 0.5454545454545454,
+          "petitioner_argument": 0.4,
+          "respondent_argument": 0.7368421052631579,
+          "reasoning": 0.8214285714285714,
+          "decision": 0.9090909090909091
+        },
+        "precision": {
+          "none": 0.3333333333333333,
+          "facts": 1.0,
+          "issue": 1.0,
+          "petitioner_argument": 1.0,
+          "respondent_argument": 1.0,
+          "reasoning": 0.71875,
+          "decision": 1.0
+        },
+        "recall": {
+          "none": 1.0,
+          "facts": 0.625,
+          "issue": 0.375,
+          "petitioner_argument": 0.25,
+          "respondent_argument": 0.5833333333333334,
+          "reasoning": 0.9583333333333334,
+          "decision": 0.8333333333333334
+        },
+        "confusion": [
+          [
+            24,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            6,
+            15,
+            0,
+            0,
+            0,
+            3,
+            0
+          ],
+          [
+            15,
+            0,
+            9,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            12,
+            0,
+            0,
+            6,
+            0,
+            6,
+            0
+          ],
+          [
+            10,
+            0,
+            0,
+            0,
+            14,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            23,
+            0
+          ],
+          [
+            4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            20
+          ]
+        ]
+      },
+      "agrees_with_gemini": 110,
+      "only_model_correct": 1,
+      "only_gemini_correct": 57,
+      "paired_scenario_macro_f1_gain_vs_gemini": [
+        -0.38922061621956794,
+        -0.27411001924776945
+      ]
+    }
+  }
+}

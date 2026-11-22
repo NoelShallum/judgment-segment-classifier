@@ -1,0 +1,4146 @@
+{
+  "target_sha256": "f1b7494b1240159fc21906bdf361f9ca27039c43bc9a44be440937b4db603ceb",
+  "parent_sha256": "a81f509d250f98b44872e89e10186d5dcc17d37905b69aa1d9a077fb841a62ac",
+  "source_encoder": "b",
+  "changes": {
+    "classifier.weight": {
+      "shape": [
+        7,
+        768
+      ],
+      "changed": 0
+    },
+    "classifier.bias": {
+      "shape": [
+        7
+      ],
+      "changed": 2
+    }
+  },
+  "selected_actual_edit": {
+    "donor": "a_edit",
+    "role_group": "speaker",
+    "part": "bias",
+    "coefficient": 1.0,
+    "backbone": "b",
+    "parent": "b",
+    "accuracy": 0.5826059652034045,
+    "macro_f1": 0.4812714888008518
+  },
+  "top_including_unchanged": {
+    "donor": "a_edit",
+    "role_group": "speaker",
+    "part": "bias",
+    "coefficient": 1.0,
+    "backbone": "b",
+    "parent": "b",
+    "accuracy": 0.5826059652034045,
+    "macro_f1": 0.4812714888008518
+  },
+  "number_of_variants": 388,
+  "selection_cases": {
+    "population": 196456,
+    "population_by_role": {
+      "0": 82850,
+      "2": 2857,
+      "1": 34949,
+      "3": 15552,
+      "4": 10807,
+      "5": 44697,
+      "6": 4744
+    },
+    "eligible_documents": 945,
+    "sample_documents": 601,
+    "sample": 1120
+  },
+  "confirmation_cases": {
+    "population": 96914,
+    "population_by_role": {
+      "0": 38862,
+      "2": 1402,
+      "1": 16975,
+      "5": 22416,
+      "3": 9155,
+      "4": 5214,
+      "6": 2890
+    },
+    "eligible_documents": 479,
+    "sample_documents": 371,
+    "sample": 1120
+  },
+  "confirmation_parent": {
+    "macro_f1": 0.49680943884368495,
+    "accuracy": 0.569872967269951,
+    "f1": {
+      "none": 0.6730368400442832,
+      "facts": 0.560458727399205,
+      "issue": 0.4215462367655055,
+      "petitioner_argument": 0.36783703473371054,
+      "respondent_argument": 0.3653398191285285,
+      "reasoning": 0.4297120854812445,
+      "decision": 0.6597353283533174
+    },
+    "precision": {
+      "none": 0.5713529926965359,
+      "facts": 0.5782268844325383,
+      "issue": 0.7461669120144943,
+      "petitioner_argument": 0.5104828816772611,
+      "respondent_argument": 0.5211591086786553,
+      "reasoning": 0.5564408241715866,
+      "decision": 0.6909129642341468
+    },
+    "recall": {
+      "none": 0.8187500000000005,
+      "facts": 0.54375,
+      "issue": 0.29374999999999996,
+      "petitioner_argument": 0.2875,
+      "respondent_argument": 0.2812500000000001,
+      "reasoning": 0.3499999999999999,
+      "decision": 0.63125
+    },
+    "confusion": [
+      [
+        31818.262500000066,
+        3643.312499999999,
+        0.0,
+        485.775,
+        242.8875,
+        2428.875,
+        242.8875
+      ],
+      [
+        5304.6875,
+        9230.15625,
+        0.0,
+        212.1875,
+        106.09375,
+        1697.5,
+        424.375
+      ],
+      [
+        411.8374999999997,
+        490.6999999999996,
+        411.8374999999997,
+        17.525,
+        0.0,
+        61.337500000000006,
+        8.7625
+      ],
+      [
+        4234.1875,
+        514.96875,
+        0.0,
+        2632.0625,
+        858.28125,
+        915.5,
+        0.0
+      ],
+      [
+        1433.8500000000006,
+        325.87499999999994,
+        0.0,
+        1107.9749999999997,
+        1466.4375000000007,
+        879.8624999999996,
+        0.0
+      ],
+      [
+        11908.500000000018,
+        1541.0999999999997,
+        140.1,
+        700.5,
+        140.1,
+        7845.600000000008,
+        140.1
+      ],
+      [
+        578.0,
+        216.75,
+        0.0,
+        0.0,
+        0.0,
+        270.9375,
+        1824.3125
+      ]
+    ]
+  },
+  "confirmation": {
+    "macro_f1": 0.49118924958999355,
+    "accuracy": 0.5677733609179275,
+    "f1": {
+      "none": 0.6707687264408807,
+      "facts": 0.5594868022942056,
+      "issue": 0.4215462367655055,
+      "petitioner_argument": 0.37264646672847346,
+      "respondent_argument": 0.32595759060572776,
+      "reasoning": 0.42818359594184496,
+      "decision": 0.6597353283533174
+    },
+    "precision": {
+      "none": 0.5680915780779131,
+      "facts": 0.576161637756987,
+      "issue": 0.7461669120144943,
+      "petitioner_argument": 0.5094861505635566,
+      "respondent_argument": 0.5520460138499399,
+      "reasoning": 0.5513436876590506,
+      "decision": 0.6909129642341468
+    },
+    "recall": {
+      "none": 0.8187500000000005,
+      "facts": 0.54375,
+      "issue": 0.29374999999999996,
+      "petitioner_argument": 0.29375,
+      "respondent_argument": 0.23124999999999998,
+      "reasoning": 0.3499999999999999,
+      "decision": 0.63125
+    },
+    "confusion": [
+      [
+        31818.262500000066,
+        3643.312499999999,
+        0.0,
+        485.775,
+        242.8875,
+        2428.875,
+        242.8875
+      ],
+      [
+        5304.6875,
+        9230.15625,
+        0.0,
+        212.1875,
+        106.09375,
+        1697.5,
+        424.375
+      ],
+      [
+        411.8374999999997,
+        490.6999999999996,
+        411.8374999999997,
+        17.525,
+        0.0,
+        61.337500000000006,
+        8.7625
+      ],
+      [
+        4348.625,
+        572.1875,
+        0.0,
+        2689.28125,
+        629.40625,
+        915.5,
+        0.0
+      ],
+      [
+        1499.0250000000008,
+        325.87499999999994,
+        0.0,
+        1173.1499999999999,
+        1205.7375,
+        1010.2124999999995,
+        0.0
+      ],
+      [
+        12048.600000000019,
+        1541.0999999999997,
+        140.1,
+        700.5,
+        0.0,
+        7845.600000000008,
+        140.1
+      ],
+      [
+        578.0,
+        216.75,
+        0.0,
+        0.0,
+        0.0,
+        270.9375,
+        1824.3125
+      ]
+    ]
+  },
+  "variants": [
+    {
+      "donor": "a",
+      "role_group": "all",
+      "part": "control",
+      "coefficient": 0,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5312155775339005,
+      "macro_f1": 0.41528064450131985
+    },
+    {
+      "donor": "b",
+      "role_group": "all",
+      "part": "bias",
+      "coefficient": 0.25,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5312155775339005,
+      "macro_f1": 0.41528064450131985
+    },
+    {
+      "donor": "b",
+      "role_group": "all",
+      "part": "bias",
+      "coefficient": 0.5,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5312155775339005,
+      "macro_f1": 0.41528064450131985
+    },
+    {
+      "donor": "b",
+      "role_group": "all",
+      "part": "bias",
+      "coefficient": 0.75,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5312155775339005,
+      "macro_f1": 0.41528064450131985
+    },
+    {
+      "donor": "b",
+      "role_group": "all",
+      "part": "bias",
+      "coefficient": 1.0,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5312155775339005,
+      "macro_f1": 0.41528064450131985
+    },
+    {
+      "donor": "b",
+      "role_group": "all",
+      "part": "rows",
+      "coefficient": 0.25,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5302803490348982,
+      "macro_f1": 0.4142936093823669
+    },
+    {
+      "donor": "b",
+      "role_group": "all",
+      "part": "rows",
+      "coefficient": 0.5,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5154155065256341,
+      "macro_f1": 0.39915729207359185
+    },
+    {
+      "donor": "b",
+      "role_group": "all",
+      "part": "rows",
+      "coefficient": 0.75,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.46158366886223867,
+      "macro_f1": 0.31174302865614184
+    },
+    {
+      "donor": "b",
+      "role_group": "all",
+      "part": "rows",
+      "coefficient": 1.0,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.10027646139593598,
+      "macro_f1": 0.07512956951948034
+    },
+    {
+      "donor": "b",
+      "role_group": "all",
+      "part": "rows_and_bias",
+      "coefficient": 0.25,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5302803490348982,
+      "macro_f1": 0.4142936093823669
+    },
+    {
+      "donor": "b",
+      "role_group": "all",
+      "part": "rows_and_bias",
+      "coefficient": 0.5,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5154155065256341,
+      "macro_f1": 0.39915729207359185
+    },
+    {
+      "donor": "b",
+      "role_group": "all",
+      "part": "rows_and_bias",
+      "coefficient": 0.75,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.46158366886223867,
+      "macro_f1": 0.31174302865614184
+    },
+    {
+      "donor": "b",
+      "role_group": "all",
+      "part": "rows_and_bias",
+      "coefficient": 1.0,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.10027646139593598,
+      "macro_f1": 0.07512956951948034
+    },
+    {
+      "donor": "b",
+      "role_group": "speaker",
+      "part": "bias",
+      "coefficient": 0.25,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5312155775339005,
+      "macro_f1": 0.41528064450131985
+    },
+    {
+      "donor": "b",
+      "role_group": "speaker",
+      "part": "bias",
+      "coefficient": 0.5,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5312155775339005,
+      "macro_f1": 0.41528064450131985
+    },
+    {
+      "donor": "b",
+      "role_group": "speaker",
+      "part": "bias",
+      "coefficient": 0.75,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5312155775339005,
+      "macro_f1": 0.41528064450131985
+    },
+    {
+      "donor": "b",
+      "role_group": "speaker",
+      "part": "bias",
+      "coefficient": 1.0,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5312155775339005,
+      "macro_f1": 0.41528064450131985
+    },
+    {
+      "donor": "b",
+      "role_group": "speaker",
+      "part": "rows",
+      "coefficient": 0.25,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5304265013539925,
+      "macro_f1": 0.41010426548604173
+    },
+    {
+      "donor": "b",
+      "role_group": "speaker",
+      "part": "rows",
+      "coefficient": 0.5,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5345388089444963,
+      "macro_f1": 0.40968896687777207
+    },
+    {
+      "donor": "b",
+      "role_group": "speaker",
+      "part": "rows",
+      "coefficient": 0.75,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5258774229343972,
+      "macro_f1": 0.3827705679890422
+    },
+    {
+      "donor": "b",
+      "role_group": "speaker",
+      "part": "rows",
+      "coefficient": 1.0,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5158926171763649,
+      "macro_f1": 0.3329739753521269
+    },
+    {
+      "donor": "b",
+      "role_group": "speaker",
+      "part": "rows_and_bias",
+      "coefficient": 0.25,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5304265013539925,
+      "macro_f1": 0.41010426548604173
+    },
+    {
+      "donor": "b",
+      "role_group": "speaker",
+      "part": "rows_and_bias",
+      "coefficient": 0.5,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5345388089444963,
+      "macro_f1": 0.40968896687777207
+    },
+    {
+      "donor": "b",
+      "role_group": "speaker",
+      "part": "rows_and_bias",
+      "coefficient": 0.75,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5258774229343972,
+      "macro_f1": 0.3827705679890422
+    },
+    {
+      "donor": "b",
+      "role_group": "speaker",
+      "part": "rows_and_bias",
+      "coefficient": 1.0,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5158926171763649,
+      "macro_f1": 0.3329739753521269
+    },
+    {
+      "donor": "b",
+      "role_group": "narrative",
+      "part": "bias",
+      "coefficient": 0.25,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5312155775339005,
+      "macro_f1": 0.41528064450131985
+    },
+    {
+      "donor": "b",
+      "role_group": "narrative",
+      "part": "bias",
+      "coefficient": 0.5,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5312155775339005,
+      "macro_f1": 0.41528064450131985
+    },
+    {
+      "donor": "b",
+      "role_group": "narrative",
+      "part": "bias",
+      "coefficient": 0.75,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5312155775339005,
+      "macro_f1": 0.41528064450131985
+    },
+    {
+      "donor": "b",
+      "role_group": "narrative",
+      "part": "bias",
+      "coefficient": 1.0,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5312155775339005,
+      "macro_f1": 0.41528064450131985
+    },
+    {
+      "donor": "b",
+      "role_group": "narrative",
+      "part": "rows",
+      "coefficient": 0.25,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5279310634442318,
+      "macro_f1": 0.4215307740338157
+    },
+    {
+      "donor": "b",
+      "role_group": "narrative",
+      "part": "rows",
+      "coefficient": 0.5,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5210966450502912,
+      "macro_f1": 0.43497647246643706
+    },
+    {
+      "donor": "b",
+      "role_group": "narrative",
+      "part": "rows",
+      "coefficient": 0.75,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.4827457229608666,
+      "macro_f1": 0.4341537265937837
+    },
+    {
+      "donor": "b",
+      "role_group": "narrative",
+      "part": "rows",
+      "coefficient": 1.0,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.3114569865516963,
+      "macro_f1": 0.29648765501615815
+    },
+    {
+      "donor": "b",
+      "role_group": "narrative",
+      "part": "rows_and_bias",
+      "coefficient": 0.25,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5279310634442318,
+      "macro_f1": 0.4215307740338157
+    },
+    {
+      "donor": "b",
+      "role_group": "narrative",
+      "part": "rows_and_bias",
+      "coefficient": 0.5,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5210966450502912,
+      "macro_f1": 0.43484246995734716
+    },
+    {
+      "donor": "b",
+      "role_group": "narrative",
+      "part": "rows_and_bias",
+      "coefficient": 0.75,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.48416770167365725,
+      "macro_f1": 0.4348827294696651
+    },
+    {
+      "donor": "b",
+      "role_group": "narrative",
+      "part": "rows_and_bias",
+      "coefficient": 1.0,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.3114569865516963,
+      "macro_f1": 0.29648765501615815
+    },
+    {
+      "donor": "b",
+      "role_group": "discourse",
+      "part": "bias",
+      "coefficient": 0.25,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5312155775339005,
+      "macro_f1": 0.41528064450131985
+    },
+    {
+      "donor": "b",
+      "role_group": "discourse",
+      "part": "bias",
+      "coefficient": 0.5,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5312155775339005,
+      "macro_f1": 0.41528064450131985
+    },
+    {
+      "donor": "b",
+      "role_group": "discourse",
+      "part": "bias",
+      "coefficient": 0.75,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5312155775339005,
+      "macro_f1": 0.41528064450131985
+    },
+    {
+      "donor": "b",
+      "role_group": "discourse",
+      "part": "bias",
+      "coefficient": 1.0,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5312155775339005,
+      "macro_f1": 0.41528064450131985
+    },
+    {
+      "donor": "b",
+      "role_group": "discourse",
+      "part": "rows",
+      "coefficient": 0.25,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5238132520768009,
+      "macro_f1": 0.3880181297116894
+    },
+    {
+      "donor": "b",
+      "role_group": "discourse",
+      "part": "rows",
+      "coefficient": 0.5,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5075472052266154,
+      "macro_f1": 0.3373758971899868
+    },
+    {
+      "donor": "b",
+      "role_group": "discourse",
+      "part": "rows",
+      "coefficient": 0.75,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.498469440994421,
+      "macro_f1": 0.2740849849090712
+    },
+    {
+      "donor": "b",
+      "role_group": "discourse",
+      "part": "rows",
+      "coefficient": 1.0,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.49137784033065923,
+      "macro_f1": 0.24909676287180976
+    },
+    {
+      "donor": "b",
+      "role_group": "discourse",
+      "part": "rows_and_bias",
+      "coefficient": 0.25,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.52239127336401,
+      "macro_f1": 0.38659459351979425
+    },
+    {
+      "donor": "b",
+      "role_group": "discourse",
+      "part": "rows_and_bias",
+      "coefficient": 0.5,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5075472052266154,
+      "macro_f1": 0.3373758971899868
+    },
+    {
+      "donor": "b",
+      "role_group": "discourse",
+      "part": "rows_and_bias",
+      "coefficient": 0.75,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.498469440994421,
+      "macro_f1": 0.2740849849090712
+    },
+    {
+      "donor": "b",
+      "role_group": "discourse",
+      "part": "rows_and_bias",
+      "coefficient": 1.0,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.49137784033065923,
+      "macro_f1": 0.24909676287180976
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "all",
+      "part": "bias",
+      "coefficient": 0.25,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5266591819542288,
+      "macro_f1": 0.39699237776535085
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "all",
+      "part": "bias",
+      "coefficient": 0.5,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5186469552978782,
+      "macro_f1": 0.3805506064466969
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "all",
+      "part": "bias",
+      "coefficient": 0.75,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5072673715742964,
+      "macro_f1": 0.35090126580980757
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "all",
+      "part": "bias",
+      "coefficient": 1.0,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5030365896180314,
+      "macro_f1": 0.33591643353853906
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "all",
+      "part": "rows",
+      "coefficient": 0.25,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.531455262247017,
+      "macro_f1": 0.41625280670170894
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "all",
+      "part": "rows",
+      "coefficient": 0.5,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5238933908865087,
+      "macro_f1": 0.40094860787564796
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "all",
+      "part": "rows",
+      "coefficient": 0.75,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.4642030849146883,
+      "macro_f1": 0.3170082407229251
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "all",
+      "part": "rows",
+      "coefficient": 1.0,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.06853808868143502,
+      "macro_f1": 0.0603966078643714
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "all",
+      "part": "rows_and_bias",
+      "coefficient": 0.25,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5208958685405383,
+      "macro_f1": 0.3973434191706744
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "all",
+      "part": "rows_and_bias",
+      "coefficient": 0.5,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.4976698662804902,
+      "macro_f1": 0.3314232396993946
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "all",
+      "part": "rows_and_bias",
+      "coefficient": 0.75,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.43930199383067936,
+      "macro_f1": 0.17262477911353194
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "all",
+      "part": "rows_and_bias",
+      "coefficient": 1.0,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.3225780200146596,
+      "macro_f1": 0.09293478860988998
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "speaker",
+      "part": "bias",
+      "coefficient": 0.25,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5312155775339005,
+      "macro_f1": 0.4153643856921955
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "speaker",
+      "part": "bias",
+      "coefficient": 0.5,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.532327435914403,
+      "macro_f1": 0.4169159748621586
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "speaker",
+      "part": "bias",
+      "coefficient": 0.75,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5319836248320233,
+      "macro_f1": 0.4161000257793935
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "speaker",
+      "part": "bias",
+      "coefficient": 1.0,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5319836248320233,
+      "macro_f1": 0.4161000257793935
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "speaker",
+      "part": "rows",
+      "coefficient": 0.25,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5304265013539925,
+      "macro_f1": 0.4099332233873932
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "speaker",
+      "part": "rows",
+      "coefficient": 0.5,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5345388089444962,
+      "macro_f1": 0.40890667052843227
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "speaker",
+      "part": "rows",
+      "coefficient": 0.75,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5277369360060264,
+      "macro_f1": 0.38369039765287727
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "speaker",
+      "part": "rows",
+      "coefficient": 1.0,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5144706384635742,
+      "macro_f1": 0.3318748817326974
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "speaker",
+      "part": "rows_and_bias",
+      "coefficient": 0.25,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5304265013539925,
+      "macro_f1": 0.41010426548604173
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "speaker",
+      "part": "rows_and_bias",
+      "coefficient": 0.5,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5345388089444962,
+      "macro_f1": 0.409619872469171
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "speaker",
+      "part": "rows_and_bias",
+      "coefficient": 0.75,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5272421687298935,
+      "macro_f1": 0.3822185847329811
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "speaker",
+      "part": "rows_and_bias",
+      "coefficient": 1.0,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5144706384635742,
+      "macro_f1": 0.3318485199529463
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "narrative",
+      "part": "bias",
+      "coefficient": 0.25,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5272937388015636,
+      "macro_f1": 0.40173664920137864
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "narrative",
+      "part": "bias",
+      "coefficient": 0.5,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5179167981634563,
+      "macro_f1": 0.38163407429207
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "narrative",
+      "part": "bias",
+      "coefficient": 0.75,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5103022750641364,
+      "macro_f1": 0.3643124487479425
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "narrative",
+      "part": "bias",
+      "coefficient": 1.0,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5036711464653661,
+      "macro_f1": 0.3388261308985811
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "narrative",
+      "part": "rows",
+      "coefficient": 0.25,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5303088223317179,
+      "macro_f1": 0.42523356086037384
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "narrative",
+      "part": "rows",
+      "coefficient": 0.5,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5197072117929714,
+      "macro_f1": 0.43360727686149936
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "narrative",
+      "part": "rows",
+      "coefficient": 0.75,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.4917056809158286,
+      "macro_f1": 0.44243259084481396
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "narrative",
+      "part": "rows",
+      "coefficient": 1.0,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.32694502840330686,
+      "macro_f1": 0.29667200490432055
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "narrative",
+      "part": "rows_and_bias",
+      "coefficient": 0.25,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5240401158529134,
+      "macro_f1": 0.4174034465668849
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "narrative",
+      "part": "rows_and_bias",
+      "coefficient": 0.5,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5273616929490572,
+      "macro_f1": 0.41639202567148687
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "narrative",
+      "part": "rows_and_bias",
+      "coefficient": 0.75,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.46757585031762805,
+      "macro_f1": 0.3737933239595435
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "narrative",
+      "part": "rows_and_bias",
+      "coefficient": 1.0,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.4526706043592456,
+      "macro_f1": 0.3789211968453722
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "discourse",
+      "part": "bias",
+      "coefficient": 0.25,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.530913728773873,
+      "macro_f1": 0.41366779751159355
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "discourse",
+      "part": "bias",
+      "coefficient": 0.5,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5308228369202264,
+      "macro_f1": 0.41252295541362954
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "discourse",
+      "part": "bias",
+      "coefficient": 0.75,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5331567564747322,
+      "macro_f1": 0.4117117260537674
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "discourse",
+      "part": "bias",
+      "coefficient": 1.0,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5297691340554627,
+      "macro_f1": 0.4049760176802918
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "discourse",
+      "part": "rows",
+      "coefficient": 0.25,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.523873284603168,
+      "macro_f1": 0.38767482103290235
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "discourse",
+      "part": "rows",
+      "coefficient": 0.5,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5064270752738526,
+      "macro_f1": 0.33663944604001433
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "discourse",
+      "part": "rows",
+      "coefficient": 0.75,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.49686567857433717,
+      "macro_f1": 0.26908706034732244
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "discourse",
+      "part": "rows",
+      "coefficient": 1.0,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.4880654574052205,
+      "macro_f1": 0.24686190087116477
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "discourse",
+      "part": "rows_and_bias",
+      "coefficient": 0.25,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5233896521358471,
+      "macro_f1": 0.3832362868530818
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "discourse",
+      "part": "rows_and_bias",
+      "coefficient": 0.5,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.5056724533737833,
+      "macro_f1": 0.33201828291882174
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "discourse",
+      "part": "rows_and_bias",
+      "coefficient": 0.75,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.4965021111597507,
+      "macro_f1": 0.26247456722895357
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "discourse",
+      "part": "rows_and_bias",
+      "coefficient": 1.0,
+      "backbone": "a",
+      "parent": "a",
+      "accuracy": 0.48986496976422195,
+      "macro_f1": 0.24546001805757792
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "all",
+      "part": "control",
+      "coefficient": 0,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.5225346897015108,
+      "macro_f1": 0.4444807784007235
+    },
+    {
+      "donor": "b",
+      "role_group": "all",
+      "part": "bias",
+      "coefficient": 0.25,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.5317021368652524,
+      "macro_f1": 0.4433396045845043
+    },
+    {
+      "donor": "b",
+      "role_group": "all",
+      "part": "bias",
+      "coefficient": 0.5,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.5372961375575194,
+      "macro_f1": 0.4428916529524513
+    },
+    {
+      "donor": "b",
+      "role_group": "all",
+      "part": "bias",
+      "coefficient": 0.75,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.5377655810970396,
+      "macro_f1": 0.4412364222086519
+    },
+    {
+      "donor": "b",
+      "role_group": "all",
+      "part": "bias",
+      "coefficient": 1.0,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.5371066231115366,
+      "macro_f1": 0.43021010206783344
+    },
+    {
+      "donor": "b",
+      "role_group": "all",
+      "part": "rows",
+      "coefficient": 0.25,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.5193058496559027,
+      "macro_f1": 0.44215408186042954
+    },
+    {
+      "donor": "b",
+      "role_group": "all",
+      "part": "rows",
+      "coefficient": 0.5,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.4565975014761576,
+      "macro_f1": 0.3907850276454276
+    },
+    {
+      "donor": "b",
+      "role_group": "all",
+      "part": "rows",
+      "coefficient": 0.75,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.1161486859653052,
+      "macro_f1": 0.1287907742449888
+    },
+    {
+      "donor": "b",
+      "role_group": "all",
+      "part": "rows",
+      "coefficient": 1.0,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.021594371004194347,
+      "macro_f1": 0.027516679370106777
+    },
+    {
+      "donor": "b",
+      "role_group": "all",
+      "part": "rows_and_bias",
+      "coefficient": 0.25,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.5271885307651587,
+      "macro_f1": 0.4485104843602801
+    },
+    {
+      "donor": "b",
+      "role_group": "all",
+      "part": "rows_and_bias",
+      "coefficient": 0.5,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.5372457445942095,
+      "macro_f1": 0.4517644642280242
+    },
+    {
+      "donor": "b",
+      "role_group": "all",
+      "part": "rows_and_bias",
+      "coefficient": 0.75,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.4800068463167326,
+      "macro_f1": 0.3973031643489623
+    },
+    {
+      "donor": "b",
+      "role_group": "all",
+      "part": "rows_and_bias",
+      "coefficient": 1.0,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.10027646139593598,
+      "macro_f1": 0.07512956951948034
+    },
+    {
+      "donor": "b",
+      "role_group": "speaker",
+      "part": "bias",
+      "coefficient": 0.25,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.5230294569776439,
+      "macro_f1": 0.44406448316130265
+    },
+    {
+      "donor": "b",
+      "role_group": "speaker",
+      "part": "bias",
+      "coefficient": 0.5,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.5232223436800099,
+      "macro_f1": 0.44398258056930917
+    },
+    {
+      "donor": "b",
+      "role_group": "speaker",
+      "part": "bias",
+      "coefficient": 0.75,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.5232223436800099,
+      "macro_f1": 0.4452553247883155
+    },
+    {
+      "donor": "b",
+      "role_group": "speaker",
+      "part": "bias",
+      "coefficient": 1.0,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.5237171109561429,
+      "macro_f1": 0.44605775006836446
+    },
+    {
+      "donor": "b",
+      "role_group": "speaker",
+      "part": "rows",
+      "coefficient": 0.25,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.5318005049476728,
+      "macro_f1": 0.449925957691502
+    },
+    {
+      "donor": "b",
+      "role_group": "speaker",
+      "part": "rows",
+      "coefficient": 0.5,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.5375457799710878,
+      "macro_f1": 0.4489400549558525
+    },
+    {
+      "donor": "b",
+      "role_group": "speaker",
+      "part": "rows",
+      "coefficient": 0.75,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.5335459657633262,
+      "macro_f1": 0.4243441033279374
+    },
+    {
+      "donor": "b",
+      "role_group": "speaker",
+      "part": "rows",
+      "coefficient": 1.0,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.517503919452702,
+      "macro_f1": 0.3649732166234843
+    },
+    {
+      "donor": "b",
+      "role_group": "speaker",
+      "part": "rows_and_bias",
+      "coefficient": 0.25,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.5321443160300526,
+      "macro_f1": 0.45038096255648263
+    },
+    {
+      "donor": "b",
+      "role_group": "speaker",
+      "part": "rows_and_bias",
+      "coefficient": 0.5,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.5339932987539195,
+      "macro_f1": 0.45095109467349614
+    },
+    {
+      "donor": "b",
+      "role_group": "speaker",
+      "part": "rows_and_bias",
+      "coefficient": 0.75,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.5342335879280857,
+      "macro_f1": 0.4263875112926282
+    },
+    {
+      "donor": "b",
+      "role_group": "speaker",
+      "part": "rows_and_bias",
+      "coefficient": 1.0,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.5178477305350818,
+      "macro_f1": 0.3670219283419292
+    },
+    {
+      "donor": "b",
+      "role_group": "narrative",
+      "part": "bias",
+      "coefficient": 0.25,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.5333929098627683,
+      "macro_f1": 0.4435305250052365
+    },
+    {
+      "donor": "b",
+      "role_group": "narrative",
+      "part": "bias",
+      "coefficient": 0.5,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.5335327312477094,
+      "macro_f1": 0.44125946451040426
+    },
+    {
+      "donor": "b",
+      "role_group": "narrative",
+      "part": "bias",
+      "coefficient": 0.75,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.53577152772122,
+      "macro_f1": 0.4357926991115488
+    },
+    {
+      "donor": "b",
+      "role_group": "narrative",
+      "part": "bias",
+      "coefficient": 1.0,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.538386585291363,
+      "macro_f1": 0.4259323052673746
+    },
+    {
+      "donor": "b",
+      "role_group": "narrative",
+      "part": "rows",
+      "coefficient": 0.25,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.5004206730769232,
+      "macro_f1": 0.4386603285007529
+    },
+    {
+      "donor": "b",
+      "role_group": "narrative",
+      "part": "rows",
+      "coefficient": 0.5,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.37786202762959653,
+      "macro_f1": 0.36337866395460505
+    },
+    {
+      "donor": "b",
+      "role_group": "narrative",
+      "part": "rows",
+      "coefficient": 0.75,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.25502100343079387,
+      "macro_f1": 0.2665504226300909
+    },
+    {
+      "donor": "b",
+      "role_group": "narrative",
+      "part": "rows",
+      "coefficient": 1.0,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.229004777151118,
+      "macro_f1": 0.22700395603832835
+    },
+    {
+      "donor": "b",
+      "role_group": "narrative",
+      "part": "rows_and_bias",
+      "coefficient": 0.25,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.5212553001689947,
+      "macro_f1": 0.4481693916151278
+    },
+    {
+      "donor": "b",
+      "role_group": "narrative",
+      "part": "rows_and_bias",
+      "coefficient": 0.5,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.4814167994360062,
+      "macro_f1": 0.4285843206684849
+    },
+    {
+      "donor": "b",
+      "role_group": "narrative",
+      "part": "rows_and_bias",
+      "coefficient": 0.75,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.3845103992751559,
+      "macro_f1": 0.36645523708619404
+    },
+    {
+      "donor": "b",
+      "role_group": "narrative",
+      "part": "rows_and_bias",
+      "coefficient": 1.0,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.27565167263916623,
+      "macro_f1": 0.27359401717559273
+    },
+    {
+      "donor": "b",
+      "role_group": "discourse",
+      "part": "bias",
+      "coefficient": 0.25,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.5237851923585944,
+      "macro_f1": 0.44272469550910376
+    },
+    {
+      "donor": "b",
+      "role_group": "discourse",
+      "part": "bias",
+      "coefficient": 0.5,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.5291109714134464,
+      "macro_f1": 0.44609229263102773
+    },
+    {
+      "donor": "b",
+      "role_group": "discourse",
+      "part": "bias",
+      "coefficient": 0.75,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.5193808028260782,
+      "macro_f1": 0.4385798795387134
+    },
+    {
+      "donor": "b",
+      "role_group": "discourse",
+      "part": "bias",
+      "coefficient": 1.0,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.5054572334263144,
+      "macro_f1": 0.43102967586498236
+    },
+    {
+      "donor": "b",
+      "role_group": "discourse",
+      "part": "rows",
+      "coefficient": 0.25,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.512201968888708,
+      "macro_f1": 0.42116727256861
+    },
+    {
+      "donor": "b",
+      "role_group": "discourse",
+      "part": "rows",
+      "coefficient": 0.5,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.48908811006026787,
+      "macro_f1": 0.3882867975350006
+    },
+    {
+      "donor": "b",
+      "role_group": "discourse",
+      "part": "rows",
+      "coefficient": 0.75,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.4510183896139593,
+      "macro_f1": 0.28915725428016054
+    },
+    {
+      "donor": "b",
+      "role_group": "discourse",
+      "part": "rows",
+      "coefficient": 1.0,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.4301018103290304,
+      "macro_f1": 0.2439218906956024
+    },
+    {
+      "donor": "b",
+      "role_group": "discourse",
+      "part": "rows_and_bias",
+      "coefficient": 0.25,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.5217733232886753,
+      "macro_f1": 0.42913153838588247
+    },
+    {
+      "donor": "b",
+      "role_group": "discourse",
+      "part": "rows_and_bias",
+      "coefficient": 0.5,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.5107193850022398,
+      "macro_f1": 0.4026477387071914
+    },
+    {
+      "donor": "b",
+      "role_group": "discourse",
+      "part": "rows_and_bias",
+      "coefficient": 0.75,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.4967416049904304,
+      "macro_f1": 0.3630178550612094
+    },
+    {
+      "donor": "b",
+      "role_group": "discourse",
+      "part": "rows_and_bias",
+      "coefficient": 1.0,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.45435021073421017,
+      "macro_f1": 0.26584439617536826
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "all",
+      "part": "bias",
+      "coefficient": 0.25,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.5394089198090158,
+      "macro_f1": 0.4451845714411565
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "all",
+      "part": "bias",
+      "coefficient": 0.5,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.5395183908865089,
+      "macro_f1": 0.43856897990472055
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "all",
+      "part": "bias",
+      "coefficient": 0.75,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.5389769528545832,
+      "macro_f1": 0.41708059271998493
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "all",
+      "part": "bias",
+      "coefficient": 1.0,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.5283575266217372,
+      "macro_f1": 0.3837580190051696
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "all",
+      "part": "rows",
+      "coefficient": 0.25,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.521017524280246,
+      "macro_f1": 0.44412470528955417
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "all",
+      "part": "rows",
+      "coefficient": 0.5,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.4480591391965631,
+      "macro_f1": 0.3789109476948877
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "all",
+      "part": "rows",
+      "coefficient": 0.75,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.0928646872582156,
+      "macro_f1": 0.10967500816756827
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "all",
+      "part": "rows",
+      "coefficient": 1.0,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.01885189940750093,
+      "macro_f1": 0.024328993897171112
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "all",
+      "part": "rows_and_bias",
+      "coefficient": 0.25,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.5349663856028831,
+      "macro_f1": 0.4461314225194851
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "all",
+      "part": "rows_and_bias",
+      "coefficient": 0.5,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.5279778296412428,
+      "macro_f1": 0.4336287772660396
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "all",
+      "part": "rows_and_bias",
+      "coefficient": 0.75,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.4857880072382617,
+      "macro_f1": 0.32533521128641707
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "all",
+      "part": "rows_and_bias",
+      "coefficient": 1.0,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.3225780200146596,
+      "macro_f1": 0.09293478860988998
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "speaker",
+      "part": "bias",
+      "coefficient": 0.25,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.5230294569776439,
+      "macro_f1": 0.44424484231277256
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "speaker",
+      "part": "bias",
+      "coefficient": 0.5,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.5232223436800099,
+      "macro_f1": 0.4440339714936868
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "speaker",
+      "part": "bias",
+      "coefficient": 0.75,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.5232223436800099,
+      "macro_f1": 0.445414411083342
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "speaker",
+      "part": "bias",
+      "coefficient": 1.0,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.5237171109561429,
+      "macro_f1": 0.4460740229974469
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "speaker",
+      "part": "rows",
+      "coefficient": 0.25,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.5318005049476728,
+      "macro_f1": 0.44935948700997824
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "speaker",
+      "part": "rows",
+      "coefficient": 0.5,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.5375457799710878,
+      "macro_f1": 0.44877873990891753
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "speaker",
+      "part": "rows",
+      "coefficient": 0.75,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.5338897768457059,
+      "macro_f1": 0.42582109959921743
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "speaker",
+      "part": "rows",
+      "coefficient": 1.0,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.5178477305350818,
+      "macro_f1": 0.366819719887666
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "speaker",
+      "part": "rows_and_bias",
+      "coefficient": 0.25,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.5321443160300526,
+      "macro_f1": 0.45038096255648263
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "speaker",
+      "part": "rows_and_bias",
+      "coefficient": 0.5,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.5339932987539195,
+      "macro_f1": 0.4508848757550979
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "speaker",
+      "part": "rows_and_bias",
+      "coefficient": 0.75,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.533889776845706,
+      "macro_f1": 0.4247579348468783
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "speaker",
+      "part": "rows_and_bias",
+      "coefficient": 1.0,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.5181915416174615,
+      "macro_f1": 0.3689145807729463
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "narrative",
+      "part": "bias",
+      "coefficient": 0.25,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.5335361353178321,
+      "macro_f1": 0.44024542455451765
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "narrative",
+      "part": "bias",
+      "coefficient": 0.5,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.5370985742354523,
+      "macro_f1": 0.43238058701404997
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "narrative",
+      "part": "bias",
+      "coefficient": 0.75,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.5352443422445736,
+      "macro_f1": 0.41789182739052716
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "narrative",
+      "part": "bias",
+      "coefficient": 1.0,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.5213308896139591,
+      "macro_f1": 0.3785906480859222
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "narrative",
+      "part": "rows",
+      "coefficient": 0.25,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.502288394093334,
+      "macro_f1": 0.43998499199289043
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "narrative",
+      "part": "rows",
+      "coefficient": 0.5,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.3729116507004114,
+      "macro_f1": 0.3598929273466432
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "narrative",
+      "part": "rows",
+      "coefficient": 0.75,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.2554248788532803,
+      "macro_f1": 0.26711127019062325
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "narrative",
+      "part": "rows",
+      "coefficient": 1.0,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.229004777151118,
+      "macro_f1": 0.22700395603832835
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "narrative",
+      "part": "rows_and_bias",
+      "coefficient": 0.25,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.533708088579631,
+      "macro_f1": 0.44706017999433584
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "narrative",
+      "part": "rows_and_bias",
+      "coefficient": 0.5,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.5141112386488579,
+      "macro_f1": 0.43915374616977026
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "narrative",
+      "part": "rows_and_bias",
+      "coefficient": 0.75,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.4570392670623449,
+      "macro_f1": 0.38346339667828194
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "narrative",
+      "part": "rows_and_bias",
+      "coefficient": 1.0,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.3684187871584478,
+      "macro_f1": 0.3157151264923816
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "discourse",
+      "part": "bias",
+      "coefficient": 0.25,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.523543376124934,
+      "macro_f1": 0.4412219257445765
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "discourse",
+      "part": "bias",
+      "coefficient": 0.5,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.528718230799772,
+      "macro_f1": 0.445345996222402
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "discourse",
+      "part": "bias",
+      "coefficient": 0.75,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.5221185978030705,
+      "macro_f1": 0.4396539096763689
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "discourse",
+      "part": "bias",
+      "coefficient": 1.0,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.5015462431791343,
+      "macro_f1": 0.4281575846934718
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "discourse",
+      "part": "rows",
+      "coefficient": 0.25,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.5098080168078349,
+      "macro_f1": 0.42168961989149223
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "discourse",
+      "part": "rows",
+      "coefficient": 0.5,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.4909320025858207,
+      "macro_f1": 0.3812976646778456
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "discourse",
+      "part": "rows",
+      "coefficient": 0.75,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.45048166001547413,
+      "macro_f1": 0.2821057015425176
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "discourse",
+      "part": "rows",
+      "coefficient": 1.0,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.4225914135989738,
+      "macro_f1": 0.24376339320529877
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "discourse",
+      "part": "rows_and_bias",
+      "coefficient": 0.25,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.5225524735818707,
+      "macro_f1": 0.42920057460197414
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "discourse",
+      "part": "rows_and_bias",
+      "coefficient": 0.5,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.507149978875677,
+      "macro_f1": 0.39431770657670323
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "discourse",
+      "part": "rows_and_bias",
+      "coefficient": 0.75,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.499554194068901,
+      "macro_f1": 0.36849809804880185
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "discourse",
+      "part": "rows_and_bias",
+      "coefficient": 1.0,
+      "backbone": "a",
+      "parent": "a_edit",
+      "accuracy": 0.44958120393370526,
+      "macro_f1": 0.26109686770161517
+    },
+    {
+      "donor": "b",
+      "role_group": "all",
+      "part": "control",
+      "coefficient": 0,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5802335828378874,
+      "macro_f1": 0.4809189038364357
+    },
+    {
+      "donor": "a",
+      "role_group": "all",
+      "part": "bias",
+      "coefficient": 0.25,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5802335828378874,
+      "macro_f1": 0.4809189038364357
+    },
+    {
+      "donor": "a",
+      "role_group": "all",
+      "part": "bias",
+      "coefficient": 0.5,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5802335828378874,
+      "macro_f1": 0.4809189038364357
+    },
+    {
+      "donor": "a",
+      "role_group": "all",
+      "part": "bias",
+      "coefficient": 0.75,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5802335828378874,
+      "macro_f1": 0.4809189038364357
+    },
+    {
+      "donor": "a",
+      "role_group": "all",
+      "part": "bias",
+      "coefficient": 1.0,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5802335828378874,
+      "macro_f1": 0.4809189038364357
+    },
+    {
+      "donor": "a",
+      "role_group": "all",
+      "part": "rows",
+      "coefficient": 0.25,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5679729175998697,
+      "macro_f1": 0.4748229087733316
+    },
+    {
+      "donor": "a",
+      "role_group": "all",
+      "part": "rows",
+      "coefficient": 0.5,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5575106512399723,
+      "macro_f1": 0.45075799471329947
+    },
+    {
+      "donor": "a",
+      "role_group": "all",
+      "part": "rows",
+      "coefficient": 0.75,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.44625335953088735,
+      "macro_f1": 0.3219379902278266
+    },
+    {
+      "donor": "a",
+      "role_group": "all",
+      "part": "rows",
+      "coefficient": 1.0,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.059232728957120076,
+      "macro_f1": 0.048324202792737365
+    },
+    {
+      "donor": "a",
+      "role_group": "all",
+      "part": "rows_and_bias",
+      "coefficient": 0.25,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5679729175998697,
+      "macro_f1": 0.4748229087733316
+    },
+    {
+      "donor": "a",
+      "role_group": "all",
+      "part": "rows_and_bias",
+      "coefficient": 0.5,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5575106512399723,
+      "macro_f1": 0.45075799471329947
+    },
+    {
+      "donor": "a",
+      "role_group": "all",
+      "part": "rows_and_bias",
+      "coefficient": 0.75,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.4461024351508735,
+      "macro_f1": 0.32063498283629194
+    },
+    {
+      "donor": "a",
+      "role_group": "all",
+      "part": "rows_and_bias",
+      "coefficient": 1.0,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.059232728957120076,
+      "macro_f1": 0.048320494863963386
+    },
+    {
+      "donor": "a",
+      "role_group": "speaker",
+      "part": "bias",
+      "coefficient": 0.25,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5802335828378874,
+      "macro_f1": 0.4809189038364357
+    },
+    {
+      "donor": "a",
+      "role_group": "speaker",
+      "part": "bias",
+      "coefficient": 0.5,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5802335828378874,
+      "macro_f1": 0.4809189038364357
+    },
+    {
+      "donor": "a",
+      "role_group": "speaker",
+      "part": "bias",
+      "coefficient": 0.75,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5802335828378874,
+      "macro_f1": 0.4809189038364357
+    },
+    {
+      "donor": "a",
+      "role_group": "speaker",
+      "part": "bias",
+      "coefficient": 1.0,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5802335828378874,
+      "macro_f1": 0.4809189038364357
+    },
+    {
+      "donor": "a",
+      "role_group": "speaker",
+      "part": "rows",
+      "coefficient": 0.25,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5806064716781366,
+      "macro_f1": 0.4754597147915711
+    },
+    {
+      "donor": "a",
+      "role_group": "speaker",
+      "part": "rows",
+      "coefficient": 0.5,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5710130385429817,
+      "macro_f1": 0.45048513273687024
+    },
+    {
+      "donor": "a",
+      "role_group": "speaker",
+      "part": "rows",
+      "coefficient": 0.75,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5622272608115813,
+      "macro_f1": 0.41655440444454955
+    },
+    {
+      "donor": "a",
+      "role_group": "speaker",
+      "part": "rows",
+      "coefficient": 1.0,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5581796623671459,
+      "macro_f1": 0.3990217973911923
+    },
+    {
+      "donor": "a",
+      "role_group": "speaker",
+      "part": "rows_and_bias",
+      "coefficient": 0.25,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5806064716781366,
+      "macro_f1": 0.4754597147915711
+    },
+    {
+      "donor": "a",
+      "role_group": "speaker",
+      "part": "rows_and_bias",
+      "coefficient": 0.5,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5710130385429817,
+      "macro_f1": 0.45048513273687024
+    },
+    {
+      "donor": "a",
+      "role_group": "speaker",
+      "part": "rows_and_bias",
+      "coefficient": 0.75,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5622272608115813,
+      "macro_f1": 0.41655440444454955
+    },
+    {
+      "donor": "a",
+      "role_group": "speaker",
+      "part": "rows_and_bias",
+      "coefficient": 1.0,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5581796623671459,
+      "macro_f1": 0.3990217973911923
+    },
+    {
+      "donor": "a",
+      "role_group": "narrative",
+      "part": "bias",
+      "coefficient": 0.25,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5802335828378874,
+      "macro_f1": 0.4809189038364357
+    },
+    {
+      "donor": "a",
+      "role_group": "narrative",
+      "part": "bias",
+      "coefficient": 0.5,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5802335828378874,
+      "macro_f1": 0.4809189038364357
+    },
+    {
+      "donor": "a",
+      "role_group": "narrative",
+      "part": "bias",
+      "coefficient": 0.75,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5802335828378874,
+      "macro_f1": 0.4809189038364357
+    },
+    {
+      "donor": "a",
+      "role_group": "narrative",
+      "part": "bias",
+      "coefficient": 1.0,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5802335828378874,
+      "macro_f1": 0.4809189038364357
+    },
+    {
+      "donor": "a",
+      "role_group": "narrative",
+      "part": "rows",
+      "coefficient": 0.25,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5740279630044387,
+      "macro_f1": 0.5116078881309557
+    },
+    {
+      "donor": "a",
+      "role_group": "narrative",
+      "part": "rows",
+      "coefficient": 0.5,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5489855234759947,
+      "macro_f1": 0.5104726021589864
+    },
+    {
+      "donor": "a",
+      "role_group": "narrative",
+      "part": "rows",
+      "coefficient": 0.75,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.43687403286232035,
+      "macro_f1": 0.4526548358048356
+    },
+    {
+      "donor": "a",
+      "role_group": "narrative",
+      "part": "rows",
+      "coefficient": 1.0,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.32920832145620393,
+      "macro_f1": 0.34364063388141786
+    },
+    {
+      "donor": "a",
+      "role_group": "narrative",
+      "part": "rows_and_bias",
+      "coefficient": 0.25,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5740279630044387,
+      "macro_f1": 0.5116078881309557
+    },
+    {
+      "donor": "a",
+      "role_group": "narrative",
+      "part": "rows_and_bias",
+      "coefficient": 0.5,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5489855234759947,
+      "macro_f1": 0.5104726021589864
+    },
+    {
+      "donor": "a",
+      "role_group": "narrative",
+      "part": "rows_and_bias",
+      "coefficient": 0.75,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.43687403286232035,
+      "macro_f1": 0.4526548358048356
+    },
+    {
+      "donor": "a",
+      "role_group": "narrative",
+      "part": "rows_and_bias",
+      "coefficient": 1.0,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.32920832145620393,
+      "macro_f1": 0.34364063388141786
+    },
+    {
+      "donor": "a",
+      "role_group": "discourse",
+      "part": "bias",
+      "coefficient": 0.25,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5802335828378874,
+      "macro_f1": 0.4809189038364357
+    },
+    {
+      "donor": "a",
+      "role_group": "discourse",
+      "part": "bias",
+      "coefficient": 0.5,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5802335828378874,
+      "macro_f1": 0.4809189038364357
+    },
+    {
+      "donor": "a",
+      "role_group": "discourse",
+      "part": "bias",
+      "coefficient": 0.75,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5802335828378874,
+      "macro_f1": 0.4809189038364357
+    },
+    {
+      "donor": "a",
+      "role_group": "discourse",
+      "part": "bias",
+      "coefficient": 1.0,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5802335828378874,
+      "macro_f1": 0.4809189038364357
+    },
+    {
+      "donor": "a",
+      "role_group": "discourse",
+      "part": "rows",
+      "coefficient": 0.25,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5522739506556176,
+      "macro_f1": 0.44173677466289335
+    },
+    {
+      "donor": "a",
+      "role_group": "discourse",
+      "part": "rows",
+      "coefficient": 0.5,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5258033287351876,
+      "macro_f1": 0.338826833433791
+    },
+    {
+      "donor": "a",
+      "role_group": "discourse",
+      "part": "rows",
+      "coefficient": 0.75,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5275082906605042,
+      "macro_f1": 0.2960072389166912
+    },
+    {
+      "donor": "a",
+      "role_group": "discourse",
+      "part": "rows",
+      "coefficient": 1.0,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5236858380502505,
+      "macro_f1": 0.2866396417023656
+    },
+    {
+      "donor": "a",
+      "role_group": "discourse",
+      "part": "rows_and_bias",
+      "coefficient": 0.25,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5522739506556176,
+      "macro_f1": 0.44173677466289335
+    },
+    {
+      "donor": "a",
+      "role_group": "discourse",
+      "part": "rows_and_bias",
+      "coefficient": 0.5,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5258033287351876,
+      "macro_f1": 0.338826833433791
+    },
+    {
+      "donor": "a",
+      "role_group": "discourse",
+      "part": "rows_and_bias",
+      "coefficient": 0.75,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5275082906605042,
+      "macro_f1": 0.2960072389166912
+    },
+    {
+      "donor": "a",
+      "role_group": "discourse",
+      "part": "rows_and_bias",
+      "coefficient": 1.0,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5236858380502505,
+      "macro_f1": 0.2866396417023656
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "all",
+      "part": "bias",
+      "coefficient": 0.25,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5785878580954514,
+      "macro_f1": 0.5006750345631196
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "all",
+      "part": "bias",
+      "coefficient": 0.5,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5732249524066457,
+      "macro_f1": 0.4967752741437745
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "all",
+      "part": "bias",
+      "coefficient": 0.75,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5627541599645722,
+      "macro_f1": 0.49081824519195566
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "all",
+      "part": "bias",
+      "coefficient": 1.0,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.537683278953048,
+      "macro_f1": 0.47327400369011513
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "all",
+      "part": "rows",
+      "coefficient": 0.25,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5570652907012258,
+      "macro_f1": 0.46814773334138166
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "all",
+      "part": "rows",
+      "coefficient": 0.5,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.36485329412183903,
+      "macro_f1": 0.2621501485008026
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "all",
+      "part": "rows",
+      "coefficient": 0.75,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.242356208260374,
+      "macro_f1": 0.17376133028554408
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "all",
+      "part": "rows",
+      "coefficient": 1.0,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.12210100480514713,
+      "macro_f1": 0.08502383854499095
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "all",
+      "part": "rows_and_bias",
+      "coefficient": 0.25,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5445824701205361,
+      "macro_f1": 0.47771353744163536
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "all",
+      "part": "rows_and_bias",
+      "coefficient": 0.5,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.29060374842203857,
+      "macro_f1": 0.2825496668282856
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "all",
+      "part": "rows_and_bias",
+      "coefficient": 0.75,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.10707337139104929,
+      "macro_f1": 0.1049206750730208
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "all",
+      "part": "rows_and_bias",
+      "coefficient": 1.0,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.04925135908294978,
+      "macro_f1": 0.03720392919132905
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "speaker",
+      "part": "bias",
+      "coefficient": 0.25,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5802335828378873,
+      "macro_f1": 0.48115885725688173
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "speaker",
+      "part": "bias",
+      "coefficient": 0.5,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5810016301360101,
+      "macro_f1": 0.4814943797885062
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "speaker",
+      "part": "bias",
+      "coefficient": 0.75,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5808087752473836,
+      "macro_f1": 0.480820836328284
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "speaker",
+      "part": "bias",
+      "coefficient": 1.0,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5826059652034045,
+      "macro_f1": 0.4812714888008518
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "speaker",
+      "part": "rows",
+      "coefficient": 0.25,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5753554230972839,
+      "macro_f1": 0.4640525990088616
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "speaker",
+      "part": "rows",
+      "coefficient": 0.5,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5659500091623569,
+      "macro_f1": 0.4299595501798031
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "speaker",
+      "part": "rows",
+      "coefficient": 0.75,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5594026143258541,
+      "macro_f1": 0.42182754620373447
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "speaker",
+      "part": "rows",
+      "coefficient": 1.0,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5283219270472778,
+      "macro_f1": 0.4014402527184912
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "speaker",
+      "part": "rows_and_bias",
+      "coefficient": 0.25,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5745972698721343,
+      "macro_f1": 0.46055384843313246
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "speaker",
+      "part": "rows_and_bias",
+      "coefficient": 0.5,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5649185759152177,
+      "macro_f1": 0.42909148136572856
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "speaker",
+      "part": "rows_and_bias",
+      "coefficient": 0.75,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5597251738302724,
+      "macro_f1": 0.417421202461174
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "speaker",
+      "part": "rows_and_bias",
+      "coefficient": 1.0,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5497765084802704,
+      "macro_f1": 0.4084902800953567
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "narrative",
+      "part": "bias",
+      "coefficient": 0.25,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.575638215427373,
+      "macro_f1": 0.5091193708723407
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "narrative",
+      "part": "bias",
+      "coefficient": 0.5,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5661844446084621,
+      "macro_f1": 0.5122644609510448
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "narrative",
+      "part": "bias",
+      "coefficient": 0.75,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5469135900659691,
+      "macro_f1": 0.5143551035060892
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "narrative",
+      "part": "bias",
+      "coefficient": 1.0,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5248685774422772,
+      "macro_f1": 0.5083555231850935
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "narrative",
+      "part": "rows",
+      "coefficient": 0.25,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5658811006026796,
+      "macro_f1": 0.519317907352045
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "narrative",
+      "part": "rows",
+      "coefficient": 0.5,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.4278854425418415,
+      "macro_f1": 0.4531399149687015
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "narrative",
+      "part": "rows",
+      "coefficient": 0.75,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.38447018670847416,
+      "macro_f1": 0.4256141472380493
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "narrative",
+      "part": "rows",
+      "coefficient": 1.0,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.3305622187665431,
+      "macro_f1": 0.3620740609962731
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "narrative",
+      "part": "rows_and_bias",
+      "coefficient": 0.25,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5375819203791182,
+      "macro_f1": 0.5116378625478484
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "narrative",
+      "part": "rows_and_bias",
+      "coefficient": 0.5,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.37295813057376714,
+      "macro_f1": 0.4116602468957719
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "narrative",
+      "part": "rows_and_bias",
+      "coefficient": 0.75,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.31635003512236837,
+      "macro_f1": 0.33344567353928767
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "narrative",
+      "part": "rows_and_bias",
+      "coefficient": 1.0,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.2857127677444313,
+      "macro_f1": 0.2819207155008521
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "discourse",
+      "part": "bias",
+      "coefficient": 0.25,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5541637504072159,
+      "macro_f1": 0.4628395240005712
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "discourse",
+      "part": "bias",
+      "coefficient": 0.5,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5482248251516878,
+      "macro_f1": 0.4549845275380489
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "discourse",
+      "part": "bias",
+      "coefficient": 0.75,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5482957379769516,
+      "macro_f1": 0.4429555691767572
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "discourse",
+      "part": "bias",
+      "coefficient": 1.0,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5413412227165371,
+      "macro_f1": 0.4342585010443651
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "discourse",
+      "part": "rows",
+      "coefficient": 0.25,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5617981570937003,
+      "macro_f1": 0.4489146077349223
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "discourse",
+      "part": "rows",
+      "coefficient": 0.5,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5409828727552225,
+      "macro_f1": 0.3559091591862384
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "discourse",
+      "part": "rows",
+      "coefficient": 0.75,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5189334380217453,
+      "macro_f1": 0.3071334110909902
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "discourse",
+      "part": "rows",
+      "coefficient": 1.0,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5133033287351875,
+      "macro_f1": 0.3004340696444093
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "discourse",
+      "part": "rows_and_bias",
+      "coefficient": 0.25,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5450912354420326,
+      "macro_f1": 0.43052363233687174
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "discourse",
+      "part": "rows_and_bias",
+      "coefficient": 0.5,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5298125279960908,
+      "macro_f1": 0.3317954653939248
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "discourse",
+      "part": "rows_and_bias",
+      "coefficient": 0.75,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5254530912774361,
+      "macro_f1": 0.3081017208402338
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "discourse",
+      "part": "rows_and_bias",
+      "coefficient": 1.0,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.515212025848027,
+      "macro_f1": 0.2946538388722098
+    },
+    {
+      "donor": "b_edit",
+      "role_group": "all",
+      "part": "control",
+      "coefficient": 0,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.5804037863440159,
+      "macro_f1": 0.4951843271641644
+    },
+    {
+      "donor": "a",
+      "role_group": "all",
+      "part": "bias",
+      "coefficient": 0.25,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.5674899532210775,
+      "macro_f1": 0.5057746411751901
+    },
+    {
+      "donor": "a",
+      "role_group": "all",
+      "part": "bias",
+      "coefficient": 0.5,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.5757434552775178,
+      "macro_f1": 0.5236428785870052
+    },
+    {
+      "donor": "a",
+      "role_group": "all",
+      "part": "bias",
+      "coefficient": 0.75,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.5403613913548073,
+      "macro_f1": 0.5044390913728184
+    },
+    {
+      "donor": "a",
+      "role_group": "all",
+      "part": "bias",
+      "coefficient": 1.0,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.5512158574948083,
+      "macro_f1": 0.5127353782307905
+    },
+    {
+      "donor": "a",
+      "role_group": "all",
+      "part": "rows",
+      "coefficient": 0.25,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.5513457529930365,
+      "macro_f1": 0.4321331852344922
+    },
+    {
+      "donor": "a",
+      "role_group": "all",
+      "part": "rows",
+      "coefficient": 0.5,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.49268000850063115,
+      "macro_f1": 0.2736647577521965
+    },
+    {
+      "donor": "a",
+      "role_group": "all",
+      "part": "rows",
+      "coefficient": 0.75,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.4323192279696215,
+      "macro_f1": 0.1343952595687927
+    },
+    {
+      "donor": "a",
+      "role_group": "all",
+      "part": "rows",
+      "coefficient": 1.0,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.268137267377937,
+      "macro_f1": 0.07175126769194522
+    },
+    {
+      "donor": "a",
+      "role_group": "all",
+      "part": "rows_and_bias",
+      "coefficient": 0.25,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.5783848228101968,
+      "macro_f1": 0.4918721972170558
+    },
+    {
+      "donor": "a",
+      "role_group": "all",
+      "part": "rows_and_bias",
+      "coefficient": 0.5,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.5704172308303131,
+      "macro_f1": 0.4324133771990401
+    },
+    {
+      "donor": "a",
+      "role_group": "all",
+      "part": "rows_and_bias",
+      "coefficient": 0.75,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.4247038777130758,
+      "macro_f1": 0.31241302833146095
+    },
+    {
+      "donor": "a",
+      "role_group": "all",
+      "part": "rows_and_bias",
+      "coefficient": 1.0,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.059232728957120076,
+      "macro_f1": 0.048320494863963386
+    },
+    {
+      "donor": "a",
+      "role_group": "speaker",
+      "part": "bias",
+      "coefficient": 0.25,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.5807475974263957,
+      "macro_f1": 0.49617822716730137
+    },
+    {
+      "donor": "a",
+      "role_group": "speaker",
+      "part": "bias",
+      "coefficient": 0.5,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.5807475974263957,
+      "macro_f1": 0.4961209661769869
+    },
+    {
+      "donor": "a",
+      "role_group": "speaker",
+      "part": "bias",
+      "coefficient": 0.75,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.5801018739565094,
+      "macro_f1": 0.4947094172285103
+    },
+    {
+      "donor": "a",
+      "role_group": "speaker",
+      "part": "bias",
+      "coefficient": 1.0,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.5804456850388892,
+      "macro_f1": 0.4956790586195415
+    },
+    {
+      "donor": "a",
+      "role_group": "speaker",
+      "part": "rows",
+      "coefficient": 0.25,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.5772223805839476,
+      "macro_f1": 0.48253896417631603
+    },
+    {
+      "donor": "a",
+      "role_group": "speaker",
+      "part": "rows",
+      "coefficient": 0.5,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.5662118044244004,
+      "macro_f1": 0.45413194012040664
+    },
+    {
+      "donor": "a",
+      "role_group": "speaker",
+      "part": "rows",
+      "coefficient": 0.75,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.5513464847090443,
+      "macro_f1": 0.3966966731977454
+    },
+    {
+      "donor": "a",
+      "role_group": "speaker",
+      "part": "rows",
+      "coefficient": 1.0,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.5479083738852466,
+      "macro_f1": 0.380005157608784
+    },
+    {
+      "donor": "a",
+      "role_group": "speaker",
+      "part": "rows_and_bias",
+      "coefficient": 0.25,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.5779100027487072,
+      "macro_f1": 0.4844363039911777
+    },
+    {
+      "donor": "a",
+      "role_group": "speaker",
+      "part": "rows_and_bias",
+      "coefficient": 0.5,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.5665556155067802,
+      "macro_f1": 0.45490847777919985
+    },
+    {
+      "donor": "a",
+      "role_group": "speaker",
+      "part": "rows_and_bias",
+      "coefficient": 0.75,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.5527217290385634,
+      "macro_f1": 0.4023986330207482
+    },
+    {
+      "donor": "a",
+      "role_group": "speaker",
+      "part": "rows_and_bias",
+      "coefficient": 1.0,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.5479083738852466,
+      "macro_f1": 0.380005157608784
+    },
+    {
+      "donor": "a",
+      "role_group": "narrative",
+      "part": "bias",
+      "coefficient": 0.25,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.5722778573828237,
+      "macro_f1": 0.5056595557149185
+    },
+    {
+      "donor": "a",
+      "role_group": "narrative",
+      "part": "bias",
+      "coefficient": 0.5,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.5772526990776562,
+      "macro_f1": 0.5191660986925851
+    },
+    {
+      "donor": "a",
+      "role_group": "narrative",
+      "part": "bias",
+      "coefficient": 0.75,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.5510582840432465,
+      "macro_f1": 0.5148207662084137
+    },
+    {
+      "donor": "a",
+      "role_group": "narrative",
+      "part": "bias",
+      "coefficient": 1.0,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.5477845229975162,
+      "macro_f1": 0.5081447733117193
+    },
+    {
+      "donor": "a",
+      "role_group": "narrative",
+      "part": "rows",
+      "coefficient": 0.25,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.5532286809769108,
+      "macro_f1": 0.49682448071403645
+    },
+    {
+      "donor": "a",
+      "role_group": "narrative",
+      "part": "rows",
+      "coefficient": 0.5,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.49800308338762883,
+      "macro_f1": 0.4620513071703991
+    },
+    {
+      "donor": "a",
+      "role_group": "narrative",
+      "part": "rows",
+      "coefficient": 0.75,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.45319941233660466,
+      "macro_f1": 0.4225291357756923
+    },
+    {
+      "donor": "a",
+      "role_group": "narrative",
+      "part": "rows",
+      "coefficient": 1.0,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.3970650234658143,
+      "macro_f1": 0.38575208535019295
+    },
+    {
+      "donor": "a",
+      "role_group": "narrative",
+      "part": "rows_and_bias",
+      "coefficient": 0.25,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.5531183191147129,
+      "macro_f1": 0.5158449067545029
+    },
+    {
+      "donor": "a",
+      "role_group": "narrative",
+      "part": "rows_and_bias",
+      "coefficient": 0.5,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.525120574072566,
+      "macro_f1": 0.5026161500827983
+    },
+    {
+      "donor": "a",
+      "role_group": "narrative",
+      "part": "rows_and_bias",
+      "coefficient": 0.75,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.4280599090890581,
+      "macro_f1": 0.4390867500432202
+    },
+    {
+      "donor": "a",
+      "role_group": "narrative",
+      "part": "rows_and_bias",
+      "coefficient": 1.0,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.32784780688805637,
+      "macro_f1": 0.35297555952274967
+    },
+    {
+      "donor": "a",
+      "role_group": "discourse",
+      "part": "bias",
+      "coefficient": 0.25,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.5785507314614978,
+      "macro_f1": 0.49887124826900286
+    },
+    {
+      "donor": "a",
+      "role_group": "discourse",
+      "part": "bias",
+      "coefficient": 0.5,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.5776096174206947,
+      "macro_f1": 0.5011424415651704
+    },
+    {
+      "donor": "a",
+      "role_group": "discourse",
+      "part": "bias",
+      "coefficient": 0.75,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.5748718542574419,
+      "macro_f1": 0.5006894189901857
+    },
+    {
+      "donor": "a",
+      "role_group": "discourse",
+      "part": "bias",
+      "coefficient": 1.0,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.5718986694221607,
+      "macro_f1": 0.5039300536226451
+    },
+    {
+      "donor": "a",
+      "role_group": "discourse",
+      "part": "rows",
+      "coefficient": 0.25,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.5603136007553852,
+      "macro_f1": 0.4001591607231482
+    },
+    {
+      "donor": "a",
+      "role_group": "discourse",
+      "part": "rows",
+      "coefficient": 0.5,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.5317783307712669,
+      "macro_f1": 0.30357424150251394
+    },
+    {
+      "donor": "a",
+      "role_group": "discourse",
+      "part": "rows",
+      "coefficient": 0.75,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.5256359566518712,
+      "macro_f1": 0.28690968134581657
+    },
+    {
+      "donor": "a",
+      "role_group": "discourse",
+      "part": "rows",
+      "coefficient": 1.0,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.5251411893757382,
+      "macro_f1": 0.28602795768977135
+    },
+    {
+      "donor": "a",
+      "role_group": "discourse",
+      "part": "rows_and_bias",
+      "coefficient": 0.25,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.5615209957954961,
+      "macro_f1": 0.41020915982119316
+    },
+    {
+      "donor": "a",
+      "role_group": "discourse",
+      "part": "rows_and_bias",
+      "coefficient": 0.5,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.5267794697031397,
+      "macro_f1": 0.3074211541711815
+    },
+    {
+      "donor": "a",
+      "role_group": "discourse",
+      "part": "rows_and_bias",
+      "coefficient": 0.75,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.5256359566518712,
+      "macro_f1": 0.28690968134581657
+    },
+    {
+      "donor": "a",
+      "role_group": "discourse",
+      "part": "rows_and_bias",
+      "coefficient": 1.0,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.5225054210612046,
+      "macro_f1": 0.2860013360338347
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "all",
+      "part": "bias",
+      "coefficient": 0.25,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.5719590837134015,
+      "macro_f1": 0.5215277032506752
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "all",
+      "part": "bias",
+      "coefficient": 0.5,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.5473458751577963,
+      "macro_f1": 0.5099401830506002
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "all",
+      "part": "bias",
+      "coefficient": 0.75,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.4876337131469644,
+      "macro_f1": 0.4634340441313314
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "all",
+      "part": "bias",
+      "coefficient": 1.0,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.4241364160422692,
+      "macro_f1": 0.41566988276773115
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "all",
+      "part": "rows",
+      "coefficient": 0.25,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.5473091621024556,
+      "macro_f1": 0.39747408550026736
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "all",
+      "part": "rows",
+      "coefficient": 0.5,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.4411265436026389,
+      "macro_f1": 0.31615372185806007
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "all",
+      "part": "rows",
+      "coefficient": 0.75,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.23945104120006525,
+      "macro_f1": 0.1549152297736864
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "all",
+      "part": "rows",
+      "coefficient": 1.0,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.1547271717331106,
+      "macro_f1": 0.09977130580159707
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "all",
+      "part": "rows_and_bias",
+      "coefficient": 0.25,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.5459366537545304,
+      "macro_f1": 0.47422997597633737
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "all",
+      "part": "rows_and_bias",
+      "coefficient": 0.5,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.30175910890988317,
+      "macro_f1": 0.28070056362455353
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "all",
+      "part": "rows_and_bias",
+      "coefficient": 0.75,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.11081202661155669,
+      "macro_f1": 0.11157936107603465
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "all",
+      "part": "rows_and_bias",
+      "coefficient": 1.0,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.04925135908294978,
+      "macro_f1": 0.03720392919132905
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "speaker",
+      "part": "bias",
+      "coefficient": 0.25,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.5787266296269903,
+      "macro_f1": 0.49215269432381437
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "speaker",
+      "part": "bias",
+      "coefficient": 0.5,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.5792213969031234,
+      "macro_f1": 0.49371611875339155
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "speaker",
+      "part": "bias",
+      "coefficient": 0.75,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.580523819583011,
+      "macro_f1": 0.492400266864308
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "speaker",
+      "part": "bias",
+      "coefficient": 1.0,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.580523819583011,
+      "macro_f1": 0.49308652528529395
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "speaker",
+      "part": "rows",
+      "coefficient": 0.25,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.5759475722299141,
+      "macro_f1": 0.47686553809929516
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "speaker",
+      "part": "rows",
+      "coefficient": 0.5,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.5683079480901576,
+      "macro_f1": 0.4475154011969447
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "speaker",
+      "part": "rows",
+      "coefficient": 0.75,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.5629216911165861,
+      "macro_f1": 0.43565924516498555
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "speaker",
+      "part": "rows",
+      "coefficient": 1.0,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.5337209095166349,
+      "macro_f1": 0.4119515095716932
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "speaker",
+      "part": "rows_and_bias",
+      "coefficient": 0.25,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.5756037611475344,
+      "macro_f1": 0.4766509491363925
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "speaker",
+      "part": "rows_and_bias",
+      "coefficient": 0.5,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.566245081595879,
+      "macro_f1": 0.4443386313428063
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "speaker",
+      "part": "rows_and_bias",
+      "coefficient": 0.75,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.5600564821130432,
+      "macro_f1": 0.4266790399970045
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "speaker",
+      "part": "rows_and_bias",
+      "coefficient": 1.0,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.5512664095268153,
+      "macro_f1": 0.41361029076273914
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "narrative",
+      "part": "bias",
+      "coefficient": 0.25,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.5593656785743374,
+      "macro_f1": 0.5220429211469779
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "narrative",
+      "part": "bias",
+      "coefficient": 0.5,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.5306193562426192,
+      "macro_f1": 0.5064122694906911
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "narrative",
+      "part": "bias",
+      "coefficient": 0.75,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.471843886162805,
+      "macro_f1": 0.47761942816448805
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "narrative",
+      "part": "bias",
+      "coefficient": 1.0,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.4177583339271898,
+      "macro_f1": 0.44386907571625
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "narrative",
+      "part": "rows",
+      "coefficient": 0.25,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.546265416938144,
+      "macro_f1": 0.5079433928881751
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "narrative",
+      "part": "rows",
+      "coefficient": 0.5,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.46740796921448063,
+      "macro_f1": 0.4617914237277891
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "narrative",
+      "part": "rows",
+      "coefficient": 0.75,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.38117606486948735,
+      "macro_f1": 0.40085480424862435
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "narrative",
+      "part": "rows",
+      "coefficient": 1.0,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.3333543516105388,
+      "macro_f1": 0.34921482434646706
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "narrative",
+      "part": "rows_and_bias",
+      "coefficient": 0.25,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.5108378911817405,
+      "macro_f1": 0.5083416292037474
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "narrative",
+      "part": "rows_and_bias",
+      "coefficient": 0.5,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.36976275858207436,
+      "macro_f1": 0.40578011924583945
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "narrative",
+      "part": "rows_and_bias",
+      "coefficient": 0.75,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.3156626674675244,
+      "macro_f1": 0.3425056496768803
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "narrative",
+      "part": "rows_and_bias",
+      "coefficient": 1.0,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.2867147414688275,
+      "macro_f1": 0.2917671298685538
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "discourse",
+      "part": "bias",
+      "coefficient": 0.25,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.5629027619416053,
+      "macro_f1": 0.47667683091920793
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "discourse",
+      "part": "bias",
+      "coefficient": 0.5,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.5503495057417436,
+      "macro_f1": 0.453577099864436
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "discourse",
+      "part": "bias",
+      "coefficient": 0.75,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.5423685201775461,
+      "macro_f1": 0.441709722667387
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "discourse",
+      "part": "bias",
+      "coefficient": 1.0,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.5402500114529463,
+      "macro_f1": 0.4410319394410707
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "discourse",
+      "part": "rows",
+      "coefficient": 0.25,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.5581067770900353,
+      "macro_f1": 0.39908670266412866
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "discourse",
+      "part": "rows",
+      "coefficient": 0.5,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.5344875251964816,
+      "macro_f1": 0.32447963745586506
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "discourse",
+      "part": "rows",
+      "coefficient": 0.75,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.5271349246141631,
+      "macro_f1": 0.29832832818567123
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "discourse",
+      "part": "rows",
+      "coefficient": 1.0,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.5147235895060471,
+      "macro_f1": 0.2884852602303371
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "discourse",
+      "part": "rows_and_bias",
+      "coefficient": 0.25,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.5386309466241803,
+      "macro_f1": 0.37880175252165793
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "discourse",
+      "part": "rows_and_bias",
+      "coefficient": 0.5,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.5270902263102171,
+      "macro_f1": 0.31276816694015436
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "discourse",
+      "part": "rows_and_bias",
+      "coefficient": 0.75,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.5257774323512644,
+      "macro_f1": 0.29800297435539463
+    },
+    {
+      "donor": "a_edit",
+      "role_group": "discourse",
+      "part": "rows_and_bias",
+      "coefficient": 1.0,
+      "backbone": "b",
+      "parent": "b_edit",
+      "accuracy": 0.5149698596632325,
+      "macro_f1": 0.2936841082768334
+    }
+  ],
+  "protocol": "Raw classifier row and bias grafts between existing compatible encoders. Search is restricted to authored role groups and four fixed fractions. Rank on weighted development accuracy subject to retaining same-parent development macro-F1. Report an untouched confirmation fold. There is no optimizer or gradient. The family was introduced after earlier aggregate pilot results and is exploratory."
+}

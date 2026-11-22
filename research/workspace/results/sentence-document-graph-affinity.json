@@ -1,0 +1,54 @@
+{
+  "cases": 712,
+  "sentences_with_remote_edges": 149868,
+  "role": {
+    "none": {
+      "sentences": 58496,
+      "semantic_neighbor_agreement": 0.668572810297716,
+      "uniform_remote_agreement": 0.46290742127529433,
+      "distance_matched_agreement": 0.6022979147426749
+    },
+    "facts": {
+      "sentences": 24908,
+      "semantic_neighbor_agreement": 0.7824902773988619,
+      "uniform_remote_agreement": 0.21124849119964792,
+      "distance_matched_agreement": 0.7129051504667397
+    },
+    "issue": {
+      "sentences": 1836,
+      "semantic_neighbor_agreement": 0.06579071932494937,
+      "uniform_remote_agreement": 0.008122968699191902,
+      "distance_matched_agreement": 0.02839905517926024
+    },
+    "petitioner_argument": {
+      "sentences": 14520,
+      "semantic_neighbor_agreement": 0.5126291730252048,
+      "uniform_remote_agreement": 0.14813408845180326,
+      "distance_matched_agreement": 0.44417406553472144
+    },
+    "respondent_argument": {
+      "sentences": 9579,
+      "semantic_neighbor_agreement": 0.4143589502752586,
+      "uniform_remote_agreement": 0.08849053136587204,
+      "distance_matched_agreement": 0.3482187335461899
+    },
+    "reasoning": {
+      "sentences": 36688,
+      "semantic_neighbor_agreement": 0.5966846720421646,
+      "uniform_remote_agreement": 0.2947038280368671,
+      "distance_matched_agreement": 0.5262271464779381
+    },
+    "decision": {
+      "sentences": 3841,
+      "semantic_neighbor_agreement": 0.171736574433661,
+      "uniform_remote_agreement": 0.02213310501265603,
+      "distance_matched_agreement": 0.14139773802891498
+    }
+  },
+  "protocol": "Same-role gold agreement with the eight weighted cosine neighbors beyond four sentences. The control is the exact expected agreement if a remote sentence is chosen uniformly from the same judgment. A second control matches each edge’s direction and power-of-two distance band before sampling uniformly. This audit diagnoses graph structure using human labels after edge construction.",
+  "overall": {
+    "semantic_neighbor_agreement": 0.6184323678744091,
+    "uniform_remote_agreement": 0.30860883422676105,
+    "distance_matched_agreement": 0.5516556297266726
+  }
+}

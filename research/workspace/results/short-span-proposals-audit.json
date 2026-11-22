@@ -1,0 +1,63 @@
+{
+  "cases": 712,
+  "runs": {
+    "4:2": {
+      "max_units": 4,
+      "roles_per_interval": 2,
+      "candidates": 1295968,
+      "covered_gold": 17125,
+      "recall": 0.592991447072267,
+      "oracle": {
+        "f1": 0.6041682513120864,
+        "matched": 15886,
+        "predicted": 23709,
+        "gold": 28879,
+        "iterations": 4
+      }
+    },
+    "8:2": {
+      "max_units": 8,
+      "roles_per_interval": 2,
+      "candidates": 2330660,
+      "covered_gold": 18717,
+      "recall": 0.6481180096263721,
+      "oracle": {
+        "f1": 0.6706388113734068,
+        "matched": 17784,
+        "predicted": 24157,
+        "gold": 28879,
+        "iterations": 4
+      }
+    },
+    "16:2": {
+      "max_units": 16,
+      "roles_per_interval": 2,
+      "candidates": 4349076,
+      "covered_gold": 20000,
+      "recall": 0.6925447557048374,
+      "oracle": {
+        "f1": 0.730688547719383,
+        "matched": 19680,
+        "predicted": 24988,
+        "gold": 28879,
+        "iterations": 3
+      }
+    },
+    "16:3": {
+      "max_units": 16,
+      "roles_per_interval": 3,
+      "candidates": 6443845,
+      "covered_gold": 21174,
+      "recall": 0.7331971328647113,
+      "oracle": {
+        "f1": 0.7699702785014494,
+        "matched": 20984,
+        "predicted": 25627,
+        "gold": 28879,
+        "iterations": 4
+      }
+    }
+  },
+  "gold": 28879,
+  "protocol": "Expand the prior posterior candidate set using every raw interval through a bounded length. Keep the two or three role values with the highest frozen exact-span posterior, regardless of whether Viterbi proposed the interval. Use annotations for coverage and exact oracle analysis only."
+}

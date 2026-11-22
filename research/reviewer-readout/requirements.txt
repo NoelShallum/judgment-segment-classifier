@@ -1,0 +1,9 @@
+# Install the CPU PyTorch 2.8.0 wheel separately. See README.md.
+huggingface-hub==0.36.2
+numpy==2.4.6
+onnxruntime==1.32.0
+safetensors==0.8.0
+scikit-learn==1.9.1
+scipy==1.17.1
+tokenizers==0.21.4
+transformers==4.53.3

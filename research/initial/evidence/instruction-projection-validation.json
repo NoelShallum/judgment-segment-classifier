@@ -1,0 +1,463 @@
+{
+  "frozen": {
+    "spec": {
+      "design": "Frozen before examining paired human-gold Gemini scores. Apply the same English seven-role rubric to a local public instruction model, then replace its vocabulary readout with a physical seven-row matrix. The baseline uses exact option-letter rows. Candidate families remove content-free prompt bias or install a bounded, closed-form correction from 21 authored keys. All fixed variant selection uses a separate development validation sample.",
+      "model": "ggml-org/gemma-4-E2B-it-GGUF",
+      "revision": "2a8538c2e2d4687953a86c422c7c623cfd022880",
+      "filename": "gemma-4-E2B-it-Q8_0.gguf",
+      "sha256": "c36d5e6be0d91124d8b995f5ad4e1ab0d307f6d95cdd08308820350dbd96ad15",
+      "baseline": "last prompt token hidden vector, exact A through G unembedding rows",
+      "edits": "content-free prompt bias correction with coefficients 0, 0.25, 0.5, and 1, optionally followed by one ridge correction at half the median authored top-two logit margin, damping 0.5 or 1. No optimizer or gold or teacher labels in the programmed keys.",
+      "selection": "56 validation items, eight per role, seeded official select fold. Prioritize uniform seven-role accuracy, then macro-F1, then smallest signed perturbation. Baseline eligible. Evaluate the chosen actual edit and unchanged projection separately when baseline wins.",
+      "confirm": "56 validation items, eight per class, from disjoint confirmation judgments. The 112 original LegalSeg pilot sentences, separate 196 newly sampled cases, and seven-role paragraph-format tests are held out. The four-role corpus is excluded under the user's updated scope."
+    },
+    "hidden_width": 1536,
+    "source_tensor": "token_embd.weight",
+    "token_ids": [
+      236776,
+      236799,
+      236780,
+      236796,
+      236788,
+      236811,
+      236823
+    ],
+    "selected_including_parent": {
+      "bias_coefficient": 0.25,
+      "damping": 1,
+      "margin": 1.602304458618164,
+      "accuracy": 0.17857142857142858,
+      "macro_f1": 0.1170892599464028,
+      "change_norm": 1.9383292198181152
+    },
+    "selected_actual_edit": {
+      "bias_coefficient": 0.25,
+      "damping": 1,
+      "margin": 1.602304458618164,
+      "accuracy": 0.17857142857142858,
+      "macro_f1": 0.1170892599464028,
+      "change_norm": 1.9383292198181152
+    },
+    "development_candidates": [
+      {
+        "bias_coefficient": 0,
+        "damping": 0,
+        "margin": 1.6556396484375,
+        "accuracy": 0.16071428571428573,
+        "macro_f1": 0.09008769008769009,
+        "change_norm": 0.0
+      },
+      {
+        "bias_coefficient": 0,
+        "damping": 0.5,
+        "margin": 1.6556396484375,
+        "accuracy": 0.17857142857142858,
+        "macro_f1": 0.11517940509537149,
+        "change_norm": 0.6090075969696045
+      },
+      {
+        "bias_coefficient": 0,
+        "damping": 1,
+        "margin": 1.6556396484375,
+        "accuracy": 0.17857142857142858,
+        "macro_f1": 0.11369956787746546,
+        "change_norm": 0.46791648864746094
+      },
+      {
+        "bias_coefficient": 0.25,
+        "damping": 0,
+        "margin": 1.602304458618164,
+        "accuracy": 0.16071428571428573,
+        "macro_f1": 0.09603174603174604,
+        "change_norm": 1.9594321250915527
+      },
+      {
+        "bias_coefficient": 0.25,
+        "damping": 0.5,
+        "margin": 1.602304458618164,
+        "accuracy": 0.17857142857142858,
+        "macro_f1": 0.1170892599464028,
+        "change_norm": 1.947732925415039
+      },
+      {
+        "bias_coefficient": 0.25,
+        "damping": 1,
+        "margin": 1.602304458618164,
+        "accuracy": 0.17857142857142858,
+        "macro_f1": 0.1170892599464028,
+        "change_norm": 1.9383292198181152
+      },
+      {
+        "bias_coefficient": 0.5,
+        "damping": 0,
+        "margin": 1.7523221969604492,
+        "accuracy": 0.16071428571428573,
+        "macro_f1": 0.09603174603174604,
+        "change_norm": 3.9188642501831055
+      },
+      {
+        "bias_coefficient": 0.5,
+        "damping": 0.5,
+        "margin": 1.7523221969604492,
+        "accuracy": 0.17857142857142858,
+        "macro_f1": 0.1170892599464028,
+        "change_norm": 3.5391688346862793
+      },
+      {
+        "bias_coefficient": 0.5,
+        "damping": 1,
+        "margin": 1.7523221969604492,
+        "accuracy": 0.17857142857142858,
+        "macro_f1": 0.1170892599464028,
+        "change_norm": 3.5576465129852295
+      },
+      {
+        "bias_coefficient": 1,
+        "damping": 0,
+        "margin": 1.3031158447265625,
+        "accuracy": 0.14285714285714285,
+        "macro_f1": 0.06106174527227159,
+        "change_norm": 7.837728500366211
+      },
+      {
+        "bias_coefficient": 1,
+        "damping": 0.5,
+        "margin": 1.3031158447265625,
+        "accuracy": 0.16071428571428573,
+        "macro_f1": 0.06984126984126984,
+        "change_norm": 6.865334987640381
+      },
+      {
+        "bias_coefficient": 1,
+        "damping": 1,
+        "margin": 1.3031158447265625,
+        "accuracy": 0.16071428571428573,
+        "macro_f1": 0.06984126984126984,
+        "change_norm": 6.920399188995361
+      }
+    ],
+    "projection_parity": {
+      "neutral": {
+        "rows": 5,
+        "same_native_argmax": 5,
+        "max_abs_softcapped_logit_difference": 0.07211780548095703
+      },
+      "keys": {
+        "rows": 21,
+        "same_native_argmax": 21,
+        "max_abs_softcapped_logit_difference": 0.11656928062438965
+      },
+      "select": {
+        "rows": 56,
+        "same_native_argmax": 56,
+        "max_abs_softcapped_logit_difference": 0.12662363052368164
+      }
+    },
+    "prompt_sha256": "4cd6b3455c3f8347cef9e2440762720e81c5729d47ea8940484eb500f37c9482",
+    "sha256": {
+      "edited": "955e479cefd636c4c2856ee22f5deb22a563897c7b9dfd959157505c3a37e5a6",
+      "unchanged": "b2052977547383ed6f4b32539f607ffebf8e6bf996a0d9be27e989a1acc85d20"
+    }
+  },
+  "confirmation": {
+    "unchanged": {
+      "macro_f1": 0.10853548966756514,
+      "accuracy": 0.16071428571428573,
+      "f1": {
+        "none": 0.13333333333333333,
+        "facts": 0.0,
+        "issue": 0.4,
+        "petitioner_argument": 0.0,
+        "respondent_argument": 0.0,
+        "reasoning": 0.0,
+        "decision": 0.22641509433962265
+      },
+      "precision": {
+        "none": 0.14285714285714285,
+        "facts": 0.0,
+        "issue": 1.0,
+        "petitioner_argument": 0.0,
+        "respondent_argument": 0.0,
+        "reasoning": 0.0,
+        "decision": 0.13333333333333333
+      },
+      "recall": {
+        "none": 0.125,
+        "facts": 0.0,
+        "issue": 0.25,
+        "petitioner_argument": 0.0,
+        "respondent_argument": 0.0,
+        "reasoning": 0.0,
+        "decision": 0.75
+      },
+      "confusion": [
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          7
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          8
+        ],
+        [
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          6
+        ],
+        [
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          7
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          7
+        ],
+        [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          6
+        ]
+      ]
+    },
+    "edited": {
+      "macro_f1": 0.11086691086691088,
+      "accuracy": 0.16071428571428573,
+      "f1": {
+        "none": 0.15384615384615385,
+        "facts": 0.0,
+        "issue": 0.4,
+        "petitioner_argument": 0.0,
+        "respondent_argument": 0.0,
+        "reasoning": 0.0,
+        "decision": 0.2222222222222222
+      },
+      "precision": {
+        "none": 0.2,
+        "facts": 0.0,
+        "issue": 1.0,
+        "petitioner_argument": 0.0,
+        "respondent_argument": 0.0,
+        "reasoning": 0.0,
+        "decision": 0.13043478260869565
+      },
+      "recall": {
+        "none": 0.125,
+        "facts": 0.0,
+        "issue": 0.25,
+        "petitioner_argument": 0.0,
+        "respondent_argument": 0.0,
+        "reasoning": 0.0,
+        "decision": 0.75
+      },
+      "confusion": [
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          7
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          8
+        ],
+        [
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          6
+        ],
+        [
+          3,
+          0,
+          0,
+          0,
+          1,
+          0,
+          4
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          8
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          7
+        ],
+        [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          6
+        ]
+      ]
+    },
+    "native": {
+      "macro_f1": 0.10853548966756514,
+      "accuracy": 0.16071428571428573,
+      "f1": {
+        "none": 0.13333333333333333,
+        "facts": 0.0,
+        "issue": 0.4,
+        "petitioner_argument": 0.0,
+        "respondent_argument": 0.0,
+        "reasoning": 0.0,
+        "decision": 0.22641509433962265
+      },
+      "precision": {
+        "none": 0.14285714285714285,
+        "facts": 0.0,
+        "issue": 1.0,
+        "petitioner_argument": 0.0,
+        "respondent_argument": 0.0,
+        "reasoning": 0.0,
+        "decision": 0.13333333333333333
+      },
+      "recall": {
+        "none": 0.125,
+        "facts": 0.0,
+        "issue": 0.25,
+        "petitioner_argument": 0.0,
+        "respondent_argument": 0.0,
+        "reasoning": 0.0,
+        "decision": 0.75
+      },
+      "confusion": [
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          7
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          8
+        ],
+        [
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          6
+        ],
+        [
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          4
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          7
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          7
+        ],
+        [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          6
+        ]
+      ]
+    }
+  },
+  "confirmation_parity": {
+    "rows": 56,
+    "same_native_argmax": 56,
+    "max_abs_softcapped_logit_difference": 0.1381368637084961
+  },
+  "matched_parity": {
+    "rows": 112,
+    "same_native_argmax": 112,
+    "max_abs_softcapped_logit_difference": 0.12673664093017578
+  },
+  "scope_decision": "The A\u2013G slot edit tied the copied head at 9/56 on independent validation and 21/112 on the balanced real pilot. Additional forward passes for this prompt were retired after those checks. The distinct seven-role-name prompt remained in evaluation."
+}

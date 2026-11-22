@@ -1,0 +1,1853 @@
+{
+  "sources": {
+    "sentence": "https://huggingface.co/datasets/L-NLProc/LegalSeg_CSV",
+    "paragraph": "https://huggingface.co/datasets/L-NLProc/LegalSeg_CSV"
+  },
+  "selection": "Adjacent original LegalSeg sentences from the same judgment combined into a paragraph-length input. All constituent seven-role gold labels agree. Their shared role is a derived paragraph reference.",
+  "inference": "One seven-way choice on identical UTF-8 text. No surrounding judgment, gold, source, document ID or party metadata supplied. Gemini uses a fixed role rubric. Local BERT takes raw text only.",
+  "uncertainty": "4,000 paired resamples of whole judgments within each set. Percentile 95% intervals; exact seven-label agreement.",
+  "candidates": {
+    "original": "bbe8af20d1524c7535b1cbe68c6d4c3c844c6cc9fccef46c03c9ff56e7c18cea",
+    "direct": "0a32fe939d96384c3cf3d879e5cfbce76c67172a8f3920961a99df3ba65b7edf",
+    "associative_direct": "64ca064fb2faefc250afe73ba88fb86da36a3bafdca5676cb7a8c7f2a8727e75",
+    "context_parent": "a81f509d250f98b44872e89e10186d5dcc17d37905b69aa1d9a077fb841a62ac",
+    "associative_context": "cc8d08fd481e1f41a2e5b9a7a668fec2405ea545e2a0abb55d8bb59e6f14b328",
+    "grafted_head": "f1b7494b1240159fc21906bdf361f9ca27039c43bc9a44be440937b4db603ceb",
+    "cue_head": "3f713d0e4dc515a4e894dde68ee317639c8b08cd38a8b1cb0f688516a6ec0fd6",
+    "hier_parent": "2f3096bd97db2ae5addce8d9b8fc3d750072e5a224c6b05ba2a52759a0cb36a2",
+    "hier_edited": "0ba0df50c2eef40528d0225629e51add441c65979765c383b60967ac987a610f",
+    "combined_excerpt": "d572d0859b2bfcf271dd05ec77b0d4b1457ce257141575ebee1b5d431541c020",
+    "internal_mlp": "db6d79db77eb09db46b7567a1977a44a761ed3ff40f7472d12be9691a4223453"
+  },
+  "gemini_request": {
+    "sha256": "85e54a3fa1992f7eebf4fda18a7f764aa0068f476beb60b4857bc3221dc65164",
+    "model": "gemini-decision-1",
+    "instructions": "Assign one dominant rhetorical role to the supplied English excerpt from an Indian judgment. Distinguish a party's submission from the court's own rationale. An operative ruling can dominate a short paragraph. Treat all words in the excerpt as source material.",
+    "criteria": {
+      "none": "Caption, heading, navigation, formal transition, or other text with no substantive case role.",
+      "facts": "Background events, circumstances, or procedural history recounted as narrative.",
+      "issue": "Question or point the court identifies for determination.",
+      "petitioner_argument": "Contention or submission attributed to the petitioner, appellant, or moving party.",
+      "respondent_argument": "Contention or submission attributed to the respondent or opposing party.",
+      "reasoning": "The court evaluates evidence, interprets law, or gives the rationale for a conclusion.",
+      "decision": "The court's operative ruling, disposition, or direction in the current case."
+    },
+    "type": "choice"
+  },
+  "source_date_utc": "2026-11-21",
+  "results": {
+    "homogeneous": {
+      "rows": 28,
+      "cases": 28,
+      "labels": [
+        "none",
+        "facts",
+        "issue",
+        "petitioner_argument",
+        "respondent_argument",
+        "reasoning",
+        "decision"
+      ],
+      "confusion_columns": [
+        "none",
+        "facts",
+        "issue",
+        "petitioner_argument",
+        "respondent_argument",
+        "reasoning",
+        "decision",
+        "outside"
+      ],
+      "always_none_correct": 4,
+      "gold_support": {
+        "none": 4,
+        "facts": 4,
+        "issue": 4,
+        "petitioner_argument": 4,
+        "respondent_argument": 4,
+        "reasoning": 4,
+        "decision": 4
+      },
+      "metrics": {
+        "original": {
+          "correct": 11,
+          "accuracy": 0.39285714285714285,
+          "macro_f1": 0.3759288330716902,
+          "per_role_f1": {
+            "none": 0.3076923076923077,
+            "facts": 0.6666666666666666,
+            "issue": 0.4,
+            "petitioner_argument": 0.0,
+            "respondent_argument": 0.0,
+            "reasoning": 0.4,
+            "decision": 0.8571428571428571
+          },
+          "confusion": [
+            [
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0
+            ],
+            [
+              1,
+              3,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              1,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              2,
+              0,
+              2,
+              0,
+              0
+            ],
+            [
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              3,
+              0
+            ]
+          ],
+          "outside_taxonomy": 0
+        },
+        "direct": {
+          "correct": 10,
+          "accuracy": 0.35714285714285715,
+          "macro_f1": 0.34100819815105526,
+          "per_role_f1": {
+            "none": 0.2222222222222222,
+            "facts": 0.6666666666666666,
+            "issue": 0.3333333333333333,
+            "petitioner_argument": 0.0,
+            "respondent_argument": 0.0,
+            "reasoning": 0.3076923076923077,
+            "decision": 0.8571428571428571
+          },
+          "confusion": [
+            [
+              1,
+              0,
+              0,
+              0,
+              0,
+              3,
+              0,
+              0
+            ],
+            [
+              0,
+              3,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              2,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              2,
+              0,
+              2,
+              0,
+              0
+            ],
+            [
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              3,
+              0
+            ]
+          ],
+          "outside_taxonomy": 0
+        },
+        "associative_direct": {
+          "correct": 10,
+          "accuracy": 0.35714285714285715,
+          "macro_f1": 0.3224489795918367,
+          "per_role_f1": {
+            "none": 0.0,
+            "facts": 0.6666666666666666,
+            "issue": 0.3333333333333333,
+            "petitioner_argument": 0.0,
+            "respondent_argument": 0.0,
+            "reasoning": 0.4,
+            "decision": 0.8571428571428571
+          },
+          "confusion": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              4,
+              0,
+              0
+            ],
+            [
+              0,
+              3,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              2,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              2,
+              0,
+              2,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              0,
+              0,
+              3,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              3,
+              0
+            ]
+          ],
+          "outside_taxonomy": 0
+        },
+        "context_parent": {
+          "correct": 11,
+          "accuracy": 0.39285714285714285,
+          "macro_f1": 0.3759288330716902,
+          "per_role_f1": {
+            "none": 0.3076923076923077,
+            "facts": 0.4,
+            "issue": 0.0,
+            "petitioner_argument": 0.3333333333333333,
+            "respondent_argument": 0.3333333333333333,
+            "reasoning": 0.4,
+            "decision": 0.8571428571428571
+          },
+          "confusion": [
+            [
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0
+            ],
+            [
+              2,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              2,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              1,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              1,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              3,
+              0
+            ]
+          ],
+          "outside_taxonomy": 0
+        },
+        "associative_context": {
+          "correct": 11,
+          "accuracy": 0.39285714285714285,
+          "macro_f1": 0.4098948670377242,
+          "per_role_f1": {
+            "none": 0.18181818181818182,
+            "facts": 0.4,
+            "issue": 0.4,
+            "petitioner_argument": 0.3333333333333333,
+            "respondent_argument": 0.3333333333333333,
+            "reasoning": 0.36363636363636365,
+            "decision": 0.8571428571428571
+          },
+          "confusion": [
+            [
+              1,
+              0,
+              0,
+              0,
+              0,
+              3,
+              0,
+              0
+            ],
+            [
+              2,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              2,
+              1,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              1,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              1,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              3,
+              0
+            ]
+          ],
+          "outside_taxonomy": 0
+        },
+        "grafted_head": {
+          "correct": 11,
+          "accuracy": 0.39285714285714285,
+          "macro_f1": 0.3759288330716902,
+          "per_role_f1": {
+            "none": 0.3076923076923077,
+            "facts": 0.4,
+            "issue": 0.0,
+            "petitioner_argument": 0.3333333333333333,
+            "respondent_argument": 0.3333333333333333,
+            "reasoning": 0.4,
+            "decision": 0.8571428571428571
+          },
+          "confusion": [
+            [
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0
+            ],
+            [
+              2,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              2,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              1,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              1,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              3,
+              0
+            ]
+          ],
+          "outside_taxonomy": 0
+        },
+        "cue_head": {
+          "correct": 10,
+          "accuracy": 0.35714285714285715,
+          "macro_f1": 0.3224489795918367,
+          "per_role_f1": {
+            "none": 0.0,
+            "facts": 0.6666666666666666,
+            "issue": 0.3333333333333333,
+            "petitioner_argument": 0.0,
+            "respondent_argument": 0.0,
+            "reasoning": 0.4,
+            "decision": 0.8571428571428571
+          },
+          "confusion": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              4,
+              0,
+              0
+            ],
+            [
+              0,
+              3,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              2,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              2,
+              0,
+              2,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              0,
+              0,
+              3,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              3,
+              0
+            ]
+          ],
+          "outside_taxonomy": 0
+        },
+        "hier_parent": {
+          "correct": 6,
+          "accuracy": 0.21428571428571427,
+          "macro_f1": 0.13333333333333333,
+          "per_role_f1": {
+            "none": 0.26666666666666666,
+            "facts": 0.0,
+            "issue": 0.0,
+            "petitioner_argument": 0.0,
+            "respondent_argument": 0.0,
+            "reasoning": 0.0,
+            "decision": 0.6666666666666666
+          },
+          "confusion": [
+            [
+              4,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0
+            ]
+          ],
+          "outside_taxonomy": 0
+        },
+        "hier_edited": {
+          "correct": 13,
+          "accuracy": 0.4642857142857143,
+          "macro_f1": 0.4527210884353741,
+          "per_role_f1": {
+            "none": 0.4,
+            "facts": 0.2857142857142857,
+            "issue": 0.6666666666666666,
+            "petitioner_argument": 0.6666666666666666,
+            "respondent_argument": 0.4,
+            "reasoning": 0.0,
+            "decision": 0.75
+          },
+          "confusion": [
+            [
+              4,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              1,
+              1,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              3,
+              0
+            ]
+          ],
+          "outside_taxonomy": 0
+        },
+        "combined_excerpt": {
+          "correct": 10,
+          "accuracy": 0.35714285714285715,
+          "macro_f1": 0.3843537414965986,
+          "per_role_f1": {
+            "none": 0.16666666666666666,
+            "facts": 0.4,
+            "issue": 0.4,
+            "petitioner_argument": 0.3333333333333333,
+            "respondent_argument": 0.3333333333333333,
+            "reasoning": 0.2,
+            "decision": 0.8571428571428571
+          },
+          "confusion": [
+            [
+              1,
+              0,
+              0,
+              0,
+              0,
+              3,
+              0,
+              0
+            ],
+            [
+              2,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              2,
+              1,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              1,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              1,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              3,
+              0
+            ]
+          ],
+          "outside_taxonomy": 0
+        },
+        "internal_mlp": {
+          "correct": 11,
+          "accuracy": 0.39285714285714285,
+          "macro_f1": 0.36224489795918363,
+          "per_role_f1": {
+            "none": 0.25,
+            "facts": 0.6666666666666666,
+            "issue": 0.3333333333333333,
+            "petitioner_argument": 0.0,
+            "respondent_argument": 0.0,
+            "reasoning": 0.42857142857142855,
+            "decision": 0.8571428571428571
+          },
+          "confusion": [
+            [
+              1,
+              0,
+              0,
+              0,
+              0,
+              3,
+              0,
+              0
+            ],
+            [
+              0,
+              3,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              2,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              2,
+              0,
+              2,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              0,
+              0,
+              3,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              3,
+              0
+            ]
+          ],
+          "outside_taxonomy": 0
+        },
+        "gemini": {
+          "correct": 11,
+          "accuracy": 0.39285714285714285,
+          "macro_f1": 0.3794665234514859,
+          "per_role_f1": {
+            "none": 0.0,
+            "facts": 0.2857142857142857,
+            "issue": 0.3333333333333333,
+            "petitioner_argument": 0.5714285714285714,
+            "respondent_argument": 0.4,
+            "reasoning": 0.3157894736842105,
+            "decision": 0.75
+          },
+          "confusion": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              4,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              0,
+              3,
+              0,
+              0
+            ],
+            [
+              0,
+              2,
+              1,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              2,
+              0,
+              2,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              1,
+              2,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              0,
+              3,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              3,
+              0
+            ]
+          ],
+          "outside_taxonomy": 0
+        }
+      },
+      "paired_with_gemini": {
+        "original": {
+          "projected_agreement_count": 12,
+          "seven_label_agreement_count": 12,
+          "both_correct": 7,
+          "only_local_correct": 4,
+          "only_gemini_correct": 4,
+          "both_wrong": 13,
+          "accuracy_gap": 0.0,
+          "accuracy_gap_95pct": [
+            -0.21428571428571425,
+            0.1785714285714286
+          ],
+          "macro_f1_gap": -0.003537690379795677,
+          "macro_f1_gap_95pct": [
+            -0.14186029405014366,
+            0.1550020008003202
+          ]
+        },
+        "direct": {
+          "projected_agreement_count": 14,
+          "seven_label_agreement_count": 14,
+          "both_correct": 6,
+          "only_local_correct": 4,
+          "only_gemini_correct": 5,
+          "both_wrong": 13,
+          "accuracy_gap": -0.0357142857142857,
+          "accuracy_gap_95pct": [
+            -0.25,
+            0.17857142857142855
+          ],
+          "macro_f1_gap": -0.03845832530043064,
+          "macro_f1_gap_95pct": [
+            -0.21094960711557348,
+            0.14139580101046265
+          ]
+        },
+        "associative_direct": {
+          "projected_agreement_count": 16,
+          "seven_label_agreement_count": 16,
+          "both_correct": 7,
+          "only_local_correct": 3,
+          "only_gemini_correct": 4,
+          "both_wrong": 14,
+          "accuracy_gap": -0.0357142857142857,
+          "accuracy_gap_95pct": [
+            -0.2142857142857143,
+            0.14285714285714285
+          ],
+          "macro_f1_gap": -0.05701754385964919,
+          "macro_f1_gap_95pct": [
+            -0.21560606698819879,
+            0.11070244074330378
+          ]
+        },
+        "context_parent": {
+          "projected_agreement_count": 12,
+          "seven_label_agreement_count": 12,
+          "both_correct": 7,
+          "only_local_correct": 4,
+          "only_gemini_correct": 4,
+          "both_wrong": 13,
+          "accuracy_gap": 0.0,
+          "accuracy_gap_95pct": [
+            -0.17946428571428544,
+            0.1785714285714286
+          ],
+          "macro_f1_gap": -0.003537690379795677,
+          "macro_f1_gap_95pct": [
+            -0.16877594627594625,
+            0.1595687880415324
+          ]
+        },
+        "associative_context": {
+          "projected_agreement_count": 14,
+          "seven_label_agreement_count": 14,
+          "both_correct": 8,
+          "only_local_correct": 3,
+          "only_gemini_correct": 3,
+          "both_wrong": 14,
+          "accuracy_gap": 0.0,
+          "accuracy_gap_95pct": [
+            -0.17857142857142855,
+            0.17857142857142855
+          ],
+          "macro_f1_gap": 0.030428343586238304,
+          "macro_f1_gap_95pct": [
+            -0.12626075470060427,
+            0.16358995015010072
+          ]
+        },
+        "grafted_head": {
+          "projected_agreement_count": 12,
+          "seven_label_agreement_count": 12,
+          "both_correct": 7,
+          "only_local_correct": 4,
+          "only_gemini_correct": 4,
+          "both_wrong": 13,
+          "accuracy_gap": 0.0,
+          "accuracy_gap_95pct": [
+            -0.17946428571428544,
+            0.1785714285714286
+          ],
+          "macro_f1_gap": -0.003537690379795677,
+          "macro_f1_gap_95pct": [
+            -0.16877594627594625,
+            0.1595687880415324
+          ]
+        },
+        "cue_head": {
+          "projected_agreement_count": 16,
+          "seven_label_agreement_count": 16,
+          "both_correct": 7,
+          "only_local_correct": 3,
+          "only_gemini_correct": 4,
+          "both_wrong": 14,
+          "accuracy_gap": -0.0357142857142857,
+          "accuracy_gap_95pct": [
+            -0.2142857142857143,
+            0.14285714285714285
+          ],
+          "macro_f1_gap": -0.05701754385964919,
+          "macro_f1_gap_95pct": [
+            -0.21560606698819879,
+            0.11070244074330378
+          ]
+        },
+        "hier_parent": {
+          "projected_agreement_count": 2,
+          "seven_label_agreement_count": 2,
+          "both_correct": 2,
+          "only_local_correct": 4,
+          "only_gemini_correct": 9,
+          "both_wrong": 13,
+          "accuracy_gap": -0.17857142857142858,
+          "accuracy_gap_95pct": [
+            -0.42857142857142855,
+            0.07142857142857142
+          ],
+          "macro_f1_gap": -0.24613319011815257,
+          "macro_f1_gap_95pct": [
+            -0.41271882656708947,
+            -0.05183717535597227
+          ]
+        },
+        "hier_edited": {
+          "projected_agreement_count": 7,
+          "seven_label_agreement_count": 7,
+          "both_correct": 7,
+          "only_local_correct": 6,
+          "only_gemini_correct": 4,
+          "both_wrong": 11,
+          "accuracy_gap": 0.07142857142857145,
+          "accuracy_gap_95pct": [
+            -0.14285714285714285,
+            0.2857142857142857
+          ],
+          "macro_f1_gap": 0.07325456498388822,
+          "macro_f1_gap_95pct": [
+            -0.09064747227562346,
+            0.22812180613872335
+          ]
+        },
+        "combined_excerpt": {
+          "projected_agreement_count": 13,
+          "seven_label_agreement_count": 13,
+          "both_correct": 7,
+          "only_local_correct": 3,
+          "only_gemini_correct": 4,
+          "both_wrong": 14,
+          "accuracy_gap": -0.0357142857142857,
+          "accuracy_gap_95pct": [
+            -0.2142857142857143,
+            0.14285714285714285
+          ],
+          "macro_f1_gap": 0.004887218045112718,
+          "macro_f1_gap_95pct": [
+            -0.1501957361892126,
+            0.13763764596747796
+          ]
+        },
+        "internal_mlp": {
+          "projected_agreement_count": 15,
+          "seven_label_agreement_count": 15,
+          "both_correct": 7,
+          "only_local_correct": 4,
+          "only_gemini_correct": 4,
+          "both_wrong": 13,
+          "accuracy_gap": 0.0,
+          "accuracy_gap_95pct": [
+            -0.21428571428571425,
+            0.21428571428571425
+          ],
+          "macro_f1_gap": -0.017221625492302273,
+          "macro_f1_gap_95pct": [
+            -0.18856378915202443,
+            0.15759743757642922
+          ]
+        }
+      }
+    }
+  },
+  "rows": [
+    {
+      "id": "joined-30432-30433",
+      "doc": "6573",
+      "gold": "none",
+      "text_sha256": "b361d3f9fa2fc0da64dedbb56b039ff420cef6809cc599fd480cc540f9ca7308",
+      "transformation": "joined adjacent unreordered rows from the same judgment; every source label agrees",
+      "gemini": "reasoning",
+      "original": "none",
+      "direct": "none",
+      "associative_direct": "reasoning",
+      "context_parent": "none",
+      "associative_context": "none",
+      "grafted_head": "none",
+      "cue_head": "reasoning",
+      "hier_parent": "none",
+      "hier_edited": "none",
+      "combined_excerpt": "none",
+      "internal_mlp": "none"
+    },
+    {
+      "id": "joined-27447-27448",
+      "doc": "6559",
+      "gold": "none",
+      "text_sha256": "4c713b86375c6e02159f1ea151f6390be5a16259a60fd4decbe4e0d0d5f77ed5",
+      "transformation": "joined adjacent unreordered rows from the same judgment; every source label agrees",
+      "gemini": "reasoning",
+      "original": "reasoning",
+      "direct": "reasoning",
+      "associative_direct": "reasoning",
+      "context_parent": "reasoning",
+      "associative_context": "reasoning",
+      "grafted_head": "reasoning",
+      "cue_head": "reasoning",
+      "hier_parent": "none",
+      "hier_edited": "none",
+      "combined_excerpt": "reasoning",
+      "internal_mlp": "reasoning"
+    },
+    {
+      "id": "joined-122575-122576",
+      "doc": "6994",
+      "gold": "none",
+      "text_sha256": "59139fbd3ea281cc0d5b9b08f6ba679e62d2a660bc8dd85db9732c04bb29a901",
+      "transformation": "joined adjacent unreordered rows from the same judgment; every source label agrees",
+      "gemini": "reasoning",
+      "original": "reasoning",
+      "direct": "reasoning",
+      "associative_direct": "reasoning",
+      "context_parent": "reasoning",
+      "associative_context": "reasoning",
+      "grafted_head": "reasoning",
+      "cue_head": "reasoning",
+      "hier_parent": "none",
+      "hier_edited": "none",
+      "combined_excerpt": "reasoning",
+      "internal_mlp": "reasoning"
+    },
+    {
+      "id": "joined-87251-87252",
+      "doc": "6829",
+      "gold": "none",
+      "text_sha256": "68b792d4ed3570d12ac3ddf7501973d2180a32b6521fb2684b9a44d11838b528",
+      "transformation": "joined adjacent unreordered rows from the same judgment; every source label agrees",
+      "gemini": "reasoning",
+      "original": "none",
+      "direct": "reasoning",
+      "associative_direct": "reasoning",
+      "context_parent": "none",
+      "associative_context": "reasoning",
+      "grafted_head": "none",
+      "cue_head": "reasoning",
+      "hier_parent": "none",
+      "hier_edited": "none",
+      "combined_excerpt": "reasoning",
+      "internal_mlp": "reasoning"
+    },
+    {
+      "id": "joined-82062-82064",
+      "doc": "6806",
+      "gold": "facts",
+      "text_sha256": "df16792f174536e4fda4fa4da6c177601fb11f1f5039dde5c7926c3295512fef",
+      "transformation": "joined adjacent unreordered rows from the same judgment; every source label agrees",
+      "gemini": "facts",
+      "original": "facts",
+      "direct": "issue",
+      "associative_direct": "issue",
+      "context_parent": "none",
+      "associative_context": "none",
+      "grafted_head": "none",
+      "cue_head": "issue",
+      "hier_parent": "none",
+      "hier_edited": "decision",
+      "combined_excerpt": "none",
+      "internal_mlp": "issue"
+    },
+    {
+      "id": "joined-81104-81105",
+      "doc": "6802",
+      "gold": "facts",
+      "text_sha256": "c88a461e57ee0e99d3b79a5dfdfd3ff8af3dd286f16802ea6fda8b2774eabc94",
+      "transformation": "joined adjacent unreordered rows from the same judgment; every source label agrees",
+      "gemini": "reasoning",
+      "original": "none",
+      "direct": "facts",
+      "associative_direct": "facts",
+      "context_parent": "none",
+      "associative_context": "none",
+      "grafted_head": "none",
+      "cue_head": "facts",
+      "hier_parent": "none",
+      "hier_edited": "none",
+      "combined_excerpt": "none",
+      "internal_mlp": "facts"
+    },
+    {
+      "id": "joined-66506-66508",
+      "doc": "6732",
+      "gold": "facts",
+      "text_sha256": "798afe62ac63a29f5a16ee1aa969bc99789871ae257b905452b2fce46c7bd7fc",
+      "transformation": "joined adjacent unreordered rows from the same judgment; every source label agrees",
+      "gemini": "reasoning",
+      "original": "facts",
+      "direct": "facts",
+      "associative_direct": "facts",
+      "context_parent": "facts",
+      "associative_context": "facts",
+      "grafted_head": "facts",
+      "cue_head": "facts",
+      "hier_parent": "none",
+      "hier_edited": "none",
+      "combined_excerpt": "facts",
+      "internal_mlp": "facts"
+    },
+    {
+      "id": "joined-38828-38830",
+      "doc": "6605",
+      "gold": "facts",
+      "text_sha256": "3bf47731a5f3888cd907cc4ff7fe294ebe99fe305dd883e3fee4d4da70d35f20",
+      "transformation": "joined adjacent unreordered rows from the same judgment; every source label agrees",
+      "gemini": "reasoning",
+      "original": "facts",
+      "direct": "facts",
+      "associative_direct": "facts",
+      "context_parent": "facts",
+      "associative_context": "facts",
+      "grafted_head": "facts",
+      "cue_head": "facts",
+      "hier_parent": "none",
+      "hier_edited": "facts",
+      "combined_excerpt": "facts",
+      "internal_mlp": "facts"
+    },
+    {
+      "id": "joined-13621-13622",
+      "doc": "6488",
+      "gold": "issue",
+      "text_sha256": "0d94086c0e5695d19b7bd9728c4bb42d712bcf86d5556328fa3b98e8f7d42cb1",
+      "transformation": "joined adjacent unreordered rows from the same judgment; every source label agrees",
+      "gemini": "facts",
+      "original": "none",
+      "direct": "none",
+      "associative_direct": "none",
+      "context_parent": "reasoning",
+      "associative_context": "reasoning",
+      "grafted_head": "reasoning",
+      "cue_head": "none",
+      "hier_parent": "none",
+      "hier_edited": "issue",
+      "combined_excerpt": "reasoning",
+      "internal_mlp": "none"
+    },
+    {
+      "id": "joined-54412-54413",
+      "doc": "6677",
+      "gold": "issue",
+      "text_sha256": "6853cb8e9ef71521ea274fefefe60048e143599ffac06db74c1b04defc41637b",
+      "transformation": "joined adjacent unreordered rows from the same judgment; every source label agrees",
+      "gemini": "decision",
+      "original": "facts",
+      "direct": "facts",
+      "associative_direct": "facts",
+      "context_parent": "facts",
+      "associative_context": "facts",
+      "grafted_head": "facts",
+      "cue_head": "facts",
+      "hier_parent": "none",
+      "hier_edited": "facts",
+      "combined_excerpt": "facts",
+      "internal_mlp": "facts"
+    },
+    {
+      "id": "joined-16814-16815",
+      "doc": "6501",
+      "gold": "issue",
+      "text_sha256": "d3635b7fc12cbb786165e8b60213d752c653e8f349b4eb932c6eac6fe9e6c34f",
+      "transformation": "joined adjacent unreordered rows from the same judgment; every source label agrees",
+      "gemini": "issue",
+      "original": "issue",
+      "direct": "issue",
+      "associative_direct": "issue",
+      "context_parent": "none",
+      "associative_context": "issue",
+      "grafted_head": "none",
+      "cue_head": "issue",
+      "hier_parent": "none",
+      "hier_edited": "issue",
+      "combined_excerpt": "issue",
+      "internal_mlp": "issue"
+    },
+    {
+      "id": "joined-10597-10598",
+      "doc": "6467",
+      "gold": "issue",
+      "text_sha256": "571652dd88d950c7f9511b4781ae1b0cdcc758e84d6c55f34c57ca94b345c745",
+      "transformation": "joined adjacent unreordered rows from the same judgment; every source label agrees",
+      "gemini": "facts",
+      "original": "none",
+      "direct": "none",
+      "associative_direct": "none",
+      "context_parent": "facts",
+      "associative_context": "facts",
+      "grafted_head": "facts",
+      "cue_head": "none",
+      "hier_parent": "none",
+      "hier_edited": "none",
+      "combined_excerpt": "facts",
+      "internal_mlp": "none"
+    },
+    {
+      "id": "joined-46075-46076",
+      "doc": "6641",
+      "gold": "petitioner_argument",
+      "text_sha256": "a89c86ca5b222a19997ecf65e7ce0f2bf4f269f0abf187db6305538be946dd89",
+      "transformation": "joined adjacent unreordered rows from the same judgment; every source label agrees",
+      "gemini": "petitioner_argument",
+      "original": "respondent_argument",
+      "direct": "respondent_argument",
+      "associative_direct": "respondent_argument",
+      "context_parent": "petitioner_argument",
+      "associative_context": "petitioner_argument",
+      "grafted_head": "petitioner_argument",
+      "cue_head": "respondent_argument",
+      "hier_parent": "none",
+      "hier_edited": "petitioner_argument",
+      "combined_excerpt": "petitioner_argument",
+      "internal_mlp": "respondent_argument"
+    },
+    {
+      "id": "joined-56736-56738",
+      "doc": "6688",
+      "gold": "petitioner_argument",
+      "text_sha256": "4737cbd7593dbafc3f282ff577674c58e926b753729ed64f61f0887a07b81a0c",
+      "transformation": "joined adjacent unreordered rows from the same judgment; every source label agrees",
+      "gemini": "petitioner_argument",
+      "original": "respondent_argument",
+      "direct": "respondent_argument",
+      "associative_direct": "respondent_argument",
+      "context_parent": "respondent_argument",
+      "associative_context": "respondent_argument",
+      "grafted_head": "respondent_argument",
+      "cue_head": "respondent_argument",
+      "hier_parent": "none",
+      "hier_edited": "petitioner_argument",
+      "combined_excerpt": "respondent_argument",
+      "internal_mlp": "respondent_argument"
+    },
+    {
+      "id": "joined-65345-65346",
+      "doc": "6726",
+      "gold": "petitioner_argument",
+      "text_sha256": "0da886b94bed41ec4eb590d048174b9ce5d2e8c9d5ee1a0126bf6130d03ab49a",
+      "transformation": "joined adjacent unreordered rows from the same judgment; every source label agrees",
+      "gemini": "reasoning",
+      "original": "none",
+      "direct": "reasoning",
+      "associative_direct": "reasoning",
+      "context_parent": "none",
+      "associative_context": "none",
+      "grafted_head": "none",
+      "cue_head": "reasoning",
+      "hier_parent": "none",
+      "hier_edited": "none",
+      "combined_excerpt": "none",
+      "internal_mlp": "reasoning"
+    },
+    {
+      "id": "joined-92631-92633",
+      "doc": "6854",
+      "gold": "petitioner_argument",
+      "text_sha256": "1aa3f914de473e833fb20a93b408cdbf4416ee93ce216d936813a0d44abf35d4",
+      "transformation": "joined adjacent unreordered rows from the same judgment; every source label agrees",
+      "gemini": "reasoning",
+      "original": "facts",
+      "direct": "facts",
+      "associative_direct": "facts",
+      "context_parent": "facts",
+      "associative_context": "facts",
+      "grafted_head": "facts",
+      "cue_head": "facts",
+      "hier_parent": "none",
+      "hier_edited": "none",
+      "combined_excerpt": "facts",
+      "internal_mlp": "facts"
+    },
+    {
+      "id": "joined-2353-2354",
+      "doc": "6426",
+      "gold": "respondent_argument",
+      "text_sha256": "24b013fda4571e3145c5dc0ff85bb2afd03dfb0c0a3522d04406c38a68967b90",
+      "transformation": "joined adjacent unreordered rows from the same judgment; every source label agrees",
+      "gemini": "reasoning",
+      "original": "reasoning",
+      "direct": "reasoning",
+      "associative_direct": "reasoning",
+      "context_parent": "facts",
+      "associative_context": "facts",
+      "grafted_head": "facts",
+      "cue_head": "reasoning",
+      "hier_parent": "none",
+      "hier_edited": "none",
+      "combined_excerpt": "facts",
+      "internal_mlp": "reasoning"
+    },
+    {
+      "id": "joined-74658-74660",
+      "doc": "6768",
+      "gold": "respondent_argument",
+      "text_sha256": "7bac2436e315273181d0bd2f0789b3ac8018c160dd8f6f190b412fe2ee9c5775",
+      "transformation": "joined adjacent unreordered rows from the same judgment; every source label agrees",
+      "gemini": "reasoning",
+      "original": "reasoning",
+      "direct": "reasoning",
+      "associative_direct": "reasoning",
+      "context_parent": "none",
+      "associative_context": "none",
+      "grafted_head": "none",
+      "cue_head": "reasoning",
+      "hier_parent": "none",
+      "hier_edited": "none",
+      "combined_excerpt": "none",
+      "internal_mlp": "reasoning"
+    },
+    {
+      "id": "joined-58201-58203",
+      "doc": "6697",
+      "gold": "respondent_argument",
+      "text_sha256": "3663ede753802cd187216945c8dc8488e811ebb8d9ee1348fb82cbad9923dc90",
+      "transformation": "joined adjacent unreordered rows from the same judgment; every source label agrees",
+      "gemini": "petitioner_argument",
+      "original": "petitioner_argument",
+      "direct": "petitioner_argument",
+      "associative_direct": "petitioner_argument",
+      "context_parent": "petitioner_argument",
+      "associative_context": "petitioner_argument",
+      "grafted_head": "petitioner_argument",
+      "cue_head": "petitioner_argument",
+      "hier_parent": "none",
+      "hier_edited": "none",
+      "combined_excerpt": "petitioner_argument",
+      "internal_mlp": "petitioner_argument"
+    },
+    {
+      "id": "joined-17661-17662",
+      "doc": "6508",
+      "gold": "respondent_argument",
+      "text_sha256": "3856ef39d32bdaf84fc2b2251327109e69ce533a36a0c32e41b4fe6df9ee8219",
+      "transformation": "joined adjacent unreordered rows from the same judgment; every source label agrees",
+      "gemini": "respondent_argument",
+      "original": "petitioner_argument",
+      "direct": "petitioner_argument",
+      "associative_direct": "petitioner_argument",
+      "context_parent": "respondent_argument",
+      "associative_context": "respondent_argument",
+      "grafted_head": "respondent_argument",
+      "cue_head": "petitioner_argument",
+      "hier_parent": "none",
+      "hier_edited": "respondent_argument",
+      "combined_excerpt": "respondent_argument",
+      "internal_mlp": "petitioner_argument"
+    },
+    {
+      "id": "joined-109366-109367",
+      "doc": "6936",
+      "gold": "reasoning",
+      "text_sha256": "62fb8768308616bbcd7c62d97d1a24507a7433e92ae7746b343ea79d457d1228",
+      "transformation": "joined adjacent unreordered rows from the same judgment; every source label agrees",
+      "gemini": "reasoning",
+      "original": "reasoning",
+      "direct": "reasoning",
+      "associative_direct": "reasoning",
+      "context_parent": "none",
+      "associative_context": "none",
+      "grafted_head": "none",
+      "cue_head": "reasoning",
+      "hier_parent": "none",
+      "hier_edited": "none",
+      "combined_excerpt": "none",
+      "internal_mlp": "reasoning"
+    },
+    {
+      "id": "joined-86944-86945",
+      "doc": "6828",
+      "gold": "reasoning",
+      "text_sha256": "072222e7fbf4a29b7ad8a3b322a07d9162b3f7d8c582547859e7a61ad73150a0",
+      "transformation": "joined adjacent unreordered rows from the same judgment; every source label agrees",
+      "gemini": "reasoning",
+      "original": "none",
+      "direct": "none",
+      "associative_direct": "reasoning",
+      "context_parent": "reasoning",
+      "associative_context": "reasoning",
+      "grafted_head": "reasoning",
+      "cue_head": "reasoning",
+      "hier_parent": "none",
+      "hier_edited": "none",
+      "combined_excerpt": "none",
+      "internal_mlp": "reasoning"
+    },
+    {
+      "id": "joined-39697-39698",
+      "doc": "6610",
+      "gold": "reasoning",
+      "text_sha256": "998e1e7dac82b1975d348b0665969a80a6333f5c13ffc91413df4e8695e8ed03",
+      "transformation": "joined adjacent unreordered rows from the same judgment; every source label agrees",
+      "gemini": "issue",
+      "original": "none",
+      "direct": "none",
+      "associative_direct": "none",
+      "context_parent": "none",
+      "associative_context": "none",
+      "grafted_head": "none",
+      "cue_head": "none",
+      "hier_parent": "none",
+      "hier_edited": "none",
+      "combined_excerpt": "none",
+      "internal_mlp": "none"
+    },
+    {
+      "id": "joined-22267-22268",
+      "doc": "6532",
+      "gold": "reasoning",
+      "text_sha256": "2fe910a240abbb977d97a580d0437e00fa65b475fa6b6c4785bda2d4d1ef0737",
+      "transformation": "joined adjacent unreordered rows from the same judgment; every source label agrees",
+      "gemini": "reasoning",
+      "original": "reasoning",
+      "direct": "reasoning",
+      "associative_direct": "reasoning",
+      "context_parent": "reasoning",
+      "associative_context": "reasoning",
+      "grafted_head": "reasoning",
+      "cue_head": "reasoning",
+      "hier_parent": "none",
+      "hier_edited": "facts",
+      "combined_excerpt": "reasoning",
+      "internal_mlp": "reasoning"
+    },
+    {
+      "id": "joined-17612-17613",
+      "doc": "6507",
+      "gold": "decision",
+      "text_sha256": "232c6df938854991b82d18c3630e2ff251f90947e7567e110b8e7db50a8685ee",
+      "transformation": "joined adjacent unreordered rows from the same judgment; every source label agrees",
+      "gemini": "decision",
+      "original": "decision",
+      "direct": "decision",
+      "associative_direct": "decision",
+      "context_parent": "decision",
+      "associative_context": "decision",
+      "grafted_head": "decision",
+      "cue_head": "decision",
+      "hier_parent": "decision",
+      "hier_edited": "decision",
+      "combined_excerpt": "decision",
+      "internal_mlp": "decision"
+    },
+    {
+      "id": "joined-75255-75256",
+      "doc": "6771",
+      "gold": "decision",
+      "text_sha256": "07f72aa3a3592d56fcecb10e7af31192d9a9ad0e35d7f247deee34b73b9f7a89",
+      "transformation": "joined adjacent unreordered rows from the same judgment; every source label agrees",
+      "gemini": "decision",
+      "original": "decision",
+      "direct": "decision",
+      "associative_direct": "decision",
+      "context_parent": "decision",
+      "associative_context": "decision",
+      "grafted_head": "decision",
+      "cue_head": "decision",
+      "hier_parent": "decision",
+      "hier_edited": "decision",
+      "combined_excerpt": "decision",
+      "internal_mlp": "decision"
+    },
+    {
+      "id": "joined-1279-1281",
+      "doc": "6418",
+      "gold": "decision",
+      "text_sha256": "f8ab7238a66d45f6ab3d1279070ffed7edae7bfad4a8f2bf3a0012e82279263a",
+      "transformation": "joined adjacent unreordered rows from the same judgment; every source label agrees",
+      "gemini": "reasoning",
+      "original": "none",
+      "direct": "reasoning",
+      "associative_direct": "reasoning",
+      "context_parent": "reasoning",
+      "associative_context": "reasoning",
+      "grafted_head": "reasoning",
+      "cue_head": "reasoning",
+      "hier_parent": "none",
+      "hier_edited": "none",
+      "combined_excerpt": "reasoning",
+      "internal_mlp": "reasoning"
+    },
+    {
+      "id": "joined-146839-146841",
+      "doc": "7104",
+      "gold": "decision",
+      "text_sha256": "629c55cb09a03a3949778d38a5b849a460988e75f14a1858f9dcec23fed8eb6a",
+      "transformation": "joined adjacent unreordered rows from the same judgment; every source label agrees",
+      "gemini": "decision",
+      "original": "decision",
+      "direct": "decision",
+      "associative_direct": "decision",
+      "context_parent": "decision",
+      "associative_context": "decision",
+      "grafted_head": "decision",
+      "cue_head": "decision",
+      "hier_parent": "none",
+      "hier_edited": "decision",
+      "combined_excerpt": "decision",
+      "internal_mlp": "decision"
+    }
+  ]
+}

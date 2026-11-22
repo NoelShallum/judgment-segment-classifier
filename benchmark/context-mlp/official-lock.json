@@ -1,0 +1,13 @@
+{
+  "promoted": false,
+  "freeze_sha256": "fad23d1dcb254362e1944492eff17e1bff11b615472c3f36cc25363dccf2abed",
+  "protocol_sha256": "07393da925a5512bb882286cd1ef9418e384c13afa86f6f2db541e7e6879ebd0",
+  "evidence_sha256": "5e423c877a4c29dce1aca71323c2cc5d7fa1aba5171e7f9a148a65c7f8f672a2",
+  "config": {
+    "name": "context",
+    "strength": 1.7,
+    "rule": "raw_residual",
+    "alpha": 0.45,
+    "scope": "pair"
+  }
+}

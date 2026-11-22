@@ -1,0 +1,15 @@
+{
+  "chosen_cases": 256,
+  "chosen_arm": "exact-reviewed",
+  "preview": true,
+  "stages": {
+    "256": {
+      "freeze_sha256": "3d233c60c0f0b759fb25fd840d1f05851cc4bf4834d13698b03afe85e0450159",
+      "quality": [
+        0.7363935155406485,
+        -1452,
+        0.7508184336439184
+      ]
+    }
+  }
+}

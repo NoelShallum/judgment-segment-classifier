@@ -1,0 +1,42 @@
+{
+  "fit_captures": "192 official-train judgments, fixed routed positions from a separate train-only fit",
+  "edit_rows": {
+    "entailment": "+ half of closed-form contrast edit",
+    "neutral": "unchanged",
+    "contradiction": "- half of edit"
+  },
+  "targets": {
+    "source-residual": "Gold minus inferred role probability from centered source entailment\u2013contradiction margin",
+    "target-contrast": "Centered full retarget to official gold preference with limited ridge shrinkage",
+    "document-residual": "Gold minus probability from jointly interpreting the frozen document and source NLI scores"
+  },
+  "ridges": [
+    0.025,
+    0.15
+  ],
+  "sources": [
+    "edited",
+    "delta-only"
+  ],
+  "gates": [
+    "hard-pair",
+    "top-two",
+    "top-three",
+    "all"
+  ],
+  "relative_gains": [
+    0.1,
+    0.28,
+    0.56,
+    0.9,
+    1.35
+  ],
+  "plain_donor_controls": "Tune unedited donor evidence on the same selector and also compare at candidate gate and gain",
+  "shuffled_controls": "Repeat the fit with case-permuted and globally permuted training labels, independently matching the L2 norm of the actual classifier edit. Same gates, composition and scale as selected edit.",
+  "selection": "0.5 times the sum of all and no-exact-key 7-role macro-F1, then accuracy and pair controls; retain current system when no edit beats it jointly. Keep a selector-locked diagnostic as a negative control if no candidate wins, using the exact same confidence checks.",
+  "guard": "Require no growth in either all and no-key None\u2013Reasoning swap counts and no loss of over 0.4 accuracy points on all rows of selector",
+  "official_evaluation": "Out of scope absent positive paired confirmation on both complete-case cohorts. No test file access in this script.",
+  "seed": 29519,
+  "gpu_training_steps": 0,
+  "cpu_iterative_training_steps": 0
+}

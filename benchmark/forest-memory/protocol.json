@@ -1,0 +1,98 @@
+{
+  "score_banks": {
+    "fit": "55c5da8e60108f4b3588b953cf21c5820d397d30ce12624485c47d7e849cc08d",
+    "select": "700ef2ac04d8317307f942fb2a8cf0515bc1e28a6685213abd7bcf4a3158f740",
+    "confirm": "c6eb9893f0e24623fb836072f7c842f6a282842c5713c785e5d2fe1892394cea",
+    "fresh": "68d1ce3c180e7726fab5aa27c6055ca3ab8162ced4266234b9c1792311ae034e"
+  },
+  "doc_semantic_freeze_sha256": "296fdffeb275516a2bde015edb4820984e468b9b3144904b18a8969a29c8a4da",
+  "development_reference_sha256": "b5426e2058be10b57cff61308c021498fdbb0b168a99f6a5cab3eaac85eb761b",
+  "cohorts": {
+    "fit": 192,
+    "select": 48,
+    "confirm": 72,
+    "fresh": 96
+  },
+  "train_csv_sha256": "60028fc085e3cb018e8d49a8879ba796dd03a0838367891f3312f9e576921794",
+  "masks": {
+    "select": "bc8f7a7a9df474970f037753c23609f262c2b5524b0969be4a789d1d47b92227",
+    "confirm": "ac8e5e147a3e0c86e0fa1a9cce810b097a12c502a0c16e48a7b8518f23e2fdde",
+    "fresh": "ed16df39eaafbbab2cb3de643925140391bf12119732949333b212160d992153"
+  },
+  "fitting": "Fixed random partition layouts. Train-only input normalization and unsupervised cut points. Independent, sample-weighted residual means shrink toward zero, with zero values on fewer than three distinct fitting judgments. There are no gradient updates or tree optimization.",
+  "features": "Final role scores, rival and original labels, four donor probability streams, PCA features, relative case position, and left/right score differences in within-case neighborhoods.",
+  "partitions": {
+    "axis": {
+      "trees": 48,
+      "depth": 4,
+      "width": 1,
+      "with_rival": false,
+      "seed": 651106
+    },
+    "oblique-rival": {
+      "trees": 64,
+      "depth": 5,
+      "width": 3,
+      "with_rival": true,
+      "seed": 651107
+    },
+    "pair-oblique": {
+      "trees": 56,
+      "depth": 4,
+      "width": 3,
+      "with_rival": false,
+      "seed": 651108
+    }
+  },
+  "arms": {
+    "axis-posterior": [
+      "axis",
+      "posterior"
+    ],
+    "axis-macro": [
+      "axis",
+      "macro"
+    ],
+    "rival-macro": [
+      "oblique-rival",
+      "macro"
+    ],
+    "pair-macro": [
+      "pair-oblique",
+      "pair"
+    ]
+  },
+  "threshold_quantiles": [
+    0.18,
+    0.34,
+    0.5,
+    0.66,
+    0.82
+  ],
+  "shrinkage": [
+    6.0,
+    32.0,
+    106.0
+  ],
+  "score_gains": [
+    0.18,
+    0.38,
+    0.7,
+    1.1,
+    1.65
+  ],
+  "minimum_score_gaps": [
+    0.0,
+    0.025,
+    0.075
+  ],
+  "role_weight": "Inverse pair/role support in the macro targets, judgment-length exponent \u22120.15. Pair writes add mirrored None and Reasoning values and permit changes only between those roles.",
+  "selection": "48 case-disjoint validation judgments. Require higher macro-F1 and no higher pair counts on all and no-exact-key rows, with accuracy drop at most 0.25 points on both. Rank by mean of the two F1 scores, then pair swaps, then full accuracy and unchanged rows. Include the zero write. For diagnostics retain the best nonzero configuration in any rejected family.",
+  "confirmation": "Score the frozen candidates on the prior 72 and 96 case-disjoint validation judgments. Whole-judgment paired bootstrap. No-key rows are those without a matching train context at widths 1, 3, 5 and 9. Historical validation exposure. The frozen base document head fitted these official training cases too.",
+  "controls": "Zero output table and a residual shuffle within each correctable prediction/rival orientation. Preserve residual weight/target pairs and match output table Frobenius norm.",
+  "flip_calibration": "Four train-only case-held-out leaf fits with fixed covariate cuts and selected deployment rule. Use held-out score-gap tertiles and smooth fix/break frequencies. Assess same bins on the validation cohorts. Calibration is descriptive and does not drive selection or routing.",
+  "accuracy_tolerance": 0.0025,
+  "seed": 651105,
+  "device": "CPU",
+  "official_test_read": false
+}

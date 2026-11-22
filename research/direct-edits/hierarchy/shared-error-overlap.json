@@ -1,0 +1,179 @@
+{
+  "human_oracle_used_only_for_descriptive_disagreement_counts": true,
+  "arms": {
+    "replay-native-base-240-71-shared-16": {
+      "incumbent": {
+        "macro_f1": 0.6988453883363343,
+        "accuracy": 0.707982012366498,
+        "f1": [
+          0.6369098712446352,
+          0.903932946486138,
+          0.6808510638297872,
+          0.7274969173859432,
+          0.5268817204301075,
+          0.6582694414019715,
+          0.7575757575757576
+        ],
+        "support": [
+          1046,
+          753,
+          44,
+          417,
+          227,
+          1003,
+          68
+        ]
+      },
+      "candidate": {
+        "macro_f1": 0.6331425422777338,
+        "accuracy": 0.6124227093872963,
+        "f1": [
+          0.5422290782876976,
+          0.8547112462006079,
+          0.5542168674698795,
+          0.7153284671532847,
+          0.6855895196506551,
+          0.36350470673425056,
+          0.7164179104477612
+        ],
+        "support": [
+          1046,
+          753,
+          44,
+          417,
+          227,
+          1003,
+          68
+        ]
+      },
+      "disagreements": 830,
+      "candidate_only_correct": 184,
+      "incumbent_only_correct": 524,
+      "both_wrong": 855,
+      "by_human_role": {
+        "0": {
+          "support": 1046,
+          "weak_only_correct": 72,
+          "incumbent_only_correct": 111
+        },
+        "1": {
+          "support": 753,
+          "weak_only_correct": 21,
+          "incumbent_only_correct": 19
+        },
+        "2": {
+          "support": 44,
+          "weak_only_correct": 0,
+          "incumbent_only_correct": 9
+        },
+        "3": {
+          "support": 417,
+          "weak_only_correct": 21,
+          "incumbent_only_correct": 22
+        },
+        "4": {
+          "support": 227,
+          "weak_only_correct": 60,
+          "incumbent_only_correct": 1
+        },
+        "5": {
+          "support": 1003,
+          "weak_only_correct": 7,
+          "incumbent_only_correct": 357
+        },
+        "6": {
+          "support": 68,
+          "weak_only_correct": 3,
+          "incumbent_only_correct": 5
+        }
+      }
+    },
+    "replay-native-odds-240-71-shared-16": {
+      "incumbent": {
+        "macro_f1": 0.6988453883363343,
+        "accuracy": 0.707982012366498,
+        "f1": [
+          0.6369098712446352,
+          0.903932946486138,
+          0.6808510638297872,
+          0.7274969173859432,
+          0.5268817204301075,
+          0.6582694414019715,
+          0.7575757575757576
+        ],
+        "support": [
+          1046,
+          753,
+          44,
+          417,
+          227,
+          1003,
+          68
+        ]
+      },
+      "candidate": {
+        "macro_f1": 0.6201712310038509,
+        "accuracy": 0.613265879707701,
+        "f1": [
+          0.5539291217257319,
+          0.840406455469217,
+          0.5365853658536586,
+          0.7162790697674418,
+          0.5979381443298969,
+          0.3849493487698987,
+          0.7111111111111111
+        ],
+        "support": [
+          1046,
+          753,
+          44,
+          417,
+          227,
+          1003,
+          68
+        ]
+      },
+      "disagreements": 797,
+      "candidate_only_correct": 183,
+      "incumbent_only_correct": 520,
+      "both_wrong": 856,
+      "by_human_role": {
+        "0": {
+          "support": 1046,
+          "weak_only_correct": 98,
+          "incumbent_only_correct": 121
+        },
+        "1": {
+          "support": 753,
+          "weak_only_correct": 22,
+          "incumbent_only_correct": 20
+        },
+        "2": {
+          "support": 44,
+          "weak_only_correct": 0,
+          "incumbent_only_correct": 10
+        },
+        "3": {
+          "support": 417,
+          "weak_only_correct": 22,
+          "incumbent_only_correct": 9
+        },
+        "4": {
+          "support": 227,
+          "weak_only_correct": 31,
+          "incumbent_only_correct": 13
+        },
+        "5": {
+          "support": 1003,
+          "weak_only_correct": 5,
+          "incumbent_only_correct": 340
+        },
+        "6": {
+          "support": 68,
+          "weak_only_correct": 5,
+          "incumbent_only_correct": 7
+        }
+      }
+    }
+  }
+}

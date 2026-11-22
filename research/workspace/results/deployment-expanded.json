@@ -1,0 +1,872 @@
+{
+  "selection_sha256": "660cdc5a7b45bd6672f4eb4e086763e184eba5939a0a390e1791963d6cbfcb84",
+  "vocab_sha256": "1a481289189069407b92f4e350c025effb0e7c8aef78286d49b47c1b2a8d63d0",
+  "base_sha256": "b76ebc10abdfa248a88916b049e45b53fa18bcbb4e5307c3828c95342fe563ff",
+  "profiles": {
+    "exact": {
+      "file": "role-edge-exact.safetensors",
+      "sha256": "50afab933f41eab86ae6e5e5e26e72c46e36cd55016139c4b4f3aed4f34d2d10",
+      "mode": "joint",
+      "gain": 0.2,
+      "tensors": {
+        "crf.transitions": [
+          10,
+          10
+        ],
+        "cue_head": [
+          25,
+          7
+        ],
+        "position_head": [
+          5,
+          7
+        ],
+        "edge.log_ratio": [
+          33283,
+          7,
+          7
+        ],
+        "edge.mode": [],
+        "edge.gain": []
+      }
+    },
+    "balanced": {
+      "file": "role-edge-balanced.safetensors",
+      "sha256": "0c669971bc548528af89b321df50ed88bc59eb9aed571f83dd9f4bde47d0342d",
+      "mode": "joint",
+      "gain": 0.2,
+      "tensors": {
+        "crf.transitions": [
+          10,
+          10
+        ],
+        "cue_head": [
+          25,
+          7
+        ],
+        "position_head": [
+          5,
+          7
+        ],
+        "edge.log_ratio": [
+          33283,
+          7,
+          7
+        ],
+        "edge.mode": [],
+        "edge.gain": []
+      }
+    },
+    "interpolated": {
+      "file": "role-edge-interpolated.safetensors",
+      "sha256": "816a26988d0ab56e8dafb886115991ff696608c6c3e761aa69dac8b36874eb5d",
+      "mode": "joint",
+      "gain": 0.35,
+      "tensors": {
+        "crf.transitions": [
+          10,
+          10
+        ],
+        "cue_head": [
+          25,
+          7
+        ],
+        "position_head": [
+          5,
+          7
+        ],
+        "edge.log_ratio": [
+          33283,
+          7,
+          7
+        ],
+        "edge.mode": [],
+        "edge.gain": []
+      }
+    },
+    "sentence-context": {
+      "file": "role-edge-sentence-context.safetensors",
+      "sha256": "91f5c9ca54493690cb25571d91772b1be6aec801d6840e421aa3dd1cb3249507",
+      "mode": "joint",
+      "gain": 0.2,
+      "tensors": {
+        "crf.transitions": [
+          10,
+          10
+        ],
+        "cue_head": [
+          25,
+          7
+        ],
+        "position_head": [
+          5,
+          7
+        ],
+        "edge.log_ratio": [
+          33283,
+          7,
+          7
+        ],
+        "edge.mode": [],
+        "edge.gain": []
+      },
+      "input_format": "sentences"
+    },
+    "sentence-calibrated": {
+      "file": "role-edge-sentence-calibrated.safetensors",
+      "sha256": "0fe55217dc80a9bff4622a571aeffd2fc17ffe4b1476f4c4d1de75cdc2d459a3",
+      "mode": "joint",
+      "gain": 0.2,
+      "tensors": {
+        "crf.transitions": [
+          10,
+          10
+        ],
+        "cue_head": [
+          25,
+          7
+        ],
+        "position_head": [
+          5,
+          7
+        ],
+        "edge.log_ratio": [
+          33283,
+          7,
+          7
+        ],
+        "edge.mode": [],
+        "edge.gain": [],
+        "emission.weight": [
+          7,
+          7
+        ],
+        "emission.bias": [
+          7
+        ],
+        "label_change.utility": [
+          7,
+          7,
+          5
+        ],
+        "label_change.margin_bins": [
+          4
+        ],
+        "label_change.threshold": []
+      },
+      "input_format": "sentences"
+    },
+    "sentence-uncertainty": {
+      "file": "role-edge-sentence-uncertainty.safetensors",
+      "sha256": "daa67071c0485b3e6c95b35d8d3f38c1a6a3d554bcd6224703ceb84c10bdbe73",
+      "mode": "joint",
+      "gain": 0.2,
+      "tensors": {
+        "crf.transitions": [
+          10,
+          10
+        ],
+        "cue_head": [
+          25,
+          7
+        ],
+        "position_head": [
+          5,
+          7
+        ],
+        "edge.log_ratio": [
+          33283,
+          7,
+          7
+        ],
+        "edge.mode": [],
+        "edge.gain": [],
+        "emission.weight": [
+          7,
+          7
+        ],
+        "emission.bias": [
+          7
+        ],
+        "label_change.utility": [
+          7,
+          7,
+          5
+        ],
+        "label_change.margin_bins": [
+          4
+        ],
+        "label_change.threshold": [],
+        "uncertainty.center": [
+          44
+        ],
+        "uncertainty.scale": [
+          44
+        ],
+        "uncertainty.weight": [
+          44,
+          7
+        ],
+        "uncertainty.bias": [
+          7
+        ],
+        "uncertainty.settings": [
+          3
+        ]
+      },
+      "input_format": "sentences"
+    },
+    "sentence-joint": {
+      "file": "role-edge-sentence-joint.safetensors",
+      "sha256": "7bb9f8c4c5f2202b7c6e96c658cd800adde133be3a9eb9930d32100c0c54ee4c",
+      "mode": "joint",
+      "gain": 0.2,
+      "tensors": {
+        "crf.transitions": [
+          10,
+          10
+        ],
+        "cue_head": [
+          25,
+          7
+        ],
+        "position_head": [
+          5,
+          7
+        ],
+        "edge.log_ratio": [
+          33283,
+          7,
+          7
+        ],
+        "edge.mode": [],
+        "edge.gain": [],
+        "emission.weight": [
+          7,
+          7
+        ],
+        "emission.bias": [
+          7
+        ],
+        "label_change.utility": [
+          7,
+          7,
+          5
+        ],
+        "label_change.margin_bins": [
+          4
+        ],
+        "label_change.threshold": [],
+        "uncertainty.center": [
+          44
+        ],
+        "uncertainty.scale": [
+          44
+        ],
+        "uncertainty.weight": [
+          44,
+          7
+        ],
+        "uncertainty.bias": [
+          7
+        ],
+        "uncertainty.settings": [
+          3
+        ],
+        "joint.denominator": [
+          7
+        ],
+        "joint.ref_f1": [
+          7
+        ],
+        "joint.transition": [
+          7,
+          7
+        ],
+        "joint.settings": [
+          4
+        ],
+        "joint.mode": [],
+        "joint.center": [
+          258
+        ],
+        "joint.scale": [
+          258
+        ],
+        "joint.weight": [
+          7,
+          258,
+          7
+        ],
+        "joint.bias": [
+          7,
+          7
+        ]
+      },
+      "input_format": "sentences"
+    },
+    "sentence-local": {
+      "file": "role-edge-sentence-local.safetensors",
+      "sha256": "3ff57c505100f0a1109cde6357d9b871379f8b83f157bf53202b741738dea3fe",
+      "mode": "joint",
+      "gain": 0.2,
+      "tensors": {
+        "crf.transitions": [
+          10,
+          10
+        ],
+        "cue_head": [
+          25,
+          7
+        ],
+        "position_head": [
+          5,
+          7
+        ],
+        "edge.log_ratio": [
+          33283,
+          7,
+          7
+        ],
+        "edge.mode": [],
+        "edge.gain": [],
+        "emission.weight": [
+          7,
+          7
+        ],
+        "emission.bias": [
+          7
+        ],
+        "label_change.utility": [
+          7,
+          7,
+          5
+        ],
+        "label_change.margin_bins": [
+          4
+        ],
+        "label_change.threshold": [],
+        "uncertainty.center": [
+          44
+        ],
+        "uncertainty.scale": [
+          44
+        ],
+        "uncertainty.weight": [
+          44,
+          7
+        ],
+        "uncertainty.bias": [
+          7
+        ],
+        "uncertainty.settings": [
+          3
+        ],
+        "joint.denominator": [
+          7
+        ],
+        "joint.ref_f1": [
+          7
+        ],
+        "joint.transition": [
+          7,
+          7
+        ],
+        "joint.settings": [
+          4
+        ],
+        "joint.mode": [],
+        "joint.center": [
+          258
+        ],
+        "joint.scale": [
+          258
+        ],
+        "joint.weight": [
+          7,
+          258,
+          7
+        ],
+        "joint.bias": [
+          7,
+          7
+        ],
+        "local_readout.center": [
+          261
+        ],
+        "local_readout.scale": [
+          261
+        ],
+        "local_readout.matrix": [
+          261,
+          7
+        ],
+        "local_readout.bias": [
+          7
+        ],
+        "local_readout.settings": [
+          3
+        ]
+      },
+      "input_format": "sentences"
+    },
+    "raw-joint": {
+      "file": "role-edge-sentence-joint.safetensors",
+      "sha256": "7bb9f8c4c5f2202b7c6e96c658cd800adde133be3a9eb9930d32100c0c54ee4c",
+      "mode": "joint",
+      "gain": 0.2,
+      "tensors": {
+        "crf.transitions": [
+          10,
+          10
+        ],
+        "cue_head": [
+          25,
+          7
+        ],
+        "position_head": [
+          5,
+          7
+        ],
+        "edge.log_ratio": [
+          33283,
+          7,
+          7
+        ],
+        "edge.mode": [],
+        "edge.gain": [],
+        "emission.weight": [
+          7,
+          7
+        ],
+        "emission.bias": [
+          7
+        ],
+        "label_change.utility": [
+          7,
+          7,
+          5
+        ],
+        "label_change.margin_bins": [
+          4
+        ],
+        "label_change.threshold": [],
+        "uncertainty.center": [
+          44
+        ],
+        "uncertainty.scale": [
+          44
+        ],
+        "uncertainty.weight": [
+          44,
+          7
+        ],
+        "uncertainty.bias": [
+          7
+        ],
+        "uncertainty.settings": [
+          3
+        ],
+        "joint.denominator": [
+          7
+        ],
+        "joint.ref_f1": [
+          7
+        ],
+        "joint.transition": [
+          7,
+          7
+        ],
+        "joint.settings": [
+          4
+        ],
+        "joint.mode": [],
+        "joint.center": [
+          258
+        ],
+        "joint.scale": [
+          258
+        ],
+        "joint.weight": [
+          7,
+          258,
+          7
+        ],
+        "joint.bias": [
+          7,
+          7
+        ]
+      },
+      "input_format": "raw"
+    },
+    "raw-local": {
+      "file": "role-edge-sentence-local.safetensors",
+      "sha256": "3ff57c505100f0a1109cde6357d9b871379f8b83f157bf53202b741738dea3fe",
+      "mode": "joint",
+      "gain": 0.2,
+      "tensors": {
+        "crf.transitions": [
+          10,
+          10
+        ],
+        "cue_head": [
+          25,
+          7
+        ],
+        "position_head": [
+          5,
+          7
+        ],
+        "edge.log_ratio": [
+          33283,
+          7,
+          7
+        ],
+        "edge.mode": [],
+        "edge.gain": [],
+        "emission.weight": [
+          7,
+          7
+        ],
+        "emission.bias": [
+          7
+        ],
+        "label_change.utility": [
+          7,
+          7,
+          5
+        ],
+        "label_change.margin_bins": [
+          4
+        ],
+        "label_change.threshold": [],
+        "uncertainty.center": [
+          44
+        ],
+        "uncertainty.scale": [
+          44
+        ],
+        "uncertainty.weight": [
+          44,
+          7
+        ],
+        "uncertainty.bias": [
+          7
+        ],
+        "uncertainty.settings": [
+          3
+        ],
+        "joint.denominator": [
+          7
+        ],
+        "joint.ref_f1": [
+          7
+        ],
+        "joint.transition": [
+          7,
+          7
+        ],
+        "joint.settings": [
+          4
+        ],
+        "joint.mode": [],
+        "joint.center": [
+          258
+        ],
+        "joint.scale": [
+          258
+        ],
+        "joint.weight": [
+          7,
+          258,
+          7
+        ],
+        "joint.bias": [
+          7,
+          7
+        ],
+        "local_readout.center": [
+          261
+        ],
+        "local_readout.scale": [
+          261
+        ],
+        "local_readout.matrix": [
+          261,
+          7
+        ],
+        "local_readout.bias": [
+          7
+        ],
+        "local_readout.settings": [
+          3
+        ]
+      },
+      "input_format": "raw"
+    },
+    "sentence-document": {
+      "file": "role-edge-sentence-document.safetensors",
+      "sha256": "e0b7f98c90b9d82997b9c32b0d2dacf9abaf8b1a45297b7546fa4d823683915e",
+      "mode": "joint",
+      "gain": 0.2,
+      "tensors": {
+        "crf.transitions": [
+          10,
+          10
+        ],
+        "cue_head": [
+          25,
+          7
+        ],
+        "position_head": [
+          5,
+          7
+        ],
+        "edge.log_ratio": [
+          33283,
+          7,
+          7
+        ],
+        "edge.mode": [],
+        "edge.gain": [],
+        "emission.weight": [
+          7,
+          7
+        ],
+        "emission.bias": [
+          7
+        ],
+        "label_change.utility": [
+          7,
+          7,
+          5
+        ],
+        "label_change.margin_bins": [
+          4
+        ],
+        "label_change.threshold": [],
+        "uncertainty.center": [
+          44
+        ],
+        "uncertainty.scale": [
+          44
+        ],
+        "uncertainty.weight": [
+          44,
+          7
+        ],
+        "uncertainty.bias": [
+          7
+        ],
+        "uncertainty.settings": [
+          3
+        ],
+        "joint.denominator": [
+          7
+        ],
+        "joint.ref_f1": [
+          7
+        ],
+        "joint.transition": [
+          7,
+          7
+        ],
+        "joint.settings": [
+          4
+        ],
+        "joint.mode": [],
+        "joint.center": [
+          258
+        ],
+        "joint.scale": [
+          258
+        ],
+        "joint.weight": [
+          7,
+          258,
+          7
+        ],
+        "joint.bias": [
+          7,
+          7
+        ],
+        "local_readout.center": [
+          318
+        ],
+        "local_readout.scale": [
+          318
+        ],
+        "local_readout.matrix": [
+          318,
+          7
+        ],
+        "local_readout.bias": [
+          7
+        ],
+        "local_readout.settings": [
+          3
+        ],
+        "local_readout.two_hop": []
+      },
+      "input_format": "sentences"
+    },
+    "sentence-document-calibrated": {
+      "file": "role-edge-sentence-document-calibrated.safetensors",
+      "sha256": "a577f71c8976e348c7a77a5f3c7ab36fd4a9e4ea092744ffbfb8f58f58f8bef6",
+      "mode": "joint",
+      "gain": 0.2,
+      "tensors": {
+        "crf.transitions": [
+          10,
+          10
+        ],
+        "cue_head": [
+          25,
+          7
+        ],
+        "position_head": [
+          5,
+          7
+        ],
+        "edge.log_ratio": [
+          33283,
+          7,
+          7
+        ],
+        "edge.mode": [],
+        "edge.gain": [],
+        "emission.weight": [
+          7,
+          7
+        ],
+        "emission.bias": [
+          7
+        ],
+        "label_change.utility": [
+          7,
+          7,
+          5
+        ],
+        "label_change.margin_bins": [
+          4
+        ],
+        "label_change.threshold": [],
+        "uncertainty.center": [
+          44
+        ],
+        "uncertainty.scale": [
+          44
+        ],
+        "uncertainty.weight": [
+          44,
+          7
+        ],
+        "uncertainty.bias": [
+          7
+        ],
+        "uncertainty.settings": [
+          3
+        ],
+        "joint.denominator": [
+          7
+        ],
+        "joint.ref_f1": [
+          7
+        ],
+        "joint.transition": [
+          7,
+          7
+        ],
+        "joint.settings": [
+          4
+        ],
+        "joint.mode": [],
+        "joint.center": [
+          258
+        ],
+        "joint.scale": [
+          258
+        ],
+        "joint.weight": [
+          7,
+          258,
+          7
+        ],
+        "joint.bias": [
+          7,
+          7
+        ],
+        "local_readout.center": [
+          318
+        ],
+        "local_readout.scale": [
+          318
+        ],
+        "local_readout.matrix": [
+          318,
+          7
+        ],
+        "local_readout.bias": [
+          7
+        ],
+        "local_readout.settings": [
+          3
+        ],
+        "local_readout.two_hop": [],
+        "document_calibration.center": [
+          54
+        ],
+        "document_calibration.scale": [
+          54
+        ],
+        "document_calibration.matrix": [
+          54,
+          7
+        ],
+        "document_calibration.bias": [
+          7
+        ],
+        "document_calibration.settings": [
+          3
+        ]
+      },
+      "input_format": "sentences"
+    },
+    "segment-exact": {
+      "file": "role-edge-segment-exact.safetensors",
+      "sha256": "2d1af001003f4c6264ef22b4bc7468e1ae6735b94dd3cee84a510c9fe688cb91",
+      "input_format": "raw",
+      "parent_profiles": [
+        "exact",
+        "balanced"
+      ]
+    },
+    "sentence-isolated": {
+      "file": "role-edge-sentence-isolated.safetensors",
+      "sha256": "2973abf92c9debc7cf067d2ea75e202a68d7672493506f103641f20cce9b6e80",
+      "input_format": "sentences",
+      "tensors": {
+        "isolated.center": [
+          234
+        ],
+        "isolated.scale": [
+          234
+        ],
+        "isolated.matrix": [
+          234,
+          7
+        ],
+        "isolated.bias": [
+          7
+        ],
+        "isolated.prior_shift": [
+          7
+        ],
+        "isolated.lexical": [
+          32768,
+          7
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "cases": 4,
+  "rows": 479,
+  "tokens": 17587,
+  "results": {
+    "2200": {
+      "partition": "select",
+      "rows": 147,
+      "tokens": 4085,
+      "vectors": {
+        "e": {
+          "relative_l2": 2.3159015874870032e-05,
+          "max_abs": 0.01665496826171875,
+          "worst_sentence_cosine": 0.9999999975059128
+        },
+        "k": {
+          "relative_l2": 1.5380947517566386e-05,
+          "max_abs": 0.0017237663269042969,
+          "worst_sentence_cosine": 0.9999999935207541
+        },
+        "native": {
+          "relative_l2": 1.6878083609911465e-05,
+          "max_abs": 0.0007050037384033203,
+          "worst_sentence_cosine": 0.9999999971801907
+        }
+      },
+      "class_parity": {
+        "unchanged_text": {
+          "mismatch": 0,
+          "max_abs_logits": 9.0747519750356e-06
+        },
+        "edited_text": {
+          "mismatch": 0,
+          "max_abs_logits": 4.393679813957663e-05
+        },
+        "native_head": {
+          "mismatch": 0,
+          "max_abs_logits": 4.711834559473216e-05
+        }
+      }
+    },
+    "3016": {
+      "partition": "select",
+      "rows": 72,
+      "tokens": 2939,
+      "vectors": {
+        "e": {
+          "relative_l2": 8.549794542526072e-06,
+          "max_abs": 0.0051422119140625,
+          "worst_sentence_cosine": 0.9999999993600025
+        },
+        "k": {
+          "relative_l2": 9.274802592927732e-06,
+          "max_abs": 0.00028228759765625,
+          "worst_sentence_cosine": 0.9999999996177527
+        },
+        "native": {
+          "relative_l2": 1.4078764305416536e-05,
+          "max_abs": 0.0003635287284851074,
+          "worst_sentence_cosine": 0.9999999989777109
+        }
+      },
+      "class_parity": {
+        "unchanged_text": {
+          "mismatch": 0,
+          "max_abs_logits": 7.222119556171691e-06
+        },
+        "edited_text": {
+          "mismatch": 0,
+          "max_abs_logits": 1.6665079834499164e-05
+        },
+        "native_head": {
+          "mismatch": 0,
+          "max_abs_logits": 3.606550810120179e-05
+        }
+      }
+    },
+    "4133": {
+      "partition": "select",
+      "rows": 130,
+      "tokens": 4361,
+      "vectors": {
+        "e": {
+          "relative_l2": 1.2790166222877115e-05,
+          "max_abs": 0.00310516357421875,
+          "worst_sentence_cosine": 0.9999999887261128
+        },
+        "k": {
+          "relative_l2": 2.402176400649454e-05,
+          "max_abs": 0.0012464523315429688,
+          "worst_sentence_cosine": 0.9999999960179451
+        },
+        "native": {
+          "relative_l2": 3.0351875390106267e-05,
+          "max_abs": 0.0017476081848144531,
+          "worst_sentence_cosine": 0.9999999884744931
+        }
+      },
+      "class_parity": {
+        "unchanged_text": {
+          "mismatch": 0,
+          "max_abs_logits": 3.2697173688034376e-05
+        },
+        "edited_text": {
+          "mismatch": 0,
+          "max_abs_logits": 8.900296034464183e-05
+        },
+        "native_head": {
+          "mismatch": 0,
+          "max_abs_logits": 9.710686422492731e-05
+        }
+      }
+    },
+    "874": {
+      "partition": "select",
+      "rows": 130,
+      "tokens": 6202,
+      "vectors": {
+        "e": {
+          "relative_l2": 1.83714325481164e-05,
+          "max_abs": 0.006680488586425781,
+          "worst_sentence_cosine": 0.9999999636576683
+        },
+        "k": {
+          "relative_l2": 3.3315879801476296e-05,
+          "max_abs": 0.0028104782104492188,
+          "worst_sentence_cosine": 0.9999999832723502
+        },
+        "native": {
+          "relative_l2": 4.2272062836519704e-05,
+          "max_abs": 0.0030384063720703125,
+          "worst_sentence_cosine": 0.9999999838334542
+        }
+      },
+      "class_parity": {
+        "unchanged_text": {
+          "mismatch": 0,
+          "max_abs_logits": 2.6267170124827377e-05
+        },
+        "edited_text": {
+          "mismatch": 0,
+          "max_abs_logits": 6.676719519380092e-05
+        },
+        "native_head": {
+          "mismatch": 0,
+          "max_abs_logits": 8.4250850787837e-05
+        }
+      }
+    }
+  },
+  "all_class_argmax_agree": true
+}

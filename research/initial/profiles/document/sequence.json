@@ -1,0 +1,21 @@
+{
+  "method": "B isolated",
+  "context_left": 0,
+  "parent": "b",
+  "source_head_sha256": "cc8d08fd481e1f41a2e5b9a7a668fec2405ea545e2a0abb55d8bb59e6f14b328",
+  "sticky": 0,
+  "order": 0,
+  "neighbor": 0,
+  "tensor_sha256": "6dc6a8562a3eae4ee996132e38d3ef35e541e83db1b3b5583940fbf549dcdd21",
+  "labels": [
+    "none",
+    "facts",
+    "issue",
+    "petitioner_argument",
+    "respondent_argument",
+    "reasoning",
+    "decision"
+  ],
+  "selection": "Maximize exact labeled-span F1 on 10 whole validation judgments, then token accuracy. No gradient or teacher outputs.",
+  "sha256": "6dc6a8562a3eae4ee996132e38d3ef35e541e83db1b3b5583940fbf549dcdd21"
+}

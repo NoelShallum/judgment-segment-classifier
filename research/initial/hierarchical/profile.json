@@ -1,0 +1,37 @@
+{
+  "revision": "837c2a85ce9a6df21c9e3ef6d1b908b23b66d985",
+  "parent_archive_sha256": "2f3096bd97db2ae5addce8d9b8fc3d750072e5a224c6b05ba2a52759a0cb36a2",
+  "source": "https://huggingface.co/L-NLProc/LegalSeg_Hier_BiLSTM-CRF/tree/837c2a85ce9a6df21c9e3ef6d1b908b23b66d985/Hier_BiLSTM-CRF",
+  "parameters": 16816110,
+  "labels": [
+    "none",
+    "facts",
+    "issue",
+    "petitioner_argument",
+    "respondent_argument",
+    "reasoning",
+    "decision"
+  ],
+  "files": {
+    "word2idx.json": {
+      "bytes": 3175220,
+      "sha256": "2656906ff69fd0ef6e0bd000be0828fcedf3af46bace438e20037fd97d495694"
+    },
+    "hier.safetensors": {
+      "bytes": 67266352,
+      "sha256": "b76ebc10abdfa248a88916b049e45b53fa18bcbb4e5307c3828c95342fe563ff"
+    },
+    "document.safetensors": {
+      "bytes": 8696,
+      "sha256": "f4285e850b2e06690f7aef675dbe64b617d3b0bb2b1cb515169e1a49ed269338"
+    },
+    "excerpt.safetensors": {
+      "bytes": 8696,
+      "sha256": "0ba0df50c2eef40528d0225629e51add441c65979765c383b60967ac987a610f"
+    },
+    "fragment.safetensors": {
+      "bytes": 11860,
+      "sha256": "127f9c1526065c9193cdb2865d7a2c8594ac3ff1b9aad703b8fd832146bcdc5f"
+    }
+  }
+}

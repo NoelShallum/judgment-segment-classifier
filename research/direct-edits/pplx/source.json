@@ -1,0 +1,18 @@
+{
+  "model_id": "perplexity-ai/pplx-embed-v2-context-0.6b",
+  "revision": "6d1fddab0a18478acc0a51edd1e81333fe441095",
+  "sha256": {
+    "README.md": "fa56ace450397778e5bb58294a8c85314daef832a9c0bf75e67cec91762a95fe",
+    "config.json": "f07bbe5fcde7c2e5a0c43289b92d750f8e07a6fa1b6d87d976681fc5c60f7781",
+    "modeling_pplx_contextual.py": "e0248c3b8ec25b1e72992bdc46dc7d7e8bb95461f3972c976d677ee739ab68c6",
+    "configuration_pplx_contextual.py": "fc05839ea7274b6d0c2c02aea7157a247df081bd31f647c8d612e7552ceba99a",
+    "image_processing.py": "4799c1484133bbafaf12d7a7f4882381f94a1367dedadd411a0acfda184dec79",
+    "processor_config.json": "14932921ca485d458a04dafd8069fbb0a4505622a48208d19ed247115801385b",
+    "tokenizer_config.json": "85d5045a11205796e6ec9615f104437813b9d1810debb2669219fe32901eb922",
+    "model.safetensors.index.json": "6b3c153f957a3258493f1f88c879a57eb04967c095536ea7b797b35c343dc31d",
+    "model-00001-of-00001.safetensors": "f6d1f603468c991a7460618c40a01ab24269a2e8c7b55e7aac1ad47aa72f8da0",
+    "contextual_head.safetensors": "f02db5013d952a78558c98ec9601aa17bfb5129123d373d353879a6858e4e3e1",
+    "tokenizer.json": "d76b678db762df7761041239ca8950fb190135c94bb66ce8aeff5a0ff2933cf5"
+  },
+  "license": null
+}

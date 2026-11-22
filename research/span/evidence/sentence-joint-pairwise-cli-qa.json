@@ -1,0 +1,21 @@
+{
+  "joint_freeze_sha256": "6f4bb4a73f7c5922eebe46e0dbccd985ae8b26954cac0359499eb853b3c8bd14",
+  "sentence_case": "6332",
+  "sentences": 44,
+  "profiles": {
+    "roles": {
+      "revisions": 4,
+      "exact_label_and_span_parity": true
+    },
+    "spans": {
+      "revisions": 2,
+      "exact_label_and_span_parity": true
+    }
+  },
+  "raw": {
+    "case": "7028",
+    "units": 5,
+    "exact_metric_parity": true,
+    "spans": 1
+  }
+}

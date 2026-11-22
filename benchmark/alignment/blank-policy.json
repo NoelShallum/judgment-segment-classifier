@@ -1,0 +1,13 @@
+{
+  "policy": "Ignore empty strings in sentence context. If the original CSV requires a prediction for an empty string, use the most frequent label among original train rows whose text is empty after whitespace stripping.",
+  "training_counts": {
+    "Facts": 6,
+    "Arguments of Respondent": 9,
+    "Reasoning": 18,
+    "Issue": 22,
+    "None": 71,
+    "Arguments of Petitioner": 2,
+    "Decision": 3
+  },
+  "fallback": "None"
+}

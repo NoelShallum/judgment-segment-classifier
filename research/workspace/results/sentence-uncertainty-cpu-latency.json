@@ -1,0 +1,70 @@
+{
+  "platform": "x86_64",
+  "torch_threads": 2,
+  "cases": [
+    {
+      "case": "6884",
+      "whitespace_tokens": 489,
+      "candidate_units": 30,
+      "warmed_seconds": {
+        "sentence-calibrated": [
+          0.06015323899919167,
+          0.06313666699861642,
+          0.06236071800231002
+        ],
+        "sentence-uncertainty": [
+          0.07095283400121843,
+          0.074018712999532,
+          0.09484881900425535
+        ]
+      },
+      "medians": {
+        "sentence-calibrated": 0.06236071800231002,
+        "sentence-uncertainty": 0.074018712999532
+      }
+    },
+    {
+      "case": "6993",
+      "whitespace_tokens": 4497,
+      "candidate_units": 161,
+      "warmed_seconds": {
+        "sentence-calibrated": [
+          0.825279770004272,
+          0.5449400409997907,
+          1.2158430029958254
+        ],
+        "sentence-uncertainty": [
+          1.141019488000893,
+          0.6649709839985007,
+          0.9556363700030488
+        ]
+      },
+      "medians": {
+        "sentence-calibrated": 0.825279770004272,
+        "sentence-uncertainty": 0.9556363700030488
+      }
+    },
+    {
+      "case": "6723",
+      "whitespace_tokens": 16135,
+      "candidate_units": 395,
+      "warmed_seconds": {
+        "sentence-calibrated": [
+          5.031376630999148,
+          2.0174262129949057,
+          2.802183498002705
+        ],
+        "sentence-uncertainty": [
+          2.726739035999344,
+          2.8358722720004153,
+          4.36267336900346
+        ]
+      },
+      "medians": {
+        "sentence-calibrated": 2.802183498002705,
+        "sentence-uncertainty": 2.8358722720004153
+      }
+    }
+  ],
+  "protocol": "Already-loaded donated hierarchy and weights. Paired alternating order, three measurements per profile, one warm-up. Timings include supplied-sentence encoding and classification. Other experiment processes were running on this laptop."
+}

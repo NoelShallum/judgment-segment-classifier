@@ -1,0 +1,8 @@
+{
+  "rows": 1122376,
+  "cases": 4984,
+  "train_csv_sha256": "60028fc085e3cb018e8d49a8879ba796dd03a0838367891f3312f9e576921794",
+  "index_sha256": "361f8cf3ad33ef36ffebe969439b350985aee9523218385dcfcff06f82235ec2",
+  "memory_sha256": "f41e683746de3ec08ddcda739a91505f64715a1fd380ba562cc0134d14605b10",
+  "recipe": "Each training sentence receives one seven-output one-hot value row. Stable 64-bit hashes propose candidate train cases; normalized text and ordered local alignment verify candidates before reading any value. No case identifier is a feature."
+}

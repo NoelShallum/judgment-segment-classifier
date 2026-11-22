@@ -1,0 +1,38 @@
+{
+  "donor_sha256": "86c32c52ce38b8f26e028ca959b06daee3a5f3f6947c63258bc8695dde88a465",
+  "serialized_sha256": "dd724c0a69a61ec834dce07e8ad79df2b4683f3914e0d06c388e5e9660d662a3",
+  "test_focus_rows": [
+    [
+      "fit",
+      14574
+    ],
+    [
+      "select",
+      2893
+    ],
+    [
+      "confirm",
+      4060
+    ],
+    [
+      "fresh",
+      8464
+    ]
+  ],
+  "test_native_forward_pass_pairs": 28,
+  "changed_parameter_tensor": "classifier.weight",
+  "touched_rows": [
+    0,
+    2
+  ],
+  "unchanged_row": 1,
+  "unchanged_classifier_bias": [
+    -0.0006894230027683079,
+    1.451807747798739e-05,
+    0.0006941525498405099
+  ],
+  "donor_backbone_exact_same": true,
+  "exact_head_parity_max_difference": 0.0,
+  "max_delta_logit": 3.226700782775879,
+  "cpu_wall_seconds": 144.68
+}

@@ -1,0 +1,529 @@
+{
+  "device": "CPU",
+  "source_checkpoint_sha256": "b76ebc10abdfa248a88916b049e45b53fa18bcbb4e5307c3828c95342fe563ff",
+  "verification_path": "The normal sequence.run_input entrypoint. Load checkpoint patches into native modules, recalculate encodings from text and use exact archived BERT labels only at originally reviewed positions.",
+  "tensors": {
+    "identity": {
+      "emitter.lstm.bias_ih_l0": {
+        "shape": [
+          400
+        ],
+        "changed_values": 0,
+        "changed_first_axis_indices": [],
+        "delta_l2": 0.0,
+        "before_sha256": "ac4c8a159d9f4e48eac7a946040af468c8df74bc4ba5ad9c5f9c49591ff1206c",
+        "after_sha256": "ac4c8a159d9f4e48eac7a946040af468c8df74bc4ba5ad9c5f9c49591ff1206c"
+      },
+      "emitter.lstm.bias_ih_l0_reverse": {
+        "shape": [
+          400
+        ],
+        "changed_values": 0,
+        "changed_first_axis_indices": [],
+        "delta_l2": 0.0,
+        "before_sha256": "695c1c712149d426a73e2d33a5830bf87e969dc1beeaf031770e90381154390c",
+        "after_sha256": "695c1c712149d426a73e2d33a5830bf87e969dc1beeaf031770e90381154390c"
+      },
+      "emitter.lstm.weight_hh_l0": {
+        "shape": [
+          400,
+          100
+        ],
+        "changed_values": 0,
+        "changed_first_axis_indices": [],
+        "delta_l2": 0.0,
+        "before_sha256": "039f880db147c5aa1d3733a7966052a0151cfbe7a81ce2e6623f1a4b0619f7be",
+        "after_sha256": "039f880db147c5aa1d3733a7966052a0151cfbe7a81ce2e6623f1a4b0619f7be"
+      },
+      "emitter.lstm.weight_hh_l0_reverse": {
+        "shape": [
+          400,
+          100
+        ],
+        "changed_values": 0,
+        "changed_first_axis_indices": [],
+        "delta_l2": 0.0,
+        "before_sha256": "27d8e4f672c0f1113386ae291d16b436ab1a46520258d814e7ef42fd167b5bec",
+        "after_sha256": "27d8e4f672c0f1113386ae291d16b436ab1a46520258d814e7ef42fd167b5bec"
+      },
+      "emitter.lstm.weight_ih_l0": {
+        "shape": [
+          400,
+          200
+        ],
+        "changed_values": 0,
+        "changed_first_axis_indices": [],
+        "delta_l2": 0.0,
+        "before_sha256": "e713d91b96e9fbc3e44cd0bb87b9be14c0004cedc6c14f3080606c4f1e485974",
+        "after_sha256": "e713d91b96e9fbc3e44cd0bb87b9be14c0004cedc6c14f3080606c4f1e485974"
+      },
+      "emitter.lstm.weight_ih_l0_reverse": {
+        "shape": [
+          400,
+          200
+        ],
+        "changed_values": 0,
+        "changed_first_axis_indices": [],
+        "delta_l2": 0.0,
+        "before_sha256": "e3abe358f3b0e6774ce794f13e97c621ee7f5b904e48c6021418b3ad0112fd0a",
+        "after_sha256": "e3abe358f3b0e6774ce794f13e97c621ee7f5b904e48c6021418b3ad0112fd0a"
+      }
+    },
+    "input": {
+      "emitter.lstm.bias_ih_l0": {
+        "shape": [
+          400
+        ],
+        "changed_values": 24,
+        "changed_first_axis_indices": [
+          200,
+          201,
+          203,
+          205,
+          210,
+          216,
+          217,
+          223,
+          226,
+          228,
+          238,
+          240,
+          246,
+          260,
+          266,
+          268,
+          270,
+          275,
+          284,
+          285,
+          289,
+          290,
+          296,
+          298
+        ],
+        "delta_l2": 0.03930339217185974,
+        "before_sha256": "ac4c8a159d9f4e48eac7a946040af468c8df74bc4ba5ad9c5f9c49591ff1206c",
+        "after_sha256": "d9db59c64f62677afacca5a52c2ab521ae398a48f8ffd25e8bf67e97fb15e690"
+      },
+      "emitter.lstm.bias_ih_l0_reverse": {
+        "shape": [
+          400
+        ],
+        "changed_values": 24,
+        "changed_first_axis_indices": [
+          201,
+          204,
+          210,
+          211,
+          217,
+          223,
+          224,
+          225,
+          227,
+          235,
+          238,
+          242,
+          243,
+          244,
+          255,
+          258,
+          271,
+          277,
+          278,
+          279,
+          284,
+          287,
+          293,
+          299
+        ],
+        "delta_l2": 0.050131864845752716,
+        "before_sha256": "695c1c712149d426a73e2d33a5830bf87e969dc1beeaf031770e90381154390c",
+        "after_sha256": "1802f0f6871cbb0b201a9b45770f6f91987e49c6b8e83e98054146b4f156358e"
+      },
+      "emitter.lstm.weight_hh_l0": {
+        "shape": [
+          400,
+          100
+        ],
+        "changed_values": 0,
+        "changed_first_axis_indices": [],
+        "delta_l2": 0.0,
+        "before_sha256": "039f880db147c5aa1d3733a7966052a0151cfbe7a81ce2e6623f1a4b0619f7be",
+        "after_sha256": "039f880db147c5aa1d3733a7966052a0151cfbe7a81ce2e6623f1a4b0619f7be"
+      },
+      "emitter.lstm.weight_hh_l0_reverse": {
+        "shape": [
+          400,
+          100
+        ],
+        "changed_values": 0,
+        "changed_first_axis_indices": [],
+        "delta_l2": 0.0,
+        "before_sha256": "27d8e4f672c0f1113386ae291d16b436ab1a46520258d814e7ef42fd167b5bec",
+        "after_sha256": "27d8e4f672c0f1113386ae291d16b436ab1a46520258d814e7ef42fd167b5bec"
+      },
+      "emitter.lstm.weight_ih_l0": {
+        "shape": [
+          400,
+          200
+        ],
+        "changed_values": 4800,
+        "changed_first_axis_indices": [
+          200,
+          201,
+          203,
+          205,
+          210,
+          216,
+          217,
+          223,
+          226,
+          228,
+          238,
+          240,
+          246,
+          260,
+          266,
+          268,
+          270,
+          275,
+          284,
+          285,
+          289,
+          290,
+          296,
+          298
+        ],
+        "delta_l2": 0.8581743836402893,
+        "before_sha256": "e713d91b96e9fbc3e44cd0bb87b9be14c0004cedc6c14f3080606c4f1e485974",
+        "after_sha256": "f58f6e48a9075302ee578d6855f12f91b05d3be62bfd88ec67ad79e8588e9f91"
+      },
+      "emitter.lstm.weight_ih_l0_reverse": {
+        "shape": [
+          400,
+          200
+        ],
+        "changed_values": 4800,
+        "changed_first_axis_indices": [
+          201,
+          204,
+          210,
+          211,
+          217,
+          223,
+          224,
+          225,
+          227,
+          235,
+          238,
+          242,
+          243,
+          244,
+          255,
+          258,
+          271,
+          277,
+          278,
+          279,
+          284,
+          287,
+          293,
+          299
+        ],
+        "delta_l2": 0.8626148700714111,
+        "before_sha256": "e3abe358f3b0e6774ce794f13e97c621ee7f5b904e48c6021418b3ad0112fd0a",
+        "after_sha256": "26fea6477cc96dc49593517e35d319623e835044717f497084a9d1d4f82d7c08"
+      }
+    },
+    "input-and-recurrent": {
+      "emitter.lstm.bias_ih_l0": {
+        "shape": [
+          400
+        ],
+        "changed_values": 24,
+        "changed_first_axis_indices": [
+          200,
+          201,
+          203,
+          205,
+          210,
+          216,
+          217,
+          223,
+          226,
+          228,
+          238,
+          240,
+          246,
+          260,
+          266,
+          268,
+          270,
+          275,
+          284,
+          285,
+          289,
+          290,
+          296,
+          298
+        ],
+        "delta_l2": 0.10030366480350494,
+        "before_sha256": "ac4c8a159d9f4e48eac7a946040af468c8df74bc4ba5ad9c5f9c49591ff1206c",
+        "after_sha256": "276f0e69ad0192bf033051e4c270d5e18e5eaf7e64a8bfb89b4a6c59fe54a62c"
+      },
+      "emitter.lstm.bias_ih_l0_reverse": {
+        "shape": [
+          400
+        ],
+        "changed_values": 24,
+        "changed_first_axis_indices": [
+          201,
+          204,
+          210,
+          211,
+          217,
+          223,
+          224,
+          225,
+          227,
+          235,
+          238,
+          242,
+          243,
+          244,
+          255,
+          258,
+          271,
+          277,
+          278,
+          279,
+          284,
+          287,
+          293,
+          299
+        ],
+        "delta_l2": 0.06984620541334152,
+        "before_sha256": "695c1c712149d426a73e2d33a5830bf87e969dc1beeaf031770e90381154390c",
+        "after_sha256": "4c52c3e81a85cb9ad25c8fc896b24a4031aaf95da29650105174b73d33aa9c8d"
+      },
+      "emitter.lstm.weight_hh_l0": {
+        "shape": [
+          400,
+          100
+        ],
+        "changed_values": 2400,
+        "changed_first_axis_indices": [
+          200,
+          201,
+          203,
+          205,
+          210,
+          216,
+          217,
+          223,
+          226,
+          228,
+          238,
+          240,
+          246,
+          260,
+          266,
+          268,
+          270,
+          275,
+          284,
+          285,
+          289,
+          290,
+          296,
+          298
+        ],
+        "delta_l2": 2.291208028793335,
+        "before_sha256": "039f880db147c5aa1d3733a7966052a0151cfbe7a81ce2e6623f1a4b0619f7be",
+        "after_sha256": "b7ceae1161c27939bce2f33f53e534cafa2e46b5faf7570d54d94cbd3b5db727"
+      },
+      "emitter.lstm.weight_hh_l0_reverse": {
+        "shape": [
+          400,
+          100
+        ],
+        "changed_values": 2400,
+        "changed_first_axis_indices": [
+          201,
+          204,
+          210,
+          211,
+          217,
+          223,
+          224,
+          225,
+          227,
+          235,
+          238,
+          242,
+          243,
+          244,
+          255,
+          258,
+          271,
+          277,
+          278,
+          279,
+          284,
+          287,
+          293,
+          299
+        ],
+        "delta_l2": 2.4125313758850098,
+        "before_sha256": "27d8e4f672c0f1113386ae291d16b436ab1a46520258d814e7ef42fd167b5bec",
+        "after_sha256": "c8774e2413a9739e09c4a4f558ec222be97bda49850193e1d97e5f2c8fcec7a3"
+      },
+      "emitter.lstm.weight_ih_l0": {
+        "shape": [
+          400,
+          200
+        ],
+        "changed_values": 4800,
+        "changed_first_axis_indices": [
+          200,
+          201,
+          203,
+          205,
+          210,
+          216,
+          217,
+          223,
+          226,
+          228,
+          238,
+          240,
+          246,
+          260,
+          266,
+          268,
+          270,
+          275,
+          284,
+          285,
+          289,
+          290,
+          296,
+          298
+        ],
+        "delta_l2": 1.173920750617981,
+        "before_sha256": "e713d91b96e9fbc3e44cd0bb87b9be14c0004cedc6c14f3080606c4f1e485974",
+        "after_sha256": "29defcfe49cbab93232bf9f95f7baa4232c633f1e2be5f67eaa22ca67c03a19f"
+      },
+      "emitter.lstm.weight_ih_l0_reverse": {
+        "shape": [
+          400,
+          200
+        ],
+        "changed_values": 4800,
+        "changed_first_axis_indices": [
+          201,
+          204,
+          210,
+          211,
+          217,
+          223,
+          224,
+          225,
+          227,
+          235,
+          238,
+          242,
+          243,
+          244,
+          255,
+          258,
+          271,
+          277,
+          278,
+          279,
+          284,
+          287,
+          293,
+          299
+        ],
+        "delta_l2": 1.168940782546997,
+        "before_sha256": "e3abe358f3b0e6774ce794f13e97c621ee7f5b904e48c6021418b3ad0112fd0a",
+        "after_sha256": "5ca431c9d233c1125955fc36f8906888f246bff5f528a72efde40648a7fd14c5"
+      }
+    }
+  },
+  "native_cpu_forward": {
+    "confirm/5896/identity": {
+      "sentences": 293,
+      "fixed_review_rows": 59,
+      "predictions_sha256": "d78fdc858e7922aba13cb1b39593a43c29077e9bd69e27dcb3482b3744776913",
+      "disagreements": 0
+    },
+    "confirm/5442/identity": {
+      "sentences": 1053,
+      "fixed_review_rows": 211,
+      "predictions_sha256": "86ede13879f0635d3141973b7193056a27aa80d20afa3b69bd6733fb657eea8b",
+      "disagreements": 0
+    },
+    "confirm/5896/input": {
+      "sentences": 293,
+      "fixed_review_rows": 59,
+      "predictions_sha256": "d78fdc858e7922aba13cb1b39593a43c29077e9bd69e27dcb3482b3744776913",
+      "disagreements": 0
+    },
+    "confirm/5442/input": {
+      "sentences": 1053,
+      "fixed_review_rows": 211,
+      "predictions_sha256": "d06984eb6a3ae6e2d54a9d99c8cf208803a617fe824c1f776efe72ccd6ebb5dd",
+      "disagreements": 0
+    },
+    "confirm/5896/input-and-recurrent": {
+      "sentences": 293,
+      "fixed_review_rows": 59,
+      "predictions_sha256": "d78fdc858e7922aba13cb1b39593a43c29077e9bd69e27dcb3482b3744776913",
+      "disagreements": 0
+    },
+    "confirm/5442/input-and-recurrent": {
+      "sentences": 1053,
+      "fixed_review_rows": 211,
+      "predictions_sha256": "86ede13879f0635d3141973b7193056a27aa80d20afa3b69bd6733fb657eea8b",
+      "disagreements": 0
+    },
+    "fresh/6252/identity": {
+      "sentences": 631,
+      "fixed_review_rows": 127,
+      "predictions_sha256": "078a312a5e0ac1cb78d4aee77abb1b1f93af4db14154ab32906274449365038a",
+      "disagreements": 0
+    },
+    "fresh/5028/identity": {
+      "sentences": 2753,
+      "fixed_review_rows": 551,
+      "predictions_sha256": "77a1f4e69879b5f77ad9ee61118db5866c84b22bff0535ab295153894fa1a2db",
+      "disagreements": 0
+    },
+    "fresh/6252/input": {
+      "sentences": 631,
+      "fixed_review_rows": 127,
+      "predictions_sha256": "078a312a5e0ac1cb78d4aee77abb1b1f93af4db14154ab32906274449365038a",
+      "disagreements": 0
+    },
+    "fresh/5028/input": {
+      "sentences": 2753,
+      "fixed_review_rows": 551,
+      "predictions_sha256": "26810def115006be66abedc4dd488d226b216105f533c3c0787b5554dc5b1e7b",
+      "disagreements": 0
+    },
+    "fresh/6252/input-and-recurrent": {
+      "sentences": 631,
+      "fixed_review_rows": 127,
+      "predictions_sha256": "1d1a31346cb3f9a25821127def8f758ffc8044177f4624776cd0d5a65f079350",
+      "disagreements": 0
+    },
+    "fresh/5028/input-and-recurrent": {
+      "sentences": 2753,
+      "fixed_review_rows": 551,
+      "predictions_sha256": "a7abec0149617b04abefc2c4f339ad53cf0001354e5ddc68564932f58536a9cf",
+      "disagreements": 0
+    }
+  }
+}

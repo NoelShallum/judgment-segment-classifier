@@ -1,0 +1,588 @@
+{
+  "cases": 12,
+  "human_rows": 64,
+  "automatically_split_units": 64,
+  "api_calls_in_this_replay": 0,
+  "input_sha256": "a26188da9ad27cf734b60e37e2937af3764842671778564f17905355790b7564",
+  "gemini_answers_sha256": "7e7fa40b943fcc1e1c8bd0dd977ebea1c8d188cb3df34fb76a6f89e48aa10a6d",
+  "predictions_sha256": "5e1353471a44b218ff59f2fb10c815039eb4a0d777289d16a00a017d518a908b",
+  "scores": {
+    "Gemini Decisions": {
+      "tokens": 1413,
+      "token_accuracy": 0.6185421089879689,
+      "token_macro_f1": 0.35075875641450666,
+      "exact_labeled_spans": {
+        "matched": 4,
+        "predicted": 22,
+        "gold": 28,
+        "precision": 0.18181818181818182,
+        "recall": 0.14285714285714285,
+        "f1": 0.16
+      },
+      "exact_role_boundaries": {
+        "matched": 5,
+        "predicted": 10,
+        "gold": 16,
+        "precision": 0.5,
+        "recall": 0.3125,
+        "f1": 0.38461538461538464
+      },
+      "token_confusion": [
+        [
+          0,
+          39,
+          0,
+          60,
+          0,
+          233,
+          5
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          48,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          113,
+          17,
+          20,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          101,
+          0
+        ],
+        [
+          0,
+          16,
+          0,
+          0,
+          0,
+          641,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          120
+        ]
+      ],
+      "span_f1_token_accuracy_delta_ci95": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    "source": {
+      "tokens": 1413,
+      "token_accuracy": 0.3198867657466384,
+      "token_macro_f1": 0.16158028713980246,
+      "exact_labeled_spans": {
+        "matched": 1,
+        "predicted": 13,
+        "gold": 28,
+        "precision": 0.07692307692307693,
+        "recall": 0.03571428571428571,
+        "f1": 0.04878048780487805
+      },
+      "exact_role_boundaries": {
+        "matched": 1,
+        "predicted": 1,
+        "gold": 16,
+        "precision": 1.0,
+        "recall": 0.0625,
+        "f1": 0.11764705882352941
+      },
+      "token_confusion": [
+        [
+          332,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5
+        ],
+        [
+          48,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          150,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          101,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          557,
+          0,
+          0,
+          0,
+          0,
+          0,
+          100
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          120
+        ]
+      ],
+      "span_f1_token_accuracy_delta_ci95": [
+        [
+          -0.29167892156862746,
+          0.014599426608842475
+        ],
+        [
+          -0.6160753692710821,
+          0.050817552191505425
+        ]
+      ]
+    },
+    "retention": {
+      "tokens": 1413,
+      "token_accuracy": 0.38358103326256193,
+      "token_macro_f1": 0.23791864827787168,
+      "exact_labeled_spans": {
+        "matched": 1,
+        "predicted": 13,
+        "gold": 28,
+        "precision": 0.07692307692307693,
+        "recall": 0.03571428571428571,
+        "f1": 0.04878048780487805
+      },
+      "exact_role_boundaries": {
+        "matched": 1,
+        "predicted": 1,
+        "gold": 16,
+        "precision": 1.0,
+        "recall": 0.0625,
+        "f1": 0.11764705882352941
+      },
+      "token_confusion": [
+        [
+          322,
+          0,
+          0,
+          0,
+          0,
+          10,
+          5
+        ],
+        [
+          48,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          150,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          101,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          557,
+          0,
+          0,
+          0,
+          0,
+          100,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          120
+        ]
+      ],
+      "span_f1_token_accuracy_delta_ci95": [
+        [
+          -0.29167892156862746,
+          0.014599426608842475
+        ],
+        [
+          -0.5567020123899781,
+          0.09689659813371629
+        ]
+      ]
+    },
+    "document-prior": {
+      "tokens": 1413,
+      "token_accuracy": 0.27176220806794055,
+      "token_macro_f1": 0.13996768729616849,
+      "exact_labeled_spans": {
+        "matched": 0,
+        "predicted": 13,
+        "gold": 28,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "exact_role_boundaries": {
+        "matched": 1,
+        "predicted": 1,
+        "gold": 16,
+        "precision": 1.0,
+        "recall": 0.0625,
+        "f1": 0.11764705882352941
+      },
+      "token_confusion": [
+        [
+          332,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5
+        ],
+        [
+          48,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          150,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          101,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          657,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          68,
+          0,
+          0,
+          0,
+          0,
+          0,
+          52
+        ]
+      ],
+      "span_f1_token_accuracy_delta_ci95": [
+        [
+          -0.3404255319148936,
+          0.0
+        ],
+        [
+          -0.678723159002029,
+          0.01637737018797749
+        ]
+      ]
+    },
+    "retention-prior": {
+      "tokens": 1413,
+      "token_accuracy": 0.38358103326256193,
+      "token_macro_f1": 0.23791864827787168,
+      "exact_labeled_spans": {
+        "matched": 1,
+        "predicted": 13,
+        "gold": 28,
+        "precision": 0.07692307692307693,
+        "recall": 0.03571428571428571,
+        "f1": 0.04878048780487805
+      },
+      "exact_role_boundaries": {
+        "matched": 1,
+        "predicted": 1,
+        "gold": 16,
+        "precision": 1.0,
+        "recall": 0.0625,
+        "f1": 0.11764705882352941
+      },
+      "token_confusion": [
+        [
+          322,
+          0,
+          0,
+          0,
+          0,
+          10,
+          5
+        ],
+        [
+          48,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          150,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          101,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          557,
+          0,
+          0,
+          0,
+          0,
+          100,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          120
+        ]
+      ],
+      "span_f1_token_accuracy_delta_ci95": [
+        [
+          -0.29167892156862746,
+          0.014599426608842475
+        ],
+        [
+          -0.5567020123899781,
+          0.09689659813371629
+        ]
+      ]
+    },
+    "current-20-percent": {
+      "tokens": 1413,
+      "token_accuracy": 0.3305024769992923,
+      "token_macro_f1": 0.21774830305008755,
+      "exact_labeled_spans": {
+        "matched": 1,
+        "predicted": 16,
+        "gold": 28,
+        "precision": 0.0625,
+        "recall": 0.03571428571428571,
+        "f1": 0.045454545454545456
+      },
+      "exact_role_boundaries": {
+        "matched": 1,
+        "predicted": 4,
+        "gold": 16,
+        "precision": 0.25,
+        "recall": 0.0625,
+        "f1": 0.1
+      },
+      "token_confusion": [
+        [
+          246,
+          0,
+          0,
+          0,
+          0,
+          86,
+          5
+        ],
+        [
+          48,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          150,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          101,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          541,
+          0,
+          0,
+          0,
+          0,
+          116,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          15,
+          105
+        ]
+      ],
+      "span_f1_token_accuracy_delta_ci95": [
+        [
+          -0.29391390400791684,
+          0.00878048780487805
+        ],
+        [
+          -0.5521207337842843,
+          -0.03886516609731961
+        ]
+      ]
+    }
+  },
+  "protocol": "Models received the same automatically generated units of each raw clipped passage. The frozen Gemini record contains a role for each unit. The gold span endpoints come from the original human-labeled rows. Exact labeled spans require both endpoints and the role. Bootstrap resamples twelve passages."
+}

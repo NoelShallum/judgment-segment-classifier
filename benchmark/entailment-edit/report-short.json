@@ -1,0 +1,16 @@
+{
+  "table_description": "Pooled validation macro-F1 rose from 72.445 to 72.470, while None–Reasoning swaps increased from 4,208 to 4,212 and both norm-matched shuffles recorded 4,199.",
+  "outcome": "The edit missed the paired confirmation criterion. The official benchmark remained sealed.",
+  "confirmation_judgments": 168,
+  "confirmation_sentences": 37279,
+  "nli_focus_sentences": 5219,
+  "nli_text_pairs": 36533,
+  "none_to_reasoning_before_after": [1950, 1929],
+  "reasoning_to_none_before_after": [2258, 2283],
+  "paired_macro_f1_gain_points_ci95": [-0.0264, 0.0833],
+  "no_exact_train_key_macro_f1_before_after": [71.7314, 71.7277],
+  "no_exact_train_key_swaps_before_after": [2808, 2816],
+  "capture_device": "Tesla T4",
+  "capture_seconds": 243.41,
+  "cpu_fit_seconds": 11.12
+}

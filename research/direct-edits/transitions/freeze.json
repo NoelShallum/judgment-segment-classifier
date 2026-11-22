@@ -1,0 +1,107 @@
+{
+  "plan_sha256": "1c5f829ba7acfe3a44073f67145341fa63f243ac393b967a3fae4d7237fcb047",
+  "weights_sha256": "220bff5f4adf097da47f84ecb92ad191f2b2d3ea7cf7f57a6766240388bae3f2",
+  "gain": 0.125,
+  "selection_grid": {
+    "0.0": {
+      "macro_f1": 0.6337238150485901,
+      "accuracy": 0.6604686527960185,
+      "per_role_f1": {
+        "none": 0.7106266199115718,
+        "facts": 0.7955089269280324,
+        "issue": 0.5154639175257731,
+        "petitioner_argument": 0.6098555020377918,
+        "respondent_argument": 0.5406019307211811,
+        "reasoning": 0.4397076735688185,
+        "decision": 0.8243021346469622
+      },
+      "matched": 801,
+      "predicted": 1616,
+      "gold": 3456,
+      "precision": 0.49566831683168316,
+      "recall": 0.23177083333333334,
+      "exact_labeled_span_f1": 0.31585173501577285,
+      "role_boundary_f1": 0.4823529411764706
+    },
+    "0.125": {
+      "macro_f1": 0.6506646739304747,
+      "accuracy": 0.665583742310085,
+      "per_role_f1": {
+        "none": 0.7027892089620484,
+        "facts": 0.7975646879756468,
+        "issue": 0.5430809399477807,
+        "petitioner_argument": 0.6466512702078522,
+        "respondent_argument": 0.5904225352112676,
+        "reasoning": 0.4650086755349913,
+        "decision": 0.8091353996737357
+      },
+      "matched": 769,
+      "predicted": 1615,
+      "gold": 3456,
+      "precision": 0.4761609907120743,
+      "recall": 0.22251157407407407,
+      "exact_labeled_span_f1": 0.30329323604811675,
+      "role_boundary_f1": 0.4796104686548996
+    },
+    "0.25": {
+      "macro_f1": 0.6426339015808569,
+      "accuracy": 0.6421511025091587,
+      "per_role_f1": {
+        "none": 0.6671831422373722,
+        "facts": 0.7781703965449549,
+        "issue": 0.5380434782608695,
+        "petitioner_argument": 0.6579572446555819,
+        "respondent_argument": 0.6101492537313433,
+        "reasoning": 0.45856545961002787,
+        "decision": 0.7883683360258481
+      },
+      "matched": 752,
+      "predicted": 1604,
+      "gold": 3456,
+      "precision": 0.4688279301745636,
+      "recall": 0.2175925925925926,
+      "exact_labeled_span_f1": 0.2972332015810277,
+      "role_boundary_f1": 0.47254981699878
+    },
+    "0.5": {
+      "macro_f1": 0.6069515565578729,
+      "accuracy": 0.5915531900186631,
+      "per_role_f1": {
+        "none": 0.6146494320407364,
+        "facts": 0.6979054199956812,
+        "issue": 0.5175202156334232,
+        "petitioner_argument": 0.6121212121212121,
+        "respondent_argument": 0.5782983970406905,
+        "reasoning": 0.45664304026542,
+        "decision": 0.7715231788079471
+      },
+      "matched": 699,
+      "predicted": 1595,
+      "gold": 3456,
+      "precision": 0.43824451410658305,
+      "recall": 0.20225694444444445,
+      "exact_labeled_span_f1": 0.2767768758661651,
+      "role_boundary_f1": 0.45589733143206357
+    },
+    "1.0": {
+      "macro_f1": 0.5013935850621573,
+      "accuracy": 0.521047902122071,
+      "per_role_f1": {
+        "none": 0.5489415884131784,
+        "facts": 0.5896726602120793,
+        "issue": 0.34877384196185285,
+        "petitioner_argument": 0.43740722414646216,
+        "respondent_argument": 0.4405908798972383,
+        "reasoning": 0.4691689008042895,
+        "decision": 0.6752
+      },
+      "matched": 664,
+      "predicted": 1710,
+      "gold": 3456,
+      "precision": 0.3883040935672515,
+      "recall": 0.19212962962962962,
+      "exact_labeled_span_f1": 0.2570654277971351,
+      "role_boundary_f1": 0.43670382165605093
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "method": "SHA256 of case text with original row whitespace trimmed and one joining space, exactly matching raw inference text.",
+  "case_counts": {
+    "train": 4984,
+    "val": 1424,
+    "test": 712
+  },
+  "cross_split_identical_text": {
+    "train_test": [],
+    "train_val": [],
+    "val_test": []
+  },
+  "within_split_repeated_cases": {
+    "train": 0,
+    "val": 3,
+    "test": 0
+  },
+  "validation_cohorts": {
+    "select": {
+      "cases": 72,
+      "distinct_case_texts": 72
+    },
+    "confirm": {
+      "cases": 72,
+      "distinct_case_texts": 72
+    },
+    "independent": {
+      "cases": 128,
+      "distinct_case_texts": 128
+    }
+  },
+  "identical_text_across_validation_cohorts": {
+    "select_confirm": 0,
+    "select_independent": 1,
+    "confirm_independent": 0
+  },
+  "independent_exclusions_for_text_disjoint_check": [
+    "5540"
+  ]
+}

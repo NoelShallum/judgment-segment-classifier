@@ -1,0 +1,36 @@
+{
+  "source_freeze": "28230c3ee0027c730042af3da2552a20481863994edbea98d25b5aea8fbb064d",
+  "topology": {
+    "rival-utility": [
+      "rival-macro",
+      false
+    ],
+    "pair-utility": [
+      "pair-macro",
+      true
+    ]
+  },
+  "target": "First-order per-role macro-F1 change for reallocating prediction mass from the incumbent role to each possible role, derived only from the fitting confusion. Leaf means use fixed routing values and shrink toward zero.",
+  "selection": "Same 48 cases and zero comparator. Require higher full/no-key F1, nonincreasing full/no-key pair errors, and accuracy above the existing floor. Freeze before opening the two confirmation groups for this follow-up.",
+  "shrinkage": [
+    8.0,
+    48.0
+  ],
+  "penalties": [
+    0.03,
+    0.12,
+    0.32
+  ],
+  "minimum_benefits": [
+    0.015,
+    0.07,
+    0.16
+  ],
+  "maximum_score_gaps": [
+    0.7,
+    1.5,
+    3.0
+  ],
+  "controls": "Equal-norm residual permutation within incumbent/rival identity plus zero.",
+  "official_test_read": false
+}

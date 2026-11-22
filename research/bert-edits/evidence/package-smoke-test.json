@@ -1,0 +1,471 @@
+{
+  "runtime": "CPU FP32 native Transformers model, eager attention, two CPU threads.",
+  "torch": "2.8.0+cpu",
+  "source_validation_only": true,
+  "variant_count": 6,
+  "source_sha256": "8df96ec8bd34ab5bb7ab770310000c2a55063301204eee22c222c8dd2f961132",
+  "results": {
+    "ffn-28": {
+      "checkpoint_sha256": "a5e0cb6ac11e7392804473fa238161a46fe0ab1ec8a9dc288a183a577ab350d4",
+      "changed": {
+        "bert.encoder.layer.11.intermediate.dense.weight": {
+          "shape": [
+            3072,
+            768
+          ],
+          "changed": 21504
+        },
+        "bert.encoder.layer.11.intermediate.dense.bias": {
+          "shape": [
+            3072
+          ],
+          "changed": 28
+        },
+        "bert.encoder.layer.11.output.dense.weight": {
+          "shape": [
+            768,
+            3072
+          ],
+          "changed": 21504
+        }
+      },
+      "matched": [
+        {
+          "id": "val-622",
+          "label": "None",
+          "wordpieces": 28,
+          "windows": 1
+        },
+        {
+          "id": "val-669",
+          "label": "Arguments of Respondent",
+          "wordpieces": 67,
+          "windows": 1
+        },
+        {
+          "id": "val-674",
+          "label": "Reasoning",
+          "wordpieces": 34,
+          "windows": 1
+        },
+        {
+          "id": "val-682",
+          "label": "None",
+          "wordpieces": 22,
+          "windows": 1
+        },
+        {
+          "id": "val-725",
+          "label": "Decision",
+          "wordpieces": 12,
+          "windows": 1
+        },
+        {
+          "id": "val-1530",
+          "label": "None",
+          "wordpieces": 38,
+          "windows": 1
+        },
+        {
+          "id": "val-5269",
+          "label": "Issue",
+          "wordpieces": 91,
+          "windows": 1
+        },
+        {
+          "id": "val-162710",
+          "label": "None",
+          "wordpieces": 814,
+          "windows": 2
+        }
+      ]
+    },
+    "ffn-112": {
+      "checkpoint_sha256": "aa22492bc0d74eeab2394c720f96aee4d272f0f193bc1e62200140fe48a4bb7a",
+      "changed": {
+        "bert.encoder.layer.11.intermediate.dense.weight": {
+          "shape": [
+            3072,
+            768
+          ],
+          "changed": 86016
+        },
+        "bert.encoder.layer.11.intermediate.dense.bias": {
+          "shape": [
+            3072
+          ],
+          "changed": 112
+        },
+        "bert.encoder.layer.11.output.dense.weight": {
+          "shape": [
+            768,
+            3072
+          ],
+          "changed": 86016
+        }
+      },
+      "matched": [
+        {
+          "id": "val-622",
+          "label": "Arguments of Petitioner",
+          "wordpieces": 28,
+          "windows": 1
+        },
+        {
+          "id": "val-669",
+          "label": "Arguments of Respondent",
+          "wordpieces": 67,
+          "windows": 1
+        },
+        {
+          "id": "val-674",
+          "label": "Reasoning",
+          "wordpieces": 34,
+          "windows": 1
+        },
+        {
+          "id": "val-682",
+          "label": "None",
+          "wordpieces": 22,
+          "windows": 1
+        },
+        {
+          "id": "val-725",
+          "label": "Decision",
+          "wordpieces": 12,
+          "windows": 1
+        },
+        {
+          "id": "val-1530",
+          "label": "None",
+          "wordpieces": 38,
+          "windows": 1
+        },
+        {
+          "id": "val-5269",
+          "label": "Issue",
+          "wordpieces": 91,
+          "windows": 1
+        },
+        {
+          "id": "val-162710",
+          "label": "None",
+          "wordpieces": 814,
+          "windows": 2
+        }
+      ]
+    },
+    "head-balanced": {
+      "checkpoint_sha256": "2b197fdc2c0c7fa649b39f268530cb9e791b4cfe93559208a1cefd9c9a637685",
+      "changed": {
+        "classifier.bias": {
+          "shape": [
+            7
+          ],
+          "changed": 7
+        },
+        "classifier.weight": {
+          "shape": [
+            7,
+            768
+          ],
+          "changed": 5376
+        }
+      },
+      "matched": [
+        {
+          "id": "val-622",
+          "label": "Arguments of Respondent",
+          "wordpieces": 28,
+          "windows": 1
+        },
+        {
+          "id": "val-669",
+          "label": "Arguments of Respondent",
+          "wordpieces": 67,
+          "windows": 1
+        },
+        {
+          "id": "val-674",
+          "label": "Reasoning",
+          "wordpieces": 34,
+          "windows": 1
+        },
+        {
+          "id": "val-682",
+          "label": "None",
+          "wordpieces": 22,
+          "windows": 1
+        },
+        {
+          "id": "val-725",
+          "label": "Decision",
+          "wordpieces": 12,
+          "windows": 1
+        },
+        {
+          "id": "val-1530",
+          "label": "Arguments of Petitioner",
+          "wordpieces": 38,
+          "windows": 1
+        },
+        {
+          "id": "val-5269",
+          "label": "Issue",
+          "wordpieces": 91,
+          "windows": 1
+        },
+        {
+          "id": "val-162710",
+          "label": "None",
+          "wordpieces": 814,
+          "windows": 2
+        }
+      ]
+    },
+    "head-train-priors": {
+      "checkpoint_sha256": "e769f2639b44fe9ed00a9d07336cfdbf8cf75d52404f76b177245847b33f4ce1",
+      "changed": {
+        "classifier.bias": {
+          "shape": [
+            7
+          ],
+          "changed": 7
+        },
+        "classifier.weight": {
+          "shape": [
+            7,
+            768
+          ],
+          "changed": 5376
+        }
+      },
+      "matched": [
+        {
+          "id": "val-622",
+          "label": "Reasoning",
+          "wordpieces": 28,
+          "windows": 1
+        },
+        {
+          "id": "val-669",
+          "label": "Arguments of Respondent",
+          "wordpieces": 67,
+          "windows": 1
+        },
+        {
+          "id": "val-674",
+          "label": "Reasoning",
+          "wordpieces": 34,
+          "windows": 1
+        },
+        {
+          "id": "val-682",
+          "label": "None",
+          "wordpieces": 22,
+          "windows": 1
+        },
+        {
+          "id": "val-725",
+          "label": "None",
+          "wordpieces": 12,
+          "windows": 1
+        },
+        {
+          "id": "val-1530",
+          "label": "None",
+          "wordpieces": 38,
+          "windows": 1
+        },
+        {
+          "id": "val-5269",
+          "label": "Facts",
+          "wordpieces": 91,
+          "windows": 1
+        },
+        {
+          "id": "val-162710",
+          "label": "None",
+          "wordpieces": 814,
+          "windows": 2
+        }
+      ]
+    },
+    "combined-balanced": {
+      "checkpoint_sha256": "9c33245af888896ef1939af76faee807c908145efbefce40cd0fee1b9d7ec058",
+      "changed": {
+        "bert.encoder.layer.11.intermediate.dense.weight": {
+          "shape": [
+            3072,
+            768
+          ],
+          "changed": 86016
+        },
+        "bert.encoder.layer.11.intermediate.dense.bias": {
+          "shape": [
+            3072
+          ],
+          "changed": 112
+        },
+        "bert.encoder.layer.11.output.dense.weight": {
+          "shape": [
+            768,
+            3072
+          ],
+          "changed": 86016
+        },
+        "classifier.bias": {
+          "shape": [
+            7
+          ],
+          "changed": 7
+        },
+        "classifier.weight": {
+          "shape": [
+            7,
+            768
+          ],
+          "changed": 5376
+        }
+      },
+      "matched": [
+        {
+          "id": "val-622",
+          "label": "Arguments of Respondent",
+          "wordpieces": 28,
+          "windows": 1
+        },
+        {
+          "id": "val-669",
+          "label": "Arguments of Respondent",
+          "wordpieces": 67,
+          "windows": 1
+        },
+        {
+          "id": "val-674",
+          "label": "Reasoning",
+          "wordpieces": 34,
+          "windows": 1
+        },
+        {
+          "id": "val-682",
+          "label": "None",
+          "wordpieces": 22,
+          "windows": 1
+        },
+        {
+          "id": "val-725",
+          "label": "Decision",
+          "wordpieces": 12,
+          "windows": 1
+        },
+        {
+          "id": "val-1530",
+          "label": "Arguments of Respondent",
+          "wordpieces": 38,
+          "windows": 1
+        },
+        {
+          "id": "val-5269",
+          "label": "Issue",
+          "wordpieces": 91,
+          "windows": 1
+        },
+        {
+          "id": "val-162710",
+          "label": "None",
+          "wordpieces": 814,
+          "windows": 2
+        }
+      ]
+    },
+    "combined-train-priors": {
+      "checkpoint_sha256": "c2e890a2375bbda659d7619498c761c8629e1bfe3d011dac168e7649e07ee8cb",
+      "changed": {
+        "bert.encoder.layer.11.intermediate.dense.weight": {
+          "shape": [
+            3072,
+            768
+          ],
+          "changed": 86016
+        },
+        "bert.encoder.layer.11.intermediate.dense.bias": {
+          "shape": [
+            3072
+          ],
+          "changed": 112
+        },
+        "bert.encoder.layer.11.output.dense.weight": {
+          "shape": [
+            768,
+            3072
+          ],
+          "changed": 86016
+        },
+        "classifier.bias": {
+          "shape": [
+            7
+          ],
+          "changed": 7
+        },
+        "classifier.weight": {
+          "shape": [
+            7,
+            768
+          ],
+          "changed": 5376
+        }
+      },
+      "matched": [
+        {
+          "id": "val-622",
+          "label": "Reasoning",
+          "wordpieces": 28,
+          "windows": 1
+        },
+        {
+          "id": "val-669",
+          "label": "Arguments of Respondent",
+          "wordpieces": 67,
+          "windows": 1
+        },
+        {
+          "id": "val-674",
+          "label": "Reasoning",
+          "wordpieces": 34,
+          "windows": 1
+        },
+        {
+          "id": "val-682",
+          "label": "None",
+          "wordpieces": 22,
+          "windows": 1
+        },
+        {
+          "id": "val-725",
+          "label": "Decision",
+          "wordpieces": 12,
+          "windows": 1
+        },
+        {
+          "id": "val-1530",
+          "label": "None",
+          "wordpieces": 38,
+          "windows": 1
+        },
+        {
+          "id": "val-5269",
+          "label": "Facts",
+          "wordpieces": 91,
+          "windows": 1
+        },
+        {
+          "id": "val-162710",
+          "label": "None",
+          "wordpieces": 814,
+          "windows": 2
+        }
+      ]
+    }
+  }
+}

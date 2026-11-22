@@ -1,0 +1,134 @@
+{
+  "whole": {
+    "current": {
+      "gold_spans": 28879,
+      "gold_spans_with_both_candidate_endpoints": 23677,
+      "reachable_gold_span_recall": 0.8198691090411718,
+      "loose_exact_span_f1_ceiling": 0.9010198645254586,
+      "reachable_interior_gold_boundaries": 25038
+    },
+    "numbered": {
+      "gold_spans": 28879,
+      "gold_spans_with_both_candidate_endpoints": 23982,
+      "reachable_gold_span_recall": 0.8304304165656705,
+      "loose_exact_span_f1_ceiling": 0.9073608142108549,
+      "reachable_interior_gold_boundaries": 25265
+    },
+    "sentence": {
+      "gold_spans": 28879,
+      "gold_spans_with_both_candidate_endpoints": 25615,
+      "reachable_gold_span_recall": 0.8869766958689705,
+      "loose_exact_span_f1_ceiling": 0.9401034976327669,
+      "reachable_interior_gold_boundaries": 26367
+    },
+    "clause": {
+      "gold_spans": 28879,
+      "gold_spans_with_both_candidate_endpoints": 23677,
+      "reachable_gold_span_recall": 0.8198691090411718,
+      "loose_exact_span_f1_ceiling": 0.9010198645254586,
+      "reachable_interior_gold_boundaries": 25038
+    },
+    "discourse": {
+      "gold_spans": 28879,
+      "gold_spans_with_both_candidate_endpoints": 23681,
+      "reachable_gold_span_recall": 0.8200076179923127,
+      "loose_exact_span_f1_ceiling": 0.901103500761035,
+      "reachable_interior_gold_boundaries": 25040
+    },
+    "all": {
+      "gold_spans": 28879,
+      "gold_spans_with_both_candidate_endpoints": 25668,
+      "reachable_gold_span_recall": 0.8888119394715883,
+      "loose_exact_span_f1_ceiling": 0.941133334555521,
+      "reachable_interior_gold_boundaries": 26400
+    }
+  },
+  "fragment": {
+    "current": {
+      "gold_spans": 266,
+      "gold_spans_with_both_candidate_endpoints": 237,
+      "reachable_gold_span_recall": 0.8909774436090225,
+      "loose_exact_span_f1_ceiling": 0.9423459244532804,
+      "reachable_interior_gold_boundaries": 129
+    },
+    "numbered": {
+      "gold_spans": 266,
+      "gold_spans_with_both_candidate_endpoints": 237,
+      "reachable_gold_span_recall": 0.8909774436090225,
+      "loose_exact_span_f1_ceiling": 0.9423459244532804,
+      "reachable_interior_gold_boundaries": 129
+    },
+    "sentence": {
+      "gold_spans": 266,
+      "gold_spans_with_both_candidate_endpoints": 250,
+      "reachable_gold_span_recall": 0.9398496240601504,
+      "loose_exact_span_f1_ceiling": 0.9689922480620154,
+      "reachable_interior_gold_boundaries": 136
+    },
+    "clause": {
+      "gold_spans": 266,
+      "gold_spans_with_both_candidate_endpoints": 237,
+      "reachable_gold_span_recall": 0.8909774436090225,
+      "loose_exact_span_f1_ceiling": 0.9423459244532804,
+      "reachable_interior_gold_boundaries": 129
+    },
+    "discourse": {
+      "gold_spans": 266,
+      "gold_spans_with_both_candidate_endpoints": 237,
+      "reachable_gold_span_recall": 0.8909774436090225,
+      "loose_exact_span_f1_ceiling": 0.9423459244532804,
+      "reachable_interior_gold_boundaries": 129
+    },
+    "all": {
+      "gold_spans": 266,
+      "gold_spans_with_both_candidate_endpoints": 250,
+      "reachable_gold_span_recall": 0.9398496240601504,
+      "loose_exact_span_f1_ceiling": 0.9689922480620154,
+      "reachable_interior_gold_boundaries": 136
+    }
+  },
+  "matched": {
+    "current": {
+      "gold_spans": 28,
+      "gold_spans_with_both_candidate_endpoints": 28,
+      "reachable_gold_span_recall": 1.0,
+      "loose_exact_span_f1_ceiling": 1.0,
+      "reachable_interior_gold_boundaries": 16
+    },
+    "numbered": {
+      "gold_spans": 28,
+      "gold_spans_with_both_candidate_endpoints": 28,
+      "reachable_gold_span_recall": 1.0,
+      "loose_exact_span_f1_ceiling": 1.0,
+      "reachable_interior_gold_boundaries": 16
+    },
+    "sentence": {
+      "gold_spans": 28,
+      "gold_spans_with_both_candidate_endpoints": 28,
+      "reachable_gold_span_recall": 1.0,
+      "loose_exact_span_f1_ceiling": 1.0,
+      "reachable_interior_gold_boundaries": 16
+    },
+    "clause": {
+      "gold_spans": 28,
+      "gold_spans_with_both_candidate_endpoints": 28,
+      "reachable_gold_span_recall": 1.0,
+      "loose_exact_span_f1_ceiling": 1.0,
+      "reachable_interior_gold_boundaries": 16
+    },
+    "discourse": {
+      "gold_spans": 28,
+      "gold_spans_with_both_candidate_endpoints": 28,
+      "reachable_gold_span_recall": 1.0,
+      "loose_exact_span_f1_ceiling": 1.0,
+      "reachable_interior_gold_boundaries": 16
+    },
+    "all": {
+      "gold_spans": 28,
+      "gold_spans_with_both_candidate_endpoints": 28,
+      "reachable_gold_span_recall": 1.0,
+      "loose_exact_span_f1_ceiling": 1.0,
+      "reachable_interior_gold_boundaries": 16
+    }
+  }
+}

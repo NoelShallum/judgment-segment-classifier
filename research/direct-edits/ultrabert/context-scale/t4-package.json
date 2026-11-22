@@ -1,0 +1,12 @@
+{
+  "name": "ultrabert-t4-worker.zip",
+  "bytes": 1650541,
+  "sha256": "9c6ef1eec1459e03a6509fafeeeeb011e57c118354f4d08cd6fef5730b059182",
+  "entries": 94,
+  "precise_compute": "NVIDIA T4 FP32 for all model forwards; CPU closed-form algebra",
+  "fit_and_development": 48,
+  "validation": 16,
+  "precomputed_intel_states": 0,
+  "entry": "run_t4.sh",
+  "compact_output": "attoflow-ultrabert-t4-results.zip"
+}

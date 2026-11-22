@@ -1,0 +1,40 @@
+{
+  "model": "nlpaueb/legal-bert-small-uncased",
+  "revision": "0e23f7a9a39f59768ea7e09766d8ee308580fb17",
+  "license": "CC BY-SA 4.0",
+  "sources": [
+    {
+      "name": "config.json",
+      "sha256": "15990ef6b4cbbb3628d01867a0d7fc0c172e63f10502b72a400861f8e1118ca7",
+      "bytes": 989,
+      "source": "https://huggingface.co/nlpaueb/legal-bert-small-uncased/resolve/0e23f7a9a39f59768ea7e09766d8ee308580fb17/config.json"
+    },
+    {
+      "name": "tokenizer_config.json",
+      "sha256": "a025160ef0431f1a392f6f050c1310f4c5d9fb6f275932dbccba73c4d214bf10",
+      "bytes": 48,
+      "source": "https://huggingface.co/nlpaueb/legal-bert-small-uncased/resolve/0e23f7a9a39f59768ea7e09766d8ee308580fb17/tokenizer_config.json"
+    },
+    {
+      "name": "vocab.txt",
+      "sha256": "072d8861250c9afa844997d1cebd1b101044869a56beddfdd311dea03a30043d",
+      "bytes": 221792,
+      "source": "https://huggingface.co/nlpaueb/legal-bert-small-uncased/resolve/0e23f7a9a39f59768ea7e09766d8ee308580fb17/vocab.txt"
+    },
+    {
+      "name": "pytorch_model.bin",
+      "sha256": "28ab0bfad928a678df394a5f6a8ec666a530b6b23a21f750778f453ea127b47d",
+      "bytes": 141480422,
+      "source": "https://huggingface.co/nlpaueb/legal-bert-small-uncased/resolve/0e23f7a9a39f59768ea7e09766d8ee308580fb17/pytorch_model.bin"
+    }
+  ],
+  "encoder_sha256": "98a6b9520c494c016a04d20f340997f0d07dd10380169b41387e0cb17cc00078",
+  "encoder_parameters": 35068416,
+  "layers": 6,
+  "context_limit": 512,
+  "cpu_probe_shape": [
+    2,
+    11,
+    512
+  ]
+}

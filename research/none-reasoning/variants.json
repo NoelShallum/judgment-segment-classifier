@@ -1,0 +1,32 @@
+{
+  "donor_sha256": "bbe8af20d1524c7535b1cbe68c6d4c3c844c6cc9fccef46c03c9ff56e7c18cea",
+  "variants": {
+    "none-reasoning-donor": {
+      "patches": [
+        "donor-targeted.safetensors"
+      ],
+      "checkpoint_sha256": "bb4a24bd3147c0fb4b6fcb8333c6a271b0260a8949e2315817a558bf358bbb3c"
+    },
+    "none-reasoning-28": {
+      "patches": [
+        "role.safetensors",
+        "neurons28-targeted.safetensors"
+      ],
+      "checkpoint_sha256": "c9152cb381285dfff1422ae57cdfc4f1f3ead10905e28bcb63a6270e5fbbf5cc"
+    }
+  },
+  "patch_sha256": {
+    "role.safetensors": "0811aee354881d45cc06292bfc6c365d2a005952450cb8ae978b8d3acd54c2c3",
+    "donor-targeted.safetensors": "c6a6ea2bea40c9ba530abc375972814405e5809a9e22ba0e7eb27f4dbcb19dfa",
+    "neurons28-targeted.safetensors": "b8e96031f57e052c5c6c0b368a662596df3ece749cdfb9c40eaaa7045f175f22"
+  },
+  "support_files": [
+    "LICENSE",
+    "NOTICE",
+    "TOKENIZER-LICENSE.txt",
+    "config.json",
+    "special_tokens_map.json",
+    "tokenizer_config.json",
+    "vocab.txt"
+  ]
+}

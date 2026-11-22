@@ -1,0 +1,9 @@
+{
+  "defined_utc": "2026-11-22T16:15:50+00:00",
+  "stages": [
+    256,
+    512
+  ],
+  "choice": "Use the model with highest 48-judgment selector rank tuple from the stage locks. Earlier stage wins ties. Confirmations must show higher macro-F1 and fewer aggregate None/Reasoning swaps on each of the 72 and 96 cohorts, compared to published AttoFlow context baseline. Then score only the preselected contender on the official test and report matched predictions. No published or official test metric enters selection.",
+  "state": "First 256-case confirmations had been measured. Stage 512 and either new official evaluation were still unopened."
+}

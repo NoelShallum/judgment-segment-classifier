@@ -1,0 +1,332 @@
+{
+  "cases": 712,
+  "profiles": {
+    "exact": {
+      "all_spans": {
+        "exact": 6681,
+        "unreachable_endpoint": 5202,
+        "exact_bounds_wrong_role": 904,
+        "same_role_one_unit_away": 1105,
+        "same_role_other_overlap": 6823,
+        "no_same_role_overlap": 8164
+      },
+      "by_role": {
+        "none": {
+          "exact": 3587,
+          "unreachable_endpoint": 2174,
+          "exact_bounds_wrong_role": 86,
+          "same_role_one_unit_away": 356,
+          "same_role_other_overlap": 1014,
+          "no_same_role_overlap": 5156,
+          "predicted": 7318
+        },
+        "facts": {
+          "exact": 760,
+          "unreachable_endpoint": 783,
+          "exact_bounds_wrong_role": 100,
+          "same_role_one_unit_away": 122,
+          "same_role_other_overlap": 1431,
+          "no_same_role_overlap": 347,
+          "predicted": 2610
+        },
+        "issue": {
+          "exact": 318,
+          "unreachable_endpoint": 168,
+          "exact_bounds_wrong_role": 46,
+          "same_role_one_unit_away": 99,
+          "same_role_other_overlap": 101,
+          "no_same_role_overlap": 302,
+          "predicted": 1078
+        },
+        "petitioner_argument": {
+          "exact": 209,
+          "unreachable_endpoint": 561,
+          "exact_bounds_wrong_role": 324,
+          "same_role_one_unit_away": 134,
+          "same_role_other_overlap": 419,
+          "no_same_role_overlap": 1011,
+          "predicted": 1070
+        },
+        "respondent_argument": {
+          "exact": 306,
+          "unreachable_endpoint": 422,
+          "exact_bounds_wrong_role": 83,
+          "same_role_one_unit_away": 90,
+          "same_role_other_overlap": 283,
+          "no_same_role_overlap": 801,
+          "predicted": 1011
+        },
+        "reasoning": {
+          "exact": 1028,
+          "unreachable_endpoint": 918,
+          "exact_bounds_wrong_role": 218,
+          "same_role_one_unit_away": 192,
+          "same_role_other_overlap": 3292,
+          "no_same_role_overlap": 455,
+          "predicted": 3724
+        },
+        "decision": {
+          "exact": 473,
+          "unreachable_endpoint": 176,
+          "exact_bounds_wrong_role": 47,
+          "same_role_one_unit_away": 112,
+          "same_role_other_overlap": 283,
+          "no_same_role_overlap": 92,
+          "predicted": 1037
+        }
+      },
+      "by_length": {
+        "medium": {
+          "exact": 4491,
+          "unreachable_endpoint": 2854,
+          "exact_bounds_wrong_role": 525,
+          "same_role_one_unit_away": 713,
+          "same_role_other_overlap": 3511,
+          "no_same_role_overlap": 3662
+        },
+        "short": {
+          "exact": 696,
+          "unreachable_endpoint": 231,
+          "exact_bounds_wrong_role": 41,
+          "same_role_one_unit_away": 110,
+          "same_role_other_overlap": 288,
+          "no_same_role_overlap": 263
+        },
+        "long": {
+          "exact": 1494,
+          "unreachable_endpoint": 2117,
+          "exact_bounds_wrong_role": 338,
+          "same_role_one_unit_away": 282,
+          "same_role_other_overlap": 3024,
+          "no_same_role_overlap": 4239
+        }
+      },
+      "common_fixed_boundary_mistakes": [
+        [
+          "petitioner_argument",
+          "none",
+          279
+        ],
+        [
+          "reasoning",
+          "facts",
+          119
+        ],
+        [
+          "facts",
+          "issue",
+          44
+        ],
+        [
+          "reasoning",
+          "decision",
+          34
+        ],
+        [
+          "decision",
+          "reasoning",
+          31
+        ],
+        [
+          "issue",
+          "facts",
+          30
+        ],
+        [
+          "none",
+          "reasoning",
+          30
+        ],
+        [
+          "respondent_argument",
+          "reasoning",
+          28
+        ],
+        [
+          "reasoning",
+          "issue",
+          24
+        ],
+        [
+          "facts",
+          "none",
+          24
+        ],
+        [
+          "respondent_argument",
+          "facts",
+          23
+        ],
+        [
+          "facts",
+          "reasoning",
+          21
+        ]
+      ]
+    },
+    "balanced": {
+      "all_spans": {
+        "exact": 6844,
+        "unreachable_endpoint": 5202,
+        "exact_bounds_wrong_role": 921,
+        "same_role_one_unit_away": 1367,
+        "same_role_other_overlap": 7226,
+        "no_same_role_overlap": 7319
+      },
+      "by_role": {
+        "none": {
+          "exact": 3548,
+          "unreachable_endpoint": 2174,
+          "exact_bounds_wrong_role": 93,
+          "same_role_one_unit_away": 417,
+          "same_role_other_overlap": 2550,
+          "no_same_role_overlap": 3591,
+          "predicted": 8115
+        },
+        "facts": {
+          "exact": 777,
+          "unreachable_endpoint": 783,
+          "exact_bounds_wrong_role": 90,
+          "same_role_one_unit_away": 137,
+          "same_role_other_overlap": 1331,
+          "no_same_role_overlap": 425,
+          "predicted": 2660
+        },
+        "issue": {
+          "exact": 359,
+          "unreachable_endpoint": 168,
+          "exact_bounds_wrong_role": 50,
+          "same_role_one_unit_away": 110,
+          "same_role_other_overlap": 70,
+          "no_same_role_overlap": 277,
+          "predicted": 1322
+        },
+        "petitioner_argument": {
+          "exact": 259,
+          "unreachable_endpoint": 561,
+          "exact_bounds_wrong_role": 304,
+          "same_role_one_unit_away": 186,
+          "same_role_other_overlap": 580,
+          "no_same_role_overlap": 768,
+          "predicted": 1865
+        },
+        "respondent_argument": {
+          "exact": 355,
+          "unreachable_endpoint": 422,
+          "exact_bounds_wrong_role": 97,
+          "same_role_one_unit_away": 124,
+          "same_role_other_overlap": 347,
+          "no_same_role_overlap": 640,
+          "predicted": 1480
+        },
+        "reasoning": {
+          "exact": 1083,
+          "unreachable_endpoint": 918,
+          "exact_bounds_wrong_role": 239,
+          "same_role_one_unit_away": 271,
+          "same_role_other_overlap": 2071,
+          "no_same_role_overlap": 1521,
+          "predicted": 3788
+        },
+        "decision": {
+          "exact": 463,
+          "unreachable_endpoint": 176,
+          "exact_bounds_wrong_role": 48,
+          "same_role_one_unit_away": 122,
+          "same_role_other_overlap": 277,
+          "no_same_role_overlap": 97,
+          "predicted": 1100
+        }
+      },
+      "by_length": {
+        "medium": {
+          "exact": 4564,
+          "unreachable_endpoint": 2854,
+          "exact_bounds_wrong_role": 535,
+          "same_role_one_unit_away": 838,
+          "same_role_other_overlap": 3590,
+          "no_same_role_overlap": 3375
+        },
+        "short": {
+          "exact": 708,
+          "unreachable_endpoint": 231,
+          "exact_bounds_wrong_role": 46,
+          "same_role_one_unit_away": 130,
+          "same_role_other_overlap": 280,
+          "no_same_role_overlap": 234
+        },
+        "long": {
+          "exact": 1572,
+          "unreachable_endpoint": 2117,
+          "exact_bounds_wrong_role": 340,
+          "same_role_one_unit_away": 399,
+          "same_role_other_overlap": 3356,
+          "no_same_role_overlap": 3710
+        }
+      },
+      "common_fixed_boundary_mistakes": [
+        [
+          "petitioner_argument",
+          "none",
+          253
+        ],
+        [
+          "reasoning",
+          "facts",
+          115
+        ],
+        [
+          "facts",
+          "issue",
+          41
+        ],
+        [
+          "respondent_argument",
+          "petitioner_argument",
+          41
+        ],
+        [
+          "reasoning",
+          "decision",
+          34
+        ],
+        [
+          "issue",
+          "facts",
+          33
+        ],
+        [
+          "decision",
+          "reasoning",
+          32
+        ],
+        [
+          "petitioner_argument",
+          "respondent_argument",
+          29
+        ],
+        [
+          "reasoning",
+          "respondent_argument",
+          25
+        ],
+        [
+          "none",
+          "reasoning",
+          24
+        ],
+        [
+          "none",
+          "issue",
+          24
+        ],
+        [
+          "reasoning",
+          "issue",
+          23
+        ]
+      ]
+    }
+  },
+  "interpretation": "Disjoint gold-span accounting. A near miss has the same role, overlaps the gold span, and both endpoints are within one detected unit of the available gold endpoints. This does not estimate attainable gains after editing."
+}

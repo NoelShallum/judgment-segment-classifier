@@ -1,0 +1,10 @@
+{
+  "case_selection": "6045 includes every predicted role. 5922 exercises long-window pooling. Selection precedes CPU evaluation.",
+  "cases": {
+    "6045": "confirm",
+    "5922": "fresh"
+  },
+  "validation_sha256": "8abb2d789325418fc5ab4186c0dc63798e02b8fd82f9e00c324185e6bd86f816",
+  "base_archive_sha256": "91789b881e06d06de36b7e308c264df78f04269182c498c011a8eb4cdae240e4",
+  "evaluation_archive_sha256": "b5426e2058be10b57cff61308c021498fdbb0b168a99f6a5cab3eaac85eb761b"
+}

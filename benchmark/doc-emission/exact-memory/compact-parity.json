@@ -1,0 +1,28 @@
+{
+  "weights_sha256": "2d40f6e7ce2fb46c9ea96eb4ae3bde65045cac1e4346548b6d897ce44f00f730",
+  "cohorts": {
+    "confirm": {
+      "documents": 72,
+      "sentences": 14879,
+      "arms": 6,
+      "errors": 0,
+      "prediction_file_sha256": "cbf8e28ccf6612ee9583e813dc7c2c91622efe7e197a8ee0f473333cfabf4c23"
+    },
+    "fresh": {
+      "documents": 96,
+      "sentences": 22400,
+      "arms": 6,
+      "errors": 0,
+      "prediction_file_sha256": "5f150bb981562c6aff144ce5e291497de938b6b38ee699fbe3e31214af75fb26"
+    },
+    "official": {
+      "documents": 712,
+      "sentences": 149868,
+      "arms": 6,
+      "errors": 0,
+      "prediction_file_sha256": "0509a50d4dd35c57715fe7e9896429fc597a0d0f238b5cadfc8217fb33d6fd97"
+    }
+  },
+  "device": "CPU",
+  "test_used_for_edits": false
+}

@@ -1,0 +1,5 @@
+{
+  "input_items": 11,
+  "max_absolute_logit_difference": 5.9604644775390625e-06,
+  "same_three_way_argmax": true
+}

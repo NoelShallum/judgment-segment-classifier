@@ -1,0 +1,283 @@
+{
+  "source": "sentence-template-memory-bert.json",
+  "source_sha256": "1ecb656d4b982087eeb2b3723780a28a1404c07d4de8bfd0eede6a97ea856226",
+  "rows": 149868,
+  "total_errors": 51051,
+  "macro_f1": 0.6438875732738631,
+  "published_target": 0.77,
+  "ranked": [
+    {
+      "roles": [
+        "none",
+        "reasoning"
+      ],
+      "directional_errors": [
+        11563,
+        13944
+      ],
+      "all_pair_errors": 25507,
+      "macro_f1_if_pair_fixed": 0.7244845618947355,
+      "cumulative_macro_f1": 0.7244845618947355
+    },
+    {
+      "roles": [
+        "facts",
+        "issue"
+      ],
+      "directional_errors": [
+        127,
+        657
+      ],
+      "all_pair_errors": 784,
+      "macro_f1_if_pair_fixed": 0.6857061595860181,
+      "cumulative_macro_f1": 0.7663031482068906
+    },
+    {
+      "roles": [
+        "petitioner_argument",
+        "respondent_argument"
+      ],
+      "directional_errors": [
+        1084,
+        1664
+      ],
+      "all_pair_errors": 2748,
+      "macro_f1_if_pair_fixed": 0.6814110083899793,
+      "cumulative_macro_f1": 0.8038265833230068
+    },
+    {
+      "roles": [
+        "none",
+        "petitioner_argument"
+      ],
+      "directional_errors": [
+        1641,
+        3308
+      ],
+      "all_pair_errors": 4949,
+      "macro_f1_if_pair_fixed": 0.6763256563423148,
+      "cumulative_macro_f1": 0.8365610318418125
+    },
+    {
+      "roles": [
+        "none",
+        "respondent_argument"
+      ],
+      "directional_errors": [
+        966,
+        1778
+      ],
+      "all_pair_errors": 2744,
+      "macro_f1_if_pair_fixed": 0.6713703521084594,
+      "cumulative_macro_f1": 0.8625653498749845
+    },
+    {
+      "roles": [
+        "none",
+        "facts"
+      ],
+      "directional_errors": [
+        3526,
+        3000
+      ],
+      "all_pair_errors": 6526,
+      "macro_f1_if_pair_fixed": 0.6697239505144491,
+      "cumulative_macro_f1": 0.8887623141127878
+    },
+    {
+      "roles": [
+        "none",
+        "issue"
+      ],
+      "directional_errors": [
+        279,
+        245
+      ],
+      "all_pair_errors": 524,
+      "macro_f1_if_pair_fixed": 0.6676976075446992,
+      "cumulative_macro_f1": 0.909596769113081
+    },
+    {
+      "roles": [
+        "none",
+        "decision"
+      ],
+      "directional_errors": [
+        281,
+        669
+      ],
+      "all_pair_errors": 950,
+      "macro_f1_if_pair_fixed": 0.6657109463424067,
+      "cumulative_macro_f1": 0.9316121644644212
+    },
+    {
+      "roles": [
+        "reasoning",
+        "decision"
+      ],
+      "directional_errors": [
+        227,
+        637
+      ],
+      "all_pair_errors": 864,
+      "macro_f1_if_pair_fixed": 0.6644991533585498,
+      "cumulative_macro_f1": 0.950369767786585
+    },
+    {
+      "roles": [
+        "respondent_argument",
+        "reasoning"
+      ],
+      "directional_errors": [
+        757,
+        419
+      ],
+      "all_pair_errors": 1176,
+      "macro_f1_if_pair_fixed": 0.6567354599054415,
+      "cumulative_macro_f1": 0.9617705316467084
+    },
+    {
+      "roles": [
+        "facts",
+        "petitioner_argument"
+      ],
+      "directional_errors": [
+        545,
+        734
+      ],
+      "all_pair_errors": 1279,
+      "macro_f1_if_pair_fixed": 0.6542895649205897,
+      "cumulative_macro_f1": 0.9717945570939955
+    },
+    {
+      "roles": [
+        "petitioner_argument",
+        "reasoning"
+      ],
+      "directional_errors": [
+        736,
+        528
+      ],
+      "all_pair_errors": 1264,
+      "macro_f1_if_pair_fixed": 0.6531357497794034,
+      "cumulative_macro_f1": 0.9805082560495338
+    },
+    {
+      "roles": [
+        "facts",
+        "respondent_argument"
+      ],
+      "directional_errors": [
+        134,
+        427
+      ],
+      "all_pair_errors": 561,
+      "macro_f1_if_pair_fixed": 0.6509048644537321,
+      "cumulative_macro_f1": 0.9863371461057284
+    },
+    {
+      "roles": [
+        "issue",
+        "reasoning"
+      ],
+      "directional_errors": [
+        70,
+        53
+      ],
+      "all_pair_errors": 123,
+      "macro_f1_if_pair_fixed": 0.6499979939780135,
+      "cumulative_macro_f1": 0.991385647147904
+    },
+    {
+      "roles": [
+        "facts",
+        "reasoning"
+      ],
+      "directional_errors": [
+        389,
+        543
+      ],
+      "all_pair_errors": 932,
+      "macro_f1_if_pair_fixed": 0.6483736390243384,
+      "cumulative_macro_f1": 0.9958685819966996
+    },
+    {
+      "roles": [
+        "issue",
+        "petitioner_argument"
+      ],
+      "directional_errors": [
+        9,
+        15
+      ],
+      "all_pair_errors": 24,
+      "macro_f1_if_pair_fixed": 0.644981688899544,
+      "cumulative_macro_f1": 0.9969170106834981
+    },
+    {
+      "roles": [
+        "issue",
+        "decision"
+      ],
+      "directional_errors": [
+        8,
+        5
+      ],
+      "all_pair_errors": 13,
+      "macro_f1_if_pair_fixed": 0.6447909955279542,
+      "cumulative_macro_f1": 0.9976654789236333
+    },
+    {
+      "roles": [
+        "respondent_argument",
+        "decision"
+      ],
+      "directional_errors": [
+        5,
+        21
+      ],
+      "all_pair_errors": 26,
+      "macro_f1_if_pair_fixed": 0.6446805602268249,
+      "cumulative_macro_f1": 0.9983464229140353
+    },
+    {
+      "roles": [
+        "petitioner_argument",
+        "decision"
+      ],
+      "directional_errors": [
+        2,
+        25
+      ],
+      "all_pair_errors": 27,
+      "macro_f1_if_pair_fixed": 0.6446761597324668,
+      "cumulative_macro_f1": 0.9989832567512592
+    },
+    {
+      "roles": [
+        "issue",
+        "respondent_argument"
+      ],
+      "directional_errors": [
+        6,
+        9
+      ],
+      "all_pair_errors": 15,
+      "macro_f1_if_pair_fixed": 0.6446372901785036,
+      "cumulative_macro_f1": 0.9996782164668828
+    },
+    {
+      "roles": [
+        "facts",
+        "decision"
+      ],
+      "directional_errors": [
+        10,
+        5
+      ],
+      "all_pair_errors": 15,
+      "macro_f1_if_pair_fixed": 0.644215968832747,
+      "cumulative_macro_f1": 1.0
+    }
+  ]
+}

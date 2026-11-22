@@ -1,0 +1,40 @@
+{
+  "train_sha256": "60028fc085e3cb018e8d49a8879ba796dd03a0838367891f3312f9e576921794",
+  "validation_text_pruning_csv_sha256": "8abb2d789325418fc5ab4186c0dc63798e02b8fd82f9e00c324185e6bd86f816",
+  "weights_sha256": "b2e1ab6d9b862508ad085b4348096c0f1cd6b08d3f3b545837339c7fef4779e2",
+  "weights_bytes": 173675736,
+  "widths": [
+    1,
+    3,
+    5,
+    9
+  ],
+  "rows_written": 1122376,
+  "train_judgments": 4984,
+  "duplicate_normalized_training_texts_omitted": [],
+  "training_judgments_identical_to_a_validation_judgment_omitted": [],
+  "keys": {
+    "1": {
+      "keys_with_votes": 1032027,
+      "ambiguous_after_one_vote_per_judgment": 5
+    },
+    "3": {
+      "keys_with_votes": 1101382,
+      "ambiguous_after_one_vote_per_judgment": 1
+    },
+    "5": {
+      "keys_with_votes": 1110934,
+      "ambiguous_after_one_vote_per_judgment": 1
+    },
+    "9": {
+      "keys_with_votes": 1117321,
+      "ambiguous_after_one_vote_per_judgment": 0
+    }
+  },
+  "method": "Sparse key-to-seven-role associative weights written from labels of the official training corpus.",
+  "key_definition": "Case-folding and whitespace normalization preserve punctuation, names, and digits. Centered windows stop at judgment boundaries.",
+  "literal_definition": "Raw UTF-8 center sentence byte equality including original casing and whitespace.",
+  "support_definition": "One unambiguous label vote per distinct normalized training judgment per key.",
+  "gradient_steps": 0,
+  "official_test_accessed_during_weight_write": false
+}

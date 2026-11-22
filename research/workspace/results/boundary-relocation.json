@@ -1,0 +1,282 @@
+{
+  "method": "Move an existing predicted role transition up to one original unit left or right. Local left/right frozen evidence, written prior and existing lexical edge score govern the move. Ordered dynamic programming preserves the number and ordering of predicted role runs. No gradient steps.",
+  "choice": null,
+  "freeze_sha256": "5cd67fed6f0a5ef8ddb8f580a577d1a2d5ffed82803552b80906d6d44bef8d9b",
+  "splits": {
+    "select": {
+      "cases": 72,
+      "candidate": {
+        "tokens": 396543,
+        "token_accuracy": 0.5618003596079114,
+        "token_macro_f1": 0.5977913304151452,
+        "exact_labeled_spans": {
+          "matched": 1265,
+          "predicted": 3156,
+          "gold": 3480,
+          "precision": 0.40082382762991126,
+          "recall": 0.3635057471264368,
+          "f1": 0.3812537673297167
+        },
+        "exact_role_boundaries": {
+          "matched": 1903,
+          "predicted": 3084,
+          "gold": 3408,
+          "precision": 0.6170557717250325,
+          "recall": 0.5583920187793427,
+          "f1": 0.5862600123228588
+        },
+        "token_confusion": [
+          [
+            20233,
+            18382,
+            2321,
+            2823,
+            2515,
+            104725,
+            1259
+          ],
+          [
+            199,
+            62530,
+            2296,
+            590,
+            403,
+            5246,
+            400
+          ],
+          [
+            110,
+            1716,
+            4785,
+            114,
+            0,
+            107,
+            25
+          ],
+          [
+            709,
+            2137,
+            99,
+            22409,
+            4506,
+            5456,
+            137
+          ],
+          [
+            19,
+            332,
+            0,
+            3010,
+            17657,
+            3805,
+            0
+          ],
+          [
+            1445,
+            2390,
+            771,
+            454,
+            820,
+            89537,
+            3762
+          ],
+          [
+            76,
+            82,
+            0,
+            0,
+            59,
+            465,
+            5627
+          ]
+        ],
+        "roles": {
+          "none": {
+            "matched": 694,
+            "predicted": 1458,
+            "gold": 1544,
+            "span_f1": 0.46235842771485675
+          },
+          "facts": {
+            "matched": 142,
+            "predicted": 442,
+            "gold": 574,
+            "span_f1": 0.2795275590551181
+          },
+          "issue": {
+            "matched": 39,
+            "predicted": 136,
+            "gold": 103,
+            "span_f1": 0.3263598326359833
+          },
+          "petitioner_argument": {
+            "matched": 27,
+            "predicted": 131,
+            "gold": 249,
+            "span_f1": 0.14210526315789473
+          },
+          "respondent_argument": {
+            "matched": 61,
+            "predicted": 151,
+            "gold": 188,
+            "span_f1": 0.35988200589970504
+          },
+          "reasoning": {
+            "matched": 221,
+            "predicted": 696,
+            "gold": 700,
+            "span_f1": 0.3166189111747851
+          },
+          "decision": {
+            "matched": 81,
+            "predicted": 142,
+            "gold": 122,
+            "span_f1": 0.6136363636363636
+          }
+        }
+      },
+      "parent": {
+        "tokens": 396543,
+        "token_accuracy": 0.5618003596079114,
+        "token_macro_f1": 0.5977913304151452,
+        "exact_labeled_spans": {
+          "matched": 1265,
+          "predicted": 3156,
+          "gold": 3480,
+          "precision": 0.40082382762991126,
+          "recall": 0.3635057471264368,
+          "f1": 0.3812537673297167
+        },
+        "exact_role_boundaries": {
+          "matched": 1903,
+          "predicted": 3084,
+          "gold": 3408,
+          "precision": 0.6170557717250325,
+          "recall": 0.5583920187793427,
+          "f1": 0.5862600123228588
+        },
+        "token_confusion": [
+          [
+            20233,
+            18382,
+            2321,
+            2823,
+            2515,
+            104725,
+            1259
+          ],
+          [
+            199,
+            62530,
+            2296,
+            590,
+            403,
+            5246,
+            400
+          ],
+          [
+            110,
+            1716,
+            4785,
+            114,
+            0,
+            107,
+            25
+          ],
+          [
+            709,
+            2137,
+            99,
+            22409,
+            4506,
+            5456,
+            137
+          ],
+          [
+            19,
+            332,
+            0,
+            3010,
+            17657,
+            3805,
+            0
+          ],
+          [
+            1445,
+            2390,
+            771,
+            454,
+            820,
+            89537,
+            3762
+          ],
+          [
+            76,
+            82,
+            0,
+            0,
+            59,
+            465,
+            5627
+          ]
+        ],
+        "roles": {
+          "none": {
+            "matched": 694,
+            "predicted": 1458,
+            "gold": 1544,
+            "span_f1": 0.46235842771485675
+          },
+          "facts": {
+            "matched": 142,
+            "predicted": 442,
+            "gold": 574,
+            "span_f1": 0.2795275590551181
+          },
+          "issue": {
+            "matched": 39,
+            "predicted": 136,
+            "gold": 103,
+            "span_f1": 0.3263598326359833
+          },
+          "petitioner_argument": {
+            "matched": 27,
+            "predicted": 131,
+            "gold": 249,
+            "span_f1": 0.14210526315789473
+          },
+          "respondent_argument": {
+            "matched": 61,
+            "predicted": 151,
+            "gold": 188,
+            "span_f1": 0.35988200589970504
+          },
+          "reasoning": {
+            "matched": 221,
+            "predicted": 696,
+            "gold": 700,
+            "span_f1": 0.3166189111747851
+          },
+          "decision": {
+            "matched": 81,
+            "predicted": 142,
+            "gold": 122,
+            "span_f1": 0.6136363636363636
+          }
+        }
+      },
+      "moves": 0,
+      "moves_to_gold_change": 0,
+      "gap_ci95": {
+        "exact_span_f1": [
+          0.0,
+          0.0
+        ],
+        "token_accuracy": [
+          0.0,
+          0.0
+        ]
+      }
+    }
+  }
+}

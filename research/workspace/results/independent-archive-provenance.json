@@ -1,0 +1,57 @@
+{
+  "sources": {
+    "test": {
+      "sha256": "5e1a2f9a03fd7581d4585ef97f55787d058afbed063b5e03b6e3611cbe45f9ee",
+      "url": "https://huggingface.co/datasets/L-NLProc/LegalSeg_CSV/resolve/31217aa845866bbd18a8ad567a785e6f5485435a/test.csv"
+    },
+    "val": {
+      "sha256": "8abb2d789325418fc5ab4186c0dc63798e02b8fd82f9e00c324185e6bd86f816",
+      "url": "https://huggingface.co/datasets/L-NLProc/LegalSeg_CSV/resolve/31217aa845866bbd18a8ad567a785e6f5485435a/val.csv"
+    },
+    "hierarchy_named": {
+      "sha256": "9865f9b471f9a407446cfcb7c5bc05ebb2b7ab01e7e5deeb50543c3ad56e3e1a",
+      "url": "https://huggingface.co/datasets/L-NLProc/LegalSeg_Hier_BiLSTM_CRF_Predictions/resolve/929608e0cd47d37151017952d7858ce5bfd648b0/predictions.txt"
+    },
+    "hierarchy_flat": {
+      "sha256": "f3b6ad51c8eb9b6b525e39e7cd7d6be4dfa876a1893ed735b378fa87cba40440",
+      "url": "https://huggingface.co/datasets/L-NLProc/LegalSeg_Hier_BiLSTM_CRF_Predictions/resolve/929608e0cd47d37151017952d7858ce5bfd648b0/Hier_BiLSTM_predictions.csv"
+    },
+    "role_definitions": {
+      "sha256": "4e2849caa1a3effe83eda75f2a40d86d29edef494738bdf3b8c621da1f4dcaf9",
+      "url": "https://huggingface.co/datasets/L-NLProc/LegalSeg_Role_Aware_Predictions/resolve/352acfeb650da788aaf7acf2c396aeed5b166ee9/role-aware_label_definitions_predictions.csv"
+    }
+  },
+  "hierarchy": {
+    "official_cases": 712,
+    "official_all_rows": 149881,
+    "rows_in_both_prediction_streams": 149825,
+    "excluded_by_original_text_filter": 56,
+    "named_case_id_rule": "Subtract one from file_NNNN and sort by numeric official case ID.",
+    "named_vectors_match_flat_predictions_exactly": true,
+    "canonical_predicted_ids_sha256": "3418e0af1961b0dc73d3bf5b80af3d3f0a7ef9f72c7372071237d2821be95907",
+    "flat_gold_matches_official_prefix_exactly": true,
+    "flat_gold_length": 149825,
+    "different_gold_positions_vs_filtered": 79722,
+    "first_different_position_zero_based": 7627,
+    "flat_gold_as_distributed": {
+      "accuracy": 0.3927515434673786,
+      "macro_f1": 0.26961981606742647
+    },
+    "case_and_row_filter_corrected_gold": {
+      "accuracy": 0.6173602536292341,
+      "macro_f1": 0.5982681670403431
+    },
+    "interpretation": "The flat CSV pairs filtered predictions with a prefix of the unfiltered official gold stream. Gold rows removed by the original text filter occur throughout the corpus. The flat and named files contain the same complete prediction stream in ascending official case order."
+  },
+  "role_aware_label_definitions": {
+    "official_split": "validation",
+    "matched_gold_rows": 293370,
+    "all_gold_rows_match_in_order": true,
+    "gold_sequence_sha256": "452e32aec5bd8abe09dcb579f3e917b685a0ee7389eb19a74dc2312cbd09fcc6",
+    "on_validation": {
+      "accuracy": 0.4148754133006102,
+      "macro_f1": 0.08377828270765088
+    },
+    "qualification": "The release supplies numeric gold and predicted labels without sentence text."
+  }
+}

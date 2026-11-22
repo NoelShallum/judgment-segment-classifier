@@ -1,0 +1,7116 @@
+{
+  "select": {
+    "zero": {
+      "all": {
+        "macro_f1": 0.7347909302723148,
+        "accuracy": 0.7462855703852934,
+        "per_role_f1": {
+          "None": 0.7148098088434061,
+          "Facts": 0.8447368421052631,
+          "Issue": 0.5968253968253968,
+          "Arguments of Petitioner": 0.7356452529846503,
+          "Arguments of Respondent": 0.7294332723948812,
+          "Reasoning": 0.7266313932980599,
+          "Decision": 0.7954545454545454
+        },
+        "none_to_reasoning": 542,
+        "reasoning_to_none": 333,
+        "pair_errors": 875,
+        "confusion": [
+          [
+            1851,
+            161,
+            24,
+            85,
+            43,
+            542,
+            30
+          ],
+          [
+            113,
+            1284,
+            19,
+            24,
+            15,
+            32,
+            4
+          ],
+          [
+            7,
+            56,
+            94,
+            7,
+            0,
+            2,
+            0
+          ],
+          [
+            97,
+            1,
+            2,
+            647,
+            107,
+            40,
+            4
+          ],
+          [
+            12,
+            8,
+            3,
+            77,
+            399,
+            10,
+            1
+          ],
+          [
+            333,
+            39,
+            7,
+            21,
+            20,
+            1442,
+            23
+          ],
+          [
+            30,
+            0,
+            0,
+            0,
+            0,
+            16,
+            210
+          ]
+        ],
+        "pair_directions": {
+          "None\u2013Reasoning": [
+            542,
+            333
+          ],
+          "Facts\u2013Issue": [
+            19,
+            56
+          ],
+          "Arguments of Petitioner\u2013Arguments of Respondent": [
+            107,
+            77
+          ]
+        }
+      },
+      "novel": {
+        "macro_f1": 0.7314392798407824,
+        "accuracy": 0.7391157610529868,
+        "per_role_f1": {
+          "None": 0.7178963492468726,
+          "Facts": 0.8196581196581196,
+          "Issue": 0.6053639846743295,
+          "Arguments of Petitioner": 0.716927453769559,
+          "Arguments of Respondent": 0.7172413793103448,
+          "Reasoning": 0.7229876722262509,
+          "Decision": 0.82
+        },
+        "none_to_reasoning": 347,
+        "reasoning_to_none": 252,
+        "pair_errors": 599,
+        "confusion": [
+          [
+            1406,
+            147,
+            19,
+            79,
+            40,
+            347,
+            17
+          ],
+          [
+            102,
+            959,
+            6,
+            24,
+            14,
+            27,
+            3
+          ],
+          [
+            4,
+            55,
+            79,
+            7,
+            0,
+            1,
+            0
+          ],
+          [
+            83,
+            1,
+            2,
+            504,
+            83,
+            30,
+            3
+          ],
+          [
+            11,
+            8,
+            3,
+            67,
+            312,
+            6,
+            0
+          ],
+          [
+            252,
+            35,
+            6,
+            19,
+            14,
+            997,
+            18
+          ],
+          [
+            4,
+            0,
+            0,
+            0,
+            0,
+            9,
+            123
+          ]
+        ],
+        "pair_directions": {
+          "None\u2013Reasoning": [
+            347,
+            252
+          ],
+          "Facts\u2013Issue": [
+            6,
+            55
+          ],
+          "Arguments of Petitioner\u2013Arguments of Respondent": [
+            83,
+            67
+          ]
+        }
+      },
+      "routed": {
+        "macro_f1": 0.47155476558165715,
+        "accuracy": 0.5165217391304348,
+        "per_role_f1": {
+          "None": 0.48877805486284287,
+          "Facts": 0.6236559139784946,
+          "Issue": 0.5633802816901409,
+          "Arguments of Petitioner": 0.5196850393700787,
+          "Arguments of Respondent": 0.6741573033707865,
+          "Reasoning": 0.4312267657992565,
+          "Decision": 0.0
+        },
+        "none_to_reasoning": 88,
+        "reasoning_to_none": 35,
+        "pair_errors": 123,
+        "confusion": [
+          [
+            98,
+            24,
+            7,
+            19,
+            1,
+            88,
+            0
+          ],
+          [
+            14,
+            58,
+            5,
+            1,
+            1,
+            4,
+            0
+          ],
+          [
+            1,
+            15,
+            20,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            7,
+            1,
+            0,
+            33,
+            6,
+            7,
+            0
+          ],
+          [
+            5,
+            1,
+            0,
+            12,
+            30,
+            2,
+            0
+          ],
+          [
+            35,
+            4,
+            2,
+            7,
+            1,
+            58,
+            0
+          ],
+          [
+            4,
+            0,
+            0,
+            0,
+            0,
+            3,
+            0
+          ]
+        ]
+      },
+      "changes": 0,
+      "corrected": 0,
+      "damaged": 0
+    },
+    "edited-lock": {
+      "all": {
+        "macro_f1": 0.7352271859530121,
+        "accuracy": 0.7471669604633594,
+        "per_role_f1": {
+          "None": 0.7164869029275809,
+          "Facts": 0.8447368421052631,
+          "Issue": 0.5968253968253968,
+          "Arguments of Petitioner": 0.7356452529846503,
+          "Arguments of Respondent": 0.7294332723948812,
+          "Reasoning": 0.7280080889787665,
+          "Decision": 0.7954545454545454
+        },
+        "none_to_reasoning": 533,
+        "reasoning_to_none": 335,
+        "pair_errors": 868,
+        "confusion": [
+          [
+            1860,
+            161,
+            24,
+            85,
+            43,
+            533,
+            30
+          ],
+          [
+            113,
+            1284,
+            19,
+            24,
+            15,
+            32,
+            4
+          ],
+          [
+            7,
+            56,
+            94,
+            7,
+            0,
+            2,
+            0
+          ],
+          [
+            99,
+            1,
+            2,
+            647,
+            107,
+            38,
+            4
+          ],
+          [
+            12,
+            8,
+            3,
+            77,
+            399,
+            10,
+            1
+          ],
+          [
+            335,
+            39,
+            7,
+            21,
+            20,
+            1440,
+            23
+          ],
+          [
+            30,
+            0,
+            0,
+            0,
+            0,
+            16,
+            210
+          ]
+        ],
+        "pair_directions": {
+          "None\u2013Reasoning": [
+            533,
+            335
+          ],
+          "Facts\u2013Issue": [
+            19,
+            56
+          ],
+          "Arguments of Petitioner\u2013Arguments of Respondent": [
+            107,
+            77
+          ]
+        }
+      },
+      "novel": {
+        "macro_f1": 0.7317711028785983,
+        "accuracy": 0.7397907526155924,
+        "per_role_f1": {
+          "None": 0.7193071828833418,
+          "Facts": 0.8196581196581196,
+          "Issue": 0.6053639846743295,
+          "Arguments of Petitioner": 0.716927453769559,
+          "Arguments of Respondent": 0.7172413793103448,
+          "Reasoning": 0.7238995998544926,
+          "Decision": 0.82
+        },
+        "none_to_reasoning": 341,
+        "reasoning_to_none": 254,
+        "pair_errors": 595,
+        "confusion": [
+          [
+            1412,
+            147,
+            19,
+            79,
+            40,
+            341,
+            17
+          ],
+          [
+            102,
+            959,
+            6,
+            24,
+            14,
+            27,
+            3
+          ],
+          [
+            4,
+            55,
+            79,
+            7,
+            0,
+            1,
+            0
+          ],
+          [
+            84,
+            1,
+            2,
+            504,
+            83,
+            29,
+            3
+          ],
+          [
+            11,
+            8,
+            3,
+            67,
+            312,
+            6,
+            0
+          ],
+          [
+            254,
+            35,
+            6,
+            19,
+            14,
+            995,
+            18
+          ],
+          [
+            4,
+            0,
+            0,
+            0,
+            0,
+            9,
+            123
+          ]
+        ],
+        "pair_directions": {
+          "None\u2013Reasoning": [
+            341,
+            254
+          ],
+          "Facts\u2013Issue": [
+            6,
+            55
+          ],
+          "Arguments of Petitioner\u2013Arguments of Respondent": [
+            83,
+            67
+          ]
+        }
+      },
+      "routed": {
+        "macro_f1": 0.476469535852841,
+        "accuracy": 0.528695652173913,
+        "per_role_f1": {
+          "None": 0.5169082125603864,
+          "Facts": 0.6236559139784946,
+          "Issue": 0.5633802816901409,
+          "Arguments of Petitioner": 0.5196850393700787,
+          "Arguments of Respondent": 0.6741573033707865,
+          "Reasoning": 0.4375,
+          "Decision": 0.0
+        },
+        "none_to_reasoning": 79,
+        "reasoning_to_none": 37,
+        "pair_errors": 116,
+        "confusion": [
+          [
+            107,
+            24,
+            7,
+            19,
+            1,
+            79,
+            0
+          ],
+          [
+            14,
+            58,
+            5,
+            1,
+            1,
+            4,
+            0
+          ],
+          [
+            1,
+            15,
+            20,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            9,
+            1,
+            0,
+            33,
+            6,
+            5,
+            0
+          ],
+          [
+            5,
+            1,
+            0,
+            12,
+            30,
+            2,
+            0
+          ],
+          [
+            37,
+            4,
+            2,
+            7,
+            1,
+            56,
+            0
+          ],
+          [
+            4,
+            0,
+            0,
+            0,
+            0,
+            3,
+            0
+          ]
+        ]
+      },
+      "changes": 13,
+      "corrected": 9,
+      "damaged": 2
+    },
+    "unmodified-donor-its-best": {
+      "all": {
+        "macro_f1": 0.733803549851847,
+        "accuracy": 0.7472928733316545,
+        "per_role_f1": {
+          "None": 0.7177807744172606,
+          "Facts": 0.8438013811246301,
+          "Issue": 0.5859872611464968,
+          "Arguments of Petitioner": 0.7353443369379624,
+          "Arguments of Respondent": 0.7299270072992701,
+          "Reasoning": 0.7283295425827647,
+          "Decision": 0.7954545454545454
+        },
+        "none_to_reasoning": 530,
+        "reasoning_to_none": 334,
+        "pair_errors": 864,
+        "confusion": [
+          [
+            1863,
+            161,
+            24,
+            85,
+            43,
+            530,
+            30
+          ],
+          [
+            112,
+            1283,
+            20,
+            24,
+            15,
+            33,
+            4
+          ],
+          [
+            7,
+            58,
+            92,
+            7,
+            0,
+            2,
+            0
+          ],
+          [
+            97,
+            1,
+            2,
+            646,
+            108,
+            40,
+            4
+          ],
+          [
+            12,
+            8,
+            3,
+            76,
+            400,
+            10,
+            1
+          ],
+          [
+            334,
+            39,
+            7,
+            21,
+            20,
+            1441,
+            23
+          ],
+          [
+            30,
+            0,
+            0,
+            0,
+            0,
+            16,
+            210
+          ]
+        ],
+        "pair_directions": {
+          "None\u2013Reasoning": [
+            530,
+            334
+          ],
+          "Facts\u2013Issue": [
+            20,
+            58
+          ],
+          "Arguments of Petitioner\u2013Arguments of Respondent": [
+            108,
+            76
+          ]
+        }
+      },
+      "novel": {
+        "macro_f1": 0.7296505890539781,
+        "accuracy": 0.7391157610529868,
+        "per_role_f1": {
+          "None": 0.7195308516063234,
+          "Facts": 0.8184536522853482,
+          "Issue": 0.5923076923076923,
+          "Arguments of Petitioner": 0.7165242165242165,
+          "Arguments of Respondent": 0.7178899082568807,
+          "Reasoning": 0.7228478023973847,
+          "Decision": 0.82
+        },
+        "none_to_reasoning": 342,
+        "reasoning_to_none": 254,
+        "pair_errors": 596,
+        "confusion": [
+          [
+            1411,
+            147,
+            19,
+            79,
+            40,
+            342,
+            17
+          ],
+          [
+            101,
+            958,
+            7,
+            24,
+            14,
+            28,
+            3
+          ],
+          [
+            4,
+            57,
+            77,
+            7,
+            0,
+            1,
+            0
+          ],
+          [
+            82,
+            1,
+            2,
+            503,
+            84,
+            31,
+            3
+          ],
+          [
+            11,
+            8,
+            3,
+            66,
+            313,
+            6,
+            0
+          ],
+          [
+            254,
+            35,
+            6,
+            19,
+            14,
+            995,
+            18
+          ],
+          [
+            4,
+            0,
+            0,
+            0,
+            0,
+            9,
+            123
+          ]
+        ],
+        "pair_directions": {
+          "None\u2013Reasoning": [
+            342,
+            254
+          ],
+          "Facts\u2013Issue": [
+            7,
+            57
+          ],
+          "Arguments of Petitioner\u2013Arguments of Respondent": [
+            84,
+            66
+          ]
+        }
+      },
+      "routed": {
+        "macro_f1": 0.47049964027461105,
+        "accuracy": 0.5304347826086957,
+        "per_role_f1": {
+          "None": 0.5326876513317191,
+          "Facts": 0.6096256684491979,
+          "Issue": 0.5142857142857142,
+          "Arguments of Petitioner": 0.512,
+          "Arguments of Respondent": 0.6813186813186813,
+          "Reasoning": 0.44357976653696496,
+          "Decision": 0.0
+        },
+        "none_to_reasoning": 76,
+        "reasoning_to_none": 36,
+        "pair_errors": 112,
+        "confusion": [
+          [
+            110,
+            24,
+            7,
+            19,
+            1,
+            76,
+            0
+          ],
+          [
+            13,
+            57,
+            6,
+            1,
+            1,
+            5,
+            0
+          ],
+          [
+            1,
+            17,
+            18,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            7,
+            1,
+            0,
+            32,
+            7,
+            7,
+            0
+          ],
+          [
+            5,
+            1,
+            0,
+            11,
+            31,
+            2,
+            0
+          ],
+          [
+            36,
+            4,
+            2,
+            7,
+            1,
+            57,
+            0
+          ],
+          [
+            4,
+            0,
+            0,
+            0,
+            0,
+            3,
+            0
+          ]
+        ]
+      },
+      "changes": 47,
+      "corrected": 26,
+      "damaged": 18
+    },
+    "unmodified-donor-matched": {
+      "all": {
+        "macro_f1": 0.733803549851847,
+        "accuracy": 0.7472928733316545,
+        "per_role_f1": {
+          "None": 0.7177807744172606,
+          "Facts": 0.8438013811246301,
+          "Issue": 0.5859872611464968,
+          "Arguments of Petitioner": 0.7353443369379624,
+          "Arguments of Respondent": 0.7299270072992701,
+          "Reasoning": 0.7283295425827647,
+          "Decision": 0.7954545454545454
+        },
+        "none_to_reasoning": 530,
+        "reasoning_to_none": 334,
+        "pair_errors": 864,
+        "confusion": [
+          [
+            1863,
+            161,
+            24,
+            85,
+            43,
+            530,
+            30
+          ],
+          [
+            112,
+            1283,
+            20,
+            24,
+            15,
+            33,
+            4
+          ],
+          [
+            7,
+            58,
+            92,
+            7,
+            0,
+            2,
+            0
+          ],
+          [
+            97,
+            1,
+            2,
+            646,
+            108,
+            40,
+            4
+          ],
+          [
+            12,
+            8,
+            3,
+            76,
+            400,
+            10,
+            1
+          ],
+          [
+            334,
+            39,
+            7,
+            21,
+            20,
+            1441,
+            23
+          ],
+          [
+            30,
+            0,
+            0,
+            0,
+            0,
+            16,
+            210
+          ]
+        ],
+        "pair_directions": {
+          "None\u2013Reasoning": [
+            530,
+            334
+          ],
+          "Facts\u2013Issue": [
+            20,
+            58
+          ],
+          "Arguments of Petitioner\u2013Arguments of Respondent": [
+            108,
+            76
+          ]
+        }
+      },
+      "novel": {
+        "macro_f1": 0.7296505890539781,
+        "accuracy": 0.7391157610529868,
+        "per_role_f1": {
+          "None": 0.7195308516063234,
+          "Facts": 0.8184536522853482,
+          "Issue": 0.5923076923076923,
+          "Arguments of Petitioner": 0.7165242165242165,
+          "Arguments of Respondent": 0.7178899082568807,
+          "Reasoning": 0.7228478023973847,
+          "Decision": 0.82
+        },
+        "none_to_reasoning": 342,
+        "reasoning_to_none": 254,
+        "pair_errors": 596,
+        "confusion": [
+          [
+            1411,
+            147,
+            19,
+            79,
+            40,
+            342,
+            17
+          ],
+          [
+            101,
+            958,
+            7,
+            24,
+            14,
+            28,
+            3
+          ],
+          [
+            4,
+            57,
+            77,
+            7,
+            0,
+            1,
+            0
+          ],
+          [
+            82,
+            1,
+            2,
+            503,
+            84,
+            31,
+            3
+          ],
+          [
+            11,
+            8,
+            3,
+            66,
+            313,
+            6,
+            0
+          ],
+          [
+            254,
+            35,
+            6,
+            19,
+            14,
+            995,
+            18
+          ],
+          [
+            4,
+            0,
+            0,
+            0,
+            0,
+            9,
+            123
+          ]
+        ],
+        "pair_directions": {
+          "None\u2013Reasoning": [
+            342,
+            254
+          ],
+          "Facts\u2013Issue": [
+            7,
+            57
+          ],
+          "Arguments of Petitioner\u2013Arguments of Respondent": [
+            84,
+            66
+          ]
+        }
+      },
+      "routed": {
+        "macro_f1": 0.47049964027461105,
+        "accuracy": 0.5304347826086957,
+        "per_role_f1": {
+          "None": 0.5326876513317191,
+          "Facts": 0.6096256684491979,
+          "Issue": 0.5142857142857142,
+          "Arguments of Petitioner": 0.512,
+          "Arguments of Respondent": 0.6813186813186813,
+          "Reasoning": 0.44357976653696496,
+          "Decision": 0.0
+        },
+        "none_to_reasoning": 76,
+        "reasoning_to_none": 36,
+        "pair_errors": 112,
+        "confusion": [
+          [
+            110,
+            24,
+            7,
+            19,
+            1,
+            76,
+            0
+          ],
+          [
+            13,
+            57,
+            6,
+            1,
+            1,
+            5,
+            0
+          ],
+          [
+            1,
+            17,
+            18,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            7,
+            1,
+            0,
+            32,
+            7,
+            7,
+            0
+          ],
+          [
+            5,
+            1,
+            0,
+            11,
+            31,
+            2,
+            0
+          ],
+          [
+            36,
+            4,
+            2,
+            7,
+            1,
+            57,
+            0
+          ],
+          [
+            4,
+            0,
+            0,
+            0,
+            0,
+            3,
+            0
+          ]
+        ]
+      },
+      "changes": 47,
+      "corrected": 26,
+      "damaged": 18
+    },
+    "case-shuffle": {
+      "all": {
+        "macro_f1": 0.7354898518949324,
+        "accuracy": 0.7471669604633594,
+        "per_role_f1": {
+          "None": 0.716320246343341,
+          "Facts": 0.8451167379151595,
+          "Issue": 0.5987261146496815,
+          "Arguments of Petitioner": 0.7356452529846503,
+          "Arguments of Respondent": 0.7294332723948812,
+          "Reasoning": 0.7277327935222672,
+          "Decision": 0.7954545454545454
+        },
+        "none_to_reasoning": 532,
+        "reasoning_to_none": 337,
+        "pair_errors": 869,
+        "confusion": [
+          [
+            1861,
+            161,
+            24,
+            85,
+            43,
+            532,
+            30
+          ],
+          [
+            114,
+            1285,
+            18,
+            24,
+            15,
+            31,
+            4
+          ],
+          [
+            7,
+            56,
+            94,
+            7,
+            0,
+            2,
+            0
+          ],
+          [
+            99,
+            1,
+            2,
+            647,
+            107,
+            38,
+            4
+          ],
+          [
+            12,
+            8,
+            3,
+            77,
+            399,
+            10,
+            1
+          ],
+          [
+            337,
+            39,
+            7,
+            21,
+            20,
+            1438,
+            23
+          ],
+          [
+            30,
+            0,
+            0,
+            0,
+            0,
+            16,
+            210
+          ]
+        ],
+        "pair_directions": {
+          "None\u2013Reasoning": [
+            532,
+            337
+          ],
+          "Facts\u2013Issue": [
+            18,
+            56
+          ],
+          "Arguments of Petitioner\u2013Arguments of Respondent": [
+            107,
+            77
+          ]
+        }
+      },
+      "novel": {
+        "macro_f1": 0.7316817392339379,
+        "accuracy": 0.7396220047249409,
+        "per_role_f1": {
+          "None": 0.7190839694656489,
+          "Facts": 0.8196581196581196,
+          "Issue": 0.6053639846743295,
+          "Arguments of Petitioner": 0.716927453769559,
+          "Arguments of Respondent": 0.7172413793103448,
+          "Reasoning": 0.7234972677595628,
+          "Decision": 0.82
+        },
+        "none_to_reasoning": 340,
+        "reasoning_to_none": 256,
+        "pair_errors": 596,
+        "confusion": [
+          [
+            1413,
+            147,
+            19,
+            79,
+            40,
+            340,
+            17
+          ],
+          [
+            103,
+            959,
+            6,
+            24,
+            14,
+            26,
+            3
+          ],
+          [
+            4,
+            55,
+            79,
+            7,
+            0,
+            1,
+            0
+          ],
+          [
+            84,
+            1,
+            2,
+            504,
+            83,
+            29,
+            3
+          ],
+          [
+            11,
+            8,
+            3,
+            67,
+            312,
+            6,
+            0
+          ],
+          [
+            256,
+            35,
+            6,
+            19,
+            14,
+            993,
+            18
+          ],
+          [
+            4,
+            0,
+            0,
+            0,
+            0,
+            9,
+            123
+          ]
+        ],
+        "pair_directions": {
+          "None\u2013Reasoning": [
+            340,
+            256
+          ],
+          "Facts\u2013Issue": [
+            6,
+            55
+          ],
+          "Arguments of Petitioner\u2013Arguments of Respondent": [
+            83,
+            67
+          ]
+        }
+      },
+      "routed": {
+        "macro_f1": 0.4773721138578382,
+        "accuracy": 0.528695652173913,
+        "per_role_f1": {
+          "None": 0.5167464114832536,
+          "Facts": 0.6310160427807486,
+          "Issue": 0.5714285714285714,
+          "Arguments of Petitioner": 0.5196850393700787,
+          "Arguments of Respondent": 0.6741573033707865,
+          "Reasoning": 0.42857142857142855,
+          "Decision": 0.0
+        },
+        "none_to_reasoning": 78,
+        "reasoning_to_none": 39,
+        "pair_errors": 117,
+        "confusion": [
+          [
+            108,
+            24,
+            7,
+            19,
+            1,
+            78,
+            0
+          ],
+          [
+            15,
+            59,
+            4,
+            1,
+            1,
+            3,
+            0
+          ],
+          [
+            1,
+            15,
+            20,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            9,
+            1,
+            0,
+            33,
+            6,
+            5,
+            0
+          ],
+          [
+            5,
+            1,
+            0,
+            12,
+            30,
+            2,
+            0
+          ],
+          [
+            39,
+            4,
+            2,
+            7,
+            1,
+            54,
+            0
+          ],
+          [
+            4,
+            0,
+            0,
+            0,
+            0,
+            3,
+            0
+          ]
+        ]
+      },
+      "changes": 22,
+      "corrected": 13,
+      "damaged": 6
+    },
+    "global-shuffle": {
+      "all": {
+        "macro_f1": 0.735491382587556,
+        "accuracy": 0.7471669604633594,
+        "per_role_f1": {
+          "None": 0.7162396455403583,
+          "Facts": 0.8451167379151595,
+          "Issue": 0.5987261146496815,
+          "Arguments of Petitioner": 0.7356452529846503,
+          "Arguments of Respondent": 0.7294332723948812,
+          "Reasoning": 0.7278241091736164,
+          "Decision": 0.7954545454545454
+        },
+        "none_to_reasoning": 534,
+        "reasoning_to_none": 335,
+        "pair_errors": 869,
+        "confusion": [
+          [
+            1859,
+            161,
+            24,
+            85,
+            43,
+            534,
+            30
+          ],
+          [
+            114,
+            1285,
+            18,
+            24,
+            15,
+            31,
+            4
+          ],
+          [
+            7,
+            56,
+            94,
+            7,
+            0,
+            2,
+            0
+          ],
+          [
+            98,
+            1,
+            2,
+            647,
+            107,
+            39,
+            4
+          ],
+          [
+            12,
+            8,
+            3,
+            77,
+            399,
+            10,
+            1
+          ],
+          [
+            335,
+            39,
+            7,
+            21,
+            20,
+            1440,
+            23
+          ],
+          [
+            30,
+            0,
+            0,
+            0,
+            0,
+            16,
+            210
+          ]
+        ],
+        "pair_directions": {
+          "None\u2013Reasoning": [
+            534,
+            335
+          ],
+          "Facts\u2013Issue": [
+            18,
+            56
+          ],
+          "Arguments of Petitioner\u2013Arguments of Respondent": [
+            107,
+            77
+          ]
+        }
+      },
+      "novel": {
+        "macro_f1": 0.7316868846812089,
+        "accuracy": 0.7396220047249409,
+        "per_role_f1": {
+          "None": 0.7189808917197452,
+          "Facts": 0.8196581196581196,
+          "Issue": 0.6053639846743295,
+          "Arguments of Petitioner": 0.716927453769559,
+          "Arguments of Respondent": 0.7172413793103448,
+          "Reasoning": 0.7236363636363636,
+          "Decision": 0.82
+        },
+        "none_to_reasoning": 342,
+        "reasoning_to_none": 254,
+        "pair_errors": 596,
+        "confusion": [
+          [
+            1411,
+            147,
+            19,
+            79,
+            40,
+            342,
+            17
+          ],
+          [
+            103,
+            959,
+            6,
+            24,
+            14,
+            26,
+            3
+          ],
+          [
+            4,
+            55,
+            79,
+            7,
+            0,
+            1,
+            0
+          ],
+          [
+            83,
+            1,
+            2,
+            504,
+            83,
+            30,
+            3
+          ],
+          [
+            11,
+            8,
+            3,
+            67,
+            312,
+            6,
+            0
+          ],
+          [
+            254,
+            35,
+            6,
+            19,
+            14,
+            995,
+            18
+          ],
+          [
+            4,
+            0,
+            0,
+            0,
+            0,
+            9,
+            123
+          ]
+        ],
+        "pair_directions": {
+          "None\u2013Reasoning": [
+            342,
+            254
+          ],
+          "Facts\u2013Issue": [
+            6,
+            55
+          ],
+          "Arguments of Petitioner\u2013Arguments of Respondent": [
+            83,
+            67
+          ]
+        }
+      },
+      "routed": {
+        "macro_f1": 0.4779145448004468,
+        "accuracy": 0.528695652173913,
+        "per_role_f1": {
+          "None": 0.513317191283293,
+          "Facts": 0.6310160427807486,
+          "Issue": 0.5714285714285714,
+          "Arguments of Petitioner": 0.5196850393700787,
+          "Arguments of Respondent": 0.6741573033707865,
+          "Reasoning": 0.4357976653696498,
+          "Decision": 0.0
+        },
+        "none_to_reasoning": 80,
+        "reasoning_to_none": 37,
+        "pair_errors": 117,
+        "confusion": [
+          [
+            106,
+            24,
+            7,
+            19,
+            1,
+            80,
+            0
+          ],
+          [
+            15,
+            59,
+            4,
+            1,
+            1,
+            3,
+            0
+          ],
+          [
+            1,
+            15,
+            20,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            8,
+            1,
+            0,
+            33,
+            6,
+            6,
+            0
+          ],
+          [
+            5,
+            1,
+            0,
+            12,
+            30,
+            2,
+            0
+          ],
+          [
+            37,
+            4,
+            2,
+            7,
+            1,
+            56,
+            0
+          ],
+          [
+            4,
+            0,
+            0,
+            0,
+            0,
+            3,
+            0
+          ]
+        ]
+      },
+      "changes": 15,
+      "corrected": 10,
+      "damaged": 3
+    },
+    "cohort": {
+      "case_count": 48,
+      "total_rows": 7942,
+      "routed_rows": 575,
+      "novel_rows": 5926,
+      "standalone_source_on_route": {
+        "macro_f1": 0.13065066070673095,
+        "accuracy": 0.16695652173913045,
+        "per_role_f1": {
+          "None": 0.22727272727272727,
+          "Facts": 0.2006269592476489,
+          "Issue": 0.10404624277456648,
+          "Arguments of Petitioner": 0.15217391304347827,
+          "Arguments of Respondent": 0.1,
+          "Reasoning": 0.13043478260869565,
+          "Decision": 0.0
+        },
+        "none_to_reasoning": 15,
+        "reasoning_to_none": 12,
+        "pair_errors": 27,
+        "confusion": [
+          [
+            35,
+            104,
+            52,
+            11,
+            7,
+            15,
+            13
+          ],
+          [
+            15,
+            32,
+            19,
+            6,
+            5,
+            1,
+            5
+          ],
+          [
+            0,
+            21,
+            9,
+            4,
+            0,
+            0,
+            3
+          ],
+          [
+            1,
+            25,
+            11,
+            7,
+            7,
+            1,
+            2
+          ],
+          [
+            6,
+            14,
+            12,
+            8,
+            4,
+            4,
+            2
+          ],
+          [
+            12,
+            37,
+            33,
+            1,
+            7,
+            9,
+            8
+          ],
+          [
+            2,
+            3,
+            0,
+            1,
+            0,
+            1,
+            0
+          ]
+        ]
+      },
+      "verified_capture_logits_max_abs_difference": 1.430511474609375e-06
+    },
+    "post_lock_route_headroom": {
+      "incorrect_rows_whole_cohort": 2015,
+      "incorrect_rows_routed": 278,
+      "pair_error_coverage": {
+        "None\u2013Reasoning": {
+          "whole_cohort": 875,
+          "routed": 123,
+          "eligible_under_selected_gate": 117
+        },
+        "Facts\u2013Issue": {
+          "whole_cohort": 75,
+          "routed": 20,
+          "eligible_under_selected_gate": 19
+        },
+        "Arguments of Petitioner\u2013Arguments of Respondent": {
+          "whole_cohort": 184,
+          "routed": 18,
+          "eligible_under_selected_gate": 18
+        }
+      },
+      "perfect_routed_hypothesis_score": {
+        "all": {
+          "macro_f1": 0.7745842414041306,
+          "accuracy": 0.7812893477713422,
+          "pair_errors": 752
+        },
+        "novel": {
+          "macro_f1": 0.769650093312073,
+          "accuracy": 0.7733715828552143,
+          "pair_errors": 517
+        }
+      },
+      "perfect_routed_and_selected_gate_score": {
+        "all": {
+          "macro_f1": 0.756823264060876,
+          "accuracy": 0.7656761521027449,
+          "pair_errors": 758
+        },
+        "novel": {
+          "macro_f1": 0.7526335032101229,
+          "accuracy": 0.756665541680729,
+          "pair_errors": 523
+        }
+      }
+    }
+  },
+  "confirm": {
+    "zero": {
+      "all": {
+        "macro_f1": 0.7257273685477932,
+        "accuracy": 0.747899724443847,
+        "per_role_f1": {
+          "None": 0.7548724993560574,
+          "Facts": 0.8271035470017496,
+          "Issue": 0.6552380952380953,
+          "Arguments of Petitioner": 0.7054351957430635,
+          "Arguments of Respondent": 0.6434210526315789,
+          "Reasoning": 0.7018643271189096,
+          "Decision": 0.792156862745098
+        },
+        "none_to_reasoning": 787,
+        "reasoning_to_none": 719,
+        "pair_errors": 1506,
+        "confusion": [
+          [
+            4396,
+            433,
+            36,
+            166,
+            86,
+            787,
+            64
+          ],
+          [
+            311,
+            2600,
+            26,
+            54,
+            34,
+            66,
+            10
+          ],
+          [
+            27,
+            54,
+            172,
+            6,
+            0,
+            10,
+            3
+          ],
+          [
+            172,
+            34,
+            2,
+            928,
+            76,
+            63,
+            1
+          ],
+          [
+            53,
+            26,
+            0,
+            171,
+            489,
+            34,
+            0
+          ],
+          [
+            719,
+            39,
+            16,
+            30,
+            61,
+            2240,
+            35
+          ],
+          [
+            1,
+            0,
+            1,
+            0,
+            1,
+            43,
+            303
+          ]
+        ],
+        "pair_directions": {
+          "None\u2013Reasoning": [
+            787,
+            719
+          ],
+          "Facts\u2013Issue": [
+            26,
+            54
+          ],
+          "Arguments of Petitioner\u2013Arguments of Respondent": [
+            76,
+            171
+          ]
+        }
+      },
+      "novel": {
+        "macro_f1": 0.7130162241901555,
+        "accuracy": 0.7305871688991842,
+        "per_role_f1": {
+          "None": 0.7182179341657208,
+          "Facts": 0.8146167557932263,
+          "Issue": 0.654911838790932,
+          "Arguments of Petitioner": 0.693069306930693,
+          "Arguments of Respondent": 0.6348364279398763,
+          "Reasoning": 0.7076710435383552,
+          "Decision": 0.7677902621722846
+        },
+        "none_to_reasoning": 507,
+        "reasoning_to_none": 472,
+        "pair_errors": 979,
+        "confusion": [
+          [
+            2531,
+            298,
+            26,
+            96,
+            61,
+            507,
+            44
+          ],
+          [
+            289,
+            1828,
+            14,
+            36,
+            33,
+            56,
+            10
+          ],
+          [
+            23,
+            44,
+            130,
+            6,
+            0,
+            8,
+            3
+          ],
+          [
+            141,
+            30,
+            2,
+            665,
+            58,
+            44,
+            1
+          ],
+          [
+            28,
+            6,
+            0,
+            154,
+            359,
+            28,
+            0
+          ],
+          [
+            472,
+            16,
+            10,
+            21,
+            44,
+            1536,
+            27
+          ],
+          [
+            1,
+            0,
+            1,
+            0,
+            1,
+            36,
+            205
+          ]
+        ],
+        "pair_directions": {
+          "None\u2013Reasoning": [
+            507,
+            472
+          ],
+          "Facts\u2013Issue": [
+            14,
+            44
+          ],
+          "Arguments of Petitioner\u2013Arguments of Respondent": [
+            58,
+            154
+          ]
+        }
+      },
+      "routed": {
+        "macro_f1": 0.47289310784611577,
+        "accuracy": 0.5169029443838604,
+        "per_role_f1": {
+          "None": 0.4492753623188406,
+          "Facts": 0.6256983240223464,
+          "Issue": 0.5769230769230769,
+          "Arguments of Petitioner": 0.5206611570247934,
+          "Arguments of Respondent": 0.5040650406504065,
+          "Reasoning": 0.5159817351598174,
+          "Decision": 0.11764705882352941
+        },
+        "none_to_reasoning": 104,
+        "reasoning_to_none": 51,
+        "pair_errors": 155,
+        "confusion": [
+          [
+            124,
+            46,
+            10,
+            32,
+            8,
+            104,
+            0
+          ],
+          [
+            22,
+            112,
+            6,
+            19,
+            2,
+            9,
+            0
+          ],
+          [
+            4,
+            22,
+            30,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            17,
+            4,
+            0,
+            63,
+            8,
+            12,
+            0
+          ],
+          [
+            10,
+            2,
+            0,
+            19,
+            31,
+            11,
+            0
+          ],
+          [
+            51,
+            2,
+            1,
+            5,
+            1,
+            113,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            14,
+            1
+          ]
+        ]
+      },
+      "changes": 0,
+      "corrected": 0,
+      "damaged": 0
+    },
+    "edited-lock": {
+      "all": {
+        "macro_f1": 0.7259493092822423,
+        "accuracy": 0.747899724443847,
+        "per_role_f1": {
+          "None": 0.7551212822490786,
+          "Facts": 0.827027027027027,
+          "Issue": 0.6590038314176245,
+          "Arguments of Petitioner": 0.7046750285062714,
+          "Arguments of Respondent": 0.6421052631578947,
+          "Reasoning": 0.7015558698727016,
+          "Decision": 0.792156862745098
+        },
+        "none_to_reasoning": 778,
+        "reasoning_to_none": 727,
+        "pair_errors": 1505,
+        "confusion": [
+          [
+            4405,
+            434,
+            35,
+            166,
+            86,
+            778,
+            64
+          ],
+          [
+            313,
+            2601,
+            25,
+            54,
+            34,
+            64,
+            10
+          ],
+          [
+            27,
+            54,
+            172,
+            6,
+            0,
+            10,
+            3
+          ],
+          [
+            172,
+            34,
+            2,
+            927,
+            77,
+            63,
+            1
+          ],
+          [
+            54,
+            26,
+            0,
+            172,
+            488,
+            33,
+            0
+          ],
+          [
+            727,
+            40,
+            15,
+            30,
+            61,
+            2232,
+            35
+          ],
+          [
+            1,
+            0,
+            1,
+            0,
+            1,
+            43,
+            303
+          ]
+        ],
+        "pair_directions": {
+          "None\u2013Reasoning": [
+            778,
+            727
+          ],
+          "Facts\u2013Issue": [
+            25,
+            54
+          ],
+          "Arguments of Petitioner\u2013Arguments of Respondent": [
+            77,
+            172
+          ]
+        }
+      },
+      "novel": {
+        "macro_f1": 0.7128771197766011,
+        "accuracy": 0.7304864538221372,
+        "per_role_f1": {
+          "None": 0.7183338056106546,
+          "Facts": 0.8144352862552907,
+          "Issue": 0.6565656565656566,
+          "Arguments of Petitioner": 0.6920270974465867,
+          "Arguments of Respondent": 0.6330680813439434,
+          "Reasoning": 0.7079196490417917,
+          "Decision": 0.7677902621722846
+        },
+        "none_to_reasoning": 503,
+        "reasoning_to_none": 475,
+        "pair_errors": 978,
+        "confusion": [
+          [
+            2535,
+            299,
+            25,
+            96,
+            61,
+            503,
+            44
+          ],
+          [
+            291,
+            1828,
+            14,
+            36,
+            33,
+            54,
+            10
+          ],
+          [
+            23,
+            44,
+            130,
+            6,
+            0,
+            8,
+            3
+          ],
+          [
+            141,
+            30,
+            2,
+            664,
+            59,
+            44,
+            1
+          ],
+          [
+            29,
+            6,
+            0,
+            155,
+            358,
+            27,
+            0
+          ],
+          [
+            475,
+            16,
+            10,
+            21,
+            44,
+            1533,
+            27
+          ],
+          [
+            1,
+            0,
+            1,
+            0,
+            1,
+            36,
+            205
+          ]
+        ],
+        "pair_directions": {
+          "None\u2013Reasoning": [
+            503,
+            475
+          ],
+          "Facts\u2013Issue": [
+            14,
+            44
+          ],
+          "Arguments of Petitioner\u2013Arguments of Respondent": [
+            59,
+            155
+          ]
+        }
+      },
+      "routed": {
+        "macro_f1": 0.4721963039605411,
+        "accuracy": 0.5169029443838604,
+        "per_role_f1": {
+          "None": 0.46503496503496505,
+          "Facts": 0.6260387811634349,
+          "Issue": 0.594059405940594,
+          "Arguments of Petitioner": 0.512396694214876,
+          "Arguments of Respondent": 0.4878048780487805,
+          "Reasoning": 0.5023923444976076,
+          "Decision": 0.11764705882352941
+        },
+        "none_to_reasoning": 95,
+        "reasoning_to_none": 59,
+        "pair_errors": 154,
+        "confusion": [
+          [
+            133,
+            47,
+            9,
+            32,
+            8,
+            95,
+            0
+          ],
+          [
+            24,
+            113,
+            5,
+            19,
+            2,
+            7,
+            0
+          ],
+          [
+            4,
+            22,
+            30,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            17,
+            4,
+            0,
+            62,
+            9,
+            12,
+            0
+          ],
+          [
+            11,
+            2,
+            0,
+            20,
+            30,
+            10,
+            0
+          ],
+          [
+            59,
+            3,
+            0,
+            5,
+            1,
+            105,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            14,
+            1
+          ]
+        ]
+      },
+      "changes": 25,
+      "corrected": 10,
+      "damaged": 10
+    },
+    "unmodified-donor-its-best": {
+      "all": {
+        "macro_f1": 0.7254024971970457,
+        "accuracy": 0.7477653068082533,
+        "per_role_f1": {
+          "None": 0.7551212822490786,
+          "Facts": 0.826467313504056,
+          "Issue": 0.6552380952380953,
+          "Arguments of Petitioner": 0.7047619047619048,
+          "Arguments of Respondent": 0.6422018348623854,
+          "Reasoning": 0.7018701870187019,
+          "Decision": 0.792156862745098
+        },
+        "none_to_reasoning": 778,
+        "reasoning_to_none": 726,
+        "pair_errors": 1504,
+        "confusion": [
+          [
+            4405,
+            434,
+            35,
+            165,
+            87,
+            778,
+            64
+          ],
+          [
+            315,
+            2598,
+            28,
+            54,
+            34,
+            62,
+            10
+          ],
+          [
+            27,
+            54,
+            172,
+            6,
+            0,
+            10,
+            3
+          ],
+          [
+            172,
+            34,
+            2,
+            925,
+            79,
+            63,
+            1
+          ],
+          [
+            53,
+            26,
+            0,
+            170,
+            490,
+            34,
+            0
+          ],
+          [
+            726,
+            40,
+            15,
+            29,
+            62,
+            2233,
+            35
+          ],
+          [
+            1,
+            0,
+            1,
+            0,
+            1,
+            43,
+            303
+          ]
+        ],
+        "pair_directions": {
+          "None\u2013Reasoning": [
+            778,
+            726
+          ],
+          "Facts\u2013Issue": [
+            28,
+            54
+          ],
+          "Arguments of Petitioner\u2013Arguments of Respondent": [
+            79,
+            170
+          ]
+        }
+      },
+      "novel": {
+        "macro_f1": 0.7127110168822012,
+        "accuracy": 0.7305871688991842,
+        "per_role_f1": {
+          "None": 0.7182759109598752,
+          "Facts": 0.8139068419879653,
+          "Issue": 0.6532663316582915,
+          "Arguments of Petitioner": 0.6924281984334204,
+          "Arguments of Respondent": 0.6343612334801763,
+          "Reasoning": 0.7089483394833949,
+          "Decision": 0.7677902621722846
+        },
+        "none_to_reasoning": 505,
+        "reasoning_to_none": 471,
+        "pair_errors": 976,
+        "confusion": [
+          [
+            2533,
+            299,
+            25,
+            96,
+            61,
+            505,
+            44
+          ],
+          [
+            293,
+            1826,
+            16,
+            36,
+            33,
+            52,
+            10
+          ],
+          [
+            23,
+            44,
+            130,
+            6,
+            0,
+            8,
+            3
+          ],
+          [
+            141,
+            30,
+            2,
+            663,
+            60,
+            44,
+            1
+          ],
+          [
+            28,
+            6,
+            0,
+            153,
+            360,
+            28,
+            0
+          ],
+          [
+            471,
+            16,
+            10,
+            20,
+            45,
+            1537,
+            27
+          ],
+          [
+            1,
+            0,
+            1,
+            0,
+            1,
+            36,
+            205
+          ]
+        ],
+        "pair_directions": {
+          "None\u2013Reasoning": [
+            505,
+            471
+          ],
+          "Facts\u2013Issue": [
+            16,
+            44
+          ],
+          "Arguments of Petitioner\u2013Arguments of Respondent": [
+            60,
+            153
+          ]
+        }
+      },
+      "routed": {
+        "macro_f1": 0.46941512588830536,
+        "accuracy": 0.514721919302072,
+        "per_role_f1": {
+          "None": 0.46503496503496505,
+          "Facts": 0.6145251396648045,
+          "Issue": 0.5769230769230769,
+          "Arguments of Petitioner": 0.5084745762711864,
+          "Arguments of Respondent": 0.49612403100775193,
+          "Reasoning": 0.507177033492823,
+          "Decision": 0.11764705882352941
+        },
+        "none_to_reasoning": 95,
+        "reasoning_to_none": 58,
+        "pair_errors": 153,
+        "confusion": [
+          [
+            133,
+            47,
+            9,
+            31,
+            9,
+            95,
+            0
+          ],
+          [
+            26,
+            110,
+            8,
+            19,
+            2,
+            5,
+            0
+          ],
+          [
+            4,
+            22,
+            30,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            17,
+            4,
+            0,
+            60,
+            11,
+            12,
+            0
+          ],
+          [
+            10,
+            2,
+            0,
+            18,
+            32,
+            11,
+            0
+          ],
+          [
+            58,
+            3,
+            0,
+            4,
+            2,
+            106,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            14,
+            1
+          ]
+        ]
+      },
+      "changes": 88,
+      "corrected": 36,
+      "damaged": 38
+    },
+    "unmodified-donor-matched": {
+      "all": {
+        "macro_f1": 0.7254024971970457,
+        "accuracy": 0.7477653068082533,
+        "per_role_f1": {
+          "None": 0.7551212822490786,
+          "Facts": 0.826467313504056,
+          "Issue": 0.6552380952380953,
+          "Arguments of Petitioner": 0.7047619047619048,
+          "Arguments of Respondent": 0.6422018348623854,
+          "Reasoning": 0.7018701870187019,
+          "Decision": 0.792156862745098
+        },
+        "none_to_reasoning": 778,
+        "reasoning_to_none": 726,
+        "pair_errors": 1504,
+        "confusion": [
+          [
+            4405,
+            434,
+            35,
+            165,
+            87,
+            778,
+            64
+          ],
+          [
+            315,
+            2598,
+            28,
+            54,
+            34,
+            62,
+            10
+          ],
+          [
+            27,
+            54,
+            172,
+            6,
+            0,
+            10,
+            3
+          ],
+          [
+            172,
+            34,
+            2,
+            925,
+            79,
+            63,
+            1
+          ],
+          [
+            53,
+            26,
+            0,
+            170,
+            490,
+            34,
+            0
+          ],
+          [
+            726,
+            40,
+            15,
+            29,
+            62,
+            2233,
+            35
+          ],
+          [
+            1,
+            0,
+            1,
+            0,
+            1,
+            43,
+            303
+          ]
+        ],
+        "pair_directions": {
+          "None\u2013Reasoning": [
+            778,
+            726
+          ],
+          "Facts\u2013Issue": [
+            28,
+            54
+          ],
+          "Arguments of Petitioner\u2013Arguments of Respondent": [
+            79,
+            170
+          ]
+        }
+      },
+      "novel": {
+        "macro_f1": 0.7127110168822012,
+        "accuracy": 0.7305871688991842,
+        "per_role_f1": {
+          "None": 0.7182759109598752,
+          "Facts": 0.8139068419879653,
+          "Issue": 0.6532663316582915,
+          "Arguments of Petitioner": 0.6924281984334204,
+          "Arguments of Respondent": 0.6343612334801763,
+          "Reasoning": 0.7089483394833949,
+          "Decision": 0.7677902621722846
+        },
+        "none_to_reasoning": 505,
+        "reasoning_to_none": 471,
+        "pair_errors": 976,
+        "confusion": [
+          [
+            2533,
+            299,
+            25,
+            96,
+            61,
+            505,
+            44
+          ],
+          [
+            293,
+            1826,
+            16,
+            36,
+            33,
+            52,
+            10
+          ],
+          [
+            23,
+            44,
+            130,
+            6,
+            0,
+            8,
+            3
+          ],
+          [
+            141,
+            30,
+            2,
+            663,
+            60,
+            44,
+            1
+          ],
+          [
+            28,
+            6,
+            0,
+            153,
+            360,
+            28,
+            0
+          ],
+          [
+            471,
+            16,
+            10,
+            20,
+            45,
+            1537,
+            27
+          ],
+          [
+            1,
+            0,
+            1,
+            0,
+            1,
+            36,
+            205
+          ]
+        ],
+        "pair_directions": {
+          "None\u2013Reasoning": [
+            505,
+            471
+          ],
+          "Facts\u2013Issue": [
+            16,
+            44
+          ],
+          "Arguments of Petitioner\u2013Arguments of Respondent": [
+            60,
+            153
+          ]
+        }
+      },
+      "routed": {
+        "macro_f1": 0.46941512588830536,
+        "accuracy": 0.514721919302072,
+        "per_role_f1": {
+          "None": 0.46503496503496505,
+          "Facts": 0.6145251396648045,
+          "Issue": 0.5769230769230769,
+          "Arguments of Petitioner": 0.5084745762711864,
+          "Arguments of Respondent": 0.49612403100775193,
+          "Reasoning": 0.507177033492823,
+          "Decision": 0.11764705882352941
+        },
+        "none_to_reasoning": 95,
+        "reasoning_to_none": 58,
+        "pair_errors": 153,
+        "confusion": [
+          [
+            133,
+            47,
+            9,
+            31,
+            9,
+            95,
+            0
+          ],
+          [
+            26,
+            110,
+            8,
+            19,
+            2,
+            5,
+            0
+          ],
+          [
+            4,
+            22,
+            30,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            17,
+            4,
+            0,
+            60,
+            11,
+            12,
+            0
+          ],
+          [
+            10,
+            2,
+            0,
+            18,
+            32,
+            11,
+            0
+          ],
+          [
+            58,
+            3,
+            0,
+            4,
+            2,
+            106,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            14,
+            1
+          ]
+        ]
+      },
+      "changes": 88,
+      "corrected": 36,
+      "damaged": 38
+    },
+    "case-shuffle": {
+      "all": {
+        "macro_f1": 0.7261776460966347,
+        "accuracy": 0.7482357685328315,
+        "per_role_f1": {
+          "None": 0.7554413024850043,
+          "Facts": 0.8271585307680076,
+          "Issue": 0.6577437858508605,
+          "Arguments of Petitioner": 0.7054351957430635,
+          "Arguments of Respondent": 0.6434210526315789,
+          "Reasoning": 0.7018867924528301,
+          "Decision": 0.792156862745098
+        },
+        "none_to_reasoning": 775,
+        "reasoning_to_none": 727,
+        "pair_errors": 1502,
+        "confusion": [
+          [
+            4408,
+            433,
+            36,
+            166,
+            86,
+            775,
+            64
+          ],
+          [
+            312,
+            2601,
+            25,
+            54,
+            34,
+            65,
+            10
+          ],
+          [
+            27,
+            54,
+            172,
+            6,
+            0,
+            10,
+            3
+          ],
+          [
+            172,
+            34,
+            2,
+            928,
+            76,
+            63,
+            1
+          ],
+          [
+            55,
+            26,
+            0,
+            171,
+            489,
+            32,
+            0
+          ],
+          [
+            727,
+            40,
+            15,
+            30,
+            61,
+            2232,
+            35
+          ],
+          [
+            1,
+            0,
+            1,
+            0,
+            1,
+            43,
+            303
+          ]
+        ],
+        "pair_directions": {
+          "None\u2013Reasoning": [
+            775,
+            727
+          ],
+          "Facts\u2013Issue": [
+            25,
+            54
+          ],
+          "Arguments of Petitioner\u2013Arguments of Respondent": [
+            76,
+            171
+          ]
+        }
+      },
+      "novel": {
+        "macro_f1": 0.7130516013127498,
+        "accuracy": 0.7306878839762312,
+        "per_role_f1": {
+          "None": 0.7185153704490721,
+          "Facts": 0.8146167557932263,
+          "Issue": 0.654911838790932,
+          "Arguments of Petitioner": 0.693069306930693,
+          "Arguments of Respondent": 0.6348364279398763,
+          "Reasoning": 0.707621247113164,
+          "Decision": 0.7677902621722846
+        },
+        "none_to_reasoning": 502,
+        "reasoning_to_none": 476,
+        "pair_errors": 978,
+        "confusion": [
+          [
+            2536,
+            298,
+            26,
+            96,
+            61,
+            502,
+            44
+          ],
+          [
+            290,
+            1828,
+            14,
+            36,
+            33,
+            55,
+            10
+          ],
+          [
+            23,
+            44,
+            130,
+            6,
+            0,
+            8,
+            3
+          ],
+          [
+            141,
+            30,
+            2,
+            665,
+            58,
+            44,
+            1
+          ],
+          [
+            29,
+            6,
+            0,
+            154,
+            359,
+            27,
+            0
+          ],
+          [
+            476,
+            16,
+            10,
+            21,
+            44,
+            1532,
+            27
+          ],
+          [
+            1,
+            0,
+            1,
+            0,
+            1,
+            36,
+            205
+          ]
+        ],
+        "pair_directions": {
+          "None\u2013Reasoning": [
+            502,
+            476
+          ],
+          "Facts\u2013Issue": [
+            14,
+            44
+          ],
+          "Arguments of Petitioner\u2013Arguments of Respondent": [
+            58,
+            154
+          ]
+        }
+      },
+      "routed": {
+        "macro_f1": 0.47677912900579517,
+        "accuracy": 0.5223555070883316,
+        "per_role_f1": {
+          "None": 0.47304347826086957,
+          "Facts": 0.6277777777777778,
+          "Issue": 0.5882352941176471,
+          "Arguments of Petitioner": 0.5206611570247934,
+          "Arguments of Respondent": 0.5040650406504065,
+          "Reasoning": 0.5060240963855421,
+          "Decision": 0.11764705882352941
+        },
+        "none_to_reasoning": 92,
+        "reasoning_to_none": 59,
+        "pair_errors": 151,
+        "confusion": [
+          [
+            136,
+            46,
+            10,
+            32,
+            8,
+            92,
+            0
+          ],
+          [
+            23,
+            113,
+            5,
+            19,
+            2,
+            8,
+            0
+          ],
+          [
+            4,
+            22,
+            30,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            17,
+            4,
+            0,
+            63,
+            8,
+            12,
+            0
+          ],
+          [
+            12,
+            2,
+            0,
+            19,
+            31,
+            9,
+            0
+          ],
+          [
+            59,
+            3,
+            0,
+            5,
+            1,
+            105,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            14,
+            1
+          ]
+        ]
+      },
+      "changes": 29,
+      "corrected": 14,
+      "damaged": 9
+    },
+    "global-shuffle": {
+      "all": {
+        "macro_f1": 0.7262780594605865,
+        "accuracy": 0.7484373949862222,
+        "per_role_f1": {
+          "None": 0.7557193042584183,
+          "Facts": 0.8271585307680076,
+          "Issue": 0.6577437858508605,
+          "Arguments of Petitioner": 0.7054351957430635,
+          "Arguments of Respondent": 0.6434210526315789,
+          "Reasoning": 0.7023116842270797,
+          "Decision": 0.792156862745098
+        },
+        "none_to_reasoning": 773,
+        "reasoning_to_none": 726,
+        "pair_errors": 1499,
+        "confusion": [
+          [
+            4410,
+            433,
+            36,
+            166,
+            86,
+            773,
+            64
+          ],
+          [
+            312,
+            2601,
+            25,
+            54,
+            34,
+            65,
+            10
+          ],
+          [
+            27,
+            54,
+            172,
+            6,
+            0,
+            10,
+            3
+          ],
+          [
+            172,
+            34,
+            2,
+            928,
+            76,
+            63,
+            1
+          ],
+          [
+            55,
+            26,
+            0,
+            171,
+            489,
+            32,
+            0
+          ],
+          [
+            726,
+            40,
+            15,
+            30,
+            61,
+            2233,
+            35
+          ],
+          [
+            1,
+            0,
+            1,
+            0,
+            1,
+            43,
+            303
+          ]
+        ],
+        "pair_directions": {
+          "None\u2013Reasoning": [
+            773,
+            726
+          ],
+          "Facts\u2013Issue": [
+            25,
+            54
+          ],
+          "Arguments of Petitioner\u2013Arguments of Respondent": [
+            76,
+            171
+          ]
+        }
+      },
+      "novel": {
+        "macro_f1": 0.713158061314837,
+        "accuracy": 0.7308893141303253,
+        "per_role_f1": {
+          "None": 0.7187986966992492,
+          "Facts": 0.8146167557932263,
+          "Issue": 0.654911838790932,
+          "Arguments of Petitioner": 0.693069306930693,
+          "Arguments of Respondent": 0.6348364279398763,
+          "Reasoning": 0.7080831408775982,
+          "Decision": 0.7677902621722846
+        },
+        "none_to_reasoning": 501,
+        "reasoning_to_none": 475,
+        "pair_errors": 976,
+        "confusion": [
+          [
+            2537,
+            298,
+            26,
+            96,
+            61,
+            501,
+            44
+          ],
+          [
+            290,
+            1828,
+            14,
+            36,
+            33,
+            55,
+            10
+          ],
+          [
+            23,
+            44,
+            130,
+            6,
+            0,
+            8,
+            3
+          ],
+          [
+            141,
+            30,
+            2,
+            665,
+            58,
+            44,
+            1
+          ],
+          [
+            29,
+            6,
+            0,
+            154,
+            359,
+            27,
+            0
+          ],
+          [
+            475,
+            16,
+            10,
+            21,
+            44,
+            1533,
+            27
+          ],
+          [
+            1,
+            0,
+            1,
+            0,
+            1,
+            36,
+            205
+          ]
+        ],
+        "pair_directions": {
+          "None\u2013Reasoning": [
+            501,
+            475
+          ],
+          "Facts\u2013Issue": [
+            14,
+            44
+          ],
+          "Arguments of Petitioner\u2013Arguments of Respondent": [
+            58,
+            154
+          ]
+        }
+      },
+      "routed": {
+        "macro_f1": 0.47851861282097297,
+        "accuracy": 0.5256270447110142,
+        "per_role_f1": {
+          "None": 0.4791666666666667,
+          "Facts": 0.6277777777777778,
+          "Issue": 0.5882352941176471,
+          "Arguments of Petitioner": 0.5206611570247934,
+          "Arguments of Respondent": 0.5040650406504065,
+          "Reasoning": 0.5120772946859904,
+          "Decision": 0.11764705882352941
+        },
+        "none_to_reasoning": 90,
+        "reasoning_to_none": 58,
+        "pair_errors": 148,
+        "confusion": [
+          [
+            138,
+            46,
+            10,
+            32,
+            8,
+            90,
+            0
+          ],
+          [
+            23,
+            113,
+            5,
+            19,
+            2,
+            8,
+            0
+          ],
+          [
+            4,
+            22,
+            30,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            17,
+            4,
+            0,
+            63,
+            8,
+            12,
+            0
+          ],
+          [
+            12,
+            2,
+            0,
+            19,
+            31,
+            9,
+            0
+          ],
+          [
+            58,
+            3,
+            0,
+            5,
+            1,
+            106,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            14,
+            1
+          ]
+        ]
+      },
+      "changes": 28,
+      "corrected": 16,
+      "damaged": 8
+    },
+    "cohort": {
+      "case_count": 72,
+      "total_rows": 14879,
+      "routed_rows": 917,
+      "novel_rows": 9929,
+      "standalone_source_on_route": {
+        "macro_f1": 0.1549884185213113,
+        "accuracy": 0.1941112322791712,
+        "per_role_f1": {
+          "None": 0.20454545454545456,
+          "Facts": 0.26666666666666666,
+          "Issue": 0.1640625,
+          "Arguments of Petitioner": 0.1437125748502994,
+          "Arguments of Respondent": 0.18032786885245902,
+          "Reasoning": 0.12560386473429952,
+          "Decision": 0.0
+        },
+        "none_to_reasoning": 10,
+        "reasoning_to_none": 30,
+        "pair_errors": 40,
+        "confusion": [
+          [
+            45,
+            147,
+            69,
+            17,
+            12,
+            10,
+            24
+          ],
+          [
+            18,
+            76,
+            38,
+            15,
+            8,
+            2,
+            13
+          ],
+          [
+            2,
+            28,
+            21,
+            5,
+            1,
+            0,
+            0
+          ],
+          [
+            11,
+            48,
+            14,
+            12,
+            14,
+            3,
+            2
+          ],
+          [
+            8,
+            25,
+            14,
+            11,
+            11,
+            2,
+            2
+          ],
+          [
+            30,
+            71,
+            38,
+            3,
+            3,
+            13,
+            16
+          ],
+          [
+            2,
+            5,
+            5,
+            0,
+            0,
+            3,
+            0
+          ]
+        ]
+      },
+      "verified_capture_logits_max_abs_difference": 1.430511474609375e-06
+    },
+    "post_lock_route_headroom": {
+      "incorrect_rows_whole_cohort": 3751,
+      "incorrect_rows_routed": 443,
+      "pair_error_coverage": {
+        "None\u2013Reasoning": {
+          "whole_cohort": 1506,
+          "routed": 155,
+          "eligible_under_selected_gate": 151
+        },
+        "Facts\u2013Issue": {
+          "whole_cohort": 80,
+          "routed": 28,
+          "eligible_under_selected_gate": 28
+        },
+        "Arguments of Petitioner\u2013Arguments of Respondent": {
+          "whole_cohort": 247,
+          "routed": 27,
+          "eligible_under_selected_gate": 26
+        }
+      },
+      "perfect_routed_hypothesis_score": {
+        "all": {
+          "macro_f1": 0.7650550856958019,
+          "accuracy": 0.7776732307278715,
+          "pair_errors": 1351
+        },
+        "novel": {
+          "macro_f1": 0.7525648222212045,
+          "accuracy": 0.7619095578608117,
+          "pair_errors": 879
+        }
+      },
+      "perfect_routed_and_selected_gate_score": {
+        "all": {
+          "macro_f1": 0.7442163757757092,
+          "accuracy": 0.7616775320922105,
+          "pair_errors": 1355
+        },
+        "novel": {
+          "macro_f1": 0.7315436289672136,
+          "accuracy": 0.744687279685769,
+          "pair_errors": 880
+        }
+      }
+    }
+  },
+  "fresh": {
+    "zero": {
+      "all": {
+        "macro_f1": 0.7238568314001066,
+        "accuracy": 0.7323214285714286,
+        "per_role_f1": {
+          "None": 0.7474037386163924,
+          "Facts": 0.8063171193935565,
+          "Issue": 0.6918238993710691,
+          "Arguments of Petitioner": 0.7318475916606758,
+          "Arguments of Respondent": 0.6566135286514433,
+          "Reasoning": 0.6594550464333095,
+          "Decision": 0.7735368956743003
+        },
+        "none_to_reasoning": 1163,
+        "reasoning_to_none": 1539,
+        "pair_errors": 2702,
+        "confusion": [
+          [
+            7017,
+            701,
+            50,
+            306,
+            177,
+            1163,
+            70
+          ],
+          [
+            374,
+            3191,
+            23,
+            56,
+            34,
+            183,
+            16
+          ],
+          [
+            26,
+            53,
+            220,
+            1,
+            1,
+            8,
+            6
+          ],
+          [
+            209,
+            29,
+            1,
+            1527,
+            161,
+            77,
+            6
+          ],
+          [
+            108,
+            14,
+            0,
+            204,
+            762,
+            49,
+            2
+          ],
+          [
+            1539,
+            50,
+            26,
+            65,
+            41,
+            3231,
+            70
+          ],
+          [
+            20,
+            0,
+            1,
+            4,
+            6,
+            66,
+            456
+          ]
+        ],
+        "pair_directions": {
+          "None\u2013Reasoning": [
+            1163,
+            1539
+          ],
+          "Facts\u2013Issue": [
+            23,
+            53
+          ],
+          "Arguments of Petitioner\u2013Arguments of Respondent": [
+            161,
+            204
+          ]
+        }
+      },
+      "novel": {
+        "macro_f1": 0.7206150061735092,
+        "accuracy": 0.7203721841332027,
+        "per_role_f1": {
+          "None": 0.7302217237511862,
+          "Facts": 0.79681592039801,
+          "Issue": 0.6888888888888889,
+          "Arguments of Petitioner": 0.7216051594410605,
+          "Arguments of Respondent": 0.6943203573707721,
+          "Reasoning": 0.6443921568627451,
+          "Decision": 0.7680608365019012
+        },
+        "none_to_reasoning": 717,
+        "reasoning_to_none": 1112,
+        "pair_errors": 1829,
+        "confusion": [
+          [
+            4232,
+            352,
+            33,
+            263,
+            74,
+            717,
+            60
+          ],
+          [
+            305,
+            2002,
+            17,
+            51,
+            24,
+            148,
+            16
+          ],
+          [
+            18,
+            41,
+            155,
+            1,
+            0,
+            5,
+            6
+          ],
+          [
+            124,
+            16,
+            0,
+            1007,
+            75,
+            28,
+            1
+          ],
+          [
+            61,
+            14,
+            0,
+            159,
+            544,
+            31,
+            2
+          ],
+          [
+            1112,
+            37,
+            18,
+            57,
+            33,
+            2054,
+            44
+          ],
+          [
+            8,
+            0,
+            1,
+            2,
+            6,
+            37,
+            303
+          ]
+        ],
+        "pair_directions": {
+          "None\u2013Reasoning": [
+            717,
+            1112
+          ],
+          "Facts\u2013Issue": [
+            17,
+            41
+          ],
+          "Arguments of Petitioner\u2013Arguments of Respondent": [
+            75,
+            159
+          ]
+        }
+      },
+      "routed": {
+        "macro_f1": 0.47211628237487313,
+        "accuracy": 0.5177584846093133,
+        "per_role_f1": {
+          "None": 0.4723618090452261,
+          "Facts": 0.6651785714285714,
+          "Issue": 0.6029411764705882,
+          "Arguments of Petitioner": 0.4421768707482993,
+          "Arguments of Respondent": 0.5161290322580645,
+          "Reasoning": 0.500763358778626,
+          "Decision": 0.10526315789473684
+        },
+        "none_to_reasoning": 145,
+        "reasoning_to_none": 96,
+        "pair_errors": 241,
+        "confusion": [
+          [
+            188,
+            41,
+            9,
+            58,
+            12,
+            145,
+            1
+          ],
+          [
+            28,
+            149,
+            8,
+            13,
+            2,
+            23,
+            0
+          ],
+          [
+            6,
+            19,
+            41,
+            0,
+            0,
+            4,
+            0
+          ],
+          [
+            12,
+            5,
+            0,
+            65,
+            8,
+            12,
+            0
+          ],
+          [
+            8,
+            1,
+            0,
+            48,
+            48,
+            10,
+            0
+          ],
+          [
+            96,
+            10,
+            8,
+            7,
+            1,
+            164,
+            0
+          ],
+          [
+            4,
+            0,
+            0,
+            1,
+            0,
+            11,
+            1
+          ]
+        ]
+      },
+      "changes": 0,
+      "corrected": 0,
+      "damaged": 0
+    },
+    "edited-lock": {
+      "all": {
+        "macro_f1": 0.7240923653187015,
+        "accuracy": 0.7321875,
+        "per_role_f1": {
+          "None": 0.7473286906597204,
+          "Facts": 0.806419004296184,
+          "Issue": 0.6938775510204082,
+          "Arguments of Petitioner": 0.7320230105465004,
+          "Arguments of Respondent": 0.657192075796727,
+          "Reasoning": 0.6582693292370712,
+          "Decision": 0.7735368956743003
+        },
+        "none_to_reasoning": 1151,
+        "reasoning_to_none": 1556,
+        "pair_errors": 2707,
+        "confusion": [
+          [
+            7029,
+            701,
+            50,
+            306,
+            177,
+            1151,
+            70
+          ],
+          [
+            377,
+            3191,
+            23,
+            56,
+            34,
+            180,
+            16
+          ],
+          [
+            26,
+            52,
+            221,
+            1,
+            1,
+            8,
+            6
+          ],
+          [
+            211,
+            29,
+            1,
+            1527,
+            161,
+            75,
+            6
+          ],
+          [
+            108,
+            14,
+            0,
+            203,
+            763,
+            49,
+            2
+          ],
+          [
+            1556,
+            50,
+            26,
+            65,
+            41,
+            3214,
+            70
+          ],
+          [
+            20,
+            0,
+            1,
+            4,
+            6,
+            66,
+            456
+          ]
+        ],
+        "pair_directions": {
+          "None\u2013Reasoning": [
+            1151,
+            1556
+          ],
+          "Facts\u2013Issue": [
+            23,
+            52
+          ],
+          "Arguments of Petitioner\u2013Arguments of Respondent": [
+            161,
+            203
+          ]
+        }
+      },
+      "novel": {
+        "macro_f1": 0.7206675192825329,
+        "accuracy": 0.719812508744928,
+        "per_role_f1": {
+          "None": 0.7296994747265995,
+          "Facts": 0.7969745222929936,
+          "Issue": 0.6917960088691796,
+          "Arguments of Petitioner": 0.7216051594410605,
+          "Arguments of Respondent": 0.6943203573707721,
+          "Reasoning": 0.6422162757752243,
+          "Decision": 0.7680608365019012
+        },
+        "none_to_reasoning": 712,
+        "reasoning_to_none": 1126,
+        "pair_errors": 1838,
+        "confusion": [
+          [
+            4237,
+            352,
+            33,
+            263,
+            74,
+            712,
+            60
+          ],
+          [
+            308,
+            2002,
+            17,
+            51,
+            24,
+            145,
+            16
+          ],
+          [
+            18,
+            40,
+            156,
+            1,
+            0,
+            5,
+            6
+          ],
+          [
+            124,
+            16,
+            0,
+            1007,
+            75,
+            28,
+            1
+          ],
+          [
+            61,
+            14,
+            0,
+            159,
+            544,
+            31,
+            2
+          ],
+          [
+            1126,
+            37,
+            18,
+            57,
+            33,
+            2040,
+            44
+          ],
+          [
+            8,
+            0,
+            1,
+            2,
+            6,
+            37,
+            303
+          ]
+        ],
+        "pair_directions": {
+          "None\u2013Reasoning": [
+            712,
+            1126
+          ],
+          "Facts\u2013Issue": [
+            17,
+            40
+          ],
+          "Arguments of Petitioner\u2013Arguments of Respondent": [
+            75,
+            159
+          ]
+        }
+      },
+      "routed": {
+        "macro_f1": 0.47259662159655974,
+        "accuracy": 0.5153906866614049,
+        "per_role_f1": {
+          "None": 0.4819277108433735,
+          "Facts": 0.6666666666666666,
+          "Issue": 0.6131386861313869,
+          "Arguments of Petitioner": 0.44368600682593856,
+          "Arguments of Respondent": 0.5240641711229946,
+          "Reasoning": 0.47342995169082125,
+          "Decision": 0.10526315789473684
+        },
+        "none_to_reasoning": 133,
+        "reasoning_to_none": 113,
+        "pair_errors": 246,
+        "confusion": [
+          [
+            200,
+            41,
+            9,
+            58,
+            12,
+            133,
+            1
+          ],
+          [
+            31,
+            149,
+            8,
+            13,
+            2,
+            20,
+            0
+          ],
+          [
+            6,
+            18,
+            42,
+            0,
+            0,
+            4,
+            0
+          ],
+          [
+            14,
+            5,
+            0,
+            65,
+            8,
+            10,
+            0
+          ],
+          [
+            8,
+            1,
+            0,
+            47,
+            49,
+            10,
+            0
+          ],
+          [
+            113,
+            10,
+            8,
+            7,
+            1,
+            147,
+            0
+          ],
+          [
+            4,
+            0,
+            0,
+            1,
+            0,
+            11,
+            1
+          ]
+        ]
+      },
+      "changes": 36,
+      "corrected": 14,
+      "damaged": 17
+    },
+    "unmodified-donor-its-best": {
+      "all": {
+        "macro_f1": 0.7235140483841888,
+        "accuracy": 0.7316071428571429,
+        "per_role_f1": {
+          "None": 0.74701099952176,
+          "Facts": 0.806113426803082,
+          "Issue": 0.694006309148265,
+          "Arguments of Petitioner": 0.7309815214782818,
+          "Arguments of Respondent": 0.6557799742157284,
+          "Reasoning": 0.6571692118479041,
+          "Decision": 0.7735368956743003
+        },
+        "none_to_reasoning": 1151,
+        "reasoning_to_none": 1564,
+        "pair_errors": 2715,
+        "confusion": [
+          [
+            7029,
+            702,
+            49,
+            305,
+            178,
+            1151,
+            70
+          ],
+          [
+            376,
+            3191,
+            23,
+            56,
+            34,
+            181,
+            16
+          ],
+          [
+            26,
+            53,
+            220,
+            1,
+            1,
+            8,
+            6
+          ],
+          [
+            211,
+            29,
+            1,
+            1523,
+            165,
+            75,
+            6
+          ],
+          [
+            109,
+            14,
+            0,
+            203,
+            763,
+            48,
+            2
+          ],
+          [
+            1564,
+            51,
+            25,
+            65,
+            41,
+            3206,
+            70
+          ],
+          [
+            20,
+            0,
+            1,
+            4,
+            6,
+            66,
+            456
+          ]
+        ],
+        "pair_directions": {
+          "None\u2013Reasoning": [
+            1151,
+            1564
+          ],
+          "Facts\u2013Issue": [
+            23,
+            53
+          ],
+          "Arguments of Petitioner\u2013Arguments of Respondent": [
+            165,
+            203
+          ]
+        }
+      },
+      "novel": {
+        "macro_f1": 0.7202932884796469,
+        "accuracy": 0.7194627116272562,
+        "per_role_f1": {
+          "None": 0.7296994747265995,
+          "Facts": 0.7967382657120128,
+          "Issue": 0.6935123042505593,
+          "Arguments of Petitioner": 0.7200287150035893,
+          "Arguments of Respondent": 0.6921119592875318,
+          "Reasoning": 0.6419014638753345,
+          "Decision": 0.7680608365019012
+        },
+        "none_to_reasoning": 712,
+        "reasoning_to_none": 1127,
+        "pair_errors": 1839,
+        "confusion": [
+          [
+            4237,
+            353,
+            32,
+            262,
+            75,
+            712,
+            60
+          ],
+          [
+            306,
+            2003,
+            16,
+            51,
+            24,
+            147,
+            16
+          ],
+          [
+            18,
+            41,
+            155,
+            1,
+            0,
+            5,
+            6
+          ],
+          [
+            124,
+            16,
+            0,
+            1003,
+            79,
+            28,
+            1
+          ],
+          [
+            62,
+            14,
+            0,
+            159,
+            544,
+            30,
+            2
+          ],
+          [
+            1127,
+            38,
+            17,
+            57,
+            33,
+            2039,
+            44
+          ],
+          [
+            8,
+            0,
+            1,
+            2,
+            6,
+            37,
+            303
+          ]
+        ],
+        "pair_directions": {
+          "None\u2013Reasoning": [
+            712,
+            1127
+          ],
+          "Facts\u2013Issue": [
+            16,
+            41
+          ],
+          "Arguments of Petitioner\u2013Arguments of Respondent": [
+            79,
+            159
+          ]
+        }
+      },
+      "routed": {
+        "macro_f1": 0.463469680903159,
+        "accuracy": 0.505130228887135,
+        "per_role_f1": {
+          "None": 0.477326968973747,
+          "Facts": 0.6622222222222223,
+          "Issue": 0.6119402985074627,
+          "Arguments of Petitioner": 0.4236111111111111,
+          "Arguments of Respondent": 0.5104166666666666,
+          "Reasoning": 0.4535073409461664,
+          "Decision": 0.10526315789473684
+        },
+        "none_to_reasoning": 133,
+        "reasoning_to_none": 121,
+        "pair_errors": 254,
+        "confusion": [
+          [
+            200,
+            42,
+            8,
+            57,
+            13,
+            133,
+            1
+          ],
+          [
+            30,
+            149,
+            8,
+            13,
+            2,
+            21,
+            0
+          ],
+          [
+            6,
+            19,
+            41,
+            0,
+            0,
+            4,
+            0
+          ],
+          [
+            14,
+            5,
+            0,
+            61,
+            12,
+            10,
+            0
+          ],
+          [
+            9,
+            1,
+            0,
+            47,
+            49,
+            9,
+            0
+          ],
+          [
+            121,
+            11,
+            7,
+            7,
+            1,
+            139,
+            0
+          ],
+          [
+            4,
+            0,
+            0,
+            1,
+            0,
+            11,
+            1
+          ]
+        ]
+      },
+      "changes": 108,
+      "corrected": 42,
+      "damaged": 58
+    },
+    "unmodified-donor-matched": {
+      "all": {
+        "macro_f1": 0.7235140483841888,
+        "accuracy": 0.7316071428571429,
+        "per_role_f1": {
+          "None": 0.74701099952176,
+          "Facts": 0.806113426803082,
+          "Issue": 0.694006309148265,
+          "Arguments of Petitioner": 0.7309815214782818,
+          "Arguments of Respondent": 0.6557799742157284,
+          "Reasoning": 0.6571692118479041,
+          "Decision": 0.7735368956743003
+        },
+        "none_to_reasoning": 1151,
+        "reasoning_to_none": 1564,
+        "pair_errors": 2715,
+        "confusion": [
+          [
+            7029,
+            702,
+            49,
+            305,
+            178,
+            1151,
+            70
+          ],
+          [
+            376,
+            3191,
+            23,
+            56,
+            34,
+            181,
+            16
+          ],
+          [
+            26,
+            53,
+            220,
+            1,
+            1,
+            8,
+            6
+          ],
+          [
+            211,
+            29,
+            1,
+            1523,
+            165,
+            75,
+            6
+          ],
+          [
+            109,
+            14,
+            0,
+            203,
+            763,
+            48,
+            2
+          ],
+          [
+            1564,
+            51,
+            25,
+            65,
+            41,
+            3206,
+            70
+          ],
+          [
+            20,
+            0,
+            1,
+            4,
+            6,
+            66,
+            456
+          ]
+        ],
+        "pair_directions": {
+          "None\u2013Reasoning": [
+            1151,
+            1564
+          ],
+          "Facts\u2013Issue": [
+            23,
+            53
+          ],
+          "Arguments of Petitioner\u2013Arguments of Respondent": [
+            165,
+            203
+          ]
+        }
+      },
+      "novel": {
+        "macro_f1": 0.7202932884796469,
+        "accuracy": 0.7194627116272562,
+        "per_role_f1": {
+          "None": 0.7296994747265995,
+          "Facts": 0.7967382657120128,
+          "Issue": 0.6935123042505593,
+          "Arguments of Petitioner": 0.7200287150035893,
+          "Arguments of Respondent": 0.6921119592875318,
+          "Reasoning": 0.6419014638753345,
+          "Decision": 0.7680608365019012
+        },
+        "none_to_reasoning": 712,
+        "reasoning_to_none": 1127,
+        "pair_errors": 1839,
+        "confusion": [
+          [
+            4237,
+            353,
+            32,
+            262,
+            75,
+            712,
+            60
+          ],
+          [
+            306,
+            2003,
+            16,
+            51,
+            24,
+            147,
+            16
+          ],
+          [
+            18,
+            41,
+            155,
+            1,
+            0,
+            5,
+            6
+          ],
+          [
+            124,
+            16,
+            0,
+            1003,
+            79,
+            28,
+            1
+          ],
+          [
+            62,
+            14,
+            0,
+            159,
+            544,
+            30,
+            2
+          ],
+          [
+            1127,
+            38,
+            17,
+            57,
+            33,
+            2039,
+            44
+          ],
+          [
+            8,
+            0,
+            1,
+            2,
+            6,
+            37,
+            303
+          ]
+        ],
+        "pair_directions": {
+          "None\u2013Reasoning": [
+            712,
+            1127
+          ],
+          "Facts\u2013Issue": [
+            16,
+            41
+          ],
+          "Arguments of Petitioner\u2013Arguments of Respondent": [
+            79,
+            159
+          ]
+        }
+      },
+      "routed": {
+        "macro_f1": 0.463469680903159,
+        "accuracy": 0.505130228887135,
+        "per_role_f1": {
+          "None": 0.477326968973747,
+          "Facts": 0.6622222222222223,
+          "Issue": 0.6119402985074627,
+          "Arguments of Petitioner": 0.4236111111111111,
+          "Arguments of Respondent": 0.5104166666666666,
+          "Reasoning": 0.4535073409461664,
+          "Decision": 0.10526315789473684
+        },
+        "none_to_reasoning": 133,
+        "reasoning_to_none": 121,
+        "pair_errors": 254,
+        "confusion": [
+          [
+            200,
+            42,
+            8,
+            57,
+            13,
+            133,
+            1
+          ],
+          [
+            30,
+            149,
+            8,
+            13,
+            2,
+            21,
+            0
+          ],
+          [
+            6,
+            19,
+            41,
+            0,
+            0,
+            4,
+            0
+          ],
+          [
+            14,
+            5,
+            0,
+            61,
+            12,
+            10,
+            0
+          ],
+          [
+            9,
+            1,
+            0,
+            47,
+            49,
+            9,
+            0
+          ],
+          [
+            121,
+            11,
+            7,
+            7,
+            1,
+            139,
+            0
+          ],
+          [
+            4,
+            0,
+            0,
+            1,
+            0,
+            11,
+            1
+          ]
+        ]
+      },
+      "changes": 108,
+      "corrected": 42,
+      "damaged": 58
+    },
+    "case-shuffle": {
+      "all": {
+        "macro_f1": 0.723907267291387,
+        "accuracy": 0.7325446428571428,
+        "per_role_f1": {
+          "None": 0.7478464319897905,
+          "Facts": 0.8063171193935565,
+          "Issue": 0.6918238993710691,
+          "Arguments of Petitioner": 0.7318475916606758,
+          "Arguments of Respondent": 0.6566135286514433,
+          "Reasoning": 0.6593654042988741,
+          "Decision": 0.7735368956743003
+        },
+        "none_to_reasoning": 1148,
+        "reasoning_to_none": 1549,
+        "pair_errors": 2697,
+        "confusion": [
+          [
+            7032,
+            701,
+            50,
+            306,
+            177,
+            1148,
+            70
+          ],
+          [
+            375,
+            3191,
+            23,
+            56,
+            34,
+            182,
+            16
+          ],
+          [
+            26,
+            53,
+            220,
+            1,
+            1,
+            8,
+            6
+          ],
+          [
+            211,
+            29,
+            1,
+            1527,
+            161,
+            75,
+            6
+          ],
+          [
+            108,
+            14,
+            0,
+            204,
+            762,
+            49,
+            2
+          ],
+          [
+            1549,
+            50,
+            26,
+            65,
+            41,
+            3221,
+            70
+          ],
+          [
+            21,
+            0,
+            1,
+            4,
+            6,
+            65,
+            456
+          ]
+        ],
+        "pair_directions": {
+          "None\u2013Reasoning": [
+            1148,
+            1549
+          ],
+          "Facts\u2013Issue": [
+            23,
+            53
+          ],
+          "Arguments of Petitioner\u2013Arguments of Respondent": [
+            161,
+            204
+          ]
+        }
+      },
+      "novel": {
+        "macro_f1": 0.7204179171500618,
+        "accuracy": 0.7201623058625997,
+        "per_role_f1": {
+          "None": 0.7303883578747955,
+          "Facts": 0.79681592039801,
+          "Issue": 0.6888888888888889,
+          "Arguments of Petitioner": 0.7216051594410605,
+          "Arguments of Respondent": 0.6943203573707721,
+          "Reasoning": 0.6428458995750039,
+          "Decision": 0.7680608365019012
+        },
+        "none_to_reasoning": 708,
+        "reasoning_to_none": 1124,
+        "pair_errors": 1832,
+        "confusion": [
+          [
+            4241,
+            352,
+            33,
+            263,
+            74,
+            708,
+            60
+          ],
+          [
+            305,
+            2002,
+            17,
+            51,
+            24,
+            148,
+            16
+          ],
+          [
+            18,
+            41,
+            155,
+            1,
+            0,
+            5,
+            6
+          ],
+          [
+            124,
+            16,
+            0,
+            1007,
+            75,
+            28,
+            1
+          ],
+          [
+            61,
+            14,
+            0,
+            159,
+            544,
+            31,
+            2
+          ],
+          [
+            1124,
+            37,
+            18,
+            57,
+            33,
+            2042,
+            44
+          ],
+          [
+            9,
+            0,
+            1,
+            2,
+            6,
+            36,
+            303
+          ]
+        ],
+        "pair_directions": {
+          "None\u2013Reasoning": [
+            708,
+            1124
+          ],
+          "Facts\u2013Issue": [
+            17,
+            41
+          ],
+          "Arguments of Petitioner\u2013Arguments of Respondent": [
+            75,
+            159
+          ]
+        }
+      },
+      "routed": {
+        "macro_f1": 0.4736889714963125,
+        "accuracy": 0.5217048145224941,
+        "per_role_f1": {
+          "None": 0.4921212121212121,
+          "Facts": 0.6651785714285714,
+          "Issue": 0.6029411764705882,
+          "Arguments of Petitioner": 0.4421768707482993,
+          "Arguments of Respondent": 0.5161290322580645,
+          "Reasoning": 0.49201277955271566,
+          "Decision": 0.10526315789473684
+        },
+        "none_to_reasoning": 130,
+        "reasoning_to_none": 106,
+        "pair_errors": 236,
+        "confusion": [
+          [
+            203,
+            41,
+            9,
+            58,
+            12,
+            130,
+            1
+          ],
+          [
+            29,
+            149,
+            8,
+            13,
+            2,
+            22,
+            0
+          ],
+          [
+            6,
+            19,
+            41,
+            0,
+            0,
+            4,
+            0
+          ],
+          [
+            14,
+            5,
+            0,
+            65,
+            8,
+            10,
+            0
+          ],
+          [
+            8,
+            1,
+            0,
+            48,
+            48,
+            10,
+            0
+          ],
+          [
+            106,
+            10,
+            8,
+            7,
+            1,
+            154,
+            0
+          ],
+          [
+            5,
+            0,
+            0,
+            1,
+            0,
+            10,
+            1
+          ]
+        ]
+      },
+      "changes": 39,
+      "corrected": 20,
+      "damaged": 15
+    },
+    "global-shuffle": {
+      "all": {
+        "macro_f1": 0.723833179914568,
+        "accuracy": 0.7324107142857142,
+        "per_role_f1": {
+          "None": 0.7476744804124807,
+          "Facts": 0.8063171193935565,
+          "Issue": 0.6918238993710691,
+          "Arguments of Petitioner": 0.7318475916606758,
+          "Arguments of Respondent": 0.6566135286514433,
+          "Reasoning": 0.6590187442384513,
+          "Decision": 0.7735368956743003
+        },
+        "none_to_reasoning": 1147,
+        "reasoning_to_none": 1553,
+        "pair_errors": 2700,
+        "confusion": [
+          [
+            7033,
+            701,
+            50,
+            306,
+            177,
+            1147,
+            70
+          ],
+          [
+            377,
+            3191,
+            23,
+            56,
+            34,
+            180,
+            16
+          ],
+          [
+            27,
+            53,
+            220,
+            1,
+            1,
+            7,
+            6
+          ],
+          [
+            211,
+            29,
+            1,
+            1527,
+            161,
+            75,
+            6
+          ],
+          [
+            108,
+            14,
+            0,
+            204,
+            762,
+            49,
+            2
+          ],
+          [
+            1553,
+            50,
+            26,
+            65,
+            41,
+            3217,
+            70
+          ],
+          [
+            20,
+            0,
+            1,
+            4,
+            6,
+            66,
+            456
+          ]
+        ],
+        "pair_directions": {
+          "None\u2013Reasoning": [
+            1147,
+            1553
+          ],
+          "Facts\u2013Issue": [
+            23,
+            53
+          ],
+          "Arguments of Petitioner\u2013Arguments of Respondent": [
+            161,
+            204
+          ]
+        }
+      },
+      "novel": {
+        "macro_f1": 0.720363239487794,
+        "accuracy": 0.720022387015531,
+        "per_role_f1": {
+          "None": 0.730106786083362,
+          "Facts": 0.79681592039801,
+          "Issue": 0.6888888888888889,
+          "Arguments of Petitioner": 0.7216051594410605,
+          "Arguments of Respondent": 0.6943203573707721,
+          "Reasoning": 0.6427447277305635,
+          "Decision": 0.7680608365019012
+        },
+        "none_to_reasoning": 710,
+        "reasoning_to_none": 1124,
+        "pair_errors": 1834,
+        "confusion": [
+          [
+            4239,
+            352,
+            33,
+            263,
+            74,
+            710,
+            60
+          ],
+          [
+            307,
+            2002,
+            17,
+            51,
+            24,
+            146,
+            16
+          ],
+          [
+            18,
+            41,
+            155,
+            1,
+            0,
+            5,
+            6
+          ],
+          [
+            124,
+            16,
+            0,
+            1007,
+            75,
+            28,
+            1
+          ],
+          [
+            61,
+            14,
+            0,
+            159,
+            544,
+            31,
+            2
+          ],
+          [
+            1124,
+            37,
+            18,
+            57,
+            33,
+            2042,
+            44
+          ],
+          [
+            8,
+            0,
+            1,
+            2,
+            6,
+            37,
+            303
+          ]
+        ],
+        "pair_directions": {
+          "None\u2013Reasoning": [
+            710,
+            1124
+          ],
+          "Facts\u2013Issue": [
+            17,
+            41
+          ],
+          "Arguments of Petitioner\u2013Arguments of Respondent": [
+            75,
+            159
+          ]
+        }
+      },
+      "routed": {
+        "macro_f1": 0.4723894413963623,
+        "accuracy": 0.5193370165745856,
+        "per_role_f1": {
+          "None": 0.49038461538461536,
+          "Facts": 0.6651785714285714,
+          "Issue": 0.6029411764705882,
+          "Arguments of Petitioner": 0.4421768707482993,
+          "Arguments of Respondent": 0.5161290322580645,
+          "Reasoning": 0.48465266558966075,
+          "Decision": 0.10526315789473684
+        },
+        "none_to_reasoning": 129,
+        "reasoning_to_none": 110,
+        "pair_errors": 239,
+        "confusion": [
+          [
+            204,
+            41,
+            9,
+            58,
+            12,
+            129,
+            1
+          ],
+          [
+            31,
+            149,
+            8,
+            13,
+            2,
+            20,
+            0
+          ],
+          [
+            7,
+            19,
+            41,
+            0,
+            0,
+            3,
+            0
+          ],
+          [
+            14,
+            5,
+            0,
+            65,
+            8,
+            10,
+            0
+          ],
+          [
+            8,
+            1,
+            0,
+            48,
+            48,
+            10,
+            0
+          ],
+          [
+            110,
+            10,
+            8,
+            7,
+            1,
+            150,
+            0
+          ],
+          [
+            4,
+            0,
+            0,
+            1,
+            0,
+            11,
+            1
+          ]
+        ]
+      },
+      "changes": 38,
+      "corrected": 17,
+      "damaged": 15
+    },
+    "cohort": {
+      "case_count": 96,
+      "total_rows": 22400,
+      "routed_rows": 1267,
+      "novel_rows": 14294,
+      "standalone_source_on_route": {
+        "macro_f1": 0.14112753124753408,
+        "accuracy": 0.17363851617995266,
+        "per_role_f1": {
+          "None": 0.1695501730103806,
+          "Facts": 0.26616915422885573,
+          "Issue": 0.11825192802056556,
+          "Arguments of Petitioner": 0.17777777777777778,
+          "Arguments of Respondent": 0.1452513966480447,
+          "Reasoning": 0.062111801242236024,
+          "Decision": 0.04878048780487805
+        },
+        "none_to_reasoning": 17,
+        "reasoning_to_none": 40,
+        "pair_errors": 57,
+        "confusion": [
+          [
+            49,
+            212,
+            115,
+            18,
+            24,
+            17,
+            19
+          ],
+          [
+            20,
+            107,
+            55,
+            15,
+            7,
+            3,
+            16
+          ],
+          [
+            1,
+            32,
+            23,
+            7,
+            0,
+            2,
+            5
+          ],
+          [
+            5,
+            42,
+            18,
+            16,
+            17,
+            1,
+            3
+          ],
+          [
+            6,
+            60,
+            20,
+            10,
+            13,
+            3,
+            3
+          ],
+          [
+            40,
+            119,
+            85,
+            12,
+            3,
+            10,
+            17
+          ],
+          [
+            3,
+            9,
+            3,
+            0,
+            0,
+            0,
+            2
+          ]
+        ]
+      },
+      "verified_capture_logits_max_abs_difference": 1.9073486328125e-06
+    },
+    "post_lock_route_headroom": {
+      "incorrect_rows_whole_cohort": 5996,
+      "incorrect_rows_routed": 611,
+      "pair_error_coverage": {
+        "None\u2013Reasoning": {
+          "whole_cohort": 2702,
+          "routed": 241,
+          "eligible_under_selected_gate": 234
+        },
+        "Facts\u2013Issue": {
+          "whole_cohort": 76,
+          "routed": 27,
+          "eligible_under_selected_gate": 25
+        },
+        "Arguments of Petitioner\u2013Arguments of Respondent": {
+          "whole_cohort": 365,
+          "routed": 56,
+          "eligible_under_selected_gate": 56
+        }
+      },
+      "perfect_routed_hypothesis_score": {
+        "all": {
+          "macro_f1": 0.7603525553173086,
+          "accuracy": 0.7595982142857143,
+          "pair_errors": 2461
+        },
+        "novel": {
+          "macro_f1": 0.7623225887564579,
+          "accuracy": 0.7531131943472785,
+          "pair_errors": 1660
+        }
+      },
+      "perfect_routed_and_selected_gate_score": {
+        "all": {
+          "macro_f1": 0.7412807256614178,
+          "accuracy": 0.7463839285714285,
+          "pair_errors": 2468
+        },
+        "novel": {
+          "macro_f1": 0.7405490779369869,
+          "accuracy": 0.7365328109696376,
+          "pair_errors": 1665
+        }
+      }
+    }
+  },
+  "pooled": {
+    "zero": {
+      "all": {
+        "macro_f1": 0.7244480903967645,
+        "accuracy": 0.7385391239035382,
+        "per_role_f1": {
+          "None": 0.7502629503023929,
+          "Facts": 0.8155189409942262,
+          "Issue": 0.6752799310938846,
+          "Arguments of Petitioner": 0.7216343327454439,
+          "Arguments of Respondent": 0.651392866441031,
+          "Reasoning": 0.6761834136695093,
+          "Decision": 0.7808641975308642
+        },
+        "none_to_reasoning": 1950,
+        "reasoning_to_none": 2258,
+        "pair_errors": 4208,
+        "confusion": [
+          [
+            11413,
+            1134,
+            86,
+            472,
+            263,
+            1950,
+            134
+          ],
+          [
+            685,
+            5791,
+            49,
+            110,
+            68,
+            249,
+            26
+          ],
+          [
+            53,
+            107,
+            392,
+            7,
+            1,
+            18,
+            9
+          ],
+          [
+            381,
+            63,
+            3,
+            2455,
+            237,
+            140,
+            7
+          ],
+          [
+            161,
+            40,
+            0,
+            375,
+            1251,
+            83,
+            2
+          ],
+          [
+            2258,
+            89,
+            42,
+            95,
+            102,
+            5471,
+            105
+          ],
+          [
+            21,
+            0,
+            2,
+            4,
+            7,
+            109,
+            759
+          ]
+        ],
+        "pair_directions": {
+          "None\u2013Reasoning": [
+            1950,
+            2258
+          ],
+          "Facts\u2013Issue": [
+            49,
+            107
+          ],
+          "Arguments of Petitioner\u2013Arguments of Respondent": [
+            237,
+            375
+          ]
+        }
+      },
+      "novel": {
+        "macro_f1": 0.7173144683694972,
+        "accuracy": 0.7245593031416422,
+        "per_role_f1": {
+          "None": 0.7256827082998015,
+          "Facts": 0.8052139177966993,
+          "Issue": 0.6729634002361276,
+          "Arguments of Petitioner": 0.7099787685774946,
+          "Arguments of Respondent": 0.6693847294292068,
+          "Reasoning": 0.6700261291526689,
+          "Decision": 0.7679516250944822
+        },
+        "none_to_reasoning": 1224,
+        "reasoning_to_none": 1584,
+        "pair_errors": 2808,
+        "confusion": [
+          [
+            6763,
+            650,
+            59,
+            359,
+            135,
+            1224,
+            104
+          ],
+          [
+            594,
+            3830,
+            31,
+            87,
+            57,
+            204,
+            26
+          ],
+          [
+            41,
+            85,
+            285,
+            7,
+            0,
+            13,
+            9
+          ],
+          [
+            265,
+            46,
+            2,
+            1672,
+            133,
+            72,
+            2
+          ],
+          [
+            89,
+            20,
+            0,
+            313,
+            903,
+            59,
+            2
+          ],
+          [
+            1584,
+            53,
+            28,
+            78,
+            77,
+            3590,
+            71
+          ],
+          [
+            9,
+            0,
+            2,
+            2,
+            7,
+            73,
+            508
+          ]
+        ],
+        "pair_directions": {
+          "None\u2013Reasoning": [
+            1224,
+            1584
+          ],
+          "Facts\u2013Issue": [
+            31,
+            85
+          ],
+          "Arguments of Petitioner\u2013Arguments of Respondent": [
+            133,
+            313
+          ]
+        }
+      },
+      "routed": {
+        "macro_f1": 0.4727327312589026,
+        "accuracy": 0.5173992673992674,
+        "per_role_f1": {
+          "None": 0.4629080118694362,
+          "Facts": 0.6476426799007444,
+          "Issue": 0.5916666666666667,
+          "Arguments of Petitioner": 0.47761194029850745,
+          "Arguments of Respondent": 0.511326860841424,
+          "Reasoning": 0.5068618481244281,
+          "Decision": 0.1111111111111111
+        },
+        "none_to_reasoning": 249,
+        "reasoning_to_none": 147,
+        "pair_errors": 396,
+        "confusion": [
+          [
+            312,
+            87,
+            19,
+            90,
+            20,
+            249,
+            1
+          ],
+          [
+            50,
+            261,
+            14,
+            32,
+            4,
+            32,
+            0
+          ],
+          [
+            10,
+            41,
+            71,
+            0,
+            0,
+            5,
+            0
+          ],
+          [
+            29,
+            9,
+            0,
+            128,
+            16,
+            24,
+            0
+          ],
+          [
+            18,
+            3,
+            0,
+            67,
+            79,
+            21,
+            0
+          ],
+          [
+            147,
+            12,
+            9,
+            12,
+            2,
+            277,
+            1
+          ],
+          [
+            4,
+            0,
+            0,
+            1,
+            0,
+            25,
+            2
+          ]
+        ]
+      },
+      "changes": 0,
+      "corrected": 0,
+      "damaged": 0
+    },
+    "edited-lock": {
+      "all": {
+        "macro_f1": 0.7247012308189591,
+        "accuracy": 0.7384586496418896,
+        "per_role_f1": {
+          "None": 0.750311700242798,
+          "Facts": 0.8155449169248099,
+          "Issue": 0.6781708369283865,
+          "Arguments of Petitioner": 0.7214464206967515,
+          "Arguments of Respondent": 0.6512233211868819,
+          "Reasoning": 0.6753472222222222,
+          "Decision": 0.7808641975308642
+        },
+        "none_to_reasoning": 1929,
+        "reasoning_to_none": 2283,
+        "pair_errors": 4212,
+        "confusion": [
+          [
+            11434,
+            1135,
+            85,
+            472,
+            263,
+            1929,
+            134
+          ],
+          [
+            690,
+            5792,
+            48,
+            110,
+            68,
+            244,
+            26
+          ],
+          [
+            53,
+            106,
+            393,
+            7,
+            1,
+            18,
+            9
+          ],
+          [
+            383,
+            63,
+            3,
+            2454,
+            238,
+            138,
+            7
+          ],
+          [
+            162,
+            40,
+            0,
+            375,
+            1251,
+            82,
+            2
+          ],
+          [
+            2283,
+            90,
+            41,
+            95,
+            102,
+            5446,
+            105
+          ],
+          [
+            21,
+            0,
+            2,
+            4,
+            7,
+            109,
+            759
+          ]
+        ],
+        "pair_directions": {
+          "None\u2013Reasoning": [
+            1929,
+            2283
+          ],
+          "Facts\u2013Issue": [
+            48,
+            106
+          ],
+          "Arguments of Petitioner\u2013Arguments of Respondent": [
+            238,
+            375
+          ]
+        }
+      },
+      "novel": {
+        "macro_f1": 0.7172773495876308,
+        "accuracy": 0.7241877554390456,
+        "per_role_f1": {
+          "None": 0.7254030314391302,
+          "Facts": 0.8052139177966993,
+          "Issue": 0.6753246753246753,
+          "Arguments of Petitioner": 0.7095541401273885,
+          "Arguments of Respondent": 0.6686434395848777,
+          "Reasoning": 0.6688506177461625,
+          "Decision": 0.7679516250944822
+        },
+        "none_to_reasoning": 1215,
+        "reasoning_to_none": 1601,
+        "pair_errors": 2816,
+        "confusion": [
+          [
+            6772,
+            651,
+            58,
+            359,
+            135,
+            1215,
+            104
+          ],
+          [
+            599,
+            3830,
+            31,
+            87,
+            57,
+            199,
+            26
+          ],
+          [
+            41,
+            84,
+            286,
+            7,
+            0,
+            13,
+            9
+          ],
+          [
+            265,
+            46,
+            2,
+            1671,
+            134,
+            72,
+            2
+          ],
+          [
+            90,
+            20,
+            0,
+            314,
+            902,
+            58,
+            2
+          ],
+          [
+            1601,
+            53,
+            28,
+            78,
+            77,
+            3573,
+            71
+          ],
+          [
+            9,
+            0,
+            2,
+            2,
+            7,
+            73,
+            508
+          ]
+        ],
+        "pair_directions": {
+          "None\u2013Reasoning": [
+            1215,
+            1601
+          ],
+          "Facts\u2013Issue": [
+            31,
+            84
+          ],
+          "Arguments of Petitioner\u2013Arguments of Respondent": [
+            134,
+            314
+          ]
+        }
+      },
+      "routed": {
+        "macro_f1": 0.4727470323811775,
+        "accuracy": 0.5160256410256411,
+        "per_role_f1": {
+          "None": 0.47503566333808844,
+          "Facts": 0.6485148514851485,
+          "Issue": 0.6050420168067226,
+          "Arguments of Petitioner": 0.4747663551401869,
+          "Arguments of Respondent": 0.5096774193548387,
+          "Reasoning": 0.4850818094321463,
+          "Decision": 0.1111111111111111
+        },
+        "none_to_reasoning": 228,
+        "reasoning_to_none": 172,
+        "pair_errors": 400,
+        "confusion": [
+          [
+            333,
+            88,
+            18,
+            90,
+            20,
+            228,
+            1
+          ],
+          [
+            55,
+            262,
+            13,
+            32,
+            4,
+            27,
+            0
+          ],
+          [
+            10,
+            40,
+            72,
+            0,
+            0,
+            5,
+            0
+          ],
+          [
+            31,
+            9,
+            0,
+            127,
+            17,
+            22,
+            0
+          ],
+          [
+            19,
+            3,
+            0,
+            67,
+            79,
+            20,
+            0
+          ],
+          [
+            172,
+            13,
+            8,
+            12,
+            2,
+            252,
+            1
+          ],
+          [
+            4,
+            0,
+            0,
+            1,
+            0,
+            25,
+            2
+          ]
+        ]
+      },
+      "changes": 61,
+      "corrected": 24,
+      "damaged": 27
+    },
+    "unmodified-donor-its-best": {
+      "all": {
+        "macro_f1": 0.7240872789534168,
+        "accuracy": 0.7380562783336463,
+        "per_role_f1": {
+          "None": 0.7501148067965624,
+          "Facts": 0.815122500704027,
+          "Issue": 0.6764452113891286,
+          "Arguments of Petitioner": 0.7208480565371025,
+          "Arguments of Respondent": 0.6504022839345964,
+          "Reasoning": 0.6748138957816378,
+          "Decision": 0.7808641975308642
+        },
+        "none_to_reasoning": 1929,
+        "reasoning_to_none": 2290,
+        "pair_errors": 4219,
+        "confusion": [
+          [
+            11434,
+            1136,
+            84,
+            470,
+            265,
+            1929,
+            134
+          ],
+          [
+            691,
+            5789,
+            51,
+            110,
+            68,
+            243,
+            26
+          ],
+          [
+            53,
+            107,
+            392,
+            7,
+            1,
+            18,
+            9
+          ],
+          [
+            383,
+            63,
+            3,
+            2448,
+            244,
+            138,
+            7
+          ],
+          [
+            162,
+            40,
+            0,
+            373,
+            1253,
+            82,
+            2
+          ],
+          [
+            2290,
+            91,
+            40,
+            94,
+            103,
+            5439,
+            105
+          ],
+          [
+            21,
+            0,
+            2,
+            4,
+            7,
+            109,
+            759
+          ]
+        ],
+        "pair_directions": {
+          "None\u2013Reasoning": [
+            1929,
+            2290
+          ],
+          "Facts\u2013Issue": [
+            51,
+            107
+          ],
+          "Arguments of Petitioner\u2013Arguments of Respondent": [
+            244,
+            373
+          ]
+        }
+      },
+      "novel": {
+        "macro_f1": 0.716929691448084,
+        "accuracy": 0.7240226231267803,
+        "per_role_f1": {
+          "None": 0.7253830493946213,
+          "Facts": 0.804834471886495,
+          "Issue": 0.6745562130177515,
+          "Arguments of Petitioner": 0.7087853648159966,
+          "Arguments of Respondent": 0.6678980421130403,
+          "Reasoning": 0.6690990738142015,
+          "Decision": 0.7679516250944822
+        },
+        "none_to_reasoning": 1217,
+        "reasoning_to_none": 1598,
+        "pair_errors": 2815,
+        "confusion": [
+          [
+            6770,
+            652,
+            57,
+            358,
+            136,
+            1217,
+            104
+          ],
+          [
+            599,
+            3829,
+            32,
+            87,
+            57,
+            199,
+            26
+          ],
+          [
+            41,
+            85,
+            285,
+            7,
+            0,
+            13,
+            9
+          ],
+          [
+            265,
+            46,
+            2,
+            1666,
+            139,
+            72,
+            2
+          ],
+          [
+            90,
+            20,
+            0,
+            312,
+            904,
+            58,
+            2
+          ],
+          [
+            1598,
+            54,
+            27,
+            77,
+            78,
+            3576,
+            71
+          ],
+          [
+            9,
+            0,
+            2,
+            2,
+            7,
+            73,
+            508
+          ]
+        ],
+        "pair_directions": {
+          "None\u2013Reasoning": [
+            1217,
+            1598
+          ],
+          "Facts\u2013Issue": [
+            32,
+            85
+          ],
+          "Arguments of Petitioner\u2013Arguments of Respondent": [
+            139,
+            312
+          ]
+        }
+      },
+      "routed": {
+        "macro_f1": 0.4661358558014104,
+        "accuracy": 0.5091575091575091,
+        "per_role_f1": {
+          "None": 0.4723404255319149,
+          "Facts": 0.6410891089108911,
+          "Issue": 0.5966386554621849,
+          "Arguments of Petitioner": 0.4618320610687023,
+          "Arguments of Respondent": 0.5046728971962616,
+          "Reasoning": 0.475266731328807,
+          "Decision": 0.1111111111111111
+        },
+        "none_to_reasoning": 228,
+        "reasoning_to_none": 179,
+        "pair_errors": 407,
+        "confusion": [
+          [
+            333,
+            89,
+            17,
+            88,
+            22,
+            228,
+            1
+          ],
+          [
+            56,
+            259,
+            16,
+            32,
+            4,
+            26,
+            0
+          ],
+          [
+            10,
+            41,
+            71,
+            0,
+            0,
+            5,
+            0
+          ],
+          [
+            31,
+            9,
+            0,
+            121,
+            23,
+            22,
+            0
+          ],
+          [
+            19,
+            3,
+            0,
+            65,
+            81,
+            20,
+            0
+          ],
+          [
+            179,
+            14,
+            7,
+            11,
+            3,
+            245,
+            1
+          ],
+          [
+            4,
+            0,
+            0,
+            1,
+            0,
+            25,
+            2
+          ]
+        ]
+      },
+      "changes": 196,
+      "corrected": 78,
+      "damaged": 96
+    },
+    "unmodified-donor-matched": {
+      "all": {
+        "macro_f1": 0.7240872789534168,
+        "accuracy": 0.7380562783336463,
+        "per_role_f1": {
+          "None": 0.7501148067965624,
+          "Facts": 0.815122500704027,
+          "Issue": 0.6764452113891286,
+          "Arguments of Petitioner": 0.7208480565371025,
+          "Arguments of Respondent": 0.6504022839345964,
+          "Reasoning": 0.6748138957816378,
+          "Decision": 0.7808641975308642
+        },
+        "none_to_reasoning": 1929,
+        "reasoning_to_none": 2290,
+        "pair_errors": 4219,
+        "confusion": [
+          [
+            11434,
+            1136,
+            84,
+            470,
+            265,
+            1929,
+            134
+          ],
+          [
+            691,
+            5789,
+            51,
+            110,
+            68,
+            243,
+            26
+          ],
+          [
+            53,
+            107,
+            392,
+            7,
+            1,
+            18,
+            9
+          ],
+          [
+            383,
+            63,
+            3,
+            2448,
+            244,
+            138,
+            7
+          ],
+          [
+            162,
+            40,
+            0,
+            373,
+            1253,
+            82,
+            2
+          ],
+          [
+            2290,
+            91,
+            40,
+            94,
+            103,
+            5439,
+            105
+          ],
+          [
+            21,
+            0,
+            2,
+            4,
+            7,
+            109,
+            759
+          ]
+        ],
+        "pair_directions": {
+          "None\u2013Reasoning": [
+            1929,
+            2290
+          ],
+          "Facts\u2013Issue": [
+            51,
+            107
+          ],
+          "Arguments of Petitioner\u2013Arguments of Respondent": [
+            244,
+            373
+          ]
+        }
+      },
+      "novel": {
+        "macro_f1": 0.716929691448084,
+        "accuracy": 0.7240226231267803,
+        "per_role_f1": {
+          "None": 0.7253830493946213,
+          "Facts": 0.804834471886495,
+          "Issue": 0.6745562130177515,
+          "Arguments of Petitioner": 0.7087853648159966,
+          "Arguments of Respondent": 0.6678980421130403,
+          "Reasoning": 0.6690990738142015,
+          "Decision": 0.7679516250944822
+        },
+        "none_to_reasoning": 1217,
+        "reasoning_to_none": 1598,
+        "pair_errors": 2815,
+        "confusion": [
+          [
+            6770,
+            652,
+            57,
+            358,
+            136,
+            1217,
+            104
+          ],
+          [
+            599,
+            3829,
+            32,
+            87,
+            57,
+            199,
+            26
+          ],
+          [
+            41,
+            85,
+            285,
+            7,
+            0,
+            13,
+            9
+          ],
+          [
+            265,
+            46,
+            2,
+            1666,
+            139,
+            72,
+            2
+          ],
+          [
+            90,
+            20,
+            0,
+            312,
+            904,
+            58,
+            2
+          ],
+          [
+            1598,
+            54,
+            27,
+            77,
+            78,
+            3576,
+            71
+          ],
+          [
+            9,
+            0,
+            2,
+            2,
+            7,
+            73,
+            508
+          ]
+        ],
+        "pair_directions": {
+          "None\u2013Reasoning": [
+            1217,
+            1598
+          ],
+          "Facts\u2013Issue": [
+            32,
+            85
+          ],
+          "Arguments of Petitioner\u2013Arguments of Respondent": [
+            139,
+            312
+          ]
+        }
+      },
+      "routed": {
+        "macro_f1": 0.4661358558014104,
+        "accuracy": 0.5091575091575091,
+        "per_role_f1": {
+          "None": 0.4723404255319149,
+          "Facts": 0.6410891089108911,
+          "Issue": 0.5966386554621849,
+          "Arguments of Petitioner": 0.4618320610687023,
+          "Arguments of Respondent": 0.5046728971962616,
+          "Reasoning": 0.475266731328807,
+          "Decision": 0.1111111111111111
+        },
+        "none_to_reasoning": 228,
+        "reasoning_to_none": 179,
+        "pair_errors": 407,
+        "confusion": [
+          [
+            333,
+            89,
+            17,
+            88,
+            22,
+            228,
+            1
+          ],
+          [
+            56,
+            259,
+            16,
+            32,
+            4,
+            26,
+            0
+          ],
+          [
+            10,
+            41,
+            71,
+            0,
+            0,
+            5,
+            0
+          ],
+          [
+            31,
+            9,
+            0,
+            121,
+            23,
+            22,
+            0
+          ],
+          [
+            19,
+            3,
+            0,
+            65,
+            81,
+            20,
+            0
+          ],
+          [
+            179,
+            14,
+            7,
+            11,
+            3,
+            245,
+            1
+          ],
+          [
+            4,
+            0,
+            0,
+            1,
+            0,
+            25,
+            2
+          ]
+        ]
+      },
+      "changes": 196,
+      "corrected": 78,
+      "damaged": 96
+    },
+    "case-shuffle": {
+      "all": {
+        "macro_f1": 0.7246810927660252,
+        "accuracy": 0.738807371442367,
+        "per_role_f1": {
+          "None": 0.7507546922168263,
+          "Facts": 0.8155449169248099,
+          "Issue": 0.6764452113891286,
+          "Arguments of Petitioner": 0.7216343327454439,
+          "Arguments of Respondent": 0.651392866441031,
+          "Reasoning": 0.6761314321140731,
+          "Decision": 0.7808641975308642
+        },
+        "none_to_reasoning": 1923,
+        "reasoning_to_none": 2276,
+        "pair_errors": 4199,
+        "confusion": [
+          [
+            11440,
+            1134,
+            86,
+            472,
+            263,
+            1923,
+            134
+          ],
+          [
+            687,
+            5792,
+            48,
+            110,
+            68,
+            247,
+            26
+          ],
+          [
+            53,
+            107,
+            392,
+            7,
+            1,
+            18,
+            9
+          ],
+          [
+            383,
+            63,
+            3,
+            2455,
+            237,
+            138,
+            7
+          ],
+          [
+            163,
+            40,
+            0,
+            375,
+            1251,
+            81,
+            2
+          ],
+          [
+            2276,
+            90,
+            41,
+            95,
+            102,
+            5453,
+            105
+          ],
+          [
+            22,
+            0,
+            2,
+            4,
+            7,
+            108,
+            759
+          ]
+        ],
+        "pair_directions": {
+          "None\u2013Reasoning": [
+            1923,
+            2276
+          ],
+          "Facts\u2013Issue": [
+            48,
+            107
+          ],
+          "Arguments of Petitioner\u2013Arguments of Respondent": [
+            237,
+            375
+          ]
+        }
+      },
+      "novel": {
+        "macro_f1": 0.7172132320022752,
+        "accuracy": 0.7244767369855096,
+        "per_role_f1": {
+          "None": 0.7258997429305912,
+          "Facts": 0.8052139177966993,
+          "Issue": 0.6729634002361276,
+          "Arguments of Petitioner": 0.7099787685774946,
+          "Arguments of Respondent": 0.6693847294292068,
+          "Reasoning": 0.6691004399513245,
+          "Decision": 0.7679516250944822
+        },
+        "none_to_reasoning": 1210,
+        "reasoning_to_none": 1600,
+        "pair_errors": 2810,
+        "confusion": [
+          [
+            6777,
+            650,
+            59,
+            359,
+            135,
+            1210,
+            104
+          ],
+          [
+            595,
+            3830,
+            31,
+            87,
+            57,
+            203,
+            26
+          ],
+          [
+            41,
+            85,
+            285,
+            7,
+            0,
+            13,
+            9
+          ],
+          [
+            265,
+            46,
+            2,
+            1672,
+            133,
+            72,
+            2
+          ],
+          [
+            90,
+            20,
+            0,
+            313,
+            903,
+            58,
+            2
+          ],
+          [
+            1600,
+            53,
+            28,
+            78,
+            77,
+            3574,
+            71
+          ],
+          [
+            10,
+            0,
+            2,
+            2,
+            7,
+            72,
+            508
+          ]
+        ],
+        "pair_directions": {
+          "None\u2013Reasoning": [
+            1210,
+            1600
+          ],
+          "Facts\u2013Issue": [
+            31,
+            85
+          ],
+          "Arguments of Petitioner\u2013Arguments of Respondent": [
+            133,
+            313
+          ]
+        }
+      },
+      "routed": {
+        "macro_f1": 0.4752982280714887,
+        "accuracy": 0.521978021978022,
+        "per_role_f1": {
+          "None": 0.48428571428571426,
+          "Facts": 0.6485148514851485,
+          "Issue": 0.5966386554621849,
+          "Arguments of Petitioner": 0.47761194029850745,
+          "Arguments of Respondent": 0.511326860841424,
+          "Reasoning": 0.49759846301633043,
+          "Decision": 0.1111111111111111
+        },
+        "none_to_reasoning": 222,
+        "reasoning_to_none": 165,
+        "pair_errors": 387,
+        "confusion": [
+          [
+            339,
+            87,
+            19,
+            90,
+            20,
+            222,
+            1
+          ],
+          [
+            52,
+            262,
+            13,
+            32,
+            4,
+            30,
+            0
+          ],
+          [
+            10,
+            41,
+            71,
+            0,
+            0,
+            5,
+            0
+          ],
+          [
+            31,
+            9,
+            0,
+            128,
+            16,
+            22,
+            0
+          ],
+          [
+            20,
+            3,
+            0,
+            67,
+            79,
+            19,
+            0
+          ],
+          [
+            165,
+            13,
+            8,
+            12,
+            2,
+            259,
+            1
+          ],
+          [
+            5,
+            0,
+            0,
+            1,
+            0,
+            24,
+            2
+          ]
+        ]
+      },
+      "changes": 68,
+      "corrected": 34,
+      "damaged": 24
+    },
+    "global-shuffle": {
+      "all": {
+        "macro_f1": 0.7246758280735801,
+        "accuracy": 0.738807371442367,
+        "per_role_f1": {
+          "None": 0.7507544941608713,
+          "Facts": 0.8155449169248099,
+          "Issue": 0.6764452113891286,
+          "Arguments of Petitioner": 0.7216343327454439,
+          "Arguments of Respondent": 0.651392866441031,
+          "Reasoning": 0.6760947773229128,
+          "Decision": 0.7808641975308642
+        },
+        "none_to_reasoning": 1920,
+        "reasoning_to_none": 2279,
+        "pair_errors": 4199,
+        "confusion": [
+          [
+            11443,
+            1134,
+            86,
+            472,
+            263,
+            1920,
+            134
+          ],
+          [
+            689,
+            5792,
+            48,
+            110,
+            68,
+            245,
+            26
+          ],
+          [
+            54,
+            107,
+            392,
+            7,
+            1,
+            17,
+            9
+          ],
+          [
+            383,
+            63,
+            3,
+            2455,
+            237,
+            138,
+            7
+          ],
+          [
+            163,
+            40,
+            0,
+            375,
+            1251,
+            81,
+            2
+          ],
+          [
+            2279,
+            90,
+            41,
+            95,
+            102,
+            5450,
+            105
+          ],
+          [
+            21,
+            0,
+            2,
+            4,
+            7,
+            109,
+            759
+          ]
+        ],
+        "pair_directions": {
+          "None\u2013Reasoning": [
+            1920,
+            2279
+          ],
+          "Facts\u2013Issue": [
+            48,
+            107
+          ],
+          "Arguments of Petitioner\u2013Arguments of Respondent": [
+            237,
+            375
+          ]
+        }
+      },
+      "novel": {
+        "macro_f1": 0.7172212791278281,
+        "accuracy": 0.7244767369855096,
+        "per_role_f1": {
+          "None": 0.7258315034009962,
+          "Facts": 0.8052139177966993,
+          "Issue": 0.6729634002361276,
+          "Arguments of Petitioner": 0.7099787685774946,
+          "Arguments of Respondent": 0.6693847294292068,
+          "Reasoning": 0.6692250093597903,
+          "Decision": 0.7679516250944822
+        },
+        "none_to_reasoning": 1211,
+        "reasoning_to_none": 1599,
+        "pair_errors": 2810,
+        "confusion": [
+          [
+            6776,
+            650,
+            59,
+            359,
+            135,
+            1211,
+            104
+          ],
+          [
+            597,
+            3830,
+            31,
+            87,
+            57,
+            201,
+            26
+          ],
+          [
+            41,
+            85,
+            285,
+            7,
+            0,
+            13,
+            9
+          ],
+          [
+            265,
+            46,
+            2,
+            1672,
+            133,
+            72,
+            2
+          ],
+          [
+            90,
+            20,
+            0,
+            313,
+            903,
+            58,
+            2
+          ],
+          [
+            1599,
+            53,
+            28,
+            78,
+            77,
+            3575,
+            71
+          ],
+          [
+            9,
+            0,
+            2,
+            2,
+            7,
+            73,
+            508
+          ]
+        ],
+        "pair_directions": {
+          "None\u2013Reasoning": [
+            1211,
+            1599
+          ],
+          "Facts\u2013Issue": [
+            31,
+            85
+          ],
+          "Arguments of Petitioner\u2013Arguments of Respondent": [
+            133,
+            313
+          ]
+        }
+      },
+      "routed": {
+        "macro_f1": 0.475234661399167,
+        "accuracy": 0.521978021978022,
+        "per_role_f1": {
+          "None": 0.48579545454545453,
+          "Facts": 0.6485148514851485,
+          "Issue": 0.5966386554621849,
+          "Arguments of Petitioner": 0.47761194029850745,
+          "Arguments of Respondent": 0.511326860841424,
+          "Reasoning": 0.49564375605033884,
+          "Decision": 0.1111111111111111
+        },
+        "none_to_reasoning": 219,
+        "reasoning_to_none": 168,
+        "pair_errors": 387,
+        "confusion": [
+          [
+            342,
+            87,
+            19,
+            90,
+            20,
+            219,
+            1
+          ],
+          [
+            54,
+            262,
+            13,
+            32,
+            4,
+            28,
+            0
+          ],
+          [
+            11,
+            41,
+            71,
+            0,
+            0,
+            4,
+            0
+          ],
+          [
+            31,
+            9,
+            0,
+            128,
+            16,
+            22,
+            0
+          ],
+          [
+            20,
+            3,
+            0,
+            67,
+            79,
+            19,
+            0
+          ],
+          [
+            168,
+            13,
+            8,
+            12,
+            2,
+            256,
+            1
+          ],
+          [
+            4,
+            0,
+            0,
+            1,
+            0,
+            25,
+            2
+          ]
+        ]
+      },
+      "changes": 66,
+      "corrected": 33,
+      "damaged": 23
+    },
+    "bootstrap_edit_minus_zero": {
+      "all": {
+        "macro_f1": [
+          -0.00026432858503359354,
+          0.0008331546451472549
+        ],
+        "accuracy": [
+          -0.0005445194139104575,
+          0.0003548265330736739
+        ],
+        "none_to_reasoning": [
+          -32.0,
+          -12.0
+        ],
+        "reasoning_to_none": [
+          14.0,
+          37.0
+        ]
+      },
+      "novel": {
+        "macro_f1": [
+          -0.0005732453551238775,
+          0.0006688306201891011
+        ],
+        "accuracy": [
+          -0.0008561660496400503,
+          0.0001005648007913031
+        ],
+        "none_to_reasoning": [
+          -16.0,
+          -3.0
+        ],
+        "reasoning_to_none": [
+          8.0,
+          28.0
+        ]
+      }
+    },
+    "bootstrap_edit_minus_unmodified_donor": {
+      "all": {
+        "macro_f1": [
+          -0.00020486925194735105,
+          0.0014027327398096424
+        ],
+        "accuracy": [
+          -0.0003659373385423798,
+          0.001170574544261638
+        ],
+        "none_to_reasoning": [
+          -20.0,
+          20.0
+        ],
+        "reasoning_to_none": [
+          -27.0,
+          12.0
+        ]
+      },
+      "novel": {
+        "macro_f1": [
+          -0.0005915147292091721,
+          0.0012685308884324649
+        ],
+        "accuracy": [
+          -0.0007163641401201432,
+          0.001048242224411286
+        ],
+        "none_to_reasoning": [
+          -16.0,
+          13.0
+        ],
+        "reasoning_to_none": [
+          -12.0,
+          19.0
+        ]
+      }
+    }
+  },
+  "joint_improvement_by_group": {
+    "confirm": true,
+    "fresh": false
+  },
+  "meets_paired_confirmation": false,
+  "official_evaluated": false,
+  "cpu_verification_wall_seconds": 6.13
+}

@@ -1,0 +1,38 @@
+{
+  "metadata": "https://huggingface.co/api/models/L-NLProc/LegalSeg_InLegalBERT/revision/44d7925e5ab422ecf04acd5dcbb0b62a6f8d8f53?blobs=true",
+  "release": "L-NLProc/LegalSeg_InLegalBERT",
+  "revision": "44d7925e5ab422ecf04acd5dcbb0b62a6f8d8f53",
+  "weights": [
+    {
+      "path": "InLegalBERT/InLegalBERT(i)model.safetensors",
+      "bytes": 437974028,
+      "sha256": "bbe8af20d1524c7535b1cbe68c6d4c3c844c6cc9fccef46c03c9ff56e7c18cea"
+    },
+    {
+      "path": "InLegalBERT/InLegalBERT(i-1, i)model.safetensors",
+      "bytes": 437974028,
+      "sha256": "a30dfe24a4e6406834feeb816c37b86aa6b46cc90301410cf91112f79cb28df7"
+    },
+    {
+      "path": "InLegalBERT/InLegalBERT(i-1, i, i+1)model.safetensors",
+      "bytes": 437974028,
+      "sha256": "19cd593e269b1a57ffa500014d99b2fd9a76d2f76cf315d239a8fda205fc122f"
+    },
+    {
+      "path": "InLegalBERT/InLegalBERT(i-1, label_t, i)model.safetensors",
+      "bytes": 437974028,
+      "sha256": "bbe8af20d1524c7535b1cbe68c6d4c3c844c6cc9fccef46c03c9ff56e7c18cea"
+    },
+    {
+      "path": "InLegalBERT/InLegalBERT(i-2, i-1, i)model.safetensors",
+      "bytes": 437974028,
+      "sha256": "a81f509d250f98b44872e89e10186d5dcc17d37905b69aa1d9a077fb841a62ac"
+    },
+    {
+      "path": "InLegalBERT/InLegalBERT(pos, i)model.safetensors",
+      "bytes": 437974028,
+      "sha256": "f5c097940a3a61e0ca18b667f4fbf6c7b1d4526c17dc62c19510d12f226d2261"
+    }
+  ],
+  "observation": "The files named for the current sentence and for previous sentence plus true previous label have the same 437,974,028 bytes and SHA-256. Filename alone cannot establish which training run the shared artifact represents."
+}

@@ -1,0 +1,29 @@
+{
+  "model_dir": "/home/noel/Documents/Codex/2026-11-21/i-want-you-to-go-through/work/judgment-role/live-nov22/decision/weights/ov-GPU-f32/packed-ordered/whole16/published-encoder-copy",
+  "tensor": "model.layers.27.mlp.Wo.weight",
+  "source_checkpoint_sha256": "4540aa6d168fd15b06f7d6a61c34dd45523b5a0a1a72f98f1b2a81cf60774f34",
+  "edited_checkpoint_sha256": "13b309f4278a8217bfdedef8004d90a9a2a5db2be9dedb72adae85fa28da162e",
+  "source_checkpoint_sha256_after_restoring_only_changed_range": "4540aa6d168fd15b06f7d6a61c34dd45523b5a0a1a72f98f1b2a81cf60774f34",
+  "byte_offset": 612603424,
+  "bytes_in_tensor": 5373952,
+  "patch_sha256": "48ce97a67f3a1dabc91db23b068b2174cae247dfcfab64cc594c75b2d959cd29",
+  "unchanged_original_readout_sha256": "0cb6da049081b05dc60dcf0c9f95dc4309c8849ab921f61f67f4658172b57f2a",
+  "source_tensor_name_and_size": {
+    "sha256": "48ce97a67f3a1dabc91db23b068b2174cae247dfcfab64cc594c75b2d959cd29",
+    "tensor": "model.layers.27.mlp.Wo.weight",
+    "calculated_rank_before_rounding": 6,
+    "shape": [
+      1024,
+      2624
+    ],
+    "dtype": "torch.bfloat16",
+    "changed_values": 2660111,
+    "total_values": 2686976,
+    "frobenius_delta": 51.81481170654297,
+    "frobenius_original": 125.18991088867188,
+    "maximum_abs_delta": 0.751953125,
+    "original_tensor_sha256": "aa236ec2d86f509738904349e5de74ee503f51fa148bfab994f7730421cb9db2",
+    "edited_tensor_sha256": "8036433e963ec7a96fcd28820840d2990420c3d275686e310331fd62acf48335"
+  },
+  "head_only_native_file": "/home/noel/Documents/Codex/2026-11-21/i-want-you-to-go-through/work/judgment-role/live-nov22/decision/weights/ov-GPU-f32/packed-ordered/whole16/roles-readout.safetensors"
+}

@@ -1,0 +1,1 @@
+Use the frozen configuration in scale/latent-72-official.zip. The companion feature archive on Drive contains the 72 compact training shards. Benchmark activations and the original workspace layout are needed for the raw research run.

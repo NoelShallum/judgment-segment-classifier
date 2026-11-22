@@ -1,0 +1,157 @@
+{
+  "_id": "6a84d2c4c6a6f3a62da5c83c",
+  "id": "fastino/gliner2.5-small-v1",
+  "private": false,
+  "library_name": "transformers",
+  "tags": [
+    "transformers",
+    "safetensors",
+    "gliner2",
+    "Text classification",
+    "Named Entity Recognition",
+    "Relation Extraction",
+    "Intent classification",
+    "Sentiment Analysis",
+    "Topic classification",
+    "Structured extraction",
+    "Json extraction",
+    "information-extraction",
+    "boundary-extraction",
+    "en",
+    "arxiv:2507.18546",
+    "license:apache-2.0",
+    "endpoints_compatible",
+    "region:us"
+  ],
+  "downloads": 10665,
+  "likes": 44,
+  "modelId": "fastino/gliner2.5-small-v1",
+  "author": "fastino",
+  "sha": "b5d42bf7dc7d01c40304ae4ed43c2f13c325a75b",
+  "lastModified": "2026-11-05T18:30:47.000Z",
+  "gated": false,
+  "disabled": false,
+  "mask_token": "[MASK]",
+  "model-index": null,
+  "config": {
+    "architectures": [
+      "Gliner2ForSchemaExtraction"
+    ],
+    "model_type": "gliner2",
+    "tokenizer_config": {
+      "bos_token": "[CLS]",
+      "eos_token": "[SEP]",
+      "unk_token": "[UNK]",
+      "sep_token": "[SEP]",
+      "pad_token": "[PAD]",
+      "cls_token": "[CLS]",
+      "mask_token": "[MASK]"
+    }
+  },
+  "cardData": {
+    "library_name": "transformers",
+    "license": "apache-2.0",
+    "language": [
+      "en"
+    ],
+    "tags": [
+      "gliner2",
+      "Text classification",
+      "Named Entity Recognition",
+      "Relation Extraction",
+      "Intent classification",
+      "Sentiment Analysis",
+      "Topic classification",
+      "Structured extraction",
+      "Json extraction",
+      "information-extraction",
+      "boundary-extraction"
+    ]
+  },
+  "transformersInfo": {
+    "auto_model": "Gliner2ForSchemaExtraction"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes",
+      "blobId": "00e65b30199ed08bb5baad4926a7dc58830a7e59",
+      "size": 1637
+    },
+    {
+      "rfilename": "GLiNER-2.5-Small-HF-Banner.png",
+      "blobId": "340c8d36097940264f24586c3d02b26f97d4b88c",
+      "size": 652676,
+      "lfs": {
+        "sha256": "501aea9d83a1a105b7a95a7b613e4986d92bb727d681080b11ca3b8b91887237",
+        "size": 652676,
+        "pointerSize": 131
+      }
+    },
+    {
+      "rfilename": "GitHub_new.jpg",
+      "blobId": "78c4a85172b04d9b6e59d2fa1116c8b5eaaf54bd",
+      "size": 858002,
+      "lfs": {
+        "sha256": "428f13aa08f1aa12370c4a644f235ddc46db85e429a1dee6a8d22ead095f2183",
+        "size": 858002,
+        "pointerSize": 131
+      }
+    },
+    {
+      "rfilename": "README.md",
+      "blobId": "fd7622ffa99d7de8c5834907ee432e7c37559fa0",
+      "size": 21883
+    },
+    {
+      "rfilename": "SKILL.md",
+      "blobId": "5990b5ca35d31b9ec71f013095feb5789fe53147",
+      "size": 6511
+    },
+    {
+      "rfilename": "config.json",
+      "blobId": "cfd76c9f59461050dd1c00ac0b670eaac7d1495d",
+      "size": 4104
+    },
+    {
+      "rfilename": "encoder_config/config.json",
+      "blobId": "cdaf6bb43684ee0c7623598df371099ed8b453e6",
+      "size": 856
+    },
+    {
+      "rfilename": "model.safetensors",
+      "blobId": "a3ca3da8aaeab701b006da5d093eb3593110ae50",
+      "size": 295567700,
+      "lfs": {
+        "sha256": "4ee982787ace270d4bf15dbcb28ced38e0aa201372347114ceedd6336055de2b",
+        "size": 295567700,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "tokenizer.json",
+      "blobId": "a93077b30f99647415b09c3534fed78681ffc853",
+      "size": 8341713
+    },
+    {
+      "rfilename": "tokenizer_config.json",
+      "blobId": "5efd586306801b08ca13390b0619a94c943046e4",
+      "size": 645
+    }
+  ],
+  "spaces": [
+    "hotchpotch/S1MB-leaderboard",
+    "fastino/gliner25-constrained-classification",
+    "assix-research/jev-decision-index",
+    "hugging-apps/gliner2-5-small-extract",
+    "uulonger/jev-decision-index",
+    "lucataco/decision-index-clef-preview"
+  ],
+  "createdAt": "2026-08-18T21:46:44.000Z",
+  "safetensors": {
+    "parameters": {
+      "F32": 73881879
+    },
+    "total": 73881879
+  },
+  "usedStorage": 592646078
+}

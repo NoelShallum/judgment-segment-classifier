@@ -1,0 +1,37 @@
+{
+  "method": {
+    "bert_freeze_sha256": "d01057e49dec1d9ceb93ee2f57da1de172e36a2df326d1aa33412ac06e5d09b0",
+    "local_overlay_sha256": "d89429cd2b464d03b4666416ff0dc8b0aaaa662b092cea3011e0f940275a3ee6",
+    "router_freeze_sha256": "d6ff7fa96c3a90a6d0f7ee11ca103bf525684d401b6defd0202fa9182825faa9",
+    "rate": 0.2
+  },
+  "cohort": "confirm",
+  "cases": [
+    {
+      "id": "5943",
+      "sentences": 156,
+      "reviewed": 32,
+      "changed": 7,
+      "elapsed_seconds": 17.792654010998376
+    },
+    {
+      "id": "6141",
+      "sentences": 195,
+      "reviewed": 39,
+      "changed": 7,
+      "elapsed_seconds": 26.871483113995055
+    },
+    {
+      "id": "5161",
+      "sentences": 218,
+      "reviewed": 44,
+      "changed": 5,
+      "elapsed_seconds": 41.75911320000159
+    }
+  ],
+  "raw_smoke_test": {
+    "units": 4,
+    "spans": 4,
+    "reviewed": 1
+  }
+}

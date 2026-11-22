@@ -1,0 +1,17 @@
+{
+  "stages": [
+    8,
+    24,
+    72
+  ],
+  "primary": 72,
+  "rule": "Use each stage\u2019s frozen coefficient tensor, both original contextual donors and their compact features. No old document model, no reviewer anchor and no additional transition correction. The all-4600 stage is the prespecified deployment comparison, independent of its test performance.",
+  "frozen_before": "evaluation of the expansion families on the official test",
+  "basis_sha256": "b665284c4f2670e72584c1049f3b2a7b226696289043e2ddc3611200922e869c",
+  "code_sha256": "a2da1d6d1a19dc0d3dbe18f38d707b5a1d51088459ef88576d6be41bea82dd42",
+  "development_receipts": {
+    "8": "e14646373a6cc745e07dafde35831374dbf6eefff9e0b2196f7f67d15fc15a32",
+    "24": "4a25e0011c460f6a6546967e3040dd50bb3968aa58dbbb51cb41d25bc5ad33be",
+    "72": "53d13dfdfe8dd3ce23048cd35a9618e448944c670ca34e4f48ad5f4259f027bc"
+  }
+}

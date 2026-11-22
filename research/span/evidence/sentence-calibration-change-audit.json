@@ -1,0 +1,812 @@
+{
+  "rows": 149868,
+  "cases": 712,
+  "changed": 21674,
+  "unchanged": 128194,
+  "fixed": 8745,
+  "broken": 10771,
+  "gold_role_axis": [
+    "none",
+    "facts",
+    "issue",
+    "petitioner_argument",
+    "respondent_argument",
+    "reasoning",
+    "decision"
+  ],
+  "counts_gold_previous_new": [
+    [
+      [
+        32295,
+        458,
+        45,
+        357,
+        153,
+        9436,
+        17
+      ],
+      [
+        6,
+        4037,
+        0,
+        11,
+        5,
+        21,
+        0
+      ],
+      [
+        0,
+        0,
+        457,
+        0,
+        1,
+        12,
+        0
+      ],
+      [
+        5,
+        0,
+        0,
+        2143,
+        38,
+        137,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        30,
+        962,
+        75,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        7463,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        7,
+        324
+      ]
+    ],
+    [
+      [
+        2094,
+        282,
+        15,
+        4,
+        8,
+        232,
+        4
+      ],
+      [
+        5,
+        20842,
+        2,
+        6,
+        0,
+        38,
+        3
+      ],
+      [
+        1,
+        0,
+        302,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        13,
+        0,
+        622,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        12,
+        121,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        282,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        15
+      ]
+    ],
+    [
+      [
+        202,
+        6,
+        21,
+        0,
+        0,
+        36,
+        0
+      ],
+      [
+        0,
+        576,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        925,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        8,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        5,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        44,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        9
+      ]
+    ],
+    [
+      [
+        2281,
+        7,
+        0,
+        259,
+        52,
+        418,
+        1
+      ],
+      [
+        1,
+        821,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        27,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        3,
+        0,
+        8985,
+        82,
+        47,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        36,
+        971,
+        9,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        511,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        5
+      ]
+    ],
+    [
+      [
+        1004,
+        20,
+        0,
+        41,
+        119,
+        411,
+        0
+      ],
+      [
+        0,
+        476,
+        0,
+        0,
+        16,
+        4,
+        0
+      ],
+      [
+        0,
+        0,
+        18,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        1890,
+        65,
+        44,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        36,
+        4855,
+        60,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        504,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        12
+      ]
+    ],
+    [
+      [
+        9567,
+        115,
+        14,
+        101,
+        120,
+        7643,
+        21
+      ],
+      [
+        2,
+        826,
+        0,
+        0,
+        0,
+        21,
+        0
+      ],
+      [
+        0,
+        0,
+        69,
+        0,
+        0,
+        15,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        793,
+        25,
+        148,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        19,
+        440,
+        51,
+        0
+      ],
+      [
+        1,
+        2,
+        0,
+        1,
+        0,
+        16329,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        22,
+        342
+      ]
+    ],
+    [
+      [
+        654,
+        2,
+        0,
+        2,
+        0,
+        64,
+        19
+      ],
+      [
+        0,
+        10,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        9,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        33,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        22,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        544,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        12,
+        2468
+      ]
+    ]
+  ],
+  "edits": [
+    {
+      "previous": "none",
+      "new": "reasoning",
+      "changed": 18240,
+      "became_correct": 7643,
+      "became_incorrect": 9436,
+      "net_correct": -1793
+    },
+    {
+      "previous": "none",
+      "new": "facts",
+      "changed": 890,
+      "became_correct": 282,
+      "became_incorrect": 458,
+      "net_correct": -176
+    },
+    {
+      "previous": "petitioner_argument",
+      "new": "reasoning",
+      "changed": 379,
+      "became_correct": 148,
+      "became_incorrect": 47,
+      "net_correct": 101
+    },
+    {
+      "previous": "none",
+      "new": "petitioner_argument",
+      "changed": 764,
+      "became_correct": 259,
+      "became_incorrect": 357,
+      "net_correct": -98
+    },
+    {
+      "previous": "none",
+      "new": "respondent_argument",
+      "changed": 452,
+      "became_correct": 119,
+      "became_incorrect": 153,
+      "net_correct": -34
+    },
+    {
+      "previous": "none",
+      "new": "issue",
+      "changed": 95,
+      "became_correct": 21,
+      "became_incorrect": 45,
+      "net_correct": -24
+    },
+    {
+      "previous": "facts",
+      "new": "reasoning",
+      "changed": 84,
+      "became_correct": 21,
+      "became_incorrect": 38,
+      "net_correct": -17
+    },
+    {
+      "previous": "petitioner_argument",
+      "new": "respondent_argument",
+      "changed": 210,
+      "became_correct": 65,
+      "became_incorrect": 82,
+      "net_correct": -17
+    },
+    {
+      "previous": "facts",
+      "new": "respondent_argument",
+      "changed": 21,
+      "became_correct": 16,
+      "became_incorrect": 0,
+      "net_correct": 16
+    },
+    {
+      "previous": "issue",
+      "new": "reasoning",
+      "changed": 28,
+      "became_correct": 15,
+      "became_incorrect": 1,
+      "net_correct": 14
+    },
+    {
+      "previous": "petitioner_argument",
+      "new": "facts",
+      "changed": 18,
+      "became_correct": 13,
+      "became_incorrect": 3,
+      "net_correct": 10
+    },
+    {
+      "previous": "decision",
+      "new": "reasoning",
+      "changed": 41,
+      "became_correct": 22,
+      "became_incorrect": 12,
+      "net_correct": 10
+    },
+    {
+      "previous": "respondent_argument",
+      "new": "reasoning",
+      "changed": 196,
+      "became_correct": 51,
+      "became_incorrect": 60,
+      "net_correct": -9
+    },
+    {
+      "previous": "facts",
+      "new": "petitioner_argument",
+      "changed": 18,
+      "became_correct": 0,
+      "became_incorrect": 6,
+      "net_correct": -6
+    },
+    {
+      "previous": "facts",
+      "new": "decision",
+      "changed": 3,
+      "became_correct": 0,
+      "became_incorrect": 3,
+      "net_correct": -3
+    },
+    {
+      "previous": "petitioner_argument",
+      "new": "none",
+      "changed": 8,
+      "became_correct": 5,
+      "became_incorrect": 2,
+      "net_correct": 3
+    },
+    {
+      "previous": "none",
+      "new": "decision",
+      "changed": 62,
+      "became_correct": 19,
+      "became_incorrect": 17,
+      "net_correct": 2
+    },
+    {
+      "previous": "respondent_argument",
+      "new": "facts",
+      "changed": 2,
+      "became_correct": 0,
+      "became_incorrect": 2,
+      "net_correct": -2
+    },
+    {
+      "previous": "reasoning",
+      "new": "facts",
+      "changed": 2,
+      "became_correct": 0,
+      "became_incorrect": 2,
+      "net_correct": -2
+    },
+    {
+      "previous": "facts",
+      "new": "none",
+      "changed": 14,
+      "became_correct": 6,
+      "became_incorrect": 5,
+      "net_correct": 1
+    },
+    {
+      "previous": "issue",
+      "new": "none",
+      "changed": 2,
+      "became_correct": 0,
+      "became_incorrect": 1,
+      "net_correct": -1
+    },
+    {
+      "previous": "issue",
+      "new": "petitioner_argument",
+      "changed": 1,
+      "became_correct": 1,
+      "became_incorrect": 0,
+      "net_correct": 1
+    },
+    {
+      "previous": "respondent_argument",
+      "new": "none",
+      "changed": 1,
+      "became_correct": 1,
+      "became_incorrect": 0,
+      "net_correct": 1
+    },
+    {
+      "previous": "reasoning",
+      "new": "none",
+      "changed": 1,
+      "became_correct": 0,
+      "became_incorrect": 1,
+      "net_correct": -1
+    },
+    {
+      "previous": "reasoning",
+      "new": "petitioner_argument",
+      "changed": 1,
+      "became_correct": 0,
+      "became_incorrect": 1,
+      "net_correct": -1
+    },
+    {
+      "previous": "decision",
+      "new": "none",
+      "changed": 2,
+      "became_correct": 0,
+      "became_incorrect": 1,
+      "net_correct": -1
+    },
+    {
+      "previous": "facts",
+      "new": "issue",
+      "changed": 4,
+      "became_correct": 2,
+      "became_incorrect": 2,
+      "net_correct": 0
+    },
+    {
+      "previous": "issue",
+      "new": "facts",
+      "changed": 0,
+      "became_correct": 0,
+      "became_incorrect": 0,
+      "net_correct": 0
+    },
+    {
+      "previous": "issue",
+      "new": "respondent_argument",
+      "changed": 1,
+      "became_correct": 0,
+      "became_incorrect": 0,
+      "net_correct": 0
+    },
+    {
+      "previous": "issue",
+      "new": "decision",
+      "changed": 0,
+      "became_correct": 0,
+      "became_incorrect": 0,
+      "net_correct": 0
+    },
+    {
+      "previous": "petitioner_argument",
+      "new": "issue",
+      "changed": 0,
+      "became_correct": 0,
+      "became_incorrect": 0,
+      "net_correct": 0
+    },
+    {
+      "previous": "petitioner_argument",
+      "new": "decision",
+      "changed": 0,
+      "became_correct": 0,
+      "became_incorrect": 0,
+      "net_correct": 0
+    },
+    {
+      "previous": "respondent_argument",
+      "new": "issue",
+      "changed": 0,
+      "became_correct": 0,
+      "became_incorrect": 0,
+      "net_correct": 0
+    },
+    {
+      "previous": "respondent_argument",
+      "new": "petitioner_argument",
+      "changed": 133,
+      "became_correct": 36,
+      "became_incorrect": 36,
+      "net_correct": 0
+    },
+    {
+      "previous": "respondent_argument",
+      "new": "decision",
+      "changed": 0,
+      "became_correct": 0,
+      "became_incorrect": 0,
+      "net_correct": 0
+    },
+    {
+      "previous": "reasoning",
+      "new": "issue",
+      "changed": 0,
+      "became_correct": 0,
+      "became_incorrect": 0,
+      "net_correct": 0
+    },
+    {
+      "previous": "reasoning",
+      "new": "respondent_argument",
+      "changed": 0,
+      "became_correct": 0,
+      "became_incorrect": 0,
+      "net_correct": 0
+    },
+    {
+      "previous": "reasoning",
+      "new": "decision",
+      "changed": 0,
+      "became_correct": 0,
+      "became_incorrect": 0,
+      "net_correct": 0
+    },
+    {
+      "previous": "decision",
+      "new": "facts",
+      "changed": 0,
+      "became_correct": 0,
+      "became_incorrect": 0,
+      "net_correct": 0
+    },
+    {
+      "previous": "decision",
+      "new": "issue",
+      "changed": 0,
+      "became_correct": 0,
+      "became_incorrect": 0,
+      "net_correct": 0
+    },
+    {
+      "previous": "decision",
+      "new": "petitioner_argument",
+      "changed": 0,
+      "became_correct": 0,
+      "became_incorrect": 0,
+      "net_correct": 0
+    },
+    {
+      "previous": "decision",
+      "new": "respondent_argument",
+      "changed": 1,
+      "became_correct": 0,
+      "became_incorrect": 0,
+      "net_correct": 0
+    }
+  ]
+}

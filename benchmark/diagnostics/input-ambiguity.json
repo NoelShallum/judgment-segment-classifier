@@ -1,0 +1,31 @@
+{
+  "nonblank_rows": 149868,
+  "cohort": "official test, published human labels",
+  "rule": "Group by the exact Unicode strings as provided, including whitespace and punctuation, with distinctive judgment-boundary markers. Optimistic accuracy ceiling for those grouped inputs only. Each unique input receives its modal observed HUMAN label; this is an oracle and supplies no training evidence.",
+  "windows": {
+    "1": {
+      "identical_byte_string_window": 1,
+      "distinct_inputs": 139447,
+      "conflicting_inputs": 669,
+      "rows_in_conflicting_inputs": 9041,
+      "observed_minimum_errors_for_deterministic_classifier": 2165,
+      "maximum_empirical_accuracy": 0.9855539541463154
+    },
+    "3": {
+      "identical_byte_string_window": 3,
+      "distinct_inputs": 149310,
+      "conflicting_inputs": 120,
+      "rows_in_conflicting_inputs": 250,
+      "observed_minimum_errors_for_deterministic_classifier": 120,
+      "maximum_empirical_accuracy": 0.9991992953799343
+    },
+    "5": {
+      "identical_byte_string_window": 5,
+      "distinct_inputs": 149607,
+      "conflicting_inputs": 67,
+      "rows_in_conflicting_inputs": 136,
+      "observed_minimum_errors_for_deterministic_classifier": 67,
+      "maximum_empirical_accuracy": 0.9995529399204633
+    }
+  }
+}

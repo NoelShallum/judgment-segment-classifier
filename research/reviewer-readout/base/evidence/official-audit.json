@@ -1,0 +1,9 @@
+{
+  "official_rows": 149881,
+  "blank_rows": 13,
+  "checked_judgments": 712,
+  "verified_confusion_cells": 98,
+  "oracle_perfect_pair_only_macro_f1": 0.7262705499920147,
+  "oracle_perfect_pair_only_accuracy": 0.8297635252355406,
+  "predictions_sha256": "b0b70e63657904c4f90a73f77b8e48a1f123fba013faf195d35a9836d7fad4bc"
+}

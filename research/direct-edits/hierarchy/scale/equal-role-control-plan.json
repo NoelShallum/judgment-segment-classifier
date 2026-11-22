@@ -1,0 +1,23 @@
+{
+  "primary_plan": "b119ce3ee5e4a51a27f8c3e7fd90584c6bf8982193de5c31b9bde1072c1ff777",
+  "power": 1.0,
+  "meaning": "Each of the seven classes has equal total mass in its weighted Gram and cross-products.",
+  "prefixes": [
+    240,
+    960,
+    2400,
+    4792,
+    4984
+  ],
+  "lambda_settings": [
+    0.03,
+    0.3
+  ],
+  "gain_settings": [
+    0.5,
+    1.25,
+    2.5
+  ],
+  "purpose": "Secondary matched comparison, excluded from primary-model selection. Grid candidates assessed only on separate train-side calibration. Full-size settings reuse those selected at 4792.",
+  "registration": "Before any corpus-scale calibration or external validation results."
+}

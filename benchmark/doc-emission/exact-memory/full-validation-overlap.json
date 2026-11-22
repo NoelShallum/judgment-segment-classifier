@@ -1,0 +1,32 @@
+{
+  "judgments": 1424,
+  "rows": 293362,
+  "exact_complete_training_judgment_rows": 0,
+  "any_normalized_training_key": 116224,
+  "accepted_key": 83355,
+  "accepted_correct": 80079,
+  "accepted_with_raw_target_sentence_seen": 82507,
+  "accepted_key_seen_in_one_distinct_case": 78509,
+  "accepted_key_seen_in_multiple_distinct_cases": 4846,
+  "by_width": {
+    "1": {
+      "rows": 29398,
+      "correct": 27150
+    },
+    "3": {
+      "rows": 15732,
+      "correct": 15165
+    },
+    "5": {
+      "rows": 15962,
+      "correct": 15645
+    },
+    "9": {
+      "rows": 22263,
+      "correct": 22119
+    }
+  },
+  "frozen_memory_policy_sha256": "34113d1bbb02c98d3016e55a5d0f1dec7da89b7f6c7a2c464e0ca14c4e819098",
+  "validation_csv_sha256": "8abb2d789325418fc5ab4186c0dc63798e02b8fd82f9e00c324185e6bd86f816",
+  "purpose": "Passage overlap and accepted-key label agreement on all validation judgments. The study uses the existing locked policy and does not select another candidate."
+}

@@ -1,0 +1,68 @@
+{
+  "fit_plan_sha256": "6e3333e62683f114d633f4b397f03bd432b24825c3b47b186e1b5090be63a187",
+  "preparation_sha256": "7528bf12b243982ea5d010a9e38f5646cd9d2a863a284b4da49d6a6a8875a828",
+  "capture_sha256": "d79c0886a9eaa32efff8da527db8039a95572d0c02ce6e5cff3df0b64db64116",
+  "weights_sha256": "dd724c0a69a61ec834dce07e8ad79df2b4683f3914e0d06c388e5e9660d662a3",
+  "trials_sha256": "be0c2336eb3f8848ca234c1465844b68104d0e27d5ee2cb8d8f3a1fcc12ce5a9",
+  "native_scale": 1.2914390563964844,
+  "document_scale": 0.4000000059604645,
+  "active": {
+    "mode": "target-contrast",
+    "ridge": 0.15,
+    "composition": "edited",
+    "scope": "hard-pair",
+    "gain": 0.1
+  },
+  "evaluated_edit": {
+    "mode": "target-contrast",
+    "ridge": 0.15,
+    "composition": "edited",
+    "scope": "hard-pair",
+    "gain": 0.1
+  },
+  "source_active": null,
+  "source_diagnostic": {
+    "mode": "source",
+    "composition": "edited",
+    "scope": "hard-pair",
+    "gain": 0.1
+  },
+  "selection_zero": {
+    "all": {
+      "macro_f1": 0.7347909302723148,
+      "accuracy": 0.7462855703852934,
+      "pair_errors": 875
+    },
+    "novel": {
+      "macro_f1": 0.7314392798407824,
+      "accuracy": 0.7391157610529868,
+      "pair_errors": 599
+    }
+  },
+  "weight_edit_l2_norms": {
+    "source": 0.0,
+    "classifier.weight": 0.6843281984329224,
+    "global-shuffle": 0.6843281984329224,
+    "case-shuffle": 0.6843281984329224
+  },
+  "fraction_shuffled_role_unchanged": {
+    "global-shuffle": 0.2508130081300813,
+    "case-shuffle": 0.3752032520325203
+  },
+  "delta_rank": 1,
+  "fit_native_logit_parity": 2.1457672119140625e-06,
+  "select_native_logit_parity": 1.430511474609375e-06,
+  "fit_standalone_nli": {
+    "macro_f1": 0.15917616478022883,
+    "accuracy": 0.19146341463414634,
+    "pair_errors": 164
+  },
+  "capture_device": "Tesla T4, 15360 MiB, 580.82.07",
+  "fit_seconds": 11.12,
+  "native_preserved_bias": [
+    -0.0006894230027683079,
+    1.451807747798739e-05,
+    0.0006941525498405099
+  ],
+  "inspected_official_rows": 0
+}

@@ -1,0 +1,1284 @@
+{
+  "selection": "Sample 196 distinct eligible judgments from the official test split, choosing one eligible sentence per case without a role quota. The 98 pilot test judgments were held out. The random draw used seed 118220971, followed by privacy review without scores or labels. This is an equal-case screened population, not an estimate for every test row.",
+  "inference": "One seven-way choice on identical UTF-8 text. No surrounding judgment, gold, source, document ID or party metadata supplied. Gemini uses a fixed role rubric. Local BERT takes raw text only.",
+  "source": "2026-11-21",
+  "model": "gemini-decision-1",
+  "metrics": {
+    "rows": 196,
+    "cases": 196,
+    "labels": [
+      "none",
+      "facts",
+      "issue",
+      "petitioner_argument",
+      "respondent_argument",
+      "reasoning",
+      "decision"
+    ],
+    "confusion_columns": [
+      "none",
+      "facts",
+      "issue",
+      "petitioner_argument",
+      "respondent_argument",
+      "reasoning",
+      "decision",
+      "outside"
+    ],
+    "always_none_correct": 65,
+    "gold_support": {
+      "decision": 16,
+      "respondent_argument": 10,
+      "none": 65,
+      "reasoning": 68,
+      "facts": 20,
+      "petitioner_argument": 17
+    },
+    "metrics": {
+      "original": {
+        "correct": 74,
+        "accuracy": 0.37755102040816324,
+        "macro_f1": 0.2582437387252922,
+        "per_role_f1": {
+          "none": 0.4807692307692308,
+          "facts": 0.13333333333333333,
+          "issue": 0.0,
+          "petitioner_argument": 0.375,
+          "respondent_argument": 0.14285714285714285,
+          "reasoning": 0.24096385542168675,
+          "decision": 0.43478260869565216
+        },
+        "confusion": [
+          [
+            50,
+            6,
+            1,
+            2,
+            2,
+            2,
+            2,
+            0
+          ],
+          [
+            16,
+            2,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            10,
+            1,
+            0,
+            6,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            3,
+            0,
+            0,
+            5,
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            56,
+            0,
+            0,
+            2,
+            0,
+            10,
+            0,
+            0
+          ],
+          [
+            8,
+            1,
+            0,
+            0,
+            0,
+            2,
+            5,
+            0
+          ]
+        ],
+        "outside_taxonomy": 0
+      },
+      "direct": {
+        "correct": 82,
+        "accuracy": 0.41836734693877553,
+        "macro_f1": 0.31746711534673233,
+        "per_role_f1": {
+          "none": 0.3875968992248062,
+          "facts": 0.32432432432432434,
+          "issue": 0.0,
+          "petitioner_argument": 0.35294117647058826,
+          "respondent_argument": 0.125,
+          "reasoning": 0.5138888888888888,
+          "decision": 0.5185185185185185
+        },
+        "confusion": [
+          [
+            25,
+            8,
+            1,
+            3,
+            4,
+            22,
+            2,
+            0
+          ],
+          [
+            5,
+            6,
+            2,
+            1,
+            1,
+            5,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            2,
+            1,
+            6,
+            0,
+            6,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            1,
+            5,
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            27,
+            0,
+            0,
+            2,
+            0,
+            37,
+            2,
+            0
+          ],
+          [
+            3,
+            1,
+            0,
+            0,
+            0,
+            5,
+            7,
+            0
+          ]
+        ],
+        "outside_taxonomy": 0
+      },
+      "associative_direct": {
+        "correct": 84,
+        "accuracy": 0.42857142857142855,
+        "macro_f1": 0.32771958380021277,
+        "per_role_f1": {
+          "none": 0.3770491803278688,
+          "facts": 0.4,
+          "issue": 0.0,
+          "petitioner_argument": 0.34285714285714286,
+          "respondent_argument": 0.125,
+          "reasoning": 0.5306122448979592,
+          "decision": 0.5185185185185185
+        },
+        "confusion": [
+          [
+            23,
+            8,
+            1,
+            3,
+            4,
+            24,
+            2,
+            0
+          ],
+          [
+            4,
+            8,
+            2,
+            1,
+            1,
+            4,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            2,
+            1,
+            6,
+            0,
+            6,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            1,
+            5,
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            23,
+            1,
+            0,
+            3,
+            0,
+            39,
+            2,
+            0
+          ],
+          [
+            3,
+            1,
+            0,
+            0,
+            0,
+            5,
+            7,
+            0
+          ]
+        ],
+        "outside_taxonomy": 0
+      },
+      "context_parent": {
+        "correct": 79,
+        "accuracy": 0.4030612244897959,
+        "macro_f1": 0.29332236990455723,
+        "per_role_f1": {
+          "none": 0.4883720930232558,
+          "facts": 0.35294117647058826,
+          "issue": 0.0,
+          "petitioner_argument": 0.23076923076923078,
+          "respondent_argument": 0.3157894736842105,
+          "reasoning": 0.36538461538461536,
+          "decision": 0.3
+        },
+        "confusion": [
+          [
+            42,
+            10,
+            0,
+            1,
+            1,
+            10,
+            1,
+            0
+          ],
+          [
+            9,
+            9,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            6,
+            3,
+            0,
+            3,
+            3,
+            2,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            0,
+            4,
+            3,
+            1,
+            0,
+            0
+          ],
+          [
+            41,
+            6,
+            0,
+            1,
+            1,
+            19,
+            0,
+            0
+          ],
+          [
+            7,
+            3,
+            0,
+            0,
+            0,
+            3,
+            3,
+            0
+          ]
+        ],
+        "outside_taxonomy": 0
+      },
+      "associative_context": {
+        "correct": 70,
+        "accuracy": 0.35714285714285715,
+        "macro_f1": 0.28792775116856134,
+        "per_role_f1": {
+          "none": 0.36129032258064514,
+          "facts": 0.32558139534883723,
+          "issue": 0.0,
+          "petitioner_argument": 0.3076923076923077,
+          "respondent_argument": 0.3333333333333333,
+          "reasoning": 0.3875968992248062,
+          "decision": 0.3
+        },
+        "confusion": [
+          [
+            28,
+            9,
+            0,
+            1,
+            1,
+            25,
+            1,
+            0
+          ],
+          [
+            10,
+            7,
+            0,
+            0,
+            0,
+            3,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            4,
+            2,
+            0,
+            4,
+            3,
+            4,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            1,
+            3,
+            3,
+            1,
+            0,
+            0
+          ],
+          [
+            37,
+            4,
+            0,
+            1,
+            1,
+            25,
+            0,
+            0
+          ],
+          [
+            9,
+            1,
+            0,
+            0,
+            0,
+            3,
+            3,
+            0
+          ]
+        ],
+        "outside_taxonomy": 0
+      },
+      "grafted_head": {
+        "correct": 79,
+        "accuracy": 0.4030612244897959,
+        "macro_f1": 0.3000094732853354,
+        "per_role_f1": {
+          "none": 0.4827586206896552,
+          "facts": 0.34615384615384615,
+          "issue": 0.0,
+          "petitioner_argument": 0.23076923076923078,
+          "respondent_argument": 0.375,
+          "reasoning": 0.36538461538461536,
+          "decision": 0.3
+        },
+        "confusion": [
+          [
+            42,
+            10,
+            0,
+            1,
+            1,
+            10,
+            1,
+            0
+          ],
+          [
+            10,
+            9,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            7,
+            3,
+            0,
+            3,
+            2,
+            2,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            0,
+            4,
+            3,
+            1,
+            0,
+            0
+          ],
+          [
+            41,
+            7,
+            0,
+            1,
+            0,
+            19,
+            0,
+            0
+          ],
+          [
+            7,
+            3,
+            0,
+            0,
+            0,
+            3,
+            3,
+            0
+          ]
+        ],
+        "outside_taxonomy": 0
+      },
+      "cue_head": {
+        "correct": 84,
+        "accuracy": 0.42857142857142855,
+        "macro_f1": 0.32771958380021277,
+        "per_role_f1": {
+          "none": 0.3770491803278688,
+          "facts": 0.4,
+          "issue": 0.0,
+          "petitioner_argument": 0.34285714285714286,
+          "respondent_argument": 0.125,
+          "reasoning": 0.5306122448979592,
+          "decision": 0.5185185185185185
+        },
+        "confusion": [
+          [
+            23,
+            8,
+            1,
+            3,
+            4,
+            24,
+            2,
+            0
+          ],
+          [
+            4,
+            8,
+            2,
+            1,
+            1,
+            4,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            2,
+            1,
+            6,
+            0,
+            6,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            1,
+            5,
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            23,
+            1,
+            0,
+            3,
+            0,
+            39,
+            2,
+            0
+          ],
+          [
+            3,
+            1,
+            0,
+            0,
+            0,
+            5,
+            7,
+            0
+          ]
+        ],
+        "outside_taxonomy": 0
+      },
+      "hier_parent": {
+        "correct": 67,
+        "accuracy": 0.34183673469387754,
+        "macro_f1": 0.10345038916467487,
+        "per_role_f1": {
+          "none": 0.5019305019305019,
+          "facts": 0.0,
+          "issue": 0.0,
+          "petitioner_argument": 0.0,
+          "respondent_argument": 0.0,
+          "reasoning": 0.0,
+          "decision": 0.2222222222222222
+        },
+        "confusion": [
+          [
+            65,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            20,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            17,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            10,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            68,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            14,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0
+          ]
+        ],
+        "outside_taxonomy": 0
+      },
+      "hier_edited": {
+        "correct": 76,
+        "accuracy": 0.3877551020408163,
+        "macro_f1": 0.297133392085507,
+        "per_role_f1": {
+          "none": 0.5251396648044693,
+          "facts": 0.3,
+          "issue": 0.0,
+          "petitioner_argument": 0.2702702702702703,
+          "respondent_argument": 0.14285714285714285,
+          "reasoning": 0.175,
+          "decision": 0.6666666666666666
+        },
+        "confusion": [
+          [
+            47,
+            4,
+            5,
+            5,
+            2,
+            0,
+            2,
+            0
+          ],
+          [
+            9,
+            6,
+            2,
+            1,
+            0,
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            8,
+            2,
+            0,
+            5,
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            0,
+            6,
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            44,
+            8,
+            5,
+            3,
+            0,
+            7,
+            1,
+            0
+          ],
+          [
+            4,
+            0,
+            0,
+            0,
+            0,
+            2,
+            10,
+            0
+          ]
+        ],
+        "outside_taxonomy": 0
+      },
+      "combined_excerpt": {
+        "correct": 70,
+        "accuracy": 0.35714285714285715,
+        "macro_f1": 0.2842832658025048,
+        "per_role_f1": {
+          "none": 0.40718562874251496,
+          "facts": 0.32558139534883723,
+          "issue": 0.0,
+          "petitioner_argument": 0.2962962962962963,
+          "respondent_argument": 0.3333333333333333,
+          "reasoning": 0.3275862068965517,
+          "decision": 0.3
+        },
+        "confusion": [
+          [
+            34,
+            9,
+            0,
+            1,
+            1,
+            19,
+            1,
+            0
+          ],
+          [
+            11,
+            7,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            4,
+            2,
+            0,
+            4,
+            3,
+            4,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            1,
+            4,
+            3,
+            1,
+            0,
+            0
+          ],
+          [
+            43,
+            4,
+            0,
+            1,
+            1,
+            19,
+            0,
+            0
+          ],
+          [
+            9,
+            1,
+            0,
+            0,
+            0,
+            3,
+            3,
+            0
+          ]
+        ],
+        "outside_taxonomy": 0
+      },
+      "internal_mlp": {
+        "correct": 86,
+        "accuracy": 0.4387755102040816,
+        "macro_f1": 0.3455255052212456,
+        "per_role_f1": {
+          "none": 0.3793103448275862,
+          "facts": 0.35,
+          "issue": 0.0,
+          "petitioner_argument": 0.3888888888888889,
+          "respondent_argument": 0.23529411764705882,
+          "reasoning": 0.5466666666666666,
+          "decision": 0.5185185185185185
+        },
+        "confusion": [
+          [
+            22,
+            8,
+            1,
+            3,
+            4,
+            25,
+            2,
+            0
+          ],
+          [
+            5,
+            7,
+            2,
+            1,
+            1,
+            4,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            2,
+            1,
+            7,
+            0,
+            6,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            1,
+            4,
+            2,
+            2,
+            0,
+            0
+          ],
+          [
+            19,
+            2,
+            1,
+            3,
+            0,
+            41,
+            2,
+            0
+          ],
+          [
+            3,
+            1,
+            0,
+            1,
+            0,
+            4,
+            7,
+            0
+          ]
+        ],
+        "outside_taxonomy": 0
+      },
+      "gemini": {
+        "correct": 85,
+        "accuracy": 0.4336734693877551,
+        "macro_f1": 0.36367130340915504,
+        "per_role_f1": {
+          "none": 0.08695652173913043,
+          "facts": 0.2564102564102564,
+          "issue": 0.0,
+          "petitioner_argument": 0.32432432432432434,
+          "respondent_argument": 0.5882352941176471,
+          "reasoning": 0.5625,
+          "decision": 0.7272727272727273
+        },
+        "confusion": [
+          [
+            3,
+            6,
+            0,
+            8,
+            0,
+            45,
+            3,
+            0
+          ],
+          [
+            0,
+            5,
+            1,
+            3,
+            0,
+            11,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            6,
+            0,
+            9,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            2,
+            5,
+            2,
+            0,
+            0
+          ],
+          [
+            1,
+            6,
+            2,
+            1,
+            2,
+            54,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            3,
+            12,
+            0
+          ]
+        ],
+        "outside_taxonomy": 0
+      }
+    },
+    "paired_with_gemini": {
+      "original": {
+        "projected_agreement_count": 36,
+        "seven_label_agreement_count": 36,
+        "both_correct": 23,
+        "only_local_correct": 51,
+        "only_gemini_correct": 62,
+        "both_wrong": 60,
+        "accuracy_gap": -0.056122448979591844,
+        "accuracy_gap_95pct": [
+          -0.163265306122449,
+          0.04591836734693877
+        ],
+        "macro_f1_gap": -0.10542756468386283,
+        "macro_f1_gap_95pct": [
+          -0.1863618273395154,
+          -0.024046665782345596
+        ]
+      },
+      "direct": {
+        "projected_agreement_count": 106,
+        "seven_label_agreement_count": 106,
+        "both_correct": 56,
+        "only_local_correct": 26,
+        "only_gemini_correct": 29,
+        "both_wrong": 85,
+        "accuracy_gap": -0.015306122448979553,
+        "accuracy_gap_95pct": [
+          -0.086734693877551,
+          0.056122448979591844
+        ],
+        "macro_f1_gap": -0.04620418806242271,
+        "macro_f1_gap_95pct": [
+          -0.11642650617044653,
+          0.02605933850792307
+        ]
+      },
+      "associative_direct": {
+        "projected_agreement_count": 111,
+        "seven_label_agreement_count": 111,
+        "both_correct": 59,
+        "only_local_correct": 25,
+        "only_gemini_correct": 26,
+        "both_wrong": 86,
+        "accuracy_gap": -0.005102040816326536,
+        "accuracy_gap_95pct": [
+          -0.07653061224489793,
+          0.06632653061224492
+        ],
+        "macro_f1_gap": -0.03595171960894228,
+        "macro_f1_gap_95pct": [
+          -0.10730389497228185,
+          0.035307431981941716
+        ]
+      },
+      "context_parent": {
+        "projected_agreement_count": 55,
+        "seven_label_agreement_count": 55,
+        "both_correct": 30,
+        "only_local_correct": 49,
+        "only_gemini_correct": 55,
+        "both_wrong": 62,
+        "accuracy_gap": -0.030612244897959162,
+        "accuracy_gap_95pct": [
+          -0.13265306122448978,
+          0.06645408163265354
+        ],
+        "macro_f1_gap": -0.07034893350459781,
+        "macro_f1_gap_95pct": [
+          -0.15197675780584463,
+          0.011245211929284585
+        ]
+      },
+      "associative_context": {
+        "projected_agreement_count": 80,
+        "seven_label_agreement_count": 80,
+        "both_correct": 38,
+        "only_local_correct": 32,
+        "only_gemini_correct": 47,
+        "both_wrong": 79,
+        "accuracy_gap": -0.07653061224489793,
+        "accuracy_gap_95pct": [
+          -0.163265306122449,
+          0.010204081632653073
+        ],
+        "macro_f1_gap": -0.0757435522405937,
+        "macro_f1_gap_95pct": [
+          -0.15508091178593042,
+          0.002538284977932
+        ]
+      },
+      "grafted_head": {
+        "projected_agreement_count": 55,
+        "seven_label_agreement_count": 55,
+        "both_correct": 30,
+        "only_local_correct": 49,
+        "only_gemini_correct": 55,
+        "both_wrong": 62,
+        "accuracy_gap": -0.030612244897959162,
+        "accuracy_gap_95pct": [
+          -0.13265306122448978,
+          0.06645408163265354
+        ],
+        "macro_f1_gap": -0.06366183012381965,
+        "macro_f1_gap_95pct": [
+          -0.14645203298887663,
+          0.0184943786897528
+        ]
+      },
+      "cue_head": {
+        "projected_agreement_count": 111,
+        "seven_label_agreement_count": 111,
+        "both_correct": 59,
+        "only_local_correct": 25,
+        "only_gemini_correct": 26,
+        "both_wrong": 86,
+        "accuracy_gap": -0.005102040816326536,
+        "accuracy_gap_95pct": [
+          -0.07653061224489793,
+          0.06632653061224492
+        ],
+        "macro_f1_gap": -0.03595171960894228,
+        "macro_f1_gap_95pct": [
+          -0.10730389497228185,
+          0.035307431981941716
+        ]
+      },
+      "hier_parent": {
+        "projected_agreement_count": 6,
+        "seven_label_agreement_count": 6,
+        "both_correct": 5,
+        "only_local_correct": 62,
+        "only_gemini_correct": 80,
+        "both_wrong": 49,
+        "accuracy_gap": -0.09183673469387754,
+        "accuracy_gap_95pct": [
+          -0.20918367346938777,
+          0.025510204081632626
+        ],
+        "macro_f1_gap": -0.2602209142444802,
+        "macro_f1_gap_95pct": [
+          -0.3305826497292556,
+          -0.17843014133148757
+        ]
+      },
+      "hier_edited": {
+        "projected_agreement_count": 51,
+        "seven_label_agreement_count": 51,
+        "both_correct": 29,
+        "only_local_correct": 47,
+        "only_gemini_correct": 56,
+        "both_wrong": 64,
+        "accuracy_gap": -0.04591836734693877,
+        "accuracy_gap_95pct": [
+          -0.14795918367346939,
+          0.05102040816326531
+        ],
+        "macro_f1_gap": -0.06653791132364806,
+        "macro_f1_gap_95pct": [
+          -0.13576958273018397,
+          0.0037506618036276494
+        ]
+      },
+      "combined_excerpt": {
+        "projected_agreement_count": 69,
+        "seven_label_agreement_count": 69,
+        "both_correct": 32,
+        "only_local_correct": 38,
+        "only_gemini_correct": 53,
+        "both_wrong": 73,
+        "accuracy_gap": -0.07653061224489793,
+        "accuracy_gap_95pct": [
+          -0.16849489795918365,
+          0.015306122448979609
+        ],
+        "macro_f1_gap": -0.07938803760665025,
+        "macro_f1_gap_95pct": [
+          -0.16054435594719002,
+          -0.0007005440392799079
+        ]
+      },
+      "internal_mlp": {
+        "projected_agreement_count": 112,
+        "seven_label_agreement_count": 112,
+        "both_correct": 60,
+        "only_local_correct": 26,
+        "only_gemini_correct": 25,
+        "both_wrong": 85,
+        "accuracy_gap": 0.005102040816326536,
+        "accuracy_gap_95pct": [
+          -0.06632653061224486,
+          0.07653061224489799
+        ],
+        "macro_f1_gap": -0.018145798187909457,
+        "macro_f1_gap_95pct": [
+          -0.09887430951518152,
+          0.06672479823528246
+        ]
+      }
+    }
+  }
+}

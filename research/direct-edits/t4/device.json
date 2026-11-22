@@ -1,0 +1,8 @@
+{
+  "observed_utc": "2026-11-22T09:21:13Z",
+  "nvidia_smi": [
+    "Tesla T4, 15360, 580.82.07"
+  ],
+  "torch_cuda": "13.0",
+  "torch_version": "2.14.1+cu130"
+}

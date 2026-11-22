@@ -1,0 +1,596 @@
+{
+  "protocol_sha256": "e68ef2cb8ec4d8668c80674da1c1c3732925571053a96584eb45a6579ba42180",
+  "selection": {
+    "decoder projection": {
+      "ridge": 1.0,
+      "gain": 0.5,
+      "fit_active_rows": 8162,
+      "selector_rank": [
+        0.6999369021617116,
+        0.7260135985897759,
+        -965,
+        -58
+      ],
+      "edited": {
+        "file": "decoder-projection-edited.safetensors",
+        "sha256": "2fdf4b0574a1e8d8b5e70f7ab1b878f3907009d7c003d244b4e35b791a8de89b",
+        "frobenius_delta": 0.03076676012089072
+      },
+      "shuffled": {
+        "file": "decoder-projection-shuffled.safetensors",
+        "sha256": "389e64240089f20ed0c41c062876b3f9369be24231d1e4a5d4184d60be66cd32",
+        "frobenius_delta": 0.030766760120890725
+      }
+    },
+    "rare-role decoder projection": {
+      "ridge": 0.2,
+      "gain": 1.2,
+      "fit_active_rows": 8162,
+      "selector_rank": [
+        0.7015336642201285,
+        0.7265172500629564,
+        -966,
+        -85
+      ],
+      "edited": {
+        "file": "rare-role-decoder-projection-edited.safetensors",
+        "sha256": "1a68e22772061a6d49fd728c35ecf0a107d6648786815e5c8c9f96e5c9f98158",
+        "frobenius_delta": 0.1526158099069002
+      },
+      "shuffled": {
+        "file": "rare-role-decoder-projection-shuffled.safetensors",
+        "sha256": "4f6beddcb58b5a6832a81cf97e1c7f355708bafc11fbe2ca85fcc8ee4a7dd684",
+        "frobenius_delta": 0.15261580990690019
+      }
+    },
+    "both-directions F1 residual": null
+  },
+  "grid": {
+    "decoder projection": [
+      {
+        "ridge": 0.04,
+        "gain": 0.2,
+        "metrics": [
+          0.7000855273152418,
+          0.7255099471165953,
+          -968,
+          -16
+        ],
+        "directional_pair_errors": [
+          520,
+          448
+        ],
+        "eligible": false
+      },
+      {
+        "ridge": 0.04,
+        "gain": 0.5,
+        "metrics": [
+          0.700328254455358,
+          0.7260135985897759,
+          -970,
+          -60
+        ],
+        "directional_pair_errors": [
+          516,
+          454
+        ],
+        "eligible": false
+      },
+      {
+        "ridge": 0.04,
+        "gain": 0.8,
+        "metrics": [
+          0.7010270557986613,
+          0.7267690757995467,
+          -971,
+          -159
+        ],
+        "directional_pair_errors": [
+          501,
+          470
+        ],
+        "eligible": false
+      },
+      {
+        "ridge": 0.04,
+        "gain": 1.2,
+        "metrics": [
+          0.6941872965168414,
+          0.7203475195164946,
+          -1020,
+          -431
+        ],
+        "directional_pair_errors": [
+          438,
+          582
+        ],
+        "eligible": false
+      },
+      {
+        "ridge": 0.2,
+        "gain": 0.2,
+        "metrics": [
+          0.7000888651677977,
+          0.725258121380005,
+          -970,
+          -17
+        ],
+        "directional_pair_errors": [
+          522,
+          448
+        ],
+        "eligible": false
+      },
+      {
+        "ridge": 0.2,
+        "gain": 0.5,
+        "metrics": [
+          0.6997709672698449,
+          0.7262654243263662,
+          -963,
+          -61
+        ],
+        "directional_pair_errors": [
+          510,
+          453
+        ],
+        "eligible": true
+      },
+      {
+        "ridge": 0.2,
+        "gain": 0.8,
+        "metrics": [
+          0.6989086406654622,
+          0.7257617728531855,
+          -973,
+          -152
+        ],
+        "directional_pair_errors": [
+          496,
+          477
+        ],
+        "eligible": false
+      },
+      {
+        "ridge": 0.2,
+        "gain": 1.2,
+        "metrics": [
+          0.6963031891750725,
+          0.7203475195164946,
+          -1018,
+          -413
+        ],
+        "directional_pair_errors": [
+          437,
+          581
+        ],
+        "eligible": false
+      },
+      {
+        "ridge": 1.0,
+        "gain": 0.2,
+        "metrics": [
+          0.6998090367232017,
+          0.7251322085117099,
+          -970,
+          -19
+        ],
+        "directional_pair_errors": [
+          519,
+          451
+        ],
+        "eligible": false
+      },
+      {
+        "ridge": 1.0,
+        "gain": 0.5,
+        "metrics": [
+          0.6999369021617116,
+          0.7260135985897759,
+          -965,
+          -58
+        ],
+        "directional_pair_errors": [
+          510,
+          455
+        ],
+        "eligible": true
+      },
+      {
+        "ridge": 1.0,
+        "gain": 0.8,
+        "metrics": [
+          0.6991139266968774,
+          0.7246285570385294,
+          -975,
+          -141
+        ],
+        "directional_pair_errors": [
+          490,
+          485
+        ],
+        "eligible": false
+      },
+      {
+        "ridge": 1.0,
+        "gain": 1.2,
+        "metrics": [
+          0.6951485091762029,
+          0.7204734323847898,
+          -1010,
+          -351
+        ],
+        "directional_pair_errors": [
+          438,
+          572
+        ],
+        "eligible": false
+      }
+    ],
+    "rare-role decoder projection": [
+      {
+        "ridge": 0.04,
+        "gain": 0.2,
+        "metrics": [
+          0.6998233898592814,
+          0.7253840342483002,
+          -969,
+          -8
+        ],
+        "directional_pair_errors": [
+          523,
+          446
+        ],
+        "eligible": false
+      },
+      {
+        "ridge": 0.04,
+        "gain": 0.5,
+        "metrics": [
+          0.6995072456884441,
+          0.7255099471165953,
+          -968,
+          -26
+        ],
+        "directional_pair_errors": [
+          520,
+          448
+        ],
+        "eligible": false
+      },
+      {
+        "ridge": 0.04,
+        "gain": 0.8,
+        "metrics": [
+          0.7013652515539942,
+          0.7268949886678419,
+          -962,
+          -47
+        ],
+        "directional_pair_errors": [
+          514,
+          448
+        ],
+        "eligible": true
+      },
+      {
+        "ridge": 0.04,
+        "gain": 1.2,
+        "metrics": [
+          0.6992919799127726,
+          0.726139511458071,
+          -968,
+          -96
+        ],
+        "directional_pair_errors": [
+          513,
+          455
+        ],
+        "eligible": false
+      },
+      {
+        "ridge": 0.2,
+        "gain": 0.2,
+        "metrics": [
+          0.699944955934873,
+          0.7253840342483002,
+          -970,
+          -8
+        ],
+        "directional_pair_errors": [
+          523,
+          447
+        ],
+        "eligible": false
+      },
+      {
+        "ridge": 0.2,
+        "gain": 0.5,
+        "metrics": [
+          0.7005676753039011,
+          0.7258876857214808,
+          -967,
+          -29
+        ],
+        "directional_pair_errors": [
+          519,
+          448
+        ],
+        "eligible": true
+      },
+      {
+        "ridge": 0.2,
+        "gain": 0.8,
+        "metrics": [
+          0.700215864268458,
+          0.7263913371946613,
+          -965,
+          -50
+        ],
+        "directional_pair_errors": [
+          514,
+          451
+        ],
+        "eligible": true
+      },
+      {
+        "ridge": 0.2,
+        "gain": 1.2,
+        "metrics": [
+          0.7015336642201285,
+          0.7265172500629564,
+          -966,
+          -85
+        ],
+        "directional_pair_errors": [
+          508,
+          458
+        ],
+        "eligible": true
+      },
+      {
+        "ridge": 1.0,
+        "gain": 0.2,
+        "metrics": [
+          0.7000945847627635,
+          0.725258121380005,
+          -971,
+          -10
+        ],
+        "directional_pair_errors": [
+          523,
+          448
+        ],
+        "eligible": false
+      },
+      {
+        "ridge": 1.0,
+        "gain": 0.5,
+        "metrics": [
+          0.6997050378664845,
+          0.7253840342483002,
+          -970,
+          -25
+        ],
+        "directional_pair_errors": [
+          518,
+          452
+        ],
+        "eligible": false
+      },
+      {
+        "ridge": 1.0,
+        "gain": 0.8,
+        "metrics": [
+          0.6994882144476805,
+          0.7265172500629564,
+          -962,
+          -51
+        ],
+        "directional_pair_errors": [
+          510,
+          452
+        ],
+        "eligible": false
+      },
+      {
+        "ridge": 1.0,
+        "gain": 1.2,
+        "metrics": [
+          0.6995204440338921,
+          0.7255099471165953,
+          -969,
+          -81
+        ],
+        "directional_pair_errors": [
+          505,
+          464
+        ],
+        "eligible": false
+      }
+    ],
+    "both-directions F1 residual": [
+      {
+        "ridge": 0.04,
+        "gain": 0.2,
+        "metrics": [
+          0.7010191436383293,
+          0.7260135985897759,
+          -964,
+          -26
+        ],
+        "directional_pair_errors": [
+          516,
+          448
+        ],
+        "eligible": false
+      },
+      {
+        "ridge": 0.04,
+        "gain": 0.5,
+        "metrics": [
+          0.701977292069876,
+          0.7256358599848904,
+          -971,
+          -108
+        ],
+        "directional_pair_errors": [
+          494,
+          477
+        ],
+        "eligible": false
+      },
+      {
+        "ridge": 0.04,
+        "gain": 0.8,
+        "metrics": [
+          0.6972708900301317,
+          0.719843868043314,
+          -1021,
+          -394
+        ],
+        "directional_pair_errors": [
+          405,
+          616
+        ],
+        "eligible": false
+      },
+      {
+        "ridge": 0.04,
+        "gain": 1.2,
+        "metrics": [
+          0.6924777317035552,
+          0.7104004029211786,
+          -1106,
+          -702
+        ],
+        "directional_pair_errors": [
+          337,
+          769
+        ],
+        "eligible": false
+      },
+      {
+        "ridge": 0.2,
+        "gain": 0.2,
+        "metrics": [
+          0.7003446401343287,
+          0.7258876857214808,
+          -965,
+          -25
+        ],
+        "directional_pair_errors": [
+          516,
+          449
+        ],
+        "eligible": false
+      },
+      {
+        "ridge": 0.2,
+        "gain": 0.5,
+        "metrics": [
+          0.6993436466013411,
+          0.7245026441702342,
+          -973,
+          -112
+        ],
+        "directional_pair_errors": [
+          489,
+          484
+        ],
+        "eligible": false
+      },
+      {
+        "ridge": 0.2,
+        "gain": 0.8,
+        "metrics": [
+          0.6954023516169615,
+          0.7188365650969529,
+          -1023,
+          -366
+        ],
+        "directional_pair_errors": [
+          409,
+          614
+        ],
+        "eligible": false
+      },
+      {
+        "ridge": 0.2,
+        "gain": 1.2,
+        "metrics": [
+          0.6915261026097833,
+          0.7115336187358348,
+          -1097,
+          -671
+        ],
+        "directional_pair_errors": [
+          322,
+          775
+        ],
+        "eligible": false
+      },
+      {
+        "ridge": 1.0,
+        "gain": 0.2,
+        "metrics": [
+          0.69973952835108,
+          0.7251322085117099,
+          -969,
+          -26
+        ],
+        "directional_pair_errors": [
+          516,
+          453
+        ],
+        "eligible": false
+      },
+      {
+        "ridge": 1.0,
+        "gain": 0.5,
+        "metrics": [
+          0.6993083456859788,
+          0.7246285570385294,
+          -972,
+          -111
+        ],
+        "directional_pair_errors": [
+          483,
+          489
+        ],
+        "eligible": false
+      },
+      {
+        "ridge": 1.0,
+        "gain": 0.8,
+        "metrics": [
+          0.6964467480055393,
+          0.719843868043314,
+          -1012,
+          -343
+        ],
+        "directional_pair_errors": [
+          406,
+          606
+        ],
+        "eligible": false
+      },
+      {
+        "ridge": 1.0,
+        "gain": 1.2,
+        "metrics": [
+          0.6896225864713584,
+          0.7102744900528835,
+          -1092,
+          -625
+        ],
+        "directional_pair_errors": [
+          322,
+          770
+        ],
+        "eligible": false
+      }
+    ]
+  }
+}

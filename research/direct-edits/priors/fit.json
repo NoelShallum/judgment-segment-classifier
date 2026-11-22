@@ -1,0 +1,19 @@
+{
+  "train_csv_sha256": "60028fc085e3cb018e8d49a8879ba796dd03a0838367891f3312f9e576921794",
+  "model_sha256": "40f784b5835c31962624462c7025c66db939d49e5a865d6448529136a1fa0376",
+  "train_judgments": 4984,
+  "train_rows": 1122376,
+  "native_donor_sha256": "b76ebc10abdfa248a88916b049e45b53fa18bcbb4e5307c3828c95342fe563ff",
+  "global_fraction": [
+    0.5372424214345282,
+    0.15114988203596655,
+    0.011376757877930391,
+    0.057899491792411814,
+    0.04462675609599635,
+    0.18026757521543582,
+    0.017437115547730885
+  ],
+  "statistic": "One case = one training example. Closed-form ridge from the three-part bag of words and formatting to the centered seven-role log proportion.",
+  "native_target": "emitter.hidden2tag.bias",
+  "gradient_steps": 0
+}

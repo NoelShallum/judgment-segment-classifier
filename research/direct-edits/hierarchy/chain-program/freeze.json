@@ -1,0 +1,395 @@
+{
+  "chosen": "chain",
+  "state_space": "retention",
+  "cases_fit": 4984,
+  "rows_fit": 1122376,
+  "plan_sha256": "73ffd800950faceb3582360e3c729bf688f29f0013fac80e839b418eb5983129",
+  "program_source": "7603d05a5fca8f704dd3ea036c87bac5bd0637ff04b3e0d26561133c186072fc",
+  "checkpoints": {
+    "chain": {
+      "file": "chain.safetensors",
+      "sha256": "c75771b74abc02ac6bceb6593ade17ff0585cc5891f99ffd27f33b438229e1f8",
+      "settings": {
+        "macro_f1": 0.6518384809735804,
+        "accuracy": 0.7557553168164877,
+        "head": [
+          0.28,
+          0.03,
+          0.5
+        ],
+        "transition_gain": 0.0,
+        "metrics": {
+          "macro_f1": 0.6518384809735804,
+          "accuracy": 0.7557553168164877,
+          "f1": [
+            0.8231399802429767,
+            0.8424454618906545,
+            0.36515513126491644,
+            0.6035740335521517,
+            0.5898336847036777,
+            0.5405439918273528,
+            0.7981770833333334
+          ],
+          "support": [
+            29739,
+            6678,
+            543,
+            2694,
+            1946,
+            7840,
+            731
+          ]
+        }
+      },
+      "changes": {
+        "emitter.hidden2tag.weight": {
+          "shape": [
+            10,
+            200
+          ],
+          "changed_values": 1400,
+          "delta_l2": 2.921868062235904,
+          "final_dtype": "float32"
+        },
+        "emitter.hidden2tag.bias": {
+          "shape": [
+            10
+          ],
+          "changed_values": 7,
+          "delta_l2": 0.5236807654609502,
+          "final_dtype": "float32"
+        },
+        "crf.transitions": {
+          "shape": [
+            10,
+            10
+          ],
+          "changed_values": 0,
+          "delta_l2": 0.0,
+          "final_dtype": "float32"
+        },
+        "emitter.lstm.bias_ih_l0": {
+          "shape": [
+            400
+          ],
+          "changed_values": 100,
+          "delta_l2": 2.2579723871778725,
+          "final_dtype": "float32"
+        },
+        "emitter.lstm.bias_ih_l0_reverse": {
+          "shape": [
+            400
+          ],
+          "changed_values": 100,
+          "delta_l2": 4.339135581051234,
+          "final_dtype": "float32"
+        }
+      }
+    },
+    "identity": {
+      "file": "identity.safetensors",
+      "sha256": "e6250d9e9c4c439ebba43132ba12e0e6258cca4fa44630d9bb9a29605111014b",
+      "settings": {
+        "macro_f1": 0.6474225009032863,
+        "accuracy": 0.7573299316338123,
+        "head": null,
+        "transition_gain": 0.0,
+        "metrics": {
+          "macro_f1": 0.6474225009032863,
+          "accuracy": 0.7573299316338123,
+          "f1": [
+            0.8301670322254091,
+            0.834422804771211,
+            0.39917269906928643,
+            0.602081090778615,
+            0.5847815875998121,
+            0.5011544011544011,
+            0.7801778907242694
+          ],
+          "support": [
+            29739,
+            6678,
+            543,
+            2694,
+            1946,
+            7840,
+            731
+          ]
+        }
+      },
+      "changes": {
+        "emitter.hidden2tag.weight": {
+          "shape": [
+            10,
+            200
+          ],
+          "changed_values": 0,
+          "delta_l2": 0.0,
+          "final_dtype": "float32"
+        },
+        "emitter.hidden2tag.bias": {
+          "shape": [
+            10
+          ],
+          "changed_values": 0,
+          "delta_l2": 0.0,
+          "final_dtype": "float32"
+        },
+        "crf.transitions": {
+          "shape": [
+            10,
+            10
+          ],
+          "changed_values": 0,
+          "delta_l2": 0.0,
+          "final_dtype": "float32"
+        },
+        "emitter.lstm.bias_ih_l0": {
+          "shape": [
+            400
+          ],
+          "changed_values": 100,
+          "delta_l2": 2.2579723871778725,
+          "final_dtype": "float32"
+        },
+        "emitter.lstm.bias_ih_l0_reverse": {
+          "shape": [
+            400
+          ],
+          "changed_values": 100,
+          "delta_l2": 4.339135581051234,
+          "final_dtype": "float32"
+        }
+      }
+    },
+    "local": {
+      "file": "local.safetensors",
+      "sha256": "e6250d9e9c4c439ebba43132ba12e0e6258cca4fa44630d9bb9a29605111014b",
+      "settings": {
+        "macro_f1": 0.6474225009032863,
+        "accuracy": 0.7573299316338123,
+        "head": null,
+        "transition_gain": 0.0,
+        "metrics": {
+          "macro_f1": 0.6474225009032863,
+          "accuracy": 0.7573299316338123,
+          "f1": [
+            0.8301670322254091,
+            0.834422804771211,
+            0.39917269906928643,
+            0.602081090778615,
+            0.5847815875998121,
+            0.5011544011544011,
+            0.7801778907242694
+          ],
+          "support": [
+            29739,
+            6678,
+            543,
+            2694,
+            1946,
+            7840,
+            731
+          ]
+        }
+      },
+      "changes": {
+        "emitter.hidden2tag.weight": {
+          "shape": [
+            10,
+            200
+          ],
+          "changed_values": 0,
+          "delta_l2": 0.0,
+          "final_dtype": "float32"
+        },
+        "emitter.hidden2tag.bias": {
+          "shape": [
+            10
+          ],
+          "changed_values": 0,
+          "delta_l2": 0.0,
+          "final_dtype": "float32"
+        },
+        "crf.transitions": {
+          "shape": [
+            10,
+            10
+          ],
+          "changed_values": 0,
+          "delta_l2": 0.0,
+          "final_dtype": "float32"
+        },
+        "emitter.lstm.bias_ih_l0": {
+          "shape": [
+            400
+          ],
+          "changed_values": 100,
+          "delta_l2": 2.2579723871778725,
+          "final_dtype": "float32"
+        },
+        "emitter.lstm.bias_ih_l0_reverse": {
+          "shape": [
+            400
+          ],
+          "changed_values": 100,
+          "delta_l2": 4.339135581051234,
+          "final_dtype": "float32"
+        }
+      }
+    },
+    "local-plus-transitions": {
+      "file": "local-plus-transitions.safetensors",
+      "sha256": "e6250d9e9c4c439ebba43132ba12e0e6258cca4fa44630d9bb9a29605111014b",
+      "settings": {
+        "macro_f1": 0.6474225009032863,
+        "accuracy": 0.7573299316338123,
+        "head": null,
+        "transition_gain": 0.0,
+        "metrics": {
+          "macro_f1": 0.6474225009032863,
+          "accuracy": 0.7573299316338123,
+          "f1": [
+            0.8301670322254091,
+            0.834422804771211,
+            0.39917269906928643,
+            0.602081090778615,
+            0.5847815875998121,
+            0.5011544011544011,
+            0.7801778907242694
+          ],
+          "support": [
+            29739,
+            6678,
+            543,
+            2694,
+            1946,
+            7840,
+            731
+          ]
+        }
+      },
+      "changes": {
+        "emitter.hidden2tag.weight": {
+          "shape": [
+            10,
+            200
+          ],
+          "changed_values": 0,
+          "delta_l2": 0.0,
+          "final_dtype": "float32"
+        },
+        "emitter.hidden2tag.bias": {
+          "shape": [
+            10
+          ],
+          "changed_values": 0,
+          "delta_l2": 0.0,
+          "final_dtype": "float32"
+        },
+        "crf.transitions": {
+          "shape": [
+            10,
+            10
+          ],
+          "changed_values": 0,
+          "delta_l2": 0.0,
+          "final_dtype": "float32"
+        },
+        "emitter.lstm.bias_ih_l0": {
+          "shape": [
+            400
+          ],
+          "changed_values": 100,
+          "delta_l2": 2.2579723871778725,
+          "final_dtype": "float32"
+        },
+        "emitter.lstm.bias_ih_l0_reverse": {
+          "shape": [
+            400
+          ],
+          "changed_values": 100,
+          "delta_l2": 4.339135581051234,
+          "final_dtype": "float32"
+        }
+      }
+    },
+    "identity-plus-transitions": {
+      "file": "identity-plus-transitions.safetensors",
+      "sha256": "e6250d9e9c4c439ebba43132ba12e0e6258cca4fa44630d9bb9a29605111014b",
+      "settings": {
+        "macro_f1": 0.6474225009032863,
+        "accuracy": 0.7573299316338123,
+        "head": null,
+        "transition_gain": 0.0,
+        "metrics": {
+          "macro_f1": 0.6474225009032863,
+          "accuracy": 0.7573299316338123,
+          "f1": [
+            0.8301670322254091,
+            0.834422804771211,
+            0.39917269906928643,
+            0.602081090778615,
+            0.5847815875998121,
+            0.5011544011544011,
+            0.7801778907242694
+          ],
+          "support": [
+            29739,
+            6678,
+            543,
+            2694,
+            1946,
+            7840,
+            731
+          ]
+        }
+      },
+      "changes": {
+        "emitter.hidden2tag.weight": {
+          "shape": [
+            10,
+            200
+          ],
+          "changed_values": 0,
+          "delta_l2": 0.0,
+          "final_dtype": "float32"
+        },
+        "emitter.hidden2tag.bias": {
+          "shape": [
+            10
+          ],
+          "changed_values": 0,
+          "delta_l2": 0.0,
+          "final_dtype": "float32"
+        },
+        "crf.transitions": {
+          "shape": [
+            10,
+            10
+          ],
+          "changed_values": 0,
+          "delta_l2": 0.0,
+          "final_dtype": "float32"
+        },
+        "emitter.lstm.bias_ih_l0": {
+          "shape": [
+            400
+          ],
+          "changed_values": 100,
+          "delta_l2": 2.2579723871778725,
+          "final_dtype": "float32"
+        },
+        "emitter.lstm.bias_ih_l0_reverse": {
+          "shape": [
+            400
+          ],
+          "changed_values": 100,
+          "delta_l2": 4.339135581051234,
+          "final_dtype": "float32"
+        }
+      }
+    }
+  },
+  "gradient_steps": 0
+}

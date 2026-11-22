@@ -1,0 +1,131 @@
+{
+  "manifest_sha256": "86c94b34849ec0afa6c58fa3dac911b068465cd1dd855aa5c3ce953471797957",
+  "pooler_freeze_sha256": "fe82bf3f411e158ed73454a51de9778e08dcdf68bc061bb7381e33891d203d86",
+  "official_csv_sha256": "8abb2d789325418fc5ab4186c0dc63798e02b8fd82f9e00c324185e6bd86f816",
+  "sample": "All nonblank sentences from the first 48 uniformly hash-ranked official validation cases.",
+  "overlap_with_historical_pooler_gain_selection": [
+    "5942"
+  ],
+  "ids": [
+    "5343",
+    "6340",
+    "5379",
+    "5086",
+    "6348",
+    "5194",
+    "5523",
+    "6287",
+    "5878",
+    "5053",
+    "5191",
+    "5713",
+    "6055",
+    "6121",
+    "5565",
+    "5761",
+    "5237",
+    "5937",
+    "5199",
+    "5145",
+    "5593",
+    "6369",
+    "6086",
+    "5245",
+    "5643",
+    "5364",
+    "5541",
+    "5763",
+    "5692",
+    "6158",
+    "5019",
+    "6020",
+    "5336",
+    "6380",
+    "5358",
+    "6058",
+    "5256",
+    "5483",
+    "5735",
+    "6025",
+    "5445",
+    "5355",
+    "5818",
+    "6320",
+    "5942",
+    "6002",
+    "5076",
+    "5608"
+  ],
+  "arms": {
+    "unchanged": {
+      "macro_f1": 0.6948490424279209,
+      "accuracy": 0.7186932849364791,
+      "per_role_f1": {
+        "none": 0.6996341617257474,
+        "facts": 0.8314769975786925,
+        "issue": 0.5355648535564853,
+        "petitioner_argument": 0.7541684480547243,
+        "respondent_argument": 0.6372045220966084,
+        "reasoning": 0.660996354799514,
+        "decision": 0.7448979591836735
+      },
+      "exact_labeled_span_f1": 0.38213197969543145,
+      "role_boundary_f1": 0.5897701387450818,
+      "matched_spans": 941,
+      "predicted_spans": 2355,
+      "gold_spans": 2570
+    },
+    "targeted": {
+      "macro_f1": 0.695125555114176,
+      "accuracy": 0.7185977648294966,
+      "per_role_f1": {
+        "none": 0.6993942453306411,
+        "facts": 0.8313953488372093,
+        "issue": 0.5378151260504201,
+        "petitioner_argument": 0.7541684480547243,
+        "respondent_argument": 0.6372045220966084,
+        "reasoning": 0.6610032362459547,
+        "decision": 0.7448979591836735
+      },
+      "exact_labeled_span_f1": 0.3846936698554854,
+      "role_boundary_f1": 0.5924849491384679,
+      "matched_spans": 945,
+      "predicted_spans": 2343,
+      "gold_spans": 2570,
+      "delta_vs_incumbent_ci95": [
+        -0.0025873840042024143,
+        0.0026896443617845504
+      ],
+      "corrected": 7,
+      "broken": 8,
+      "changed": 17
+    },
+    "shuffled": {
+      "macro_f1": 0.6930190826726053,
+      "accuracy": 0.7180246441876015,
+      "per_role_f1": {
+        "none": 0.6985127300226872,
+        "facts": 0.8322830828889967,
+        "issue": 0.525,
+        "petitioner_argument": 0.754813863928113,
+        "respondent_argument": 0.6357069143446853,
+        "reasoning": 0.659919028340081,
+        "decision": 0.7448979591836735
+      },
+      "exact_labeled_span_f1": 0.3814769481844145,
+      "role_boundary_f1": 0.5909280066583438,
+      "matched_spans": 935,
+      "predicted_spans": 2332,
+      "gold_spans": 2570,
+      "delta_vs_incumbent_ci95": [
+        -0.0054807745756977,
+        0.0012093407555103623
+      ],
+      "corrected": 16,
+      "broken": 23,
+      "changed": 48
+    }
+  },
+  "rows": 10469,
+  "reviewed": 2114
+}

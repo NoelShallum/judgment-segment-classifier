@@ -1,0 +1,99 @@
+{
+  "device": "CPU",
+  "selected": "context-residual",
+  "cases": [
+    {
+      "group": "confirm",
+      "judgment": "5512",
+      "sentences": 157,
+      "label_disagreements": 0,
+      "fixture_seconds": 0.13107421199674718,
+      "decoding_seconds_all_arms": 0.006970123009523377,
+      "changed_vs_base": {
+        "local-association": 1,
+        "local-association-shuffled": 1,
+        "context-association": 0,
+        "context-association-shuffled": 1,
+        "local-residual": 0,
+        "local-residual-shuffled": 0,
+        "context-residual": 0,
+        "context-residual-shuffled": 0,
+        "edge": 2,
+        "edge-shuffled": 0,
+        "joint": 1,
+        "joint-shuffled": 0
+      }
+    },
+    {
+      "group": "confirm",
+      "judgment": "5032",
+      "sentences": 251,
+      "label_disagreements": 0,
+      "fixture_seconds": 0.16710316798707936,
+      "decoding_seconds_all_arms": 0.012035877007292584,
+      "changed_vs_base": {
+        "local-association": 2,
+        "local-association-shuffled": 1,
+        "context-association": 4,
+        "context-association-shuffled": 4,
+        "local-residual": 0,
+        "local-residual-shuffled": 0,
+        "context-residual": 6,
+        "context-residual-shuffled": 6,
+        "edge": 1,
+        "edge-shuffled": 0,
+        "joint": 3,
+        "joint-shuffled": 3
+      }
+    },
+    {
+      "group": "fresh",
+      "judgment": "5287",
+      "sentences": 135,
+      "label_disagreements": 0,
+      "fixture_seconds": 0.09791858999233227,
+      "decoding_seconds_all_arms": 0.007415233994834125,
+      "changed_vs_base": {
+        "local-association": 1,
+        "local-association-shuffled": 1,
+        "context-association": 0,
+        "context-association-shuffled": 0,
+        "local-residual": 0,
+        "local-residual-shuffled": 0,
+        "context-residual": 0,
+        "context-residual-shuffled": 0,
+        "edge": 1,
+        "edge-shuffled": 0,
+        "joint": 1,
+        "joint-shuffled": 0
+      }
+    },
+    {
+      "group": "fresh",
+      "judgment": "5028",
+      "sentences": 2753,
+      "label_disagreements": 0,
+      "fixture_seconds": 2.57112447299005,
+      "decoding_seconds_all_arms": 0.030188115997589193,
+      "changed_vs_base": {
+        "local-association": 14,
+        "local-association-shuffled": 8,
+        "context-association": 11,
+        "context-association-shuffled": 11,
+        "local-residual": 5,
+        "local-residual-shuffled": 9,
+        "context-residual": 11,
+        "context-residual-shuffled": 18,
+        "edge": 19,
+        "edge-shuffled": 8,
+        "joint": 8,
+        "joint-shuffled": 14
+      }
+    }
+  ],
+  "checksum": {
+    "association.safetensors": "b8cd8b2a68bd053e0d831cdd33085577d2b18f10b19ad07d920bf86c9d819ca3",
+    "residual.safetensors": "42455b2a2594d099edadfe8eaa527f20b10d7dcb3b35f847c65e806acdb6743f",
+    "freeze.json": "306afbd895019c5a4dca72e5369e93964122082a6d4e62bfca21bc081d21c4d2"
+  }
+}

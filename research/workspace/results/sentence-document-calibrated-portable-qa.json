@@ -1,0 +1,119 @@
+{
+  "scores": {
+    "rows": 149868,
+    "correct": 97842,
+    "accuracy": 0.6528545119705341,
+    "macro_f1": 0.6346893805068861,
+    "per_role_f1": {
+      "none": 0.6546232351453751,
+      "facts": 0.7984438469019967,
+      "issue": 0.5119158155369855,
+      "petitioner_argument": 0.6205322108867803,
+      "respondent_argument": 0.5707106124357176,
+      "reasoning": 0.576262173961715,
+      "decision": 0.7103377686796315
+    },
+    "confusion": [
+      [
+        39480,
+        3981,
+        311,
+        1796,
+        988,
+        11646,
+        294
+      ],
+      [
+        2689,
+        20934,
+        195,
+        560,
+        133,
+        386,
+        11
+      ],
+      [
+        330,
+        592,
+        827,
+        7,
+        5,
+        67,
+        8
+      ],
+      [
+        3237,
+        792,
+        14,
+        8698,
+        1055,
+        720,
+        4
+      ],
+      [
+        1670,
+        476,
+        7,
+        1775,
+        4883,
+        761,
+        7
+      ],
+      [
+        13967,
+        747,
+        35,
+        654,
+        449,
+        20591,
+        245
+      ],
+      [
+        750,
+        7,
+        6,
+        24,
+        20,
+        605,
+        2429
+      ]
+    ]
+  },
+  "cases": 712,
+  "live_cases": [
+    {
+      "case": "6884",
+      "rows": 30
+    },
+    {
+      "case": "6993",
+      "rows": 161
+    },
+    {
+      "case": "6723",
+      "rows": 395
+    }
+  ],
+  "weights_sha256": "a577f71c8976e348c7a77a5f3c7ab36fd4a9e4ea092744ffbfb8f58f58f8bef6",
+  "parent_sha256": "e0b7f98c90b9d82997b9c32b0d2dacf9abaf8b1a45297b7546fa4d823683915e",
+  "fit_weights_sha256": "74adf44aafbdebbbcb24870c76769a9a2d1c69dbc010570ee7fb2593d6eca708",
+  "freeze_sha256": "5a5fa02b7e7f909080bc34f727573c5dcfd3d808fefeb8746240c1febf7ea3d5",
+  "tensors": {
+    "document_calibration.center": [
+      54
+    ],
+    "document_calibration.scale": [
+      54
+    ],
+    "document_calibration.matrix": [
+      54,
+      7
+    ],
+    "document_calibration.bias": [
+      7
+    ],
+    "document_calibration.settings": [
+      3
+    ]
+  }
+}

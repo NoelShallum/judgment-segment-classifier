@@ -1,0 +1,134 @@
+{
+  "cases": {
+    "634": {
+      "sentences": 352,
+      "reviewed": 71,
+      "reference_seconds": 1.478295306005748,
+      "fast_seconds": 1.1414101739937905,
+      "cache_used": true,
+      "max_differences": {
+        "ids": 0,
+        "mask": 0,
+        "positions": 0,
+        "base": 0,
+        "original": 0,
+        "aux": 1.7881393432617188e-07,
+        "prior": 9.00660733216263e-08
+      }
+    },
+    "4572": {
+      "sentences": 257,
+      "reviewed": 52,
+      "reference_seconds": 1.3315925630013226,
+      "fast_seconds": 0.9638470789941493,
+      "cache_used": true,
+      "max_differences": {
+        "ids": 0,
+        "mask": 0,
+        "positions": 0,
+        "base": 0,
+        "original": 0,
+        "aux": 1.7881393432617188e-07,
+        "prior": 1.1294267499017963e-07
+      }
+    },
+    "835": {
+      "sentences": 137,
+      "reviewed": 28,
+      "reference_seconds": 0.6457080969994422,
+      "fast_seconds": 0.5122066949988948,
+      "cache_used": true,
+      "max_differences": {
+        "ids": 0,
+        "mask": 0,
+        "positions": 0,
+        "base": 0,
+        "original": 0,
+        "aux": 2.384185791015625e-07,
+        "prior": 7.947516633688423e-08
+      }
+    },
+    "1634": {
+      "sentences": 153,
+      "reviewed": 31,
+      "reference_seconds": 0.8086750969960121,
+      "fast_seconds": 0.5862057639897102,
+      "cache_used": true,
+      "max_differences": {
+        "ids": 0,
+        "mask": 0,
+        "positions": 0,
+        "base": 0,
+        "original": 0,
+        "aux": 5.960464477539063e-08,
+        "prior": 3.5425657241017205e-08
+      }
+    },
+    "2683": {
+      "sentences": 126,
+      "reviewed": 26,
+      "reference_seconds": 0.7657072930014692,
+      "fast_seconds": 0.5722471030021552,
+      "cache_used": true,
+      "max_differences": {
+        "ids": 0,
+        "mask": 0,
+        "positions": 0,
+        "base": 0,
+        "original": 0,
+        "aux": 1.1920928955078125e-07,
+        "prior": 4.176484641460476e-08
+      }
+    },
+    "4306": {
+      "sentences": 109,
+      "reviewed": 22,
+      "reference_seconds": 0.5517145980120404,
+      "fast_seconds": 0.6345374470110983,
+      "cache_used": true,
+      "max_differences": {
+        "ids": 0,
+        "mask": 0,
+        "positions": 0,
+        "base": 0,
+        "original": 0,
+        "aux": 1.7881393432617188e-07,
+        "prior": 7.489221254264322e-08
+      }
+    },
+    "661": {
+      "sentences": 35,
+      "reviewed": 7,
+      "reference_seconds": 0.2370965919981245,
+      "fast_seconds": 0.24763646199426148,
+      "cache_used": true,
+      "max_differences": {
+        "ids": 0,
+        "mask": 0,
+        "positions": 0,
+        "base": 0,
+        "original": 0,
+        "aux": 1.1920928955078125e-07,
+        "prior": 5.42311171525256e-08
+      }
+    },
+    "26": {
+      "sentences": 583,
+      "reviewed": 117,
+      "reference_seconds": 3.430150562999188,
+      "fast_seconds": 2.4092371339938836,
+      "cache_used": true,
+      "max_differences": {
+        "ids": 0,
+        "mask": 0,
+        "positions": 0,
+        "base": 0,
+        "original": 0,
+        "aux": 2.384185791015625e-07,
+        "prior": 1.136815254154655e-07
+      }
+    }
+  },
+  "protocol_sha256": "bfd859ab9dd6b6bed191754d197c7930aad918c8bd99c1453f321692e4a1c520",
+  "exact": "Token windows, route positions, and both role-index arrays were identical to canonical immutable inference. Input floats compared at the specified tolerance."
+}

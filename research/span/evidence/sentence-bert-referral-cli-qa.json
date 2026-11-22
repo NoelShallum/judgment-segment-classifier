@@ -1,0 +1,19 @@
+{
+  "verified_cases": [
+    {
+      "case": "6332",
+      "sentences": 44,
+      "referred": 5,
+      "changed_parent": 2
+    },
+    {
+      "case": "5021",
+      "sentences": 46,
+      "referred": 5,
+      "changed_parent": 2
+    }
+  ],
+  "source_sha256": "e70462f5a9bd376efdab223ebee4ffc855877ea7bd159a394bb240e379a703c3",
+  "freeze_sha256": "d01057e49dec1d9ceb93ee2f57da1de172e36a2df326d1aa33412ac06e5d09b0",
+  "gpu_reference_feature_sha256": "af82e868b5a9ef34df27f1887d4314b4b634917a81fde7afafbd0634dafffadd"
+}

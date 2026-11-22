@@ -1,0 +1,152 @@
+{
+  "policy": "karpo-public-reference-case-blocks-2026-11-22-v1",
+  "model": "MachinePulseAI/karpo-decision-0.8B",
+  "revision": "fae75d7bf93fc7e5c37b1ff631b64e9474e4d797",
+  "source_commit": "6600011eb5cf46232d056ec0717dc726146d29de",
+  "fit_cases": [
+    "2750",
+    "1504",
+    "474",
+    "4063",
+    "838",
+    "3532",
+    "4128",
+    "2299",
+    "4623",
+    "416",
+    "624",
+    "283"
+  ],
+  "validation_cases": [
+    "5343",
+    "6340",
+    "5379",
+    "5086",
+    "6348",
+    "5194",
+    "5523",
+    "6287",
+    "5878",
+    "5053",
+    "5191",
+    "5713",
+    "6055",
+    "6121",
+    "5565",
+    "5761"
+  ],
+  "fallback_validation_first_four_cases": [
+    "5343",
+    "6340",
+    "5379",
+    "5086"
+  ],
+  "training_cross_validation": [
+    [
+      "838",
+      "624",
+      "2299",
+      "4063"
+    ],
+    [
+      "1504",
+      "4128",
+      "474",
+      "2750"
+    ],
+    [
+      "4623",
+      "416",
+      "283",
+      "3532"
+    ]
+  ],
+  "matching": "Use all nonblank sentences of the 12 short training cases and the 16 shared validation judgments. Original rows are contiguous within each supplied state window and targeted once. The gold is stored in a distinct scorer file and has no path into the prompt writer. The shared validation has been used for other research comparisons.",
+  "rows": {
+    "2750": 24,
+    "1504": 31,
+    "474": 32,
+    "4063": 27,
+    "838": 32,
+    "3532": 32,
+    "4128": 27,
+    "2299": 28,
+    "4623": 29,
+    "416": 32,
+    "624": 31,
+    "283": 32,
+    "5343": 116,
+    "6340": 170,
+    "5379": 241,
+    "5086": 314,
+    "6348": 279,
+    "5194": 64,
+    "5523": 110,
+    "6287": 91,
+    "5878": 536,
+    "5053": 76,
+    "5191": 303,
+    "5713": 406,
+    "6055": 32,
+    "6121": 716,
+    "5565": 63,
+    "5761": 41
+  },
+  "source_csv_sha256": {
+    "train": "60028fc085e3cb018e8d49a8879ba796dd03a0838367891f3312f9e576921794",
+    "val": "8abb2d789325418fc5ab4186c0dc63798e02b8fd82f9e00c324185e6bd86f816",
+    "shared_manifest": "86c94b34849ec0afa6c58fa3dac911b068465cd1dd855aa5c3ce953471797957"
+  },
+  "glide_sample_bytes_sha256": "f9655157bc1d4a7907ff678c240b8120e6211c9fa4464ef0efc6661321522fa4",
+  "outer_archive_sha256": "0c92cce7f465ca8dbc46610b44973f53aefeaf0e66417e1e53eb87669376862a",
+  "roles": [
+    "None",
+    "Facts",
+    "Issue",
+    "Arguments of Petitioner",
+    "Arguments of Respondent",
+    "Reasoning",
+    "Decision"
+  ],
+  "descriptions": [
+    "Other material such as a heading, procedural transition, cited passage, or statutory quotation that does not itself serve another listed role.",
+    "Factual background or procedural history relevant to the case.",
+    "A question or issue that the court must decide.",
+    "Submissions or arguments advanced by the petitioner or appellant.",
+    "Submissions or arguments advanced by the respondent.",
+    "The present court's own analysis or reasons for resolving the issues.",
+    "The present court's final disposition or operative order."
+  ],
+  "input_sha256": "880fee40ec36765b0f7e31eeec9e4195bb3e8a2695e282d877075703dd629d22",
+  "truth_sha256": "9e5eb72fefb092b7a7a89188b903a4938ef7d637333f13f835b68128fa43ed02",
+  "incumbent_sha256": "1a9ab05585325dd75586d85ac65e882394164d26b90bd6dee9175c76c4109823",
+  "maximum_questions_per_request": 8,
+  "normal_token_cap": 1536,
+  "single_question_hard_cap": 2048,
+  "readout": "Write exactly the first seven rows of the publisher's weight [255,1024]. Fit a centered class residual ridge in float64 with train-only cross-validation of regularization, gain and class balancing, without gradient updates. Compare unchanged, edited, and equal Frobenius norm shuffled additive weights. Save a full replacement readout tensor and original digests.",
+  "controls": "On the first canonical block of each validation case, rotate the seven displayed choices by a nonzero offset, and reverse question order within the identical state separately. Map outputs back by explicit target and role ID. Native-score semantics and readout row semantics are reported separately for the option-rotated readout.",
+  "limits": "Retain only the same supplied sentence cuts. An overlength singleton is clipped from the middle under the hard cap while retaining both ends. Record its original tokens and clipping on every such row. Full validation inputs come before controls. A first-four case report is an honest lower-compute fallback fixed before inference.",
+  "ridge": [
+    0.02,
+    0.12,
+    0.5
+  ],
+  "gains": [
+    0.4,
+    0.7,
+    1.0
+  ],
+  "balance": [
+    0.0,
+    0.35,
+    0.7
+  ],
+  "target_margin": 4.0,
+  "shuffle_seed": 693001,
+  "bootstrap_seed": 77162,
+  "bootstrap_draws": 3000,
+  "package_sha256_by_original_file": {
+    "assets.py": "d782ee456bfffd219816a1bb94109e7f2f9dc2125b6e3e8884015d8aaadfb8b4",
+    "prepare.py": "16c2058eb726510e49f8e655fd49ec730de88da62019d1b41896207ff488e75b"
+  }
+}

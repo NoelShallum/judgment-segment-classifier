@@ -1,0 +1,153 @@
+{
+  "method": "Shipped full 20% reviewer, dynamic routing recomputed per candidate, entire judgment and frozen official boundaries",
+  "parent_cpu_reference": "Unchanged from cached unedited full FP32 reviewer; additionally replayed on two judgments for label parity.",
+  "gradient_steps": 0,
+  "tensor": [
+    "emitter.lstm.bias_ih_l0",
+    "emitter.lstm.bias_ih_l0_reverse"
+  ],
+  "rows": 3588,
+  "keys": [
+    "5703",
+    "5215",
+    "6141",
+    "5905",
+    "5831",
+    "5092",
+    "5584",
+    "5461",
+    "6335",
+    "5116",
+    "5695",
+    "5696",
+    "5095",
+    "5164",
+    "6258",
+    "6108",
+    "5161",
+    "5965",
+    "5857",
+    "6274",
+    "6333",
+    "6264",
+    "5481",
+    "4993"
+  ],
+  "arms": {
+    "targeted": {
+      "macro_f1": 0.7568537892291589,
+      "accuracy": 0.762263099219621,
+      "f1": [
+        0.7259973695747479,
+        0.8724738675958188,
+        0.6349206349206349,
+        0.7692307692307693,
+        0.656,
+        0.7370283018867925,
+        0.9023255813953488
+      ],
+      "support": [
+        1172,
+        709,
+        68,
+        459,
+        233,
+        843,
+        104
+      ],
+      "corrected": 42,
+      "harmed": 34,
+      "changed": 89,
+      "paired95": [
+        [
+          -0.010759786568221925,
+          0.010778427865419736
+        ],
+        [
+          -0.006229990476016004,
+          0.01244177117123052
+        ]
+      ],
+      "weight_table_sha256": "f895380f8b6e41913edd3c87562ead26627f6efba375f6df22f1969ddeeed8be",
+      "gate_sha256": {
+        "emitter.lstm.bias_ih_l0": "4e75c4f897312e4e9154c134cf026313929730415cd01bc9347caafd405b3c21",
+        "emitter.lstm.bias_ih_l0_reverse": "2941baccff26f1dc0f9d32f08737d358dbf105395b3d03ec15f2154832e3b027"
+      },
+      "reviewed": 727,
+      "unique_BERT_windows_cached": 731
+    },
+    "gate-shuffled": {
+      "macro_f1": 0.7549619784548894,
+      "accuracy": 0.7550167224080268,
+      "f1": [
+        0.7175506683915481,
+        0.8679775280898876,
+        0.64,
+        0.7614879649890591,
+        0.6729678638941399,
+        0.7224242424242424,
+        0.9023255813953488
+      ],
+      "support": [
+        1172,
+        709,
+        68,
+        459,
+        233,
+        843,
+        104
+      ],
+      "corrected": 16,
+      "harmed": 34,
+      "changed": 65,
+      "paired95": [
+        [
+          -0.01126319012875091,
+          0.004752689334013477
+        ],
+        [
+          -0.01164633713403681,
+          0.0026240795645777067
+        ]
+      ],
+      "weight_table_sha256": "f895380f8b6e41913edd3c87562ead26627f6efba375f6df22f1969ddeeed8be",
+      "gate_sha256": {
+        "emitter.lstm.bias_ih_l0": "8c0beb254cb1abe5356e9cabc684b62cafaf865611883942ef5417c19438b905",
+        "emitter.lstm.bias_ih_l0_reverse": "c9b5f7efbb8ad831a5d99f9a8e70674499e206b461e60056098b7a6ef8a508cb"
+      },
+      "reviewed": 727,
+      "unique_BERT_windows_cached": 799
+    }
+  },
+  "cohort": "confirm",
+  "reused_legacy_fp32_vectors_allowed": true,
+  "incumbent": {
+    "macro_f1": 0.7595048417262954,
+    "accuracy": 0.7600334448160535,
+    "f1": [
+      0.7185886402753873,
+      0.871866295264624,
+      0.6290322580645161,
+      0.7749725576289791,
+      0.6956521739130435,
+      0.7240963855421687,
+      0.9023255813953488
+    ],
+    "support": [
+      1172,
+      709,
+      68,
+      459,
+      233,
+      843,
+      104
+    ]
+  },
+  "device": "CPU",
+  "freeze_sha256": "eff466c74aa6caa2791315ce668339cd2236a910f08063818ceebb1d41567c8d",
+  "cpu_baseline_replay_keys": [
+    "5703",
+    "5215"
+  ],
+  "baseline_cpu_parity_disagreements": 0
+}

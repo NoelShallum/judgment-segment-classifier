@@ -1,0 +1,218 @@
+{
+  "system": "semantic_neighbors",
+  "rows": 149868,
+  "measure": "Hypothetical correction on known gold only, retaining every other original prediction.",
+  "baseline_f1": 0.6788243757988054,
+  "pairs": [
+    {
+      "roles": [
+        "None",
+        "Reasoning"
+      ],
+      "count": 25230,
+      "oracle_f1": 0.7590794282466947,
+      "gain_points": 8.025505244788933,
+      "with_all_none_reasoning_fixed": 0.7590794282466947
+    },
+    {
+      "roles": [
+        "Arguments of Petitioner",
+        "Arguments of Respondent"
+      ],
+      "count": 2637,
+      "oracle_f1": 0.7120358966876065,
+      "gain_points": 3.3211520888801083,
+      "with_all_none_reasoning_fixed": 0.7922909491354958
+    },
+    {
+      "roles": [
+        "Facts",
+        "Issue"
+      ],
+      "count": 630,
+      "oracle_f1": 0.7077167799401328,
+      "gain_points": 2.8892404141327432,
+      "with_all_none_reasoning_fixed": 0.7879718323880222
+    },
+    {
+      "roles": [
+        "None",
+        "Arguments of Petitioner"
+      ],
+      "count": 4502,
+      "oracle_f1": 0.7074037447529752,
+      "gain_points": 2.8579368954169793,
+      "with_all_none_reasoning_fixed": 0.7877458772957618
+    },
+    {
+      "roles": [
+        "None",
+        "Facts"
+      ],
+      "count": 6809,
+      "oracle_f1": 0.706016304451562,
+      "gain_points": 2.719192865275666,
+      "with_all_none_reasoning_fixed": 0.785480065566908
+    },
+    {
+      "roles": [
+        "None",
+        "Arguments of Respondent"
+      ],
+      "count": 2539,
+      "oracle_f1": 0.700920556491225,
+      "gain_points": 2.2096180692419587,
+      "with_all_none_reasoning_fixed": 0.781081413234103
+    },
+    {
+      "roles": [
+        "None",
+        "Issue"
+      ],
+      "count": 535,
+      "oracle_f1": 0.6980229036525812,
+      "gain_points": 1.9198527853775849,
+      "with_all_none_reasoning_fixed": 0.778191878147711
+    },
+    {
+      "roles": [
+        "None",
+        "Decision"
+      ],
+      "count": 760,
+      "oracle_f1": 0.6943470858269073,
+      "gain_points": 1.5522710028101905,
+      "with_all_none_reasoning_fixed": 0.7746022399027922
+    },
+    {
+      "roles": [
+        "Reasoning",
+        "Decision"
+      ],
+      "count": 691,
+      "oracle_f1": 0.6934990531834619,
+      "gain_points": 1.4674677384656554,
+      "with_all_none_reasoning_fixed": 0.7738541734383314
+    },
+    {
+      "roles": [
+        "Arguments of Respondent",
+        "Reasoning"
+      ],
+      "count": 1156,
+      "oracle_f1": 0.689761302174651,
+      "gain_points": 1.0936926375845646,
+      "with_all_none_reasoning_fixed": 0.7700546632209332
+    },
+    {
+      "roles": [
+        "Arguments of Petitioner",
+        "Reasoning"
+      ],
+      "count": 1335,
+      "oracle_f1": 0.6881082734621796,
+      "gain_points": 0.928389766337423,
+      "with_all_none_reasoning_fixed": 0.7684228259768059
+    },
+    {
+      "roles": [
+        "Facts",
+        "Arguments of Petitioner"
+      ],
+      "count": 1169,
+      "oracle_f1": 0.6880164684666493,
+      "gain_points": 0.9192092667843932,
+      "with_all_none_reasoning_fixed": 0.7682715209145385
+    },
+    {
+      "roles": [
+        "Facts",
+        "Arguments of Respondent"
+      ],
+      "count": 634,
+      "oracle_f1": 0.6859903313319137,
+      "gain_points": 0.7165955533108281,
+      "with_all_none_reasoning_fixed": 0.7662453837798031
+    },
+    {
+      "roles": [
+        "Facts",
+        "Reasoning"
+      ],
+      "count": 1292,
+      "oracle_f1": 0.6848321105647523,
+      "gain_points": 0.6007734765946959,
+      "with_all_none_reasoning_fixed": 0.7649372986533581
+    },
+    {
+      "roles": [
+        "Issue",
+        "Reasoning"
+      ],
+      "count": 140,
+      "oracle_f1": 0.6841259877577321,
+      "gain_points": 0.5301611958926755,
+      "with_all_none_reasoning_fixed": 0.7643615015460473
+    },
+    {
+      "roles": [
+        "Issue",
+        "Arguments of Petitioner"
+      ],
+      "count": 30,
+      "oracle_f1": 0.6801309968263076,
+      "gain_points": 0.13066210275022305,
+      "with_all_none_reasoning_fixed": 0.7603860492741968
+    },
+    {
+      "roles": [
+        "Arguments of Petitioner",
+        "Decision"
+      ],
+      "count": 40,
+      "oracle_f1": 0.679848276857666,
+      "gain_points": 0.10239010588606323,
+      "with_all_none_reasoning_fixed": 0.7601033293055554
+    },
+    {
+      "roles": [
+        "Issue",
+        "Decision"
+      ],
+      "count": 17,
+      "oracle_f1": 0.6798288014416932,
+      "gain_points": 0.10044256428878295,
+      "with_all_none_reasoning_fixed": 0.7600838538895827
+    },
+    {
+      "roles": [
+        "Arguments of Respondent",
+        "Decision"
+      ],
+      "count": 27,
+      "oracle_f1": 0.6795532946657463,
+      "gain_points": 0.07289188669409308,
+      "with_all_none_reasoning_fixed": 0.7598083471136355
+    },
+    {
+      "roles": [
+        "Facts",
+        "Decision"
+      ],
+      "count": 18,
+      "oracle_f1": 0.6792226591842953,
+      "gain_points": 0.03982833854898615,
+      "with_all_none_reasoning_fixed": 0.7594777116321846
+    },
+    {
+      "roles": [
+        "Issue",
+        "Arguments of Respondent"
+      ],
+      "count": 8,
+      "oracle_f1": 0.6791997811718099,
+      "gain_points": 0.03754053730045115,
+      "with_all_none_reasoning_fixed": 0.7594548336196992
+    }
+  ]
+}

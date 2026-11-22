@@ -1,0 +1,16 @@
+{
+  "candidate": "all-role",
+  "candidate_sha256": "db701dc770fe3aa5cf26d3e83d89ff4e819df913be8c496e71bd949dc4dffd9b",
+  "fit_freeze_sha256": "146564161e65d5acd47f8aa3fd1fccbea1284340acafb78e95df0d1d6f37643e",
+  "validation_sha256": "95f7795791ff6f824cdbaa360b6fd9ee2b939df2b13145488ee84716803cb381",
+  "native_audit_sha256": "d5038f76caa8a3f70ba26627d44f9c89a0e672e984b7cbaa93234282bfc48f57",
+  "historical_benchmark_sha256": "30be98b7341fc75606102fa041b5c4717dfc60e6dfce93dd12ce7beabb671fb7",
+  "hierarchy_plus_reviewer_policy_sha256": "d89429cd2b464d03b4666416ff0dc8b0aaaa662b092cea3011e0f940275a3ee6",
+  "old_readout_recipe_sha256": "d01057e49dec1d9ceb93ee2f57da1de172e36a2df326d1aa33412ac06e5d09b0",
+  "old_readout_weights_sha256": "e70462f5a9bd376efdab223ebee4ffc855877ea7bd159a394bb240e379a703c3",
+  "source": "Existing FP32 encoded window cache; CPU-only reconstruction and head application.",
+  "hypothesis": "Read-only evaluation of the selected centered residual on the fixed historical 20% confidence route with original veto.",
+  "case_fingerprints": "Prior benchmark official split order and 149,868 nonblank rows. Must recreate the exact 7\u00d77 original confusion before candidate scores.",
+  "test_scope": "Only this validation-frozen candidate is scored. Official test was previously used across the project. Candidate selection used official train and validation only.",
+  "gradient_steps": 0
+}

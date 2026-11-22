@@ -1,0 +1,68 @@
+{
+  "dataset": "L-NLProc/LegalSeg_CSV",
+  "revision": "31217aa845866bbd18a8ad567a785e6f5485435a",
+  "splits": {
+    "train": {
+      "rows": 1122507,
+      "judgments": 4984,
+      "columns": [
+        "Index",
+        "Text",
+        "Label"
+      ],
+      "empty_text": 131,
+      "labels": {
+        "None": 603059,
+        "Facts": 169653,
+        "Issue": 12791,
+        "Arguments of Petitioner": 64987,
+        "Arguments of Respondent": 50097,
+        "Reasoning": 202346,
+        "Decision": 19574
+      }
+    },
+    "val": {
+      "rows": 293370,
+      "judgments": 1424,
+      "columns": [
+        "Index",
+        "Text",
+        "Label"
+      ],
+      "empty_text": 8,
+      "labels": {
+        "None": 121712,
+        "Issue": 4259,
+        "Facts": 51924,
+        "Arguments of Petitioner": 24707,
+        "Arguments of Respondent": 16021,
+        "Reasoning": 67113,
+        "Decision": 7634
+      }
+    },
+    "test": {
+      "rows": 149881,
+      "judgments": 712,
+      "columns": [
+        "Index",
+        "Text",
+        "Label"
+      ],
+      "empty_text": 13,
+      "labels": {
+        "None": 58500,
+        "Issue": 1843,
+        "Facts": 24909,
+        "Arguments of Petitioner": 14520,
+        "Arguments of Respondent": 9579,
+        "Reasoning": 36689,
+        "Decision": 3841
+      }
+    }
+  },
+  "shared_case_ids": {
+    "train_val": 0,
+    "train_test": 0,
+    "val_test": 0
+  }
+}

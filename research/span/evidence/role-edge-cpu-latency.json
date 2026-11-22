@@ -1,0 +1,70 @@
+{
+  "platform": "x86_64",
+  "torch_threads": 2,
+  "cases": [
+    {
+      "case": "6884",
+      "whitespace_tokens": 489,
+      "candidate_units": 31,
+      "warmed_seconds": {
+        "parent": [
+          0.07990681600131211,
+          0.07472725799743785,
+          0.08080081600201083
+        ],
+        "edited": [
+          0.06968492700252682,
+          0.07064546800029348,
+          0.08401517599850195
+        ]
+      },
+      "medians": {
+        "parent": 0.07990681600131211,
+        "edited": 0.07064546800029348
+      }
+    },
+    {
+      "case": "6993",
+      "whitespace_tokens": 4497,
+      "candidate_units": 150,
+      "warmed_seconds": {
+        "parent": [
+          0.4660987249990285,
+          0.44886552600291907,
+          0.41452357600064715
+        ],
+        "edited": [
+          0.4346456990024308,
+          0.4603813399990031,
+          0.4267613320007513
+        ]
+      },
+      "medians": {
+        "parent": 0.44886552600291907,
+        "edited": 0.4346456990024308
+      }
+    },
+    {
+      "case": "6723",
+      "whitespace_tokens": 16135,
+      "candidate_units": 382,
+      "warmed_seconds": {
+        "parent": [
+          1.5247586500008765,
+          1.479435186000046,
+          1.556014009998762
+        ],
+        "edited": [
+          1.5489164130012796,
+          1.4819336159998784,
+          1.7697738659990137
+        ]
+      },
+      "medians": {
+        "parent": 1.5247586500008765,
+        "edited": 1.5489164130012796
+      }
+    }
+  ],
+  "protocol": "Already-loaded donated hierarchy and weights. Paired alternating order, three measurements per profile, one warm-up. Timings include text boundary detection and output spans. Other experiment processes were running on this laptop."
+}

@@ -1,0 +1,44 @@
+{
+  "deployment_sha256": "2a1ca0fb8239c17197684bf65c401995c394966801f2756c160e4db34f91066a",
+  "cases": [
+    {
+      "case": "6884",
+      "whitespace_tokens": 489,
+      "candidate_units": 31,
+      "exactly_equal_cached_and_live_spans": {
+        "exact": 10,
+        "balanced": 12
+      }
+    },
+    {
+      "case": "6993",
+      "whitespace_tokens": 4497,
+      "candidate_units": 150,
+      "exactly_equal_cached_and_live_spans": {
+        "exact": 13,
+        "balanced": 14
+      }
+    },
+    {
+      "case": "6723",
+      "whitespace_tokens": 16135,
+      "candidate_units": 382,
+      "exactly_equal_cached_and_live_spans": {
+        "exact": 22,
+        "balanced": 39
+      }
+    }
+  ],
+  "cli": {
+    "exact": {
+      "spans": 2,
+      "characters": 134,
+      "unicode_offset_coverage": true
+    },
+    "balanced": {
+      "spans": 2,
+      "characters": 134,
+      "unicode_offset_coverage": true
+    }
+  }
+}

@@ -1,0 +1,2209 @@
+{
+  "method": "Maximal same-role interval posterior probabilities from a fixed role-edge CRF. Decode over the union of eight fixed-weight proposal paths using posterior expected hits minus a span count cost and optional token reward. This is a proxy for expected corpus F1. Temperature, cost and reward are frozen on development. No gradient steps.",
+  "freeze_sha256": "7564e0751021af880cf43670726385e1e2da7d89e4b09fa603152ca12e3b9604",
+  "weights": {
+    "exact": "47756a2dd8a9922498e4eca4c32d01f1f538d85c7d887da9dbb36480e0b12f17"
+  },
+  "selected": {
+    "exact": [
+      1.0,
+      0.35,
+      0.025
+    ],
+    "balanced": null
+  },
+  "splits": {
+    "select": {
+      "exact": {
+        "cases": 72,
+        "candidate": {
+          "tokens": 396543,
+          "token_accuracy": 0.5728710379454435,
+          "token_macro_f1": 0.6104431982523909,
+          "exact_labeled_spans": {
+            "matched": 1276,
+            "predicted": 3158,
+            "gold": 3480,
+            "precision": 0.40405319822672575,
+            "recall": 0.36666666666666664,
+            "f1": 0.3844531485387165
+          },
+          "exact_role_boundaries": {
+            "matched": 1933,
+            "predicted": 3086,
+            "gold": 3408,
+            "precision": 0.6263771872974725,
+            "recall": 0.5671948356807511,
+            "f1": 0.5953187557745612
+          },
+          "token_confusion": [
+            [
+              24174,
+              18795,
+              2288,
+              2538,
+              2919,
+              100801,
+              743
+            ],
+            [
+              220,
+              62847,
+              2296,
+              420,
+              403,
+              5078,
+              400
+            ],
+            [
+              110,
+              1764,
+              4737,
+              114,
+              0,
+              107,
+              25
+            ],
+            [
+              627,
+              1352,
+              99,
+              23314,
+              4774,
+              5150,
+              137
+            ],
+            [
+              90,
+              396,
+              0,
+              2543,
+              18431,
+              3363,
+              0
+            ],
+            [
+              2538,
+              2612,
+              907,
+              634,
+              876,
+              88240,
+              3372
+            ],
+            [
+              83,
+              82,
+              31,
+              36,
+              59,
+              593,
+              5425
+            ]
+          ],
+          "roles": {
+            "none": {
+              "matched": 697,
+              "predicted": 1454,
+              "gold": 1544,
+              "span_f1": 0.46497665110073383
+            },
+            "facts": {
+              "matched": 144,
+              "predicted": 447,
+              "gold": 574,
+              "span_f1": 0.2820763956904995
+            },
+            "issue": {
+              "matched": 39,
+              "predicted": 144,
+              "gold": 103,
+              "span_f1": 0.3157894736842105
+            },
+            "petitioner_argument": {
+              "matched": 29,
+              "predicted": 137,
+              "gold": 249,
+              "span_f1": 0.15025906735751296
+            },
+            "respondent_argument": {
+              "matched": 70,
+              "predicted": 163,
+              "gold": 188,
+              "span_f1": 0.39886039886039887
+            },
+            "reasoning": {
+              "matched": 216,
+              "predicted": 668,
+              "gold": 700,
+              "span_f1": 0.3157894736842105
+            },
+            "decision": {
+              "matched": 81,
+              "predicted": 145,
+              "gold": 122,
+              "span_f1": 0.6067415730337079
+            }
+          }
+        },
+        "parent": {
+          "tokens": 396543,
+          "token_accuracy": 0.5618003596079114,
+          "token_macro_f1": 0.5977913304151452,
+          "exact_labeled_spans": {
+            "matched": 1265,
+            "predicted": 3156,
+            "gold": 3480,
+            "precision": 0.40082382762991126,
+            "recall": 0.3635057471264368,
+            "f1": 0.3812537673297167
+          },
+          "exact_role_boundaries": {
+            "matched": 1903,
+            "predicted": 3084,
+            "gold": 3408,
+            "precision": 0.6170557717250325,
+            "recall": 0.5583920187793427,
+            "f1": 0.5862600123228588
+          },
+          "token_confusion": [
+            [
+              20233,
+              18382,
+              2321,
+              2823,
+              2515,
+              104725,
+              1259
+            ],
+            [
+              199,
+              62530,
+              2296,
+              590,
+              403,
+              5246,
+              400
+            ],
+            [
+              110,
+              1716,
+              4785,
+              114,
+              0,
+              107,
+              25
+            ],
+            [
+              709,
+              2137,
+              99,
+              22409,
+              4506,
+              5456,
+              137
+            ],
+            [
+              19,
+              332,
+              0,
+              3010,
+              17657,
+              3805,
+              0
+            ],
+            [
+              1445,
+              2390,
+              771,
+              454,
+              820,
+              89537,
+              3762
+            ],
+            [
+              76,
+              82,
+              0,
+              0,
+              59,
+              465,
+              5627
+            ]
+          ],
+          "roles": {
+            "none": {
+              "matched": 694,
+              "predicted": 1458,
+              "gold": 1544,
+              "span_f1": 0.46235842771485675
+            },
+            "facts": {
+              "matched": 142,
+              "predicted": 442,
+              "gold": 574,
+              "span_f1": 0.2795275590551181
+            },
+            "issue": {
+              "matched": 39,
+              "predicted": 136,
+              "gold": 103,
+              "span_f1": 0.3263598326359833
+            },
+            "petitioner_argument": {
+              "matched": 27,
+              "predicted": 131,
+              "gold": 249,
+              "span_f1": 0.14210526315789473
+            },
+            "respondent_argument": {
+              "matched": 61,
+              "predicted": 151,
+              "gold": 188,
+              "span_f1": 0.35988200589970504
+            },
+            "reasoning": {
+              "matched": 221,
+              "predicted": 696,
+              "gold": 700,
+              "span_f1": 0.3166189111747851
+            },
+            "decision": {
+              "matched": 81,
+              "predicted": 142,
+              "gold": 122,
+              "span_f1": 0.6136363636363636
+            }
+          }
+        },
+        "gap_ci95": {
+          "exact_span_f1": [
+            -0.0025709690027467284,
+            0.008112477703445184
+          ],
+          "token_accuracy": [
+            -0.0004189911046622028,
+            0.022565444398405136
+          ]
+        }
+      },
+      "balanced": {
+        "cases": 72,
+        "candidate": {
+          "tokens": 396543,
+          "token_accuracy": 0.6705880572850864,
+          "token_macro_f1": 0.6580967736608746,
+          "exact_labeled_spans": {
+            "matched": 1270,
+            "predicted": 3290,
+            "gold": 3480,
+            "precision": 0.3860182370820669,
+            "recall": 0.3649425287356322,
+            "f1": 0.37518463810930575
+          },
+          "exact_role_boundaries": {
+            "matched": 1977,
+            "predicted": 3218,
+            "gold": 3408,
+            "precision": 0.6143567433188316,
+            "recall": 0.5801056338028169,
+            "f1": 0.5967401146996679
+          },
+          "token_confusion": [
+            [
+              77598,
+              14881,
+              2753,
+              3971,
+              3660,
+              48450,
+              945
+            ],
+            [
+              3373,
+              60730,
+              2374,
+              1129,
+              897,
+              2764,
+              397
+            ],
+            [
+              281,
+              1839,
+              4540,
+              114,
+              0,
+              58,
+              25
+            ],
+            [
+              1749,
+              1090,
+              138,
+              23813,
+              6580,
+              2026,
+              57
+            ],
+            [
+              397,
+              363,
+              0,
+              2830,
+              19138,
+              2095,
+              0
+            ],
+            [
+              15215,
+              2028,
+              971,
+              1059,
+              1968,
+              74628,
+              3310
+            ],
+            [
+              102,
+              82,
+              22,
+              36,
+              59,
+              538,
+              5470
+            ]
+          ],
+          "roles": {
+            "none": {
+              "matched": 683,
+              "predicted": 1490,
+              "gold": 1544,
+              "span_f1": 0.45023071852340146
+            },
+            "facts": {
+              "matched": 150,
+              "predicted": 467,
+              "gold": 574,
+              "span_f1": 0.2881844380403458
+            },
+            "issue": {
+              "matched": 40,
+              "predicted": 167,
+              "gold": 103,
+              "span_f1": 0.2962962962962963
+            },
+            "petitioner_argument": {
+              "matched": 33,
+              "predicted": 171,
+              "gold": 249,
+              "span_f1": 0.15714285714285714
+            },
+            "respondent_argument": {
+              "matched": 69,
+              "predicted": 194,
+              "gold": 188,
+              "span_f1": 0.3612565445026178
+            },
+            "reasoning": {
+              "matched": 211,
+              "predicted": 646,
+              "gold": 700,
+              "span_f1": 0.3135215453194651
+            },
+            "decision": {
+              "matched": 84,
+              "predicted": 155,
+              "gold": 122,
+              "span_f1": 0.6064981949458483
+            }
+          }
+        },
+        "parent": {
+          "tokens": 396543,
+          "token_accuracy": 0.6705880572850864,
+          "token_macro_f1": 0.6580967736608746,
+          "exact_labeled_spans": {
+            "matched": 1270,
+            "predicted": 3290,
+            "gold": 3480,
+            "precision": 0.3860182370820669,
+            "recall": 0.3649425287356322,
+            "f1": 0.37518463810930575
+          },
+          "exact_role_boundaries": {
+            "matched": 1977,
+            "predicted": 3218,
+            "gold": 3408,
+            "precision": 0.6143567433188316,
+            "recall": 0.5801056338028169,
+            "f1": 0.5967401146996679
+          },
+          "token_confusion": [
+            [
+              77598,
+              14881,
+              2753,
+              3971,
+              3660,
+              48450,
+              945
+            ],
+            [
+              3373,
+              60730,
+              2374,
+              1129,
+              897,
+              2764,
+              397
+            ],
+            [
+              281,
+              1839,
+              4540,
+              114,
+              0,
+              58,
+              25
+            ],
+            [
+              1749,
+              1090,
+              138,
+              23813,
+              6580,
+              2026,
+              57
+            ],
+            [
+              397,
+              363,
+              0,
+              2830,
+              19138,
+              2095,
+              0
+            ],
+            [
+              15215,
+              2028,
+              971,
+              1059,
+              1968,
+              74628,
+              3310
+            ],
+            [
+              102,
+              82,
+              22,
+              36,
+              59,
+              538,
+              5470
+            ]
+          ],
+          "roles": {
+            "none": {
+              "matched": 683,
+              "predicted": 1490,
+              "gold": 1544,
+              "span_f1": 0.45023071852340146
+            },
+            "facts": {
+              "matched": 150,
+              "predicted": 467,
+              "gold": 574,
+              "span_f1": 0.2881844380403458
+            },
+            "issue": {
+              "matched": 40,
+              "predicted": 167,
+              "gold": 103,
+              "span_f1": 0.2962962962962963
+            },
+            "petitioner_argument": {
+              "matched": 33,
+              "predicted": 171,
+              "gold": 249,
+              "span_f1": 0.15714285714285714
+            },
+            "respondent_argument": {
+              "matched": 69,
+              "predicted": 194,
+              "gold": 188,
+              "span_f1": 0.3612565445026178
+            },
+            "reasoning": {
+              "matched": 211,
+              "predicted": 646,
+              "gold": 700,
+              "span_f1": 0.3135215453194651
+            },
+            "decision": {
+              "matched": 84,
+              "predicted": 155,
+              "gold": 122,
+              "span_f1": 0.6064981949458483
+            }
+          }
+        },
+        "gap_ci95": {
+          "exact_span_f1": [
+            0.0,
+            0.0
+          ],
+          "token_accuracy": [
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "confirm": {
+      "exact": {
+        "cases": 72,
+        "candidate": {
+          "tokens": 314951,
+          "token_accuracy": 0.5862499245914444,
+          "token_macro_f1": 0.5804346851604637,
+          "exact_labeled_spans": {
+            "matched": 1376,
+            "predicted": 3049,
+            "gold": 3274,
+            "precision": 0.4512955067235159,
+            "recall": 0.4202810018326206,
+            "f1": 0.4352364383994939
+          },
+          "exact_role_boundaries": {
+            "matched": 2010,
+            "predicted": 2977,
+            "gold": 3202,
+            "precision": 0.6751763520322472,
+            "recall": 0.6277326670830731,
+            "f1": 0.65059071047095
+          },
+          "token_confusion": [
+            [
+              3946,
+              8506,
+              1972,
+              1995,
+              2157,
+              70437,
+              1723
+            ],
+            [
+              390,
+              63962,
+              2802,
+              546,
+              211,
+              5561,
+              566
+            ],
+            [
+              58,
+              1375,
+              5878,
+              0,
+              0,
+              392,
+              10
+            ],
+            [
+              522,
+              2133,
+              264,
+              21644,
+              4842,
+              2387,
+              0
+            ],
+            [
+              32,
+              374,
+              255,
+              2055,
+              15312,
+              4358,
+              0
+            ],
+            [
+              2805,
+              2568,
+              1781,
+              539,
+              784,
+              68065,
+              5036
+            ],
+            [
+              162,
+              23,
+              55,
+              0,
+              0,
+              635,
+              5833
+            ]
+          ],
+          "roles": {
+            "none": {
+              "matched": 747,
+              "predicted": 1394,
+              "gold": 1418,
+              "span_f1": 0.531294452347084
+            },
+            "facts": {
+              "matched": 208,
+              "predicted": 446,
+              "gold": 576,
+              "span_f1": 0.4070450097847358
+            },
+            "issue": {
+              "matched": 57,
+              "predicted": 168,
+              "gold": 110,
+              "span_f1": 0.41007194244604317
+            },
+            "petitioner_argument": {
+              "matched": 32,
+              "predicted": 134,
+              "gold": 234,
+              "span_f1": 0.17391304347826086
+            },
+            "respondent_argument": {
+              "matched": 61,
+              "predicted": 171,
+              "gold": 217,
+              "span_f1": 0.31443298969072164
+            },
+            "reasoning": {
+              "matched": 190,
+              "predicted": 571,
+              "gold": 597,
+              "span_f1": 0.3253424657534247
+            },
+            "decision": {
+              "matched": 81,
+              "predicted": 165,
+              "gold": 122,
+              "span_f1": 0.5644599303135889
+            }
+          }
+        },
+        "parent": {
+          "tokens": 314951,
+          "token_accuracy": 0.5908220643846186,
+          "token_macro_f1": 0.5843880972032723,
+          "exact_labeled_spans": {
+            "matched": 1364,
+            "predicted": 2993,
+            "gold": 3274,
+            "precision": 0.4557300367524223,
+            "recall": 0.4166157605375687,
+            "f1": 0.43529599489388865
+          },
+          "exact_role_boundaries": {
+            "matched": 1995,
+            "predicted": 2921,
+            "gold": 3202,
+            "precision": 0.6829852790140363,
+            "recall": 0.623048094940662,
+            "f1": 0.651641352278295
+          },
+          "token_confusion": [
+            [
+              4529,
+              8993,
+              1939,
+              2215,
+              1981,
+              69339,
+              1740
+            ],
+            [
+              781,
+              64516,
+              2782,
+              546,
+              211,
+              4667,
+              535
+            ],
+            [
+              58,
+              1375,
+              5854,
+              0,
+              0,
+              416,
+              10
+            ],
+            [
+              494,
+              2622,
+              264,
+              22048,
+              4114,
+              2250,
+              0
+            ],
+            [
+              32,
+              374,
+              255,
+              2298,
+              14815,
+              4612,
+              0
+            ],
+            [
+              2529,
+              2360,
+              1735,
+              683,
+              988,
+              68417,
+              4866
+            ],
+            [
+              162,
+              23,
+              0,
+              0,
+              0,
+              622,
+              5901
+            ]
+          ],
+          "roles": {
+            "none": {
+              "matched": 740,
+              "predicted": 1372,
+              "gold": 1418,
+              "span_f1": 0.5304659498207885
+            },
+            "facts": {
+              "matched": 213,
+              "predicted": 450,
+              "gold": 576,
+              "span_f1": 0.4152046783625731
+            },
+            "issue": {
+              "matched": 55,
+              "predicted": 158,
+              "gold": 110,
+              "span_f1": 0.41044776119402987
+            },
+            "petitioner_argument": {
+              "matched": 30,
+              "predicted": 131,
+              "gold": 234,
+              "span_f1": 0.1643835616438356
+            },
+            "respondent_argument": {
+              "matched": 55,
+              "predicted": 153,
+              "gold": 217,
+              "span_f1": 0.2972972972972973
+            },
+            "reasoning": {
+              "matched": 190,
+              "predicted": 569,
+              "gold": 597,
+              "span_f1": 0.3259005145797599
+            },
+            "decision": {
+              "matched": 81,
+              "predicted": 160,
+              "gold": 122,
+              "span_f1": 0.574468085106383
+            }
+          }
+        },
+        "gap_ci95": {
+          "exact_span_f1": [
+            -0.006717312584792338,
+            0.007504172185159912
+          ],
+          "token_accuracy": [
+            -0.011296885698604476,
+            0.0026453963812739663
+          ]
+        }
+      },
+      "balanced": {
+        "cases": 72,
+        "candidate": {
+          "tokens": 314951,
+          "token_accuracy": 0.6486342319916432,
+          "token_macro_f1": 0.6437664743004076,
+          "exact_labeled_spans": {
+            "matched": 1403,
+            "predicted": 3158,
+            "gold": 3274,
+            "precision": 0.44426852438252057,
+            "recall": 0.4285277947464875,
+            "f1": 0.4362562189054726
+          },
+          "exact_role_boundaries": {
+            "matched": 2068,
+            "predicted": 3086,
+            "gold": 3202,
+            "precision": 0.6701231367465975,
+            "recall": 0.6458463460337289,
+            "f1": 0.6577608142493638
+          },
+          "token_confusion": [
+            [
+              31553,
+              7583,
+              1989,
+              2735,
+              3460,
+              41775,
+              1641
+            ],
+            [
+              3907,
+              61799,
+              2513,
+              1096,
+              707,
+              3450,
+              566
+            ],
+            [
+              98,
+              1600,
+              5780,
+              41,
+              0,
+              194,
+              0
+            ],
+            [
+              1424,
+              960,
+              153,
+              23185,
+              5230,
+              840,
+              0
+            ],
+            [
+              359,
+              374,
+              134,
+              2366,
+              17356,
+              1797,
+              0
+            ],
+            [
+              10837,
+              2642,
+              1792,
+              1144,
+              1847,
+              58820,
+              4496
+            ],
+            [
+              166,
+              23,
+              75,
+              55,
+              0,
+              594,
+              5795
+            ]
+          ],
+          "roles": {
+            "none": {
+              "matched": 745,
+              "predicted": 1442,
+              "gold": 1418,
+              "span_f1": 0.5209790209790209
+            },
+            "facts": {
+              "matched": 211,
+              "predicted": 456,
+              "gold": 576,
+              "span_f1": 0.40891472868217055
+            },
+            "issue": {
+              "matched": 60,
+              "predicted": 179,
+              "gold": 110,
+              "span_f1": 0.41522491349480967
+            },
+            "petitioner_argument": {
+              "matched": 31,
+              "predicted": 149,
+              "gold": 234,
+              "span_f1": 0.1618798955613577
+            },
+            "respondent_argument": {
+              "matched": 68,
+              "predicted": 197,
+              "gold": 217,
+              "span_f1": 0.3285024154589372
+            },
+            "reasoning": {
+              "matched": 207,
+              "predicted": 560,
+              "gold": 597,
+              "span_f1": 0.35782195332757133
+            },
+            "decision": {
+              "matched": 81,
+              "predicted": 175,
+              "gold": 122,
+              "span_f1": 0.5454545454545454
+            }
+          }
+        },
+        "parent": {
+          "tokens": 314951,
+          "token_accuracy": 0.6486342319916432,
+          "token_macro_f1": 0.6437664743004076,
+          "exact_labeled_spans": {
+            "matched": 1403,
+            "predicted": 3158,
+            "gold": 3274,
+            "precision": 0.44426852438252057,
+            "recall": 0.4285277947464875,
+            "f1": 0.4362562189054726
+          },
+          "exact_role_boundaries": {
+            "matched": 2068,
+            "predicted": 3086,
+            "gold": 3202,
+            "precision": 0.6701231367465975,
+            "recall": 0.6458463460337289,
+            "f1": 0.6577608142493638
+          },
+          "token_confusion": [
+            [
+              31553,
+              7583,
+              1989,
+              2735,
+              3460,
+              41775,
+              1641
+            ],
+            [
+              3907,
+              61799,
+              2513,
+              1096,
+              707,
+              3450,
+              566
+            ],
+            [
+              98,
+              1600,
+              5780,
+              41,
+              0,
+              194,
+              0
+            ],
+            [
+              1424,
+              960,
+              153,
+              23185,
+              5230,
+              840,
+              0
+            ],
+            [
+              359,
+              374,
+              134,
+              2366,
+              17356,
+              1797,
+              0
+            ],
+            [
+              10837,
+              2642,
+              1792,
+              1144,
+              1847,
+              58820,
+              4496
+            ],
+            [
+              166,
+              23,
+              75,
+              55,
+              0,
+              594,
+              5795
+            ]
+          ],
+          "roles": {
+            "none": {
+              "matched": 745,
+              "predicted": 1442,
+              "gold": 1418,
+              "span_f1": 0.5209790209790209
+            },
+            "facts": {
+              "matched": 211,
+              "predicted": 456,
+              "gold": 576,
+              "span_f1": 0.40891472868217055
+            },
+            "issue": {
+              "matched": 60,
+              "predicted": 179,
+              "gold": 110,
+              "span_f1": 0.41522491349480967
+            },
+            "petitioner_argument": {
+              "matched": 31,
+              "predicted": 149,
+              "gold": 234,
+              "span_f1": 0.1618798955613577
+            },
+            "respondent_argument": {
+              "matched": 68,
+              "predicted": 197,
+              "gold": 217,
+              "span_f1": 0.3285024154589372
+            },
+            "reasoning": {
+              "matched": 207,
+              "predicted": 560,
+              "gold": 597,
+              "span_f1": 0.35782195332757133
+            },
+            "decision": {
+              "matched": 81,
+              "predicted": 175,
+              "gold": 122,
+              "span_f1": 0.5454545454545454
+            }
+          }
+        },
+        "gap_ci95": {
+          "exact_span_f1": [
+            0.0,
+            0.0
+          ],
+          "token_accuracy": [
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "independent": {
+      "exact": {
+        "cases": 127,
+        "candidate": {
+          "tokens": 588428,
+          "token_accuracy": 0.6388377167639882,
+          "token_macro_f1": 0.6539387742870294,
+          "exact_labeled_spans": {
+            "matched": 2435,
+            "predicted": 5320,
+            "gold": 5555,
+            "precision": 0.45770676691729323,
+            "recall": 0.4383438343834383,
+            "f1": 0.447816091954023
+          },
+          "exact_role_boundaries": {
+            "matched": 3479,
+            "predicted": 5193,
+            "gold": 5428,
+            "precision": 0.6699403042557288,
+            "recall": 0.6409358879882093,
+            "f1": 0.6551172206006968
+          },
+          "token_confusion": [
+            [
+              23939,
+              19468,
+              2715,
+              1721,
+              3837,
+              125409,
+              1447
+            ],
+            [
+              395,
+              113248,
+              1146,
+              1179,
+              581,
+              2105,
+              244
+            ],
+            [
+              100,
+              2890,
+              9744,
+              97,
+              0,
+              850,
+              58
+            ],
+            [
+              524,
+              3503,
+              418,
+              38165,
+              6606,
+              7452,
+              49
+            ],
+            [
+              181,
+              722,
+              155,
+              2456,
+              31621,
+              7362,
+              18
+            ],
+            [
+              3132,
+              4679,
+              894,
+              1626,
+              1274,
+              149495,
+              5264
+            ],
+            [
+              40,
+              57,
+              43,
+              19,
+              0,
+              1802,
+              9698
+            ]
+          ],
+          "roles": {
+            "none": {
+              "matched": 1298,
+              "predicted": 2443,
+              "gold": 2443,
+              "span_f1": 0.5313139582480557
+            },
+            "facts": {
+              "matched": 339,
+              "predicted": 786,
+              "gold": 794,
+              "span_f1": 0.4291139240506329
+            },
+            "issue": {
+              "matched": 120,
+              "predicted": 267,
+              "gold": 220,
+              "span_f1": 0.4928131416837782
+            },
+            "petitioner_argument": {
+              "matched": 58,
+              "predicted": 230,
+              "gold": 412,
+              "span_f1": 0.1806853582554517
+            },
+            "respondent_argument": {
+              "matched": 95,
+              "predicted": 256,
+              "gold": 354,
+              "span_f1": 0.3114754098360656
+            },
+            "reasoning": {
+              "matched": 388,
+              "predicted": 1090,
+              "gold": 1131,
+              "span_f1": 0.34939216569113013
+            },
+            "decision": {
+              "matched": 137,
+              "predicted": 248,
+              "gold": 201,
+              "span_f1": 0.6102449888641426
+            }
+          }
+        },
+        "parent": {
+          "tokens": 588428,
+          "token_accuracy": 0.6337801736151237,
+          "token_macro_f1": 0.6465842822895517,
+          "exact_labeled_spans": {
+            "matched": 2422,
+            "predicted": 5273,
+            "gold": 5555,
+            "precision": 0.4593210695998483,
+            "recall": 0.436003600360036,
+            "f1": 0.4473586996675286
+          },
+          "exact_role_boundaries": {
+            "matched": 3469,
+            "predicted": 5146,
+            "gold": 5428,
+            "precision": 0.6741158181111543,
+            "recall": 0.6390935887988209,
+            "f1": 0.6561376962360507
+          },
+          "token_confusion": [
+            [
+              20771,
+              19388,
+              2775,
+              2072,
+              4036,
+              128036,
+              1458
+            ],
+            [
+              417,
+              113505,
+              1099,
+              1254,
+              416,
+              1978,
+              229
+            ],
+            [
+              102,
+              2662,
+              9879,
+              97,
+              0,
+              941,
+              58
+            ],
+            [
+              672,
+              4308,
+              361,
+              36901,
+              7126,
+              7300,
+              49
+            ],
+            [
+              346,
+              645,
+              143,
+              2788,
+              31358,
+              7217,
+              18
+            ],
+            [
+              1633,
+              4852,
+              1129,
+              1586,
+              828,
+              150602,
+              5734
+            ],
+            [
+              40,
+              57,
+              43,
+              19,
+              0,
+              1582,
+              9918
+            ]
+          ],
+          "roles": {
+            "none": {
+              "matched": 1295,
+              "predicted": 2431,
+              "gold": 2443,
+              "span_f1": 0.5313910545752975
+            },
+            "facts": {
+              "matched": 340,
+              "predicted": 779,
+              "gold": 794,
+              "span_f1": 0.4322949777495232
+            },
+            "issue": {
+              "matched": 114,
+              "predicted": 253,
+              "gold": 220,
+              "span_f1": 0.4820295983086681
+            },
+            "petitioner_argument": {
+              "matched": 53,
+              "predicted": 220,
+              "gold": 412,
+              "span_f1": 0.16772151898734178
+            },
+            "respondent_argument": {
+              "matched": 95,
+              "predicted": 245,
+              "gold": 354,
+              "span_f1": 0.31719532554257096
+            },
+            "reasoning": {
+              "matched": 391,
+              "predicted": 1098,
+              "gold": 1131,
+              "span_f1": 0.35082996859578286
+            },
+            "decision": {
+              "matched": 134,
+              "predicted": 247,
+              "gold": 201,
+              "span_f1": 0.5982142857142857
+            }
+          }
+        },
+        "gap_ci95": {
+          "exact_span_f1": [
+            -0.0036506822392595225,
+            0.0048445681018627704
+          ],
+          "token_accuracy": [
+            -0.0024043265117174163,
+            0.01232123841383994
+          ]
+        }
+      },
+      "balanced": {
+        "cases": 127,
+        "candidate": {
+          "tokens": 588428,
+          "token_accuracy": 0.6792147892350466,
+          "token_macro_f1": 0.6878795028117866,
+          "exact_labeled_spans": {
+            "matched": 2447,
+            "predicted": 5445,
+            "gold": 5555,
+            "precision": 0.44940312213039485,
+            "recall": 0.4405040504050405,
+            "f1": 0.4449090909090909
+          },
+          "exact_role_boundaries": {
+            "matched": 3530,
+            "predicted": 5318,
+            "gold": 5428,
+            "precision": 0.6637833772094772,
+            "recall": 0.6503316138540899,
+            "f1": 0.6569886469383956
+          },
+          "token_confusion": [
+            [
+              72509,
+              16196,
+              3271,
+              3962,
+              5323,
+              75980,
+              1295
+            ],
+            [
+              2337,
+              110404,
+              1174,
+              1886,
+              837,
+              2016,
+              244
+            ],
+            [
+              499,
+              2981,
+              9638,
+              97,
+              0,
+              466,
+              58
+            ],
+            [
+              1474,
+              1799,
+              420,
+              39748,
+              7597,
+              5630,
+              49
+            ],
+            [
+              1391,
+              382,
+              169,
+              3141,
+              33288,
+              4126,
+              18
+            ],
+            [
+              25235,
+              4720,
+              1389,
+              2848,
+              2228,
+              124380,
+              5564
+            ],
+            [
+              102,
+              57,
+              43,
+              19,
+              0,
+              1736,
+              9702
+            ]
+          ],
+          "roles": {
+            "none": {
+              "matched": 1274,
+              "predicted": 2472,
+              "gold": 2443,
+              "span_f1": 0.5184130213631739
+            },
+            "facts": {
+              "matched": 337,
+              "predicted": 796,
+              "gold": 794,
+              "span_f1": 0.4238993710691824
+            },
+            "issue": {
+              "matched": 120,
+              "predicted": 291,
+              "gold": 220,
+              "span_f1": 0.46966731898238745
+            },
+            "petitioner_argument": {
+              "matched": 62,
+              "predicted": 279,
+              "gold": 412,
+              "span_f1": 0.17945007235890015
+            },
+            "respondent_argument": {
+              "matched": 102,
+              "predicted": 294,
+              "gold": 354,
+              "span_f1": 0.3148148148148148
+            },
+            "reasoning": {
+              "matched": 408,
+              "predicted": 1053,
+              "gold": 1131,
+              "span_f1": 0.37362637362637363
+            },
+            "decision": {
+              "matched": 144,
+              "predicted": 260,
+              "gold": 201,
+              "span_f1": 0.6247288503253796
+            }
+          }
+        },
+        "parent": {
+          "tokens": 588428,
+          "token_accuracy": 0.6792147892350466,
+          "token_macro_f1": 0.6878795028117866,
+          "exact_labeled_spans": {
+            "matched": 2447,
+            "predicted": 5445,
+            "gold": 5555,
+            "precision": 0.44940312213039485,
+            "recall": 0.4405040504050405,
+            "f1": 0.4449090909090909
+          },
+          "exact_role_boundaries": {
+            "matched": 3530,
+            "predicted": 5318,
+            "gold": 5428,
+            "precision": 0.6637833772094772,
+            "recall": 0.6503316138540899,
+            "f1": 0.6569886469383956
+          },
+          "token_confusion": [
+            [
+              72509,
+              16196,
+              3271,
+              3962,
+              5323,
+              75980,
+              1295
+            ],
+            [
+              2337,
+              110404,
+              1174,
+              1886,
+              837,
+              2016,
+              244
+            ],
+            [
+              499,
+              2981,
+              9638,
+              97,
+              0,
+              466,
+              58
+            ],
+            [
+              1474,
+              1799,
+              420,
+              39748,
+              7597,
+              5630,
+              49
+            ],
+            [
+              1391,
+              382,
+              169,
+              3141,
+              33288,
+              4126,
+              18
+            ],
+            [
+              25235,
+              4720,
+              1389,
+              2848,
+              2228,
+              124380,
+              5564
+            ],
+            [
+              102,
+              57,
+              43,
+              19,
+              0,
+              1736,
+              9702
+            ]
+          ],
+          "roles": {
+            "none": {
+              "matched": 1274,
+              "predicted": 2472,
+              "gold": 2443,
+              "span_f1": 0.5184130213631739
+            },
+            "facts": {
+              "matched": 337,
+              "predicted": 796,
+              "gold": 794,
+              "span_f1": 0.4238993710691824
+            },
+            "issue": {
+              "matched": 120,
+              "predicted": 291,
+              "gold": 220,
+              "span_f1": 0.46966731898238745
+            },
+            "petitioner_argument": {
+              "matched": 62,
+              "predicted": 279,
+              "gold": 412,
+              "span_f1": 0.17945007235890015
+            },
+            "respondent_argument": {
+              "matched": 102,
+              "predicted": 294,
+              "gold": 354,
+              "span_f1": 0.3148148148148148
+            },
+            "reasoning": {
+              "matched": 408,
+              "predicted": 1053,
+              "gold": 1131,
+              "span_f1": 0.37362637362637363
+            },
+            "decision": {
+              "matched": 144,
+              "predicted": 260,
+              "gold": 201,
+              "span_f1": 0.6247288503253796
+            }
+          }
+        },
+        "gap_ci95": {
+          "exact_span_f1": [
+            0.0,
+            0.0
+          ],
+          "token_accuracy": [
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "test": {
+      "exact": {
+        "cases": 712,
+        "candidate": {
+          "tokens": 4311245,
+          "token_accuracy": 0.5220454880202818,
+          "token_macro_f1": 0.5488651961775323,
+          "exact_labeled_spans": {
+            "matched": 7341,
+            "predicted": 19617,
+            "gold": 28879,
+            "precision": 0.37421624101544576,
+            "recall": 0.25419855258146057,
+            "f1": 0.3027466182777961
+          },
+          "exact_role_boundaries": {
+            "matched": 11662,
+            "predicted": 18905,
+            "gold": 28167,
+            "precision": 0.6168738428987041,
+            "recall": 0.41403060318812795,
+            "f1": 0.49549626104690686
+          },
+          "token_confusion": [
+            [
+              103703,
+              201812,
+              20622,
+              40828,
+              25991,
+              1166802,
+              10672
+            ],
+            [
+              9478,
+              653382,
+              11791,
+              8000,
+              2617,
+              36755,
+              456
+            ],
+            [
+              2294,
+              21613,
+              44250,
+              457,
+              162,
+              6386,
+              346
+            ],
+            [
+              6663,
+              45554,
+              1394,
+              231400,
+              50355,
+              98098,
+              288
+            ],
+            [
+              2276,
+              24753,
+              964,
+              41183,
+              148307,
+              84209,
+              225
+            ],
+            [
+              15284,
+              47454,
+              5372,
+              13098,
+              8898,
+              1004220,
+              27206
+            ],
+            [
+              3329,
+              783,
+              355,
+              677,
+              745,
+              14334,
+              65404
+            ]
+          ],
+          "roles": {
+            "none": {
+              "matched": 3853,
+              "predicted": 8012,
+              "gold": 12373,
+              "span_f1": 0.37802305616875154
+            },
+            "facts": {
+              "matched": 794,
+              "predicted": 2742,
+              "gold": 3543,
+              "span_f1": 0.2526650755767701
+            },
+            "issue": {
+              "matched": 351,
+              "predicted": 1181,
+              "gold": 1034,
+              "span_f1": 0.31693002257336345
+            },
+            "petitioner_argument": {
+              "matched": 243,
+              "predicted": 1251,
+              "gold": 2658,
+              "span_f1": 0.12432847275518036
+            },
+            "respondent_argument": {
+              "matched": 346,
+              "predicted": 1182,
+              "gold": 1985,
+              "span_f1": 0.21850331544047996
+            },
+            "reasoning": {
+              "matched": 1231,
+              "predicted": 4128,
+              "gold": 6103,
+              "span_f1": 0.2406411885446193
+            },
+            "decision": {
+              "matched": 523,
+              "predicted": 1121,
+              "gold": 1183,
+              "span_f1": 0.4539930555555556
+            }
+          }
+        },
+        "parent": {
+          "tokens": 4311245,
+          "token_accuracy": 0.5194995877061035,
+          "token_macro_f1": 0.5481296586866237,
+          "exact_labeled_spans": {
+            "matched": 7335,
+            "predicted": 19808,
+            "gold": 28879,
+            "precision": 0.3703049273021002,
+            "recall": 0.25399078915474915,
+            "f1": 0.30131246533982375
+          },
+          "exact_role_boundaries": {
+            "matched": 11738,
+            "predicted": 19096,
+            "gold": 28167,
+            "precision": 0.6146837033933809,
+            "recall": 0.4167287961089218,
+            "f1": 0.49670989992171466
+          },
+          "token_confusion": [
+            [
+              85671,
+              207005,
+              20842,
+              38969,
+              26259,
+              1180926,
+              10758
+            ],
+            [
+              5538,
+              655308,
+              11870,
+              8030,
+              2638,
+              38436,
+              659
+            ],
+            [
+              2086,
+              20635,
+              45349,
+              488,
+              115,
+              6489,
+              346
+            ],
+            [
+              5130,
+              46665,
+              1155,
+              231326,
+              46441,
+              102746,
+              289
+            ],
+            [
+              2048,
+              24942,
+              986,
+              40758,
+              149980,
+              82990,
+              213
+            ],
+            [
+              10023,
+              48539,
+              5021,
+              14038,
+              9302,
+              1006045,
+              28564
+            ],
+            [
+              2396,
+              876,
+              285,
+              662,
+              739,
+              14658,
+              66011
+            ]
+          ],
+          "roles": {
+            "none": {
+              "matched": 3837,
+              "predicted": 8058,
+              "gold": 12373,
+              "span_f1": 0.37560569722480547
+            },
+            "facts": {
+              "matched": 802,
+              "predicted": 2765,
+              "gold": 3543,
+              "span_f1": 0.25428027901078
+            },
+            "issue": {
+              "matched": 345,
+              "predicted": 1121,
+              "gold": 1034,
+              "span_f1": 0.32018561484918795
+            },
+            "petitioner_argument": {
+              "matched": 247,
+              "predicted": 1291,
+              "gold": 2658,
+              "span_f1": 0.12509496074955684
+            },
+            "respondent_argument": {
+              "matched": 345,
+              "predicted": 1166,
+              "gold": 1985,
+              "span_f1": 0.21897810218978103
+            },
+            "reasoning": {
+              "matched": 1243,
+              "predicted": 4305,
+              "gold": 6103,
+              "span_f1": 0.23885472713297465
+            },
+            "decision": {
+              "matched": 516,
+              "predicted": 1102,
+              "gold": 1183,
+              "span_f1": 0.45164113785557986
+            }
+          }
+        },
+        "gap_ci95": {
+          "exact_span_f1": [
+            -0.00046623245333658736,
+            0.00338128265800487
+          ],
+          "token_accuracy": [
+            -0.0011745119357903816,
+            0.0065104172869301265
+          ]
+        }
+      },
+      "balanced": {
+        "cases": 712,
+        "candidate": {
+          "tokens": 4311245,
+          "token_accuracy": 0.6060993982016796,
+          "token_macro_f1": 0.6076598252368678,
+          "exact_labeled_spans": {
+            "matched": 7434,
+            "predicted": 22831,
+            "gold": 28879,
+            "precision": 0.32560991634181596,
+            "recall": 0.2574188856954881,
+            "f1": 0.28752659060143104
+          },
+          "exact_role_boundaries": {
+            "matched": 12573,
+            "predicted": 22119,
+            "gold": 28167,
+            "precision": 0.5684253356842534,
+            "recall": 0.4463734156992225,
+            "f1": 0.5000596587519389
+          },
+          "token_confusion": [
+            [
+              629643,
+              158184,
+              24359,
+              81363,
+              52072,
+              614022,
+              10787
+            ],
+            [
+              34401,
+              629190,
+              13172,
+              18413,
+              5248,
+              21203,
+              852
+            ],
+            [
+              5507,
+              19954,
+              45363,
+              753,
+              280,
+              3293,
+              358
+            ],
+            [
+              29051,
+              30484,
+              2068,
+              268145,
+              60815,
+              42830,
+              359
+            ],
+            [
+              19741,
+              16363,
+              1207,
+              55880,
+              172725,
+              35651,
+              350
+            ],
+            [
+              179970,
+              38880,
+              7965,
+              36871,
+              26222,
+              804655,
+              26969
+            ],
+            [
+              5482,
+              469,
+              391,
+              1044,
+              1016,
+              13903,
+              63322
+            ]
+          ],
+          "roles": {
+            "none": {
+              "matched": 3824,
+              "predicted": 9117,
+              "gold": 12373,
+              "span_f1": 0.3558864588180549
+            },
+            "facts": {
+              "matched": 807,
+              "predicted": 2882,
+              "gold": 3543,
+              "span_f1": 0.25120622568093387
+            },
+            "issue": {
+              "matched": 374,
+              "predicted": 1423,
+              "gold": 1034,
+              "span_f1": 0.30443630443630443
+            },
+            "petitioner_argument": {
+              "matched": 298,
+              "predicted": 2081,
+              "gold": 2658,
+              "span_f1": 0.125764929309981
+            },
+            "respondent_argument": {
+              "matched": 376,
+              "predicted": 1598,
+              "gold": 1985,
+              "span_f1": 0.20987998883617082
+            },
+            "reasoning": {
+              "matched": 1241,
+              "predicted": 4549,
+              "gold": 6103,
+              "span_f1": 0.23300788584303417
+            },
+            "decision": {
+              "matched": 514,
+              "predicted": 1181,
+              "gold": 1183,
+              "span_f1": 0.43485617597292725
+            }
+          }
+        },
+        "parent": {
+          "tokens": 4311245,
+          "token_accuracy": 0.6060993982016796,
+          "token_macro_f1": 0.6076598252368678,
+          "exact_labeled_spans": {
+            "matched": 7434,
+            "predicted": 22831,
+            "gold": 28879,
+            "precision": 0.32560991634181596,
+            "recall": 0.2574188856954881,
+            "f1": 0.28752659060143104
+          },
+          "exact_role_boundaries": {
+            "matched": 12573,
+            "predicted": 22119,
+            "gold": 28167,
+            "precision": 0.5684253356842534,
+            "recall": 0.4463734156992225,
+            "f1": 0.5000596587519389
+          },
+          "token_confusion": [
+            [
+              629643,
+              158184,
+              24359,
+              81363,
+              52072,
+              614022,
+              10787
+            ],
+            [
+              34401,
+              629190,
+              13172,
+              18413,
+              5248,
+              21203,
+              852
+            ],
+            [
+              5507,
+              19954,
+              45363,
+              753,
+              280,
+              3293,
+              358
+            ],
+            [
+              29051,
+              30484,
+              2068,
+              268145,
+              60815,
+              42830,
+              359
+            ],
+            [
+              19741,
+              16363,
+              1207,
+              55880,
+              172725,
+              35651,
+              350
+            ],
+            [
+              179970,
+              38880,
+              7965,
+              36871,
+              26222,
+              804655,
+              26969
+            ],
+            [
+              5482,
+              469,
+              391,
+              1044,
+              1016,
+              13903,
+              63322
+            ]
+          ],
+          "roles": {
+            "none": {
+              "matched": 3824,
+              "predicted": 9117,
+              "gold": 12373,
+              "span_f1": 0.3558864588180549
+            },
+            "facts": {
+              "matched": 807,
+              "predicted": 2882,
+              "gold": 3543,
+              "span_f1": 0.25120622568093387
+            },
+            "issue": {
+              "matched": 374,
+              "predicted": 1423,
+              "gold": 1034,
+              "span_f1": 0.30443630443630443
+            },
+            "petitioner_argument": {
+              "matched": 298,
+              "predicted": 2081,
+              "gold": 2658,
+              "span_f1": 0.125764929309981
+            },
+            "respondent_argument": {
+              "matched": 376,
+              "predicted": 1598,
+              "gold": 1985,
+              "span_f1": 0.20987998883617082
+            },
+            "reasoning": {
+              "matched": 1241,
+              "predicted": 4549,
+              "gold": 6103,
+              "span_f1": 0.23300788584303417
+            },
+            "decision": {
+              "matched": 514,
+              "predicted": 1181,
+              "gold": 1183,
+              "span_f1": 0.43485617597292725
+            }
+          }
+        },
+        "gap_ci95": {
+          "exact_span_f1": [
+            0.0,
+            0.0
+          ],
+          "token_accuracy": [
+            0.0,
+            0.0
+          ]
+        }
+      }
+    }
+  }
+}

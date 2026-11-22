@@ -1,0 +1,19 @@
+{
+  "method": "A isolated",
+  "context_left": 0,
+  "parent": "a",
+  "sticky": 0.5,
+  "order": 0,
+  "neighbor": 0,
+  "source_head_sha256": "64ca064fb2faefc250afe73ba88fb86da36a3bafdca5676cb7a8c7f2a8727e75",
+  "labels": [
+    "none",
+    "facts",
+    "issue",
+    "petitioner_argument",
+    "respondent_argument",
+    "reasoning",
+    "decision"
+  ],
+  "sha256": "f2ffcb6ecb32e5b900ab6e9ba8a1e24cd58aa56f4785e0eea2c3457743783ea0"
+}

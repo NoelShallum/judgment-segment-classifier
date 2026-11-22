@@ -1,0 +1,246 @@
+{
+  "source_sha256": "5e1a2f9a03fd7581d4585ef97f55787d058afbed063b5e03b6e3611cbe45f9ee",
+  "judgments": 712,
+  "rows": 149868,
+  "definition": "Exact stripped input text, with the target and neighbor positions preserved. Radius uses available sentences in the same judgment.",
+  "modes": {
+    "isolated sentence, exact": {
+      "rows": 149868,
+      "distinct_inputs": 139435,
+      "conflicting_inputs": 668,
+      "rows_in_conflicting_inputs": 9070,
+      "minimum_errors": 2167,
+      "accuracy_ceiling": 0.9855406090693143,
+      "most_frequent_role_conflicts": [
+        {
+          "roles": [
+            "None",
+            "Reasoning"
+          ],
+          "inputs": 326
+        },
+        {
+          "roles": [
+            "Arguments of Petitioner",
+            "None"
+          ],
+          "inputs": 237
+        },
+        {
+          "roles": [
+            "Arguments of Petitioner",
+            "Reasoning"
+          ],
+          "inputs": 94
+        },
+        {
+          "roles": [
+            "Facts",
+            "None"
+          ],
+          "inputs": 91
+        },
+        {
+          "roles": [
+            "Arguments of Respondent",
+            "None"
+          ],
+          "inputs": 77
+        },
+        {
+          "roles": [
+            "Decision",
+            "None"
+          ],
+          "inputs": 57
+        },
+        {
+          "roles": [
+            "Arguments of Respondent",
+            "Reasoning"
+          ],
+          "inputs": 52
+        }
+      ]
+    },
+    "isolated sentence, casefolded": {
+      "rows": 149868,
+      "distinct_inputs": 139084,
+      "conflicting_inputs": 721,
+      "rows_in_conflicting_inputs": 9303,
+      "minimum_errors": 2257,
+      "accuracy_ceiling": 0.9849400806042651,
+      "most_frequent_role_conflicts": [
+        {
+          "roles": [
+            "None",
+            "Reasoning"
+          ],
+          "inputs": 363
+        },
+        {
+          "roles": [
+            "Arguments of Petitioner",
+            "None"
+          ],
+          "inputs": 248
+        },
+        {
+          "roles": [
+            "Arguments of Petitioner",
+            "Reasoning"
+          ],
+          "inputs": 108
+        },
+        {
+          "roles": [
+            "Facts",
+            "None"
+          ],
+          "inputs": 94
+        },
+        {
+          "roles": [
+            "Arguments of Respondent",
+            "None"
+          ],
+          "inputs": 86
+        },
+        {
+          "roles": [
+            "Decision",
+            "None"
+          ],
+          "inputs": 60
+        },
+        {
+          "roles": [
+            "Arguments of Petitioner",
+            "Facts"
+          ],
+          "inputs": 54
+        }
+      ]
+    },
+    "one neighbor per side": {
+      "rows": 149868,
+      "distinct_inputs": 149310,
+      "conflicting_inputs": 120,
+      "rows_in_conflicting_inputs": 250,
+      "minimum_errors": 120,
+      "accuracy_ceiling": 0.9991992953799343,
+      "most_frequent_role_conflicts": [
+        {
+          "roles": [
+            "None",
+            "Reasoning"
+          ],
+          "inputs": 79
+        },
+        {
+          "roles": [
+            "Arguments of Petitioner",
+            "None"
+          ],
+          "inputs": 17
+        },
+        {
+          "roles": [
+            "Arguments of Respondent",
+            "Reasoning"
+          ],
+          "inputs": 7
+        },
+        {
+          "roles": [
+            "Facts",
+            "None"
+          ],
+          "inputs": 6
+        },
+        {
+          "roles": [
+            "Arguments of Respondent",
+            "None"
+          ],
+          "inputs": 4
+        },
+        {
+          "roles": [
+            "Arguments of Petitioner",
+            "Reasoning"
+          ],
+          "inputs": 4
+        },
+        {
+          "roles": [
+            "Decision",
+            "None"
+          ],
+          "inputs": 2
+        }
+      ]
+    },
+    "two neighbors per side": {
+      "rows": 149868,
+      "distinct_inputs": 149607,
+      "conflicting_inputs": 67,
+      "rows_in_conflicting_inputs": 136,
+      "minimum_errors": 67,
+      "accuracy_ceiling": 0.9995529399204633,
+      "most_frequent_role_conflicts": [
+        {
+          "roles": [
+            "None",
+            "Reasoning"
+          ],
+          "inputs": 50
+        },
+        {
+          "roles": [
+            "Arguments of Petitioner",
+            "None"
+          ],
+          "inputs": 8
+        },
+        {
+          "roles": [
+            "Arguments of Respondent",
+            "Reasoning"
+          ],
+          "inputs": 6
+        },
+        {
+          "roles": [
+            "Arguments of Respondent",
+            "None"
+          ],
+          "inputs": 1
+        },
+        {
+          "roles": [
+            "Decision",
+            "None"
+          ],
+          "inputs": 1
+        },
+        {
+          "roles": [
+            "Facts",
+            "None"
+          ],
+          "inputs": 1
+        }
+      ]
+    },
+    "full judgment with target position": {
+      "rows": 149868,
+      "distinct_inputs": 149868,
+      "conflicting_inputs": 0,
+      "rows_in_conflicting_inputs": 0,
+      "minimum_errors": 0,
+      "accuracy_ceiling": 1.0,
+      "most_frequent_role_conflicts": []
+    }
+  }
+}

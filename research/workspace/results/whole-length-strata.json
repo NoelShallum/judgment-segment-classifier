@@ -1,0 +1,281 @@
+{
+  "protocol": "Descriptive post hoc strata by the number of whitespace-delimited words counted by the corpus scorer. No model selection or inference change uses these cutoffs. Identical case ordering and label support verified across profiles. The source arrays contain the case-level counts for the original, gain-zero parents.",
+  "profiles": {
+    "select": {
+      "exact": {
+        "overall": {
+          "judgments": 64,
+          "whitespace_tokens": 286656,
+          "matched": 1092,
+          "predicted_spans": 2343,
+          "gold_spans": 2655,
+          "exact_f1": 0.4369747899159664,
+          "token_accuracy": 0.6115692676936816
+        },
+        "median_whitespace_tokens": 4185.0,
+        "maximum_whitespace_tokens": 12338,
+        "bands": {
+          "0": {
+            "upper_exclusive": 2000,
+            "judgments": 12,
+            "whitespace_tokens": 17266,
+            "matched": 102,
+            "predicted_spans": 196,
+            "gold_spans": 202,
+            "exact_f1": 0.5125628140703518,
+            "token_accuracy": 0.711398123479671
+          },
+          "2000": {
+            "upper_exclusive": 8000,
+            "judgments": 45,
+            "whitespace_tokens": 197135,
+            "matched": 831,
+            "predicted_spans": 1664,
+            "gold_spans": 1932,
+            "exact_f1": 0.4621802002224694,
+            "token_accuracy": 0.6480990184391406
+          },
+          "8000": {
+            "upper_exclusive": null,
+            "judgments": 7,
+            "whitespace_tokens": 72255,
+            "matched": 159,
+            "predicted_spans": 483,
+            "gold_spans": 521,
+            "exact_f1": 0.31673306772908366,
+            "token_accuracy": 0.4880492699467165
+          }
+        }
+      },
+      "balanced": {
+        "overall": {
+          "judgments": 64,
+          "whitespace_tokens": 286656,
+          "matched": 1104,
+          "predicted_spans": 2375,
+          "gold_spans": 2655,
+          "exact_f1": 0.4389662027833002,
+          "token_accuracy": 0.6797799453002903
+        },
+        "median_whitespace_tokens": 4185.0,
+        "maximum_whitespace_tokens": 12338,
+        "bands": {
+          "0": {
+            "upper_exclusive": 2000,
+            "judgments": 12,
+            "whitespace_tokens": 17266,
+            "matched": 105,
+            "predicted_spans": 200,
+            "gold_spans": 202,
+            "exact_f1": 0.5223880597014925,
+            "token_accuracy": 0.7107031159504228
+          },
+          "2000": {
+            "upper_exclusive": 8000,
+            "judgments": 45,
+            "whitespace_tokens": 197135,
+            "matched": 845,
+            "predicted_spans": 1707,
+            "gold_spans": 1932,
+            "exact_f1": 0.464413300357241,
+            "token_accuracy": 0.6989322038197174
+          },
+          "8000": {
+            "upper_exclusive": null,
+            "judgments": 7,
+            "whitespace_tokens": 72255,
+            "matched": 154,
+            "predicted_spans": 468,
+            "gold_spans": 521,
+            "exact_f1": 0.3114256825075834,
+            "token_accuracy": 0.6201370147394644
+          }
+        }
+      }
+    },
+    "confirm": {
+      "exact": {
+        "overall": {
+          "judgments": 64,
+          "whitespace_tokens": 308052,
+          "matched": 1196,
+          "predicted_spans": 2625,
+          "gold_spans": 2933,
+          "exact_f1": 0.4303706369197553,
+          "token_accuracy": 0.615172113798969
+        },
+        "median_whitespace_tokens": 3048.5,
+        "maximum_whitespace_tokens": 21381,
+        "bands": {
+          "0": {
+            "upper_exclusive": 2000,
+            "judgments": 10,
+            "whitespace_tokens": 15503,
+            "matched": 86,
+            "predicted_spans": 197,
+            "gold_spans": 203,
+            "exact_f1": 0.43,
+            "token_accuracy": 0.7099916145262207
+          },
+          "2000": {
+            "upper_exclusive": 8000,
+            "judgments": 46,
+            "whitespace_tokens": 175115,
+            "matched": 841,
+            "predicted_spans": 1755,
+            "gold_spans": 1771,
+            "exact_f1": 0.4770277935337493,
+            "token_accuracy": 0.6105073808640037
+          },
+          "8000": {
+            "upper_exclusive": null,
+            "judgments": 8,
+            "whitespace_tokens": 117434,
+            "matched": 269,
+            "predicted_spans": 673,
+            "gold_spans": 959,
+            "exact_f1": 0.32965686274509803,
+            "token_accuracy": 0.6096105046238738
+          }
+        }
+      },
+      "balanced": {
+        "overall": {
+          "judgments": 64,
+          "whitespace_tokens": 308052,
+          "matched": 1201,
+          "predicted_spans": 2638,
+          "gold_spans": 2933,
+          "exact_f1": 0.4311613713875426,
+          "token_accuracy": 0.6813622375443107
+        },
+        "median_whitespace_tokens": 3048.5,
+        "maximum_whitespace_tokens": 21381,
+        "bands": {
+          "0": {
+            "upper_exclusive": 2000,
+            "judgments": 10,
+            "whitespace_tokens": 15503,
+            "matched": 82,
+            "predicted_spans": 206,
+            "gold_spans": 203,
+            "exact_f1": 0.40097799511002447,
+            "token_accuracy": 0.7111526801264272
+          },
+          "2000": {
+            "upper_exclusive": 8000,
+            "judgments": 46,
+            "whitespace_tokens": 175115,
+            "matched": 831,
+            "predicted_spans": 1750,
+            "gold_spans": 1771,
+            "exact_f1": 0.47202499289974437,
+            "token_accuracy": 0.6941895325928675
+          },
+          "8000": {
+            "upper_exclusive": null,
+            "judgments": 8,
+            "whitespace_tokens": 117434,
+            "matched": 288,
+            "predicted_spans": 682,
+            "gold_spans": 959,
+            "exact_f1": 0.3510054844606947,
+            "token_accuracy": 0.6583016843503585
+          }
+        }
+      }
+    },
+    "test": {
+      "exact": {
+        "overall": {
+          "judgments": 712,
+          "whitespace_tokens": 4311245,
+          "matched": 6681,
+          "predicted_spans": 17848,
+          "gold_spans": 28879,
+          "exact_f1": 0.285958867464207,
+          "token_accuracy": 0.5033453213630865
+        },
+        "median_whitespace_tokens": 4371.0,
+        "maximum_whitespace_tokens": 59996,
+        "bands": {
+          "0": {
+            "upper_exclusive": 2000,
+            "judgments": 89,
+            "whitespace_tokens": 130071,
+            "matched": 696,
+            "predicted_spans": 1369,
+            "gold_spans": 1629,
+            "exact_f1": 0.46430953969312877,
+            "token_accuracy": 0.6816431026131882
+          },
+          "2000": {
+            "upper_exclusive": 8000,
+            "judgments": 475,
+            "whitespace_tokens": 2062355,
+            "matched": 4491,
+            "predicted_spans": 11021,
+            "gold_spans": 15756,
+            "exact_f1": 0.3354371288792621,
+            "token_accuracy": 0.5711572449941935
+          },
+          "8000": {
+            "upper_exclusive": null,
+            "judgments": 148,
+            "whitespace_tokens": 2118819,
+            "matched": 1494,
+            "predicted_spans": 5458,
+            "gold_spans": 11494,
+            "exact_f1": 0.17626238791882964,
+            "token_accuracy": 0.4263950814109181
+          }
+        }
+      },
+      "balanced": {
+        "overall": {
+          "judgments": 712,
+          "whitespace_tokens": 4311245,
+          "matched": 6844,
+          "predicted_spans": 20330,
+          "gold_spans": 28879,
+          "exact_f1": 0.2781604990956939,
+          "token_accuracy": 0.59754572055172
+        },
+        "median_whitespace_tokens": 4371.0,
+        "maximum_whitespace_tokens": 59996,
+        "bands": {
+          "0": {
+            "upper_exclusive": 2000,
+            "judgments": 89,
+            "whitespace_tokens": 130071,
+            "matched": 708,
+            "predicted_spans": 1429,
+            "gold_spans": 1629,
+            "exact_f1": 0.4630477436232832,
+            "token_accuracy": 0.6890928800424384
+          },
+          "2000": {
+            "upper_exclusive": 8000,
+            "judgments": 475,
+            "whitespace_tokens": 2062355,
+            "matched": 4564,
+            "predicted_spans": 12165,
+            "gold_spans": 15756,
+            "exact_f1": 0.32692238816661295,
+            "token_accuracy": 0.6189831527549816
+          },
+          "8000": {
+            "upper_exclusive": null,
+            "judgments": 148,
+            "whitespace_tokens": 2118819,
+            "matched": 1572,
+            "predicted_spans": 6736,
+            "gold_spans": 11494,
+            "exact_f1": 0.17246297312122874,
+            "token_accuracy": 0.5710596327482432
+          }
+        }
+      }
+    }
+  }
+}

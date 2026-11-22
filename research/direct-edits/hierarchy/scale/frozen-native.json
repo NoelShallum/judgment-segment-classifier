@@ -1,0 +1,21 @@
+{
+  "chosen": "retention",
+  "frozen_on_train_before_case_outcomes": "6f7144d4707c8e42b2d2b592db33692ce20d8221f4419a68404a42c8d2ea154b",
+  "patch_sha256": "3f23a6fc4abe4144bd863009ffcd9f03187214359c19e7859c11ccb854541ace",
+  "tensor_shapes": {
+    "emitter.hidden2tag.weight": [
+      10,
+      200
+    ],
+    "emitter.hidden2tag.bias": [
+      10
+    ],
+    "emitter.lstm.bias_ih_l0": [
+      400
+    ],
+    "emitter.lstm.bias_ih_l0_reverse": [
+      400
+    ]
+  },
+  "gradient_steps": 0
+}

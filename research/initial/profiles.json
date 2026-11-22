@@ -1,0 +1,128 @@
+{
+  "default": "compact",
+  "official_revision": "44d7925e5ab422ecf04acd5dcbb0b62a6f8d8f53",
+  "profiles": {
+    "compact": {
+      "profile": "compact",
+      "source_url": "https://huggingface.co/L-NLProc/LegalSeg_InLegalBERT/resolve/44d7925e5ab422ecf04acd5dcbb0b62a6f8d8f53/InLegalBERT/InLegalBERT(i)model.safetensors",
+      "source_sha256": "bbe8af20d1524c7535b1cbe68c6d4c3c844c6cc9fccef46c03c9ff56e7c18cea",
+      "target_sha256": "64ca064fb2faefc250afe73ba88fb86da36a3bafdca5676cb7a8c7f2a8727e75",
+      "head_sha256": "7a9b1a864bf3955c106dcb9d076741904275ebd6281ca572ccd93cdc2a23a788",
+      "parameters": 109487623,
+      "fp32_checkpoint_bytes": 437974028,
+      "head_scalars": 5383,
+      "replacement_keys": [
+        "classifier.weight",
+        "classifier.bias"
+      ],
+      "labels": [
+        "none",
+        "facts",
+        "issue",
+        "petitioner_argument",
+        "respondent_argument",
+        "reasoning",
+        "decision"
+      ],
+      "sequence": true
+    },
+    "document": {
+      "profile": "document",
+      "source_url": "https://huggingface.co/L-NLProc/LegalSeg_InLegalBERT/resolve/44d7925e5ab422ecf04acd5dcbb0b62a6f8d8f53/InLegalBERT/InLegalBERT(i-2%2C%20i-1%2C%20i)model.safetensors",
+      "source_sha256": "a81f509d250f98b44872e89e10186d5dcc17d37905b69aa1d9a077fb841a62ac",
+      "target_sha256": "cc8d08fd481e1f41a2e5b9a7a668fec2405ea545e2a0abb55d8bb59e6f14b328",
+      "head_sha256": "2f73c77f6ac28d3f8eae0be5a9f03e58eae45597959d5cff78c700b942776689",
+      "parameters": 109487623,
+      "fp32_checkpoint_bytes": 437974028,
+      "head_scalars": 5383,
+      "replacement_keys": [
+        "classifier.weight",
+        "classifier.bias"
+      ],
+      "labels": [
+        "none",
+        "facts",
+        "issue",
+        "petitioner_argument",
+        "respondent_argument",
+        "reasoning",
+        "decision"
+      ],
+      "sequence": true
+    },
+    "centroid": {
+      "profile": "centroid",
+      "source_url": "https://huggingface.co/L-NLProc/LegalSeg_InLegalBERT/resolve/44d7925e5ab422ecf04acd5dcbb0b62a6f8d8f53/InLegalBERT/InLegalBERT(i)model.safetensors",
+      "source_sha256": "bbe8af20d1524c7535b1cbe68c6d4c3c844c6cc9fccef46c03c9ff56e7c18cea",
+      "target_sha256": "0a32fe939d96384c3cf3d879e5cfbce76c67172a8f3920961a99df3ba65b7edf",
+      "head_sha256": "bedecfa036e1f3ca6a98f2bc6b9596ba372c3aeb0bde632596dfbda1495533e5",
+      "parameters": 109487623,
+      "fp32_checkpoint_bytes": 437974028,
+      "head_scalars": 5383,
+      "replacement_keys": [
+        "classifier.weight",
+        "classifier.bias"
+      ],
+      "labels": [
+        "none",
+        "facts",
+        "issue",
+        "petitioner_argument",
+        "respondent_argument",
+        "reasoning",
+        "decision"
+      ],
+      "sequence": true
+    },
+    "graft": {
+      "profile": "graft",
+      "source_url": "https://huggingface.co/L-NLProc/LegalSeg_InLegalBERT/resolve/44d7925e5ab422ecf04acd5dcbb0b62a6f8d8f53/InLegalBERT/InLegalBERT(i-2%2C%20i-1%2C%20i)model.safetensors",
+      "source_sha256": "a81f509d250f98b44872e89e10186d5dcc17d37905b69aa1d9a077fb841a62ac",
+      "target_sha256": "f1b7494b1240159fc21906bdf361f9ca27039c43bc9a44be440937b4db603ceb",
+      "head_sha256": "e0fc28b115a1e4eb9805a261c8be5bcd4834f9963967267857c3374d1b79e733",
+      "parameters": 109487623,
+      "fp32_checkpoint_bytes": 437974028,
+      "head_scalars": 5383,
+      "replacement_keys": [
+        "classifier.weight",
+        "classifier.bias"
+      ],
+      "labels": [
+        "none",
+        "facts",
+        "issue",
+        "petitioner_argument",
+        "respondent_argument",
+        "reasoning",
+        "decision"
+      ],
+      "sequence": false
+    },
+    "internal": {
+      "profile": "internal",
+      "source_url": "https://huggingface.co/L-NLProc/LegalSeg_InLegalBERT/resolve/44d7925e5ab422ecf04acd5dcbb0b62a6f8d8f53/InLegalBERT/InLegalBERT(i)model.safetensors",
+      "source_sha256": "bbe8af20d1524c7535b1cbe68c6d4c3c844c6cc9fccef46c03c9ff56e7c18cea",
+      "target_sha256": "db6d79db77eb09db46b7567a1977a44a761ed3ff40f7472d12be9691a4223453",
+      "head_sha256": "9930d39fe46eec553d750c982932976283e5f55002007a977e57ab1cf4efdff2",
+      "parameters": 109487623,
+      "fp32_checkpoint_bytes": 437974028,
+      "head_scalars": 5383,
+      "replacement_keys": [
+        "classifier.weight",
+        "classifier.bias",
+        "bert.encoder.layer.11.output.dense.weight",
+        "bert.encoder.layer.11.output.dense.bias"
+      ],
+      "labels": [
+        "none",
+        "facts",
+        "issue",
+        "petitioner_argument",
+        "respondent_argument",
+        "reasoning",
+        "decision"
+      ],
+      "sequence": false
+    }
+  }
+}

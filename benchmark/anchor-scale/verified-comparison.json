@@ -1,0 +1,920 @@
+{
+  "protocol": "Pooled 72- and 96-judgment confirmations. Paired judgment percentile intervals.",
+  "draws": 5000,
+  "stages": {
+    "256": {
+      "cases": 256,
+      "rows": 49937,
+      "selection": "exact-reviewed",
+      "packet_sha256": "2b83cfb9c7eebafb4089ef4bf28610b654298a5fcef924684fc52436fbbcba31",
+      "returned_sha256": "b665da129cc6e83538f94a81e41b5567b59a36a80fab28bf8f39c95f5e153558",
+      "t4_device": {
+        "devices": [
+          "Tesla T4, 15360, 580.82.07"
+        ],
+        "torch": "2.14.1+cu130",
+        "cuda": "13.0"
+      },
+      "parity_control": {
+        "cases": [
+          "6284",
+          "5757",
+          "5395"
+        ],
+        "rows": 439,
+        "reviewed": 89,
+        "reference_differences": 0,
+        "maximum_absolute_score_error": 1.3022670631857025e-06
+      },
+      "confirmation": {
+        "all": {
+          "exact-reviewed_versus_no-anchor": {
+            "macro_f1": {
+              "absolute": 0.7293224863507735,
+              "reference": 0.7346356797714684,
+              "delta": -0.005313193420694917,
+              "delta_95ci": [
+                -0.009534336652272265,
+                -0.0009055396094237566
+              ]
+            },
+            "accuracy": {
+              "absolute": 0.7431798063252769,
+              "reference": 0.749832345288232,
+              "delta": -0.006652538962955035,
+              "delta_95ci": [
+                -0.010487600845735717,
+                -0.0025669162675649843
+              ]
+            },
+            "pair_errors": {
+              "absolute": 4139.0,
+              "reference": 4035.0,
+              "delta": 104.0,
+              "delta_95ci": [
+                17.0,
+                198.02499999999964
+              ]
+            },
+            "none_to_reasoning": {
+              "absolute": 1773.0,
+              "reference": 1619.0,
+              "delta": 154.0,
+              "delta_95ci": [
+                79.0,
+                237.0
+              ]
+            },
+            "reasoning_to_none": {
+              "absolute": 2366.0,
+              "reference": 2416.0,
+              "delta": -50.0,
+              "delta_95ci": [
+                -105.0,
+                7.0
+              ]
+            }
+          },
+          "exact-reviewed_versus_pre-review": {
+            "macro_f1": {
+              "absolute": 0.7293224863507735,
+              "reference": 0.7313953511382973,
+              "delta": -0.002072864787523887,
+              "delta_95ci": [
+                -0.0049984522637084,
+                0.00115198372052358
+              ]
+            },
+            "accuracy": {
+              "absolute": 0.7431798063252769,
+              "reference": 0.7433139300946914,
+              "delta": -0.00013412376941446258,
+              "delta_95ci": [
+                -0.0022228677904424484,
+                0.002089893244626525
+              ]
+            },
+            "pair_errors": {
+              "absolute": 4139.0,
+              "reference": 4086.0,
+              "delta": 53.0,
+              "delta_95ci": [
+                -14.0,
+                122.0
+              ]
+            },
+            "none_to_reasoning": {
+              "absolute": 1773.0,
+              "reference": 1836.0,
+              "delta": -63.0,
+              "delta_95ci": [
+                -123.0,
+                -11.0
+              ]
+            },
+            "reasoning_to_none": {
+              "absolute": 2366.0,
+              "reference": 2250.0,
+              "delta": 116.0,
+              "delta_95ci": [
+                62.0,
+                178.0
+              ]
+            }
+          },
+          "exact-reviewed_versus_doc-semantic": {
+            "macro_f1": {
+              "absolute": 0.7293224863507735,
+              "reference": 0.7244480903967645,
+              "delta": 0.004874395954008959,
+              "delta_95ci": [
+                0.002364378133410164,
+                0.007359811903448493
+              ]
+            },
+            "accuracy": {
+              "absolute": 0.7431798063252769,
+              "reference": 0.7385391239035382,
+              "delta": 0.004640682421738762,
+              "delta_95ci": [
+                0.0021812263176324317,
+                0.0071566091883523445
+              ]
+            },
+            "pair_errors": {
+              "absolute": 4139.0,
+              "reference": 4208.0,
+              "delta": -69.0,
+              "delta_95ci": [
+                -162.0,
+                24.0
+              ]
+            },
+            "none_to_reasoning": {
+              "absolute": 1773.0,
+              "reference": 1950.0,
+              "delta": -177.0,
+              "delta_95ci": [
+                -247.0,
+                -117.0
+              ]
+            },
+            "reasoning_to_none": {
+              "absolute": 2366.0,
+              "reference": 2258.0,
+              "delta": 108.0,
+              "delta_95ci": [
+                47.0,
+                182.0
+              ]
+            }
+          },
+          "no-anchor_versus_doc-semantic": {
+            "macro_f1": {
+              "absolute": 0.7346356797714684,
+              "reference": 0.7244480903967645,
+              "delta": 0.010187589374703876,
+              "delta_95ci": [
+                0.00462069672387381,
+                0.015506942607073982
+              ]
+            },
+            "accuracy": {
+              "absolute": 0.749832345288232,
+              "reference": 0.7385391239035382,
+              "delta": 0.011293221384693797,
+              "delta_95ci": [
+                0.005583329264216949,
+                0.01672022017582932
+              ]
+            },
+            "pair_errors": {
+              "absolute": 4035.0,
+              "reference": 4208.0,
+              "delta": -173.0,
+              "delta_95ci": [
+                -332.0,
+                -27.0
+              ]
+            },
+            "none_to_reasoning": {
+              "absolute": 1619.0,
+              "reference": 1950.0,
+              "delta": -331.0,
+              "delta_95ci": [
+                -465.0,
+                -220.0
+              ]
+            },
+            "reasoning_to_none": {
+              "absolute": 2416.0,
+              "reference": 2258.0,
+              "delta": 158.0,
+              "delta_95ci": [
+                61.97500000000001,
+                264.02499999999964
+              ]
+            }
+          }
+        },
+        "no_exact_train_key": {
+          "exact-reviewed_versus_no-anchor": {
+            "macro_f1": {
+              "absolute": 0.7214164488821257,
+              "reference": 0.7247893279187411,
+              "delta": -0.003372879036615317,
+              "delta_95ci": [
+                -0.008111185087125852,
+                0.0012517197576121153
+              ]
+            },
+            "accuracy": {
+              "absolute": 0.7277381001527474,
+              "reference": 0.7316599925690459,
+              "delta": -0.003921892416298478,
+              "delta_95ci": [
+                -0.008212719347530586,
+                0.00029573045886367564
+              ]
+            },
+            "pair_errors": {
+              "absolute": 2795.0,
+              "reference": 2738.0,
+              "delta": 57.0,
+              "delta_95ci": [
+                -6.0,
+                126.0
+              ]
+            },
+            "none_to_reasoning": {
+              "absolute": 1116.0,
+              "reference": 1007.0,
+              "delta": 109.0,
+              "delta_95ci": [
+                65.0,
+                161.0
+              ]
+            },
+            "reasoning_to_none": {
+              "absolute": 1679.0,
+              "reference": 1731.0,
+              "delta": -52.0,
+              "delta_95ci": [
+                -101.0,
+                -6.0
+              ]
+            }
+          },
+          "exact-reviewed_versus_pre-review": {
+            "macro_f1": {
+              "absolute": 0.7214164488821257,
+              "reference": 0.7224617047821179,
+              "delta": -0.001045255899992159,
+              "delta_95ci": [
+                -0.004239228461465105,
+                0.0023260482938060783
+              ]
+            },
+            "accuracy": {
+              "absolute": 0.7277381001527474,
+              "reference": 0.7273665524501507,
+              "delta": 0.00037154770259673064,
+              "delta_95ci": [
+                -0.0015872766588955422,
+                0.002353079136966903
+              ]
+            },
+            "pair_errors": {
+              "absolute": 2795.0,
+              "reference": 2752.0,
+              "delta": 43.0,
+              "delta_95ci": [
+                -2.0,
+                89.0
+              ]
+            },
+            "none_to_reasoning": {
+              "absolute": 1116.0,
+              "reference": 1127.0,
+              "delta": -11.0,
+              "delta_95ci": [
+                -41.0,
+                18.0
+              ]
+            },
+            "reasoning_to_none": {
+              "absolute": 1679.0,
+              "reference": 1625.0,
+              "delta": 54.0,
+              "delta_95ci": [
+                16.0,
+                96.0
+              ]
+            }
+          },
+          "exact-reviewed_versus_doc-semantic": {
+            "macro_f1": {
+              "absolute": 0.7214164488821257,
+              "reference": 0.7173144683694972,
+              "delta": 0.004101980512628556,
+              "delta_95ci": [
+                0.0010869972180073907,
+                0.0074098774682665545
+              ]
+            },
+            "accuracy": {
+              "absolute": 0.7277381001527474,
+              "reference": 0.7245593031416422,
+              "delta": 0.003178797011105239,
+              "delta_95ci": [
+                0.00012855663359143682,
+                0.006286989263135628
+              ]
+            },
+            "pair_errors": {
+              "absolute": 2795.0,
+              "reference": 2808.0,
+              "delta": -13.0,
+              "delta_95ci": [
+                -86.0,
+                69.0
+              ]
+            },
+            "none_to_reasoning": {
+              "absolute": 1116.0,
+              "reference": 1224.0,
+              "delta": -108.0,
+              "delta_95ci": [
+                -159.0,
+                -65.0
+              ]
+            },
+            "reasoning_to_none": {
+              "absolute": 1679.0,
+              "reference": 1584.0,
+              "delta": 95.0,
+              "delta_95ci": [
+                45.0,
+                163.0
+              ]
+            }
+          },
+          "no-anchor_versus_doc-semantic": {
+            "macro_f1": {
+              "absolute": 0.7247893279187411,
+              "reference": 0.7173144683694972,
+              "delta": 0.007474859549243873,
+              "delta_95ci": [
+                0.00199575565056567,
+                0.013054489698113335
+              ]
+            },
+            "accuracy": {
+              "absolute": 0.7316599925690459,
+              "reference": 0.7245593031416422,
+              "delta": 0.007100689427403717,
+              "delta_95ci": [
+                0.0013404274807694823,
+                0.013028094413272634
+              ]
+            },
+            "pair_errors": {
+              "absolute": 2738.0,
+              "reference": 2808.0,
+              "delta": -70.0,
+              "delta_95ci": [
+                -190.0,
+                49.0
+              ]
+            },
+            "none_to_reasoning": {
+              "absolute": 1007.0,
+              "reference": 1224.0,
+              "delta": -217.0,
+              "delta_95ci": [
+                -304.025,
+                -146.0
+              ]
+            },
+            "reasoning_to_none": {
+              "absolute": 1731.0,
+              "reference": 1584.0,
+              "delta": 147.0,
+              "delta_95ci": [
+                68.0,
+                243.0
+              ]
+            }
+          }
+        }
+      },
+      "reviewed_rows": 10093,
+      "t4_review_seconds": 105.25251987200136
+    },
+    "512": {
+      "cases": 512,
+      "rows": 100876,
+      "selection": "exact-reviewed",
+      "packet_sha256": "d08b4be49da36dc662ec33e2bb806518fa12f5551b0d3e357e15029684179ad0",
+      "returned_sha256": "da842cf3cbb2b8839f678d7f42468dcaf36a38bb90d65749d1dffd728892bca1",
+      "t4_device": {
+        "devices": [
+          "Tesla T4, 15360, 580.82.07"
+        ],
+        "torch": "2.14.1+cu130",
+        "cuda": "13.0"
+      },
+      "parity_control": {
+        "cases": [
+          "6284",
+          "5757",
+          "5395"
+        ],
+        "rows": 439,
+        "reviewed": 89,
+        "reference_differences": 0,
+        "maximum_absolute_score_error": 1.3022670631857025e-06
+      },
+      "confirmation": {
+        "all": {
+          "exact-reviewed_versus_no-anchor": {
+            "macro_f1": {
+              "absolute": 0.7302898060712971,
+              "reference": 0.7310049367458503,
+              "delta": -0.0007151306745531993,
+              "delta_95ci": [
+                -0.006125643671793543,
+                0.004455234029338798
+              ]
+            },
+            "accuracy": {
+              "absolute": 0.7414630220767724,
+              "reference": 0.7444942192655383,
+              "delta": -0.0030311971887658773,
+              "delta_95ci": [
+                -0.008902552829044352,
+                0.002155506078664764
+              ]
+            },
+            "pair_errors": {
+              "absolute": 4117.0,
+              "reference": 4086.0,
+              "delta": 31.0,
+              "delta_95ci": [
+                -128.0,
+                198.02499999999964
+              ]
+            },
+            "none_to_reasoning": {
+              "absolute": 1884.0,
+              "reference": 1907.0,
+              "delta": -23.0,
+              "delta_95ci": [
+                -174.0,
+                139.0
+              ]
+            },
+            "reasoning_to_none": {
+              "absolute": 2233.0,
+              "reference": 2179.0,
+              "delta": 54.0,
+              "delta_95ci": [
+                -74.0,
+                178.02499999999964
+              ]
+            }
+          },
+          "exact-reviewed_versus_pre-review": {
+            "macro_f1": {
+              "absolute": 0.7302898060712971,
+              "reference": 0.732857377939192,
+              "delta": -0.0025675718678949133,
+              "delta_95ci": [
+                -0.00854588471156266,
+                0.002827397562125065
+              ]
+            },
+            "accuracy": {
+              "absolute": 0.7414630220767724,
+              "reference": 0.7471766946538265,
+              "delta": -0.00571367257705413,
+              "delta_95ci": [
+                -0.01020489429600289,
+                -0.0013417270613661622
+              ]
+            },
+            "pair_errors": {
+              "absolute": 4117.0,
+              "reference": 4106.0,
+              "delta": 11.0,
+              "delta_95ci": [
+                -118.0,
+                139.0
+              ]
+            },
+            "none_to_reasoning": {
+              "absolute": 1884.0,
+              "reference": 1467.0,
+              "delta": 417.0,
+              "delta_95ci": [
+                301.0,
+                550.0249999999996
+              ]
+            },
+            "reasoning_to_none": {
+              "absolute": 2233.0,
+              "reference": 2639.0,
+              "delta": -406.0,
+              "delta_95ci": [
+                -528.0,
+                -296.0
+              ]
+            }
+          },
+          "exact-reviewed_versus_doc-semantic": {
+            "macro_f1": {
+              "absolute": 0.7302898060712971,
+              "reference": 0.7244480903967645,
+              "delta": 0.0058417156745326215,
+              "delta_95ci": [
+                -0.0011011145735776607,
+                0.0121899899467624
+              ]
+            },
+            "accuracy": {
+              "absolute": 0.7414630220767724,
+              "reference": 0.7385391239035382,
+              "delta": 0.0029238981732342406,
+              "delta_95ci": [
+                -0.004041507051199392,
+                0.009200359456735705
+              ]
+            },
+            "pair_errors": {
+              "absolute": 4117.0,
+              "reference": 4208.0,
+              "delta": -91.0,
+              "delta_95ci": [
+                -289.025,
+                110.0
+              ]
+            },
+            "none_to_reasoning": {
+              "absolute": 1884.0,
+              "reference": 1950.0,
+              "delta": -66.0,
+              "delta_95ci": [
+                -245.0,
+                125.0
+              ]
+            },
+            "reasoning_to_none": {
+              "absolute": 2233.0,
+              "reference": 2258.0,
+              "delta": -25.0,
+              "delta_95ci": [
+                -190.0,
+                131.0
+              ]
+            }
+          },
+          "no-anchor_versus_doc-semantic": {
+            "macro_f1": {
+              "absolute": 0.7310049367458503,
+              "reference": 0.7244480903967645,
+              "delta": 0.006556846349085821,
+              "delta_95ci": [
+                0.003408504139234106,
+                0.009593693719246628
+              ]
+            },
+            "accuracy": {
+              "absolute": 0.7444942192655383,
+              "reference": 0.7385391239035382,
+              "delta": 0.005955095362000118,
+              "delta_95ci": [
+                0.003311730419815778,
+                0.008627923409501213
+              ]
+            },
+            "pair_errors": {
+              "absolute": 4086.0,
+              "reference": 4208.0,
+              "delta": -122.0,
+              "delta_95ci": [
+                -198.0,
+                -53.0
+              ]
+            },
+            "none_to_reasoning": {
+              "absolute": 1907.0,
+              "reference": 1950.0,
+              "delta": -43.0,
+              "delta_95ci": [
+                -97.02499999999999,
+                7.0
+              ]
+            },
+            "reasoning_to_none": {
+              "absolute": 2179.0,
+              "reference": 2258.0,
+              "delta": -79.0,
+              "delta_95ci": [
+                -142.0,
+                -26.0
+              ]
+            }
+          }
+        },
+        "no_exact_train_key": {
+          "exact-reviewed_versus_no-anchor": {
+            "macro_f1": {
+              "absolute": 0.7180670197135415,
+              "reference": 0.7227290157710472,
+              "delta": -0.004661996057505724,
+              "delta_95ci": [
+                -0.009582700783528889,
+                0.00014274920032110667
+              ]
+            },
+            "accuracy": {
+              "absolute": 0.7241877554390456,
+              "reference": 0.7292242909631342,
+              "delta": -0.00503653552408867,
+              "delta_95ci": [
+                -0.010007495257671495,
+                -0.00017837457192224347
+              ]
+            },
+            "pair_errors": {
+              "absolute": 2749.0,
+              "reference": 2741.0,
+              "delta": 8.0,
+              "delta_95ci": [
+                -101.0,
+                118.0
+              ]
+            },
+            "none_to_reasoning": {
+              "absolute": 1092.0,
+              "reference": 1191.0,
+              "delta": -99.0,
+              "delta_95ci": [
+                -177.0,
+                -22.0
+              ]
+            },
+            "reasoning_to_none": {
+              "absolute": 1657.0,
+              "reference": 1550.0,
+              "delta": 107.0,
+              "delta_95ci": [
+                18.0,
+                199.0
+              ]
+            }
+          },
+          "exact-reviewed_versus_pre-review": {
+            "macro_f1": {
+              "absolute": 0.7180670197135415,
+              "reference": 0.7237886847580397,
+              "delta": -0.005721665044498225,
+              "delta_95ci": [
+                -0.01224524822186967,
+                0.0006276054036277415
+              ]
+            },
+            "accuracy": {
+              "absolute": 0.7241877554390456,
+              "reference": 0.729471989431532,
+              "delta": -0.005284233992486453,
+              "delta_95ci": [
+                -0.01000306304398078,
+                -0.0007610888247485821
+              ]
+            },
+            "pair_errors": {
+              "absolute": 2749.0,
+              "reference": 2801.0,
+              "delta": -52.0,
+              "delta_95ci": [
+                -133.0,
+                29.024999999999636
+              ]
+            },
+            "none_to_reasoning": {
+              "absolute": 1092.0,
+              "reference": 894.0,
+              "delta": 198.0,
+              "delta_95ci": [
+                134.97500000000002,
+                272.0
+              ]
+            },
+            "reasoning_to_none": {
+              "absolute": 1657.0,
+              "reference": 1907.0,
+              "delta": -250.0,
+              "delta_95ci": [
+                -337.0,
+                -173.0
+              ]
+            }
+          },
+          "exact-reviewed_versus_doc-semantic": {
+            "macro_f1": {
+              "absolute": 0.7180670197135415,
+              "reference": 0.7173144683694972,
+              "delta": 0.0007525513440442833,
+              "delta_95ci": [
+                -0.005481316136124989,
+                0.006935748069011763
+              ]
+            },
+            "accuracy": {
+              "absolute": 0.7241877554390456,
+              "reference": 0.7245593031416422,
+              "delta": -0.0003715477025966196,
+              "delta_95ci": [
+                -0.00647165821264018,
+                0.005539871877500899
+              ]
+            },
+            "pair_errors": {
+              "absolute": 2749.0,
+              "reference": 2808.0,
+              "delta": -59.0,
+              "delta_95ci": [
+                -199.02499999999998,
+                82.02499999999964
+              ]
+            },
+            "none_to_reasoning": {
+              "absolute": 1092.0,
+              "reference": 1224.0,
+              "delta": -132.0,
+              "delta_95ci": [
+                -229.0,
+                -36.0
+              ]
+            },
+            "reasoning_to_none": {
+              "absolute": 1657.0,
+              "reference": 1584.0,
+              "delta": 73.0,
+              "delta_95ci": [
+                -41.0,
+                187.0
+              ]
+            }
+          },
+          "no-anchor_versus_doc-semantic": {
+            "macro_f1": {
+              "absolute": 0.7227290157710472,
+              "reference": 0.7173144683694972,
+              "delta": 0.005414547401550007,
+              "delta_95ci": [
+                0.002006774716876814,
+                0.00903264809800467
+              ]
+            },
+            "accuracy": {
+              "absolute": 0.7292242909631342,
+              "reference": 0.7245593031416422,
+              "delta": 0.00466498782149205,
+              "delta_95ci": [
+                0.001628825105167281,
+                0.00781511263315747
+              ]
+            },
+            "pair_errors": {
+              "absolute": 2741.0,
+              "reference": 2808.0,
+              "delta": -67.0,
+              "delta_95ci": [
+                -128.0,
+                -11.0
+              ]
+            },
+            "none_to_reasoning": {
+              "absolute": 1191.0,
+              "reference": 1224.0,
+              "delta": -33.0,
+              "delta_95ci": [
+                -74.0,
+                3.0
+              ]
+            },
+            "reasoning_to_none": {
+              "absolute": 1550.0,
+              "reference": 1584.0,
+              "delta": -34.0,
+              "delta_95ci": [
+                -85.0,
+                8.0
+              ]
+            }
+          }
+        }
+      },
+      "reviewed_rows": 20391,
+      "t4_review_seconds": 280.30660565000017
+    }
+  },
+  "512_versus_256": {
+    "all": {
+      "macro_f1": {
+        "absolute": 0.7302898060712971,
+        "reference": 0.7293224863507735,
+        "delta": 0.0009673197205236628,
+        "delta_95ci": [
+          -0.005574589552102225,
+          0.007053807473602825
+        ]
+      },
+      "accuracy": {
+        "absolute": 0.7414630220767724,
+        "reference": 0.7431798063252769,
+        "delta": -0.0017167842485045215,
+        "delta_95ci": [
+          -0.00793071074538492,
+          0.003809161517075053
+        ]
+      },
+      "pair_errors": {
+        "absolute": 4117.0,
+        "reference": 4139.0,
+        "delta": -22.0,
+        "delta_95ci": [
+          -191.0,
+          151.0
+        ]
+      },
+      "none_to_reasoning": {
+        "absolute": 1884.0,
+        "reference": 1773.0,
+        "delta": 111.0,
+        "delta_95ci": [
+          -48.0,
+          283.02499999999964
+        ]
+      },
+      "reasoning_to_none": {
+        "absolute": 2233.0,
+        "reference": 2366.0,
+        "delta": -133.0,
+        "delta_95ci": [
+          -293.0,
+          14.024999999999636
+        ]
+      }
+    },
+    "no_exact_train_key": {
+      "macro_f1": {
+        "absolute": 0.7180670197135415,
+        "reference": 0.7214164488821257,
+        "delta": -0.0033494291685842725,
+        "delta_95ci": [
+          -0.009753996968633378,
+          0.002881098622249163
+        ]
+      },
+      "accuracy": {
+        "absolute": 0.7241877554390456,
+        "reference": 0.7277381001527474,
+        "delta": -0.0035503447137018584,
+        "delta_95ci": [
+          -0.00906031781695262,
+          0.0016334746446675593
+        ]
+      },
+      "pair_errors": {
+        "absolute": 2749.0,
+        "reference": 2795.0,
+        "delta": -46.0,
+        "delta_95ci": [
+          -165.0,
+          68.02499999999964
+        ]
+      },
+      "none_to_reasoning": {
+        "absolute": 1092.0,
+        "reference": 1116.0,
+        "delta": -24.0,
+        "delta_95ci": [
+          -112.0,
+          64.0
+        ]
+      },
+      "reasoning_to_none": {
+        "absolute": 1657.0,
+        "reference": 1679.0,
+        "delta": -22.0,
+        "delta_95ci": [
+          -137.0,
+          85.0
+        ]
+      }
+    }
+  }
+}

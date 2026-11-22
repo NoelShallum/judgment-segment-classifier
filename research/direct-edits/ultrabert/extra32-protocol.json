@@ -1,0 +1,6 @@
+{
+  "dataset": "The final 32 IDs in the already frozen extended 48 validation judgments; report both these 32 and all 48.",
+  "models": "Preserve all original training-selected head and embedding parameters. Primary lexical skip remains structured. Supplemental sentence-trained embedding readout uses the primary already defined by training-only selection in sentence_vocab.py. No extra-condition labels inform selection. Report seven-class pooled F1, accuracy and judgment-bootstrap intervals against the incumbent.",
+  "status_at_design": "Prior base lexical result on the separate first16 known. No numerical results for these two model families on the extra32 were viewed.",
+  "source": "../shared-confirmation.json"
+}

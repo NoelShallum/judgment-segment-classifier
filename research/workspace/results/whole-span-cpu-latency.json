@@ -1,0 +1,41 @@
+{
+  "machine": "Intel Core i5-8250U CPU",
+  "platform": "Linux",
+  "torch_threads": 2,
+  "configuration": "Profile already loaded. Includes rule splitting, semantic inference, and offset output. Two other research processes were active. Three representative validation samples near stated sizes; timings are illustrative.",
+  "results": [
+    {
+      "whitespace_tokens": 1799,
+      "model_units": 80,
+      "predicted_spans": 25,
+      "median_warm_s": 0.2906813500012504,
+      "warm_s": [
+        0.28259170900128083,
+        0.29242795199752436,
+        0.2906813500012504
+      ]
+    },
+    {
+      "whitespace_tokens": 6498,
+      "model_units": 185,
+      "predicted_spans": 62,
+      "median_warm_s": 0.7382963319978444,
+      "warm_s": [
+        0.7382963319978444,
+        0.7476169830006256,
+        0.7232618999987608
+      ]
+    },
+    {
+      "whitespace_tokens": 16011,
+      "model_units": 544,
+      "predicted_spans": 149,
+      "median_warm_s": 2.0616113930009305,
+      "warm_s": [
+        2.469260164998559,
+        1.9714457990012306,
+        2.0616113930009305
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "calibration_ids_also_in_prior_240_case_edit": 10,
+  "new_240_fit_intersection_with_legacy_240": 12,
+  "new_calibration_disjoint_from_all_new_partial_head_fits": true,
+  "official_training_pretraining_overlap": "Entire train portion used by the publicly released donor. The final 72-case validation contains no training judgments."
+}

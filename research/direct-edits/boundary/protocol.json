@@ -1,0 +1,102 @@
+{
+  "checkpoint": "fastino/gliner2.5-small-v1",
+  "revision": "b5d42bf7dc7d01c40304ae4ed43c2f13c325a75b",
+  "schema": [
+    "other judgment material",
+    "facts",
+    "issue",
+    "petitioner argument",
+    "respondent argument",
+    "court reasoning",
+    "decision"
+  ],
+  "roles": [
+    "None",
+    "Facts",
+    "Issue",
+    "Arguments of Petitioner",
+    "Arguments of Respondent",
+    "Reasoning",
+    "Decision"
+  ],
+  "selection": "35-135 sentence range inclusive (35 <= nonblank rows <= 135), SHA256 of salt plus judgment ID only; first 12 fit, next 5 select, next 5 internal check",
+  "fit": [
+    "2083",
+    "2600",
+    "2277",
+    "3453",
+    "1088",
+    "1241",
+    "2869",
+    "4906",
+    "2947",
+    "4726",
+    "637",
+    "4427"
+  ],
+  "select": [
+    "53",
+    "1570",
+    "204",
+    "3394",
+    "0"
+  ],
+  "check": [
+    "267",
+    "3909",
+    "4132",
+    "3544",
+    "2146"
+  ],
+  "rows": {
+    "2083": 111,
+    "2600": 121,
+    "2277": 87,
+    "3453": 105,
+    "1088": 52,
+    "1241": 85,
+    "2869": 57,
+    "4906": 44,
+    "2947": 92,
+    "4726": 65,
+    "637": 97,
+    "4427": 95,
+    "53": 85,
+    "1570": 75,
+    "204": 71,
+    "3394": 99,
+    "0": 117,
+    "267": 119,
+    "3909": 84,
+    "4132": 71,
+    "3544": 39,
+    "2146": 108
+  },
+  "validation": [
+    "5343",
+    "6340",
+    "5379",
+    "5086",
+    "6348",
+    "5194",
+    "5523",
+    "6287",
+    "5878",
+    "5053",
+    "5191",
+    "5713",
+    "6055",
+    "6121",
+    "5565",
+    "5761"
+  ],
+  "interim": [
+    "5343",
+    "6340",
+    "5379",
+    "5086"
+  ],
+  "primary": "Sentence boundary constrained seven-way classification, same native start/end/inside logits before and after named analytic writes; merge adjacent equal predicted roles within judgment for exact labeled spans, including None. Split overly long sentences into pieces, aggregate by native word counts; every nonblank row scored.",
+  "edit": "At most three existing state projection weight matrices of native boundary query head. Closed-form ridge on empirical query directions and target marginals. Choose among channels and regularization on select only, include unchanged. Equal-norm shuffled-label control with identical analytic recipe. Confirm unchanged, edited, shuffled, incumbent against identical positions, no test use.",
+  "metric": "macro F1 over all seven classes, accuracy, exact labeled run micro F1, case-level rows and scores"
+}

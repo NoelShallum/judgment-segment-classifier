@@ -1,0 +1,6080 @@
+{
+  "single_label_diagnostics": {
+    "pilot": {
+      "literal_excerpt": {
+        "rows": 112,
+        "local_correct": 39,
+        "gemini_correct": 47,
+        "same_predictions": 33,
+        "per_id": {
+          "sentence-61490": "none",
+          "sentence-101252": "none",
+          "sentence-76089": "none",
+          "sentence-3394": "none",
+          "sentence-102637": "none",
+          "sentence-73190": "petitioner_argument",
+          "sentence-59929": "none",
+          "sentence-99131": "reasoning",
+          "sentence-128896": "none",
+          "sentence-45864": "none",
+          "sentence-15370": "none",
+          "sentence-41764": "none",
+          "sentence-93724": "none",
+          "sentence-63309": "issue",
+          "sentence-127269": "facts",
+          "sentence-90369": "none",
+          "sentence-17428": "none",
+          "sentence-94128": "facts",
+          "sentence-145534": "facts",
+          "sentence-87705": "facts",
+          "sentence-134976": "none",
+          "sentence-12676": "none",
+          "sentence-14456": "none",
+          "sentence-93261": "none",
+          "sentence-21948": "issue",
+          "sentence-132107": "none",
+          "sentence-107723": "facts",
+          "sentence-53474": "facts",
+          "sentence-10052": "facts",
+          "sentence-52646": "facts",
+          "sentence-72776": "none",
+          "sentence-20772": "none",
+          "sentence-21626": "issue",
+          "sentence-96506": "none",
+          "sentence-88765": "reasoning",
+          "sentence-104973": "issue",
+          "sentence-146852": "facts",
+          "sentence-4362": "issue",
+          "sentence-95866": "facts",
+          "sentence-112395": "petitioner_argument",
+          "sentence-149644": "none",
+          "sentence-24264": "decision",
+          "sentence-115988": "none",
+          "sentence-28298": "issue",
+          "sentence-61927": "none",
+          "sentence-51280": "none",
+          "sentence-107307": "issue",
+          "sentence-143598": "issue",
+          "sentence-137111": "none",
+          "sentence-55291": "none",
+          "sentence-63609": "none",
+          "sentence-1402": "petitioner_argument",
+          "sentence-89183": "none",
+          "sentence-64041": "none",
+          "sentence-146265": "none",
+          "sentence-11994": "none",
+          "sentence-138551": "petitioner_argument",
+          "sentence-60567": "none",
+          "sentence-78168": "none",
+          "sentence-83953": "none",
+          "sentence-57904": "none",
+          "sentence-70558": "none",
+          "sentence-17809": "petitioner_argument",
+          "sentence-86449": "none",
+          "sentence-83334": "respondent_argument",
+          "sentence-108195": "respondent_argument",
+          "sentence-138610": "none",
+          "sentence-85606": "none",
+          "sentence-137126": "none",
+          "sentence-58707": "petitioner_argument",
+          "sentence-55479": "none",
+          "sentence-64192": "facts",
+          "sentence-64920": "none",
+          "sentence-529": "respondent_argument",
+          "sentence-53487": "none",
+          "sentence-110216": "none",
+          "sentence-128863": "facts",
+          "sentence-31996": "petitioner_argument",
+          "sentence-147817": "petitioner_argument",
+          "sentence-94193": "none",
+          "sentence-96800": "none",
+          "sentence-28792": "none",
+          "sentence-38341": "none",
+          "sentence-7438": "none",
+          "sentence-53223": "none",
+          "sentence-85746": "none",
+          "sentence-54793": "reasoning",
+          "sentence-90269": "issue",
+          "sentence-5600": "none",
+          "sentence-127051": "none",
+          "sentence-80652": "none",
+          "sentence-68860": "none",
+          "sentence-75158": "none",
+          "sentence-39865": "none",
+          "sentence-111645": "decision",
+          "sentence-89826": "none",
+          "sentence-118874": "decision",
+          "sentence-48772": "petitioner_argument",
+          "sentence-141824": "facts",
+          "sentence-24103": "decision",
+          "sentence-108111": "none",
+          "sentence-128249": "decision",
+          "sentence-87412": "none",
+          "sentence-7887": "none",
+          "sentence-104761": "decision",
+          "sentence-149766": "none",
+          "sentence-96026": "decision",
+          "sentence-101674": "none",
+          "sentence-137239": "none",
+          "sentence-110822": "respondent_argument",
+          "sentence-120342": "decision",
+          "sentence-8182": "decision"
+        }
+      },
+      "contextual_units_vote": {
+        "rows": 112,
+        "local_correct": 39,
+        "gemini_correct": 47,
+        "same_predictions": 33,
+        "per_id": {
+          "sentence-61490": "none",
+          "sentence-101252": "none",
+          "sentence-76089": "none",
+          "sentence-3394": "none",
+          "sentence-102637": "none",
+          "sentence-73190": "petitioner_argument",
+          "sentence-59929": "none",
+          "sentence-99131": "reasoning",
+          "sentence-128896": "none",
+          "sentence-45864": "none",
+          "sentence-15370": "none",
+          "sentence-41764": "none",
+          "sentence-93724": "none",
+          "sentence-63309": "issue",
+          "sentence-127269": "facts",
+          "sentence-90369": "none",
+          "sentence-17428": "none",
+          "sentence-94128": "facts",
+          "sentence-145534": "facts",
+          "sentence-87705": "facts",
+          "sentence-134976": "none",
+          "sentence-12676": "none",
+          "sentence-14456": "none",
+          "sentence-93261": "none",
+          "sentence-21948": "issue",
+          "sentence-132107": "none",
+          "sentence-107723": "facts",
+          "sentence-53474": "facts",
+          "sentence-10052": "facts",
+          "sentence-52646": "facts",
+          "sentence-72776": "none",
+          "sentence-20772": "none",
+          "sentence-21626": "issue",
+          "sentence-96506": "none",
+          "sentence-88765": "reasoning",
+          "sentence-104973": "issue",
+          "sentence-146852": "facts",
+          "sentence-4362": "issue",
+          "sentence-95866": "facts",
+          "sentence-112395": "petitioner_argument",
+          "sentence-149644": "none",
+          "sentence-24264": "decision",
+          "sentence-115988": "none",
+          "sentence-28298": "issue",
+          "sentence-61927": "none",
+          "sentence-51280": "none",
+          "sentence-107307": "issue",
+          "sentence-143598": "issue",
+          "sentence-137111": "none",
+          "sentence-55291": "none",
+          "sentence-63609": "none",
+          "sentence-1402": "petitioner_argument",
+          "sentence-89183": "none",
+          "sentence-64041": "none",
+          "sentence-146265": "none",
+          "sentence-11994": "none",
+          "sentence-138551": "petitioner_argument",
+          "sentence-60567": "none",
+          "sentence-78168": "none",
+          "sentence-83953": "none",
+          "sentence-57904": "none",
+          "sentence-70558": "none",
+          "sentence-17809": "petitioner_argument",
+          "sentence-86449": "none",
+          "sentence-83334": "respondent_argument",
+          "sentence-108195": "respondent_argument",
+          "sentence-138610": "none",
+          "sentence-85606": "none",
+          "sentence-137126": "none",
+          "sentence-58707": "petitioner_argument",
+          "sentence-55479": "none",
+          "sentence-64192": "facts",
+          "sentence-64920": "none",
+          "sentence-529": "respondent_argument",
+          "sentence-53487": "none",
+          "sentence-110216": "none",
+          "sentence-128863": "facts",
+          "sentence-31996": "petitioner_argument",
+          "sentence-147817": "petitioner_argument",
+          "sentence-94193": "none",
+          "sentence-96800": "none",
+          "sentence-28792": "none",
+          "sentence-38341": "none",
+          "sentence-7438": "none",
+          "sentence-53223": "none",
+          "sentence-85746": "none",
+          "sentence-54793": "reasoning",
+          "sentence-90269": "issue",
+          "sentence-5600": "none",
+          "sentence-127051": "none",
+          "sentence-80652": "none",
+          "sentence-68860": "none",
+          "sentence-75158": "none",
+          "sentence-39865": "none",
+          "sentence-111645": "decision",
+          "sentence-89826": "none",
+          "sentence-118874": "decision",
+          "sentence-48772": "petitioner_argument",
+          "sentence-141824": "facts",
+          "sentence-24103": "decision",
+          "sentence-108111": "none",
+          "sentence-128249": "decision",
+          "sentence-87412": "none",
+          "sentence-7887": "none",
+          "sentence-104761": "decision",
+          "sentence-149766": "none",
+          "sentence-96026": "decision",
+          "sentence-101674": "none",
+          "sentence-137239": "none",
+          "sentence-110822": "respondent_argument",
+          "sentence-120342": "decision",
+          "sentence-8182": "decision"
+        }
+      }
+    },
+    "confirmation": {
+      "literal_excerpt": {
+        "rows": 196,
+        "local_correct": 76,
+        "gemini_correct": 85,
+        "same_predictions": 51,
+        "per_id": {
+          "sentence-111223": "none",
+          "sentence-140665": "reasoning",
+          "sentence-11727": "petitioner_argument",
+          "sentence-4179": "issue",
+          "sentence-72234": "issue",
+          "sentence-97221": "none",
+          "sentence-29602": "none",
+          "sentence-101781": "none",
+          "sentence-84921": "none",
+          "sentence-60987": "none",
+          "sentence-33991": "petitioner_argument",
+          "sentence-111071": "none",
+          "sentence-78921": "none",
+          "sentence-43265": "facts",
+          "sentence-122871": "decision",
+          "sentence-121886": "none",
+          "sentence-145815": "none",
+          "sentence-57667": "none",
+          "sentence-16518": "facts",
+          "sentence-149879": "decision",
+          "sentence-130106": "issue",
+          "sentence-94626": "issue",
+          "sentence-131764": "none",
+          "sentence-13446": "none",
+          "sentence-30239": "decision",
+          "sentence-18851": "none",
+          "sentence-898": "decision",
+          "sentence-115172": "none",
+          "sentence-9964": "petitioner_argument",
+          "sentence-144117": "none",
+          "sentence-26844": "none",
+          "sentence-122342": "none",
+          "sentence-92159": "facts",
+          "sentence-13526": "petitioner_argument",
+          "sentence-10316": "none",
+          "sentence-35512": "petitioner_argument",
+          "sentence-39091": "none",
+          "sentence-143405": "none",
+          "sentence-95609": "facts",
+          "sentence-69380": "none",
+          "sentence-43431": "none",
+          "sentence-1022": "none",
+          "sentence-55683": "reasoning",
+          "sentence-75362": "none",
+          "sentence-31234": "petitioner_argument",
+          "sentence-14847": "none",
+          "sentence-46859": "none",
+          "sentence-82905": "none",
+          "sentence-131881": "petitioner_argument",
+          "sentence-57583": "none",
+          "sentence-131440": "facts",
+          "sentence-107867": "issue",
+          "sentence-148526": "reasoning",
+          "sentence-148648": "facts",
+          "sentence-133739": "none",
+          "sentence-22577": "none",
+          "sentence-18274": "none",
+          "sentence-111885": "none",
+          "sentence-76858": "none",
+          "sentence-133526": "issue",
+          "sentence-13023": "none",
+          "sentence-667": "decision",
+          "sentence-42257": "facts",
+          "sentence-121273": "none",
+          "sentence-79829": "none",
+          "sentence-22838": "none",
+          "sentence-29172": "reasoning",
+          "sentence-39546": "decision",
+          "sentence-115341": "none",
+          "sentence-26070": "none",
+          "sentence-40854": "facts",
+          "sentence-70057": "none",
+          "sentence-129547": "issue",
+          "sentence-127581": "none",
+          "sentence-143139": "none",
+          "sentence-145342": "none",
+          "sentence-47056": "none",
+          "sentence-67304": "facts",
+          "sentence-8228": "facts",
+          "sentence-74525": "reasoning",
+          "sentence-103689": "none",
+          "sentence-68182": "none",
+          "sentence-86656": "none",
+          "sentence-129640": "issue",
+          "sentence-114672": "respondent_argument",
+          "sentence-147174": "none",
+          "sentence-18902": "facts",
+          "sentence-40339": "none",
+          "sentence-118011": "none",
+          "sentence-51629": "facts",
+          "sentence-66800": "none",
+          "sentence-84543": "none",
+          "sentence-60847": "none",
+          "sentence-82973": "decision",
+          "sentence-69591": "reasoning",
+          "sentence-95434": "none",
+          "sentence-25251": "none",
+          "sentence-115709": "none",
+          "sentence-107565": "decision",
+          "sentence-54595": "none",
+          "sentence-81254": "none",
+          "sentence-11815": "decision",
+          "sentence-96388": "none",
+          "sentence-118498": "none",
+          "sentence-117085": "facts",
+          "sentence-33628": "reasoning",
+          "sentence-86272": "issue",
+          "sentence-78548": "none",
+          "sentence-138263": "facts",
+          "sentence-35464": "none",
+          "sentence-27248": "issue",
+          "sentence-65550": "petitioner_argument",
+          "sentence-145006": "none",
+          "sentence-67292": "none",
+          "sentence-7744": "none",
+          "sentence-91211": "none",
+          "sentence-35387": "decision",
+          "sentence-134763": "reasoning",
+          "sentence-132330": "respondent_argument",
+          "sentence-120052": "none",
+          "sentence-59330": "facts",
+          "sentence-111945": "none",
+          "sentence-46541": "none",
+          "sentence-102996": "reasoning",
+          "sentence-92845": "none",
+          "sentence-6981": "reasoning",
+          "sentence-31621": "none",
+          "sentence-108645": "none",
+          "sentence-43305": "petitioner_argument",
+          "sentence-2234": "none",
+          "sentence-137729": "none",
+          "sentence-132498": "petitioner_argument",
+          "sentence-29770": "petitioner_argument",
+          "sentence-139613": "petitioner_argument",
+          "sentence-140714": "petitioner_argument",
+          "sentence-80094": "none",
+          "sentence-16207": "decision",
+          "sentence-143590": "reasoning",
+          "sentence-144310": "facts",
+          "sentence-128413": "none",
+          "sentence-106198": "none",
+          "sentence-88366": "none",
+          "sentence-95194": "none",
+          "sentence-41933": "petitioner_argument",
+          "sentence-44041": "none",
+          "sentence-59066": "none",
+          "sentence-130450": "none",
+          "sentence-141932": "none",
+          "sentence-84362": "petitioner_argument",
+          "sentence-103144": "none",
+          "sentence-137823": "none",
+          "sentence-31442": "none",
+          "sentence-80009": "none",
+          "sentence-125144": "decision",
+          "sentence-33113": "none",
+          "sentence-38697": "none",
+          "sentence-20749": "none",
+          "sentence-19517": "petitioner_argument",
+          "sentence-146623": "none",
+          "sentence-8809": "issue",
+          "sentence-75480": "none",
+          "sentence-80223": "none",
+          "sentence-41545": "facts",
+          "sentence-134204": "none",
+          "sentence-61902": "reasoning",
+          "sentence-127159": "none",
+          "sentence-68349": "facts",
+          "sentence-3736": "none",
+          "sentence-18489": "petitioner_argument",
+          "sentence-93498": "respondent_argument",
+          "sentence-141852": "none",
+          "sentence-44699": "none",
+          "sentence-31723": "none",
+          "sentence-125230": "none",
+          "sentence-108994": "decision",
+          "sentence-43791": "petitioner_argument",
+          "sentence-104024": "facts",
+          "sentence-105488": "none",
+          "sentence-54889": "none",
+          "sentence-36806": "none",
+          "sentence-14036": "none",
+          "sentence-13301": "none",
+          "sentence-37749": "none",
+          "sentence-1444": "none",
+          "sentence-94590": "petitioner_argument",
+          "sentence-19634": "issue",
+          "sentence-56676": "none",
+          "sentence-40262": "petitioner_argument",
+          "sentence-129807": "none",
+          "sentence-127404": "none",
+          "sentence-24675": "none",
+          "sentence-139783": "none",
+          "sentence-15611": "none",
+          "sentence-91567": "facts",
+          "sentence-29033": "decision",
+          "sentence-147258": "respondent_argument"
+        }
+      },
+      "contextual_units_vote": {
+        "rows": 196,
+        "local_correct": 76,
+        "gemini_correct": 85,
+        "same_predictions": 51,
+        "per_id": {
+          "sentence-111223": "none",
+          "sentence-140665": "reasoning",
+          "sentence-11727": "petitioner_argument",
+          "sentence-4179": "issue",
+          "sentence-72234": "issue",
+          "sentence-97221": "none",
+          "sentence-29602": "none",
+          "sentence-101781": "none",
+          "sentence-84921": "none",
+          "sentence-60987": "none",
+          "sentence-33991": "petitioner_argument",
+          "sentence-111071": "none",
+          "sentence-78921": "none",
+          "sentence-43265": "facts",
+          "sentence-122871": "decision",
+          "sentence-121886": "none",
+          "sentence-145815": "none",
+          "sentence-57667": "none",
+          "sentence-16518": "facts",
+          "sentence-149879": "decision",
+          "sentence-130106": "issue",
+          "sentence-94626": "issue",
+          "sentence-131764": "none",
+          "sentence-13446": "none",
+          "sentence-30239": "decision",
+          "sentence-18851": "none",
+          "sentence-898": "decision",
+          "sentence-115172": "none",
+          "sentence-9964": "petitioner_argument",
+          "sentence-144117": "none",
+          "sentence-26844": "none",
+          "sentence-122342": "none",
+          "sentence-92159": "facts",
+          "sentence-13526": "petitioner_argument",
+          "sentence-10316": "none",
+          "sentence-35512": "petitioner_argument",
+          "sentence-39091": "none",
+          "sentence-143405": "none",
+          "sentence-95609": "facts",
+          "sentence-69380": "none",
+          "sentence-43431": "none",
+          "sentence-1022": "none",
+          "sentence-55683": "reasoning",
+          "sentence-75362": "none",
+          "sentence-31234": "petitioner_argument",
+          "sentence-14847": "none",
+          "sentence-46859": "none",
+          "sentence-82905": "none",
+          "sentence-131881": "petitioner_argument",
+          "sentence-57583": "none",
+          "sentence-131440": "facts",
+          "sentence-107867": "issue",
+          "sentence-148526": "reasoning",
+          "sentence-148648": "facts",
+          "sentence-133739": "none",
+          "sentence-22577": "none",
+          "sentence-18274": "none",
+          "sentence-111885": "none",
+          "sentence-76858": "none",
+          "sentence-133526": "issue",
+          "sentence-13023": "none",
+          "sentence-667": "decision",
+          "sentence-42257": "facts",
+          "sentence-121273": "none",
+          "sentence-79829": "none",
+          "sentence-22838": "none",
+          "sentence-29172": "reasoning",
+          "sentence-39546": "decision",
+          "sentence-115341": "none",
+          "sentence-26070": "none",
+          "sentence-40854": "facts",
+          "sentence-70057": "none",
+          "sentence-129547": "issue",
+          "sentence-127581": "none",
+          "sentence-143139": "none",
+          "sentence-145342": "none",
+          "sentence-47056": "none",
+          "sentence-67304": "facts",
+          "sentence-8228": "facts",
+          "sentence-74525": "reasoning",
+          "sentence-103689": "none",
+          "sentence-68182": "none",
+          "sentence-86656": "none",
+          "sentence-129640": "issue",
+          "sentence-114672": "respondent_argument",
+          "sentence-147174": "none",
+          "sentence-18902": "facts",
+          "sentence-40339": "none",
+          "sentence-118011": "none",
+          "sentence-51629": "facts",
+          "sentence-66800": "none",
+          "sentence-84543": "none",
+          "sentence-60847": "none",
+          "sentence-82973": "decision",
+          "sentence-69591": "reasoning",
+          "sentence-95434": "none",
+          "sentence-25251": "none",
+          "sentence-115709": "none",
+          "sentence-107565": "decision",
+          "sentence-54595": "none",
+          "sentence-81254": "none",
+          "sentence-11815": "decision",
+          "sentence-96388": "none",
+          "sentence-118498": "none",
+          "sentence-117085": "facts",
+          "sentence-33628": "reasoning",
+          "sentence-86272": "issue",
+          "sentence-78548": "none",
+          "sentence-138263": "facts",
+          "sentence-35464": "none",
+          "sentence-27248": "issue",
+          "sentence-65550": "petitioner_argument",
+          "sentence-145006": "none",
+          "sentence-67292": "none",
+          "sentence-7744": "none",
+          "sentence-91211": "none",
+          "sentence-35387": "decision",
+          "sentence-134763": "reasoning",
+          "sentence-132330": "respondent_argument",
+          "sentence-120052": "none",
+          "sentence-59330": "facts",
+          "sentence-111945": "none",
+          "sentence-46541": "none",
+          "sentence-102996": "reasoning",
+          "sentence-92845": "none",
+          "sentence-6981": "reasoning",
+          "sentence-31621": "none",
+          "sentence-108645": "none",
+          "sentence-43305": "petitioner_argument",
+          "sentence-2234": "none",
+          "sentence-137729": "none",
+          "sentence-132498": "petitioner_argument",
+          "sentence-29770": "petitioner_argument",
+          "sentence-139613": "petitioner_argument",
+          "sentence-140714": "petitioner_argument",
+          "sentence-80094": "none",
+          "sentence-16207": "decision",
+          "sentence-143590": "reasoning",
+          "sentence-144310": "facts",
+          "sentence-128413": "none",
+          "sentence-106198": "none",
+          "sentence-88366": "none",
+          "sentence-95194": "none",
+          "sentence-41933": "petitioner_argument",
+          "sentence-44041": "none",
+          "sentence-59066": "none",
+          "sentence-130450": "none",
+          "sentence-141932": "none",
+          "sentence-84362": "petitioner_argument",
+          "sentence-103144": "none",
+          "sentence-137823": "none",
+          "sentence-31442": "none",
+          "sentence-80009": "none",
+          "sentence-125144": "decision",
+          "sentence-33113": "none",
+          "sentence-38697": "none",
+          "sentence-20749": "none",
+          "sentence-19517": "petitioner_argument",
+          "sentence-146623": "none",
+          "sentence-8809": "issue",
+          "sentence-75480": "none",
+          "sentence-80223": "none",
+          "sentence-41545": "facts",
+          "sentence-134204": "none",
+          "sentence-61902": "reasoning",
+          "sentence-127159": "none",
+          "sentence-68349": "facts",
+          "sentence-3736": "none",
+          "sentence-18489": "petitioner_argument",
+          "sentence-93498": "respondent_argument",
+          "sentence-141852": "none",
+          "sentence-44699": "none",
+          "sentence-31723": "none",
+          "sentence-125230": "none",
+          "sentence-108994": "decision",
+          "sentence-43791": "petitioner_argument",
+          "sentence-104024": "facts",
+          "sentence-105488": "none",
+          "sentence-54889": "none",
+          "sentence-36806": "none",
+          "sentence-14036": "none",
+          "sentence-13301": "none",
+          "sentence-37749": "none",
+          "sentence-1444": "none",
+          "sentence-94590": "petitioner_argument",
+          "sentence-19634": "issue",
+          "sentence-56676": "none",
+          "sentence-40262": "petitioner_argument",
+          "sentence-129807": "none",
+          "sentence-127404": "none",
+          "sentence-24675": "none",
+          "sentence-139783": "none",
+          "sentence-15611": "none",
+          "sentence-91567": "facts",
+          "sentence-29033": "decision",
+          "sentence-147258": "respondent_argument"
+        }
+      }
+    },
+    "paragraphs": {
+      "literal_excerpt": {
+        "rows": 21,
+        "local_correct": 8,
+        "gemini_correct": 8,
+        "same_predictions": 9,
+        "per_id": {
+          "multisentence-82740": "issue",
+          "multisentence-104084": "none",
+          "multisentence-66753": "none",
+          "multisentence-21044": "petitioner_argument",
+          "multisentence-92701": "none",
+          "multisentence-12478": "decision",
+          "multisentence-39710": "issue",
+          "multisentence-92686": "issue",
+          "multisentence-104070": "issue",
+          "multisentence-114662": "petitioner_argument",
+          "multisentence-145222": "petitioner_argument",
+          "multisentence-144926": "facts",
+          "multisentence-94381": "none",
+          "multisentence-123153": "facts",
+          "multisentence-28152": "petitioner_argument",
+          "multisentence-119836": "none",
+          "multisentence-42279": "facts",
+          "multisentence-15384": "none",
+          "multisentence-21191": "none",
+          "multisentence-104504": "decision",
+          "multisentence-109838": "none"
+        }
+      },
+      "contextual_units_vote": {
+        "rows": 21,
+        "local_correct": 8,
+        "gemini_correct": 8,
+        "same_predictions": 9,
+        "per_id": {
+          "multisentence-82740": "none",
+          "multisentence-104084": "none",
+          "multisentence-66753": "none",
+          "multisentence-21044": "petitioner_argument",
+          "multisentence-92701": "none",
+          "multisentence-12478": "decision",
+          "multisentence-39710": "issue",
+          "multisentence-92686": "issue",
+          "multisentence-104070": "facts",
+          "multisentence-114662": "petitioner_argument",
+          "multisentence-145222": "petitioner_argument",
+          "multisentence-144926": "facts",
+          "multisentence-94381": "none",
+          "multisentence-123153": "facts",
+          "multisentence-28152": "petitioner_argument",
+          "multisentence-119836": "none",
+          "multisentence-42279": "none",
+          "multisentence-15384": "none",
+          "multisentence-21191": "none",
+          "multisentence-104504": "decision",
+          "multisentence-109838": "none"
+        }
+      }
+    },
+    "homogeneous": {
+      "literal_excerpt": {
+        "rows": 28,
+        "local_correct": 13,
+        "gemini_correct": 11,
+        "same_predictions": 7,
+        "per_id": {
+          "joined-30432-30433": "none",
+          "joined-27447-27448": "none",
+          "joined-122575-122576": "none",
+          "joined-87251-87252": "none",
+          "joined-82062-82064": "decision",
+          "joined-81104-81105": "none",
+          "joined-66506-66508": "none",
+          "joined-38828-38830": "facts",
+          "joined-13621-13622": "issue",
+          "joined-54412-54413": "facts",
+          "joined-16814-16815": "issue",
+          "joined-10597-10598": "none",
+          "joined-46075-46076": "petitioner_argument",
+          "joined-56736-56738": "petitioner_argument",
+          "joined-65345-65346": "none",
+          "joined-92631-92633": "none",
+          "joined-2353-2354": "none",
+          "joined-74658-74660": "none",
+          "joined-58201-58203": "none",
+          "joined-17661-17662": "respondent_argument",
+          "joined-109366-109367": "none",
+          "joined-86944-86945": "none",
+          "joined-39697-39698": "none",
+          "joined-22267-22268": "facts",
+          "joined-17612-17613": "decision",
+          "joined-75255-75256": "decision",
+          "joined-1279-1281": "none",
+          "joined-146839-146841": "decision"
+        }
+      },
+      "contextual_units_vote": {
+        "rows": 28,
+        "local_correct": 12,
+        "gemini_correct": 11,
+        "same_predictions": 10,
+        "per_id": {
+          "joined-30432-30433": "none",
+          "joined-27447-27448": "none",
+          "joined-122575-122576": "none",
+          "joined-87251-87252": "none",
+          "joined-82062-82064": "none",
+          "joined-81104-81105": "none",
+          "joined-66506-66508": "facts",
+          "joined-38828-38830": "none",
+          "joined-13621-13622": "none",
+          "joined-54412-54413": "none",
+          "joined-16814-16815": "issue",
+          "joined-10597-10598": "facts",
+          "joined-46075-46076": "petitioner_argument",
+          "joined-56736-56738": "petitioner_argument",
+          "joined-65345-65346": "none",
+          "joined-92631-92633": "facts",
+          "joined-2353-2354": "none",
+          "joined-74658-74660": "reasoning",
+          "joined-58201-58203": "petitioner_argument",
+          "joined-17661-17662": "respondent_argument",
+          "joined-109366-109367": "none",
+          "joined-86944-86945": "none",
+          "joined-39697-39698": "none",
+          "joined-22267-22268": "reasoning",
+          "joined-17612-17613": "decision",
+          "joined-75255-75256": "decision",
+          "joined-1279-1281": "none",
+          "joined-146839-146841": "none"
+        }
+      }
+    }
+  },
+  "spans": {
+    "whole": {
+      "selected_context_units": 0,
+      "share": 1.0,
+      "document_edge_multiplier": 1,
+      "selection": "Validation exact span F1, then token accuracy. Width zero uses all supplied text. Positive widths use bounded groups of automatically proposed units, with breaks when blank-line paragraph layout exists. Reconstructed test judgments mostly have no original paragraph formatting.",
+      "sha256": "747bb0c4c2ee4be0d18096cb19afc4ecf3b6a27d0ef50781039e94e5cf1a9d4d",
+      "grid": [
+        [
+          1,
+          0.5,
+          0,
+          0.41445783132530123,
+          0.6284744324209633
+        ],
+        [
+          1,
+          0.5,
+          0.5,
+          0.41927710843373495,
+          0.6304901336728198
+        ],
+        [
+          1,
+          0.5,
+          1,
+          0.41927710843373495,
+          0.6304901336728198
+        ],
+        [
+          1,
+          1.0,
+          0,
+          0.1724137931034483,
+          0.39963929556545724
+        ],
+        [
+          1,
+          1.0,
+          0.5,
+          0.1833810888252149,
+          0.4016549968173138
+        ],
+        [
+          1,
+          1.0,
+          1,
+          0.19428571428571428,
+          0.4020793549755994
+        ],
+        [
+          3,
+          0.5,
+          0,
+          0.46357615894039733,
+          0.6543602800763845
+        ],
+        [
+          3,
+          0.5,
+          0.5,
+          0.46357615894039733,
+          0.6543602800763845
+        ],
+        [
+          3,
+          0.5,
+          1,
+          0.46799116997792495,
+          0.656375981328241
+        ],
+        [
+          3,
+          1.0,
+          0,
+          0.3532110091743119,
+          0.5413749204328453
+        ],
+        [
+          3,
+          1.0,
+          0.5,
+          0.3577981651376147,
+          0.5433906216847019
+        ],
+        [
+          3,
+          1.0,
+          1,
+          0.3577981651376147,
+          0.5433906216847019
+        ],
+        [
+          6,
+          0.5,
+          0,
+          0.4772234273318872,
+          0.6725015913430936
+        ],
+        [
+          6,
+          0.5,
+          0.5,
+          0.48156182212581344,
+          0.6745172925949502
+        ],
+        [
+          6,
+          0.5,
+          1,
+          0.48156182212581344,
+          0.6745172925949502
+        ],
+        [
+          6,
+          1.0,
+          0,
+          0.42358078602620086,
+          0.5917674517292595
+        ],
+        [
+          6,
+          1.0,
+          0.5,
+          0.4279475982532751,
+          0.5937831529811161
+        ],
+        [
+          6,
+          1.0,
+          1,
+          0.4279475982532751,
+          0.5937831529811161
+        ],
+        [
+          12,
+          0.5,
+          0,
+          0.5010799136069114,
+          0.6872480373435179
+        ],
+        [
+          12,
+          0.5,
+          0.5,
+          0.5053995680345572,
+          0.6892637385953745
+        ],
+        [
+          12,
+          0.5,
+          1,
+          0.5053995680345572,
+          0.6892637385953745
+        ],
+        [
+          12,
+          1.0,
+          0,
+          0.464818763326226,
+          0.6568003394865266
+        ],
+        [
+          12,
+          1.0,
+          0.5,
+          0.4690831556503198,
+          0.6588160407383832
+        ],
+        [
+          12,
+          1.0,
+          1,
+          0.4690831556503198,
+          0.6588160407383832
+        ],
+        [
+          0,
+          1.0,
+          0,
+          0.5118279569892473,
+          0.72496286866115
+        ],
+        [
+          0,
+          1.0,
+          0.5,
+          0.5118279569892473,
+          0.72496286866115
+        ],
+        [
+          0,
+          1.0,
+          1,
+          0.5161290322580645,
+          0.7269785699130066
+        ]
+      ],
+      "scores": {
+        "select": {
+          "cases": 10,
+          "chosen": {
+            "tokens": 18852,
+            "token_accuracy": 0.7269785699130066,
+            "token_macro_f1": 0.7420441583053048,
+            "exact_labeled_spans": {
+              "matched": 120,
+              "predicted": 216,
+              "gold": 249,
+              "precision": 0.5555555555555556,
+              "recall": 0.4819277108433735,
+              "f1": 0.5161290322580645
+            },
+            "exact_role_boundaries": {
+              "matched": 156,
+              "predicted": 206,
+              "gold": 239,
+              "precision": 0.7572815533980582,
+              "recall": 0.6527196652719666,
+              "f1": 0.701123595505618
+            },
+            "token_confusion": [
+              [
+                1865,
+                1119,
+                49,
+                0,
+                77,
+                561,
+                46
+              ],
+              [
+                360,
+                5241,
+                0,
+                68,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                392,
+                571,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                72,
+                172,
+                66,
+                1409,
+                0,
+                115,
+                0
+              ],
+              [
+                23,
+                0,
+                175,
+                140,
+                1098,
+                0,
+                0
+              ],
+              [
+                1387,
+                83,
+                144,
+                0,
+                61,
+                2755,
+                37
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                766
+              ]
+            ]
+          },
+          "full_context": {
+            "tokens": 18852,
+            "token_accuracy": 0.7269785699130066,
+            "token_macro_f1": 0.7420441583053048,
+            "exact_labeled_spans": {
+              "matched": 120,
+              "predicted": 216,
+              "gold": 249,
+              "precision": 0.5555555555555556,
+              "recall": 0.4819277108433735,
+              "f1": 0.5161290322580645
+            },
+            "exact_role_boundaries": {
+              "matched": 156,
+              "predicted": 206,
+              "gold": 239,
+              "precision": 0.7572815533980582,
+              "recall": 0.6527196652719666,
+              "f1": 0.701123595505618
+            },
+            "token_confusion": [
+              [
+                1865,
+                1119,
+                49,
+                0,
+                77,
+                561,
+                46
+              ],
+              [
+                360,
+                5241,
+                0,
+                68,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                392,
+                571,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                72,
+                172,
+                66,
+                1409,
+                0,
+                115,
+                0
+              ],
+              [
+                23,
+                0,
+                175,
+                140,
+                1098,
+                0,
+                0
+              ],
+              [
+                1387,
+                83,
+                144,
+                0,
+                61,
+                2755,
+                37
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                766
+              ]
+            ]
+          },
+          "context_only": {
+            "1": {
+              "tokens": 18852,
+              "token_accuracy": 0.4020793549755994,
+              "token_macro_f1": 0.4740800586413118,
+              "exact_labeled_spans": {
+                "matched": 34,
+                "predicted": 101,
+                "gold": 249,
+                "precision": 0.33663366336633666,
+                "recall": 0.13654618473895583,
+                "f1": 0.19428571428571428
+              },
+              "exact_role_boundaries": {
+                "matched": 56,
+                "predicted": 91,
+                "gold": 239,
+                "precision": 0.6153846153846154,
+                "recall": 0.23430962343096234,
+                "f1": 0.3393939393939394
+              },
+              "token_confusion": [
+                [
+                  2934,
+                  338,
+                  90,
+                  50,
+                  77,
+                  0,
+                  228
+                ],
+                [
+                  3632,
+                  1352,
+                  506,
+                  0,
+                  0,
+                  0,
+                  179
+                ],
+                [
+                  357,
+                  0,
+                  479,
+                  0,
+                  0,
+                  0,
+                  127
+                ],
+                [
+                  480,
+                  0,
+                  19,
+                  1202,
+                  133,
+                  0,
+                  0
+                ],
+                [
+                  440,
+                  0,
+                  0,
+                  0,
+                  996,
+                  0,
+                  0
+                ],
+                [
+                  4239,
+                  0,
+                  110,
+                  0,
+                  61,
+                  0,
+                  57
+                ],
+                [
+                  149,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  617
+                ]
+              ]
+            },
+            "3": {
+              "tokens": 18852,
+              "token_accuracy": 0.5433906216847019,
+              "token_macro_f1": 0.5743908870721955,
+              "exact_labeled_spans": {
+                "matched": 78,
+                "predicted": 187,
+                "gold": 249,
+                "precision": 0.41711229946524064,
+                "recall": 0.3132530120481928,
+                "f1": 0.3577981651376147
+              },
+              "exact_role_boundaries": {
+                "matched": 122,
+                "predicted": 177,
+                "gold": 239,
+                "precision": 0.6892655367231638,
+                "recall": 0.5104602510460251,
+                "f1": 0.5865384615384616
+              },
+              "token_confusion": [
+                [
+                  2335,
+                  967,
+                  97,
+                  1,
+                  77,
+                  0,
+                  240
+                ],
+                [
+                  1122,
+                  3582,
+                  538,
+                  146,
+                  0,
+                  0,
+                  281
+                ],
+                [
+                  0,
+                  122,
+                  680,
+                  0,
+                  0,
+                  0,
+                  161
+                ],
+                [
+                  244,
+                  0,
+                  66,
+                  1393,
+                  16,
+                  115,
+                  0
+                ],
+                [
+                  121,
+                  9,
+                  77,
+                  140,
+                  1089,
+                  0,
+                  0
+                ],
+                [
+                  3414,
+                  111,
+                  291,
+                  61,
+                  0,
+                  496,
+                  94
+                ],
+                [
+                  97,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  669
+                ]
+              ]
+            },
+            "6": {
+              "tokens": 18852,
+              "token_accuracy": 0.5937831529811161,
+              "token_macro_f1": 0.631670777425975,
+              "exact_labeled_spans": {
+                "matched": 98,
+                "predicted": 209,
+                "gold": 249,
+                "precision": 0.4688995215311005,
+                "recall": 0.39357429718875503,
+                "f1": 0.4279475982532751
+              },
+              "exact_role_boundaries": {
+                "matched": 140,
+                "predicted": 199,
+                "gold": 239,
+                "precision": 0.7035175879396985,
+                "recall": 0.5857740585774058,
+                "f1": 0.639269406392694
+              },
+              "token_confusion": [
+                [
+                  1971,
+                  1206,
+                  117,
+                  0,
+                  77,
+                  207,
+                  139
+                ],
+                [
+                  698,
+                  4748,
+                  149,
+                  0,
+                  0,
+                  74,
+                  0
+                ],
+                [
+                  77,
+                  122,
+                  680,
+                  0,
+                  0,
+                  0,
+                  84
+                ],
+                [
+                  306,
+                  172,
+                  47,
+                  1178,
+                  16,
+                  115,
+                  0
+                ],
+                [
+                  121,
+                  9,
+                  77,
+                  140,
+                  1089,
+                  0,
+                  0
+                ],
+                [
+                  2774,
+                  500,
+                  250,
+                  61,
+                  0,
+                  772,
+                  110
+                ],
+                [
+                  10,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  756
+                ]
+              ]
+            },
+            "12": {
+              "tokens": 18852,
+              "token_accuracy": 0.6588160407383832,
+              "token_macro_f1": 0.6933276565705747,
+              "exact_labeled_spans": {
+                "matched": 110,
+                "predicted": 220,
+                "gold": 249,
+                "precision": 0.5,
+                "recall": 0.44176706827309237,
+                "f1": 0.4690831556503198
+              },
+              "exact_role_boundaries": {
+                "matched": 151,
+                "predicted": 210,
+                "gold": 239,
+                "precision": 0.719047619047619,
+                "recall": 0.6317991631799164,
+                "f1": 0.6726057906458798
+              },
+              "token_confusion": [
+                [
+                  1797,
+                  1409,
+                  141,
+                  0,
+                  77,
+                  203,
+                  90
+                ],
+                [
+                  413,
+                  5107,
+                  149,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  392,
+                  571,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  72,
+                  172,
+                  66,
+                  1393,
+                  16,
+                  115,
+                  0
+                ],
+                [
+                  0,
+                  9,
+                  98,
+                  96,
+                  1233,
+                  0,
+                  0
+                ],
+                [
+                  2390,
+                  191,
+                  212,
+                  61,
+                  0,
+                  1553,
+                  60
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  766
+                ]
+              ]
+            },
+            "0": {
+              "tokens": 18852,
+              "token_accuracy": 0.7269785699130066,
+              "token_macro_f1": 0.7420441583053048,
+              "exact_labeled_spans": {
+                "matched": 120,
+                "predicted": 216,
+                "gold": 249,
+                "precision": 0.5555555555555556,
+                "recall": 0.4819277108433735,
+                "f1": 0.5161290322580645
+              },
+              "exact_role_boundaries": {
+                "matched": 156,
+                "predicted": 206,
+                "gold": 239,
+                "precision": 0.7572815533980582,
+                "recall": 0.6527196652719666,
+                "f1": 0.701123595505618
+              },
+              "token_confusion": [
+                [
+                  1865,
+                  1119,
+                  49,
+                  0,
+                  77,
+                  561,
+                  46
+                ],
+                [
+                  360,
+                  5241,
+                  0,
+                  68,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  392,
+                  571,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  72,
+                  172,
+                  66,
+                  1409,
+                  0,
+                  115,
+                  0
+                ],
+                [
+                  23,
+                  0,
+                  175,
+                  140,
+                  1098,
+                  0,
+                  0
+                ],
+                [
+                  1387,
+                  83,
+                  144,
+                  0,
+                  61,
+                  2755,
+                  37
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  766
+                ]
+              ]
+            }
+          },
+          "exact_span_delta_ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "confirm": {
+          "cases": 10,
+          "chosen": {
+            "tokens": 20649,
+            "token_accuracy": 0.7361615574604097,
+            "token_macro_f1": 0.722781968695614,
+            "exact_labeled_spans": {
+              "matched": 120,
+              "predicted": 206,
+              "gold": 210,
+              "precision": 0.5825242718446602,
+              "recall": 0.5714285714285714,
+              "f1": 0.5769230769230769
+            },
+            "exact_role_boundaries": {
+              "matched": 149,
+              "predicted": 196,
+              "gold": 200,
+              "precision": 0.7602040816326531,
+              "recall": 0.745,
+              "f1": 0.7525252525252525
+            },
+            "token_confusion": [
+              [
+                1326,
+                525,
+                223,
+                0,
+                0,
+                1106,
+                0
+              ],
+              [
+                347,
+                5968,
+                323,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                38,
+                42,
+                670,
+                37,
+                0,
+                0,
+                0
+              ],
+              [
+                345,
+                0,
+                0,
+                1517,
+                140,
+                0,
+                0
+              ],
+              [
+                109,
+                0,
+                0,
+                43,
+                1674,
+                0,
+                0
+              ],
+              [
+                1380,
+                166,
+                0,
+                0,
+                93,
+                3478,
+                0
+              ],
+              [
+                1,
+                137,
+                0,
+                0,
+                0,
+                393,
+                568
+              ]
+            ]
+          },
+          "full_context": {
+            "tokens": 20649,
+            "token_accuracy": 0.7361615574604097,
+            "token_macro_f1": 0.722781968695614,
+            "exact_labeled_spans": {
+              "matched": 120,
+              "predicted": 206,
+              "gold": 210,
+              "precision": 0.5825242718446602,
+              "recall": 0.5714285714285714,
+              "f1": 0.5769230769230769
+            },
+            "exact_role_boundaries": {
+              "matched": 149,
+              "predicted": 196,
+              "gold": 200,
+              "precision": 0.7602040816326531,
+              "recall": 0.745,
+              "f1": 0.7525252525252525
+            },
+            "token_confusion": [
+              [
+                1326,
+                525,
+                223,
+                0,
+                0,
+                1106,
+                0
+              ],
+              [
+                347,
+                5968,
+                323,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                38,
+                42,
+                670,
+                37,
+                0,
+                0,
+                0
+              ],
+              [
+                345,
+                0,
+                0,
+                1517,
+                140,
+                0,
+                0
+              ],
+              [
+                109,
+                0,
+                0,
+                43,
+                1674,
+                0,
+                0
+              ],
+              [
+                1380,
+                166,
+                0,
+                0,
+                93,
+                3478,
+                0
+              ],
+              [
+                1,
+                137,
+                0,
+                0,
+                0,
+                393,
+                568
+              ]
+            ]
+          },
+          "context_only": {
+            "1": {
+              "tokens": 20649,
+              "token_accuracy": 0.46045813356579013,
+              "token_macro_f1": 0.49108291839570095,
+              "exact_labeled_spans": {
+                "matched": 31,
+                "predicted": 104,
+                "gold": 210,
+                "precision": 0.2980769230769231,
+                "recall": 0.14761904761904762,
+                "f1": 0.19745222929936307
+              },
+              "exact_role_boundaries": {
+                "matched": 59,
+                "predicted": 94,
+                "gold": 200,
+                "precision": 0.6276595744680851,
+                "recall": 0.295,
+                "f1": 0.4013605442176871
+              },
+              "token_confusion": [
+                [
+                  2555,
+                  225,
+                  325,
+                  0,
+                  0,
+                  0,
+                  75
+                ],
+                [
+                  2923,
+                  3115,
+                  177,
+                  177,
+                  0,
+                  0,
+                  246
+                ],
+                [
+                  387,
+                  106,
+                  294,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  256,
+                  0,
+                  78,
+                  1370,
+                  298,
+                  0,
+                  0
+                ],
+                [
+                  90,
+                  0,
+                  0,
+                  43,
+                  1693,
+                  0,
+                  0
+                ],
+                [
+                  4976,
+                  0,
+                  0,
+                  103,
+                  0,
+                  0,
+                  38
+                ],
+                [
+                  618,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  481
+                ]
+              ]
+            },
+            "3": {
+              "tokens": 20649,
+              "token_accuracy": 0.5417695772192358,
+              "token_macro_f1": 0.5830586223024661,
+              "exact_labeled_spans": {
+                "matched": 64,
+                "predicted": 167,
+                "gold": 210,
+                "precision": 0.38323353293413176,
+                "recall": 0.3047619047619048,
+                "f1": 0.3395225464190981
+              },
+              "exact_role_boundaries": {
+                "matched": 108,
+                "predicted": 157,
+                "gold": 200,
+                "precision": 0.6878980891719745,
+                "recall": 0.54,
+                "f1": 0.6050420168067226
+              },
+              "token_confusion": [
+                [
+                  2077,
+                  427,
+                  325,
+                  1,
+                  53,
+                  287,
+                  10
+                ],
+                [
+                  1928,
+                  4316,
+                  257,
+                  0,
+                  84,
+                  0,
+                  53
+                ],
+                [
+                  95,
+                  84,
+                  571,
+                  37,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  174,
+                  0,
+                  0,
+                  1628,
+                  200,
+                  0,
+                  0
+                ],
+                [
+                  90,
+                  0,
+                  0,
+                  88,
+                  1648,
+                  0,
+                  0
+                ],
+                [
+                  4268,
+                  155,
+                  119,
+                  115,
+                  0,
+                  460,
+                  0
+                ],
+                [
+                  502,
+                  110,
+                  0,
+                  0,
+                  0,
+                  0,
+                  487
+                ]
+              ]
+            },
+            "6": {
+              "tokens": 20649,
+              "token_accuracy": 0.5832727977141751,
+              "token_macro_f1": 0.6043053467154201,
+              "exact_labeled_spans": {
+                "matched": 94,
+                "predicted": 194,
+                "gold": 210,
+                "precision": 0.4845360824742268,
+                "recall": 0.44761904761904764,
+                "f1": 0.46534653465346537
+              },
+              "exact_role_boundaries": {
+                "matched": 135,
+                "predicted": 184,
+                "gold": 200,
+                "precision": 0.7336956521739131,
+                "recall": 0.675,
+                "f1": 0.703125
+              },
+              "token_confusion": [
+                [
+                  1603,
+                  540,
+                  329,
+                  16,
+                  46,
+                  636,
+                  10
+                ],
+                [
+                  1496,
+                  4652,
+                  323,
+                  109,
+                  0,
+                  0,
+                  58
+                ],
+                [
+                  22,
+                  42,
+                  670,
+                  53,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  95,
+                  0,
+                  78,
+                  1753,
+                  76,
+                  0,
+                  0
+                ],
+                [
+                  388,
+                  0,
+                  0,
+                  43,
+                  1395,
+                  0,
+                  0
+                ],
+                [
+                  3104,
+                  86,
+                  0,
+                  284,
+                  0,
+                  1609,
+                  34
+                ],
+                [
+                  357,
+                  345,
+                  35,
+                  0,
+                  0,
+                  0,
+                  362
+                ]
+              ]
+            },
+            "12": {
+              "tokens": 20649,
+              "token_accuracy": 0.6563513971620901,
+              "token_macro_f1": 0.6601589179098706,
+              "exact_labeled_spans": {
+                "matched": 105,
+                "predicted": 198,
+                "gold": 210,
+                "precision": 0.5303030303030303,
+                "recall": 0.5,
+                "f1": 0.5147058823529411
+              },
+              "exact_role_boundaries": {
+                "matched": 141,
+                "predicted": 188,
+                "gold": 200,
+                "precision": 0.75,
+                "recall": 0.705,
+                "f1": 0.7268041237113402
+              },
+              "token_confusion": [
+                [
+                  1401,
+                  881,
+                  329,
+                  16,
+                  46,
+                  507,
+                  0
+                ],
+                [
+                  736,
+                  5470,
+                  323,
+                  109,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  22,
+                  42,
+                  670,
+                  53,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  344,
+                  0,
+                  0,
+                  1582,
+                  76,
+                  0,
+                  0
+                ],
+                [
+                  19,
+                  90,
+                  0,
+                  43,
+                  1674,
+                  0,
+                  0
+                ],
+                [
+                  1874,
+                  524,
+                  0,
+                  416,
+                  0,
+                  2269,
+                  34
+                ],
+                [
+                  123,
+                  345,
+                  0,
+                  0,
+                  0,
+                  144,
+                  487
+                ]
+              ]
+            },
+            "0": {
+              "tokens": 20649,
+              "token_accuracy": 0.7361615574604097,
+              "token_macro_f1": 0.722781968695614,
+              "exact_labeled_spans": {
+                "matched": 120,
+                "predicted": 206,
+                "gold": 210,
+                "precision": 0.5825242718446602,
+                "recall": 0.5714285714285714,
+                "f1": 0.5769230769230769
+              },
+              "exact_role_boundaries": {
+                "matched": 149,
+                "predicted": 196,
+                "gold": 200,
+                "precision": 0.7602040816326531,
+                "recall": 0.745,
+                "f1": 0.7525252525252525
+              },
+              "token_confusion": [
+                [
+                  1326,
+                  525,
+                  223,
+                  0,
+                  0,
+                  1106,
+                  0
+                ],
+                [
+                  347,
+                  5968,
+                  323,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  38,
+                  42,
+                  670,
+                  37,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  345,
+                  0,
+                  0,
+                  1517,
+                  140,
+                  0,
+                  0
+                ],
+                [
+                  109,
+                  0,
+                  0,
+                  43,
+                  1674,
+                  0,
+                  0
+                ],
+                [
+                  1380,
+                  166,
+                  0,
+                  0,
+                  93,
+                  3478,
+                  0
+                ],
+                [
+                  1,
+                  137,
+                  0,
+                  0,
+                  0,
+                  393,
+                  568
+                ]
+              ]
+            }
+          },
+          "exact_span_delta_ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "test": {
+          "cases": 20,
+          "chosen": {
+            "tokens": 45943,
+            "token_accuracy": 0.7004984437237446,
+            "token_macro_f1": 0.6882271268191128,
+            "exact_labeled_spans": {
+              "matched": 151,
+              "predicted": 313,
+              "gold": 378,
+              "precision": 0.48242811501597443,
+              "recall": 0.3994708994708995,
+              "f1": 0.4370477568740955
+            },
+            "exact_role_boundaries": {
+              "matched": 203,
+              "predicted": 293,
+              "gold": 358,
+              "precision": 0.6928327645051194,
+              "recall": 0.5670391061452514,
+              "f1": 0.6236559139784946
+            },
+            "token_confusion": [
+              [
+                4830,
+                1196,
+                215,
+                385,
+                191,
+                737,
+                39
+              ],
+              [
+                266,
+                11446,
+                443,
+                139,
+                51,
+                0,
+                0
+              ],
+              [
+                60,
+                616,
+                947,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                396,
+                0,
+                19,
+                3594,
+                1082,
+                0,
+                1
+              ],
+              [
+                292,
+                651,
+                77,
+                125,
+                3701,
+                51,
+                0
+              ],
+              [
+                5076,
+                320,
+                40,
+                312,
+                315,
+                6484,
+                332
+              ],
+              [
+                25,
+                102,
+                0,
+                0,
+                0,
+                206,
+                1181
+              ]
+            ]
+          },
+          "full_context": {
+            "tokens": 45943,
+            "token_accuracy": 0.7004984437237446,
+            "token_macro_f1": 0.6882271268191128,
+            "exact_labeled_spans": {
+              "matched": 151,
+              "predicted": 313,
+              "gold": 378,
+              "precision": 0.48242811501597443,
+              "recall": 0.3994708994708995,
+              "f1": 0.4370477568740955
+            },
+            "exact_role_boundaries": {
+              "matched": 203,
+              "predicted": 293,
+              "gold": 358,
+              "precision": 0.6928327645051194,
+              "recall": 0.5670391061452514,
+              "f1": 0.6236559139784946
+            },
+            "token_confusion": [
+              [
+                4830,
+                1196,
+                215,
+                385,
+                191,
+                737,
+                39
+              ],
+              [
+                266,
+                11446,
+                443,
+                139,
+                51,
+                0,
+                0
+              ],
+              [
+                60,
+                616,
+                947,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                396,
+                0,
+                19,
+                3594,
+                1082,
+                0,
+                1
+              ],
+              [
+                292,
+                651,
+                77,
+                125,
+                3701,
+                51,
+                0
+              ],
+              [
+                5076,
+                320,
+                40,
+                312,
+                315,
+                6484,
+                332
+              ],
+              [
+                25,
+                102,
+                0,
+                0,
+                0,
+                206,
+                1181
+              ]
+            ]
+          },
+          "context_only": {
+            "1": {
+              "tokens": 45943,
+              "token_accuracy": 0.46226846309557496,
+              "token_macro_f1": 0.5012845070203882,
+              "exact_labeled_spans": {
+                "matched": 40,
+                "predicted": 191,
+                "gold": 378,
+                "precision": 0.2094240837696335,
+                "recall": 0.10582010582010581,
+                "f1": 0.140597539543058
+              },
+              "exact_role_boundaries": {
+                "matched": 90,
+                "predicted": 171,
+                "gold": 358,
+                "precision": 0.5263157894736842,
+                "recall": 0.25139664804469275,
+                "f1": 0.34026465028355385
+              },
+              "token_confusion": [
+                [
+                  5840,
+                  508,
+                  126,
+                  498,
+                  160,
+                  413,
+                  48
+                ],
+                [
+                  4312,
+                  6883,
+                  885,
+                  110,
+                  127,
+                  0,
+                  28
+                ],
+                [
+                  692,
+                  256,
+                  675,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  822,
+                  0,
+                  19,
+                  3633,
+                  618,
+                  0,
+                  0
+                ],
+                [
+                  970,
+                  250,
+                  77,
+                  885,
+                  2715,
+                  0,
+                  0
+                ],
+                [
+                  10588,
+                  729,
+                  400,
+                  459,
+                  123,
+                  529,
+                  51
+                ],
+                [
+                  515,
+                  0,
+                  0,
+                  0,
+                  0,
+                  36,
+                  963
+                ]
+              ]
+            },
+            "3": {
+              "tokens": 45943,
+              "token_accuracy": 0.5530766384432885,
+              "token_macro_f1": 0.5654983343533648,
+              "exact_labeled_spans": {
+                "matched": 93,
+                "predicted": 282,
+                "gold": 378,
+                "precision": 0.32978723404255317,
+                "recall": 0.24603174603174602,
+                "f1": 0.2818181818181818
+              },
+              "exact_role_boundaries": {
+                "matched": 162,
+                "predicted": 262,
+                "gold": 358,
+                "precision": 0.6183206106870229,
+                "recall": 0.45251396648044695,
+                "f1": 0.5225806451612903
+              },
+              "token_confusion": [
+                [
+                  5384,
+                  657,
+                  301,
+                  526,
+                  176,
+                  513,
+                  36
+                ],
+                [
+                  1929,
+                  9541,
+                  574,
+                  120,
+                  70,
+                  0,
+                  111
+                ],
+                [
+                  79,
+                  427,
+                  1117,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  661,
+                  0,
+                  19,
+                  3684,
+                  728,
+                  0,
+                  0
+                ],
+                [
+                  694,
+                  453,
+                  77,
+                  673,
+                  3000,
+                  0,
+                  0
+                ],
+                [
+                  7933,
+                  1642,
+                  441,
+                  805,
+                  154,
+                  1821,
+                  83
+                ],
+                [
+                  474,
+                  0,
+                  141,
+                  0,
+                  0,
+                  36,
+                  863
+                ]
+              ]
+            },
+            "6": {
+              "tokens": 45943,
+              "token_accuracy": 0.583026794070914,
+              "token_macro_f1": 0.5958392153011294,
+              "exact_labeled_spans": {
+                "matched": 128,
+                "predicted": 320,
+                "gold": 378,
+                "precision": 0.4,
+                "recall": 0.3386243386243386,
+                "f1": 0.3667621776504298
+              },
+              "exact_role_boundaries": {
+                "matched": 194,
+                "predicted": 300,
+                "gold": 358,
+                "precision": 0.6466666666666666,
+                "recall": 0.5418994413407822,
+                "f1": 0.5896656534954408
+              },
+              "token_confusion": [
+                [
+                  5172,
+                  801,
+                  282,
+                  528,
+                  241,
+                  530,
+                  39
+                ],
+                [
+                  1576,
+                  9975,
+                  580,
+                  163,
+                  51,
+                  0,
+                  0
+                ],
+                [
+                  22,
+                  513,
+                  1088,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  714,
+                  0,
+                  19,
+                  3488,
+                  871,
+                  0,
+                  0
+                ],
+                [
+                  388,
+                  587,
+                  77,
+                  661,
+                  3184,
+                  0,
+                  0
+                ],
+                [
+                  6256,
+                  2454,
+                  76,
+                  805,
+                  145,
+                  2839,
+                  304
+                ],
+                [
+                  73,
+                  224,
+                  141,
+                  0,
+                  0,
+                  36,
+                  1040
+                ]
+              ]
+            },
+            "12": {
+              "tokens": 45943,
+              "token_accuracy": 0.6048364277474262,
+              "token_macro_f1": 0.6228507066352957,
+              "exact_labeled_spans": {
+                "matched": 134,
+                "predicted": 320,
+                "gold": 378,
+                "precision": 0.41875,
+                "recall": 0.3544973544973545,
+                "f1": 0.3839541547277937
+              },
+              "exact_role_boundaries": {
+                "matched": 198,
+                "predicted": 300,
+                "gold": 358,
+                "precision": 0.66,
+                "recall": 0.553072625698324,
+                "f1": 0.601823708206687
+              },
+              "token_confusion": [
+                [
+                  5214,
+                  779,
+                  215,
+                  601,
+                  215,
+                  530,
+                  39
+                ],
+                [
+                  1439,
+                  10203,
+                  489,
+                  163,
+                  51,
+                  0,
+                  0
+                ],
+                [
+                  148,
+                  425,
+                  1050,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  456,
+                  0,
+                  19,
+                  3990,
+                  627,
+                  0,
+                  0
+                ],
+                [
+                  316,
+                  587,
+                  77,
+                  731,
+                  3186,
+                  0,
+                  0
+                ],
+                [
+                  6616,
+                  2128,
+                  76,
+                  692,
+                  145,
+                  3105,
+                  117
+                ],
+                [
+                  25,
+                  272,
+                  141,
+                  0,
+                  0,
+                  36,
+                  1040
+                ]
+              ]
+            },
+            "0": {
+              "tokens": 45943,
+              "token_accuracy": 0.7004984437237446,
+              "token_macro_f1": 0.6882271268191128,
+              "exact_labeled_spans": {
+                "matched": 151,
+                "predicted": 313,
+                "gold": 378,
+                "precision": 0.48242811501597443,
+                "recall": 0.3994708994708995,
+                "f1": 0.4370477568740955
+              },
+              "exact_role_boundaries": {
+                "matched": 203,
+                "predicted": 293,
+                "gold": 358,
+                "precision": 0.6928327645051194,
+                "recall": 0.5670391061452514,
+                "f1": 0.6236559139784946
+              },
+              "token_confusion": [
+                [
+                  4830,
+                  1196,
+                  215,
+                  385,
+                  191,
+                  737,
+                  39
+                ],
+                [
+                  266,
+                  11446,
+                  443,
+                  139,
+                  51,
+                  0,
+                  0
+                ],
+                [
+                  60,
+                  616,
+                  947,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  396,
+                  0,
+                  19,
+                  3594,
+                  1082,
+                  0,
+                  1
+                ],
+                [
+                  292,
+                  651,
+                  77,
+                  125,
+                  3701,
+                  51,
+                  0
+                ],
+                [
+                  5076,
+                  320,
+                  40,
+                  312,
+                  315,
+                  6484,
+                  332
+                ],
+                [
+                  25,
+                  102,
+                  0,
+                  0,
+                  0,
+                  206,
+                  1181
+                ]
+              ]
+            }
+          },
+          "exact_span_delta_ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "cloud": {
+          "cases": 12,
+          "chosen": {
+            "tokens": 1413,
+            "token_accuracy": 0.29865534324133053,
+            "token_macro_f1": 0.15358860658082413,
+            "exact_labeled_spans": {
+              "matched": 0,
+              "predicted": 14,
+              "gold": 28,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            "exact_role_boundaries": {
+              "matched": 1,
+              "predicted": 2,
+              "gold": 16,
+              "precision": 0.5,
+              "recall": 0.0625,
+              "f1": 0.1111111111111111
+            },
+            "token_confusion": [
+              [
+                332,
+                0,
+                0,
+                0,
+                0,
+                0,
+                5
+              ],
+              [
+                48,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                150,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                101,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                599,
+                0,
+                0,
+                0,
+                0,
+                0,
+                58
+              ],
+              [
+                30,
+                0,
+                0,
+                0,
+                0,
+                0,
+                90
+              ]
+            ]
+          },
+          "full_context": {
+            "tokens": 1413,
+            "token_accuracy": 0.29865534324133053,
+            "token_macro_f1": 0.15358860658082413,
+            "exact_labeled_spans": {
+              "matched": 0,
+              "predicted": 14,
+              "gold": 28,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            "exact_role_boundaries": {
+              "matched": 1,
+              "predicted": 2,
+              "gold": 16,
+              "precision": 0.5,
+              "recall": 0.0625,
+              "f1": 0.1111111111111111
+            },
+            "token_confusion": [
+              [
+                332,
+                0,
+                0,
+                0,
+                0,
+                0,
+                5
+              ],
+              [
+                48,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                150,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                101,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                599,
+                0,
+                0,
+                0,
+                0,
+                0,
+                58
+              ],
+              [
+                30,
+                0,
+                0,
+                0,
+                0,
+                0,
+                90
+              ]
+            ]
+          },
+          "context_only": {
+            "1": {
+              "tokens": 1413,
+              "token_accuracy": 0.29865534324133053,
+              "token_macro_f1": 0.1769168230771547,
+              "exact_labeled_spans": {
+                "matched": 1,
+                "predicted": 14,
+                "gold": 28,
+                "precision": 0.07142857142857142,
+                "recall": 0.03571428571428571,
+                "f1": 0.047619047619047616
+              },
+              "exact_role_boundaries": {
+                "matched": 2,
+                "predicted": 2,
+                "gold": 16,
+                "precision": 1.0,
+                "recall": 0.125,
+                "f1": 0.2222222222222222
+              },
+              "token_confusion": [
+                [
+                  332,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  5
+                ],
+                [
+                  48,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  150,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  101,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  657,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  30,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  90
+                ]
+              ]
+            },
+            "3": {
+              "tokens": 1413,
+              "token_accuracy": 0.29865534324133053,
+              "token_macro_f1": 0.15358860658082413,
+              "exact_labeled_spans": {
+                "matched": 0,
+                "predicted": 14,
+                "gold": 28,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+              },
+              "exact_role_boundaries": {
+                "matched": 1,
+                "predicted": 2,
+                "gold": 16,
+                "precision": 0.5,
+                "recall": 0.0625,
+                "f1": 0.1111111111111111
+              },
+              "token_confusion": [
+                [
+                  332,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  5
+                ],
+                [
+                  48,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  150,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  101,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  599,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  58
+                ],
+                [
+                  30,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  90
+                ]
+              ]
+            },
+            "6": {
+              "tokens": 1413,
+              "token_accuracy": 0.29865534324133053,
+              "token_macro_f1": 0.15358860658082413,
+              "exact_labeled_spans": {
+                "matched": 0,
+                "predicted": 14,
+                "gold": 28,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+              },
+              "exact_role_boundaries": {
+                "matched": 1,
+                "predicted": 2,
+                "gold": 16,
+                "precision": 0.5,
+                "recall": 0.0625,
+                "f1": 0.1111111111111111
+              },
+              "token_confusion": [
+                [
+                  332,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  5
+                ],
+                [
+                  48,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  150,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  101,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  599,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  58
+                ],
+                [
+                  30,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  90
+                ]
+              ]
+            },
+            "12": {
+              "tokens": 1413,
+              "token_accuracy": 0.29865534324133053,
+              "token_macro_f1": 0.15358860658082413,
+              "exact_labeled_spans": {
+                "matched": 0,
+                "predicted": 14,
+                "gold": 28,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+              },
+              "exact_role_boundaries": {
+                "matched": 1,
+                "predicted": 2,
+                "gold": 16,
+                "precision": 0.5,
+                "recall": 0.0625,
+                "f1": 0.1111111111111111
+              },
+              "token_confusion": [
+                [
+                  332,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  5
+                ],
+                [
+                  48,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  150,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  101,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  599,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  58
+                ],
+                [
+                  30,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  90
+                ]
+              ]
+            },
+            "0": {
+              "tokens": 1413,
+              "token_accuracy": 0.29865534324133053,
+              "token_macro_f1": 0.15358860658082413,
+              "exact_labeled_spans": {
+                "matched": 0,
+                "predicted": 14,
+                "gold": 28,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0
+              },
+              "exact_role_boundaries": {
+                "matched": 1,
+                "predicted": 2,
+                "gold": 16,
+                "precision": 0.5,
+                "recall": 0.0625,
+                "f1": 0.1111111111111111
+              },
+              "token_confusion": [
+                [
+                  332,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  5
+                ],
+                [
+                  48,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  150,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  101,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  599,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  58
+                ],
+                [
+                  30,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  90
+                ]
+              ]
+            }
+          },
+          "exact_span_delta_ci95": [
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "fragment": {
+      "selected_context_units": 12,
+      "share": 0.5,
+      "document_edge_multiplier": 0,
+      "selection": "Validation exact span F1, then token accuracy. Width zero uses all supplied text. Positive widths use bounded groups of automatically proposed units, with breaks when blank-line paragraph layout exists. Reconstructed test judgments mostly have no original paragraph formatting.",
+      "sha256": "8f9adcef835d5ceabf0b0c80625620405d2b1f102216e3501638358db4b2163c",
+      "grid": [
+        [
+          1,
+          0.5,
+          0,
+          0.2692307692307692,
+          0.4786516853932584
+        ],
+        [
+          1,
+          0.5,
+          0.5,
+          0.2692307692307692,
+          0.4786516853932584
+        ],
+        [
+          1,
+          0.5,
+          1,
+          0.2692307692307692,
+          0.4786516853932584
+        ],
+        [
+          1,
+          1.0,
+          0,
+          0.15503875968992248,
+          0.4341292134831461
+        ],
+        [
+          1,
+          1.0,
+          0.5,
+          0.15503875968992248,
+          0.4341292134831461
+        ],
+        [
+          1,
+          1.0,
+          1,
+          0.15503875968992248,
+          0.4341292134831461
+        ],
+        [
+          3,
+          0.5,
+          0,
+          0.2877030162412993,
+          0.4726123595505618
+        ],
+        [
+          3,
+          0.5,
+          0.5,
+          0.2877030162412993,
+          0.4726123595505618
+        ],
+        [
+          3,
+          0.5,
+          1,
+          0.2877030162412993,
+          0.4726123595505618
+        ],
+        [
+          3,
+          1.0,
+          0,
+          0.2564102564102564,
+          0.46720505617977526
+        ],
+        [
+          3,
+          1.0,
+          0.5,
+          0.2564102564102564,
+          0.46720505617977526
+        ],
+        [
+          3,
+          1.0,
+          1,
+          0.2564102564102564,
+          0.46720505617977526
+        ],
+        [
+          6,
+          0.5,
+          0,
+          0.3002309468822171,
+          0.4765449438202247
+        ],
+        [
+          6,
+          0.5,
+          0.5,
+          0.3002309468822171,
+          0.4765449438202247
+        ],
+        [
+          6,
+          0.5,
+          1,
+          0.3002309468822171,
+          0.4765449438202247
+        ],
+        [
+          6,
+          1.0,
+          0,
+          0.2903225806451613,
+          0.47155898876404495
+        ],
+        [
+          6,
+          1.0,
+          0.5,
+          0.2903225806451613,
+          0.47155898876404495
+        ],
+        [
+          6,
+          1.0,
+          1,
+          0.2903225806451613,
+          0.47155898876404495
+        ],
+        [
+          12,
+          0.5,
+          0,
+          0.3073394495412844,
+          0.47963483146067415
+        ],
+        [
+          12,
+          0.5,
+          0.5,
+          0.3073394495412844,
+          0.47963483146067415
+        ],
+        [
+          12,
+          0.5,
+          1,
+          0.3073394495412844,
+          0.47963483146067415
+        ],
+        [
+          12,
+          1.0,
+          0,
+          0.3073394495412844,
+          0.47963483146067415
+        ],
+        [
+          12,
+          1.0,
+          0.5,
+          0.3073394495412844,
+          0.47963483146067415
+        ],
+        [
+          12,
+          1.0,
+          1,
+          0.3073394495412844,
+          0.47963483146067415
+        ],
+        [
+          0,
+          1.0,
+          0,
+          0.3073394495412844,
+          0.47963483146067415
+        ],
+        [
+          0,
+          1.0,
+          0.5,
+          0.3073394495412844,
+          0.47963483146067415
+        ],
+        [
+          0,
+          1.0,
+          1,
+          0.3073394495412844,
+          0.47963483146067415
+        ]
+      ],
+      "scores": {
+        "select": {
+          "cases": 84,
+          "chosen": {
+            "tokens": 14240,
+            "token_accuracy": 0.47963483146067415,
+            "token_macro_f1": 0.4808141245244041,
+            "exact_labeled_spans": {
+              "matched": 67,
+              "predicted": 205,
+              "gold": 231,
+              "precision": 0.32682926829268294,
+              "recall": 0.29004329004329005,
+              "f1": 0.3073394495412844
+            },
+            "exact_role_boundaries": {
+              "matched": 77,
+              "predicted": 121,
+              "gold": 147,
+              "precision": 0.6363636363636364,
+              "recall": 0.5238095238095238,
+              "f1": 0.5746268656716418
+            },
+            "token_confusion": [
+              [
+                3528,
+                681,
+                151,
+                41,
+                43,
+                249,
+                140
+              ],
+              [
+                812,
+                907,
+                174,
+                0,
+                0,
+                126,
+                0
+              ],
+              [
+                1,
+                90,
+                213,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                336,
+                100,
+                1,
+                782,
+                77,
+                88,
+                0
+              ],
+              [
+                201,
+                33,
+                12,
+                143,
+                609,
+                16,
+                0
+              ],
+              [
+                2695,
+                511,
+                289,
+                118,
+                25,
+                595,
+                16
+              ],
+              [
+                21,
+                79,
+                27,
+                70,
+                0,
+                44,
+                196
+              ]
+            ]
+          },
+          "full_context": {
+            "tokens": 14240,
+            "token_accuracy": 0.47963483146067415,
+            "token_macro_f1": 0.4808141245244041,
+            "exact_labeled_spans": {
+              "matched": 67,
+              "predicted": 205,
+              "gold": 231,
+              "precision": 0.32682926829268294,
+              "recall": 0.29004329004329005,
+              "f1": 0.3073394495412844
+            },
+            "exact_role_boundaries": {
+              "matched": 77,
+              "predicted": 121,
+              "gold": 147,
+              "precision": 0.6363636363636364,
+              "recall": 0.5238095238095238,
+              "f1": 0.5746268656716418
+            },
+            "token_confusion": [
+              [
+                3528,
+                681,
+                151,
+                41,
+                43,
+                249,
+                140
+              ],
+              [
+                812,
+                907,
+                174,
+                0,
+                0,
+                126,
+                0
+              ],
+              [
+                1,
+                90,
+                213,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                336,
+                100,
+                1,
+                782,
+                77,
+                88,
+                0
+              ],
+              [
+                201,
+                33,
+                12,
+                143,
+                609,
+                16,
+                0
+              ],
+              [
+                2695,
+                511,
+                289,
+                118,
+                25,
+                595,
+                16
+              ],
+              [
+                21,
+                79,
+                27,
+                70,
+                0,
+                44,
+                196
+              ]
+            ]
+          },
+          "context_only": {
+            "1": {
+              "tokens": 14240,
+              "token_accuracy": 0.4341292134831461,
+              "token_macro_f1": 0.39243517976203796,
+              "exact_labeled_spans": {
+                "matched": 30,
+                "predicted": 156,
+                "gold": 231,
+                "precision": 0.19230769230769232,
+                "recall": 0.12987012987012986,
+                "f1": 0.15503875968992248
+              },
+              "exact_role_boundaries": {
+                "matched": 36,
+                "predicted": 72,
+                "gold": 147,
+                "precision": 0.5,
+                "recall": 0.24489795918367346,
+                "f1": 0.3287671232876712
+              },
+              "token_confusion": [
+                [
+                  4438,
+                  217,
+                  42,
+                  67,
+                  0,
+                  44,
+                  25
+                ],
+                [
+                  1404,
+                  486,
+                  129,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  33,
+                  90,
+                  181,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  530,
+                  58,
+                  1,
+                  557,
+                  238,
+                  0,
+                  0
+                ],
+                [
+                  367,
+                  33,
+                  12,
+                  278,
+                  324,
+                  0,
+                  0
+                ],
+                [
+                  3865,
+                  66,
+                  189,
+                  88,
+                  25,
+                  0,
+                  16
+                ],
+                [
+                  144,
+                  0,
+                  27,
+                  70,
+                  0,
+                  0,
+                  196
+                ]
+              ]
+            },
+            "3": {
+              "tokens": 14240,
+              "token_accuracy": 0.46720505617977526,
+              "token_macro_f1": 0.46960004370843456,
+              "exact_labeled_spans": {
+                "matched": 55,
+                "predicted": 198,
+                "gold": 231,
+                "precision": 0.2777777777777778,
+                "recall": 0.23809523809523808,
+                "f1": 0.2564102564102564
+              },
+              "exact_role_boundaries": {
+                "matched": 68,
+                "predicted": 114,
+                "gold": 147,
+                "precision": 0.5964912280701754,
+                "recall": 0.46258503401360546,
+                "f1": 0.5210727969348659
+              },
+              "token_confusion": [
+                [
+                  3683,
+                  573,
+                  151,
+                  41,
+                  43,
+                  251,
+                  91
+                ],
+                [
+                  930,
+                  851,
+                  174,
+                  0,
+                  0,
+                  33,
+                  31
+                ],
+                [
+                  1,
+                  90,
+                  213,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  337,
+                  100,
+                  1,
+                  756,
+                  102,
+                  88,
+                  0
+                ],
+                [
+                  201,
+                  33,
+                  12,
+                  143,
+                  609,
+                  16,
+                  0
+                ],
+                [
+                  3084,
+                  461,
+                  232,
+                  88,
+                  25,
+                  343,
+                  16
+                ],
+                [
+                  19,
+                  79,
+                  27,
+                  70,
+                  0,
+                  44,
+                  198
+                ]
+              ]
+            },
+            "6": {
+              "tokens": 14240,
+              "token_accuracy": 0.47155898876404495,
+              "token_macro_f1": 0.4725635471710686,
+              "exact_labeled_spans": {
+                "matched": 63,
+                "predicted": 203,
+                "gold": 231,
+                "precision": 0.3103448275862069,
+                "recall": 0.2727272727272727,
+                "f1": 0.2903225806451613
+              },
+              "exact_role_boundaries": {
+                "matched": 73,
+                "predicted": 119,
+                "gold": 147,
+                "precision": 0.6134453781512605,
+                "recall": 0.4965986394557823,
+                "f1": 0.5488721804511278
+              },
+              "token_confusion": [
+                [
+                  3580,
+                  629,
+                  151,
+                  41,
+                  43,
+                  249,
+                  140
+                ],
+                [
+                  843,
+                  876,
+                  174,
+                  0,
+                  0,
+                  126,
+                  0
+                ],
+                [
+                  1,
+                  90,
+                  213,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  383,
+                  100,
+                  1,
+                  735,
+                  77,
+                  88,
+                  0
+                ],
+                [
+                  201,
+                  33,
+                  12,
+                  143,
+                  609,
+                  16,
+                  0
+                ],
+                [
+                  2844,
+                  481,
+                  289,
+                  88,
+                  25,
+                  506,
+                  16
+                ],
+                [
+                  2,
+                  98,
+                  27,
+                  70,
+                  0,
+                  44,
+                  196
+                ]
+              ]
+            },
+            "12": {
+              "tokens": 14240,
+              "token_accuracy": 0.47963483146067415,
+              "token_macro_f1": 0.4808141245244041,
+              "exact_labeled_spans": {
+                "matched": 67,
+                "predicted": 205,
+                "gold": 231,
+                "precision": 0.32682926829268294,
+                "recall": 0.29004329004329005,
+                "f1": 0.3073394495412844
+              },
+              "exact_role_boundaries": {
+                "matched": 77,
+                "predicted": 121,
+                "gold": 147,
+                "precision": 0.6363636363636364,
+                "recall": 0.5238095238095238,
+                "f1": 0.5746268656716418
+              },
+              "token_confusion": [
+                [
+                  3528,
+                  681,
+                  151,
+                  41,
+                  43,
+                  249,
+                  140
+                ],
+                [
+                  812,
+                  907,
+                  174,
+                  0,
+                  0,
+                  126,
+                  0
+                ],
+                [
+                  1,
+                  90,
+                  213,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  336,
+                  100,
+                  1,
+                  782,
+                  77,
+                  88,
+                  0
+                ],
+                [
+                  201,
+                  33,
+                  12,
+                  143,
+                  609,
+                  16,
+                  0
+                ],
+                [
+                  2695,
+                  511,
+                  289,
+                  118,
+                  25,
+                  595,
+                  16
+                ],
+                [
+                  21,
+                  79,
+                  27,
+                  70,
+                  0,
+                  44,
+                  196
+                ]
+              ]
+            },
+            "0": {
+              "tokens": 14240,
+              "token_accuracy": 0.47963483146067415,
+              "token_macro_f1": 0.4808141245244041,
+              "exact_labeled_spans": {
+                "matched": 67,
+                "predicted": 205,
+                "gold": 231,
+                "precision": 0.32682926829268294,
+                "recall": 0.29004329004329005,
+                "f1": 0.3073394495412844
+              },
+              "exact_role_boundaries": {
+                "matched": 77,
+                "predicted": 121,
+                "gold": 147,
+                "precision": 0.6363636363636364,
+                "recall": 0.5238095238095238,
+                "f1": 0.5746268656716418
+              },
+              "token_confusion": [
+                [
+                  3528,
+                  681,
+                  151,
+                  41,
+                  43,
+                  249,
+                  140
+                ],
+                [
+                  812,
+                  907,
+                  174,
+                  0,
+                  0,
+                  126,
+                  0
+                ],
+                [
+                  1,
+                  90,
+                  213,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  336,
+                  100,
+                  1,
+                  782,
+                  77,
+                  88,
+                  0
+                ],
+                [
+                  201,
+                  33,
+                  12,
+                  143,
+                  609,
+                  16,
+                  0
+                ],
+                [
+                  2695,
+                  511,
+                  289,
+                  118,
+                  25,
+                  595,
+                  16
+                ],
+                [
+                  21,
+                  79,
+                  27,
+                  70,
+                  0,
+                  44,
+                  196
+                ]
+              ]
+            }
+          },
+          "exact_span_delta_ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "confirm": {
+          "cases": 84,
+          "chosen": {
+            "tokens": 14246,
+            "token_accuracy": 0.4578127193598203,
+            "token_macro_f1": 0.40256295531852676,
+            "exact_labeled_spans": {
+              "matched": 60,
+              "predicted": 229,
+              "gold": 200,
+              "precision": 0.26200873362445415,
+              "recall": 0.3,
+              "f1": 0.27972027972027974
+            },
+            "exact_role_boundaries": {
+              "matched": 68,
+              "predicted": 145,
+              "gold": 116,
+              "precision": 0.4689655172413793,
+              "recall": 0.5862068965517241,
+              "f1": 0.5210727969348659
+            },
+            "token_confusion": [
+              [
+                2072,
+                229,
+                354,
+                137,
+                93,
+                555,
+                182
+              ],
+              [
+                530,
+                2000,
+                233,
+                179,
+                39,
+                0,
+                436
+              ],
+              [
+                0,
+                21,
+                169,
+                42,
+                0,
+                23,
+                97
+              ],
+              [
+                583,
+                56,
+                97,
+                1002,
+                481,
+                0,
+                80
+              ],
+              [
+                65,
+                0,
+                0,
+                243,
+                517,
+                0,
+                0
+              ],
+              [
+                2169,
+                390,
+                0,
+                306,
+                0,
+                683,
+                65
+              ],
+              [
+                1,
+                0,
+                0,
+                0,
+                38,
+                0,
+                79
+              ]
+            ]
+          },
+          "full_context": {
+            "tokens": 14246,
+            "token_accuracy": 0.4578127193598203,
+            "token_macro_f1": 0.40256295531852676,
+            "exact_labeled_spans": {
+              "matched": 60,
+              "predicted": 229,
+              "gold": 200,
+              "precision": 0.26200873362445415,
+              "recall": 0.3,
+              "f1": 0.27972027972027974
+            },
+            "exact_role_boundaries": {
+              "matched": 68,
+              "predicted": 145,
+              "gold": 116,
+              "precision": 0.4689655172413793,
+              "recall": 0.5862068965517241,
+              "f1": 0.5210727969348659
+            },
+            "token_confusion": [
+              [
+                2072,
+                229,
+                354,
+                137,
+                93,
+                555,
+                182
+              ],
+              [
+                530,
+                2000,
+                233,
+                179,
+                39,
+                0,
+                436
+              ],
+              [
+                0,
+                21,
+                169,
+                42,
+                0,
+                23,
+                97
+              ],
+              [
+                583,
+                56,
+                97,
+                1002,
+                481,
+                0,
+                80
+              ],
+              [
+                65,
+                0,
+                0,
+                243,
+                517,
+                0,
+                0
+              ],
+              [
+                2169,
+                390,
+                0,
+                306,
+                0,
+                683,
+                65
+              ],
+              [
+                1,
+                0,
+                0,
+                0,
+                38,
+                0,
+                79
+              ]
+            ]
+          },
+          "context_only": {
+            "1": {
+              "tokens": 14246,
+              "token_accuracy": 0.4022883616453741,
+              "token_macro_f1": 0.32568747478045845,
+              "exact_labeled_spans": {
+                "matched": 27,
+                "predicted": 182,
+                "gold": 200,
+                "precision": 0.14835164835164835,
+                "recall": 0.135,
+                "f1": 0.14136125654450263
+              },
+              "exact_role_boundaries": {
+                "matched": 39,
+                "predicted": 98,
+                "gold": 116,
+                "precision": 0.3979591836734694,
+                "recall": 0.33620689655172414,
+                "f1": 0.3644859813084112
+              },
+              "token_confusion": [
+                [
+                  2652,
+                  197,
+                  399,
+                  137,
+                  121,
+                  0,
+                  116
+                ],
+                [
+                  1490,
+                  1125,
+                  228,
+                  146,
+                  39,
+                  0,
+                  389
+                ],
+                [
+                  39,
+                  19,
+                  169,
+                  28,
+                  0,
+                  0,
+                  97
+                ],
+                [
+                  544,
+                  0,
+                  163,
+                  1434,
+                  135,
+                  0,
+                  23
+                ],
+                [
+                  114,
+                  0,
+                  0,
+                  388,
+                  323,
+                  0,
+                  0
+                ],
+                [
+                  2998,
+                  357,
+                  0,
+                  233,
+                  0,
+                  0,
+                  25
+                ],
+                [
+                  52,
+                  0,
+                  0,
+                  0,
+                  38,
+                  0,
+                  28
+                ]
+              ]
+            },
+            "3": {
+              "tokens": 14246,
+              "token_accuracy": 0.4261547100940615,
+              "token_macro_f1": 0.3613114727372681,
+              "exact_labeled_spans": {
+                "matched": 47,
+                "predicted": 221,
+                "gold": 200,
+                "precision": 0.21266968325791855,
+                "recall": 0.235,
+                "f1": 0.22327790973871733
+              },
+              "exact_role_boundaries": {
+                "matched": 60,
+                "predicted": 137,
+                "gold": 116,
+                "precision": 0.43795620437956206,
+                "recall": 0.5172413793103449,
+                "f1": 0.4743083003952569
+              },
+              "token_confusion": [
+                [
+                  2302,
+                  364,
+                  384,
+                  112,
+                  102,
+                  232,
+                  126
+                ],
+                [
+                  993,
+                  1547,
+                  256,
+                  146,
+                  39,
+                  0,
+                  436
+                ],
+                [
+                  2,
+                  19,
+                  169,
+                  28,
+                  0,
+                  37,
+                  97
+                ],
+                [
+                  535,
+                  55,
+                  154,
+                  1226,
+                  306,
+                  0,
+                  23
+                ],
+                [
+                  82,
+                  0,
+                  0,
+                  389,
+                  354,
+                  0,
+                  0
+                ],
+                [
+                  2450,
+                  491,
+                  0,
+                  182,
+                  0,
+                  425,
+                  65
+                ],
+                [
+                  32,
+                  0,
+                  0,
+                  0,
+                  38,
+                  0,
+                  48
+                ]
+              ]
+            },
+            "6": {
+              "tokens": 14246,
+              "token_accuracy": 0.44110627544573916,
+              "token_macro_f1": 0.37713977659246284,
+              "exact_labeled_spans": {
+                "matched": 60,
+                "predicted": 226,
+                "gold": 200,
+                "precision": 0.26548672566371684,
+                "recall": 0.3,
+                "f1": 0.28169014084507044
+              },
+              "exact_role_boundaries": {
+                "matched": 67,
+                "predicted": 142,
+                "gold": 116,
+                "precision": 0.47183098591549294,
+                "recall": 0.5775862068965517,
+                "f1": 0.5193798449612403
+              },
+              "token_confusion": [
+                [
+                  2071,
+                  300,
+                  384,
+                  119,
+                  93,
+                  493,
+                  162
+                ],
+                [
+                  575,
+                  1926,
+                  278,
+                  146,
+                  39,
+                  0,
+                  453
+                ],
+                [
+                  0,
+                  21,
+                  169,
+                  28,
+                  0,
+                  37,
+                  97
+                ],
+                [
+                  621,
+                  56,
+                  97,
+                  1002,
+                  443,
+                  0,
+                  80
+                ],
+                [
+                  22,
+                  0,
+                  0,
+                  449,
+                  354,
+                  0,
+                  0
+                ],
+                [
+                  2176,
+                  419,
+                  0,
+                  270,
+                  0,
+                  683,
+                  65
+                ],
+                [
+                  1,
+                  0,
+                  0,
+                  0,
+                  38,
+                  0,
+                  79
+                ]
+              ]
+            },
+            "12": {
+              "tokens": 14246,
+              "token_accuracy": 0.4578127193598203,
+              "token_macro_f1": 0.40256295531852676,
+              "exact_labeled_spans": {
+                "matched": 60,
+                "predicted": 229,
+                "gold": 200,
+                "precision": 0.26200873362445415,
+                "recall": 0.3,
+                "f1": 0.27972027972027974
+              },
+              "exact_role_boundaries": {
+                "matched": 68,
+                "predicted": 145,
+                "gold": 116,
+                "precision": 0.4689655172413793,
+                "recall": 0.5862068965517241,
+                "f1": 0.5210727969348659
+              },
+              "token_confusion": [
+                [
+                  2072,
+                  229,
+                  354,
+                  137,
+                  93,
+                  555,
+                  182
+                ],
+                [
+                  530,
+                  2000,
+                  233,
+                  179,
+                  39,
+                  0,
+                  436
+                ],
+                [
+                  0,
+                  21,
+                  169,
+                  42,
+                  0,
+                  23,
+                  97
+                ],
+                [
+                  583,
+                  56,
+                  97,
+                  1002,
+                  481,
+                  0,
+                  80
+                ],
+                [
+                  65,
+                  0,
+                  0,
+                  243,
+                  517,
+                  0,
+                  0
+                ],
+                [
+                  2169,
+                  390,
+                  0,
+                  306,
+                  0,
+                  683,
+                  65
+                ],
+                [
+                  1,
+                  0,
+                  0,
+                  0,
+                  38,
+                  0,
+                  79
+                ]
+              ]
+            },
+            "0": {
+              "tokens": 14246,
+              "token_accuracy": 0.4578127193598203,
+              "token_macro_f1": 0.40256295531852676,
+              "exact_labeled_spans": {
+                "matched": 60,
+                "predicted": 229,
+                "gold": 200,
+                "precision": 0.26200873362445415,
+                "recall": 0.3,
+                "f1": 0.27972027972027974
+              },
+              "exact_role_boundaries": {
+                "matched": 68,
+                "predicted": 145,
+                "gold": 116,
+                "precision": 0.4689655172413793,
+                "recall": 0.5862068965517241,
+                "f1": 0.5210727969348659
+              },
+              "token_confusion": [
+                [
+                  2072,
+                  229,
+                  354,
+                  137,
+                  93,
+                  555,
+                  182
+                ],
+                [
+                  530,
+                  2000,
+                  233,
+                  179,
+                  39,
+                  0,
+                  436
+                ],
+                [
+                  0,
+                  21,
+                  169,
+                  42,
+                  0,
+                  23,
+                  97
+                ],
+                [
+                  583,
+                  56,
+                  97,
+                  1002,
+                  481,
+                  0,
+                  80
+                ],
+                [
+                  65,
+                  0,
+                  0,
+                  243,
+                  517,
+                  0,
+                  0
+                ],
+                [
+                  2169,
+                  390,
+                  0,
+                  306,
+                  0,
+                  683,
+                  65
+                ],
+                [
+                  1,
+                  0,
+                  0,
+                  0,
+                  38,
+                  0,
+                  79
+                ]
+              ]
+            }
+          },
+          "exact_span_delta_ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "test": {
+          "cases": 120,
+          "chosen": {
+            "tokens": 22489,
+            "token_accuracy": 0.47409844813019697,
+            "token_macro_f1": 0.37919063967166666,
+            "exact_labeled_spans": {
+              "matched": 62,
+              "predicted": 261,
+              "gold": 266,
+              "precision": 0.23754789272030652,
+              "recall": 0.23308270676691728,
+              "f1": 0.23529411764705882
+            },
+            "exact_role_boundaries": {
+              "matched": 69,
+              "predicted": 141,
+              "gold": 146,
+              "precision": 0.48936170212765956,
+              "recall": 0.4726027397260274,
+              "f1": 0.4808362369337979
+            },
+            "token_confusion": [
+              [
+                4313,
+                1538,
+                328,
+                284,
+                210,
+                266,
+                0
+              ],
+              [
+                1177,
+                2297,
+                226,
+                339,
+                49,
+                0,
+                22
+              ],
+              [
+                9,
+                127,
+                15,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                925,
+                312,
+                1,
+                1956,
+                443,
+                0,
+                44
+              ],
+              [
+                591,
+                122,
+                0,
+                269,
+                905,
+                0,
+                15
+              ],
+              [
+                2420,
+                1294,
+                168,
+                304,
+                130,
+                1131,
+                43
+              ],
+              [
+                0,
+                92,
+                79,
+                0,
+                0,
+                0,
+                45
+              ]
+            ]
+          },
+          "full_context": {
+            "tokens": 22489,
+            "token_accuracy": 0.47409844813019697,
+            "token_macro_f1": 0.37919063967166666,
+            "exact_labeled_spans": {
+              "matched": 62,
+              "predicted": 261,
+              "gold": 266,
+              "precision": 0.23754789272030652,
+              "recall": 0.23308270676691728,
+              "f1": 0.23529411764705882
+            },
+            "exact_role_boundaries": {
+              "matched": 69,
+              "predicted": 141,
+              "gold": 146,
+              "precision": 0.48936170212765956,
+              "recall": 0.4726027397260274,
+              "f1": 0.4808362369337979
+            },
+            "token_confusion": [
+              [
+                4313,
+                1538,
+                328,
+                284,
+                210,
+                266,
+                0
+              ],
+              [
+                1177,
+                2297,
+                226,
+                339,
+                49,
+                0,
+                22
+              ],
+              [
+                9,
+                127,
+                15,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                925,
+                312,
+                1,
+                1956,
+                443,
+                0,
+                44
+              ],
+              [
+                591,
+                122,
+                0,
+                269,
+                905,
+                0,
+                15
+              ],
+              [
+                2420,
+                1294,
+                168,
+                304,
+                130,
+                1131,
+                43
+              ],
+              [
+                0,
+                92,
+                79,
+                0,
+                0,
+                0,
+                45
+              ]
+            ]
+          },
+          "context_only": {
+            "1": {
+              "tokens": 22489,
+              "token_accuracy": 0.4319000400195651,
+              "token_macro_f1": 0.3324917831503446,
+              "exact_labeled_spans": {
+                "matched": 31,
+                "predicted": 220,
+                "gold": 266,
+                "precision": 0.1409090909090909,
+                "recall": 0.11654135338345864,
+                "f1": 0.12757201646090535
+              },
+              "exact_role_boundaries": {
+                "matched": 34,
+                "predicted": 100,
+                "gold": 146,
+                "precision": 0.34,
+                "recall": 0.2328767123287671,
+                "f1": 0.2764227642276423
+              },
+              "token_confusion": [
+                [
+                  4895,
+                  769,
+                  512,
+                  519,
+                  135,
+                  109,
+                  0
+                ],
+                [
+                  1476,
+                  1918,
+                  326,
+                  319,
+                  49,
+                  0,
+                  22
+                ],
+                [
+                  35,
+                  81,
+                  15,
+                  0,
+                  0,
+                  0,
+                  20
+                ],
+                [
+                  1435,
+                  139,
+                  1,
+                  1879,
+                  210,
+                  0,
+                  17
+                ],
+                [
+                  790,
+                  38,
+                  0,
+                  287,
+                  766,
+                  0,
+                  21
+                ],
+                [
+                  4107,
+                  453,
+                  192,
+                  203,
+                  289,
+                  195,
+                  51
+                ],
+                [
+                  137,
+                  34,
+                  0,
+                  0,
+                  0,
+                  0,
+                  45
+                ]
+              ]
+            },
+            "3": {
+              "tokens": 22489,
+              "token_accuracy": 0.47543243363422116,
+              "token_macro_f1": 0.3608787043900816,
+              "exact_labeled_spans": {
+                "matched": 53,
+                "predicted": 261,
+                "gold": 266,
+                "precision": 0.20306513409961685,
+                "recall": 0.19924812030075187,
+                "f1": 0.20113851992409867
+              },
+              "exact_role_boundaries": {
+                "matched": 62,
+                "predicted": 141,
+                "gold": 146,
+                "precision": 0.4397163120567376,
+                "recall": 0.4246575342465753,
+                "f1": 0.43205574912891986
+              },
+              "token_confusion": [
+                [
+                  4832,
+                  1184,
+                  328,
+                  314,
+                  189,
+                  92,
+                  0
+                ],
+                [
+                  802,
+                  2527,
+                  259,
+                  357,
+                  49,
+                  27,
+                  89
+                ],
+                [
+                  35,
+                  81,
+                  15,
+                  0,
+                  0,
+                  0,
+                  20
+                ],
+                [
+                  1313,
+                  254,
+                  1,
+                  1831,
+                  265,
+                  0,
+                  17
+                ],
+                [
+                  728,
+                  38,
+                  0,
+                  297,
+                  824,
+                  0,
+                  15
+                ],
+                [
+                  3197,
+                  726,
+                  203,
+                  236,
+                  467,
+                  618,
+                  43
+                ],
+                [
+                  137,
+                  0,
+                  34,
+                  0,
+                  0,
+                  0,
+                  45
+                ]
+              ]
+            },
+            "6": {
+              "tokens": 22489,
+              "token_accuracy": 0.47236426697496553,
+              "token_macro_f1": 0.36903449894275336,
+              "exact_labeled_spans": {
+                "matched": 59,
+                "predicted": 263,
+                "gold": 266,
+                "precision": 0.22433460076045628,
+                "recall": 0.22180451127819548,
+                "f1": 0.22306238185255198
+              },
+              "exact_role_boundaries": {
+                "matched": 67,
+                "predicted": 143,
+                "gold": 146,
+                "precision": 0.46853146853146854,
+                "recall": 0.4589041095890411,
+                "f1": 0.46366782006920415
+              },
+              "token_confusion": [
+                [
+                  4649,
+                  1348,
+                  328,
+                  348,
+                  146,
+                  120,
+                  0
+                ],
+                [
+                  1177,
+                  2297,
+                  226,
+                  339,
+                  49,
+                  0,
+                  22
+                ],
+                [
+                  9,
+                  127,
+                  15,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  1098,
+                  312,
+                  1,
+                  1783,
+                  443,
+                  0,
+                  44
+                ],
+                [
+                  591,
+                  160,
+                  0,
+                  269,
+                  867,
+                  0,
+                  15
+                ],
+                [
+                  2573,
+                  1160,
+                  174,
+                  236,
+                  337,
+                  967,
+                  43
+                ],
+                [
+                  92,
+                  0,
+                  79,
+                  0,
+                  0,
+                  0,
+                  45
+                ]
+              ]
+            },
+            "12": {
+              "tokens": 22489,
+              "token_accuracy": 0.47409844813019697,
+              "token_macro_f1": 0.37919063967166666,
+              "exact_labeled_spans": {
+                "matched": 62,
+                "predicted": 261,
+                "gold": 266,
+                "precision": 0.23754789272030652,
+                "recall": 0.23308270676691728,
+                "f1": 0.23529411764705882
+              },
+              "exact_role_boundaries": {
+                "matched": 69,
+                "predicted": 141,
+                "gold": 146,
+                "precision": 0.48936170212765956,
+                "recall": 0.4726027397260274,
+                "f1": 0.4808362369337979
+              },
+              "token_confusion": [
+                [
+                  4313,
+                  1538,
+                  328,
+                  284,
+                  210,
+                  266,
+                  0
+                ],
+                [
+                  1177,
+                  2297,
+                  226,
+                  339,
+                  49,
+                  0,
+                  22
+                ],
+                [
+                  9,
+                  127,
+                  15,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  925,
+                  312,
+                  1,
+                  1956,
+                  443,
+                  0,
+                  44
+                ],
+                [
+                  591,
+                  122,
+                  0,
+                  269,
+                  905,
+                  0,
+                  15
+                ],
+                [
+                  2420,
+                  1294,
+                  168,
+                  304,
+                  130,
+                  1131,
+                  43
+                ],
+                [
+                  0,
+                  92,
+                  79,
+                  0,
+                  0,
+                  0,
+                  45
+                ]
+              ]
+            },
+            "0": {
+              "tokens": 22489,
+              "token_accuracy": 0.47409844813019697,
+              "token_macro_f1": 0.37919063967166666,
+              "exact_labeled_spans": {
+                "matched": 62,
+                "predicted": 261,
+                "gold": 266,
+                "precision": 0.23754789272030652,
+                "recall": 0.23308270676691728,
+                "f1": 0.23529411764705882
+              },
+              "exact_role_boundaries": {
+                "matched": 69,
+                "predicted": 141,
+                "gold": 146,
+                "precision": 0.48936170212765956,
+                "recall": 0.4726027397260274,
+                "f1": 0.4808362369337979
+              },
+              "token_confusion": [
+                [
+                  4313,
+                  1538,
+                  328,
+                  284,
+                  210,
+                  266,
+                  0
+                ],
+                [
+                  1177,
+                  2297,
+                  226,
+                  339,
+                  49,
+                  0,
+                  22
+                ],
+                [
+                  9,
+                  127,
+                  15,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  925,
+                  312,
+                  1,
+                  1956,
+                  443,
+                  0,
+                  44
+                ],
+                [
+                  591,
+                  122,
+                  0,
+                  269,
+                  905,
+                  0,
+                  15
+                ],
+                [
+                  2420,
+                  1294,
+                  168,
+                  304,
+                  130,
+                  1131,
+                  43
+                ],
+                [
+                  0,
+                  92,
+                  79,
+                  0,
+                  0,
+                  0,
+                  45
+                ]
+              ]
+            }
+          },
+          "exact_span_delta_ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "cloud": {
+          "cases": 12,
+          "chosen": {
+            "tokens": 1413,
+            "token_accuracy": 0.3085633404104742,
+            "token_macro_f1": 0.2340849758759503,
+            "exact_labeled_spans": {
+              "matched": 1,
+              "predicted": 19,
+              "gold": 28,
+              "precision": 0.05263157894736842,
+              "recall": 0.03571428571428571,
+              "f1": 0.0425531914893617
+            },
+            "exact_role_boundaries": {
+              "matched": 4,
+              "predicted": 7,
+              "gold": 16,
+              "precision": 0.5714285714285714,
+              "recall": 0.25,
+              "f1": 0.34782608695652173
+            },
+            "token_confusion": [
+              [
+                223,
+                0,
+                0,
+                65,
+                34,
+                10,
+                5
+              ],
+              [
+                48,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                30,
+                0,
+                0,
+                23,
+                97,
+                0,
+                0
+              ],
+              [
+                59,
+                0,
+                42,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                557,
+                0,
+                0,
+                0,
+                0,
+                100,
+                0
+              ],
+              [
+                30,
+                0,
+                0,
+                0,
+                0,
+                0,
+                90
+              ]
+            ]
+          },
+          "full_context": {
+            "tokens": 1413,
+            "token_accuracy": 0.3085633404104742,
+            "token_macro_f1": 0.2340849758759503,
+            "exact_labeled_spans": {
+              "matched": 1,
+              "predicted": 19,
+              "gold": 28,
+              "precision": 0.05263157894736842,
+              "recall": 0.03571428571428571,
+              "f1": 0.0425531914893617
+            },
+            "exact_role_boundaries": {
+              "matched": 4,
+              "predicted": 7,
+              "gold": 16,
+              "precision": 0.5714285714285714,
+              "recall": 0.25,
+              "f1": 0.34782608695652173
+            },
+            "token_confusion": [
+              [
+                223,
+                0,
+                0,
+                65,
+                34,
+                10,
+                5
+              ],
+              [
+                48,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                30,
+                0,
+                0,
+                23,
+                97,
+                0,
+                0
+              ],
+              [
+                59,
+                0,
+                42,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                557,
+                0,
+                0,
+                0,
+                0,
+                100,
+                0
+              ],
+              [
+                30,
+                0,
+                0,
+                0,
+                0,
+                0,
+                90
+              ]
+            ]
+          },
+          "context_only": {
+            "1": {
+              "tokens": 1413,
+              "token_accuracy": 0.25619249823071477,
+              "token_macro_f1": 0.18016080672165538,
+              "exact_labeled_spans": {
+                "matched": 1,
+                "predicted": 24,
+                "gold": 28,
+                "precision": 0.041666666666666664,
+                "recall": 0.03571428571428571,
+                "f1": 0.038461538461538464
+              },
+              "exact_role_boundaries": {
+                "matched": 6,
+                "predicted": 12,
+                "gold": 16,
+                "precision": 0.5,
+                "recall": 0.375,
+                "f1": 0.42857142857142855
+              },
+              "token_confusion": [
+                [
+                  233,
+                  0,
+                  16,
+                  26,
+                  34,
+                  23,
+                  5
+                ],
+                [
+                  48,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  30,
+                  0,
+                  0,
+                  23,
+                  97,
+                  0,
+                  0
+                ],
+                [
+                  59,
+                  0,
+                  42,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  579,
+                  0,
+                  16,
+                  0,
+                  0,
+                  62,
+                  0
+                ],
+                [
+                  76,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  44
+                ]
+              ]
+            },
+            "3": {
+              "tokens": 1413,
+              "token_accuracy": 0.2505307855626327,
+              "token_macro_f1": 0.1788840803895055,
+              "exact_labeled_spans": {
+                "matched": 1,
+                "predicted": 22,
+                "gold": 28,
+                "precision": 0.045454545454545456,
+                "recall": 0.03571428571428571,
+                "f1": 0.04
+              },
+              "exact_role_boundaries": {
+                "matched": 5,
+                "predicted": 10,
+                "gold": 16,
+                "precision": 0.5,
+                "recall": 0.3125,
+                "f1": 0.38461538461538464
+              },
+              "token_confusion": [
+                [
+                  194,
+                  0,
+                  16,
+                  65,
+                  34,
+                  23,
+                  5
+                ],
+                [
+                  48,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  30,
+                  0,
+                  0,
+                  23,
+                  97,
+                  0,
+                  0
+                ],
+                [
+                  59,
+                  0,
+                  42,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  537,
+                  0,
+                  0,
+                  0,
+                  0,
+                  62,
+                  58
+                ],
+                [
+                  45,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  75
+                ]
+              ]
+            },
+            "6": {
+              "tokens": 1413,
+              "token_accuracy": 0.3085633404104742,
+              "token_macro_f1": 0.2340849758759503,
+              "exact_labeled_spans": {
+                "matched": 1,
+                "predicted": 19,
+                "gold": 28,
+                "precision": 0.05263157894736842,
+                "recall": 0.03571428571428571,
+                "f1": 0.0425531914893617
+              },
+              "exact_role_boundaries": {
+                "matched": 4,
+                "predicted": 7,
+                "gold": 16,
+                "precision": 0.5714285714285714,
+                "recall": 0.25,
+                "f1": 0.34782608695652173
+              },
+              "token_confusion": [
+                [
+                  223,
+                  0,
+                  0,
+                  65,
+                  34,
+                  10,
+                  5
+                ],
+                [
+                  48,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  30,
+                  0,
+                  0,
+                  23,
+                  97,
+                  0,
+                  0
+                ],
+                [
+                  59,
+                  0,
+                  42,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  557,
+                  0,
+                  0,
+                  0,
+                  0,
+                  100,
+                  0
+                ],
+                [
+                  30,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  90
+                ]
+              ]
+            },
+            "12": {
+              "tokens": 1413,
+              "token_accuracy": 0.3085633404104742,
+              "token_macro_f1": 0.2340849758759503,
+              "exact_labeled_spans": {
+                "matched": 1,
+                "predicted": 19,
+                "gold": 28,
+                "precision": 0.05263157894736842,
+                "recall": 0.03571428571428571,
+                "f1": 0.0425531914893617
+              },
+              "exact_role_boundaries": {
+                "matched": 4,
+                "predicted": 7,
+                "gold": 16,
+                "precision": 0.5714285714285714,
+                "recall": 0.25,
+                "f1": 0.34782608695652173
+              },
+              "token_confusion": [
+                [
+                  223,
+                  0,
+                  0,
+                  65,
+                  34,
+                  10,
+                  5
+                ],
+                [
+                  48,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  30,
+                  0,
+                  0,
+                  23,
+                  97,
+                  0,
+                  0
+                ],
+                [
+                  59,
+                  0,
+                  42,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  557,
+                  0,
+                  0,
+                  0,
+                  0,
+                  100,
+                  0
+                ],
+                [
+                  30,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  90
+                ]
+              ]
+            },
+            "0": {
+              "tokens": 1413,
+              "token_accuracy": 0.3085633404104742,
+              "token_macro_f1": 0.2340849758759503,
+              "exact_labeled_spans": {
+                "matched": 1,
+                "predicted": 19,
+                "gold": 28,
+                "precision": 0.05263157894736842,
+                "recall": 0.03571428571428571,
+                "f1": 0.0425531914893617
+              },
+              "exact_role_boundaries": {
+                "matched": 4,
+                "predicted": 7,
+                "gold": 16,
+                "precision": 0.5714285714285714,
+                "recall": 0.25,
+                "f1": 0.34782608695652173
+              },
+              "token_confusion": [
+                [
+                  223,
+                  0,
+                  0,
+                  65,
+                  34,
+                  10,
+                  5
+                ],
+                [
+                  48,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  30,
+                  0,
+                  0,
+                  23,
+                  97,
+                  0,
+                  0
+                ],
+                [
+                  59,
+                  0,
+                  42,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  557,
+                  0,
+                  0,
+                  0,
+                  0,
+                  100,
+                  0
+                ],
+                [
+                  30,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  90
+                ]
+              ]
+            }
+          },
+          "exact_span_delta_ci95": [
+            0.0,
+            0.0
+          ]
+        }
+      }
+    }
+  }
+}

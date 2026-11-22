@@ -1,0 +1,212 @@
+{
+  "select": {
+    "cases": 71,
+    "rows": 14467,
+    "base": {
+      "macro_f1": 0.7158193240710251,
+      "accuracy": 0.724130780396765,
+      "per_role_f1": {
+        "none": 0.7413419043792688,
+        "facts": 0.8223310479921645,
+        "issue": 0.6180758017492711,
+        "petitioner_argument": 0.6832198638366039,
+        "respondent_argument": 0.6816431322207959,
+        "reasoning": 0.6344439230408259,
+        "decision": 0.8296795952782462
+      }
+    },
+    "alternate": {
+      "macro_f1": 0.666137074624838,
+      "accuracy": 0.6912283127116887,
+      "per_role_f1": {
+        "none": 0.7228859217615367,
+        "facts": 0.8156920799407846,
+        "issue": 0.5244755244755245,
+        "petitioner_argument": 0.6827371695178849,
+        "respondent_argument": 0.5727482678983834,
+        "reasoning": 0.5330683050234911,
+        "decision": 0.8113522537562604
+      }
+    },
+    "targeted": {
+      "macro_f1": 0.7158193240710251,
+      "accuracy": 0.724130780396765,
+      "per_role_f1": {
+        "none": 0.7413419043792688,
+        "facts": 0.8223310479921645,
+        "issue": 0.6180758017492711,
+        "petitioner_argument": 0.6832198638366039,
+        "respondent_argument": 0.6816431322207959,
+        "reasoning": 0.6344439230408259,
+        "decision": 0.8296795952782462
+      },
+      "delta_ci95": [
+        0.0,
+        0.0
+      ],
+      "fixed": 0,
+      "broken": 0,
+      "changed": 0
+    },
+    "shuffled": {
+      "macro_f1": 0.7158193240710251,
+      "accuracy": 0.724130780396765,
+      "per_role_f1": {
+        "none": 0.7413419043792688,
+        "facts": 0.8223310479921645,
+        "issue": 0.6180758017492711,
+        "petitioner_argument": 0.6832198638366039,
+        "respondent_argument": 0.6816431322207959,
+        "reasoning": 0.6344439230408259,
+        "decision": 0.8296795952782462
+      },
+      "delta_ci95": [
+        0.0,
+        0.0
+      ],
+      "fixed": 0,
+      "broken": 0,
+      "changed": 0
+    }
+  },
+  "confirm": {
+    "cases": 70,
+    "rows": 10614,
+    "base": {
+      "macro_f1": 0.7296650219619832,
+      "accuracy": 0.7422272470322216,
+      "per_role_f1": {
+        "none": 0.7321164282190429,
+        "facts": 0.8534067446662078,
+        "issue": 0.6030769230769231,
+        "petitioner_argument": 0.7473982970671712,
+        "respondent_argument": 0.6753246753246753,
+        "reasoning": 0.668261909941266,
+        "decision": 0.8280701754385965
+      }
+    },
+    "alternate": {
+      "macro_f1": 0.6819318238161399,
+      "accuracy": 0.7090635010363671,
+      "per_role_f1": {
+        "none": 0.7040572792362768,
+        "facts": 0.8314360770577933,
+        "issue": 0.46099290780141844,
+        "petitioner_argument": 0.7532110091743119,
+        "respondent_argument": 0.6746602717825739,
+        "reasoning": 0.5740787164702933,
+        "decision": 0.7750865051903114
+      }
+    },
+    "targeted": {
+      "macro_f1": 0.7296650219619832,
+      "accuracy": 0.7422272470322216,
+      "per_role_f1": {
+        "none": 0.7321164282190429,
+        "facts": 0.8534067446662078,
+        "issue": 0.6030769230769231,
+        "petitioner_argument": 0.7473982970671712,
+        "respondent_argument": 0.6753246753246753,
+        "reasoning": 0.668261909941266,
+        "decision": 0.8280701754385965
+      },
+      "delta_ci95": [
+        0.0,
+        0.0
+      ],
+      "fixed": 0,
+      "broken": 0,
+      "changed": 0
+    },
+    "shuffled": {
+      "macro_f1": 0.7296650219619832,
+      "accuracy": 0.7422272470322216,
+      "per_role_f1": {
+        "none": 0.7321164282190429,
+        "facts": 0.8534067446662078,
+        "issue": 0.6030769230769231,
+        "petitioner_argument": 0.7473982970671712,
+        "respondent_argument": 0.6753246753246753,
+        "reasoning": 0.668261909941266,
+        "decision": 0.8280701754385965
+      },
+      "delta_ci95": [
+        0.0,
+        0.0
+      ],
+      "fixed": 0,
+      "broken": 0,
+      "changed": 0
+    }
+  },
+  "shared": {
+    "cases": 48,
+    "rows": 10469,
+    "base": {
+      "macro_f1": 0.6948490424279209,
+      "accuracy": 0.7186932849364791,
+      "per_role_f1": {
+        "none": 0.6996341617257474,
+        "facts": 0.8314769975786925,
+        "issue": 0.5355648535564853,
+        "petitioner_argument": 0.7541684480547243,
+        "respondent_argument": 0.6372045220966084,
+        "reasoning": 0.660996354799514,
+        "decision": 0.7448979591836735
+      }
+    },
+    "alternate": {
+      "macro_f1": 0.6505787782579816,
+      "accuracy": 0.667398987486866,
+      "per_role_f1": {
+        "none": 0.6550373798504806,
+        "facts": 0.8057129902516437,
+        "issue": 0.43478260869565216,
+        "petitioner_argument": 0.7762237762237763,
+        "respondent_argument": 0.6841186736474695,
+        "reasoning": 0.484251968503937,
+        "decision": 0.7139240506329114
+      }
+    },
+    "targeted": {
+      "macro_f1": 0.6948490424279209,
+      "accuracy": 0.7186932849364791,
+      "per_role_f1": {
+        "none": 0.6996341617257474,
+        "facts": 0.8314769975786925,
+        "issue": 0.5355648535564853,
+        "petitioner_argument": 0.7541684480547243,
+        "respondent_argument": 0.6372045220966084,
+        "reasoning": 0.660996354799514,
+        "decision": 0.7448979591836735
+      },
+      "delta_ci95": [
+        0.0,
+        0.0
+      ],
+      "fixed": 0,
+      "broken": 0,
+      "changed": 0
+    },
+    "shuffled": {
+      "macro_f1": 0.6948490424279209,
+      "accuracy": 0.7186932849364791,
+      "per_role_f1": {
+        "none": 0.6996341617257474,
+        "facts": 0.8314769975786925,
+        "issue": 0.5355648535564853,
+        "petitioner_argument": 0.7541684480547243,
+        "respondent_argument": 0.6372045220966084,
+        "reasoning": 0.660996354799514,
+        "decision": 0.7448979591836735
+      },
+      "delta_ci95": [
+        0.0,
+        0.0
+      ],
+      "fixed": 0,
+      "broken": 0,
+      "changed": 0
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "rows": 14879,
+  "windows": 14889,
+  "max_tokens": 512,
+  "additional_windows": 10,
+  "seconds": 18.778841018676758,
+  "sha256": "e5419a05b048b37099269cde8462b3ad94c4c96725e1925cc7b529e8c256b618",
+  "model_sha256": "a81f509d250f98b44872e89e10186d5dcc17d37905b69aa1d9a077fb841a62ac",
+  "device": "Tesla T4"
+}

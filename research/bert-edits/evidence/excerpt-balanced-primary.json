@@ -1,0 +1,5138 @@
+{
+  "freeze_sha256": "46f1f2f09cd538aff980a59762babe87d334420a80eabf0370c32fef797314b9",
+  "selected": "role_pairs",
+  "older_excerpt_checkpoint_sha256": "db6d79db77eb09db46b7567a1977a44a761ed3ff40f7472d12be9691a4223453",
+  "official_test_csv_access": false,
+  "cached_gemini_api_requests": 0,
+  "input": "One LegalSeg source sentence or an archived paragraph per model input, 512 WordPieces including special tokens. All measured inputs fit one window.",
+  "metrics": "Pooled seven-role macro-F1 and accuracy. Stratified official samples are balanced. Weighted results estimate the eligible unique-text validation population. Intervals resample judgments.",
+  "predictions_sha256": "27100bce52675eae15ba97f72ff040a6f024a03c44e31f803d1a0fc1e17ba09f",
+  "groups": {
+    "confirm": {
+      "rows": 2100,
+      "judgments": 602,
+      "methods": {
+        "untouched_donor": {
+          "macro_f1": 0.3708571158761798,
+          "accuracy": 0.3676190476190476,
+          "correct": 772,
+          "eligible_population_reweighted_macro_f1": 0.4017658287464441,
+          "eligible_population_reweighted_accuracy": 0.49079829116037554,
+          "per_class_f1": {
+            "none": 0.33783783783783783,
+            "facts": 0.44482758620689655,
+            "issue": 0.35772357723577236,
+            "petitioner_argument": 0.44573643410852715,
+            "respondent_argument": 0.2367758186397985,
+            "reasoning": 0.2482758620689655,
+            "decision": 0.524822695035461
+          },
+          "supports": {
+            "none": 300,
+            "facts": 300,
+            "issue": 300,
+            "petitioner_argument": 300,
+            "respondent_argument": 300,
+            "reasoning": 300,
+            "decision": 300
+          },
+          "confusion": [
+            [
+              250,
+              19,
+              0,
+              5,
+              4,
+              20,
+              2
+            ],
+            [
+              147,
+              129,
+              1,
+              5,
+              7,
+              8,
+              3
+            ],
+            [
+              142,
+              70,
+              66,
+              6,
+              5,
+              7,
+              4
+            ],
+            [
+              136,
+              20,
+              1,
+              115,
+              23,
+              5,
+              0
+            ],
+            [
+              141,
+              19,
+              0,
+              79,
+              47,
+              13,
+              1
+            ],
+            [
+              215,
+              14,
+              0,
+              6,
+              9,
+              54,
+              2
+            ],
+            [
+              149,
+              9,
+              1,
+              0,
+              2,
+              28,
+              111
+            ]
+          ]
+        },
+        "older_excerpt_mlp_native_replay": {
+          "macro_f1": 0.4377760560400046,
+          "accuracy": 0.4280952380952381,
+          "correct": 899,
+          "eligible_population_reweighted_macro_f1": 0.42353304240845774,
+          "eligible_population_reweighted_accuracy": 0.47341163815626824,
+          "per_class_f1": {
+            "none": 0.3283261802575107,
+            "facts": 0.487062404870624,
+            "issue": 0.5225653206650831,
+            "petitioner_argument": 0.4044526901669759,
+            "respondent_argument": 0.2529274004683841,
+            "reasoning": 0.4011142061281337,
+            "decision": 0.6679841897233202
+          },
+          "supports": {
+            "none": 300,
+            "facts": 300,
+            "issue": 300,
+            "petitioner_argument": 300,
+            "respondent_argument": 300,
+            "reasoning": 300,
+            "decision": 300
+          },
+          "confusion": [
+            [
+              153,
+              38,
+              3,
+              11,
+              5,
+              83,
+              7
+            ],
+            [
+              88,
+              160,
+              4,
+              6,
+              11,
+              22,
+              9
+            ],
+            [
+              89,
+              57,
+              110,
+              14,
+              6,
+              14,
+              10
+            ],
+            [
+              73,
+              27,
+              2,
+              109,
+              34,
+              54,
+              1
+            ],
+            [
+              71,
+              34,
+              0,
+              78,
+              54,
+              59,
+              4
+            ],
+            [
+              93,
+              30,
+              1,
+              15,
+              11,
+              144,
+              6
+            ],
+            [
+              65,
+              11,
+              1,
+              6,
+              6,
+              42,
+              169
+            ]
+          ]
+        },
+        "classifier_refit": {
+          "macro_f1": 0.4893140439391934,
+          "accuracy": 0.49238095238095236,
+          "correct": 1034,
+          "eligible_population_reweighted_macro_f1": 0.3824576058628059,
+          "eligible_population_reweighted_accuracy": 0.4336230000025487,
+          "per_class_f1": {
+            "none": 0.38869257950530034,
+            "facts": 0.5051395007342144,
+            "issue": 0.6642468239564429,
+            "petitioner_argument": 0.39928057553956836,
+            "respondent_argument": 0.3663003663003663,
+            "reasoning": 0.39076923076923076,
+            "decision": 0.7107692307692308
+          },
+          "supports": {
+            "none": 300,
+            "facts": 300,
+            "issue": 300,
+            "petitioner_argument": 300,
+            "respondent_argument": 300,
+            "reasoning": 300,
+            "decision": 300
+          },
+          "confusion": [
+            [
+              110,
+              37,
+              10,
+              26,
+              23,
+              70,
+              24
+            ],
+            [
+              27,
+              172,
+              26,
+              13,
+              10,
+              26,
+              26
+            ],
+            [
+              12,
+              45,
+              183,
+              13,
+              8,
+              15,
+              24
+            ],
+            [
+              28,
+              31,
+              11,
+              111,
+              69,
+              39,
+              11
+            ],
+            [
+              21,
+              44,
+              9,
+              70,
+              100,
+              41,
+              15
+            ],
+            [
+              56,
+              41,
+              9,
+              18,
+              30,
+              127,
+              19
+            ],
+            [
+              12,
+              11,
+              3,
+              5,
+              6,
+              32,
+              231
+            ]
+          ]
+        },
+        "role": {
+          "macro_f1": 0.4620234980016421,
+          "accuracy": 0.44952380952380955,
+          "correct": 944,
+          "eligible_population_reweighted_macro_f1": 0.4243986222853896,
+          "eligible_population_reweighted_accuracy": 0.4584512876198342,
+          "per_class_f1": {
+            "none": 0.3421686746987952,
+            "facts": 0.5014836795252225,
+            "issue": 0.6021978021978022,
+            "petitioner_argument": 0.40468227424749165,
+            "respondent_argument": 0.3216494845360825,
+            "reasoning": 0.37962962962962965,
+            "decision": 0.6823529411764706
+          },
+          "supports": {
+            "none": 300,
+            "facts": 300,
+            "issue": 300,
+            "petitioner_argument": 300,
+            "respondent_argument": 300,
+            "reasoning": 300,
+            "decision": 300
+          },
+          "confusion": [
+            [
+              142,
+              33,
+              4,
+              27,
+              14,
+              73,
+              7
+            ],
+            [
+              58,
+              169,
+              6,
+              12,
+              15,
+              32,
+              8
+            ],
+            [
+              50,
+              67,
+              137,
+              11,
+              5,
+              19,
+              11
+            ],
+            [
+              69,
+              27,
+              4,
+              121,
+              49,
+              29,
+              1
+            ],
+            [
+              62,
+              33,
+              1,
+              90,
+              78,
+              33,
+              3
+            ],
+            [
+              95,
+              26,
+              2,
+              29,
+              19,
+              123,
+              6
+            ],
+            [
+              54,
+              19,
+              1,
+              8,
+              5,
+              39,
+              174
+            ]
+          ]
+        },
+        "role_pairs": {
+          "macro_f1": 0.46950662117963443,
+          "accuracy": 0.4638095238095238,
+          "correct": 974,
+          "eligible_population_reweighted_macro_f1": 0.3928333239139973,
+          "eligible_population_reweighted_accuracy": 0.4256639468995416,
+          "per_class_f1": {
+            "none": 0.3292894280762565,
+            "facts": 0.47234678624813153,
+            "issue": 0.6361829025844931,
+            "petitioner_argument": 0.38317757009345793,
+            "respondent_argument": 0.34714003944773175,
+            "reasoning": 0.4144385026737968,
+            "decision": 0.703971119133574
+          },
+          "supports": {
+            "none": 300,
+            "facts": 300,
+            "issue": 300,
+            "petitioner_argument": 300,
+            "respondent_argument": 300,
+            "reasoning": 300,
+            "decision": 300
+          },
+          "confusion": [
+            [
+              95,
+              39,
+              5,
+              37,
+              13,
+              102,
+              9
+            ],
+            [
+              35,
+              158,
+              21,
+              18,
+              17,
+              34,
+              17
+            ],
+            [
+              17,
+              55,
+              160,
+              22,
+              5,
+              24,
+              17
+            ],
+            [
+              33,
+              31,
+              8,
+              123,
+              55,
+              46,
+              4
+            ],
+            [
+              28,
+              40,
+              2,
+              90,
+              88,
+              48,
+              4
+            ],
+            [
+              40,
+              30,
+              5,
+              38,
+              24,
+              155,
+              8
+            ],
+            [
+              29,
+              16,
+              2,
+              14,
+              5,
+              39,
+              195
+            ]
+          ]
+        },
+        "shuffled": {
+          "macro_f1": 0.38018932260122756,
+          "accuracy": 0.37238095238095237,
+          "correct": 782,
+          "eligible_population_reweighted_macro_f1": 0.40750407509987224,
+          "eligible_population_reweighted_accuracy": 0.48371756735056015,
+          "per_class_f1": {
+            "none": 0.33285714285714285,
+            "facts": 0.46621621621621623,
+            "issue": 0.4094488188976378,
+            "petitioner_argument": 0.4329501915708812,
+            "respondent_argument": 0.24401913875598086,
+            "reasoning": 0.26865671641791045,
+            "decision": 0.507177033492823
+          },
+          "supports": {
+            "none": 300,
+            "facts": 300,
+            "issue": 300,
+            "petitioner_argument": 300,
+            "respondent_argument": 300,
+            "reasoning": 300,
+            "decision": 300
+          },
+          "confusion": [
+            [
+              233,
+              21,
+              0,
+              7,
+              5,
+              32,
+              2
+            ],
+            [
+              131,
+              138,
+              1,
+              5,
+              9,
+              12,
+              4
+            ],
+            [
+              130,
+              67,
+              78,
+              6,
+              7,
+              8,
+              4
+            ],
+            [
+              130,
+              20,
+              1,
+              113,
+              29,
+              7,
+              0
+            ],
+            [
+              127,
+              20,
+              0,
+              84,
+              51,
+              18,
+              0
+            ],
+            [
+              201,
+              14,
+              0,
+              7,
+              13,
+              63,
+              2
+            ],
+            [
+              148,
+              12,
+              1,
+              0,
+              4,
+              29,
+              106
+            ]
+          ]
+        },
+        "keys_only": {
+          "macro_f1": 0.3798350808513522,
+          "accuracy": 0.37238095238095237,
+          "correct": 782,
+          "eligible_population_reweighted_macro_f1": 0.40628827215376345,
+          "eligible_population_reweighted_accuracy": 0.486950623609211,
+          "per_class_f1": {
+            "none": 0.33773453787352326,
+            "facts": 0.45161290322580644,
+            "issue": 0.412532637075718,
+            "petitioner_argument": 0.4198019801980198,
+            "respondent_argument": 0.2589928057553957,
+            "reasoning": 0.2556053811659193,
+            "decision": 0.5225653206650831
+          },
+          "supports": {
+            "none": 300,
+            "facts": 300,
+            "issue": 300,
+            "petitioner_argument": 300,
+            "respondent_argument": 300,
+            "reasoning": 300,
+            "decision": 300
+          },
+          "confusion": [
+            [
+              243,
+              20,
+              1,
+              6,
+              4,
+              24,
+              2
+            ],
+            [
+              141,
+              133,
+              1,
+              5,
+              8,
+              9,
+              3
+            ],
+            [
+              128,
+              71,
+              79,
+              6,
+              5,
+              7,
+              4
+            ],
+            [
+              135,
+              20,
+              1,
+              106,
+              33,
+              5,
+              0
+            ],
+            [
+              136,
+              20,
+              0,
+              76,
+              54,
+              14,
+              0
+            ],
+            [
+              211,
+              14,
+              0,
+              6,
+              10,
+              57,
+              2
+            ],
+            [
+              145,
+              11,
+              1,
+              0,
+              3,
+              30,
+              110
+            ]
+          ]
+        },
+        "native_keys_output_columns": {
+          "macro_f1": 0.4407348552636007,
+          "accuracy": 0.43,
+          "correct": 903,
+          "eligible_population_reweighted_macro_f1": 0.40605839982166414,
+          "eligible_population_reweighted_accuracy": 0.42526684050745156,
+          "per_class_f1": {
+            "none": 0.2590975254730713,
+            "facts": 0.4936530324400564,
+            "issue": 0.5778781038374717,
+            "petitioner_argument": 0.40266222961730447,
+            "respondent_argument": 0.30148619957537154,
+            "reasoning": 0.4014962593516209,
+            "decision": 0.648870636550308
+          },
+          "supports": {
+            "none": 300,
+            "facts": 300,
+            "issue": 300,
+            "petitioner_argument": 300,
+            "respondent_argument": 300,
+            "reasoning": 300,
+            "decision": 300
+          },
+          "confusion": [
+            [
+              89,
+              45,
+              4,
+              24,
+              11,
+              121,
+              6
+            ],
+            [
+              55,
+              175,
+              5,
+              12,
+              13,
+              33,
+              7
+            ],
+            [
+              48,
+              75,
+              128,
+              12,
+              5,
+              25,
+              7
+            ],
+            [
+              46,
+              30,
+              3,
+              121,
+              45,
+              54,
+              1
+            ],
+            [
+              46,
+              36,
+              1,
+              93,
+              71,
+              51,
+              2
+            ],
+            [
+              58,
+              27,
+              1,
+              27,
+              20,
+              161,
+              6
+            ],
+            [
+              45,
+              21,
+              1,
+              12,
+              6,
+              57,
+              158
+            ]
+          ]
+        }
+      },
+      "primary_comparisons": {
+        "untouched_donor": {
+          "macro_f1_ci95": [
+            0.0787725555329369,
+            0.11869722296118847
+          ],
+          "accuracy_ci95": [
+            0.07087039073538254,
+            0.12162549753768487
+          ],
+          "fixed_errors": 392,
+          "new_errors": 190
+        },
+        "shuffled": {
+          "macro_f1_ci95": [
+            0.07035791419342899,
+            0.10969815124906952
+          ],
+          "accuracy_ci95": [
+            0.0670850845352947,
+            0.11670491110137272
+          ],
+          "fixed_errors": 369,
+          "new_errors": 177
+        },
+        "native_keys_output_columns": {
+          "macro_f1_ci95": [
+            0.013133664717864205,
+            0.04531043197924341
+          ],
+          "accuracy_ci95": [
+            0.01756073251762419,
+            0.05044040552000615
+          ],
+          "fixed_errors": 194,
+          "new_errors": 123
+        },
+        "older_excerpt_mlp_native_replay": {
+          "macro_f1_ci95": [
+            0.014758970389146394,
+            0.048578249684028234
+          ],
+          "accuracy_ci95": [
+            0.01715641745432625,
+            0.05412731236008012
+          ],
+          "fixed_errors": 210,
+          "new_errors": 135
+        },
+        "classifier_refit": {
+          "macro_f1_ci95": [
+            -0.037432342735715676,
+            -0.00181665967549097
+          ],
+          "accuracy_ci95": [
+            -0.04645669259067388,
+            -0.010464966974806962
+          ],
+          "fixed_errors": 157,
+          "new_errors": 217
+        }
+      },
+      "max_numpy_t4_baseline_pooled_error": 4.410743713378906e-06,
+      "eval_rows_sha256": "9e0825c4da04af734b7d696c5d1a15d0484ab10a2a9dda6a5e0c19755c43414a"
+    },
+    "Gemini_balanced": {
+      "rows": 112,
+      "judgments": 98,
+      "methods": {
+        "untouched_donor": {
+          "macro_f1": 0.28650339362798255,
+          "accuracy": 0.29464285714285715,
+          "correct": 33,
+          "eligible_population_reweighted_macro_f1": 0.28650339362798255,
+          "eligible_population_reweighted_accuracy": 0.29464285714285715,
+          "per_class_f1": {
+            "none": 0.28888888888888886,
+            "facts": 0.4,
+            "issue": 0.11764705882352941,
+            "petitioner_argument": 0.19047619047619047,
+            "respondent_argument": 0.19047619047619047,
+            "reasoning": 0.2962962962962963,
+            "decision": 0.5217391304347826
+          },
+          "supports": {
+            "none": 16,
+            "facts": 16,
+            "issue": 16,
+            "petitioner_argument": 16,
+            "respondent_argument": 16,
+            "reasoning": 16,
+            "decision": 16
+          },
+          "confusion": [
+            [
+              13,
+              1,
+              0,
+              0,
+              0,
+              2,
+              0
+            ],
+            [
+              11,
+              5,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              10,
+              2,
+              1,
+              0,
+              1,
+              1,
+              1
+            ],
+            [
+              10,
+              1,
+              0,
+              2,
+              1,
+              2,
+              0
+            ],
+            [
+              10,
+              0,
+              0,
+              3,
+              2,
+              1,
+              0
+            ],
+            [
+              11,
+              0,
+              0,
+              0,
+              1,
+              4,
+              0
+            ],
+            [
+              9,
+              0,
+              0,
+              0,
+              0,
+              1,
+              6
+            ]
+          ]
+        },
+        "older_excerpt_mlp_native_replay": {
+          "macro_f1": 0.40914169485598045,
+          "accuracy": 0.4107142857142857,
+          "correct": 46,
+          "eligible_population_reweighted_macro_f1": 0.40914169485598045,
+          "eligible_population_reweighted_accuracy": 0.4107142857142857,
+          "per_class_f1": {
+            "none": 0.22727272727272727,
+            "facts": 0.5945945945945946,
+            "issue": 0.47619047619047616,
+            "petitioner_argument": 0.2857142857142857,
+            "respondent_argument": 0.2857142857142857,
+            "reasoning": 0.4230769230769231,
+            "decision": 0.5714285714285714
+          },
+          "supports": {
+            "none": 16,
+            "facts": 16,
+            "issue": 16,
+            "petitioner_argument": 16,
+            "respondent_argument": 16,
+            "reasoning": 16,
+            "decision": 16
+          },
+          "confusion": [
+            [
+              5,
+              1,
+              0,
+              0,
+              0,
+              8,
+              2
+            ],
+            [
+              4,
+              11,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              5,
+              3,
+              5,
+              0,
+              1,
+              1,
+              1
+            ],
+            [
+              4,
+              1,
+              0,
+              3,
+              1,
+              7,
+              0
+            ],
+            [
+              3,
+              3,
+              0,
+              0,
+              3,
+              7,
+              0
+            ],
+            [
+              2,
+              2,
+              0,
+              0,
+              0,
+              11,
+              1
+            ],
+            [
+              5,
+              0,
+              0,
+              1,
+              0,
+              2,
+              8
+            ]
+          ]
+        },
+        "classifier_refit": {
+          "macro_f1": 0.38004341989683815,
+          "accuracy": 0.4017857142857143,
+          "correct": 45,
+          "eligible_population_reweighted_macro_f1": 0.38004341989683815,
+          "eligible_population_reweighted_accuracy": 0.4017857142857143,
+          "per_class_f1": {
+            "none": 0.20689655172413793,
+            "facts": 0.6190476190476191,
+            "issue": 0.5925925925925926,
+            "petitioner_argument": 0.15384615384615385,
+            "respondent_argument": 0.16666666666666666,
+            "reasoning": 0.2926829268292683,
+            "decision": 0.6285714285714286
+          },
+          "supports": {
+            "none": 16,
+            "facts": 16,
+            "issue": 16,
+            "petitioner_argument": 16,
+            "respondent_argument": 16,
+            "reasoning": 16,
+            "decision": 16
+          },
+          "confusion": [
+            [
+              3,
+              0,
+              1,
+              1,
+              1,
+              7,
+              3
+            ],
+            [
+              0,
+              13,
+              1,
+              2,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              6,
+              8,
+              0,
+              0,
+              0,
+              2
+            ],
+            [
+              4,
+              2,
+              0,
+              2,
+              2,
+              6,
+              0
+            ],
+            [
+              3,
+              3,
+              0,
+              4,
+              2,
+              4,
+              0
+            ],
+            [
+              3,
+              2,
+              0,
+              1,
+              1,
+              6,
+              3
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              2,
+              2,
+              11
+            ]
+          ]
+        },
+        "Gemini Decisions": {
+          "macro_f1": 0.388135456202683,
+          "accuracy": 0.41964285714285715,
+          "correct": 47,
+          "eligible_population_reweighted_macro_f1": 0.388135456202683,
+          "eligible_population_reweighted_accuracy": 0.41964285714285715,
+          "per_class_f1": {
+            "none": 0.11764705882352941,
+            "facts": 0.6285714285714286,
+            "issue": 0.45454545454545453,
+            "petitioner_argument": 0.2962962962962963,
+            "respondent_argument": 0.19047619047619047,
+            "reasoning": 0.38235294117647056,
+            "decision": 0.6470588235294118
+          },
+          "supports": {
+            "none": 16,
+            "facts": 16,
+            "issue": 16,
+            "petitioner_argument": 16,
+            "respondent_argument": 16,
+            "reasoning": 16,
+            "decision": 16
+          },
+          "confusion": [
+            [
+              1,
+              2,
+              0,
+              1,
+              0,
+              10,
+              2
+            ],
+            [
+              0,
+              11,
+              1,
+              0,
+              0,
+              2,
+              2
+            ],
+            [
+              0,
+              5,
+              5,
+              0,
+              1,
+              3,
+              2
+            ],
+            [
+              0,
+              0,
+              0,
+              4,
+              1,
+              11,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              3,
+              2,
+              10,
+              1
+            ],
+            [
+              0,
+              1,
+              0,
+              1,
+              1,
+              13,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              2,
+              0,
+              3,
+              11
+            ]
+          ]
+        },
+        "archived InLegalBERT excerpt MLP": {
+          "macro_f1": 0.40914169485598045,
+          "accuracy": 0.4107142857142857,
+          "correct": 46,
+          "eligible_population_reweighted_macro_f1": 0.40914169485598045,
+          "eligible_population_reweighted_accuracy": 0.4107142857142857,
+          "per_class_f1": {
+            "none": 0.22727272727272727,
+            "facts": 0.5945945945945946,
+            "issue": 0.47619047619047616,
+            "petitioner_argument": 0.2857142857142857,
+            "respondent_argument": 0.2857142857142857,
+            "reasoning": 0.4230769230769231,
+            "decision": 0.5714285714285714
+          },
+          "supports": {
+            "none": 16,
+            "facts": 16,
+            "issue": 16,
+            "petitioner_argument": 16,
+            "respondent_argument": 16,
+            "reasoning": 16,
+            "decision": 16
+          },
+          "confusion": [
+            [
+              5,
+              1,
+              0,
+              0,
+              0,
+              8,
+              2
+            ],
+            [
+              4,
+              11,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              5,
+              3,
+              5,
+              0,
+              1,
+              1,
+              1
+            ],
+            [
+              4,
+              1,
+              0,
+              3,
+              1,
+              7,
+              0
+            ],
+            [
+              3,
+              3,
+              0,
+              0,
+              3,
+              7,
+              0
+            ],
+            [
+              2,
+              2,
+              0,
+              0,
+              0,
+              11,
+              1
+            ],
+            [
+              5,
+              0,
+              0,
+              1,
+              0,
+              2,
+              8
+            ]
+          ]
+        },
+        "current-20-percent": {
+          "macro_f1": 0.11430045702491522,
+          "accuracy": 0.1875,
+          "correct": 21,
+          "eligible_population_reweighted_macro_f1": 0.11430045702491522,
+          "eligible_population_reweighted_accuracy": 0.1875,
+          "per_class_f1": {
+            "none": 0.26666666666666666,
+            "facts": 0.0,
+            "issue": 0.11764705882352941,
+            "petitioner_argument": 0.0,
+            "respondent_argument": 0.0,
+            "reasoning": 0.1,
+            "decision": 0.3157894736842105
+          },
+          "supports": {
+            "none": 16,
+            "facts": 16,
+            "issue": 16,
+            "petitioner_argument": 16,
+            "respondent_argument": 16,
+            "reasoning": 16,
+            "decision": 16
+          },
+          "confusion": [
+            [
+              16,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              16,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              14,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              15,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              16,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              15,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              12,
+              0,
+              0,
+              0,
+              0,
+              1,
+              3
+            ]
+          ]
+        },
+        "role": {
+          "macro_f1": 0.41047619047619044,
+          "accuracy": 0.4107142857142857,
+          "correct": 46,
+          "eligible_population_reweighted_macro_f1": 0.41047619047619044,
+          "eligible_population_reweighted_accuracy": 0.4107142857142857,
+          "per_class_f1": {
+            "none": 0.23809523809523808,
+            "facts": 0.6666666666666666,
+            "issue": 0.4,
+            "petitioner_argument": 0.24,
+            "respondent_argument": 0.35714285714285715,
+            "reasoning": 0.4,
+            "decision": 0.5714285714285714
+          },
+          "supports": {
+            "none": 16,
+            "facts": 16,
+            "issue": 16,
+            "petitioner_argument": 16,
+            "respondent_argument": 16,
+            "reasoning": 16,
+            "decision": 16
+          },
+          "confusion": [
+            [
+              5,
+              1,
+              0,
+              0,
+              1,
+              7,
+              2
+            ],
+            [
+              2,
+              12,
+              0,
+              1,
+              0,
+              1,
+              0
+            ],
+            [
+              4,
+              4,
+              4,
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              4,
+              1,
+              0,
+              3,
+              2,
+              6,
+              0
+            ],
+            [
+              4,
+              2,
+              0,
+              1,
+              5,
+              4,
+              0
+            ],
+            [
+              2,
+              0,
+              0,
+              2,
+              2,
+              9,
+              1
+            ],
+            [
+              5,
+              0,
+              0,
+              1,
+              1,
+              1,
+              8
+            ]
+          ]
+        },
+        "role_pairs": {
+          "macro_f1": 0.3921800978455899,
+          "accuracy": 0.4017857142857143,
+          "correct": 45,
+          "eligible_population_reweighted_macro_f1": 0.3921800978455899,
+          "eligible_population_reweighted_accuracy": 0.4017857142857143,
+          "per_class_f1": {
+            "none": 0.15384615384615385,
+            "facts": 0.6153846153846154,
+            "issue": 0.47619047619047616,
+            "petitioner_argument": 0.23076923076923078,
+            "respondent_argument": 0.4,
+            "reasoning": 0.35294117647058826,
+            "decision": 0.5161290322580645
+          },
+          "supports": {
+            "none": 16,
+            "facts": 16,
+            "issue": 16,
+            "petitioner_argument": 16,
+            "respondent_argument": 16,
+            "reasoning": 16,
+            "decision": 16
+          },
+          "confusion": [
+            [
+              2,
+              1,
+              0,
+              1,
+              1,
+              8,
+              3
+            ],
+            [
+              1,
+              12,
+              0,
+              1,
+              0,
+              2,
+              0
+            ],
+            [
+              1,
+              6,
+              5,
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              4,
+              1,
+              0,
+              3,
+              2,
+              6,
+              0
+            ],
+            [
+              1,
+              2,
+              0,
+              0,
+              6,
+              7,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              3,
+              9,
+              3
+            ],
+            [
+              1,
+              1,
+              0,
+              3,
+              1,
+              2,
+              8
+            ]
+          ]
+        },
+        "shuffled": {
+          "macro_f1": 0.3223327353972846,
+          "accuracy": 0.33035714285714285,
+          "correct": 37,
+          "eligible_population_reweighted_macro_f1": 0.3223327353972846,
+          "eligible_population_reweighted_accuracy": 0.33035714285714285,
+          "per_class_f1": {
+            "none": 0.2926829268292683,
+            "facts": 0.5161290322580645,
+            "issue": 0.11764705882352941,
+            "petitioner_argument": 0.2,
+            "respondent_argument": 0.2727272727272727,
+            "reasoning": 0.35714285714285715,
+            "decision": 0.5
+          },
+          "supports": {
+            "none": 16,
+            "facts": 16,
+            "issue": 16,
+            "petitioner_argument": 16,
+            "respondent_argument": 16,
+            "reasoning": 16,
+            "decision": 16
+          },
+          "confusion": [
+            [
+              12,
+              1,
+              0,
+              0,
+              0,
+              2,
+              1
+            ],
+            [
+              8,
+              8,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              8,
+              4,
+              1,
+              0,
+              1,
+              1,
+              1
+            ],
+            [
+              10,
+              1,
+              0,
+              2,
+              1,
+              2,
+              0
+            ],
+            [
+              9,
+              1,
+              0,
+              2,
+              3,
+              1,
+              0
+            ],
+            [
+              10,
+              0,
+              0,
+              0,
+              1,
+              5,
+              0
+            ],
+            [
+              9,
+              0,
+              0,
+              0,
+              0,
+              1,
+              6
+            ]
+          ]
+        },
+        "keys_only": {
+          "macro_f1": 0.3153229047135035,
+          "accuracy": 0.32142857142857145,
+          "correct": 36,
+          "eligible_population_reweighted_macro_f1": 0.3153229047135035,
+          "eligible_population_reweighted_accuracy": 0.32142857142857145,
+          "per_class_f1": {
+            "none": 0.2988505747126437,
+            "facts": 0.5,
+            "issue": 0.11764705882352941,
+            "petitioner_argument": 0.2,
+            "respondent_argument": 0.2727272727272727,
+            "reasoning": 0.2962962962962963,
+            "decision": 0.5217391304347826
+          },
+          "supports": {
+            "none": 16,
+            "facts": 16,
+            "issue": 16,
+            "petitioner_argument": 16,
+            "respondent_argument": 16,
+            "reasoning": 16,
+            "decision": 16
+          },
+          "confusion": [
+            [
+              13,
+              1,
+              0,
+              0,
+              0,
+              2,
+              0
+            ],
+            [
+              9,
+              7,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              9,
+              3,
+              1,
+              0,
+              1,
+              1,
+              1
+            ],
+            [
+              10,
+              1,
+              0,
+              2,
+              1,
+              2,
+              0
+            ],
+            [
+              10,
+              0,
+              0,
+              2,
+              3,
+              1,
+              0
+            ],
+            [
+              11,
+              0,
+              0,
+              0,
+              1,
+              4,
+              0
+            ],
+            [
+              9,
+              0,
+              0,
+              0,
+              0,
+              1,
+              6
+            ]
+          ]
+        },
+        "native_keys_output_columns": {
+          "macro_f1": 0.37088304552590273,
+          "accuracy": 0.375,
+          "correct": 42,
+          "eligible_population_reweighted_macro_f1": 0.37088304552590273,
+          "eligible_population_reweighted_accuracy": 0.375,
+          "per_class_f1": {
+            "none": 0.1875,
+            "facts": 0.55,
+            "issue": 0.4,
+            "petitioner_argument": 0.32,
+            "respondent_argument": 0.32,
+            "reasoning": 0.35714285714285715,
+            "decision": 0.46153846153846156
+          },
+          "supports": {
+            "none": 16,
+            "facts": 16,
+            "issue": 16,
+            "petitioner_argument": 16,
+            "respondent_argument": 16,
+            "reasoning": 16,
+            "decision": 16
+          },
+          "confusion": [
+            [
+              3,
+              1,
+              0,
+              0,
+              1,
+              9,
+              2
+            ],
+            [
+              4,
+              11,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              1,
+              7,
+              4,
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              0,
+              1,
+              0,
+              4,
+              1,
+              10,
+              0
+            ],
+            [
+              2,
+              2,
+              0,
+              2,
+              4,
+              6,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0,
+              2,
+              10,
+              1
+            ],
+            [
+              3,
+              2,
+              0,
+              2,
+              0,
+              3,
+              6
+            ]
+          ]
+        }
+      },
+      "primary_comparisons": {
+        "untouched_donor": {
+          "macro_f1_ci95": [
+            0.011462508721907601,
+            0.2015762221534678
+          ],
+          "accuracy_ci95": [
+            0.0,
+            0.20869565217391306
+          ],
+          "fixed_errors": 24,
+          "new_errors": 12
+        },
+        "shuffled": {
+          "macro_f1_ci95": [
+            -0.014224402296383467,
+            0.16254378391300717
+          ],
+          "accuracy_ci95": [
+            -0.0267857142857143,
+            0.16666666666666663
+          ],
+          "fixed_errors": 20,
+          "new_errors": 12
+        },
+        "native_keys_output_columns": {
+          "macro_f1_ci95": [
+            -0.03933694918004434,
+            0.0821046020317411
+          ],
+          "accuracy_ci95": [
+            -0.03525073746312684,
+            0.08849557522123891
+          ],
+          "fixed_errors": 8,
+          "new_errors": 5
+        },
+        "older_excerpt_mlp_native_replay": {
+          "macro_f1_ci95": [
+            -0.0911161836879676,
+            0.059272273908973334
+          ],
+          "accuracy_ci95": [
+            -0.0844447964517662,
+            0.06956521739130433
+          ],
+          "fixed_errors": 8,
+          "new_errors": 9
+        },
+        "classifier_refit": {
+          "macro_f1_ci95": [
+            -0.07127839097592338,
+            0.09870143992335696
+          ],
+          "accuracy_ci95": [
+            -0.0803571428571429,
+            0.08407484489122752
+          ],
+          "fixed_errors": 11,
+          "new_errors": 11
+        },
+        "Gemini Decisions": {
+          "macro_f1_ci95": [
+            -0.09513558132211215,
+            0.09693577893100648
+          ],
+          "accuracy_ci95": [
+            -0.11403508771929827,
+            0.07488901869158882
+          ],
+          "fixed_errors": 14,
+          "new_errors": 16
+        },
+        "archived InLegalBERT excerpt MLP": {
+          "macro_f1_ci95": [
+            -0.0911161836879676,
+            0.059272273908973334
+          ],
+          "accuracy_ci95": [
+            -0.0844447964517662,
+            0.06956521739130433
+          ],
+          "fixed_errors": 8,
+          "new_errors": 9
+        }
+      },
+      "max_numpy_t4_baseline_pooled_error": 3.129243850708008e-06,
+      "eval_rows_sha256": "03c77033a6c37ac38f9bb1b0ca1f9eea44e8c0a65857c52937b87004db0e2a32"
+    },
+    "Gemini_singletons": {
+      "rows": 196,
+      "judgments": 196,
+      "methods": {
+        "untouched_donor": {
+          "macro_f1": 0.2582437387252922,
+          "accuracy": 0.37755102040816324,
+          "correct": 74,
+          "eligible_population_reweighted_macro_f1": 0.2582437387252922,
+          "eligible_population_reweighted_accuracy": 0.37755102040816324,
+          "per_class_f1": {
+            "none": 0.4807692307692308,
+            "facts": 0.13333333333333333,
+            "issue": 0.0,
+            "petitioner_argument": 0.375,
+            "respondent_argument": 0.14285714285714285,
+            "reasoning": 0.24096385542168675,
+            "decision": 0.43478260869565216
+          },
+          "supports": {
+            "none": 65,
+            "facts": 20,
+            "issue": 0,
+            "petitioner_argument": 17,
+            "respondent_argument": 10,
+            "reasoning": 68,
+            "decision": 16
+          },
+          "confusion": [
+            [
+              50,
+              6,
+              1,
+              2,
+              2,
+              2,
+              2
+            ],
+            [
+              16,
+              2,
+              1,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              10,
+              1,
+              0,
+              6,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              5,
+              1,
+              1,
+              0
+            ],
+            [
+              56,
+              0,
+              0,
+              2,
+              0,
+              10,
+              0
+            ],
+            [
+              8,
+              1,
+              0,
+              0,
+              0,
+              2,
+              5
+            ]
+          ]
+        },
+        "older_excerpt_mlp_native_replay": {
+          "macro_f1": 0.3455255052212456,
+          "accuracy": 0.4387755102040816,
+          "correct": 86,
+          "eligible_population_reweighted_macro_f1": 0.3455255052212456,
+          "eligible_population_reweighted_accuracy": 0.4387755102040816,
+          "per_class_f1": {
+            "none": 0.3793103448275862,
+            "facts": 0.35,
+            "issue": 0.0,
+            "petitioner_argument": 0.3888888888888889,
+            "respondent_argument": 0.23529411764705882,
+            "reasoning": 0.5466666666666666,
+            "decision": 0.5185185185185185
+          },
+          "supports": {
+            "none": 65,
+            "facts": 20,
+            "issue": 0,
+            "petitioner_argument": 17,
+            "respondent_argument": 10,
+            "reasoning": 68,
+            "decision": 16
+          },
+          "confusion": [
+            [
+              22,
+              8,
+              1,
+              3,
+              4,
+              25,
+              2
+            ],
+            [
+              5,
+              7,
+              2,
+              1,
+              1,
+              4,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              2,
+              1,
+              7,
+              0,
+              6,
+              0
+            ],
+            [
+              1,
+              0,
+              1,
+              4,
+              2,
+              2,
+              0
+            ],
+            [
+              19,
+              2,
+              1,
+              3,
+              0,
+              41,
+              2
+            ],
+            [
+              3,
+              1,
+              0,
+              1,
+              0,
+              4,
+              7
+            ]
+          ]
+        },
+        "classifier_refit": {
+          "macro_f1": 0.27381031479246476,
+          "accuracy": 0.33163265306122447,
+          "correct": 65,
+          "eligible_population_reweighted_macro_f1": 0.27381031479246476,
+          "eligible_population_reweighted_accuracy": 0.33163265306122447,
+          "per_class_f1": {
+            "none": 0.29473684210526313,
+            "facts": 0.34146341463414637,
+            "issue": 0.0,
+            "petitioner_argument": 0.15384615384615385,
+            "respondent_argument": 0.13793103448275862,
+            "reasoning": 0.4172661870503597,
+            "decision": 0.5714285714285714
+          },
+          "supports": {
+            "none": 65,
+            "facts": 20,
+            "issue": 0,
+            "petitioner_argument": 17,
+            "respondent_argument": 10,
+            "reasoning": 68,
+            "decision": 16
+          },
+          "confusion": [
+            [
+              14,
+              6,
+              5,
+              5,
+              8,
+              23,
+              4
+            ],
+            [
+              1,
+              7,
+              3,
+              2,
+              1,
+              6,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              1,
+              3,
+              4,
+              8,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              5,
+              2,
+              2,
+              0
+            ],
+            [
+              14,
+              6,
+              4,
+              6,
+              4,
+              29,
+              5
+            ],
+            [
+              1,
+              1,
+              0,
+              1,
+              0,
+              3,
+              10
+            ]
+          ]
+        },
+        "Gemini Decisions": {
+          "macro_f1": 0.36367130340915504,
+          "accuracy": 0.4336734693877551,
+          "correct": 85,
+          "eligible_population_reweighted_macro_f1": 0.36367130340915504,
+          "eligible_population_reweighted_accuracy": 0.4336734693877551,
+          "per_class_f1": {
+            "none": 0.08695652173913043,
+            "facts": 0.2564102564102564,
+            "issue": 0.0,
+            "petitioner_argument": 0.32432432432432434,
+            "respondent_argument": 0.5882352941176471,
+            "reasoning": 0.5625,
+            "decision": 0.7272727272727273
+          },
+          "supports": {
+            "none": 65,
+            "facts": 20,
+            "issue": 0,
+            "petitioner_argument": 17,
+            "respondent_argument": 10,
+            "reasoning": 68,
+            "decision": 16
+          },
+          "confusion": [
+            [
+              3,
+              6,
+              0,
+              8,
+              0,
+              45,
+              3
+            ],
+            [
+              0,
+              5,
+              1,
+              3,
+              0,
+              11,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              1,
+              6,
+              0,
+              9,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              2,
+              5,
+              2,
+              0
+            ],
+            [
+              1,
+              6,
+              2,
+              1,
+              2,
+              54,
+              2
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              0,
+              3,
+              12
+            ]
+          ]
+        },
+        "archived InLegalBERT excerpt MLP": {
+          "macro_f1": 0.3455255052212456,
+          "accuracy": 0.4387755102040816,
+          "correct": 86,
+          "eligible_population_reweighted_macro_f1": 0.3455255052212456,
+          "eligible_population_reweighted_accuracy": 0.4387755102040816,
+          "per_class_f1": {
+            "none": 0.3793103448275862,
+            "facts": 0.35,
+            "issue": 0.0,
+            "petitioner_argument": 0.3888888888888889,
+            "respondent_argument": 0.23529411764705882,
+            "reasoning": 0.5466666666666666,
+            "decision": 0.5185185185185185
+          },
+          "supports": {
+            "none": 65,
+            "facts": 20,
+            "issue": 0,
+            "petitioner_argument": 17,
+            "respondent_argument": 10,
+            "reasoning": 68,
+            "decision": 16
+          },
+          "confusion": [
+            [
+              22,
+              8,
+              1,
+              3,
+              4,
+              25,
+              2
+            ],
+            [
+              5,
+              7,
+              2,
+              1,
+              1,
+              4,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              2,
+              1,
+              7,
+              0,
+              6,
+              0
+            ],
+            [
+              1,
+              0,
+              1,
+              4,
+              2,
+              2,
+              0
+            ],
+            [
+              19,
+              2,
+              1,
+              3,
+              0,
+              41,
+              2
+            ],
+            [
+              3,
+              1,
+              0,
+              1,
+              0,
+              4,
+              7
+            ]
+          ]
+        },
+        "current-20-percent": {
+          "macro_f1": 0.16954865775688324,
+          "accuracy": 0.37755102040816324,
+          "correct": 74,
+          "eligible_population_reweighted_macro_f1": 0.16954865775688324,
+          "eligible_population_reweighted_accuracy": 0.37755102040816324,
+          "per_class_f1": {
+            "none": 0.5163934426229508,
+            "facts": 0.0,
+            "issue": 0.0,
+            "petitioner_argument": 0.0,
+            "respondent_argument": 0.18181818181818182,
+            "reasoning": 0.1728395061728395,
+            "decision": 0.3157894736842105
+          },
+          "supports": {
+            "none": 65,
+            "facts": 20,
+            "issue": 0,
+            "petitioner_argument": 17,
+            "respondent_argument": 10,
+            "reasoning": 68,
+            "decision": 16
+          },
+          "confusion": [
+            [
+              63,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0
+            ],
+            [
+              18,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              17,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              9,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              61,
+              0,
+              0,
+              0,
+              0,
+              7,
+              0
+            ],
+            [
+              11,
+              0,
+              0,
+              0,
+              0,
+              2,
+              3
+            ]
+          ]
+        },
+        "role": {
+          "macro_f1": 0.30967385831789035,
+          "accuracy": 0.413265306122449,
+          "correct": 81,
+          "eligible_population_reweighted_macro_f1": 0.30967385831789035,
+          "eligible_population_reweighted_accuracy": 0.413265306122449,
+          "per_class_f1": {
+            "none": 0.4251968503937008,
+            "facts": 0.24242424242424243,
+            "issue": 0.0,
+            "petitioner_argument": 0.35,
+            "respondent_argument": 0.09090909090909091,
+            "reasoning": 0.5074626865671642,
+            "decision": 0.5517241379310345
+          },
+          "supports": {
+            "none": 65,
+            "facts": 20,
+            "issue": 0,
+            "petitioner_argument": 17,
+            "respondent_argument": 10,
+            "reasoning": 68,
+            "decision": 16
+          },
+          "confusion": [
+            [
+              27,
+              7,
+              1,
+              3,
+              9,
+              16,
+              2
+            ],
+            [
+              5,
+              4,
+              2,
+              3,
+              0,
+              5,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              1,
+              1,
+              7,
+              0,
+              6,
+              0
+            ],
+            [
+              2,
+              0,
+              1,
+              5,
+              1,
+              1,
+              0
+            ],
+            [
+              23,
+              0,
+              2,
+              5,
+              2,
+              34,
+              2
+            ],
+            [
+              3,
+              1,
+              0,
+              0,
+              0,
+              4,
+              8
+            ]
+          ]
+        },
+        "role_pairs": {
+          "macro_f1": 0.2873172045816924,
+          "accuracy": 0.37244897959183676,
+          "correct": 73,
+          "eligible_population_reweighted_macro_f1": 0.2873172045816924,
+          "eligible_population_reweighted_accuracy": 0.37244897959183676,
+          "per_class_f1": {
+            "none": 0.2391304347826087,
+            "facts": 0.29411764705882354,
+            "issue": 0.0,
+            "petitioner_argument": 0.2857142857142857,
+            "respondent_argument": 0.16,
+            "reasoning": 0.5161290322580645,
+            "decision": 0.5161290322580645
+          },
+          "supports": {
+            "none": 65,
+            "facts": 20,
+            "issue": 0,
+            "petitioner_argument": 17,
+            "respondent_argument": 10,
+            "reasoning": 68,
+            "decision": 16
+          },
+          "confusion": [
+            [
+              11,
+              7,
+              1,
+              7,
+              11,
+              26,
+              2
+            ],
+            [
+              0,
+              5,
+              2,
+              5,
+              0,
+              7,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              1,
+              7,
+              1,
+              7,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              5,
+              2,
+              2,
+              0
+            ],
+            [
+              14,
+              0,
+              1,
+              8,
+              1,
+              40,
+              4
+            ],
+            [
+              2,
+              1,
+              0,
+              0,
+              0,
+              5,
+              8
+            ]
+          ]
+        },
+        "shuffled": {
+          "macro_f1": 0.2776483135992559,
+          "accuracy": 0.3979591836734694,
+          "correct": 78,
+          "eligible_population_reweighted_macro_f1": 0.2776483135992559,
+          "eligible_population_reweighted_accuracy": 0.3979591836734694,
+          "per_class_f1": {
+            "none": 0.48704663212435234,
+            "facts": 0.2,
+            "issue": 0.0,
+            "petitioner_argument": 0.36363636363636365,
+            "respondent_argument": 0.11764705882352941,
+            "reasoning": 0.3404255319148936,
+            "decision": 0.43478260869565216
+          },
+          "supports": {
+            "none": 65,
+            "facts": 20,
+            "issue": 0,
+            "petitioner_argument": 17,
+            "respondent_argument": 10,
+            "reasoning": 68,
+            "decision": 16
+          },
+          "confusion": [
+            [
+              47,
+              5,
+              1,
+              2,
+              4,
+              4,
+              2
+            ],
+            [
+              12,
+              3,
+              1,
+              1,
+              1,
+              2,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              9,
+              1,
+              0,
+              6,
+              0,
+              1,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              5,
+              1,
+              1,
+              0
+            ],
+            [
+              49,
+              0,
+              0,
+              2,
+              1,
+              16,
+              0
+            ],
+            [
+              8,
+              1,
+              0,
+              0,
+              0,
+              2,
+              5
+            ]
+          ]
+        },
+        "keys_only": {
+          "macro_f1": 0.2636079368720075,
+          "accuracy": 0.3826530612244898,
+          "correct": 75,
+          "eligible_population_reweighted_macro_f1": 0.2636079368720075,
+          "eligible_population_reweighted_accuracy": 0.3826530612244898,
+          "per_class_f1": {
+            "none": 0.48514851485148514,
+            "facts": 0.1935483870967742,
+            "issue": 0.0,
+            "petitioner_argument": 0.3225806451612903,
+            "respondent_argument": 0.13333333333333333,
+            "reasoning": 0.27586206896551724,
+            "decision": 0.43478260869565216
+          },
+          "supports": {
+            "none": 65,
+            "facts": 20,
+            "issue": 0,
+            "petitioner_argument": 17,
+            "respondent_argument": 10,
+            "reasoning": 68,
+            "decision": 16
+          },
+          "confusion": [
+            [
+              49,
+              6,
+              1,
+              2,
+              3,
+              2,
+              2
+            ],
+            [
+              14,
+              3,
+              1,
+              0,
+              1,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              10,
+              1,
+              0,
+              5,
+              0,
+              1,
+              0
+            ],
+            [
+              2,
+              0,
+              1,
+              5,
+              1,
+              1,
+              0
+            ],
+            [
+              54,
+              0,
+              0,
+              2,
+              0,
+              12,
+              0
+            ],
+            [
+              8,
+              1,
+              0,
+              0,
+              0,
+              2,
+              5
+            ]
+          ]
+        },
+        "native_keys_output_columns": {
+          "macro_f1": 0.2992827767014759,
+          "accuracy": 0.37755102040816324,
+          "correct": 74,
+          "eligible_population_reweighted_macro_f1": 0.2992827767014759,
+          "eligible_population_reweighted_accuracy": 0.37755102040816324,
+          "per_class_f1": {
+            "none": 0.1875,
+            "facts": 0.1951219512195122,
+            "issue": 0.0,
+            "petitioner_argument": 0.3783783783783784,
+            "respondent_argument": 0.23076923076923078,
+            "reasoning": 0.5432098765432098,
+            "decision": 0.56
+          },
+          "supports": {
+            "none": 65,
+            "facts": 20,
+            "issue": 0,
+            "petitioner_argument": 17,
+            "respondent_argument": 10,
+            "reasoning": 68,
+            "decision": 16
+          },
+          "confusion": [
+            [
+              9,
+              10,
+              1,
+              4,
+              9,
+              30,
+              2
+            ],
+            [
+              6,
+              4,
+              2,
+              1,
+              2,
+              5,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              1,
+              7,
+              0,
+              8,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              4,
+              3,
+              2,
+              0
+            ],
+            [
+              14,
+              4,
+              0,
+              4,
+              2,
+              44,
+              0
+            ],
+            [
+              2,
+              2,
+              0,
+              0,
+              0,
+              5,
+              7
+            ]
+          ]
+        }
+      },
+      "primary_comparisons": {
+        "untouched_donor": {
+          "macro_f1_ci95": [
+            -0.032468707974593565,
+            0.09071617381441413
+          ],
+          "accuracy_ci95": [
+            -0.09693877551020408,
+            0.08163265306122452
+          ],
+          "fixed_errors": 41,
+          "new_errors": 42
+        },
+        "shuffled": {
+          "macro_f1_ci95": [
+            -0.045857896146947595,
+            0.06841285662041587
+          ],
+          "accuracy_ci95": [
+            -0.11224489795918369,
+            0.056122448979591844
+          ],
+          "fixed_errors": 34,
+          "new_errors": 39
+        },
+        "native_keys_output_columns": {
+          "macro_f1_ci95": [
+            -0.05497823259795965,
+            0.03395779682017198
+          ],
+          "accuracy_ci95": [
+            -0.06122448979591838,
+            0.05102040816326531
+          ],
+          "fixed_errors": 16,
+          "new_errors": 17
+        },
+        "older_excerpt_mlp_native_replay": {
+          "macro_f1_ci95": [
+            -0.11288248689942852,
+            0.001800804179550438
+          ],
+          "accuracy_ci95": [
+            -0.12244897959183676,
+            -0.005102040816326536
+          ],
+          "fixed_errors": 10,
+          "new_errors": 23
+        },
+        "classifier_refit": {
+          "macro_f1_ci95": [
+            -0.038613824952079163,
+            0.0672946216447989
+          ],
+          "accuracy_ci95": [
+            -0.02551020408163268,
+            0.10714285714285715
+          ],
+          "fixed_errors": 27,
+          "new_errors": 19
+        },
+        "Gemini Decisions": {
+          "macro_f1_ci95": [
+            -0.14538372551428325,
+            -0.004696138404233606
+          ],
+          "accuracy_ci95": [
+            -0.13022959183673466,
+            0.010204081632653017
+          ],
+          "fixed_errors": 18,
+          "new_errors": 30
+        },
+        "archived InLegalBERT excerpt MLP": {
+          "macro_f1_ci95": [
+            -0.11288248689942852,
+            0.001800804179550438
+          ],
+          "accuracy_ci95": [
+            -0.12244897959183676,
+            -0.005102040816326536
+          ],
+          "fixed_errors": 10,
+          "new_errors": 23
+        }
+      },
+      "max_numpy_t4_baseline_pooled_error": 5.498528480529785e-06,
+      "eval_rows_sha256": "5c1d19d7a4447f6e1d8c8a725449c75cd04036f64965b4ea79523aca3fe0f8d9"
+    },
+    "Gemini_rows": {
+      "rows": 21,
+      "judgments": 17,
+      "methods": {
+        "untouched_donor": {
+          "macro_f1": 0.18809523809523807,
+          "accuracy": 0.23809523809523808,
+          "correct": 5,
+          "eligible_population_reweighted_macro_f1": 0.18809523809523807,
+          "eligible_population_reweighted_accuracy": 0.23809523809523808,
+          "per_class_f1": {
+            "none": 0.3333333333333333,
+            "facts": 0.25,
+            "issue": 0.0,
+            "petitioner_argument": 0.3333333333333333,
+            "respondent_argument": 0.0,
+            "reasoning": 0.0,
+            "decision": 0.4
+          },
+          "supports": {
+            "none": 3,
+            "facts": 3,
+            "issue": 3,
+            "petitioner_argument": 3,
+            "respondent_argument": 3,
+            "reasoning": 3,
+            "decision": 3
+          },
+          "confusion": [
+            [
+              2,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              2,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              1,
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              1,
+              0,
+              1,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ]
+          ]
+        },
+        "older_excerpt_mlp_native_replay": {
+          "macro_f1": 0.2852813852813853,
+          "accuracy": 0.3333333333333333,
+          "correct": 7,
+          "eligible_population_reweighted_macro_f1": 0.2852813852813853,
+          "eligible_population_reweighted_accuracy": 0.3333333333333333,
+          "per_class_f1": {
+            "none": 0.36363636363636365,
+            "facts": 0.5,
+            "issue": 0.0,
+            "petitioner_argument": 0.3333333333333333,
+            "respondent_argument": 0.0,
+            "reasoning": 0.4,
+            "decision": 0.4
+          },
+          "supports": {
+            "none": 3,
+            "facts": 3,
+            "issue": 3,
+            "petitioner_argument": 3,
+            "respondent_argument": 3,
+            "reasoning": 3,
+            "decision": 3
+          },
+          "confusion": [
+            [
+              2,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              2,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              1,
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              1,
+              0,
+              1,
+              0
+            ],
+            [
+              1,
+              1,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ]
+          ]
+        },
+        "classifier_refit": {
+          "macro_f1": 0.3741496598639456,
+          "accuracy": 0.38095238095238093,
+          "correct": 8,
+          "eligible_population_reweighted_macro_f1": 0.3741496598639456,
+          "eligible_population_reweighted_accuracy": 0.38095238095238093,
+          "per_class_f1": {
+            "none": 0.3333333333333333,
+            "facts": 0.4,
+            "issue": 0.8,
+            "petitioner_argument": 0.2857142857142857,
+            "respondent_argument": 0.0,
+            "reasoning": 0.4,
+            "decision": 0.4
+          },
+          "supports": {
+            "none": 3,
+            "facts": 3,
+            "issue": 3,
+            "petitioner_argument": 3,
+            "respondent_argument": 3,
+            "reasoning": 3,
+            "decision": 3
+          },
+          "confusion": [
+            [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              2,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              1,
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              1,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              2,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ]
+          ]
+        },
+        "Gemini Decisions": {
+          "macro_f1": 0.3904761904761904,
+          "accuracy": 0.38095238095238093,
+          "correct": 8,
+          "eligible_population_reweighted_macro_f1": 0.3904761904761904,
+          "eligible_population_reweighted_accuracy": 0.38095238095238093,
+          "per_class_f1": {
+            "none": 0.0,
+            "facts": 0.16666666666666666,
+            "issue": 0.5,
+            "petitioner_argument": 0.5,
+            "respondent_argument": 0.5,
+            "reasoning": 0.4,
+            "decision": 0.6666666666666666
+          },
+          "supports": {
+            "none": 3,
+            "facts": 3,
+            "issue": 3,
+            "petitioner_argument": 3,
+            "respondent_argument": 3,
+            "reasoning": 3,
+            "decision": 3
+          },
+          "confusion": [
+            [
+              0,
+              3,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              1,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              2,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              1,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              2,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              2
+            ]
+          ]
+        },
+        "archived InLegalBERT excerpt MLP": {
+          "macro_f1": 0.2852813852813853,
+          "accuracy": 0.3333333333333333,
+          "correct": 7,
+          "eligible_population_reweighted_macro_f1": 0.2852813852813853,
+          "eligible_population_reweighted_accuracy": 0.3333333333333333,
+          "per_class_f1": {
+            "none": 0.36363636363636365,
+            "facts": 0.5,
+            "issue": 0.0,
+            "petitioner_argument": 0.3333333333333333,
+            "respondent_argument": 0.0,
+            "reasoning": 0.4,
+            "decision": 0.4
+          },
+          "supports": {
+            "none": 3,
+            "facts": 3,
+            "issue": 3,
+            "petitioner_argument": 3,
+            "respondent_argument": 3,
+            "reasoning": 3,
+            "decision": 3
+          },
+          "confusion": [
+            [
+              2,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              2,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              1,
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              1,
+              0,
+              1,
+              0
+            ],
+            [
+              1,
+              1,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ]
+          ]
+        },
+        "current-20-percent": {
+          "macro_f1": 0.09610389610389611,
+          "accuracy": 0.19047619047619047,
+          "correct": 4,
+          "eligible_population_reweighted_macro_f1": 0.09610389610389611,
+          "eligible_population_reweighted_accuracy": 0.19047619047619047,
+          "per_class_f1": {
+            "none": 0.2727272727272727,
+            "facts": 0.0,
+            "issue": 0.0,
+            "petitioner_argument": 0.0,
+            "respondent_argument": 0.0,
+            "reasoning": 0.0,
+            "decision": 0.4
+          },
+          "supports": {
+            "none": 3,
+            "facts": 3,
+            "issue": 3,
+            "petitioner_argument": 3,
+            "respondent_argument": 3,
+            "reasoning": 3,
+            "decision": 3
+          },
+          "confusion": [
+            [
+              3,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              3,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ]
+          ]
+        },
+        "role": {
+          "macro_f1": 0.3261904761904762,
+          "accuracy": 0.3333333333333333,
+          "correct": 7,
+          "eligible_population_reweighted_macro_f1": 0.3261904761904762,
+          "eligible_population_reweighted_accuracy": 0.3333333333333333,
+          "per_class_f1": {
+            "none": 0.25,
+            "facts": 0.4,
+            "issue": 0.5,
+            "petitioner_argument": 0.3333333333333333,
+            "respondent_argument": 0.0,
+            "reasoning": 0.4,
+            "decision": 0.4
+          },
+          "supports": {
+            "none": 3,
+            "facts": 3,
+            "issue": 3,
+            "petitioner_argument": 3,
+            "respondent_argument": 3,
+            "reasoning": 3,
+            "decision": 3
+          },
+          "confusion": [
+            [
+              1,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              1,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              1,
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              1,
+              0,
+              1,
+              0
+            ],
+            [
+              1,
+              1,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ]
+          ]
+        },
+        "role_pairs": {
+          "macro_f1": 0.33287981859410426,
+          "accuracy": 0.3333333333333333,
+          "correct": 7,
+          "eligible_population_reweighted_macro_f1": 0.33287981859410426,
+          "eligible_population_reweighted_accuracy": 0.3333333333333333,
+          "per_class_f1": {
+            "none": 0.0,
+            "facts": 0.4444444444444444,
+            "issue": 0.8,
+            "petitioner_argument": 0.2857142857142857,
+            "respondent_argument": 0.0,
+            "reasoning": 0.4,
+            "decision": 0.4
+          },
+          "supports": {
+            "none": 3,
+            "facts": 3,
+            "issue": 3,
+            "petitioner_argument": 3,
+            "respondent_argument": 3,
+            "reasoning": 3,
+            "decision": 3
+          },
+          "confusion": [
+            [
+              0,
+              2,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              2,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              1,
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              1,
+              0,
+              1,
+              0
+            ],
+            [
+              1,
+              1,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ]
+          ]
+        },
+        "shuffled": {
+          "macro_f1": 0.18809523809523807,
+          "accuracy": 0.23809523809523808,
+          "correct": 5,
+          "eligible_population_reweighted_macro_f1": 0.18809523809523807,
+          "eligible_population_reweighted_accuracy": 0.23809523809523808,
+          "per_class_f1": {
+            "none": 0.3333333333333333,
+            "facts": 0.25,
+            "issue": 0.0,
+            "petitioner_argument": 0.3333333333333333,
+            "respondent_argument": 0.0,
+            "reasoning": 0.0,
+            "decision": 0.4
+          },
+          "supports": {
+            "none": 3,
+            "facts": 3,
+            "issue": 3,
+            "petitioner_argument": 3,
+            "respondent_argument": 3,
+            "reasoning": 3,
+            "decision": 3
+          },
+          "confusion": [
+            [
+              2,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              2,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              1,
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              1,
+              0,
+              1,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ]
+          ]
+        },
+        "keys_only": {
+          "macro_f1": 0.18809523809523807,
+          "accuracy": 0.23809523809523808,
+          "correct": 5,
+          "eligible_population_reweighted_macro_f1": 0.18809523809523807,
+          "eligible_population_reweighted_accuracy": 0.23809523809523808,
+          "per_class_f1": {
+            "none": 0.3333333333333333,
+            "facts": 0.25,
+            "issue": 0.0,
+            "petitioner_argument": 0.3333333333333333,
+            "respondent_argument": 0.0,
+            "reasoning": 0.0,
+            "decision": 0.4
+          },
+          "supports": {
+            "none": 3,
+            "facts": 3,
+            "issue": 3,
+            "petitioner_argument": 3,
+            "respondent_argument": 3,
+            "reasoning": 3,
+            "decision": 3
+          },
+          "confusion": [
+            [
+              2,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              2,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              1,
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              1,
+              0,
+              1,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ]
+          ]
+        },
+        "native_keys_output_columns": {
+          "macro_f1": 0.2503401360544218,
+          "accuracy": 0.2857142857142857,
+          "correct": 6,
+          "eligible_population_reweighted_macro_f1": 0.2503401360544218,
+          "eligible_population_reweighted_accuracy": 0.2857142857142857,
+          "per_class_f1": {
+            "none": 0.2857142857142857,
+            "facts": 0.3333333333333333,
+            "issue": 0.0,
+            "petitioner_argument": 0.3333333333333333,
+            "respondent_argument": 0.0,
+            "reasoning": 0.4,
+            "decision": 0.4
+          },
+          "supports": {
+            "none": 3,
+            "facts": 3,
+            "issue": 3,
+            "petitioner_argument": 3,
+            "respondent_argument": 3,
+            "reasoning": 3,
+            "decision": 3
+          },
+          "confusion": [
+            [
+              1,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              1,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              1,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              2,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ]
+          ]
+        }
+      },
+      "primary_comparisons": {
+        "untouched_donor": {
+          "macro_f1_ci95": [
+            -0.029209183673469384,
+            0.28182745825602973
+          ],
+          "accuracy_ci95": [
+            -0.1278532608695652,
+            0.3157894736842105
+          ],
+          "fixed_errors": 4,
+          "new_errors": 2
+        },
+        "shuffled": {
+          "macro_f1_ci95": [
+            -0.029209183673469384,
+            0.28182745825602973
+          ],
+          "accuracy_ci95": [
+            -0.1278532608695652,
+            0.3157894736842105
+          ],
+          "fixed_errors": 4,
+          "new_errors": 2
+        },
+        "native_keys_output_columns": {
+          "macro_f1_ci95": [
+            -0.07142857142857145,
+            0.17354628454252516
+          ],
+          "accuracy_ci95": [
+            -0.1111111111111111,
+            0.21052631578947367
+          ],
+          "fixed_errors": 2,
+          "new_errors": 1
+        },
+        "older_excerpt_mlp_native_replay": {
+          "macro_f1_ci95": [
+            -0.09625888991960418,
+            0.14285714285714285
+          ],
+          "accuracy_ci95": [
+            -0.2,
+            0.17647058823529413
+          ],
+          "fixed_errors": 2,
+          "new_errors": 2
+        },
+        "classifier_refit": {
+          "macro_f1_ci95": [
+            -0.12054945054945057,
+            0.029684601113172546
+          ],
+          "accuracy_ci95": [
+            -0.16666666666666666,
+            0.0
+          ],
+          "fixed_errors": 0,
+          "new_errors": 1
+        },
+        "Gemini Decisions": {
+          "macro_f1_ci95": [
+            -0.20434137291280152,
+            0.1074938157081014
+          ],
+          "accuracy_ci95": [
+            -0.2173913043478261,
+            0.10526315789473684
+          ],
+          "fixed_errors": 2,
+          "new_errors": 3
+        },
+        "archived InLegalBERT excerpt MLP": {
+          "macro_f1_ci95": [
+            -0.09625888991960418,
+            0.14285714285714285
+          ],
+          "accuracy_ci95": [
+            -0.2,
+            0.17647058823529413
+          ],
+          "fixed_errors": 2,
+          "new_errors": 2
+        }
+      },
+      "max_numpy_t4_baseline_pooled_error": 1.6540288925170898e-06,
+      "eval_rows_sha256": "b4dda4409c69d1606785945c2f327369a696ad3da0bd1c6c835cd4f64d33d89f"
+    },
+    "Gemini_joined": {
+      "rows": 28,
+      "judgments": 28,
+      "methods": {
+        "untouched_donor": {
+          "macro_f1": 0.3759288330716902,
+          "accuracy": 0.39285714285714285,
+          "correct": 11,
+          "eligible_population_reweighted_macro_f1": 0.3759288330716902,
+          "eligible_population_reweighted_accuracy": 0.39285714285714285,
+          "per_class_f1": {
+            "none": 0.3076923076923077,
+            "facts": 0.6666666666666666,
+            "issue": 0.4,
+            "petitioner_argument": 0.0,
+            "respondent_argument": 0.0,
+            "reasoning": 0.4,
+            "decision": 0.8571428571428571
+          },
+          "supports": {
+            "none": 4,
+            "facts": 4,
+            "issue": 4,
+            "petitioner_argument": 4,
+            "respondent_argument": 4,
+            "reasoning": 4,
+            "decision": 4
+          },
+          "confusion": [
+            [
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0
+            ],
+            [
+              1,
+              3,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              1,
+              0,
+              0,
+              2,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              2,
+              0,
+              2,
+              0
+            ],
+            [
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              3
+            ]
+          ]
+        },
+        "older_excerpt_mlp_native_replay": {
+          "macro_f1": 0.36224489795918363,
+          "accuracy": 0.39285714285714285,
+          "correct": 11,
+          "eligible_population_reweighted_macro_f1": 0.36224489795918363,
+          "eligible_population_reweighted_accuracy": 0.39285714285714285,
+          "per_class_f1": {
+            "none": 0.25,
+            "facts": 0.6666666666666666,
+            "issue": 0.3333333333333333,
+            "petitioner_argument": 0.0,
+            "respondent_argument": 0.0,
+            "reasoning": 0.42857142857142855,
+            "decision": 0.8571428571428571
+          },
+          "supports": {
+            "none": 4,
+            "facts": 4,
+            "issue": 4,
+            "petitioner_argument": 4,
+            "respondent_argument": 4,
+            "reasoning": 4,
+            "decision": 4
+          },
+          "confusion": [
+            [
+              1,
+              0,
+              0,
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              0,
+              3,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              2,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              2,
+              0,
+              2,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              3
+            ]
+          ]
+        },
+        "classifier_refit": {
+          "macro_f1": 0.4373626373626374,
+          "accuracy": 0.4642857142857143,
+          "correct": 13,
+          "eligible_population_reweighted_macro_f1": 0.4373626373626374,
+          "eligible_population_reweighted_accuracy": 0.4642857142857143,
+          "per_class_f1": {
+            "none": 0.2857142857142857,
+            "facts": 0.6,
+            "issue": 0.5714285714285714,
+            "petitioner_argument": 0.2857142857142857,
+            "respondent_argument": 0.0,
+            "reasoning": 0.46153846153846156,
+            "decision": 0.8571428571428571
+          },
+          "supports": {
+            "none": 4,
+            "facts": 4,
+            "issue": 4,
+            "petitioner_argument": 4,
+            "respondent_argument": 4,
+            "reasoning": 4,
+            "decision": 4
+          },
+          "confusion": [
+            [
+              1,
+              0,
+              0,
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              1,
+              3,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              2,
+              2,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              2,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              3
+            ]
+          ]
+        },
+        "Gemini Decisions": {
+          "macro_f1": 0.3794665234514859,
+          "accuracy": 0.39285714285714285,
+          "correct": 11,
+          "eligible_population_reweighted_macro_f1": 0.3794665234514859,
+          "eligible_population_reweighted_accuracy": 0.39285714285714285,
+          "per_class_f1": {
+            "none": 0.0,
+            "facts": 0.2857142857142857,
+            "issue": 0.3333333333333333,
+            "petitioner_argument": 0.5714285714285714,
+            "respondent_argument": 0.4,
+            "reasoning": 0.3157894736842105,
+            "decision": 0.75
+          },
+          "supports": {
+            "none": 4,
+            "facts": 4,
+            "issue": 4,
+            "petitioner_argument": 4,
+            "respondent_argument": 4,
+            "reasoning": 4,
+            "decision": 4
+          },
+          "confusion": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              4,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              0,
+              2,
+              1,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              2,
+              0,
+              2,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              1,
+              2,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              3
+            ]
+          ]
+        },
+        "archived InLegalBERT excerpt MLP": {
+          "macro_f1": 0.36224489795918363,
+          "accuracy": 0.39285714285714285,
+          "correct": 11,
+          "eligible_population_reweighted_macro_f1": 0.36224489795918363,
+          "eligible_population_reweighted_accuracy": 0.39285714285714285,
+          "per_class_f1": {
+            "none": 0.25,
+            "facts": 0.6666666666666666,
+            "issue": 0.3333333333333333,
+            "petitioner_argument": 0.0,
+            "respondent_argument": 0.0,
+            "reasoning": 0.42857142857142855,
+            "decision": 0.8571428571428571
+          },
+          "supports": {
+            "none": 4,
+            "facts": 4,
+            "issue": 4,
+            "petitioner_argument": 4,
+            "respondent_argument": 4,
+            "reasoning": 4,
+            "decision": 4
+          },
+          "confusion": [
+            [
+              1,
+              0,
+              0,
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              0,
+              3,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              2,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              2,
+              0,
+              2,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              3
+            ]
+          ]
+        },
+        "current-20-percent": {
+          "macro_f1": 0.3091156462585034,
+          "accuracy": 0.32142857142857145,
+          "correct": 9,
+          "eligible_population_reweighted_macro_f1": 0.3091156462585034,
+          "eligible_population_reweighted_accuracy": 0.32142857142857145,
+          "per_class_f1": {
+            "none": 0.24,
+            "facts": 0.6666666666666666,
+            "issue": 0.4,
+            "petitioner_argument": 0.0,
+            "respondent_argument": 0.0,
+            "reasoning": 0.0,
+            "decision": 0.8571428571428571
+          },
+          "supports": {
+            "none": 4,
+            "facts": 4,
+            "issue": 4,
+            "petitioner_argument": 4,
+            "respondent_argument": 4,
+            "reasoning": 4,
+            "decision": 4
+          },
+          "confusion": [
+            [
+              3,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              2,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              3
+            ]
+          ]
+        },
+        "role": {
+          "macro_f1": 0.3346938775510204,
+          "accuracy": 0.35714285714285715,
+          "correct": 10,
+          "eligible_population_reweighted_macro_f1": 0.3346938775510204,
+          "eligible_population_reweighted_accuracy": 0.35714285714285715,
+          "per_class_f1": {
+            "none": 0.0,
+            "facts": 0.8,
+            "issue": 0.4,
+            "petitioner_argument": 0.0,
+            "respondent_argument": 0.0,
+            "reasoning": 0.2857142857142857,
+            "decision": 0.8571428571428571
+          },
+          "supports": {
+            "none": 4,
+            "facts": 4,
+            "issue": 4,
+            "petitioner_argument": 4,
+            "respondent_argument": 4,
+            "reasoning": 4,
+            "decision": 4
+          },
+          "confusion": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              4,
+              0
+            ],
+            [
+              0,
+              4,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              2,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              2,
+              0,
+              2,
+              0
+            ],
+            [
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              3
+            ]
+          ]
+        },
+        "role_pairs": {
+          "macro_f1": 0.38350340136054417,
+          "accuracy": 0.42857142857142855,
+          "correct": 12,
+          "eligible_population_reweighted_macro_f1": 0.38350340136054417,
+          "eligible_population_reweighted_accuracy": 0.42857142857142855,
+          "per_class_f1": {
+            "none": 0.0,
+            "facts": 0.6666666666666666,
+            "issue": 0.5,
+            "petitioner_argument": 0.0,
+            "respondent_argument": 0.2857142857142857,
+            "reasoning": 0.375,
+            "decision": 0.8571428571428571
+          },
+          "supports": {
+            "none": 4,
+            "facts": 4,
+            "issue": 4,
+            "petitioner_argument": 4,
+            "respondent_argument": 4,
+            "reasoning": 4,
+            "decision": 4
+          },
+          "confusion": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              4,
+              0
+            ],
+            [
+              0,
+              3,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              2,
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              2,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              1,
+              2,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              3
+            ]
+          ]
+        },
+        "shuffled": {
+          "macro_f1": 0.3505875077303649,
+          "accuracy": 0.35714285714285715,
+          "correct": 10,
+          "eligible_population_reweighted_macro_f1": 0.3505875077303649,
+          "eligible_population_reweighted_accuracy": 0.35714285714285715,
+          "per_class_f1": {
+            "none": 0.16666666666666666,
+            "facts": 0.6666666666666666,
+            "issue": 0.4,
+            "petitioner_argument": 0.0,
+            "respondent_argument": 0.0,
+            "reasoning": 0.36363636363636365,
+            "decision": 0.8571428571428571
+          },
+          "supports": {
+            "none": 4,
+            "facts": 4,
+            "issue": 4,
+            "petitioner_argument": 4,
+            "respondent_argument": 4,
+            "reasoning": 4,
+            "decision": 4
+          },
+          "confusion": [
+            [
+              1,
+              0,
+              0,
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              1,
+              3,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              1,
+              0,
+              0,
+              2,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              2,
+              0,
+              2,
+              0
+            ],
+            [
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              3
+            ]
+          ]
+        },
+        "keys_only": {
+          "macro_f1": 0.3759288330716902,
+          "accuracy": 0.39285714285714285,
+          "correct": 11,
+          "eligible_population_reweighted_macro_f1": 0.3759288330716902,
+          "eligible_population_reweighted_accuracy": 0.39285714285714285,
+          "per_class_f1": {
+            "none": 0.3076923076923077,
+            "facts": 0.6666666666666666,
+            "issue": 0.4,
+            "petitioner_argument": 0.0,
+            "respondent_argument": 0.0,
+            "reasoning": 0.4,
+            "decision": 0.8571428571428571
+          },
+          "supports": {
+            "none": 4,
+            "facts": 4,
+            "issue": 4,
+            "petitioner_argument": 4,
+            "respondent_argument": 4,
+            "reasoning": 4,
+            "decision": 4
+          },
+          "confusion": [
+            [
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0
+            ],
+            [
+              1,
+              3,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              1,
+              0,
+              0,
+              2,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              2,
+              0,
+              2,
+              0
+            ],
+            [
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              3
+            ]
+          ]
+        },
+        "native_keys_output_columns": {
+          "macro_f1": 0.36780045351473917,
+          "accuracy": 0.39285714285714285,
+          "correct": 11,
+          "eligible_population_reweighted_macro_f1": 0.36780045351473917,
+          "eligible_population_reweighted_accuracy": 0.39285714285714285,
+          "per_class_f1": {
+            "none": 0.2222222222222222,
+            "facts": 0.6666666666666666,
+            "issue": 0.4,
+            "petitioner_argument": 0.0,
+            "respondent_argument": 0.0,
+            "reasoning": 0.42857142857142855,
+            "decision": 0.8571428571428571
+          },
+          "supports": {
+            "none": 4,
+            "facts": 4,
+            "issue": 4,
+            "petitioner_argument": 4,
+            "respondent_argument": 4,
+            "reasoning": 4,
+            "decision": 4
+          },
+          "confusion": [
+            [
+              1,
+              0,
+              0,
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              1,
+              3,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              2,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              2,
+              0,
+              2,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              3
+            ]
+          ]
+        }
+      },
+      "primary_comparisons": {
+        "untouched_donor": {
+          "macro_f1_ci95": [
+            -0.13195775454704026,
+            0.16290674603174604
+          ],
+          "accuracy_ci95": [
+            -0.14285714285714285,
+            0.2142857142857143
+          ],
+          "fixed_errors": 4,
+          "new_errors": 3
+        },
+        "shuffled": {
+          "macro_f1_ci95": [
+            -0.10298535737445513,
+            0.18171068427370957
+          ],
+          "accuracy_ci95": [
+            -0.1071428571428571,
+            0.25
+          ],
+          "fixed_errors": 4,
+          "new_errors": 2
+        },
+        "native_keys_output_columns": {
+          "macro_f1_ci95": [
+            -0.11827226345083494,
+            0.16432418771704488
+          ],
+          "accuracy_ci95": [
+            -0.10714285714285715,
+            0.1785714285714286
+          ],
+          "fixed_errors": 3,
+          "new_errors": 2
+        },
+        "older_excerpt_mlp_native_replay": {
+          "macro_f1_ci95": [
+            -0.08894702347342104,
+            0.1339574090505767
+          ],
+          "accuracy_ci95": [
+            -0.07142857142857145,
+            0.14285714285714288
+          ],
+          "fixed_errors": 2,
+          "new_errors": 1
+        },
+        "classifier_refit": {
+          "macro_f1_ci95": [
+            -0.20523809523809525,
+            0.0940040713255
+          ],
+          "accuracy_ci95": [
+            -0.1785714285714286,
+            0.1071428571428572
+          ],
+          "fixed_errors": 2,
+          "new_errors": 3
+        },
+        "Gemini Decisions": {
+          "macro_f1_ci95": [
+            -0.19945934500282325,
+            0.21632082203510777
+          ],
+          "accuracy_ci95": [
+            -0.17857142857142855,
+            0.25
+          ],
+          "fixed_errors": 5,
+          "new_errors": 4
+        },
+        "archived InLegalBERT excerpt MLP": {
+          "macro_f1_ci95": [
+            -0.08894702347342104,
+            0.1339574090505767
+          ],
+          "accuracy_ci95": [
+            -0.07142857142857145,
+            0.14285714285714288
+          ],
+          "fixed_errors": 2,
+          "new_errors": 1
+        }
+      },
+      "max_numpy_t4_baseline_pooled_error": 2.0712614059448242e-06,
+      "eval_rows_sha256": "f12511759339e720e7ff5f4be123e1e4705fe2f30fbfc2e096cf5c2033ea0ece"
+    }
+  }
+}

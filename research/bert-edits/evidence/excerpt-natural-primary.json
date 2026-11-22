@@ -1,0 +1,1338 @@
+{
+  "freeze_sha256": "0927392773a9042dcb37a8f440cc060a8463095a537cdc3d375d61ff37202047",
+  "predictions_sha256": "e79415de10eb5b1b9deeb58a3f6b2d53c63a754ec10b5a575649e1a37ee4dfae",
+  "natural_sampling": {
+    "version": "attoflow-excerpt-neurons-native-head-followup-v1",
+    "width_budget": 512,
+    "donor_sha256": "bbe8af20d1524c7535b1cbe68c6d4c3c844c6cc9fccef46c03c9ff56e7c18cea",
+    "groups": {
+      "natural": {
+        "rows": 4900,
+        "windows": 4901,
+        "tokens": 169608,
+        "max_window": 512,
+        "packed_sha256": "24087db0d904466490b0ba3cbae93734289ac980f79477c4f9897066be176774"
+      }
+    },
+    "row_manifest_sha256": "21dc7e9fad1390ebc99e9ce4d405cf4cdf39f688fd9866d2176591f02c91135c",
+    "eligible_rows": 29404,
+    "eligible_judgments": 263,
+    "sample_judgments": 263,
+    "validation_csv_sha256": "8abb2d789325418fc5ab4186c0dc63798e02b8fd82f9e00c324185e6bd86f816",
+    "original_plan_sha256": "6866e882e754a75fbd604c4defa9e40ef2a916c6c05dd485295b74ac19709a88",
+    "previous_edit_freeze_sha256": "46f1f2f09cd538aff980a59762babe87d334420a80eabf0370c32fef797314b9",
+    "seed": 827613,
+    "sampling": "Uniform reservoir across nonblank validation rows in judgments disjoint from the original fit, selector, confirmation and all saved Gemini panels. Exact normalized text matching those samples is removed. Selection uses no labels.",
+    "followup": "Freeze new classifier writes on the original train and selection sets. Use this sample once as the new natural-prevalence confirmation. The balanced confirmation motivates the follow-up and is descriptive here."
+  },
+  "natural_feature_receipt": {
+    "backend": {
+      "nvidia_smi": [
+        "Tesla T4, 15360, 580.82.07"
+      ],
+      "torch": "2.14.1+cu130",
+      "cuda": "13.0"
+    },
+    "protocol_sha256": "eed64034e94e32e1045289b87b0b90e13833237b0319f7f137d04b1f5ab7f802",
+    "groups": {
+      "natural": {
+        "feature_sha256": "2a0e831ad05b1039cffbde3046702afe80e13bbfd7c97c8f4f12d5df8b60ec00",
+        "input_sha256": "24087db0d904466490b0ba3cbae93734289ac980f79477c4f9897066be176774",
+        "max_native_pool_parity_error": 6.6943466663360596e-06,
+        "seconds": 14.296000486999901
+      }
+    },
+    "seconds": 17.29419805700013
+  },
+  "metrics": "Natural validation cohort selected uniformly among eligible nonblank rows without labels. Cluster bootstrap draws by judgment. The earlier balanced figures are descriptive.",
+  "groups": {
+    "natural": {
+      "rows": 4900,
+      "judgments": 263,
+      "methods": {
+        "untouched_donor": {
+          "macro_f1": 0.4677621041130172,
+          "accuracy": 0.5285714285714286,
+          "correct": 2590,
+          "eligible_population_reweighted_macro_f1": 0.4677621041130172,
+          "eligible_population_reweighted_accuracy": 0.5285714285714286,
+          "per_class_f1": {
+            "none": 0.6285601265822784,
+            "facts": 0.5019390581717451,
+            "issue": 0.48148148148148145,
+            "petitioner_argument": 0.4584615384615385,
+            "respondent_argument": 0.28,
+            "reasoning": 0.3068712474983322,
+            "decision": 0.6170212765957447
+          },
+          "supports": {
+            "none": 1941,
+            "facts": 1010,
+            "issue": 76,
+            "petitioner_argument": 353,
+            "respondent_argument": 244,
+            "reasoning": 1119,
+            "decision": 157
+          },
+          "confusion": [
+            [
+              1589,
+              191,
+              3,
+              27,
+              31,
+              92,
+              8
+            ],
+            [
+              472,
+              453,
+              2,
+              31,
+              13,
+              33,
+              6
+            ],
+            [
+              24,
+              23,
+              26,
+              1,
+              1,
+              0,
+              1
+            ],
+            [
+              134,
+              32,
+              0,
+              149,
+              27,
+              10,
+              1
+            ],
+            [
+              95,
+              20,
+              0,
+              59,
+              56,
+              12,
+              2
+            ],
+            [
+              743,
+              70,
+              1,
+              28,
+              27,
+              230,
+              20
+            ],
+            [
+              58,
+              6,
+              0,
+              2,
+              1,
+              3,
+              87
+            ]
+          ]
+        },
+        "ffn_only_balanced": {
+          "macro_f1": 0.44770887284640415,
+          "accuracy": 0.48653061224489796,
+          "correct": 2384,
+          "eligible_population_reweighted_macro_f1": 0.44770887284640415,
+          "eligible_population_reweighted_accuracy": 0.48653061224489796,
+          "per_class_f1": {
+            "none": 0.5293930727677153,
+            "facts": 0.5224977043158862,
+            "issue": 0.3865546218487395,
+            "petitioner_argument": 0.3468950749464668,
+            "respondent_argument": 0.293015332197615,
+            "reasoning": 0.4967148488830486,
+            "decision": 0.558891454965358
+          },
+          "supports": {
+            "none": 1941,
+            "facts": 1010,
+            "issue": 76,
+            "petitioner_argument": 353,
+            "respondent_argument": 244,
+            "reasoning": 1119,
+            "decision": 157
+          },
+          "confusion": [
+            [
+              833,
+              357,
+              59,
+              134,
+              78,
+              424,
+              56
+            ],
+            [
+              122,
+              569,
+              44,
+              86,
+              44,
+              105,
+              40
+            ],
+            [
+              7,
+              17,
+              46,
+              3,
+              1,
+              1,
+              1
+            ],
+            [
+              44,
+              48,
+              5,
+              162,
+              60,
+              30,
+              4
+            ],
+            [
+              20,
+              29,
+              1,
+              67,
+              86,
+              34,
+              7
+            ],
+            [
+              163,
+              139,
+              6,
+              126,
+              71,
+              567,
+              47
+            ],
+            [
+              17,
+              9,
+              1,
+              3,
+              3,
+              3,
+              121
+            ]
+          ]
+        },
+        "classifier_only_balanced": {
+          "macro_f1": 0.3755914428140788,
+          "accuracy": 0.41285714285714287,
+          "correct": 2023,
+          "eligible_population_reweighted_macro_f1": 0.3755914428140788,
+          "eligible_population_reweighted_accuracy": 0.41285714285714287,
+          "per_class_f1": {
+            "none": 0.3861003861003861,
+            "facts": 0.5262222222222223,
+            "issue": 0.3072463768115942,
+            "petitioner_argument": 0.39054726368159204,
+            "respondent_argument": 0.24536376604850213,
+            "reasoning": 0.44466600199401796,
+            "decision": 0.3289940828402367
+          },
+          "supports": {
+            "none": 1941,
+            "facts": 1010,
+            "issue": 76,
+            "petitioner_argument": 353,
+            "respondent_argument": 244,
+            "reasoning": 1119,
+            "decision": 157
+          },
+          "confusion": [
+            [
+              550,
+              371,
+              93,
+              130,
+              158,
+              316,
+              323
+            ],
+            [
+              102,
+              592,
+              85,
+              37,
+              54,
+              66,
+              74
+            ],
+            [
+              1,
+              17,
+              53,
+              2,
+              1,
+              1,
+              1
+            ],
+            [
+              19,
+              53,
+              4,
+              157,
+              65,
+              26,
+              29
+            ],
+            [
+              14,
+              32,
+              6,
+              59,
+              86,
+              29,
+              18
+            ],
+            [
+              217,
+              172,
+              25,
+              64,
+              91,
+              446,
+              104
+            ],
+            [
+              5,
+              3,
+              3,
+              2,
+              2,
+              3,
+              139
+            ]
+          ]
+        },
+        "combined_balanced": {
+          "macro_f1": 0.36957644518858634,
+          "accuracy": 0.40244897959183673,
+          "correct": 1972,
+          "eligible_population_reweighted_macro_f1": 0.36957644518858634,
+          "eligible_population_reweighted_accuracy": 0.40244897959183673,
+          "per_class_f1": {
+            "none": 0.3631103074141049,
+            "facts": 0.49629306585259486,
+            "issue": 0.2638888888888889,
+            "petitioner_argument": 0.3908872901678657,
+            "respondent_argument": 0.29067930489731436,
+            "reasoning": 0.44844844844844844,
+            "decision": 0.3337278106508876
+          },
+          "supports": {
+            "none": 1941,
+            "facts": 1010,
+            "issue": 76,
+            "petitioner_argument": 353,
+            "respondent_argument": 244,
+            "reasoning": 1119,
+            "decision": 157
+          },
+          "confusion": [
+            [
+              502,
+              446,
+              128,
+              142,
+              101,
+              312,
+              310
+            ],
+            [
+              91,
+              569,
+              111,
+              42,
+              50,
+              66,
+              81
+            ],
+            [
+              2,
+              13,
+              57,
+              1,
+              2,
+              0,
+              1
+            ],
+            [
+              19,
+              51,
+              6,
+              163,
+              65,
+              20,
+              29
+            ],
+            [
+              14,
+              32,
+              8,
+              56,
+              92,
+              29,
+              13
+            ],
+            [
+              194,
+              170,
+              41,
+              76,
+              77,
+              448,
+              113
+            ],
+            [
+              2,
+              2,
+              5,
+              1,
+              2,
+              4,
+              141
+            ]
+          ]
+        },
+        "classifier_only_prevalence_weighted": {
+          "macro_f1": 0.47177410231685313,
+          "accuracy": 0.5085714285714286,
+          "correct": 2492,
+          "eligible_population_reweighted_macro_f1": 0.47177410231685313,
+          "eligible_population_reweighted_accuracy": 0.5085714285714286,
+          "per_class_f1": {
+            "none": 0.587853901015777,
+            "facts": 0.49953488372093025,
+            "issue": 0.5,
+            "petitioner_argument": 0.4184514003294893,
+            "respondent_argument": 0.30128205128205127,
+            "reasoning": 0.3510011778563015,
+            "decision": 0.6442953020134228
+          },
+          "supports": {
+            "none": 1941,
+            "facts": 1010,
+            "issue": 76,
+            "petitioner_argument": 353,
+            "respondent_argument": 244,
+            "reasoning": 1119,
+            "decision": 157
+          },
+          "confusion": [
+            [
+              1360,
+              348,
+              3,
+              59,
+              6,
+              142,
+              23
+            ],
+            [
+              387,
+              537,
+              1,
+              8,
+              3,
+              62,
+              12
+            ],
+            [
+              21,
+              23,
+              27,
+              1,
+              0,
+              4,
+              0
+            ],
+            [
+              126,
+              62,
+              0,
+              127,
+              11,
+              25,
+              2
+            ],
+            [
+              82,
+              28,
+              0,
+              54,
+              47,
+              32,
+              1
+            ],
+            [
+              675,
+              134,
+              1,
+              4,
+              0,
+              298,
+              7
+            ],
+            [
+              35,
+              8,
+              0,
+              1,
+              1,
+              16,
+              96
+            ]
+          ]
+        },
+        "combined_prevalence_weighted": {
+          "macro_f1": 0.47267441786948977,
+          "accuracy": 0.5106122448979592,
+          "correct": 2502,
+          "eligible_population_reweighted_macro_f1": 0.47267441786948977,
+          "eligible_population_reweighted_accuracy": 0.5106122448979592,
+          "per_class_f1": {
+            "none": 0.5862527716186253,
+            "facts": 0.5272289156626506,
+            "issue": 0.5178571428571429,
+            "petitioner_argument": 0.4253246753246753,
+            "respondent_argument": 0.32515337423312884,
+            "reasoning": 0.3486547085201794,
+            "decision": 0.5782493368700266
+          },
+          "supports": {
+            "none": 1941,
+            "facts": 1010,
+            "issue": 76,
+            "petitioner_argument": 353,
+            "respondent_argument": 244,
+            "reasoning": 1119,
+            "decision": 157
+          },
+          "confusion": [
+            [
+              1322,
+              280,
+              5,
+              58,
+              13,
+              183,
+              80
+            ],
+            [
+              347,
+              547,
+              1,
+              16,
+              4,
+              82,
+              13
+            ],
+            [
+              10,
+              32,
+              29,
+              1,
+              1,
+              3,
+              0
+            ],
+            [
+              123,
+              45,
+              0,
+              131,
+              10,
+              37,
+              7
+            ],
+            [
+              89,
+              24,
+              0,
+              45,
+              53,
+              32,
+              1
+            ],
+            [
+              657,
+              130,
+              1,
+              9,
+              1,
+              311,
+              10
+            ],
+            [
+              21,
+              7,
+              0,
+              3,
+              0,
+              17,
+              109
+            ]
+          ]
+        }
+      },
+      "paired": {
+        "combined_balanced_minus_classifier_only_balanced": {
+          "macro_f1_ci95": [
+            -0.015694831256385492,
+            0.004376155346056288
+          ],
+          "accuracy_ci95": [
+            -0.01981063581250832,
+            0.0
+          ],
+          "fixed_errors": 289,
+          "new_errors": 340
+        },
+        "combined_balanced_minus_ffn_only_balanced": {
+          "macro_f1_ci95": [
+            -0.09327837176454513,
+            -0.06324623137523534
+          ],
+          "accuracy_ci95": [
+            -0.09994932774063373,
+            -0.06838976657466356
+          ],
+          "fixed_errors": 420,
+          "new_errors": 832
+        },
+        "combined_balanced_minus_untouched_donor": {
+          "macro_f1_ci95": [
+            -0.12187840801403271,
+            -0.07273084329129927
+          ],
+          "accuracy_ci95": [
+            -0.14846879669691718,
+            -0.10232061186518367
+          ],
+          "fixed_errors": 628,
+          "new_errors": 1246
+        },
+        "classifier_only_balanced_minus_untouched_donor": {
+          "macro_f1_ci95": [
+            -0.1137859326263987,
+            -0.06872818957202063
+          ],
+          "accuracy_ci95": [
+            -0.13768480457768548,
+            -0.09302742273970421
+          ],
+          "fixed_errors": 612,
+          "new_errors": 1179
+        },
+        "ffn_only_balanced_minus_untouched_donor": {
+          "macro_f1_ci95": [
+            -0.04444766796244438,
+            0.0054627065638486174
+          ],
+          "accuracy_ci95": [
+            -0.06504394016878005,
+            -0.018095810471257356
+          ],
+          "fixed_errors": 642,
+          "new_errors": 848
+        },
+        "combined_prevalence_weighted_minus_classifier_only_prevalence_weighted": {
+          "macro_f1_ci95": [
+            -0.015733275606137336,
+            0.01716951740265602
+          ],
+          "accuracy_ci95": [
+            -0.00835592647522632,
+            0.012214002927209497
+          ],
+          "fixed_errors": 362,
+          "new_errors": 352
+        },
+        "combined_prevalence_weighted_minus_untouched_donor": {
+          "macro_f1_ci95": [
+            -0.013280451033814925,
+            0.022550494049246354
+          ],
+          "accuracy_ci95": [
+            -0.03165147004282744,
+            -0.0036019160623404867
+          ],
+          "fixed_errors": 547,
+          "new_errors": 635
+        },
+        "classifier_only_prevalence_weighted_minus_untouched_donor": {
+          "macro_f1_ci95": [
+            -0.012217469058441658,
+            0.021538477852536663
+          ],
+          "accuracy_ci95": [
+            -0.0327129559146217,
+            -0.006650514257465234
+          ],
+          "fixed_errors": 462,
+          "new_errors": 560
+        }
+      }
+    },
+    "earlier_balanced_descriptive": {
+      "rows": 2100,
+      "judgments": 602,
+      "methods": {
+        "untouched_donor": {
+          "macro_f1": 0.3708571158761798,
+          "accuracy": 0.3676190476190476,
+          "correct": 772,
+          "eligible_population_reweighted_macro_f1": 0.4017658287464441,
+          "eligible_population_reweighted_accuracy": 0.49079829116037554,
+          "per_class_f1": {
+            "none": 0.33783783783783783,
+            "facts": 0.44482758620689655,
+            "issue": 0.35772357723577236,
+            "petitioner_argument": 0.44573643410852715,
+            "respondent_argument": 0.2367758186397985,
+            "reasoning": 0.2482758620689655,
+            "decision": 0.524822695035461
+          },
+          "supports": {
+            "none": 300,
+            "facts": 300,
+            "issue": 300,
+            "petitioner_argument": 300,
+            "respondent_argument": 300,
+            "reasoning": 300,
+            "decision": 300
+          },
+          "confusion": [
+            [
+              250,
+              19,
+              0,
+              5,
+              4,
+              20,
+              2
+            ],
+            [
+              147,
+              129,
+              1,
+              5,
+              7,
+              8,
+              3
+            ],
+            [
+              142,
+              70,
+              66,
+              6,
+              5,
+              7,
+              4
+            ],
+            [
+              136,
+              20,
+              1,
+              115,
+              23,
+              5,
+              0
+            ],
+            [
+              141,
+              19,
+              0,
+              79,
+              47,
+              13,
+              1
+            ],
+            [
+              215,
+              14,
+              0,
+              6,
+              9,
+              54,
+              2
+            ],
+            [
+              149,
+              9,
+              1,
+              0,
+              2,
+              28,
+              111
+            ]
+          ]
+        },
+        "ffn_only_balanced": {
+          "macro_f1": 0.46950662117963443,
+          "accuracy": 0.4638095238095238,
+          "correct": 974,
+          "eligible_population_reweighted_macro_f1": 0.3928333239139973,
+          "eligible_population_reweighted_accuracy": 0.4256639468995416,
+          "per_class_f1": {
+            "none": 0.3292894280762565,
+            "facts": 0.47234678624813153,
+            "issue": 0.6361829025844931,
+            "petitioner_argument": 0.38317757009345793,
+            "respondent_argument": 0.34714003944773175,
+            "reasoning": 0.4144385026737968,
+            "decision": 0.703971119133574
+          },
+          "supports": {
+            "none": 300,
+            "facts": 300,
+            "issue": 300,
+            "petitioner_argument": 300,
+            "respondent_argument": 300,
+            "reasoning": 300,
+            "decision": 300
+          },
+          "confusion": [
+            [
+              95,
+              39,
+              5,
+              37,
+              13,
+              102,
+              9
+            ],
+            [
+              35,
+              158,
+              21,
+              18,
+              17,
+              34,
+              17
+            ],
+            [
+              17,
+              55,
+              160,
+              22,
+              5,
+              24,
+              17
+            ],
+            [
+              33,
+              31,
+              8,
+              123,
+              55,
+              46,
+              4
+            ],
+            [
+              28,
+              40,
+              2,
+              90,
+              88,
+              48,
+              4
+            ],
+            [
+              40,
+              30,
+              5,
+              38,
+              24,
+              155,
+              8
+            ],
+            [
+              29,
+              16,
+              2,
+              14,
+              5,
+              39,
+              195
+            ]
+          ]
+        },
+        "classifier_only_balanced": {
+          "macro_f1": 0.4893140439391934,
+          "accuracy": 0.49238095238095236,
+          "correct": 1034,
+          "eligible_population_reweighted_macro_f1": 0.3824576058628059,
+          "eligible_population_reweighted_accuracy": 0.4336230000025487,
+          "per_class_f1": {
+            "none": 0.38869257950530034,
+            "facts": 0.5051395007342144,
+            "issue": 0.6642468239564429,
+            "petitioner_argument": 0.39928057553956836,
+            "respondent_argument": 0.3663003663003663,
+            "reasoning": 0.39076923076923076,
+            "decision": 0.7107692307692308
+          },
+          "supports": {
+            "none": 300,
+            "facts": 300,
+            "issue": 300,
+            "petitioner_argument": 300,
+            "respondent_argument": 300,
+            "reasoning": 300,
+            "decision": 300
+          },
+          "confusion": [
+            [
+              110,
+              37,
+              10,
+              26,
+              23,
+              70,
+              24
+            ],
+            [
+              27,
+              172,
+              26,
+              13,
+              10,
+              26,
+              26
+            ],
+            [
+              12,
+              45,
+              183,
+              13,
+              8,
+              15,
+              24
+            ],
+            [
+              28,
+              31,
+              11,
+              111,
+              69,
+              39,
+              11
+            ],
+            [
+              21,
+              44,
+              9,
+              70,
+              100,
+              41,
+              15
+            ],
+            [
+              56,
+              41,
+              9,
+              18,
+              30,
+              127,
+              19
+            ],
+            [
+              12,
+              11,
+              3,
+              5,
+              6,
+              32,
+              231
+            ]
+          ]
+        },
+        "combined_balanced": {
+          "macro_f1": 0.4956358399556206,
+          "accuracy": 0.5009523809523809,
+          "correct": 1052,
+          "eligible_population_reweighted_macro_f1": 0.3770602043353311,
+          "eligible_population_reweighted_accuracy": 0.42755797029412707,
+          "per_class_f1": {
+            "none": 0.3818525519848771,
+            "facts": 0.49244712990936557,
+            "issue": 0.673469387755102,
+            "petitioner_argument": 0.4070175438596491,
+            "respondent_argument": 0.39325842696629215,
+            "reasoning": 0.4121212121212121,
+            "decision": 0.7092846270928462
+          },
+          "supports": {
+            "none": 300,
+            "facts": 300,
+            "issue": 300,
+            "petitioner_argument": 300,
+            "respondent_argument": 300,
+            "reasoning": 300,
+            "decision": 300
+          },
+          "confusion": [
+            [
+              101,
+              42,
+              12,
+              32,
+              18,
+              73,
+              22
+            ],
+            [
+              19,
+              163,
+              42,
+              11,
+              13,
+              26,
+              26
+            ],
+            [
+              8,
+              43,
+              198,
+              11,
+              10,
+              10,
+              20
+            ],
+            [
+              24,
+              33,
+              13,
+              116,
+              59,
+              43,
+              12
+            ],
+            [
+              25,
+              35,
+              8,
+              70,
+              105,
+              40,
+              17
+            ],
+            [
+              45,
+              34,
+              11,
+              25,
+              22,
+              136,
+              27
+            ],
+            [
+              7,
+              12,
+              4,
+              5,
+              7,
+              32,
+              233
+            ]
+          ]
+        },
+        "classifier_only_prevalence_weighted": {
+          "macro_f1": 0.37817250710762973,
+          "accuracy": 0.37523809523809526,
+          "correct": 788,
+          "eligible_population_reweighted_macro_f1": 0.4189557750204189,
+          "eligible_population_reweighted_accuracy": 0.49354423636229305,
+          "per_class_f1": {
+            "none": 0.3457164518574678,
+            "facts": 0.4633781763826607,
+            "issue": 0.3709677419354839,
+            "petitioner_argument": 0.42283298097251587,
+            "respondent_argument": 0.22857142857142856,
+            "reasoning": 0.2568493150684932,
+            "decision": 0.558891454965358
+          },
+          "supports": {
+            "none": 300,
+            "facts": 300,
+            "issue": 300,
+            "petitioner_argument": 300,
+            "respondent_argument": 300,
+            "reasoning": 300,
+            "decision": 300
+          },
+          "confusion": [
+            [
+              228,
+              23,
+              0,
+              4,
+              0,
+              42,
+              3
+            ],
+            [
+              119,
+              155,
+              1,
+              4,
+              1,
+              18,
+              2
+            ],
+            [
+              115,
+              79,
+              69,
+              4,
+              1,
+              27,
+              5
+            ],
+            [
+              133,
+              28,
+              1,
+              100,
+              8,
+              29,
+              1
+            ],
+            [
+              135,
+              33,
+              0,
+              58,
+              40,
+              34,
+              0
+            ],
+            [
+              201,
+              20,
+              0,
+              3,
+              0,
+              75,
+              1
+            ],
+            [
+              88,
+              31,
+              1,
+              0,
+              0,
+              59,
+              121
+            ]
+          ]
+        },
+        "combined_prevalence_weighted": {
+          "macro_f1": 0.4010690596183974,
+          "accuracy": 0.3942857142857143,
+          "correct": 828,
+          "eligible_population_reweighted_macro_f1": 0.4380593072500913,
+          "eligible_population_reweighted_accuracy": 0.4968091294451122,
+          "per_class_f1": {
+            "none": 0.3548922056384743,
+            "facts": 0.45558739255014324,
+            "issue": 0.40105540897097625,
+            "petitioner_argument": 0.4217391304347826,
+            "respondent_argument": 0.2587601078167116,
+            "reasoning": 0.29430379746835444,
+            "decision": 0.6211453744493393
+          },
+          "supports": {
+            "none": 300,
+            "facts": 300,
+            "issue": 300,
+            "petitioner_argument": 300,
+            "respondent_argument": 300,
+            "reasoning": 300,
+            "decision": 300
+          },
+          "confusion": [
+            [
+              214,
+              28,
+              0,
+              6,
+              0,
+              50,
+              2
+            ],
+            [
+              104,
+              159,
+              1,
+              4,
+              1,
+              29,
+              2
+            ],
+            [
+              96,
+              91,
+              76,
+              6,
+              2,
+              24,
+              5
+            ],
+            [
+              123,
+              28,
+              1,
+              97,
+              19,
+              31,
+              1
+            ],
+            [
+              127,
+              36,
+              0,
+              45,
+              48,
+              44,
+              0
+            ],
+            [
+              172,
+              29,
+              0,
+              2,
+              1,
+              93,
+              3
+            ],
+            [
+              70,
+              27,
+              1,
+              0,
+              0,
+              61,
+              141
+            ]
+          ]
+        }
+      },
+      "paired": {
+        "combined_balanced_minus_classifier_only_balanced": {
+          "macro_f1_ci95": [
+            -0.008109676800054977,
+            0.02091937853190483
+          ],
+          "accuracy_ci95": [
+            -0.0053025390758310005,
+            0.022637309404250114
+          ],
+          "fixed_errors": 125,
+          "new_errors": 107
+        },
+        "combined_balanced_minus_ffn_only_balanced": {
+          "macro_f1_ci95": [
+            0.008382800141436414,
+            0.04399054989820844
+          ],
+          "accuracy_ci95": [
+            0.019234613022721427,
+            0.05475350286575295
+          ],
+          "fixed_errors": 223,
+          "new_errors": 145
+        },
+        "combined_balanced_minus_untouched_donor": {
+          "macro_f1_ci95": [
+            0.10303867813183244,
+            0.14790568017650843
+          ],
+          "accuracy_ci95": [
+            0.10793417639114256,
+            0.15970278605891813
+          ],
+          "fixed_errors": 491,
+          "new_errors": 211
+        },
+        "classifier_only_balanced_minus_untouched_donor": {
+          "macro_f1_ci95": [
+            0.09570105028967828,
+            0.1408270762308909
+          ],
+          "accuracy_ci95": [
+            0.09846886922705339,
+            0.15090050237561775
+          ],
+          "fixed_errors": 459,
+          "new_errors": 197
+        },
+        "ffn_only_balanced_minus_untouched_donor": {
+          "macro_f1_ci95": [
+            0.0787725555329369,
+            0.11869722296118847
+          ],
+          "accuracy_ci95": [
+            0.07087039073538254,
+            0.12162549753768487
+          ],
+          "fixed_errors": 392,
+          "new_errors": 190
+        },
+        "combined_prevalence_weighted_minus_classifier_only_prevalence_weighted": {
+          "macro_f1_ci95": [
+            0.006047667381681859,
+            0.039684605304623026
+          ],
+          "accuracy_ci95": [
+            0.00319391233191606,
+            0.03473750776101815
+          ],
+          "fixed_errors": 154,
+          "new_errors": 114
+        },
+        "combined_prevalence_weighted_minus_untouched_donor": {
+          "macro_f1_ci95": [
+            0.009728484201802536,
+            0.05023943739764149
+          ],
+          "accuracy_ci95": [
+            0.007126021263717623,
+            0.04683205004580486
+          ],
+          "fixed_errors": 228,
+          "new_errors": 172
+        },
+        "classifier_only_prevalence_weighted_minus_untouched_donor": {
+          "macro_f1_ci95": [
+            -0.011220543432959128,
+            0.026525050811647206
+          ],
+          "accuracy_ci95": [
+            -0.009591867708388319,
+            0.02545918753953605
+          ],
+          "fixed_errors": 170,
+          "new_errors": 154
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "priority": "finish the full-20%-review control and selected corpus-scale native readout, using two CPU threads in total",
+  "active": [
+    {
+      "job": "forward full-training sufficient-statistics and subsequent 72-case validation",
+      "pid": 430669,
+      "session": 13993,
+      "progress": "scale/progress.json",
+      "resume": "Run scale_program.py run, then scale_validate.py with OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 using work/judgment-role/.venv/bin/python."
+    },
+    {
+      "job": "complementary corpus-scale shards in reverse, first toward 2400 and then from the far end",
+      "pid": 452020,
+      "session": 66235,
+      "progress": "scale/reverse-progress.json",
+      "resume": "Run scale_reverse_worker.py with the single-thread environment."
+    }
+  ],
+  "suspended": [
+    {
+      "job": "older word-table substitution through full reviewer on shared 16; the table regressed on the separate pairwise confirm24",
+      "pid": 419274,
+      "session": 85028,
+      "resume": "Check the PID still corresponds to hierarchy/full_review_table.py --limit 16 and the process is stopped, then SIGCONT. It retains in-memory FP32 features."
+    }
+  ],
+  "next_parallel_worker": "scale_reverse_worker.py can write upper fit shards from the far end while the forward worker keeps its original order. Start it when a priority CPU slot is free.",
+  "completed": [
+    {
+      "job": "full dynamically rerouted 20% reviewer retention control on confirmation 24",
+      "receipt": "full-review-retention-confirm-24.json"
+    },
+    {
+      "job": "guarded official native 200-bias test replay",
+      "receipt": "uniform-retention-test-score.json"
+    }
+  ],
+  "hardware": "The user permits T4 GPUs only for new GPU work. All active hierarchy workers are local CPU-only, one thread each. Earlier offline cached FP32 arrays require no GPU to replay.",
+  "registered_followups": [
+    "Primary four-prefix linear readout, 192 train-side calibration and separately reserved 72 cases: scale/plan.json.",
+    "Exploratory low-rank quadratic readout: scale/quadratic/plan.json, role-permuted and matched linear controls, separate 48-case gate.",
+    "After the reverse worker frees a slot, resume the CPU-only older word-table experiment already in memory if priorities allow. A new official replay after the completed 200-bias test requires fresh authorization."
+  ]
+}

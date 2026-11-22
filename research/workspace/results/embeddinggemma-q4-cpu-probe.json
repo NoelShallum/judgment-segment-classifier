@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "repo": "onnx-community/embeddinggemma-300m-ONNX",
+    "revision": "5090578d9565bb06545b4552f76e6bc2c93e4a66",
+    "files": [
+      {
+        "file": "README.md",
+        "bytes": 18721,
+        "sha256": "fa2c412692dbd5b7ccba2cf6d316b3b58c2642c64e50fa4eee1fc75d95629f0e"
+      },
+      {
+        "file": "config.json",
+        "bytes": 1765,
+        "sha256": "6e1f06404b7163e0325ed2ea3e6781cde50f4a50b31780a95ad0d30e8404d77b"
+      },
+      {
+        "file": "tokenizer.json",
+        "bytes": 20323312,
+        "sha256": "4dda02faaf32bc91031dc8c88457ac272b00c1016cc679757d1c441b248b9c47"
+      },
+      {
+        "file": "tokenizer_config.json",
+        "bytes": 1156830,
+        "sha256": "3ca953eea6c3c9fcda9cf3df22949ff18b216f7c74bd6459230f3f1013953f3a"
+      },
+      {
+        "file": "onnx/model_q4.onnx",
+        "bytes": 519322,
+        "sha256": "ad1dfee81a70f7944b9b9d1cc6e48075b832881cf33fab2f2b248be78f3f0043"
+      },
+      {
+        "file": "onnx/model_q4.onnx_data",
+        "bytes": 196725760,
+        "sha256": "599962c3143b040de2dd05e5975be3e9091dd067cacc6a8f7186e3203bab9e02"
+      }
+    ]
+  },
+  "output_dimensions": 768,
+  "runtime": "1.32.0",
+  "threads": 2,
+  "probe_count": 6,
+  "batch_vs_individual_min_cosine": 0.9996477365493774,
+  "batch_vs_individual_max_absolute_difference": 0.0030831731855869293,
+  "startup_seconds": 7.802536003000569,
+  "median_seconds_by_batch_size": {
+    "1": 0.25298024200310465,
+    "6": 14.759087179001654
+  },
+  "prompt": "task: classification | query: ",
+  "probe_max_tokens": 192,
+  "task_metrics_available": false
+}

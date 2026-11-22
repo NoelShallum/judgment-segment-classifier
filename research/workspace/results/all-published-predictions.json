@@ -1,0 +1,327 @@
+{
+  "metric": "Equal-weight arithmetic mean of F1 for seven roles",
+  "known_limitation": "Equal gold sequence verifies label-row order, not independent text identity for prediction files that lack text.",
+  "files": [
+    {
+      "file": "predictions.csv",
+      "url": "https://huggingface.co/datasets/L-NLProc/LegalSeg_MTL_Predictions/resolve/7e17d45d33ce5d447961ff9f4b5ba1afd7d8efba/predictions.csv",
+      "sha256": "3d31adebfb9ba95ca2c3640fb6b5db7bd31fe2c0ddcaa5a079956afd8f93e5ba",
+      "rows": 149881,
+      "macro_f1": 0.3743699072327557,
+      "accuracy": 0.4901955551404114,
+      "status": "Scored within-file paired labels",
+      "official_row_alignment_verified": false
+    },
+    {
+      "file": "GNN_predictions.csv",
+      "url": "https://huggingface.co/datasets/L-NLProc/LegalSeg_GNN_Predictions/resolve/f4f1a8e393353d342f439cda94726846a5b76387/GNN_predictions.csv",
+      "sha256": "0efbb7f92b7e2109f5e42e75b49ad42ed4fc757ecd722956a24c8a8e5e6edb5a",
+      "rows": 149881,
+      "macro_f1": 0.45935757919965514,
+      "accuracy": 0.5362254054883541,
+      "status": "All gold labels match official test in row order under a unique label mapping",
+      "official_row_alignment_verified": true,
+      "released_to_official_ids": {
+        "0": 0,
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6
+      },
+      "per_role_f1": {
+        "none": 0.604583973969321,
+        "facts": 0.6123509317405446,
+        "issue": 0.26371826371826373,
+        "petitioner_argument": 0.3696378006001437,
+        "respondent_argument": 0.2779834421484822,
+        "reasoning": 0.44886803481997567,
+        "decision": 0.6383606074008551
+      }
+    },
+    {
+      "file": "RhetoricLLaMA_predictions.csv",
+      "url": "https://huggingface.co/datasets/L-NLProc/LegalSeg_RhetoricLLaMA_Predictions/resolve/686d8082bdadc4f08cf21ff068b561ac38a88cc4/RhetoricLLaMA_predictions.csv",
+      "sha256": "f4a366643ab5b9edcee38e83549b5c88ff1511fa461b7e018ebaae65711ba1a1",
+      "status": "Free-form generation column. No published decoding and alignment rule applied.",
+      "rows_in_file": 149881,
+      "rows_with_gold_field": 91381
+    },
+    {
+      "file": "predictions_CI.csv",
+      "url": "https://huggingface.co/datasets/L-NLProc/LegalSeg_Role_Aware_Predictions/resolve/352acfeb650da788aaf7acf2c396aeed5b166ee9/predictions_CI.csv",
+      "sha256": "c0bf506a8d83d113c3ee37d25c8a6d2bdadc4f46db7c28204581cc6d1b893822",
+      "rows": 149881,
+      "macro_f1": 0.014144716734653534,
+      "accuracy": 0.028696098905131404,
+      "status": "All gold labels match official test in row order under a unique label mapping",
+      "official_row_alignment_verified": true,
+      "released_to_official_ids": {
+        "0": 1,
+        "1": 2,
+        "2": 3,
+        "3": 4,
+        "4": 5,
+        "5": 6,
+        "6": 0
+      },
+      "per_role_f1": {
+        "none": 0.008323565883571998,
+        "facts": 0.0,
+        "issue": 0.0,
+        "petitioner_argument": 0.0,
+        "respondent_argument": 0.04022720923735916,
+        "reasoning": 0.0,
+        "decision": 0.05046224202164357
+      }
+    },
+    {
+      "file": "predictions_inlegal.csv",
+      "url": "https://huggingface.co/datasets/L-NLProc/LegalSeg_Role_Aware_Predictions/resolve/352acfeb650da788aaf7acf2c396aeed5b166ee9/predictions_inlegal.csv",
+      "sha256": "d81f6426113438ea47796b60f02ade9bbd5c6995c0249b1ad929c2d7a2a39d2a",
+      "status": "No paired gold; release contains unlabelled flat predictions",
+      "rows_in_file": 1,
+      "elements": 258649
+    },
+    {
+      "file": "role-aware_label_definitions_predictions.csv",
+      "url": "https://huggingface.co/datasets/L-NLProc/LegalSeg_Role_Aware_Predictions/resolve/352acfeb650da788aaf7acf2c396aeed5b166ee9/role-aware_label_definitions_predictions.csv",
+      "sha256": "4e2849caa1a3effe83eda75f2a40d86d29edef494738bdf3b8c621da1f4dcaf9",
+      "rows": 293370,
+      "macro_f1": 0.08377828270765088,
+      "accuracy": 0.4148754133006102,
+      "status": "Scored within-file paired labels",
+      "official_row_alignment_verified": false
+    },
+    {
+      "file": "ToInlegalbertpredictions.csv",
+      "url": "https://huggingface.co/datasets/L-NLProc/LegalSeg_ToInLegalBert_Predictions/resolve/9c68cfbd231c3bbf46cd851825c8b36a85204469/ToInlegalbertpredictions.csv",
+      "sha256": "9459d0232675ad2bccbaa7724ddd91c2fc390ce5de62262feec0fafbadf27b12",
+      "rows": 149881,
+      "macro_f1": 0.6214998923409473,
+      "accuracy": 0.6448182224564821,
+      "status": "All gold labels match official test in row order under a unique label mapping",
+      "official_row_alignment_verified": true,
+      "released_to_official_ids": {
+        "0": 0,
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6
+      },
+      "per_role_f1": {
+        "none": 0.6866321258458057,
+        "facts": 0.8126482523377311,
+        "issue": 0.5738853503184713,
+        "petitioner_argument": 0.5827147791577865,
+        "respondent_argument": 0.5083192669399565,
+        "reasoning": 0.4485381592703414,
+        "decision": 0.7377613125165388
+      }
+    },
+    {
+      "file": "InLegalBert(i)_predictions.csv",
+      "url": "https://huggingface.co/datasets/L-NLProc/LegalSeg_InLegalBERT_Predictions/resolve/e9233636e75dfa221dd18d14c4ecec66942fda13/InLegalBert%28i%29_predictions.csv",
+      "sha256": "0104b4f1cff0b1c8407b518f435a78ebf603aa8ce91301676a76ce87b51088b9",
+      "rows": 149881,
+      "macro_f1": 0.49095046410841475,
+      "accuracy": 0.532422388428153,
+      "status": "All gold labels match official test in row order under a unique label mapping",
+      "official_row_alignment_verified": true,
+      "released_to_official_ids": {
+        "0": 0,
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6
+      },
+      "per_role_f1": {
+        "none": 0.6141649807010747,
+        "facts": 0.5905076470165865,
+        "issue": 0.4885077186963979,
+        "petitioner_argument": 0.4061052283256122,
+        "respondent_argument": 0.3408368823092003,
+        "reasoning": 0.36711028650943733,
+        "decision": 0.6294205052005943
+      }
+    },
+    {
+      "file": "InLegalBert(i-1, i)_predictions.csv",
+      "url": "https://huggingface.co/datasets/L-NLProc/LegalSeg_InLegalBERT_Predictions/resolve/e9233636e75dfa221dd18d14c4ecec66942fda13/InLegalBert%28i-1%2C%20i%29_predictions.csv",
+      "sha256": "330e8bfbc40bbe4132cf8feb9d0fe73af675f05457f371237a3e9e50abcd0073",
+      "rows": 149881,
+      "macro_f1": 0.5531209771172125,
+      "accuracy": 0.5693850454694057,
+      "status": "All gold labels match official test in row order under a unique label mapping",
+      "official_row_alignment_verified": true,
+      "released_to_official_ids": {
+        "0": 0,
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6
+      },
+      "per_role_f1": {
+        "none": 0.6157760015075614,
+        "facts": 0.6446322423547948,
+        "issue": 0.5554140127388535,
+        "petitioner_argument": 0.5008955005665412,
+        "respondent_argument": 0.43492566414818423,
+        "reasoning": 0.4652064107247804,
+        "decision": 0.6549970077797725
+      }
+    },
+    {
+      "file": "InLegalBert(i-1, i, i+1)_predictions.csv",
+      "url": "https://huggingface.co/datasets/L-NLProc/LegalSeg_InLegalBERT_Predictions/resolve/e9233636e75dfa221dd18d14c4ecec66942fda13/InLegalBert%28i-1%2C%20i%2C%20i%2B1%29_predictions.csv",
+      "sha256": "b846c07c2d3f13a5c304ed612f39a7e6c7962a5bfef8e2f6635942ae5259fc5d",
+      "rows": 149881,
+      "macro_f1": 0.5798729343606981,
+      "accuracy": 0.5869723313828971,
+      "status": "All gold labels match official test in row order under a unique label mapping",
+      "official_row_alignment_verified": true,
+      "released_to_official_ids": {
+        "0": 0,
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6
+      },
+      "per_role_f1": {
+        "none": 0.6146445041637636,
+        "facts": 0.6677289980663181,
+        "issue": 0.5636992765020447,
+        "petitioner_argument": 0.533460600275745,
+        "respondent_argument": 0.47027941433821385,
+        "reasoning": 0.5132766822285386,
+        "decision": 0.6960210649502633
+      }
+    },
+    {
+      "file": "InLegalBert(i-1, label_p, i).csv",
+      "url": "https://huggingface.co/datasets/L-NLProc/LegalSeg_InLegalBERT_Predictions/resolve/e9233636e75dfa221dd18d14c4ecec66942fda13/InLegalBert%28i-1%2C%20label_p%2C%20i%29.csv",
+      "sha256": "1de4dabd8e5591ec0db2d469de66f7b5af35f06bb1915dfe1f02a7dbfd7fedd1",
+      "rows": 149881,
+      "macro_f1": 0.6327617229175868,
+      "accuracy": 0.630213302553359,
+      "status": "All gold labels match official test in row order under a unique label mapping",
+      "official_row_alignment_verified": true,
+      "released_to_official_ids": {
+        "0": 0,
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6
+      },
+      "per_role_f1": {
+        "none": 0.6336468305849605,
+        "facts": 0.7350570425226077,
+        "issue": 0.5491329479768786,
+        "petitioner_argument": 0.62052014481682,
+        "respondent_argument": 0.6325515280739161,
+        "reasoning": 0.5365333649190862,
+        "decision": 0.7218902015288394
+      }
+    },
+    {
+      "file": "InLegalBert(i-1, label_t, i)_predictions.csv",
+      "url": "https://huggingface.co/datasets/L-NLProc/LegalSeg_InLegalBERT_Predictions/resolve/e9233636e75dfa221dd18d14c4ecec66942fda13/InLegalBert%28i-1%2C%20label_t%2C%20i%29_predictions.csv",
+      "sha256": "7092d69e650ce0d12814e912b955e19665dbd6769dda957e0e47420893ec4212",
+      "rows": 149881,
+      "macro_f1": 0.37379794127204014,
+      "accuracy": 0.47322876148411075,
+      "status": "All gold labels match official test in row order under a unique label mapping",
+      "official_row_alignment_verified": true,
+      "released_to_official_ids": {
+        "0": 0,
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6
+      },
+      "per_role_f1": {
+        "none": 0.5848201987327742,
+        "facts": 0.46576783952647155,
+        "issue": 0.28255528255528256,
+        "petitioner_argument": 0.3765475356225181,
+        "respondent_argument": 0.19817194330374885,
+        "reasoning": 0.27479704571812247,
+        "decision": 0.4339257434453634
+      }
+    },
+    {
+      "file": "InLegalBert(i-2, i-1, i)_predictions.csv",
+      "url": "https://huggingface.co/datasets/L-NLProc/LegalSeg_InLegalBERT_Predictions/resolve/e9233636e75dfa221dd18d14c4ecec66942fda13/InLegalBert%28i-2%2C%20i-1%2C%20i%29_predictions.csv",
+      "sha256": "fea96593acab6e5ba13c1fc08a1d324827f0de7ada531936a5a25bd7657b0b99",
+      "rows": 149881,
+      "macro_f1": 0.5814493579951476,
+      "accuracy": 0.5873059293706341,
+      "status": "All gold labels match official test in row order under a unique label mapping",
+      "official_row_alignment_verified": true,
+      "released_to_official_ids": {
+        "0": 0,
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6
+      },
+      "per_role_f1": {
+        "none": 0.6119033062903786,
+        "facts": 0.6722710298919417,
+        "issue": 0.5679408930292322,
+        "petitioner_argument": 0.5431218318475791,
+        "respondent_argument": 0.4863925883034163,
+        "reasoning": 0.5096086885658828,
+        "decision": 0.6789071680376029
+      }
+    },
+    {
+      "file": "InLegalBert(pos, i)_predictions.csv",
+      "url": "https://huggingface.co/datasets/L-NLProc/LegalSeg_InLegalBERT_Predictions/resolve/e9233636e75dfa221dd18d14c4ecec66942fda13/InLegalBert%28pos%2C%20i%29_predictions.csv",
+      "sha256": "119ebd673ceb4ef2ac14ec2d962301e57bdcd75cca753e0dca24fb33988d57a9",
+      "rows": 149881,
+      "macro_f1": 0.563683150508832,
+      "accuracy": 0.5988017160280489,
+      "status": "All gold labels match official test in row order under a unique label mapping",
+      "official_row_alignment_verified": true,
+      "released_to_official_ids": {
+        "0": 0,
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6
+      },
+      "per_role_f1": {
+        "none": 0.646222592162618,
+        "facts": 0.7342362021261104,
+        "issue": 0.5543166613571201,
+        "petitioner_argument": 0.4360506413738353,
+        "respondent_argument": 0.3436875817893794,
+        "reasoning": 0.47533617136292994,
+        "decision": 0.7559322033898305
+      }
+    }
+  ],
+  "toin_summary": {
+    "coverage": "149,881 public gold/prediction pairs",
+    "score": "0.6215",
+    "method": "All gold labels match official test in row order under a unique label mapping"
+  }
+}

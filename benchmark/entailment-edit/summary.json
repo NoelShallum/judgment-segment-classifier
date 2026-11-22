@@ -1,0 +1,303 @@
+{
+  "select": {
+    "zero": {
+      "all": {
+        "macro_f1": 0.7347909302723148,
+        "accuracy": 0.7462855703852934,
+        "pair_errors": 875
+      },
+      "novel": {
+        "macro_f1": 0.7314392798407824,
+        "accuracy": 0.7391157610529868,
+        "pair_errors": 599
+      }
+    },
+    "edited-lock": {
+      "all": {
+        "macro_f1": 0.7352271859530121,
+        "accuracy": 0.7471669604633594,
+        "pair_errors": 868
+      },
+      "novel": {
+        "macro_f1": 0.7317711028785983,
+        "accuracy": 0.7397907526155924,
+        "pair_errors": 595
+      }
+    },
+    "unmodified-donor-its-best": {
+      "all": {
+        "macro_f1": 0.733803549851847,
+        "accuracy": 0.7472928733316545,
+        "pair_errors": 864
+      },
+      "novel": {
+        "macro_f1": 0.7296505890539781,
+        "accuracy": 0.7391157610529868,
+        "pair_errors": 596
+      }
+    },
+    "unmodified-donor-matched": {
+      "all": {
+        "macro_f1": 0.733803549851847,
+        "accuracy": 0.7472928733316545,
+        "pair_errors": 864
+      },
+      "novel": {
+        "macro_f1": 0.7296505890539781,
+        "accuracy": 0.7391157610529868,
+        "pair_errors": 596
+      }
+    },
+    "case-shuffle": {
+      "all": {
+        "macro_f1": 0.7354898518949324,
+        "accuracy": 0.7471669604633594,
+        "pair_errors": 869
+      },
+      "novel": {
+        "macro_f1": 0.7316817392339379,
+        "accuracy": 0.7396220047249409,
+        "pair_errors": 596
+      }
+    },
+    "global-shuffle": {
+      "all": {
+        "macro_f1": 0.735491382587556,
+        "accuracy": 0.7471669604633594,
+        "pair_errors": 869
+      },
+      "novel": {
+        "macro_f1": 0.7316868846812089,
+        "accuracy": 0.7396220047249409,
+        "pair_errors": 596
+      }
+    }
+  },
+  "confirm": {
+    "zero": {
+      "all": {
+        "macro_f1": 0.7257273685477932,
+        "accuracy": 0.747899724443847,
+        "pair_errors": 1506
+      },
+      "novel": {
+        "macro_f1": 0.7130162241901555,
+        "accuracy": 0.7305871688991842,
+        "pair_errors": 979
+      }
+    },
+    "edited-lock": {
+      "all": {
+        "macro_f1": 0.7259493092822423,
+        "accuracy": 0.747899724443847,
+        "pair_errors": 1505
+      },
+      "novel": {
+        "macro_f1": 0.7128771197766011,
+        "accuracy": 0.7304864538221372,
+        "pair_errors": 978
+      }
+    },
+    "unmodified-donor-its-best": {
+      "all": {
+        "macro_f1": 0.7254024971970457,
+        "accuracy": 0.7477653068082533,
+        "pair_errors": 1504
+      },
+      "novel": {
+        "macro_f1": 0.7127110168822012,
+        "accuracy": 0.7305871688991842,
+        "pair_errors": 976
+      }
+    },
+    "unmodified-donor-matched": {
+      "all": {
+        "macro_f1": 0.7254024971970457,
+        "accuracy": 0.7477653068082533,
+        "pair_errors": 1504
+      },
+      "novel": {
+        "macro_f1": 0.7127110168822012,
+        "accuracy": 0.7305871688991842,
+        "pair_errors": 976
+      }
+    },
+    "case-shuffle": {
+      "all": {
+        "macro_f1": 0.7261776460966347,
+        "accuracy": 0.7482357685328315,
+        "pair_errors": 1502
+      },
+      "novel": {
+        "macro_f1": 0.7130516013127498,
+        "accuracy": 0.7306878839762312,
+        "pair_errors": 978
+      }
+    },
+    "global-shuffle": {
+      "all": {
+        "macro_f1": 0.7262780594605865,
+        "accuracy": 0.7484373949862222,
+        "pair_errors": 1499
+      },
+      "novel": {
+        "macro_f1": 0.713158061314837,
+        "accuracy": 0.7308893141303253,
+        "pair_errors": 976
+      }
+    }
+  },
+  "fresh": {
+    "zero": {
+      "all": {
+        "macro_f1": 0.7238568314001066,
+        "accuracy": 0.7323214285714286,
+        "pair_errors": 2702
+      },
+      "novel": {
+        "macro_f1": 0.7206150061735092,
+        "accuracy": 0.7203721841332027,
+        "pair_errors": 1829
+      }
+    },
+    "edited-lock": {
+      "all": {
+        "macro_f1": 0.7240923653187015,
+        "accuracy": 0.7321875,
+        "pair_errors": 2707
+      },
+      "novel": {
+        "macro_f1": 0.7206675192825329,
+        "accuracy": 0.719812508744928,
+        "pair_errors": 1838
+      }
+    },
+    "unmodified-donor-its-best": {
+      "all": {
+        "macro_f1": 0.7235140483841888,
+        "accuracy": 0.7316071428571429,
+        "pair_errors": 2715
+      },
+      "novel": {
+        "macro_f1": 0.7202932884796469,
+        "accuracy": 0.7194627116272562,
+        "pair_errors": 1839
+      }
+    },
+    "unmodified-donor-matched": {
+      "all": {
+        "macro_f1": 0.7235140483841888,
+        "accuracy": 0.7316071428571429,
+        "pair_errors": 2715
+      },
+      "novel": {
+        "macro_f1": 0.7202932884796469,
+        "accuracy": 0.7194627116272562,
+        "pair_errors": 1839
+      }
+    },
+    "case-shuffle": {
+      "all": {
+        "macro_f1": 0.723907267291387,
+        "accuracy": 0.7325446428571428,
+        "pair_errors": 2697
+      },
+      "novel": {
+        "macro_f1": 0.7204179171500618,
+        "accuracy": 0.7201623058625997,
+        "pair_errors": 1832
+      }
+    },
+    "global-shuffle": {
+      "all": {
+        "macro_f1": 0.723833179914568,
+        "accuracy": 0.7324107142857142,
+        "pair_errors": 2700
+      },
+      "novel": {
+        "macro_f1": 0.720363239487794,
+        "accuracy": 0.720022387015531,
+        "pair_errors": 1834
+      }
+    }
+  },
+  "pooled": {
+    "zero": {
+      "all": {
+        "macro_f1": 0.7244480903967645,
+        "accuracy": 0.7385391239035382,
+        "pair_errors": 4208
+      },
+      "novel": {
+        "macro_f1": 0.7173144683694972,
+        "accuracy": 0.7245593031416422,
+        "pair_errors": 2808
+      }
+    },
+    "edited-lock": {
+      "all": {
+        "macro_f1": 0.7247012308189591,
+        "accuracy": 0.7384586496418896,
+        "pair_errors": 4212
+      },
+      "novel": {
+        "macro_f1": 0.7172773495876308,
+        "accuracy": 0.7241877554390456,
+        "pair_errors": 2816
+      }
+    },
+    "unmodified-donor-its-best": {
+      "all": {
+        "macro_f1": 0.7240872789534168,
+        "accuracy": 0.7380562783336463,
+        "pair_errors": 4219
+      },
+      "novel": {
+        "macro_f1": 0.716929691448084,
+        "accuracy": 0.7240226231267803,
+        "pair_errors": 2815
+      }
+    },
+    "unmodified-donor-matched": {
+      "all": {
+        "macro_f1": 0.7240872789534168,
+        "accuracy": 0.7380562783336463,
+        "pair_errors": 4219
+      },
+      "novel": {
+        "macro_f1": 0.716929691448084,
+        "accuracy": 0.7240226231267803,
+        "pair_errors": 2815
+      }
+    },
+    "case-shuffle": {
+      "all": {
+        "macro_f1": 0.7246810927660252,
+        "accuracy": 0.738807371442367,
+        "pair_errors": 4199
+      },
+      "novel": {
+        "macro_f1": 0.7172132320022752,
+        "accuracy": 0.7244767369855096,
+        "pair_errors": 2810
+      }
+    },
+    "global-shuffle": {
+      "all": {
+        "macro_f1": 0.7246758280735801,
+        "accuracy": 0.738807371442367,
+        "pair_errors": 4199
+      },
+      "novel": {
+        "macro_f1": 0.7172212791278281,
+        "accuracy": 0.7244767369855096,
+        "pair_errors": 2810
+      }
+    }
+  },
+  "joint_improvement_by_group": {
+    "confirm": true,
+    "fresh": false
+  },
+  "meets_paired_confirmation": false
+}

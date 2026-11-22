@@ -1,0 +1,5365 @@
+{
+  "balanced isolated sentences": [
+    {
+      "id": "sentence-61490",
+      "case": "6711",
+      "input_sha256": "9a2a3e540f419d81fd2dc4500a665e48d1398b178fa9e9b1cf56b7e8b183fbdc",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-101252",
+      "case": "6890",
+      "input_sha256": "e344cfac0d3415ae7fba28731ccb132d3c6b2b60b829a8cd860ca4de3b198e79",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-76089",
+      "case": "6774",
+      "input_sha256": "d3f810b03b8be16c71837d75ba399d397e557184f2dfb1e74231365253f1df13",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-3394",
+      "case": "6430",
+      "input_sha256": "0cf68d3d2b173aac8b28bfd121cf74a925fdfa9b4fcdb6bd12a1eb9ad012df65",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "none",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-102637",
+      "case": "6895",
+      "input_sha256": "6647bffeabc067e1801eb890bf0756301de99843c93c6e9d58b8ae5c4dc14918",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "decision",
+        "archived InLegalBERT excerpt MLP": "decision",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-73190",
+      "case": "6763",
+      "input_sha256": "bb079128d95c4faec97db80c00b5cff5cdb1b7c333196770a8b1dd0cd7040bb0",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "petitioner_argument",
+        "archived InLegalBERT excerpt MLP": "facts",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-59929",
+      "case": "6705",
+      "input_sha256": "c3744b17eff1198c75ae5f61670d532a2b452895e572ca703b8eca64bb6e9fc2",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "facts",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-99131",
+      "case": "6883",
+      "input_sha256": "78ae47df7fb44348d0c19f4f54291d125a7717c33a82f7ea316443f69ef92438",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-128896",
+      "case": "7014",
+      "input_sha256": "f767d1619f4a987dee9ce35fa056c2b71bfe1721956c19744919d9327b6e346a",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-45864",
+      "case": "6640",
+      "input_sha256": "e1600ab48f638f19b400add802ab1fd29197096d057eff8e06f33434c767130d",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-15370",
+      "case": "6493",
+      "input_sha256": "80614fb69451406db6a8f8a21f92f1c2846a5be51b38d467c9d89ed162e86197",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-41764",
+      "case": "6623",
+      "input_sha256": "2aa90f18d9427870a631408949005fb1588af6aadd4f39079cc496ce92c6b77d",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-93724",
+      "case": "6862",
+      "input_sha256": "8d91336fe2d8b989d09dcda1789f3ce15864ccec03d223be99cc72417fa3dde4",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "facts",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-63309",
+      "case": "6719",
+      "input_sha256": "88676a358bcc7860d6b14e46d4af1e09c3ebb6e096b7cecc8c6fc227506e4d4c",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "decision",
+        "archived InLegalBERT excerpt MLP": "decision",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-127269",
+      "case": "7006",
+      "input_sha256": "9beb28786c0feb0ec8e4060445d0a9f2ace6bee63cb8f8487dbe5582d03070ec",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-90369",
+      "case": "6846",
+      "input_sha256": "34adc9baca227876d1efbcb2987dd589ba56fe7e722685a85c65eb4368f9475c",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-17428",
+      "case": "6506",
+      "input_sha256": "e6b27b6fb15a618f32144c25c267a4180928c863d3a96c87195e25fdea4a582c",
+      "gold": "facts",
+      "predictions": {
+        "Gemini Decisions": "decision",
+        "archived InLegalBERT excerpt MLP": "facts",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-94128",
+      "case": "6864",
+      "input_sha256": "bf174bae93fede7d4a1259ac9d7865b21842e85a5dc8efe252544354c5008205",
+      "gold": "facts",
+      "predictions": {
+        "Gemini Decisions": "decision",
+        "archived InLegalBERT excerpt MLP": "facts",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-145534",
+      "case": "7099",
+      "input_sha256": "add6726ded1f1398dbd3ec1da923b016c2fefd6d979005f0af96031c0408565e",
+      "gold": "facts",
+      "predictions": {
+        "Gemini Decisions": "facts",
+        "archived InLegalBERT excerpt MLP": "facts",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-87705",
+      "case": "6832",
+      "input_sha256": "c0b39843ae35f07090cd1c5372818f71962f65a2e3895db957fdf0f55b679348",
+      "gold": "facts",
+      "predictions": {
+        "Gemini Decisions": "facts",
+        "archived InLegalBERT excerpt MLP": "facts",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-134976",
+      "case": "7048",
+      "input_sha256": "eb84d6f2d7dfe6a92fde182f22b347cb7ab7e86cc3fc3507ec03c0fb43560b68",
+      "gold": "facts",
+      "predictions": {
+        "Gemini Decisions": "facts",
+        "archived InLegalBERT excerpt MLP": "facts",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-12676",
+      "case": "6481",
+      "input_sha256": "ecded40402cdf6f6192761c9c8111af701f2e4daf6430990df160be020bd0230",
+      "gold": "facts",
+      "predictions": {
+        "Gemini Decisions": "facts",
+        "archived InLegalBERT excerpt MLP": "facts",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-14456",
+      "case": "6490",
+      "input_sha256": "a755f7575628fca5c57cfeceb5469c0e9135f059a5a6c2c39e242fcc9ce08b78",
+      "gold": "facts",
+      "predictions": {
+        "Gemini Decisions": "facts",
+        "archived InLegalBERT excerpt MLP": "facts",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-93261",
+      "case": "6860",
+      "input_sha256": "06aae4de8fab2bc56c903605f431d67a03e087a155be71437f5428b86390cdba",
+      "gold": "facts",
+      "predictions": {
+        "Gemini Decisions": "facts",
+        "archived InLegalBERT excerpt MLP": "facts",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-21948",
+      "case": "6529",
+      "input_sha256": "7e5b74913c17c068ef7c6d4e963786769dca44d280586aa9da67248def5cf971",
+      "gold": "facts",
+      "predictions": {
+        "Gemini Decisions": "issue",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-132107",
+      "case": "7036",
+      "input_sha256": "970d0727b773827507ee32b5327c51dee7f7c57b3c084d0893e6182038d5f76e",
+      "gold": "facts",
+      "predictions": {
+        "Gemini Decisions": "facts",
+        "archived InLegalBERT excerpt MLP": "facts",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-107723",
+      "case": "6927",
+      "input_sha256": "786a3e35591243d09f552361d908903dc383dca645b7dd8466d13631650988cf",
+      "gold": "facts",
+      "predictions": {
+        "Gemini Decisions": "facts",
+        "archived InLegalBERT excerpt MLP": "facts",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-53474",
+      "case": "6674",
+      "input_sha256": "9d192665ed8e6a299ae11f5d8b6754ed5182101d2c82801c9ef98e3d5e0a04ad",
+      "gold": "facts",
+      "predictions": {
+        "Gemini Decisions": "facts",
+        "archived InLegalBERT excerpt MLP": "petitioner_argument",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-10052",
+      "case": "6463",
+      "input_sha256": "b178aa3aad6d70b023add57c848be07827182577816427815cf6437213c553db",
+      "gold": "facts",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-52646",
+      "case": "6672",
+      "input_sha256": "ed9371f0423c0a2217f72de276f8a88f7de0e0f76f419772b3543c6bae7877c5",
+      "gold": "facts",
+      "predictions": {
+        "Gemini Decisions": "facts",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-72776",
+      "case": "6762",
+      "input_sha256": "9f701ccb7fac9d0348501c179f68718b8830ab87658984ade6078667880508f6",
+      "gold": "facts",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "facts",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-20772",
+      "case": "6523",
+      "input_sha256": "ef3bb839e31b0685df2bfcfaa4281871de64c8cab0367387a976d87a53a556b0",
+      "gold": "facts",
+      "predictions": {
+        "Gemini Decisions": "facts",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-21626",
+      "case": "6527",
+      "input_sha256": "3f9d4312b36ac59da17660ab2f450c597bebdb550fcd8baada9bfca7f294c17c",
+      "gold": "issue",
+      "predictions": {
+        "Gemini Decisions": "issue",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-96506",
+      "case": "6878",
+      "input_sha256": "14a3de11a4fc60594cdbfaea1c0784e59e4a7ebaba0b51292d56a433481c795f",
+      "gold": "issue",
+      "predictions": {
+        "Gemini Decisions": "decision",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-88765",
+      "case": "6841",
+      "input_sha256": "52b4cbf38b50c212fda4ef6adf2345b87db5d6978c390772fcbc273d230c3a06",
+      "gold": "issue",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "respondent_argument",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-104973",
+      "case": "6907",
+      "input_sha256": "dd703bc4358e8d0e946cda991baa1e1ce1bc6809f662d6a016cd787940349c08",
+      "gold": "issue",
+      "predictions": {
+        "Gemini Decisions": "issue",
+        "archived InLegalBERT excerpt MLP": "issue",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "reasoning"
+      }
+    },
+    {
+      "id": "sentence-146852",
+      "case": "7105",
+      "input_sha256": "c7af4ca9ef16fb7cbcb4bd0c63fce44a1f87bbebaf8435673af333e8c0b5c678",
+      "gold": "issue",
+      "predictions": {
+        "Gemini Decisions": "facts",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-4362",
+      "case": "6436",
+      "input_sha256": "c3f5b492216d97bcb99104ef623943509d3f4ebe4b842044b02c8720294bf911",
+      "gold": "issue",
+      "predictions": {
+        "Gemini Decisions": "issue",
+        "archived InLegalBERT excerpt MLP": "issue",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-95866",
+      "case": "6873",
+      "input_sha256": "40b9a3be21371a5fb93611de8a69f6569d05f58b0e36aae3e36cff08d5d2fa61",
+      "gold": "issue",
+      "predictions": {
+        "Gemini Decisions": "facts",
+        "archived InLegalBERT excerpt MLP": "facts",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-112395",
+      "case": "6949",
+      "input_sha256": "fa327ff501f685bddee1ed19fd9e1f6c443cb35c11463c3374d081fe72fdb0fc",
+      "gold": "issue",
+      "predictions": {
+        "Gemini Decisions": "respondent_argument",
+        "archived InLegalBERT excerpt MLP": "facts",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-149644",
+      "case": "7118",
+      "input_sha256": "4212b24107ac4d4b41e0b75119ccda23eb21305bda7d3a2f2a8511aefe6a93bc",
+      "gold": "issue",
+      "predictions": {
+        "Gemini Decisions": "facts",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-24264",
+      "case": "6540",
+      "input_sha256": "0eeba52647396bf6a69125a5b16cd9ee325e7af713cf6124f54913730f85b9c9",
+      "gold": "issue",
+      "predictions": {
+        "Gemini Decisions": "facts",
+        "archived InLegalBERT excerpt MLP": "facts",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-115988",
+      "case": "6962",
+      "input_sha256": "0b87720fe0bd696e55a0a35ab0bfd2aa398a71f871a6b5d9be697e99cc8d879f",
+      "gold": "issue",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "decision",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-28298",
+      "case": "6560",
+      "input_sha256": "51440b324ef0bf0cd9c757251322dfde75527ac44019dab44565f871f97498bf",
+      "gold": "issue",
+      "predictions": {
+        "Gemini Decisions": "issue",
+        "archived InLegalBERT excerpt MLP": "issue",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-61927",
+      "case": "6714",
+      "input_sha256": "eefd3e15b311fabdf22464b4fa2e7dff6ffcd9d399bde9ae6691e06d9e48a3c8",
+      "gold": "issue",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-51280",
+      "case": "6666",
+      "input_sha256": "00b33c7bd0bef0d790e1c8e5ec29f99fd7d746ca598f4eba7f416d22d1887465",
+      "gold": "issue",
+      "predictions": {
+        "Gemini Decisions": "decision",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-107307",
+      "case": "6924",
+      "input_sha256": "700b2267a99152e3ade9167cecd128c85e216ed7623b1d209353cebb673b2877",
+      "gold": "issue",
+      "predictions": {
+        "Gemini Decisions": "issue",
+        "archived InLegalBERT excerpt MLP": "issue",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "issue"
+      }
+    },
+    {
+      "id": "sentence-143598",
+      "case": "7087",
+      "input_sha256": "19df1d2ea08211aace40edf8f555dc82c07282c7ecb56d16471e8e70ef50ea8a",
+      "gold": "issue",
+      "predictions": {
+        "Gemini Decisions": "facts",
+        "archived InLegalBERT excerpt MLP": "issue",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-137111",
+      "case": "7052",
+      "input_sha256": "455446cbde5ae5ee81b026638d4cb0d3986ef6d33f8627264ae4f152d10ed563",
+      "gold": "petitioner_argument",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-55291",
+      "case": "6682",
+      "input_sha256": "d94cc548d6652b562c0053886fd72aeea29edc774bbf2d2f430c2f3facd790f3",
+      "gold": "petitioner_argument",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-63609",
+      "case": "6721",
+      "input_sha256": "29be7ecdf2940ca24d4a1466e64afc5de78e97404ca940661faacf3c9759d32e",
+      "gold": "petitioner_argument",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "reasoning"
+      }
+    },
+    {
+      "id": "sentence-1402",
+      "case": "6420",
+      "input_sha256": "8df83f7a65d649147dd87b69405c88737bbb6922c43a2037c29bff905fc5b7d6",
+      "gold": "petitioner_argument",
+      "predictions": {
+        "Gemini Decisions": "petitioner_argument",
+        "archived InLegalBERT excerpt MLP": "petitioner_argument",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-89183",
+      "case": "6841",
+      "input_sha256": "3d6935e79636443f308721a11c3393532744a51a95fd770e65aed737f81828dd",
+      "gold": "petitioner_argument",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-64041",
+      "case": "6723",
+      "input_sha256": "a6bfaa12e0d2914f31938b6dcfc143bd5336c484b035369f2193c7b963b2398c",
+      "gold": "petitioner_argument",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-146265",
+      "case": "7102",
+      "input_sha256": "7050c98235d6455367860b4c11f7cf45b30d48e84666ef72684024a25049a2bd",
+      "gold": "petitioner_argument",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-11994",
+      "case": "6474",
+      "input_sha256": "351ac77ed13c53c45e7e3c965fa542cdd9308d96257e2357c311e59f159cd5ca",
+      "gold": "petitioner_argument",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-138551",
+      "case": "7061",
+      "input_sha256": "bdf50a401a731fadd46e0fcefc5cf223f4f1ccecca35cc8b53e4e248aa0b23f5",
+      "gold": "petitioner_argument",
+      "predictions": {
+        "Gemini Decisions": "petitioner_argument",
+        "archived InLegalBERT excerpt MLP": "respondent_argument",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-60567",
+      "case": "6707",
+      "input_sha256": "a4bd21d8c52698d8d6783422150735cd8e76badb5181ddba9b11c59834f24b39",
+      "gold": "petitioner_argument",
+      "predictions": {
+        "Gemini Decisions": "petitioner_argument",
+        "archived InLegalBERT excerpt MLP": "facts",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-78168",
+      "case": "6781",
+      "input_sha256": "245c2e9e7f0203d7661beeb6d64d8ce15e8ef67a0a9b43314e532493d338d791",
+      "gold": "petitioner_argument",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-83953",
+      "case": "6813",
+      "input_sha256": "068ccff112ac0f5febf9d489fe07cc4f3cd236bd8d5ff8b3585d66690862a513",
+      "gold": "petitioner_argument",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-57904",
+      "case": "6696",
+      "input_sha256": "d81bf84b6064a5f1c92bbea78f9dc94a7070685f7f8a7634ee61ce5b2b7c9646",
+      "gold": "petitioner_argument",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-70558",
+      "case": "6755",
+      "input_sha256": "3814720ccdcb72eef218e69532ec9febbfd75a6e5c1b366bea84f43bda6f7f64",
+      "gold": "petitioner_argument",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "petitioner_argument",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-17809",
+      "case": "6509",
+      "input_sha256": "b4db029c8b727133c2e546a5df6c2bf3689c6ac367250ebb150858796195a001",
+      "gold": "petitioner_argument",
+      "predictions": {
+        "Gemini Decisions": "petitioner_argument",
+        "archived InLegalBERT excerpt MLP": "petitioner_argument",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-86449",
+      "case": "6826",
+      "input_sha256": "dcf587c5060cb7d99d1e583d2ef47b3c6a9f795012c0f5843a6d3b711ba48cb0",
+      "gold": "petitioner_argument",
+      "predictions": {
+        "Gemini Decisions": "respondent_argument",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-83334",
+      "case": "6811",
+      "input_sha256": "a6db092ca38b5f013dc691dabef627e245c8450cb117576c986679aa94b42a86",
+      "gold": "respondent_argument",
+      "predictions": {
+        "Gemini Decisions": "respondent_argument",
+        "archived InLegalBERT excerpt MLP": "respondent_argument",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-108195",
+      "case": "6930",
+      "input_sha256": "d9ae330311612fa4c38f9d6aef69253ac0024ddbf2bd733513d44f73a253a76d",
+      "gold": "respondent_argument",
+      "predictions": {
+        "Gemini Decisions": "respondent_argument",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-138610",
+      "case": "7061",
+      "input_sha256": "dd5a2d587b25f271d1e114901bc9c4e368853b203b213888611910e64f075955",
+      "gold": "respondent_argument",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-85606",
+      "case": "6821",
+      "input_sha256": "8f55cdcb20eb67974e15e2a9044acc98cb4436d456cf0dc9a87c94df63a68002",
+      "gold": "respondent_argument",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "facts",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-137126",
+      "case": "7052",
+      "input_sha256": "914b76c63ce34a40e4b6528f24b8b159d5affb438683a894e94b5c755aa12504",
+      "gold": "respondent_argument",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-58707",
+      "case": "6700",
+      "input_sha256": "df7cdcccd708433bea38908063c720c2973c368d1f7601f8e5faea86c03a91f7",
+      "gold": "respondent_argument",
+      "predictions": {
+        "Gemini Decisions": "petitioner_argument",
+        "archived InLegalBERT excerpt MLP": "respondent_argument",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-55479",
+      "case": "6682",
+      "input_sha256": "d27c2fab4bb3d0daba502522418b15e596bce9636254138f11debbc45a896d2d",
+      "gold": "respondent_argument",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-64192",
+      "case": "6723",
+      "input_sha256": "3b4e1b70f02495cd7fb319762d42c4dca718de41cd0bb3470fdf95dfb6374ecb",
+      "gold": "respondent_argument",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-64920",
+      "case": "6725",
+      "input_sha256": "66ebacafd3ffd157cbc61e8e88261a1aba08ac8c95e54f03152815a614311012",
+      "gold": "respondent_argument",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "facts",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-529",
+      "case": "6411",
+      "input_sha256": "4cb26b86cefafac053e574b9874b4adc11519ea5555609d2de50f857921381a1",
+      "gold": "respondent_argument",
+      "predictions": {
+        "Gemini Decisions": "petitioner_argument",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-53487",
+      "case": "6674",
+      "input_sha256": "643079bee467ce332ad8e97e39c108c9a6fb832dd4ce26a17e527c6892381b93",
+      "gold": "respondent_argument",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-110216",
+      "case": "6940",
+      "input_sha256": "004557a5fa9948b6b9cee036280f5dd92b1b12de558f73ea4a557f318dab1256",
+      "gold": "respondent_argument",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-128863",
+      "case": "7014",
+      "input_sha256": "137a2e88d4d46a9c1acbf96d51a91929c69c190b1e6d5fe5a3cea26b836fab2a",
+      "gold": "respondent_argument",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-31996",
+      "case": "6580",
+      "input_sha256": "30c2b2c12bd8343f5061a53ebf9c2ae865c41bb01653633025a296cdc32f11a6",
+      "gold": "respondent_argument",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-147817",
+      "case": "7110",
+      "input_sha256": "ebc7358eefb6295cda39d96298154f58ed01859af90ecc2453aa23496d05a417",
+      "gold": "respondent_argument",
+      "predictions": {
+        "Gemini Decisions": "petitioner_argument",
+        "archived InLegalBERT excerpt MLP": "respondent_argument",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-94193",
+      "case": "6864",
+      "input_sha256": "c468722dfd26f55e242a43185d891c26cbafaf82d53d1816f5e9275cbc712e68",
+      "gold": "respondent_argument",
+      "predictions": {
+        "Gemini Decisions": "decision",
+        "archived InLegalBERT excerpt MLP": "facts",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-96800",
+      "case": "6878",
+      "input_sha256": "106ec71b00cfbeef7b3568fde24d0ac96cd8a634a747426faf7f99c248b33ff5",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "petitioner_argument",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-28792",
+      "case": "6561",
+      "input_sha256": "5fc7d9ae6586cf07c0f94a3a651b3055e32ce3cbe93d2027a0c6bc05cafd0c96",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-38341",
+      "case": "6601",
+      "input_sha256": "cb2b506d97c001d0bcc2f770243e6994aa6bf76218e5ccf5e9c541c0dc1fdfef",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "respondent_argument",
+        "archived InLegalBERT excerpt MLP": "facts",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-7438",
+      "case": "6447",
+      "input_sha256": "632b307b1c7a93ee454e2d3d70688974cddf2ce73ca97a851b1dca50b249c988",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-53223",
+      "case": "6673",
+      "input_sha256": "c1bf0e047be483336ac69f31e504ada963b480621311e50fdee3dd001b22445c",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-85746",
+      "case": "6821",
+      "input_sha256": "0f50e82fc925222d024c1282c6079c87f4b2bf3e67e4f8cd069b1acd13cb6135",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-54793",
+      "case": "6679",
+      "input_sha256": "32baf3d43a15b54f5d8477c62dba436a78a9431e39d72535e8974c126a7a998a",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-90269",
+      "case": "6845",
+      "input_sha256": "cea457be2f2d359b4fb2600e0e6c6286b4af6726205e20e1917adbb8f37f1bab",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-5600",
+      "case": "6441",
+      "input_sha256": "e65d8189a25192d9cf6a18ea83956abc004b68923f69c1f0c4ba5d568f7d4278",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "reasoning"
+      }
+    },
+    {
+      "id": "sentence-127051",
+      "case": "7004",
+      "input_sha256": "1e0e02ad64faa264b38fe277a3ed8d842cac2594cdd59690ef0cc6c809177562",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-80652",
+      "case": "6797",
+      "input_sha256": "d5083a28e628395b0d4b7eecc4ed3aecbbb6fed22f1257e4e9b9a3c66045fb5c",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-68860",
+      "case": "6748",
+      "input_sha256": "874cb249d3c0dc9e628795b43a0f451df6377e17b8870fd81363fe804a8ca05f",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-75158",
+      "case": "6770",
+      "input_sha256": "54b0b64cf0750b117b0d039c265bbc68ddc952271550eb63c28b32887947916c",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "decision",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-39865",
+      "case": "6611",
+      "input_sha256": "ad113f4ea55011d98be3f9e5352d238838f561ab48167b0ed0812c2f81c949d7",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "facts",
+        "archived InLegalBERT excerpt MLP": "facts",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-111645",
+      "case": "6945",
+      "input_sha256": "182b6673f0395066ef2009fd11db3e8b28448d29249c5a52b81e8294913d50a7",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-89826",
+      "case": "6842",
+      "input_sha256": "edf53ea1d4118a5c95bba8f3f41067dd2689c25de9648bfa53d5750ba64557b2",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-118874",
+      "case": "6972",
+      "input_sha256": "d89c4dac4979138c16f76594c3eeca4916c0506b04c697685db087b100878eaa",
+      "gold": "decision",
+      "predictions": {
+        "Gemini Decisions": "decision",
+        "archived InLegalBERT excerpt MLP": "decision",
+        "source": "decision",
+        "document-prior": "decision",
+        "retention": "decision",
+        "retention-prior": "decision",
+        "current-20-percent": "decision"
+      }
+    },
+    {
+      "id": "sentence-48772",
+      "case": "6654",
+      "input_sha256": "a31d0ed8cc6053808397203f5f96029d9ee92c7e12b6d8ed01c9c662eb84ecbd",
+      "gold": "decision",
+      "predictions": {
+        "Gemini Decisions": "petitioner_argument",
+        "archived InLegalBERT excerpt MLP": "petitioner_argument",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-141824",
+      "case": "7073",
+      "input_sha256": "d871bbaf1e7b06e87f94e7141a5d4785be9982cb54e93f4bd10ad09856f91336",
+      "gold": "decision",
+      "predictions": {
+        "Gemini Decisions": "decision",
+        "archived InLegalBERT excerpt MLP": "decision",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-24103",
+      "case": "6538",
+      "input_sha256": "56328ae898c0387442e7a245e27338ac84b8f7be944047776deebd53e464e019",
+      "gold": "decision",
+      "predictions": {
+        "Gemini Decisions": "decision",
+        "archived InLegalBERT excerpt MLP": "decision",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-108111",
+      "case": "6929",
+      "input_sha256": "7a94b85ee6238e2b1e38663c53ebc4a1bb6e5a05fd135be34488295a71f1a5bd",
+      "gold": "decision",
+      "predictions": {
+        "Gemini Decisions": "decision",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-128249",
+      "case": "7011",
+      "input_sha256": "17f293e70ad2367a32be138278d5cd3caeda6d9c0ceeb5ba81e69e41af38942d",
+      "gold": "decision",
+      "predictions": {
+        "Gemini Decisions": "decision",
+        "archived InLegalBERT excerpt MLP": "decision",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-87412",
+      "case": "6830",
+      "input_sha256": "f582b46bf884ec68a0a96c103c7edeb88e51f72ad6ec20ab572c3f2050213d94",
+      "gold": "decision",
+      "predictions": {
+        "Gemini Decisions": "decision",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-7887",
+      "case": "6449",
+      "input_sha256": "cb92008f8b6f5d568b4eada461ed3f86ad08fdf80ba8998497ca8fd937851f56",
+      "gold": "decision",
+      "predictions": {
+        "Gemini Decisions": "decision",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-104761",
+      "case": "6906",
+      "input_sha256": "415ef2c2c65ef2b66bf712a7d82b6b89ee27a77c2080f1c31a557d0c25db5224",
+      "gold": "decision",
+      "predictions": {
+        "Gemini Decisions": "decision",
+        "archived InLegalBERT excerpt MLP": "decision",
+        "source": "decision",
+        "document-prior": "decision",
+        "retention": "decision",
+        "retention-prior": "decision",
+        "current-20-percent": "decision"
+      }
+    },
+    {
+      "id": "sentence-149766",
+      "case": "7118",
+      "input_sha256": "b54970b3110e027222c4f5ded33754ab36f73fbbefdf78b1626fddd2678af943",
+      "gold": "decision",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "reasoning"
+      }
+    },
+    {
+      "id": "sentence-96026",
+      "case": "6873",
+      "input_sha256": "dd8cc3f2389a4cfdde638c337b5c43609fbaff3f5986452560092a5407b5f45c",
+      "gold": "decision",
+      "predictions": {
+        "Gemini Decisions": "decision",
+        "archived InLegalBERT excerpt MLP": "decision",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-101674",
+      "case": "6890",
+      "input_sha256": "1a963914cf5de05e0a694a123f5250be6503324787168c908bccddc4cec14d6e",
+      "gold": "decision",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-137239",
+      "case": "7052",
+      "input_sha256": "c879044f489fbec9d380b676d363b238669bca751a58254221d05e01e379631e",
+      "gold": "decision",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-110822",
+      "case": "6941",
+      "input_sha256": "e55fd7a8dea2ab3822349ed273d3463f8eb8fcec929645c4e1182d4d5e01c4ae",
+      "gold": "decision",
+      "predictions": {
+        "Gemini Decisions": "petitioner_argument",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-120342",
+      "case": "6982",
+      "input_sha256": "bfa71c939ec14209c65006365602f6929ba0583de02587551dcf8e1542ef9a94",
+      "gold": "decision",
+      "predictions": {
+        "Gemini Decisions": "decision",
+        "archived InLegalBERT excerpt MLP": "decision",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-8182",
+      "case": "6452",
+      "input_sha256": "741004be6391df53387b1858d924ece949c06339a2116529d8df2fdc10c1aa82",
+      "gold": "decision",
+      "predictions": {
+        "Gemini Decisions": "decision",
+        "archived InLegalBERT excerpt MLP": "decision",
+        "source": "decision",
+        "document-prior": "decision",
+        "retention": "decision",
+        "retention-prior": "decision",
+        "current-20-percent": "decision"
+      }
+    }
+  ],
+  "independent singleton case sample": [
+    {
+      "id": "sentence-111223",
+      "case": "6944",
+      "input_sha256": "1636ebacd8cdbc15c28ce21b2be4364dadaed3ea5f220bc009b5eacce174cf5b",
+      "gold": "decision",
+      "predictions": {
+        "Gemini Decisions": "decision",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-140665",
+      "case": "7067",
+      "input_sha256": "276b8e3f077587ce29f3d8b6de651fbcc4a9148016967214d1b4b7a66c593fb4",
+      "gold": "decision",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "reasoning"
+      }
+    },
+    {
+      "id": "sentence-11727",
+      "case": "6471",
+      "input_sha256": "54063c5b633a54480d03736ec9a60bc6b369da5696f83a3e8e7e2555e7daac7e",
+      "gold": "respondent_argument",
+      "predictions": {
+        "Gemini Decisions": "respondent_argument",
+        "archived InLegalBERT excerpt MLP": "petitioner_argument",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "respondent_argument"
+      }
+    },
+    {
+      "id": "sentence-4179",
+      "case": "6435",
+      "input_sha256": "265b57617dbbefa93a2dbe72ddd5e530ebd60d38fc92f3cf0f72bfa36b38b9cf",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-72234",
+      "case": "6758",
+      "input_sha256": "a9b87c63dcc1456cecba0d81254d8f76737a70818dbc31ab730b97e2024673f1",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-97221",
+      "case": "6881",
+      "input_sha256": "f12f1a7639ae3dcfeedd53517cf6478cdc1eb4f1975e5481677c56234bd67db1",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-29602",
+      "case": "6566",
+      "input_sha256": "7b8b8f7f21cefd1d516728f9b767ee091edb11d6c67322912349425e766cc63a",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-101781",
+      "case": "6891",
+      "input_sha256": "304619d3806612d6ebb53918de3fd6eb608b4f77ab06f96cda454c45d998a1f6",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-84921",
+      "case": "6818",
+      "input_sha256": "ce19d3625ff53191d791b112999d21da93743306a9a9fbda434ebb0997e6161c",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-60987",
+      "case": "6710",
+      "input_sha256": "7cc844d8f74b86e38d7dfdda5d9c5c6db4fd7b778907fc1c859f6162a6ada4e4",
+      "gold": "facts",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "facts",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-33991",
+      "case": "6589",
+      "input_sha256": "807f248372029ce5b9a92fa85f6a0a5020c6f73f0d48c8ebb59e409a4602b9a9",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "facts",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-111071",
+      "case": "6943",
+      "input_sha256": "9c10ab298c9090351c9975228b06ccf1521a274b85d074d2a9a7f6654d385036",
+      "gold": "decision",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-78921",
+      "case": "6785",
+      "input_sha256": "5cd9dbae8a75e0e177b248340735c545e4bc40e123852a6e952d2f462659ee32",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-43265",
+      "case": "6629",
+      "input_sha256": "c04588f16c0bab2df31c734c9c4791c48c15bea185e06ed5b4d4e31392655f66",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "reasoning"
+      }
+    },
+    {
+      "id": "sentence-122871",
+      "case": "6995",
+      "input_sha256": "a1a6442fab801092f2a8c41c9cb80c2355c628193765c17dc6fbcd836ee9ef97",
+      "gold": "facts",
+      "predictions": {
+        "Gemini Decisions": "petitioner_argument",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-121886",
+      "case": "6991",
+      "input_sha256": "cec922a96bd5ffa6de90c7528a5cd86605402f8d923f9a8ef20f0c1e5e3845ea",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-145815",
+      "case": "7100",
+      "input_sha256": "c81eab97bd6a655daa2cbe2be828b66cf7807bf9550659151b0938ef08ec3826",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-57667",
+      "case": "6693",
+      "input_sha256": "b00930c14addf0b065a6a1a1b946f8645ee281bdb7a2fb390b403b005592b88f",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-16518",
+      "case": "6499",
+      "input_sha256": "526203df3af21f679e0be2a9531e8fabc0b9605d8e0f3f048200e804c9d1dd30",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "petitioner_argument",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-149879",
+      "case": "7119",
+      "input_sha256": "fac8d7418678348c7816539f32bfa2f0ef3a45ebfde5484f6e30e22fdb6fc6a2",
+      "gold": "decision",
+      "predictions": {
+        "Gemini Decisions": "decision",
+        "archived InLegalBERT excerpt MLP": "decision",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-130106",
+      "case": "7022",
+      "input_sha256": "c7c3ebae8bf69966d955fe95196dce5aabfb36a53764061285e81e806c5afc95",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-94626",
+      "case": "6866",
+      "input_sha256": "a7a6811f6526f15953ded05f8293de0bb9a7cb12ec12732ba8919acb573903c5",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "facts",
+        "archived InLegalBERT excerpt MLP": "facts",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-131764",
+      "case": "7032",
+      "input_sha256": "92969dfdf971699f72bc697f4e3493b31892dfe054c1f3e689213d1ff6980d7c",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-13446",
+      "case": "6486",
+      "input_sha256": "1d2ba9ffd7eee03e59c48fc7880409cda65d5bdfae778259d7ef51fe3513e2a6",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-30239",
+      "case": "6571",
+      "input_sha256": "441bce71621586ec0b8ac3931c05e325d5502545965bc2f21bd3d68ee6b83d1f",
+      "gold": "decision",
+      "predictions": {
+        "Gemini Decisions": "decision",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-18851",
+      "case": "6514",
+      "input_sha256": "f5226b81ef332062db02a75592062446eddb18b144df6c93e8f4db446b5867a2",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-898",
+      "case": "6415",
+      "input_sha256": "a37b371ba4e4697fb94b57dc8c86b1487c8f434dcc061265a3ca892d1938dcbb",
+      "gold": "decision",
+      "predictions": {
+        "Gemini Decisions": "decision",
+        "archived InLegalBERT excerpt MLP": "decision",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "decision",
+        "retention-prior": "decision",
+        "current-20-percent": "decision"
+      }
+    },
+    {
+      "id": "sentence-115172",
+      "case": "6956",
+      "input_sha256": "f35387912a6ec09cedffbea18170bbf52c13aab5bacac321689f6e5b63808711",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-9964",
+      "case": "6462",
+      "input_sha256": "146e8ed104a4327a14c2ab7c0e35c538903b2af218e0cd2dbcf68c52f46c5022",
+      "gold": "respondent_argument",
+      "predictions": {
+        "Gemini Decisions": "respondent_argument",
+        "archived InLegalBERT excerpt MLP": "petitioner_argument",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-144117",
+      "case": "7089",
+      "input_sha256": "cca626ef7a595fc859eb03fbe6143d6cda1b7bbebb4fb876281296fcb5c2666d",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-26844",
+      "case": "6553",
+      "input_sha256": "3dcf3e2f5b05c29a46567fd539127ef5cb63139deddce5fe8cd76a76a986b0a5",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-122342",
+      "case": "6993",
+      "input_sha256": "4f88683c4d55c51a3f45be0d4395e37dbf5ac348c0e7bb3d54915b23e8b2c004",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-92159",
+      "case": "6853",
+      "input_sha256": "7e0c6b94a5f96a4ebbe51d6467f7f2f3bc3ef21b835fe99230b26027cb8f1b84",
+      "gold": "facts",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-13526",
+      "case": "6487",
+      "input_sha256": "6222dbfcbfdc0b15db157beb2503106b8173a27293b879aaeed22c932a2c70e4",
+      "gold": "respondent_argument",
+      "predictions": {
+        "Gemini Decisions": "respondent_argument",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-10316",
+      "case": "6464",
+      "input_sha256": "1843a20e4f8a859e18fc7297df3bee5e06e80e4dedb6848f12e9b37c3a0b55af",
+      "gold": "petitioner_argument",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-35512",
+      "case": "6594",
+      "input_sha256": "66e21650f8fc1088d99bbab6fe7224ee13f26c0f7fb6db3fd1e7ca9f4495bfa6",
+      "gold": "facts",
+      "predictions": {
+        "Gemini Decisions": "petitioner_argument",
+        "archived InLegalBERT excerpt MLP": "facts",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-39091",
+      "case": "6606",
+      "input_sha256": "71132dc88ac8bd7c42221c8ca1ecb844df91d321ea285486dffe9e3d2a340c47",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-143405",
+      "case": "7084",
+      "input_sha256": "ebc70a79a4f900aa1c7a06e5e006acef5ddd4ffb48cc97010a07f09c718bfb0b",
+      "gold": "facts",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "reasoning"
+      }
+    },
+    {
+      "id": "sentence-95609",
+      "case": "6872",
+      "input_sha256": "d9c400bc6e9ae4433a8f174609fbe197bcca6ed227dab09a3ae9c48702227511",
+      "gold": "petitioner_argument",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-69380",
+      "case": "6750",
+      "input_sha256": "57486bb3cbd4aa27b06b7c2a9be25e445cd9f98ed1bb45fa94eb89206a706e30",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-43431",
+      "case": "6631",
+      "input_sha256": "1e62c5bc92e6aae862f74802d3a01e8fbfdeee027aef6be5c57d538ec92e574b",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "petitioner_argument",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-1022",
+      "case": "6416",
+      "input_sha256": "1c844c15fe4cc20a8b2528e52cc9f1d16b184ac7709b6b93733be13ff62dc7df",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-55683",
+      "case": "6683",
+      "input_sha256": "cf88e44b3612bb959d625443a74b9d133a921c1fbf18b6fed07619340fea625e",
+      "gold": "facts",
+      "predictions": {
+        "Gemini Decisions": "petitioner_argument",
+        "archived InLegalBERT excerpt MLP": "petitioner_argument",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-75362",
+      "case": "6772",
+      "input_sha256": "91281d35e2acd976941a6d226a57f2d706db8e2efeecf8db554d833d5e3d3b24",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-31234",
+      "case": "6575",
+      "input_sha256": "a7a6fd8ced730c27fe1a81947facceef397e18bf5b06fa5c21ceae1b3b505ecb",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "petitioner_argument",
+        "archived InLegalBERT excerpt MLP": "petitioner_argument",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-14847",
+      "case": "6492",
+      "input_sha256": "2165b5d3a5dadce91d8c6c7aae95f1b35f293c2225be57d46333de8b2bfe21bb",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "petitioner_argument",
+        "archived InLegalBERT excerpt MLP": "respondent_argument",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-46859",
+      "case": "6645",
+      "input_sha256": "491b367fa7512790adf4b208b5a883cfe0bf4d9bb43c76753215cb169e02bc2b",
+      "gold": "decision",
+      "predictions": {
+        "Gemini Decisions": "facts",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "reasoning"
+      }
+    },
+    {
+      "id": "sentence-82905",
+      "case": "6809",
+      "input_sha256": "ce26b4b14af25994c40a25c788111553bca5533b8dc38561bee8f02db9034f8b",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-131881",
+      "case": "7034",
+      "input_sha256": "5d10b3940a9e1b6e4c88d5f55ad8fcb43b7ec495c76b05ba8e6a2087d531a301",
+      "gold": "petitioner_argument",
+      "predictions": {
+        "Gemini Decisions": "petitioner_argument",
+        "archived InLegalBERT excerpt MLP": "petitioner_argument",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-57583",
+      "case": "6692",
+      "input_sha256": "517eb8011d4061ea0da726e05fdd5ddba1cb25be270502d8115a416f9832931b",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-131440",
+      "case": "7029",
+      "input_sha256": "53bde4348f52b5d54c42515e1ece0328ec464a352bb90826ec146ae63e7332ae",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "issue",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-107867",
+      "case": "6928",
+      "input_sha256": "effa7c9940066c8a80c82dc0a3a604242277d1e16461456881b803d3cfca9d3a",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "facts",
+        "archived InLegalBERT excerpt MLP": "issue",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-148526",
+      "case": "7111",
+      "input_sha256": "9c8afa1f9fecec42874f375f6b1ae25981071225b92317c525542bb7d6a17331",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-148648",
+      "case": "7113",
+      "input_sha256": "54e34104e0f3fdeb5a9dde63478e6e6e49481bbba2b17d1f042f7d5588523c7d",
+      "gold": "facts",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-133739",
+      "case": "7043",
+      "input_sha256": "4240756aa7a6a548bb75e31d7e0b4ef7df8f8343ea52474e88e9508f385acf4a",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-22577",
+      "case": "6533",
+      "input_sha256": "0a83ecda46e71b962c18d91260d82220fc1236ba745fb149512afebaf0c713b7",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-18274",
+      "case": "6510",
+      "input_sha256": "d0ef6df39b3780221f991fad6d15b134089f73135f2c8348f48c9d923436adbf",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-111885",
+      "case": "6946",
+      "input_sha256": "f13b0dfcdddf5c78895f6bfaff5851f68ddc002e3881ac36dee9494106b1f94e",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-76858",
+      "case": "6775",
+      "input_sha256": "6be714d11181f2bcb3b13ed883d98192e3f1819d54fb2f3fb7ece356c06f5d67",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-133526",
+      "case": "7042",
+      "input_sha256": "edc059b6a78e1b4da5b10e4605d26bb2f33e9039cf067cfc0c7993454af7feae",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-13023",
+      "case": "6483",
+      "input_sha256": "f613889e96f77c706f9a6156c0c9183660b630e51904d59c608980c04e73fd6e",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-667",
+      "case": "6412",
+      "input_sha256": "3cea7ac312996b3e9147d1e7791df62f2e1375f1bfd85fae37af44ad50153270",
+      "gold": "decision",
+      "predictions": {
+        "Gemini Decisions": "decision",
+        "archived InLegalBERT excerpt MLP": "decision",
+        "source": "decision",
+        "document-prior": "none",
+        "retention": "decision",
+        "retention-prior": "decision",
+        "current-20-percent": "decision"
+      }
+    },
+    {
+      "id": "sentence-42257",
+      "case": "6625",
+      "input_sha256": "e91a36fcf2061e2a15957afecee55339bf59bc9b74254be18c35ebab012647ad",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "respondent_argument",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-121273",
+      "case": "6987",
+      "input_sha256": "63eb5c03f8df4b720adb8bba92df910294d5b036e3320a20fe678f58793d031a",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-79829",
+      "case": "6792",
+      "input_sha256": "f2c2c909b8780409a740863fdb1850287d8bdbc5137a824b7d8cf71c65b750d5",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "facts",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-22838",
+      "case": "6535",
+      "input_sha256": "7ae0b372aede3cda667494174b2448c2a4f62297d30e5c0fc86f30d648df232f",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "reasoning"
+      }
+    },
+    {
+      "id": "sentence-29172",
+      "case": "6563",
+      "input_sha256": "79b1009bbd28b067d970979f12e92160d5da215d4f90d4a675125fac4705b54a",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-39546",
+      "case": "6609",
+      "input_sha256": "623ed54f0f327979a33451067bcdfbd93ca382e25a90119b42d11dccb74c0525",
+      "gold": "decision",
+      "predictions": {
+        "Gemini Decisions": "decision",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-115341",
+      "case": "6958",
+      "input_sha256": "bcb5afad0d4842f12a0e8821165ccac19494ff87018897c90dbe883eca9be722",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-26070",
+      "case": "6550",
+      "input_sha256": "525454dbf0fb6a99037d948684726ebd78b8fbeee77850878f3affacb6131fdd",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-40854",
+      "case": "6615",
+      "input_sha256": "99451fe5ac75fcb4f5c33187994bf9ec9886fb757dc2ca41c7b5e1a70c6bb124",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "facts",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-70057",
+      "case": "6754",
+      "input_sha256": "3f362d0a5ef98a82fde0799d35b99a2db9b8fe109f1344b788d8d444c3b725ee",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "respondent_argument",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-129547",
+      "case": "7018",
+      "input_sha256": "f1d012cf078ba7424098f06b011a6427b0fc6cf663f4474187329e3403cfadaa",
+      "gold": "facts",
+      "predictions": {
+        "Gemini Decisions": "facts",
+        "archived InLegalBERT excerpt MLP": "issue",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-127581",
+      "case": "7008",
+      "input_sha256": "b45db783b30605825319cb1bc8e1f1054c90acf17f9e00b32b3552507dc0931f",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-143139",
+      "case": "7082",
+      "input_sha256": "0ea1e724a2301f1d000ef2fb5f5baaa00d13379192caef7a224cd463ce78a71e",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-145342",
+      "case": "7098",
+      "input_sha256": "a9301dd332a80134659909dfaada2c3900d2b4e4c49b7ebae75bb9aea442393c",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-47056",
+      "case": "6647",
+      "input_sha256": "b956ca317e46ff1bfc07de3bdf55ffdca274e02dda114116b891014bef4f611a",
+      "gold": "petitioner_argument",
+      "predictions": {
+        "Gemini Decisions": "issue",
+        "archived InLegalBERT excerpt MLP": "issue",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-67304",
+      "case": "6738",
+      "input_sha256": "408e5a2af3660808d7b6bbb85bf32695084079bfe7121cd4221e5c2e1fcc788d",
+      "gold": "facts",
+      "predictions": {
+        "Gemini Decisions": "facts",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-8228",
+      "case": "6453",
+      "input_sha256": "8e70b2047ede7d1117e7722e35643b01365e21d3c4ada7c802046cebdcd58523",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "petitioner_argument",
+        "archived InLegalBERT excerpt MLP": "facts",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-74525",
+      "case": "6767",
+      "input_sha256": "f6d38a50f5e7bc4a0fc7510888eb7bdd3fc2b460465e0c27b9b710cb5490f331",
+      "gold": "decision",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "petitioner_argument",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-103689",
+      "case": "6900",
+      "input_sha256": "16b246033128e0dc600a81260a852089943b95dc9ae30429df44b4090d292833",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "reasoning"
+      }
+    },
+    {
+      "id": "sentence-68182",
+      "case": "6745",
+      "input_sha256": "1f6e8096855f22ba933b1fceafa58d0a0f8ba573397c51b064d8de560ec48801",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "facts",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-86656",
+      "case": "6827",
+      "input_sha256": "a73e9ada2a8b2d0231a5abce912704be48eed6814ec6d07afaa9b5d1807e943b",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-129640",
+      "case": "7019",
+      "input_sha256": "95654ece4dcafac7019851c434c39abfa4d75227ada9aff58b522e7663510de8",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-114672",
+      "case": "6954",
+      "input_sha256": "0fb4e842969ab412772bc69fe009e608643cb0de806869c3fdf3c568b893b2d4",
+      "gold": "respondent_argument",
+      "predictions": {
+        "Gemini Decisions": "respondent_argument",
+        "archived InLegalBERT excerpt MLP": "petitioner_argument",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-147174",
+      "case": "7106",
+      "input_sha256": "f109b2e16650939b2fcfde7eb65bfaabc5cb544048b663affe7c25f8f6ef61fd",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-18902",
+      "case": "6515",
+      "input_sha256": "3e40cb08e4169763e259f63f81495686e60855a7cb53eb968420dd2ed9070f77",
+      "gold": "facts",
+      "predictions": {
+        "Gemini Decisions": "facts",
+        "archived InLegalBERT excerpt MLP": "facts",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-40339",
+      "case": "6613",
+      "input_sha256": "9f8e9a99f7a0c03f8877018aed5dbf4d7287faa28e3bf890fd40e02a097996a9",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "petitioner_argument",
+        "archived InLegalBERT excerpt MLP": "respondent_argument",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "reasoning"
+      }
+    },
+    {
+      "id": "sentence-118011",
+      "case": "6969",
+      "input_sha256": "cb72492e7514f7469e0698bd2cf68af1fe099d6bba1216ead609e3112528caff",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-51629",
+      "case": "6667",
+      "input_sha256": "78d971dc95fa669c245c7eb63b88491bc33f130059891469ea57f17d62426a41",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-66800",
+      "case": "6735",
+      "input_sha256": "ffc2893f6d0c5e9e031bed2a88bc43f9a633e1e553b5bf05dad4920d8aae2352",
+      "gold": "respondent_argument",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-84543",
+      "case": "6816",
+      "input_sha256": "1622b6dd92b788b7d4e934a98cbebe67168b5e6fd994afc117c6cf105863bb96",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-60847",
+      "case": "6709",
+      "input_sha256": "5d2bc310bb153d829c20a8a102293b5f82b24ccc2803831e3b5cdf0977a6ea3e",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-82973",
+      "case": "6810",
+      "input_sha256": "3768eadfc4a35bcdbcc95b1cfd245029bde4c1058f6edd92569ad2a4bee92280",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "decision",
+        "archived InLegalBERT excerpt MLP": "decision",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-69591",
+      "case": "6751",
+      "input_sha256": "9bad9fb922f1742c19a84d46a83892ddde2c26680f481812a2df16df67695f18",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "decision",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-95434",
+      "case": "6871",
+      "input_sha256": "d92ec435028dbd47aeef2d0d89ffb36b0fd225f80c7633560be5ba6dbcc7d670",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-25251",
+      "case": "6545",
+      "input_sha256": "b40803c77edca031ca1705373d31a2c6fa2e05df17234e9c17db39f611f264c2",
+      "gold": "respondent_argument",
+      "predictions": {
+        "Gemini Decisions": "issue",
+        "archived InLegalBERT excerpt MLP": "issue",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-115709",
+      "case": "6960",
+      "input_sha256": "4a818421dac07992aa0c62fc379a1ad883490ea44e83281f64e75c50604db781",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-107565",
+      "case": "6925",
+      "input_sha256": "9aaf4f3f5ac7646b055716460af4587acabf6c8b1e73f1f8d715ee3043c18208",
+      "gold": "decision",
+      "predictions": {
+        "Gemini Decisions": "decision",
+        "archived InLegalBERT excerpt MLP": "decision",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-54595",
+      "case": "6678",
+      "input_sha256": "01a7c692fdabca8b87591bda0cbc34cd6263bb4ed2ea35a4e04bf000d8ce5f9e",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "decision",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-81254",
+      "case": "6803",
+      "input_sha256": "164a5e29cbdc9a03216fec46549e43340d2a561ad9ba08a2007a4645d9741a58",
+      "gold": "facts",
+      "predictions": {
+        "Gemini Decisions": "facts",
+        "archived InLegalBERT excerpt MLP": "facts",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-11815",
+      "case": "6472",
+      "input_sha256": "ca5160cc63d85e4c220e62a400489f202d18408a3340d4e55442d202d6040ef3",
+      "gold": "decision",
+      "predictions": {
+        "Gemini Decisions": "decision",
+        "archived InLegalBERT excerpt MLP": "decision",
+        "source": "decision",
+        "document-prior": "decision",
+        "retention": "decision",
+        "retention-prior": "decision",
+        "current-20-percent": "decision"
+      }
+    },
+    {
+      "id": "sentence-96388",
+      "case": "6876",
+      "input_sha256": "d66cddeb4c5ebee3355bc1fa2963186f115b87f33696997c6912037aa080c564",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-118498",
+      "case": "6970",
+      "input_sha256": "436f9eee9b9e8e6553ce0c6b2904ded5a97a3b4054b433b58eaa0a24abb71f3a",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "petitioner_argument",
+        "archived InLegalBERT excerpt MLP": "facts",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-117085",
+      "case": "6966",
+      "input_sha256": "634fb84b3878a22014e00413b67ee3049fe3622e94644222573002ac4fe64b33",
+      "gold": "petitioner_argument",
+      "predictions": {
+        "Gemini Decisions": "facts",
+        "archived InLegalBERT excerpt MLP": "petitioner_argument",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-33628",
+      "case": "6586",
+      "input_sha256": "e96a2d3e80ecc54582c07279fa9275648027b6af1c135cebbe4085efc514bd59",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "reasoning"
+      }
+    },
+    {
+      "id": "sentence-86272",
+      "case": "6824",
+      "input_sha256": "e4737a5414ae6130be62654727c36167e285058493b367cee9b92e7acdaa793c",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "decision",
+        "archived InLegalBERT excerpt MLP": "decision",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "reasoning"
+      }
+    },
+    {
+      "id": "sentence-78548",
+      "case": "6784",
+      "input_sha256": "066a655427d563c147183d84479c7cac8c7fe765142cf8218e3c8b892f5f67d4",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-138263",
+      "case": "7059",
+      "input_sha256": "e150a4e822802f8cb9a4f6636cfc9b7c62015fdc3b4f8a70d71cea23fd9aa0c4",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "facts",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-35464",
+      "case": "6593",
+      "input_sha256": "fbca2a2603eb87a0d9b764748b6c750cc404aeed0fcbe8afbeb13f0370db7617",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-27248",
+      "case": "6556",
+      "input_sha256": "8f8849a9374edde5d5d922bb2aec1f8c92ccd67b3bb9a210a13a9784db980c76",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-65550",
+      "case": "6727",
+      "input_sha256": "3eb246603d64bc30519731cbb31c847e4a4bbcfbcb04425a75deec7baabe9cb8",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "petitioner_argument",
+        "archived InLegalBERT excerpt MLP": "petitioner_argument",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-145006",
+      "case": "7096",
+      "input_sha256": "858dd62b0e1c898f4eb6041862f41c6b31c1780d629c732c3c3e2ab1af915bff",
+      "gold": "petitioner_argument",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "facts",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-67292",
+      "case": "6737",
+      "input_sha256": "9fe94fa608a753cb4fb577f0e501127ecc6a82698436dc8baebee76d496d08ee",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-7744",
+      "case": "6448",
+      "input_sha256": "08d33258b99c670a763d063d4d4d6494a8f2f47d2a142b6843a121cbbd8b831b",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-91211",
+      "case": "6848",
+      "input_sha256": "7c6e80322247cc0045a6c1f7f103392f3a4458d02cf7d750e9c1a80d490405c5",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-35387",
+      "case": "6592",
+      "input_sha256": "386d6f1ebf8e31b244ecf95138f253c39a7efda48830928c7d9381c136e564ee",
+      "gold": "decision",
+      "predictions": {
+        "Gemini Decisions": "decision",
+        "archived InLegalBERT excerpt MLP": "decision",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-134763",
+      "case": "7046",
+      "input_sha256": "7a28fda786ec0c708e064d22ab120b5f8a32ebdb0abc2ee7ddfbba649277f2ed",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "reasoning"
+      }
+    },
+    {
+      "id": "sentence-132330",
+      "case": "7037",
+      "input_sha256": "6514fd0a7595d2c269e34c8758ccbd9529054fbf6f034e27f84803978de0cb1c",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "petitioner_argument",
+        "archived InLegalBERT excerpt MLP": "petitioner_argument",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-120052",
+      "case": "6980",
+      "input_sha256": "feebedadf9cf5e92de8c367c20790dcda49cecf2c64f017862981678133517cd",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-59330",
+      "case": "6703",
+      "input_sha256": "fb0018ad46ecc3f360c313f76b4addb7c7dbadef2066c091b510495c10234e67",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "facts",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-111945",
+      "case": "6947",
+      "input_sha256": "35a8e870a406694c15529ea06f894be96e9ce685ed1ea651fd5a4747d336db8f",
+      "gold": "facts",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "facts",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-46541",
+      "case": "6643",
+      "input_sha256": "b7664b4d9774e51e08b03f5669443c9d9cfa16b5fda55768efa648338220f0f8",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-102996",
+      "case": "6897",
+      "input_sha256": "01beabedd47c6c57e8b114dd81772091b6a3a4263af10b7295e2f6339a83bee6",
+      "gold": "respondent_argument",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-92845",
+      "case": "6856",
+      "input_sha256": "f51cdb8e1114206890a9c3ba777430f162e0c0714c4e459ea070d4c912c811f5",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-6981",
+      "case": "6446",
+      "input_sha256": "8cd12a81665363f609a9200b0fd284c16d1b075846fd04cff013dff8f13ae184",
+      "gold": "petitioner_argument",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-31621",
+      "case": "6578",
+      "input_sha256": "7d43b169c284482cddd207768a560827936a783e05186e734fa8a966b6ef5643",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-108645",
+      "case": "6934",
+      "input_sha256": "44927e114691ea67317b4ca16d827a6d7a727204ade599d6bffb847bb8ae5c20",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-43305",
+      "case": "6630",
+      "input_sha256": "99e412705c222b9466c3c5589f39290e28351d5168d09a5c3e9dae1b4a7e4871",
+      "gold": "respondent_argument",
+      "predictions": {
+        "Gemini Decisions": "petitioner_argument",
+        "archived InLegalBERT excerpt MLP": "respondent_argument",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-2234",
+      "case": "6425",
+      "input_sha256": "74f0cdbc46d82b161168a433556120443cdf856fd9fbb001deb4e4291d518c67",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "facts",
+        "archived InLegalBERT excerpt MLP": "petitioner_argument",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-137729",
+      "case": "7057",
+      "input_sha256": "8f123359ea947f47040211b54eeadda89782904f560a08b467485dde3ef82dc6",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-132498",
+      "case": "7039",
+      "input_sha256": "d96c80026063c1a1bdf04d161b47272941cf3e37aca0fb80edf77b5d60bfb999",
+      "gold": "petitioner_argument",
+      "predictions": {
+        "Gemini Decisions": "petitioner_argument",
+        "archived InLegalBERT excerpt MLP": "petitioner_argument",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-29770",
+      "case": "6568",
+      "input_sha256": "c0ab062a4e91e1bcc60dd77e1f9dd32b9e1e39cae1e9d1b52968dc5fd7d34aa2",
+      "gold": "petitioner_argument",
+      "predictions": {
+        "Gemini Decisions": "petitioner_argument",
+        "archived InLegalBERT excerpt MLP": "petitioner_argument",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-139613",
+      "case": "7064",
+      "input_sha256": "4883b771acc8b783d34ee8c762cbc946b6baadafa6d963b3411de2f92b6cf329",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-140714",
+      "case": "7068",
+      "input_sha256": "cdab4b707053fd06e34d74e289cd4006f5211a262158072b67379bd60d3905ce",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "petitioner_argument",
+        "archived InLegalBERT excerpt MLP": "respondent_argument",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-80094",
+      "case": "6794",
+      "input_sha256": "763c836d3826e5d2823ec39d08c199d5af76d07965fa851fc508eb4daeb3c0e9",
+      "gold": "petitioner_argument",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-16207",
+      "case": "6498",
+      "input_sha256": "49c993c4a763b97c3b052291cb0dfc86234423d327bcd00e49b904be97536f3a",
+      "gold": "decision",
+      "predictions": {
+        "Gemini Decisions": "decision",
+        "archived InLegalBERT excerpt MLP": "decision",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "decision",
+        "retention-prior": "decision",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-143590",
+      "case": "7086",
+      "input_sha256": "e5c4c1d17a290da35ebc18e3c953e5b2012eb802cb9ff976d57d5f3d51d5f598",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-144310",
+      "case": "7092",
+      "input_sha256": "c82f2c20721f82f572bbaa09e3b3e8d3b6c0f067b5251c32f0bf6a3073f2d0ce",
+      "gold": "facts",
+      "predictions": {
+        "Gemini Decisions": "facts",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-128413",
+      "case": "7013",
+      "input_sha256": "f78429aabc2ac11d9cb5cc2cde528ac4f070e49d4f30b21004e6b91c3d72470d",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-106198",
+      "case": "6916",
+      "input_sha256": "ddbb2a00cfd79e260704a3802fdab04bf81150ce0652b413f50c71507b25e7fe",
+      "gold": "decision",
+      "predictions": {
+        "Gemini Decisions": "decision",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-88366",
+      "case": "6837",
+      "input_sha256": "26a802d6072b314f6cc1ac2b656d01a6d549b1d7ad9f4a5dbd6c0906eaaa9356",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-95194",
+      "case": "6869",
+      "input_sha256": "f6e766520778384c3cf20c045fe155557bac9586728e3014a44fbd69a02bb4bd",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "reasoning"
+      }
+    },
+    {
+      "id": "sentence-41933",
+      "case": "6624",
+      "input_sha256": "25c05f6ee761c13db137e341593198c1a369d5d61188a64df781342578a65299",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-44041",
+      "case": "6635",
+      "input_sha256": "c14b3ac8a22aee345db308bbc39f527f097bb36427423994453f4e07f8f6edf4",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-59066",
+      "case": "6702",
+      "input_sha256": "5961e2417a2bacfe551d4e140a4528fdedc658a17bdca51056517f5d299df70b",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-130450",
+      "case": "7023",
+      "input_sha256": "f8b330dc024368f54a3d84d7674747da00ca4e73e3f4fb60d69de1d62ea074b4",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "facts",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-141932",
+      "case": "7075",
+      "input_sha256": "283aac70b7f397938c3269400e2add994cb90007638ef7a90066e9ca2f35318c",
+      "gold": "petitioner_argument",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-84362",
+      "case": "6815",
+      "input_sha256": "9c5b717f826029e719fa5e89cf2d3264f30a2ac2c3d66da24a77d1ac8c6c37ac",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-103144",
+      "case": "6898",
+      "input_sha256": "d623d0acf634f98ede85699812996eef738e7b0673a79df650e76121c94df787",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-137823",
+      "case": "7058",
+      "input_sha256": "91191651320610e59b1084e987f67c51502625ed64aae1fbe132cbff3d8ab733",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-31442",
+      "case": "6577",
+      "input_sha256": "aba99406beda6c3aafe5fbe1a5ac92749a34c0efa26b4d3e7b51e53297327588",
+      "gold": "facts",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "facts",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-80009",
+      "case": "6793",
+      "input_sha256": "03b99dd65bddb38b07d3fd4c51209ea5e746e38709efc5b3936b44d4b4fbdb9e",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "facts",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-125144",
+      "case": "7000",
+      "input_sha256": "f78444672271211ab1de29c60e809a6a64511a7b565aa548db2d6a6015636c6b",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "decision",
+        "archived InLegalBERT excerpt MLP": "decision",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-33113",
+      "case": "6584",
+      "input_sha256": "89b757a642543834be6a19627bda55d8c03fa8c9f7ed91aab55a49ef9935f1be",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-38697",
+      "case": "6604",
+      "input_sha256": "497aef60a46e665c55e0e834e928b1d4c2c3f05c662809723ad79afa3e6966e6",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-20749",
+      "case": "6522",
+      "input_sha256": "1c8c47601030fec67e675d6df1cf7aff54d339d61c50894f94d28d894f631d45",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "none",
+        "archived InLegalBERT excerpt MLP": "issue",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "reasoning"
+      }
+    },
+    {
+      "id": "sentence-19517",
+      "case": "6519",
+      "input_sha256": "8484aa305477f91b7955824b5dadb6f34121115f0ddd3b2f3d4f9eab77857029",
+      "gold": "petitioner_argument",
+      "predictions": {
+        "Gemini Decisions": "petitioner_argument",
+        "archived InLegalBERT excerpt MLP": "petitioner_argument",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-146623",
+      "case": "7103",
+      "input_sha256": "3f64db0b94046483c0140a27b1b0de286ba123268f2e2069ef739fa9b970403e",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "facts",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-8809",
+      "case": "6456",
+      "input_sha256": "fae6daa3bd36794a107c2b660658affe3535ededa686104e52d5080c4527ebe2",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-75480",
+      "case": "6773",
+      "input_sha256": "d1d149b68ee997397acadb0983ca26e172b29c1225656bec809feff3fb9a02e4",
+      "gold": "facts",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "facts",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-80223",
+      "case": "6795",
+      "input_sha256": "a4631cc9b06c79e4f1232ac3587d01d797585525c5d69284a0bd3671b5468325",
+      "gold": "facts",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-41545",
+      "case": "6621",
+      "input_sha256": "859c8f628141f0bb0cc7b7bd0fccfd8716b6efc06da93ef4f2154fbdeeabe356",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "facts",
+        "archived InLegalBERT excerpt MLP": "facts",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-134204",
+      "case": "7045",
+      "input_sha256": "68a86b15005426e65ddb6c54979c1eb4d7955f7f0e050d381e2e0933cdb14453",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "none",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-61902",
+      "case": "6713",
+      "input_sha256": "04fbdd067d154db2ba119fd5dfb7668192c1e84c77aae2f3295e453db244f52a",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-127159",
+      "case": "7005",
+      "input_sha256": "15e5e3abef57b94a6e6d0c007907a6f096cf94f35c2cd363cb2b3e1e4a0c4d06",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-68349",
+      "case": "6746",
+      "input_sha256": "b8bdf4e1d0d9ccc5ec24a55910ec35feca27c03930cbcd166eb88a0d1a81d466",
+      "gold": "facts",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-3736",
+      "case": "6433",
+      "input_sha256": "5d70c061e7b01017cd803eaaf2e5d41a6eb761c6346715bd45176573318be6ad",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-18489",
+      "case": "6511",
+      "input_sha256": "c64de2fe231659969c8f80ac67e75d66b0ea82ddbfa9e6bda946227650b5b9e8",
+      "gold": "respondent_argument",
+      "predictions": {
+        "Gemini Decisions": "petitioner_argument",
+        "archived InLegalBERT excerpt MLP": "petitioner_argument",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-93498",
+      "case": "6861",
+      "input_sha256": "197f7a056bb6b722d0dad6ebca04438434067a301b17ebbeff1876cc1525f925",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "petitioner_argument",
+        "archived InLegalBERT excerpt MLP": "respondent_argument",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-141852",
+      "case": "7074",
+      "input_sha256": "0e1c072670c209b66d9ecd49addd7e661b34e85d5ca83a88f3c02bad287a6659",
+      "gold": "petitioner_argument",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-44699",
+      "case": "6637",
+      "input_sha256": "f7ccd0213e72914b408b0a6a06bc83092a4ee80b34c8a370ccf0077c9660f61d",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-31723",
+      "case": "6579",
+      "input_sha256": "9326a6111b5d9ccf3c75b6ed4163dbe95244c580295b4388f50cfa661c85f1ca",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "none",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-125230",
+      "case": "7002",
+      "input_sha256": "a6c67f08fa9674a3edd284dbceb949f186e76ec8a9fd079ed4e100ea44d5e9ea",
+      "gold": "facts",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-108994",
+      "case": "6935",
+      "input_sha256": "a607b2517b34534e75b67698e7dd565ef5c402c247ed100ee6bcca45dbb392cc",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "decision",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-43791",
+      "case": "6633",
+      "input_sha256": "e332fb451855fa373e4ae79ad38f702d13f598ff2d4f3d029537391597592d0c",
+      "gold": "respondent_argument",
+      "predictions": {
+        "Gemini Decisions": "respondent_argument",
+        "archived InLegalBERT excerpt MLP": "respondent_argument",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-104024",
+      "case": "6901",
+      "input_sha256": "cf9a769f581f67ce565c81f7caac61b7ec38709b504d0dd854398e8a0577d57e",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "facts",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-105488",
+      "case": "6911",
+      "input_sha256": "a085c3e51ef80e5d0f7b604e314462a85d2342e8d8a572ecd4ebfbedb3b42ef4",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-54889",
+      "case": "6680",
+      "input_sha256": "0d03c0d643790208670fe9c911362f78b254a0cd17afdf4292285529c0760efb",
+      "gold": "petitioner_argument",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "facts",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-36806",
+      "case": "6596",
+      "input_sha256": "021ffe27ad13749bced29d14f3b16074e3acb014a7b623bcda8a9758bd931215",
+      "gold": "petitioner_argument",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-14036",
+      "case": "6489",
+      "input_sha256": "17599a4f5be5409b0d01cd460ff24b0e69bdedafb84391875495410538d9ab42",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-13301",
+      "case": "6485",
+      "input_sha256": "7c419d0fdbfca0f441c950935b6ed834bd7de6ba12a1e53673a383369a792b4f",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-37749",
+      "case": "6598",
+      "input_sha256": "74ab168f3bb6645d747c3866e800c8efcd0f6e8e029c3ca6fd0101ac447ee246",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-1444",
+      "case": "6421",
+      "input_sha256": "4a3bd8022277af1ae10ca3ccded424c315d4ad3069aac65fcf9892d1c24727fe",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "none",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-94590",
+      "case": "6865",
+      "input_sha256": "b9517e66ece8d1a903592feab22a23acaa1fe557ade6c41bef96f1cc3b88fd97",
+      "gold": "petitioner_argument",
+      "predictions": {
+        "Gemini Decisions": "petitioner_argument",
+        "archived InLegalBERT excerpt MLP": "petitioner_argument",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-19634",
+      "case": "6520",
+      "input_sha256": "51e75c27a29ea2fbb074718d890fafa495089a27c6a92d27cca1759adebbece1",
+      "gold": "facts",
+      "predictions": {
+        "Gemini Decisions": "issue",
+        "archived InLegalBERT excerpt MLP": "issue",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-56676",
+      "case": "6687",
+      "input_sha256": "3e1bbe7edd644327c6dbdaca550f4260fda9662276995ff8162de0607c984f8c",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-40262",
+      "case": "6612",
+      "input_sha256": "bb09599193ba189695b14c5232add9b7537023847d867609af54861d33af2e28",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-129807",
+      "case": "7021",
+      "input_sha256": "c4ef77a5ee97654a57b7dca8a6db6582d1855e2c8e739f7b71d3cff1716fbc34",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "facts",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-127404",
+      "case": "7007",
+      "input_sha256": "67951ee5eedf33111f53393b3484892090e3235d2f1421346bd137b864af88a5",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-24675",
+      "case": "6542",
+      "input_sha256": "2a0f0ff94f393e8d0c7f198a74e6f12195883bfffcc2c431f9090b674c831093",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "issue",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-139783",
+      "case": "7065",
+      "input_sha256": "061c0f7d7b29b6c31d92d67a20605fd0c677a04e876335e355ef28f755013433",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "facts",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-15611",
+      "case": "6495",
+      "input_sha256": "043f61b41ae7ed6a7d977ef9aadcc9d23e88627deed445f28ae20795df016d97",
+      "gold": "facts",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "respondent_argument",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "reasoning"
+      }
+    },
+    {
+      "id": "sentence-91567",
+      "case": "6850",
+      "input_sha256": "94bf4bc972df94abdb41f3d3224f4e530c99b4e3351440b7de1294a1fa571fde",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "facts",
+        "archived InLegalBERT excerpt MLP": "facts",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-29033",
+      "case": "6562",
+      "input_sha256": "06baaa3cd9bec5996b062ad8b7bd9a9863b1dffcab5240ad7880aa9a9c9b2a5e",
+      "gold": "decision",
+      "predictions": {
+        "Gemini Decisions": "decision",
+        "archived InLegalBERT excerpt MLP": "facts",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "sentence-147258",
+      "case": "7107",
+      "input_sha256": "a26667ce33cc44748e66ff112c71ad0505a71210d69d2fffeedef8b3701ffcb9",
+      "gold": "petitioner_argument",
+      "predictions": {
+        "Gemini Decisions": "petitioner_argument",
+        "archived InLegalBERT excerpt MLP": "petitioner_argument",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    }
+  ],
+  "single human-labeled multi-statement rows": [
+    {
+      "id": "multisentence-82740",
+      "case": "6809",
+      "input_sha256": "a630fd13d96db79e889766b3da25a8dfd74caaba74b8c05947c62118160f613d",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "facts",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "multisentence-104084",
+      "case": "6902",
+      "input_sha256": "27571e5f5714963d984ec68945db8dc9664d3947190b6103e789f738944990f4",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "facts",
+        "archived InLegalBERT excerpt MLP": "facts",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "multisentence-66753",
+      "case": "6734",
+      "input_sha256": "ca7a5fb53d4e6814fe6397c4d9fb2f3890ea10dd0caadfc89f4d4dca88887e37",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "facts",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "multisentence-21044",
+      "case": "6524",
+      "input_sha256": "04f8802047ae21b490adc879d10c01ea4643efb7512f59b889ff26e66865a262",
+      "gold": "facts",
+      "predictions": {
+        "Gemini Decisions": "petitioner_argument",
+        "archived InLegalBERT excerpt MLP": "facts",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "multisentence-92701",
+      "case": "6855",
+      "input_sha256": "3ee05068a6bc608589e45f4098b6b478eea4b067a87c5294946053dd59782315",
+      "gold": "facts",
+      "predictions": {
+        "Gemini Decisions": "facts",
+        "archived InLegalBERT excerpt MLP": "facts",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "multisentence-12478",
+      "case": "6479",
+      "input_sha256": "e4f7f5758d16738717fd27d63dea9c24f517b698d88bd89c7d0eb6a349bc1c19",
+      "gold": "facts",
+      "predictions": {
+        "Gemini Decisions": "decision",
+        "archived InLegalBERT excerpt MLP": "decision",
+        "source": "decision",
+        "document-prior": "decision",
+        "retention": "decision",
+        "retention-prior": "decision",
+        "current-20-percent": "decision"
+      }
+    },
+    {
+      "id": "multisentence-39710",
+      "case": "6611",
+      "input_sha256": "dc93b759da2a8064cf0ddb3c4dbab3e1f7c602124cd987754e0e06bc7aea4eca",
+      "gold": "issue",
+      "predictions": {
+        "Gemini Decisions": "petitioner_argument",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "multisentence-92686",
+      "case": "6855",
+      "input_sha256": "4496deb701165a746c1dbd3aa766a44e39f6f3457681d54e3e9a6e304802e597",
+      "gold": "issue",
+      "predictions": {
+        "Gemini Decisions": "issue",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "multisentence-104070",
+      "case": "6902",
+      "input_sha256": "f7179792a8178780402ba0ca72d93c0187c492ad4d830c5b4e4bad7d467ac6c2",
+      "gold": "issue",
+      "predictions": {
+        "Gemini Decisions": "facts",
+        "archived InLegalBERT excerpt MLP": "petitioner_argument",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "multisentence-114662",
+      "case": "6954",
+      "input_sha256": "df29d8506a995d59a59c3f4b07cfa5a263e0a8b90030038e23ef477b90e46884",
+      "gold": "petitioner_argument",
+      "predictions": {
+        "Gemini Decisions": "petitioner_argument",
+        "archived InLegalBERT excerpt MLP": "respondent_argument",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "multisentence-145222",
+      "case": "7098",
+      "input_sha256": "598825dd206f75d609ccbafd699f85b2cb67fdf896e1bf219a5ae336846a898f",
+      "gold": "petitioner_argument",
+      "predictions": {
+        "Gemini Decisions": "petitioner_argument",
+        "archived InLegalBERT excerpt MLP": "petitioner_argument",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "multisentence-144926",
+      "case": "7095",
+      "input_sha256": "4fa16fa89210ed55c609d0da3adf92f1ac9a44f5b0aa545792c68ace6bc8a376",
+      "gold": "petitioner_argument",
+      "predictions": {
+        "Gemini Decisions": "facts",
+        "archived InLegalBERT excerpt MLP": "facts",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "multisentence-94381",
+      "case": "6864",
+      "input_sha256": "cd41913821e6c8108b23828e93d0cd652ab9662c8ec46471458cdc7a4936ee76",
+      "gold": "respondent_argument",
+      "predictions": {
+        "Gemini Decisions": "facts",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "multisentence-123153",
+      "case": "6995",
+      "input_sha256": "48af080a58dbd1f5bcf401bb372a64ab40b71b89884c470919376a8384cb310b",
+      "gold": "respondent_argument",
+      "predictions": {
+        "Gemini Decisions": "respondent_argument",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "multisentence-28152",
+      "case": "6560",
+      "input_sha256": "6d5aa203637b2f6544526009be6cf8ed3eed3f440ea4c776c974e7fb246fea68",
+      "gold": "respondent_argument",
+      "predictions": {
+        "Gemini Decisions": "petitioner_argument",
+        "archived InLegalBERT excerpt MLP": "petitioner_argument",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "multisentence-119836",
+      "case": "6978",
+      "input_sha256": "cbb62cd902ed4eb1c77ffba986916c9a1886a9436676f526b3cedeaf2da6517d",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "multisentence-42279",
+      "case": "6625",
+      "input_sha256": "f0eda98f5485035ce4b11759c0a5f429ddeba283b93edcd368f23517f243d41a",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "facts",
+        "archived InLegalBERT excerpt MLP": "facts",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "multisentence-15384",
+      "case": "6493",
+      "input_sha256": "c0fee6928fdd32a39618915c4cac854d48f50f4b6105dbf3fcc38b0cc7511a9b",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "facts",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "multisentence-21191",
+      "case": "6524",
+      "input_sha256": "f5d9dcfffd38a20f49d1bbe600b02aacd98cce809a4e7957dd83c95bad382a80",
+      "gold": "decision",
+      "predictions": {
+        "Gemini Decisions": "decision",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "multisentence-104504",
+      "case": "6902",
+      "input_sha256": "cdd1289a58f19f33c8a7caea036978ec9646bc94f5adb1872636c48221ba30cf",
+      "gold": "decision",
+      "predictions": {
+        "Gemini Decisions": "decision",
+        "archived InLegalBERT excerpt MLP": "decision",
+        "source": "decision",
+        "document-prior": "decision",
+        "retention": "decision",
+        "retention-prior": "decision",
+        "current-20-percent": "decision"
+      }
+    },
+    {
+      "id": "multisentence-109838",
+      "case": "6940",
+      "input_sha256": "b684bb94f67705639b820180ac21c3a6ba024e3afdee69d5fe36c6e396034b7a",
+      "gold": "decision",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    }
+  ],
+  "joined same-role paragraphs": [
+    {
+      "id": "joined-30432-30433",
+      "case": "6573",
+      "input_sha256": "b361d3f9fa2fc0da64dedbb56b039ff420cef6809cc599fd480cc540f9ca7308",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "joined-27447-27448",
+      "case": "6559",
+      "input_sha256": "4c713b86375c6e02159f1ea151f6390be5a16259a60fd4decbe4e0d0d5f77ed5",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "reasoning"
+      }
+    },
+    {
+      "id": "joined-122575-122576",
+      "case": "6994",
+      "input_sha256": "59139fbd3ea281cc0d5b9b08f6ba679e62d2a660bc8dd85db9732c04bb29a901",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "joined-87251-87252",
+      "case": "6829",
+      "input_sha256": "68b792d4ed3570d12ac3ddf7501973d2180a32b6521fb2684b9a44d11838b528",
+      "gold": "none",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "joined-82062-82064",
+      "case": "6806",
+      "input_sha256": "df16792f174536e4fda4fa4da6c177601fb11f1f5039dde5c7926c3295512fef",
+      "gold": "facts",
+      "predictions": {
+        "Gemini Decisions": "facts",
+        "archived InLegalBERT excerpt MLP": "issue",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "joined-81104-81105",
+      "case": "6802",
+      "input_sha256": "c88a461e57ee0e99d3b79a5dfdfd3ff8af3dd286f16802ea6fda8b2774eabc94",
+      "gold": "facts",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "facts",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "joined-66506-66508",
+      "case": "6732",
+      "input_sha256": "798afe62ac63a29f5a16ee1aa969bc99789871ae257b905452b2fce46c7bd7fc",
+      "gold": "facts",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "facts",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "facts"
+      }
+    },
+    {
+      "id": "joined-38828-38830",
+      "case": "6605",
+      "input_sha256": "3bf47731a5f3888cd907cc4ff7fe294ebe99fe305dd883e3fee4d4da70d35f20",
+      "gold": "facts",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "facts",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "facts"
+      }
+    },
+    {
+      "id": "joined-13621-13622",
+      "case": "6488",
+      "input_sha256": "0d94086c0e5695d19b7bd9728c4bb42d712bcf86d5556328fa3b98e8f7d42cb1",
+      "gold": "issue",
+      "predictions": {
+        "Gemini Decisions": "facts",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "joined-54412-54413",
+      "case": "6677",
+      "input_sha256": "6853cb8e9ef71521ea274fefefe60048e143599ffac06db74c1b04defc41637b",
+      "gold": "issue",
+      "predictions": {
+        "Gemini Decisions": "decision",
+        "archived InLegalBERT excerpt MLP": "facts",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "joined-16814-16815",
+      "case": "6501",
+      "input_sha256": "d3635b7fc12cbb786165e8b60213d752c653e8f349b4eb932c6eac6fe9e6c34f",
+      "gold": "issue",
+      "predictions": {
+        "Gemini Decisions": "issue",
+        "archived InLegalBERT excerpt MLP": "issue",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "issue"
+      }
+    },
+    {
+      "id": "joined-10597-10598",
+      "case": "6467",
+      "input_sha256": "571652dd88d950c7f9511b4781ae1b0cdcc758e84d6c55f34c57ca94b345c745",
+      "gold": "issue",
+      "predictions": {
+        "Gemini Decisions": "facts",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "joined-46075-46076",
+      "case": "6641",
+      "input_sha256": "a89c86ca5b222a19997ecf65e7ce0f2bf4f269f0abf187db6305538be946dd89",
+      "gold": "petitioner_argument",
+      "predictions": {
+        "Gemini Decisions": "petitioner_argument",
+        "archived InLegalBERT excerpt MLP": "respondent_argument",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "joined-56736-56738",
+      "case": "6688",
+      "input_sha256": "4737cbd7593dbafc3f282ff577674c58e926b753729ed64f61f0887a07b81a0c",
+      "gold": "petitioner_argument",
+      "predictions": {
+        "Gemini Decisions": "petitioner_argument",
+        "archived InLegalBERT excerpt MLP": "respondent_argument",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "joined-65345-65346",
+      "case": "6726",
+      "input_sha256": "0da886b94bed41ec4eb590d048174b9ce5d2e8c9d5ee1a0126bf6130d03ab49a",
+      "gold": "petitioner_argument",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "joined-92631-92633",
+      "case": "6854",
+      "input_sha256": "1aa3f914de473e833fb20a93b408cdbf4416ee93ce216d936813a0d44abf35d4",
+      "gold": "petitioner_argument",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "facts",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "joined-2353-2354",
+      "case": "6426",
+      "input_sha256": "24b013fda4571e3145c5dc0ff85bb2afd03dfb0c0a3522d04406c38a68967b90",
+      "gold": "respondent_argument",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "joined-74658-74660",
+      "case": "6768",
+      "input_sha256": "7bac2436e315273181d0bd2f0789b3ac8018c160dd8f6f190b412fe2ee9c5775",
+      "gold": "respondent_argument",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "joined-58201-58203",
+      "case": "6697",
+      "input_sha256": "3663ede753802cd187216945c8dc8488e811ebb8d9ee1348fb82cbad9923dc90",
+      "gold": "respondent_argument",
+      "predictions": {
+        "Gemini Decisions": "petitioner_argument",
+        "archived InLegalBERT excerpt MLP": "petitioner_argument",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "joined-17661-17662",
+      "case": "6508",
+      "input_sha256": "3856ef39d32bdaf84fc2b2251327109e69ce533a36a0c32e41b4fe6df9ee8219",
+      "gold": "respondent_argument",
+      "predictions": {
+        "Gemini Decisions": "respondent_argument",
+        "archived InLegalBERT excerpt MLP": "petitioner_argument",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "joined-109366-109367",
+      "case": "6936",
+      "input_sha256": "62fb8768308616bbcd7c62d97d1a24507a7433e92ae7746b343ea79d457d1228",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "joined-86944-86945",
+      "case": "6828",
+      "input_sha256": "072222e7fbf4a29b7ad8a3b322a07d9162b3f7d8c582547859e7a61ad73150a0",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "joined-39697-39698",
+      "case": "6610",
+      "input_sha256": "998e1e7dac82b1975d348b0665969a80a6333f5c13ffc91413df4e8695e8ed03",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "issue",
+        "archived InLegalBERT excerpt MLP": "none",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "joined-22267-22268",
+      "case": "6532",
+      "input_sha256": "2fe910a240abbb977d97a580d0437e00fa65b475fa6b6c4785bda2d4d1ef0737",
+      "gold": "reasoning",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "joined-17612-17613",
+      "case": "6507",
+      "input_sha256": "232c6df938854991b82d18c3630e2ff251f90947e7567e110b8e7db50a8685ee",
+      "gold": "decision",
+      "predictions": {
+        "Gemini Decisions": "decision",
+        "archived InLegalBERT excerpt MLP": "decision",
+        "source": "decision",
+        "document-prior": "none",
+        "retention": "decision",
+        "retention-prior": "decision",
+        "current-20-percent": "decision"
+      }
+    },
+    {
+      "id": "joined-75255-75256",
+      "case": "6771",
+      "input_sha256": "07f72aa3a3592d56fcecb10e7af31192d9a9ad0e35d7f247deee34b73b9f7a89",
+      "gold": "decision",
+      "predictions": {
+        "Gemini Decisions": "decision",
+        "archived InLegalBERT excerpt MLP": "decision",
+        "source": "decision",
+        "document-prior": "decision",
+        "retention": "decision",
+        "retention-prior": "decision",
+        "current-20-percent": "decision"
+      }
+    },
+    {
+      "id": "joined-1279-1281",
+      "case": "6418",
+      "input_sha256": "f8ab7238a66d45f6ab3d1279070ffed7edae7bfad4a8f2bf3a0012e82279263a",
+      "gold": "decision",
+      "predictions": {
+        "Gemini Decisions": "reasoning",
+        "archived InLegalBERT excerpt MLP": "reasoning",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "none"
+      }
+    },
+    {
+      "id": "joined-146839-146841",
+      "case": "7104",
+      "input_sha256": "629c55cb09a03a3949778d38a5b849a460988e75f14a1858f9dcec23fed8eb6a",
+      "gold": "decision",
+      "predictions": {
+        "Gemini Decisions": "decision",
+        "archived InLegalBERT excerpt MLP": "decision",
+        "source": "none",
+        "document-prior": "none",
+        "retention": "none",
+        "retention-prior": "none",
+        "current-20-percent": "decision"
+      }
+    }
+  ]
+}

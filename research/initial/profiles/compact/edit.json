@@ -1,0 +1,58 @@
+{
+  "profile": "compact",
+  "source_url": "https://huggingface.co/L-NLProc/LegalSeg_InLegalBERT/resolve/44d7925e5ab422ecf04acd5dcbb0b62a6f8d8f53/InLegalBERT/InLegalBERT(i)model.safetensors",
+  "source_sha256": "bbe8af20d1524c7535b1cbe68c6d4c3c844c6cc9fccef46c03c9ff56e7c18cea",
+  "target_sha256": "64ca064fb2faefc250afe73ba88fb86da36a3bafdca5676cb7a8c7f2a8727e75",
+  "head_sha256": "7a9b1a864bf3955c106dcb9d076741904275ebd6281ca572ccd93cdc2a23a788",
+  "parameters": 109487623,
+  "fp32_checkpoint_bytes": 437974028,
+  "head_scalars": 5383,
+  "replacement_keys": [
+    "classifier.weight",
+    "classifier.bias"
+  ],
+  "labels": [
+    "none",
+    "facts",
+    "issue",
+    "petitioner_argument",
+    "respondent_argument",
+    "reasoning",
+    "decision"
+  ],
+  "sequence": true,
+  "source_edit": {
+    "method": "Analytical low-rank key-to-logit correction to the frozen parent head",
+    "parent_sha256": "0a32fe939d96384c3cf3d879e5cfbce76c67172a8f3920961a99df3ba65b7edf",
+    "target_sha256": "64ca064fb2faefc250afe73ba88fb86da36a3bafdca5676cb7a8c7f2a8727e75",
+    "role_keys": 84,
+    "selected_margin": 1.5,
+    "selected_damping": 0.5,
+    "changes": {
+      "classifier.weight": {
+        "shape": [
+          7,
+          768
+        ],
+        "changed": 5376
+      },
+      "classifier.bias": {
+        "shape": [
+          7
+        ],
+        "changed": 7
+      }
+    },
+    "labels": [
+      "none",
+      "facts",
+      "issue",
+      "petitioner_argument",
+      "respondent_argument",
+      "reasoning",
+      "decision"
+    ],
+    "gradient_steps": 0,
+    "teacher_outputs_used": false
+  }
+}

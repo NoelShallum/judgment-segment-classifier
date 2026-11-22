@@ -1,0 +1,20 @@
+{
+  "checkpoint": {
+    "repo": "ggml-org/embeddinggemma-2-GGUF",
+    "revision": "6ea3e3a309d12a4779cfda98b8c19800d2d5da71",
+    "file": "embeddinggemma-2-Q8_0.gguf",
+    "bytes": 309855456,
+    "sha256": "2188ac1deca4b77dffefd603c2776a9d76d9d74ec01841392982ebb840b09135"
+  },
+  "runtime": "version: 0.8.0-dev (build 11960, commit 8642541b2)\nbuilt with GNU 11.4.0 for Linux x86_64",
+  "cpu_threads": 3,
+  "output_dims": 768,
+  "startup_seconds": 6.027919585998461,
+  "min_batched_singleton_cosine": 1.0,
+  "median_seconds": {
+    "1": 0.2764606550044846,
+    "5": 1.2870118589999038
+  },
+  "prompt": "task: classification | query: ",
+  "evaluation": "synthetic CPU functionality probe"
+}

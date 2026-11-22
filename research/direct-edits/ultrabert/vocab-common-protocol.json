@@ -1,0 +1,8 @@
+{
+  "label": "separate prospectively registered native input-embedding lexical skip experiment",
+  "source": "vocab.py",
+  "source_sha256": "a79ee08cf03812e9cd053f5b50cb28394126641f7e101c105ef066e4b9eb8962",
+  "ledger": "No official validation predictions or outcomes for any UltraBERT candidate were viewed when this protocol was written.",
+  "primary": "Highest macro F1 on the six train-derived selection judgments between already-defined text-only and structured input-embedding writes. Compare matched zero, independently optimized native embedding projection, equal-norm row-shuffle, and the frozen Attoflow 20% BERT referral route with its incumbent pooler on the exact same shared 16 judgments. Secondary modes reported separately. No official-test evaluation.",
+  "manifest_sha256": "86c94b34849ec0afa6c58fa3dac911b068465cd1dd855aa5c3ce953471797957"
+}

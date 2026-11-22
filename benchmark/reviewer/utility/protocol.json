@@ -1,0 +1,29 @@
+{
+  "case_plan_sha256": "17ea9e1692167665a4f2b19ba924b9acd2c07d27014b8918ba279732579057e3",
+  "pool_receipt_sha256": "e94b3bd484fd7611e467d1a13b2014feaaffb99fb9486ce1c57111d4c74825c2",
+  "incumbent_head_sha256": "e70462f5a9bd376efdab223ebee4ffc855877ea7bd159a394bb240e379a703c3",
+  "rule": [
+    1.0,
+    0.16,
+    true
+  ],
+  "methods": [
+    "decoder projection",
+    "rare-role decoder projection",
+    "both-directions F1 residual"
+  ],
+  "ridge": [
+    0.04,
+    0.2,
+    1.0
+  ],
+  "gains": [
+    0.2,
+    0.5,
+    0.8,
+    1.2
+  ],
+  "gradient_steps": 0,
+  "protocol": "Fit target changes in the exact raw reviewer output. Project each wrong row toward its gold label until original margin/veto or a predeclared cap; derive F1 corrections from the training confusion only. Freeze on 48 selector cases, score 72 and 96 case-disjoint previously examined validation cases. No official test access.",
+  "control": "Shuffle target labels within baseline predictions and match checkpoint delta norm. Keep every non-review position fixed."
+}

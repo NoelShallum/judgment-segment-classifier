@@ -1,0 +1,18 @@
+{
+  "model": {
+    "repo": "L-NLProc/LegalSeg_InLegalBERT",
+    "revision": "44d7925e5ab422ecf04acd5dcbb0b62a6f8d8f53",
+    "path": "InLegalBERT/InLegalBERT(i)model.safetensors",
+    "sha256": "bbe8af20d1524c7535b1cbe68c6d4c3c844c6cc9fccef46c03c9ff56e7c18cea"
+  },
+  "existing_head_sha256": "e70462f5a9bd376efdab223ebee4ffc855877ea7bd159a394bb240e379a703c3",
+  "rule": [
+    1.0,
+    0.16,
+    true
+  ],
+  "mode": "hidden",
+  "max_tokens": 96,
+  "rate": 0.2,
+  "protocol_sha256": "0695f31f7dd7e2171863444d31068dd481f4d0c9a03a534ffaec8efe94fbbc6e"
+}

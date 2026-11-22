@@ -1,0 +1,19 @@
+{
+  "primary_plan": "b119ce3ee5e4a51a27f8c3e7fd90584c6bf8982193de5c31b9bde1072c1ff777",
+  "estimator": "Spherical-shrinkage linear discriminant using each class count, native hidden mean and pooled within-class covariance.",
+  "shrinkage": [
+    0.04,
+    0.3
+  ],
+  "log_prior_weight": [
+    0.0,
+    1.0
+  ],
+  "native_mixture": [
+    0.25,
+    0.6,
+    1.0
+  ],
+  "control_only": "Distinct generative native readout using the same class-conditional Gram matrices. Secondary only; kept out of primary selection and official-gate decisions.",
+  "registration": "Before any corpus-scale train-side calibration or external validation output."
+}

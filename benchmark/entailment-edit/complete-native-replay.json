@@ -1,0 +1,17 @@
+{
+  "select": {
+    "decisions_verified": 7942,
+    "routed": 575,
+    "nli_pairs": 4025
+  },
+  "confirm": {
+    "decisions_verified": 14879,
+    "routed": 917,
+    "nli_pairs": 6419
+  },
+  "fresh": {
+    "decisions_verified": 22400,
+    "routed": 1267,
+    "nli_pairs": 8869
+  }
+}

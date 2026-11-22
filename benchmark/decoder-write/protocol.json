@@ -1,0 +1,7 @@
+{
+ "source": "Released 1378 by 7 document role-weight matrix, with fixed original basis and confidence anchor",
+ "fit": "512 additional official train judgments with the exact old model reevaluated on the T4, aligned to both contextual encoder streams",
+ "edits": "Direct closed-form residual solve against seven human score targets, or a bounded pairwise score-margin correction on mistakes. Test both full seven-column and None/Reasoning-column support. Matched-norm permuted residual control.",
+ "selection": "48 selector judgments, equally weighted full and lexical-unmatched macro-F1. Do not increase swaps on either selector slice. Identity eligible.",
+ "promotion": "After the weight lock, require improved macro-F1 and fewer None/Reasoning swaps versus doc-semantic in both independent 72- and 96-case validation panels before exposing this family's official score."
+}

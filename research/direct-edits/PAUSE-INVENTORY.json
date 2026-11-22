@@ -1,0 +1,249 @@
+{
+  "as_of": "2026-11-22T09:44:47Z",
+  "research_goal": "paused",
+  "interrupted_subagents": [
+    "hierarchy_live",
+    "bert_t4_live",
+    "ultrabert_live",
+    "decision_live",
+    "boundary_live"
+  ],
+  "compute": {
+    "gpu_policy": "NVIDIA T4 only for any resumed GPU work",
+    "colab": {
+      "session": "attoflow-roles-t4",
+      "ended": true,
+      "session_list_checked": true,
+      "utc": "2026-11-22T09:44:47Z"
+    },
+    "local": "Remaining registered research process groups suspended at the operating-system level. No training, inference or scoring is active.",
+    "snapshots": {
+      "ultrabert": {
+        "bytes": 258979840,
+        "files": 141,
+        "sha256": "8dd219a467437c4cf86da33dee7875352971a9c7257ac29f85392cdb36ff693e"
+      },
+      "glide": {
+        "bytes": 1260544000,
+        "files": 572,
+        "sha256": "60027519ac0d3f65663b8925f9f3a97b0d32b51b4638b04b0935295a28a35318"
+      }
+    }
+  },
+  "scope": "Seven-way multiclass classification and labeled spans, English-language Indian judgments.",
+  "current_full_official_test": {
+    "rows": 149868,
+    "cases": 712,
+    "metric": "sentence macro-F1",
+    "current": 0.6439163434451753,
+    "published_rounded": 0.77
+  },
+  "paths_relative_to": "work/judgment-role/live-nov22",
+  "tracks": {
+    "LegalSeg hierarchy": {
+      "status": "Full 4,984-case output heads frozen. The registered 72-judgment validation remains outstanding.",
+      "input": "Complete ordered judgment with supplied sentence boundaries.",
+      "next": "Score full heads and the equal-role/LDA controls, then separately test the class-covariance quadratic versus a linear and role-permuted comparator on the independent 48.",
+      "implementation_files": [
+        "hierarchy/scale_validate.py",
+        "hierarchy/scale_program.py",
+        "hierarchy/scale_quadratic.py"
+      ],
+      "artifacts": [
+        {
+          "path": "hierarchy/scale/freeze.json",
+          "bytes": 508,
+          "sha256": "6f7144d4707c8e42b2d2b592db33692ce20d8221f4419a68404a42c8d2ea154b"
+        },
+        {
+          "path": "hierarchy/scale/final-heads.safetensors",
+          "bytes": 11408,
+          "sha256": "c6c8eb2858e1b81876e17e7beeb9b4c9a724b9e04880e1b6cceef705795151b0"
+        },
+        {
+          "path": "hierarchy/scale/plan.json",
+          "bytes": 51486,
+          "sha256": "b119ce3ee5e4a51a27f8c3e7fd90584c6bf8982193de5c31b9bde1072c1ff777"
+        },
+        {
+          "path": "hierarchy/scale/equal-role-control-plan.json",
+          "bytes": 665,
+          "sha256": "7a94e6b7e4267fced67f24dfa7b7af2adaf2c7e43963de4074b89eb5cba913b6"
+        },
+        {
+          "path": "hierarchy/scale/lda-control-plan.json",
+          "bytes": 644,
+          "sha256": "cd7d1cc3d79323f838139921c7e230bba004a5f49df7eecb9f2184f4ad57ae58"
+        },
+        {
+          "path": "hierarchy/scale/quadratic/plan.json",
+          "bytes": 2246,
+          "sha256": "f826ed7e1fe5ddab4a19cdb10454545a03b3b98c2273a7896128b67280c2b611"
+        },
+        {
+          "path": "hierarchy/uniform-retention-test-score.json",
+          "bytes": 11306,
+          "sha256": "b8b1a420b5a46684c9888dd7480e159ae7fc375adcc00f644d08448bba0f27eb"
+        },
+        {
+          "path": "priors/composition-test.json",
+          "bytes": 11858,
+          "sha256": "6beef290ffebeb77e43d41860b060530a706203f3896eb9a7091d2e9373d6d75"
+        },
+        {
+          "path": "transitions/confirm.json",
+          "bytes": 4546,
+          "sha256": "d38318e2093ef88c142d8c80e9a06336ccebeb30e4aa5657940c11502e30f362"
+        }
+      ]
+    },
+    "InLegalBERT routed reviewer": {
+      "status": "Pooler and isolated MLP edits benchmarked. The native attention value write is a design, with no fitted artifact.",
+      "input": "Target and up to two preceding sentences, positions selected by the existing 20% reviewer.",
+      "next": "Implement a T4-only read/write worker for bert.encoder.layer.11.attention.self.value.weight and bias; use 384 train judgments and separate selection/confirmation.",
+      "existing_reviewer_entrypoint": "../predict_wide_bert_review.py",
+      "artifacts": [
+        {
+          "path": "pooler/freeze.json",
+          "bytes": 10023,
+          "sha256": "fe82bf3f411e158ed73454a51de9778e08dcdf68bc061bb7381e33891d203d86"
+        },
+        {
+          "path": "pooler/shared-48.json",
+          "bytes": 3235,
+          "sha256": "fc1eefb820aab8d7f74d3b285222a284754f3ddecd716d71085eb03070d9df68"
+        },
+        {
+          "path": "pooler/native-parity.json",
+          "bytes": 643,
+          "sha256": "43388c4bea67fd63c89f9bd839da12e25ed12f952b2f078af1738e84ae732dbe"
+        },
+        {
+          "path": "gemini/results.json",
+          "bytes": 20431,
+          "sha256": "5613c1fe117fa3e8f023636cc828ae24cfd1e7e347248ce689a285d50670def5"
+        },
+        {
+          "path": "gemini/passage-results.json",
+          "bytes": 10150,
+          "sha256": "ea37e75c9ff3be4fa9c2d7b916872029be78c870ccfc93d19334202a10d1c029"
+        }
+      ]
+    },
+    "UltraBERT": {
+      "status": "Fresh T4 experiment completed on all 48 training-side and 16 official validation judgments. The independently optimized native head beat the rank-two internal write.",
+      "next": "Reuse saved features for transition/duration decoding, layer-12 or layer-24 ablations, and fixed-token-budget context controls.",
+      "implementation_files": [
+        "ultrabert/context-scale/structured.py",
+        "ultrabert/context-scale/joint_scale.py",
+        "ultrabert/middle.py"
+      ],
+      "artifacts": [
+        {
+          "path": "ultrabert/context-scale/attoflow-ultrabert-t4-results.zip",
+          "bytes": 3093387,
+          "sha256": "34177521a438c00437a7f976152f1e39c78689a81d6bc4f5c5cbf262d81c91be"
+        },
+        {
+          "path": "ultrabert/context-scale/ultrabert-t4-worker-v2.zip",
+          "bytes": 1650552,
+          "sha256": "9fca5fea170059eea547efc6cf2f2f8c7d403c0ace83d45009576b5b2e763afc"
+        },
+        {
+          "path": "ultrabert/context-ablation-8/report.json",
+          "bytes": 8843,
+          "sha256": "a7f431b325736a493912689d3b4a3e7bce02bdaba1ba248c71594b145122062c"
+        },
+        {
+          "path": "ultrabert/sentence-vocab/extended-report.json",
+          "bytes": 8556,
+          "sha256": "1ed5e465483257b2cf5e11a57714b7fef80cec600618aaf39d4d4a0976670456"
+        }
+      ]
+    },
+    "GLiDE": {
+      "status": "T4 target-word/cue runs completed. The training-only final attention diagnosis and raw per-token states were archived. The query rewrite is proposed.",
+      "next": "If the training attention evidence supports it, freeze a rank-constrained Q-only change; evaluate unchanged, shuffled and targeted projections on identical cases, then replicate.",
+      "implementation_files": [
+        "decision/attention_write.py",
+        "decision/attention_eval.py",
+        "decision/joint_content.py"
+      ],
+      "artifacts": [
+        {
+          "path": "decision/content-T4/verified.json",
+          "bytes": 3403,
+          "sha256": "45f9359043497ae46f341960d02b6445db5b185fdefc4c06d4bf8998d5e07bcc"
+        },
+        {
+          "path": "decision/readout-study/joint-context-cue/validation.json",
+          "bytes": 3210,
+          "sha256": "35bac6ad861a13656422e9c7c800c5a29e8c0a00bbd2e205c3a1ea3572e1f2fb"
+        },
+        {
+          "path": "decision/attention-plan.json",
+          "bytes": 2955,
+          "sha256": "6f3645476d216242a52bc1157da302d9ace8760a9128ecd909a853692c9d4ef6"
+        },
+        {
+          "path": "t4/glide-training-diagnostic.zip",
+          "bytes": 2136,
+          "sha256": "b3a30bd344a1b71291054a9274842b291381c35d97c3d86bd4a0938f815c05d6"
+        },
+        {
+          "path": "decision/glide-t4-control-scoring.zip",
+          "bytes": 484424,
+          "sha256": "8d2e3b79217515f2b0673b2028d123d0aebdb4dc86db9d4c637175e71d00c0e1"
+        }
+      ]
+    },
+    "GLiNER2.5 Small": {
+      "status": "Three native span tensors frozen and verified. Paired scores exist for four complete shared validation judgments. Eight of 16 full-case validation feature files were saved locally.",
+      "next": "Finish feature collection for the remaining cases and score the frozen model. If short-run recall improves, measure boundary proposals with the existing decoder, then raw offsets.",
+      "implementation_files": [
+        "boundary/collect.py",
+        "boundary/score.py",
+        "boundary/verify_edits.py"
+      ],
+      "artifacts": [
+        {
+          "path": "boundary/protocol.json",
+          "bytes": 2403,
+          "sha256": "774935ce7a811363514d5d1703840aaba8372bd30833168362fb0b50034cc6ac"
+        },
+        {
+          "path": "boundary/results/freeze.json",
+          "bytes": 16627,
+          "sha256": "220d0cd34d5a73230366fe47e9b83cb42ad2660e3d8e7ce2d2dbd1c53d7363c9"
+        },
+        {
+          "path": "boundary/results/edit-replacement.safetensors",
+          "bytes": 328080,
+          "sha256": "8527157f2f6f3a7614c29f5b80259b7d38cf6c9f8f1e96199a021e35180fe6f1"
+        },
+        {
+          "path": "boundary/results/forward-parity.json",
+          "bytes": 1360,
+          "sha256": "117f43e7f7cc47ca01e1d69546f9129dc824446380eee9f28ca4ec5236f70485"
+        },
+        {
+          "path": "boundary/results/four.json",
+          "bytes": 15126,
+          "sha256": "0e62ea941f46f8dd898b237ffdacab1ba46c199bb70b157edf8ad671157db333"
+        },
+        {
+          "path": "boundary/results/publisher-classify-64.json",
+          "bytes": 12292,
+          "sha256": "5af8bed7ae9ea08b8490b1df033a7a9daa1da0e105beadd50c47747582cb33c4"
+        }
+      ]
+    }
+  },
+  "reserve_models": [
+    "Karpo Decision 0.8B",
+    "Perplexity contextual embedder 0.6B",
+    "UltraBERT-380M"
+  ],
+  "future_approval": "The user requested a pause. The plan and inventory do not launch any research.",
+  "raw_checkpoint_notes": "The workspace holds the full local archived feature tar files. Their SHA-256 digests and counts are listed here. The distribution bundle includes runnable models, compact patches, scores and receipts."
+}

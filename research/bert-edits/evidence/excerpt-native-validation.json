@@ -1,0 +1,135 @@
+{
+  "classifier_only_balanced": {
+    "checkpoint_sha256": "2b197fdc2c0c7fa649b39f268530cb9e791b4cfe93559208a1cefd9c9a637685",
+    "native_tensor_receipts": {
+      "classifier.bias": {
+        "shape": [
+          7
+        ],
+        "changed": 7
+      },
+      "classifier.weight": {
+        "shape": [
+          7,
+          768
+        ],
+        "changed": 5376
+      }
+    },
+    "changed_tensors_byte_audit": {
+      "classifier.bias": {
+        "bytes": 28,
+        "source_sha256": "72b742d8dfffbad8b5915d7cfa904f1521a1f2daaf0b13f31f1fed12ce4cba44",
+        "edited_sha256": "c83f968b5e9f4634ab62e149d55cdee4565d8c826126934844bd9c2d49c243c1"
+      },
+      "classifier.weight": {
+        "bytes": 21504,
+        "source_sha256": "f2ddb8e2169f25ad873aa7eab2b365c2c301447a69b414b37db91a813bf0032f",
+        "edited_sha256": "bf685a671e31a9d446919f7365be78017e574fc313ead84ea236300eb08b25b8"
+      }
+    },
+    "native_checkpoint_forward_rows": 14,
+    "matching_window_labels": 14,
+    "max_cpu_vs_t4_cache_logit_error": 2.8014183044433594e-06,
+    "validation_row_ids": [
+      "val-622",
+      "val-638",
+      "val-669",
+      "val-674",
+      "val-682",
+      "val-684",
+      "val-720",
+      "val-725",
+      "val-1271",
+      "val-1530",
+      "val-1538",
+      "val-1572",
+      "val-5269",
+      "val-8309"
+    ]
+  },
+  "combined_balanced": {
+    "checkpoint_sha256": "9c33245af888896ef1939af76faee807c908145efbefce40cd0fee1b9d7ec058",
+    "native_tensor_receipts": {
+      "bert.encoder.layer.11.intermediate.dense.weight": {
+        "shape": [
+          3072,
+          768
+        ],
+        "changed": 86016
+      },
+      "bert.encoder.layer.11.intermediate.dense.bias": {
+        "shape": [
+          3072
+        ],
+        "changed": 112
+      },
+      "bert.encoder.layer.11.output.dense.weight": {
+        "shape": [
+          768,
+          3072
+        ],
+        "changed": 86016
+      },
+      "classifier.bias": {
+        "shape": [
+          7
+        ],
+        "changed": 7
+      },
+      "classifier.weight": {
+        "shape": [
+          7,
+          768
+        ],
+        "changed": 5376
+      }
+    },
+    "changed_tensors_byte_audit": {
+      "bert.encoder.layer.11.intermediate.dense.bias": {
+        "bytes": 12288,
+        "source_sha256": "1ce6ad81171da5e89f04c7b725c965815a4c464f3fe44784009d16bc24ed5ac6",
+        "edited_sha256": "b159f1974d21459b33c6cf77b39794c2eee55c94fab4d8cd902759bb74d8af8f"
+      },
+      "bert.encoder.layer.11.intermediate.dense.weight": {
+        "bytes": 9437184,
+        "source_sha256": "197869346d32cb61b3d7e341ce49fa34d6981258cb88ff41a4276459bdca80ac",
+        "edited_sha256": "e65415346ec23384d877b93ac31287994f35d0f70eae51c97bdac358a230b866"
+      },
+      "bert.encoder.layer.11.output.dense.weight": {
+        "bytes": 9437184,
+        "source_sha256": "931467275d4162d06b14e3f124e07b1afc01ee7feaf581296f181e6a9aef634c",
+        "edited_sha256": "d1112caadc668018c59c85fbcb82f9f1ee2e7dd383e2bb3f090bd124a6bcc346"
+      },
+      "classifier.bias": {
+        "bytes": 28,
+        "source_sha256": "72b742d8dfffbad8b5915d7cfa904f1521a1f2daaf0b13f31f1fed12ce4cba44",
+        "edited_sha256": "98decc062a1c6f45abf963e59d4efaf90ce906d40728b5c0d69381b272f6c97a"
+      },
+      "classifier.weight": {
+        "bytes": 21504,
+        "source_sha256": "f2ddb8e2169f25ad873aa7eab2b365c2c301447a69b414b37db91a813bf0032f",
+        "edited_sha256": "8247dba069db44c4910c2cf30816ed76db39f7e807125620694d4d6e917d8bdd"
+      }
+    },
+    "native_checkpoint_forward_rows": 14,
+    "matching_window_labels": 14,
+    "max_cpu_vs_t4_cache_logit_error": 4.112720489501953e-06,
+    "validation_row_ids": [
+      "val-622",
+      "val-638",
+      "val-669",
+      "val-674",
+      "val-682",
+      "val-684",
+      "val-720",
+      "val-725",
+      "val-1271",
+      "val-1530",
+      "val-1538",
+      "val-1572",
+      "val-5269",
+      "val-8309"
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "diagnostic": "Adaptive three-training-fold selection on matched output scores from two pre-existing directly written heads, gradient-free; no shared validation labels select the weight.",
+  "fit_rows": 357,
+  "fit_fold_grouped_by_judgment": {
+    "2750": 0,
+    "1504": 1,
+    "474": 2,
+    "4063": 0,
+    "838": 1,
+    "3532": 2,
+    "4128": 0,
+    "2299": 1,
+    "4623": 2,
+    "416": 0,
+    "624": 1,
+    "283": 2
+  },
+  "grid": {
+    "0.0": {
+      "macro_f1": 0.28335410022741564,
+      "accuracy": 0.2969187675070028
+    },
+    "0.25": {
+      "macro_f1": 0.3258609602660791,
+      "accuracy": 0.34173669467787116
+    },
+    "0.5": {
+      "macro_f1": 0.3968284475633981,
+      "accuracy": 0.42016806722689076
+    },
+    "0.75": {
+      "macro_f1": 0.425289053186163,
+      "accuracy": 0.44537815126050423
+    },
+    "1.0": {
+      "macro_f1": 0.38695491851556413,
+      "accuracy": 0.41456582633053224
+    }
+  },
+  "cue_fraction": 0.75,
+  "scales": [
+    0.5805105566978455,
+    0.8643975853919983
+  ],
+  "source_checkpoints": {
+    "cue": "d10551d092ec02bdaaa539eb09be110369897bf124cda280b3c30c3ca15e2a20",
+    "target_tokens": "0d1dcb78c6c81830b671703d33803f761bd430133350820e9ae84b2fcee1437c"
+  }
+}

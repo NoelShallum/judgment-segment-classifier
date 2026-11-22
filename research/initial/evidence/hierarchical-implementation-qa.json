@@ -1,0 +1,41 @@
+{
+  "upstream_parity": {
+    "cases": 4,
+    "rows": 376,
+    "zero_state_different_labels": 0,
+    "max_emission_difference": 9.5367431640625e-07,
+    "native_stochastic_seed_42_same_labels": 349
+  },
+  "span_forward_replay": [
+    {
+      "profile": "hier",
+      "exactly_replayed": 12
+    },
+    {
+      "profile": "fragment",
+      "exactly_replayed": 12
+    }
+  ],
+  "excerpt_forward_replay": [
+    {
+      "cohort": "pilot",
+      "matching_exported_labels": 112
+    },
+    {
+      "cohort": "confirmation",
+      "matching_exported_labels": 196
+    },
+    {
+      "cohort": "paragraphs",
+      "matching_exported_labels": 21
+    },
+    {
+      "cohort": "homogeneous",
+      "matching_exported_labels": 28
+    }
+  ],
+  "unicode_coverage": true,
+  "laptop": "Intel Core i5-8250U, CPU FP32, one PyTorch thread. Concurrent benchmark jobs were running. Warm overhead includes tokenization and inference but excludes loading.",
+  "median_warm_ms_20": 27.466429501146195,
+  "p95_warm_ms_20": 52.26124170003461
+}

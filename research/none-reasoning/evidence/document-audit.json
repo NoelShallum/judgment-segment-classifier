@@ -1,0 +1,213 @@
+{
+  "source_sha256": "7d0f114a065800f5ec88f24b8a6c99c0f624ec30982f55f773dc0424b2264533",
+  "frozen_sha256": "d8da8ed866d28db74709111bb02cc72cbb6c32a8c67c63565703bb54775b5d53",
+  "note": "The targeted heads were selected on standalone sentences. This whole-judgment replay reuses validation cases, including 39 judgments represented in the selector. The sensitivity subset excludes those judgments and retains other previously inspected cases.",
+  "judgments": 96,
+  "sentences": 22400,
+  "bootstrap": "4,000 paired resamples by judgment",
+  "scores": {
+    "donor-baseline": {
+      "macro_f1": 0.6882702969952071,
+      "accuracy": 0.7094196428571429,
+      "per_role_f1": {
+        "None": 0.7301423560965545,
+        "Facts": 0.7964939024390244,
+        "Issue": 0.5936395759717314,
+        "Petitioner argument": 0.7241035856573705,
+        "Respondent argument": 0.6502463054187192,
+        "Reasoning": 0.6111742228648146,
+        "Decision": 0.7120921305182342
+      },
+      "none_to_reasoning": 1208,
+      "reasoning_to_none": 1868,
+      "changed_vs_current": 0,
+      "corrected_vs_current": 0,
+      "new_errors_vs_current": 0,
+      "reference": "donor-baseline",
+      "paired_macro_f1_delta_ci95": [
+        0.0,
+        0.0
+      ],
+      "paired_accuracy_delta_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    "donor-targeted": {
+      "macro_f1": 0.6880321341261233,
+      "accuracy": 0.709375,
+      "per_role_f1": {
+        "None": 0.7300964862494196,
+        "Facts": 0.7964939024390244,
+        "Issue": 0.5936395759717314,
+        "Petitioner argument": 0.7247386759581882,
+        "Respondent argument": 0.6499552372426142,
+        "Reasoning": 0.6111283163001962,
+        "Decision": 0.710172744721689
+      },
+      "none_to_reasoning": 1210,
+      "reasoning_to_none": 1867,
+      "changed_vs_current": 8,
+      "corrected_vs_current": 3,
+      "new_errors_vs_current": 4,
+      "reference": "donor-baseline",
+      "paired_macro_f1_delta_ci95": [
+        -0.0007100017726753393,
+        0.00011464440565785164
+      ],
+      "paired_accuracy_delta_ci95": [
+        -0.00025507224546967856,
+        0.00014862250730786344
+      ]
+    },
+    "donor-shuffled": {
+      "macro_f1": 0.6880688817982781,
+      "accuracy": 0.7094642857142858,
+      "per_role_f1": {
+        "None": 0.7302275189599133,
+        "Facts": 0.7964939024390244,
+        "Issue": 0.5936395759717314,
+        "Petitioner argument": 0.7247386759581882,
+        "Respondent argument": 0.6499552372426142,
+        "Reasoning": 0.6112545172947857,
+        "Decision": 0.710172744721689
+      },
+      "none_to_reasoning": 1208,
+      "reasoning_to_none": 1867,
+      "changed_vs_current": 6,
+      "corrected_vs_current": 3,
+      "new_errors_vs_current": 2,
+      "reference": "donor-baseline",
+      "paired_macro_f1_delta_ci95": [
+        -0.0006917456461968619,
+        0.00015302232063506285
+      ],
+      "paired_accuracy_delta_ci95": [
+        -0.00016414442662412155,
+        0.0002297277037361934
+      ]
+    },
+    "neurons28-baseline": {
+      "macro_f1": 0.6879269028676431,
+      "accuracy": 0.7059821428571429,
+      "per_role_f1": {
+        "None": 0.7248244178064107,
+        "Facts": 0.7954140127388535,
+        "Issue": 0.6010362694300518,
+        "Petitioner argument": 0.7265063228365981,
+        "Respondent argument": 0.6496644295302013,
+        "Reasoning": 0.6114901611786809,
+        "Decision": 0.7065527065527065
+      },
+      "none_to_reasoning": 1420,
+      "reasoning_to_none": 1728,
+      "changed_vs_current": 513,
+      "corrected_vs_current": 164,
+      "new_errors_vs_current": 241,
+      "reference": "neurons28-baseline",
+      "paired_macro_f1_delta_ci95": [
+        0.0,
+        0.0
+      ],
+      "paired_accuracy_delta_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    "neurons28-targeted": {
+      "macro_f1": 0.6879269028676431,
+      "accuracy": 0.7059821428571429,
+      "per_role_f1": {
+        "None": 0.7248244178064107,
+        "Facts": 0.7954140127388535,
+        "Issue": 0.6010362694300518,
+        "Petitioner argument": 0.7265063228365981,
+        "Respondent argument": 0.6496644295302013,
+        "Reasoning": 0.6114901611786809,
+        "Decision": 0.7065527065527065
+      },
+      "none_to_reasoning": 1420,
+      "reasoning_to_none": 1728,
+      "changed_vs_current": 513,
+      "corrected_vs_current": 164,
+      "new_errors_vs_current": 241,
+      "reference": "neurons28-baseline",
+      "paired_macro_f1_delta_ci95": [
+        0.0,
+        0.0
+      ],
+      "paired_accuracy_delta_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    "neurons28-shuffled": {
+      "macro_f1": 0.6879300740371459,
+      "accuracy": 0.7059821428571429,
+      "per_role_f1": {
+        "None": 0.7247861442602176,
+        "Facts": 0.7954140127388535,
+        "Issue": 0.6010362694300518,
+        "Petitioner argument": 0.7265063228365981,
+        "Respondent argument": 0.6496644295302013,
+        "Reasoning": 0.6115506329113924,
+        "Decision": 0.7065527065527065
+      },
+      "none_to_reasoning": 1420,
+      "reasoning_to_none": 1728,
+      "changed_vs_current": 512,
+      "corrected_vs_current": 164,
+      "new_errors_vs_current": 241,
+      "reference": "neurons28-baseline",
+      "paired_macro_f1_delta_ci95": [
+        0.0,
+        1.1266276964963519e-05
+      ],
+      "paired_accuracy_delta_ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "excluding_selector_judgments": {
+    "judgments": 57,
+    "scores": {
+      "donor-baseline": {
+        "macro_f1": 0.6982202537236409,
+        "accuracy": 0.7268218489617776,
+        "none_to_reasoning": 864,
+        "reasoning_to_none": 1149
+      },
+      "donor-targeted": {
+        "macro_f1": 0.6977750041509408,
+        "accuracy": 0.7267557201428383,
+        "none_to_reasoning": 865,
+        "reasoning_to_none": 1148
+      },
+      "donor-shuffled": {
+        "macro_f1": 0.6978021705458329,
+        "accuracy": 0.7268218489617776,
+        "none_to_reasoning": 864,
+        "reasoning_to_none": 1148
+      },
+      "neurons28-baseline": {
+        "macro_f1": 0.6968634910084676,
+        "accuracy": 0.7215315434466341,
+        "none_to_reasoning": 1023,
+        "reasoning_to_none": 1063
+      },
+      "neurons28-targeted": {
+        "macro_f1": 0.6968634910084676,
+        "accuracy": 0.7215315434466341,
+        "none_to_reasoning": 1023,
+        "reasoning_to_none": 1063
+      },
+      "neurons28-shuffled": {
+        "macro_f1": 0.6968688625128064,
+        "accuracy": 0.7215315434466341,
+        "none_to_reasoning": 1023,
+        "reasoning_to_none": 1063
+      }
+    }
+  }
+}

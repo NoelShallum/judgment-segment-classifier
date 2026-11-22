@@ -1,0 +1,153 @@
+{
+  "pilot": {
+    "rows": 112,
+    "cases": 98,
+    "systems": {
+      "archived_standalone": {
+        "correct": 44,
+        "accuracy": 0.39285714285714285,
+        "macro_f1": 0.3630006488988763
+      },
+      "internal_mlp": {
+        "correct": 46,
+        "accuracy": 0.4107142857142857,
+        "macro_f1": 0.40914169485598045,
+        "paired_gap_accuracy_macro_f1_ci_95": [
+          [
+            -0.07547169811320753,
+            0.11609757078507091
+          ],
+          [
+            -0.04290710407937252,
+            0.13475689698884802
+          ]
+        ]
+      },
+      "associative_direct": {
+        "correct": 45,
+        "accuracy": 0.4017857142857143,
+        "macro_f1": 0.3966286357350099,
+        "paired_gap_accuracy_macro_f1_ci_95": [
+          [
+            -0.0892857142857143,
+            0.1111111111111111
+          ],
+          [
+            -0.05455059826974026,
+            0.12089251244561341
+          ]
+        ]
+      },
+      "hier_edited": {
+        "correct": 39,
+        "accuracy": 0.3482142857142857,
+        "macro_f1": 0.35204543926866977,
+        "paired_gap_accuracy_macro_f1_ci_95": [
+          [
+            -0.13207547169811318,
+            0.0420257085885202
+          ],
+          [
+            -0.09757668276045384,
+            0.07051509797518746
+          ]
+        ]
+      },
+      "gemini": {
+        "correct": 47,
+        "accuracy": 0.41964285714285715,
+        "macro_f1": 0.388135456202683,
+        "paired_gap_accuracy_macro_f1_ci_95": [
+          [
+            -0.08333333333333331,
+            0.1401910149204788
+          ],
+          [
+            -0.08361734809821543,
+            0.12872549912247871
+          ]
+        ]
+      }
+    },
+    "eligible_cohort": 112
+  },
+  "confirmation": {
+    "rows": 194,
+    "cases": 194,
+    "systems": {
+      "archived_standalone": {
+        "correct": 94,
+        "accuracy": 0.4845360824742268,
+        "macro_f1": 0.39254583849576485
+      },
+      "internal_mlp": {
+        "correct": 85,
+        "accuracy": 0.4381443298969072,
+        "macro_f1": 0.3465364985718968,
+        "paired_gap_accuracy_macro_f1_ci_95": [
+          [
+            -0.134020618556701,
+            0.041237113402061876
+          ],
+          [
+            -0.13335541874255835,
+            0.04689033890625642
+          ]
+        ]
+      },
+      "associative_direct": {
+        "correct": 83,
+        "accuracy": 0.42783505154639173,
+        "macro_f1": 0.32786701982380256,
+        "paired_gap_accuracy_macro_f1_ci_95": [
+          [
+            -0.1391752577319587,
+            0.02590206185567059
+          ],
+          [
+            -0.14010115566045625,
+            0.015571840132707272
+          ]
+        ]
+      },
+      "hier_edited": {
+        "correct": 74,
+        "accuracy": 0.38144329896907214,
+        "macro_f1": 0.2955828277256849,
+        "paired_gap_accuracy_macro_f1_ci_95": [
+          [
+            -0.17525773195876287,
+            -0.030927835051546393
+          ],
+          [
+            -0.181149569953188,
+            -0.005640059567416717
+          ]
+        ]
+      },
+      "gemini": {
+        "correct": 85,
+        "accuracy": 0.4381443298969072,
+        "macro_f1": 0.3657498394454207,
+        "paired_gap_accuracy_macro_f1_ci_95": [
+          [
+            -0.14432989690721654,
+            0.05154639175257736
+          ],
+          [
+            -0.10320300132177132,
+            0.05490654753472454
+          ]
+        ]
+      }
+    },
+    "eligible_cohort": 196
+  },
+  "all_nonblank_standalone_archive": {
+    "rows": 149868,
+    "accuracy": 0.5324418821896603,
+    "macro_f1": 0.49112340346597455,
+    "correct": 79796
+  },
+  "protocol": "Offline comparison of previously frozen predictions. Match original CSV row ID, its gold label and the complete UTF-8 excerpt byte for byte. The authors\u2019 current-sentence prediction CSV contains only labels; we verified that all 149,881 gold rows agree in sequence. Release forecasts rely on that alignment, since text hashes are absent from the prediction file. Exclude any excerpt whose leading enumerator, formatting or text changed. The paired CIs resample whole cases."
+}

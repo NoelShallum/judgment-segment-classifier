@@ -1,0 +1,21 @@
+{
+  "source": "complete physically patched native HF checkpoint",
+  "changed_tensor": "model.layers.27.mlp.Wo.weight",
+  "gpu_precision": "f32",
+  "checks": [
+    {
+      "case": "5343",
+      "position": 28,
+      "prediction_class": 1,
+      "maximum_abs_logit_difference": 2.980232238769531e-07,
+      "agrees_with_frozen_offline_prediction": true
+    },
+    {
+      "case": "6340",
+      "position": 41,
+      "prediction_class": 4,
+      "maximum_abs_logit_difference": 7.152557373046875e-07,
+      "agrees_with_frozen_offline_prediction": true
+    }
+  ]
+}

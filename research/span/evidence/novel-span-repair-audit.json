@@ -1,0 +1,27 @@
+{
+  "cases": 712,
+  "oracle": {
+    "short": {
+      "max_f1": 0.48031184207783545,
+      "oracle_edits": 4184,
+      "matched": 11521,
+      "predicted": 19094,
+      "gold": 28879,
+      "iterations": 3
+    },
+    "all": {
+      "max_f1": 0.4970120973619006,
+      "oracle_edits": 4350,
+      "matched": 11935,
+      "predicted": 19148,
+      "gold": 28879,
+      "iterations": 3
+    }
+  },
+  "baseline_counts": [
+    7300,
+    19145,
+    28879
+  ],
+  "protocol": "Gold-assisted exact pooled F1 optimization over nonadjacent local replacements. For each trial F1, maximize additional exact matches minus half that F1 times the change in prediction count; repeat until convergence."
+}

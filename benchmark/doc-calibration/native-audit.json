@@ -1,0 +1,41 @@
+{
+  "source_decoder_sha256": "b6e436bdae6ec535085f46c7f79ed94ecf60b5d08a0b835e12f1f57922d7574d",
+  "patched_decoder_sha256": "2227207b2bfc6281a2db110adef7e0542b544655aefc2961d23c1ba4430fdb2e",
+  "changes": {
+    "scale": 0,
+    "center": 0,
+    "rbias": 0,
+    "coef": 7,
+    "shufcoef": 0,
+    "rand": 0
+  },
+  "edited_tensor_row": -1,
+  "delta": [
+    0.053302228450775146,
+    -0.0018832981586456299,
+    -0.017861980944871902,
+    -0.011802144348621368,
+    -0.01181749626994133,
+    0.006951466202735901,
+    -0.016888808459043503
+  ],
+  "decoder_affine_forward_max_abs_error": 5.960464477539063e-08,
+  "score_bank_replays": {
+    "select": {
+      "rows": 7942,
+      "prediction_sha256": "ec640fa694d799791046d07d0908d503b66c8d6bbafdbb3bc9cd3ebb217e6f9b",
+      "disagreements": 0
+    },
+    "confirm": {
+      "rows": 14879,
+      "prediction_sha256": "dc7d7748e1e66c5fce2bf6013385efe3625abafc1dcabab8a2e3c4b83272b2f7",
+      "disagreements": 0
+    },
+    "fresh": {
+      "rows": 22400,
+      "prediction_sha256": "2996e7b97e3fff68c709048b5e7d8ddf648c0482381fe60572b97a5ecefbea6e",
+      "disagreements": 0
+    }
+  },
+  "verification_scope": "Native final affine operator checked on deterministic feature rows. Complete case labels checked using exported exact parent scores and the serialized bias difference."
+}

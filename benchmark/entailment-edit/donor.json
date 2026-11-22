@@ -1,0 +1,33 @@
+{
+  "repo": "tasksource/ModernBERT-base-nli",
+  "revision": "de4ab7e77845098b7fab7f6ab9d370ddff27b19c",
+  "license": "apache-2.0",
+  "config": {
+    "architectures": [
+      "ModernBertForSequenceClassification"
+    ],
+    "id2label": {
+      "0": "entailment",
+      "1": "neutral",
+      "2": "contradiction"
+    },
+    "num_hidden_layers": 22,
+    "hidden_size": 768,
+    "num_attention_heads": 12,
+    "max_position_embeddings": 2048,
+    "reference_compile": true,
+    "classifier_bias": false,
+    "auto_map": null,
+    "model_type": "modernbert"
+  },
+  "remote_weights_sha256": "86c32c52ce38b8f26e028ca959b06daee3a5f3f6947c63258bc8695dde88a465",
+  "bytes": 598442860,
+  "verified_metadata_commit": "de4ab7e77845098b7fab7f6ab9d370ddff27b19c",
+  "file_sha256": {
+    "config.json": "f0d479a376b7deb30d5a00c14114f40b937097d0791ec20ca95e57347ae76391",
+    "tokenizer.json": "05c5c40d6a7c23400de4486f6cb365b9a858de6da81bdcbfe1aff016d2a2cc23",
+    "tokenizer_config.json": "9654072f7c873161814043cf08cb5ed72f71d0b935abcd4e267935cb34352c21",
+    "special_tokens_map.json": "ea97ecdbcc73713039d8d64dbb05e3689495c96657fbd9a18f5bed381be81049",
+    "README.md": "c1d2045f515eb23e6edee371c86b000697ad3039521933d21ff5b53b8b631fbe"
+  }
+}

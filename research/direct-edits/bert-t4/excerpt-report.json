@@ -1,0 +1,288 @@
+{
+  "panels": {
+    "balanced isolated sentences": {
+      "rows": 112,
+      "unique_cases": 98,
+      "methods": {
+        "Gemini Decisions": {
+          "correct": 47,
+          "accuracy": 0.41964285714285715,
+          "paired_accuracy_delta_vs_gemini_ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "archived InLegalBERT excerpt MLP": {
+          "correct": 46,
+          "accuracy": 0.4107142857142857,
+          "paired_accuracy_delta_vs_gemini_ci95": [
+            -0.09259259259259259,
+            0.07407407407407407
+          ]
+        },
+        "current-20-percent": {
+          "correct": 21,
+          "accuracy": 0.1875,
+          "paired_accuracy_delta_vs_gemini_ci95": [
+            -0.36036036036036034,
+            -0.10810810810810811
+          ]
+        },
+        "case model without edit": {
+          "correct": 21,
+          "accuracy": 0.1875,
+          "paired_accuracy_delta_vs_gemini_ci95": [
+            -0.36036036036036034,
+            -0.10810810810810811
+          ]
+        },
+        "targeted": {
+          "correct": 25,
+          "accuracy": 0.22321428571428573,
+          "paired_accuracy_delta_vs_gemini_ci95": [
+            -0.32408033033033035,
+            -0.07271089271089265
+          ]
+        },
+        "shuffled": {
+          "correct": 19,
+          "accuracy": 0.16964285714285715,
+          "paired_accuracy_delta_vs_gemini_ci95": [
+            -0.3783783783783784,
+            -0.12612612612612611
+          ]
+        },
+        "pooled refit": {
+          "correct": 26,
+          "accuracy": 0.23214285714285715,
+          "paired_accuracy_delta_vs_gemini_ci95": [
+            -0.3113207547169811,
+            -0.06896551724137931
+          ]
+        },
+        "attention-aware refit": {
+          "correct": 25,
+          "accuracy": 0.22321428571428573,
+          "paired_accuracy_delta_vs_gemini_ci95": [
+            -0.31859360695758315,
+            -0.07758620689655173
+          ]
+        }
+      }
+    },
+    "independent singleton case sample": {
+      "rows": 196,
+      "unique_cases": 196,
+      "methods": {
+        "Gemini Decisions": {
+          "correct": 85,
+          "accuracy": 0.4336734693877551,
+          "paired_accuracy_delta_vs_gemini_ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "archived InLegalBERT excerpt MLP": {
+          "correct": 86,
+          "accuracy": 0.4387755102040816,
+          "paired_accuracy_delta_vs_gemini_ci95": [
+            -0.0663265306122449,
+            0.07653061224489796
+          ]
+        },
+        "current-20-percent": {
+          "correct": 74,
+          "accuracy": 0.37755102040816324,
+          "paired_accuracy_delta_vs_gemini_ci95": [
+            -0.17346938775510204,
+            0.061224489795918366
+          ]
+        },
+        "case model without edit": {
+          "correct": 74,
+          "accuracy": 0.37755102040816324,
+          "paired_accuracy_delta_vs_gemini_ci95": [
+            -0.17346938775510204,
+            0.061224489795918366
+          ]
+        },
+        "targeted": {
+          "correct": 70,
+          "accuracy": 0.35714285714285715,
+          "paired_accuracy_delta_vs_gemini_ci95": [
+            -0.18877551020408162,
+            0.04081632653061224
+          ]
+        },
+        "shuffled": {
+          "correct": 69,
+          "accuracy": 0.3520408163265306,
+          "paired_accuracy_delta_vs_gemini_ci95": [
+            -0.19400510204081628,
+            0.03073979591836781
+          ]
+        },
+        "pooled refit": {
+          "correct": 72,
+          "accuracy": 0.3673469387755102,
+          "paired_accuracy_delta_vs_gemini_ci95": [
+            -0.17346938775510204,
+            0.04591836734693878
+          ]
+        },
+        "attention-aware refit": {
+          "correct": 70,
+          "accuracy": 0.35714285714285715,
+          "paired_accuracy_delta_vs_gemini_ci95": [
+            -0.18877551020408162,
+            0.04081632653061224
+          ]
+        }
+      }
+    },
+    "single human-labeled multi-statement rows": {
+      "rows": 21,
+      "unique_cases": 17,
+      "methods": {
+        "Gemini Decisions": {
+          "correct": 8,
+          "accuracy": 0.38095238095238093,
+          "paired_accuracy_delta_vs_gemini_ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "archived InLegalBERT excerpt MLP": {
+          "correct": 7,
+          "accuracy": 0.3333333333333333,
+          "paired_accuracy_delta_vs_gemini_ci95": [
+            -0.2608695652173913,
+            0.16666666666666666
+          ]
+        },
+        "current-20-percent": {
+          "correct": 4,
+          "accuracy": 0.19047619047619047,
+          "paired_accuracy_delta_vs_gemini_ci95": [
+            -0.5,
+            0.125
+          ]
+        },
+        "case model without edit": {
+          "correct": 4,
+          "accuracy": 0.19047619047619047,
+          "paired_accuracy_delta_vs_gemini_ci95": [
+            -0.5,
+            0.125
+          ]
+        },
+        "targeted": {
+          "correct": 3,
+          "accuracy": 0.14285714285714285,
+          "paired_accuracy_delta_vs_gemini_ci95": [
+            -0.5238721804511278,
+            0.047619047619047616
+          ]
+        },
+        "shuffled": {
+          "correct": 4,
+          "accuracy": 0.19047619047619047,
+          "paired_accuracy_delta_vs_gemini_ci95": [
+            -0.5,
+            0.125
+          ]
+        },
+        "pooled refit": {
+          "correct": 4,
+          "accuracy": 0.19047619047619047,
+          "paired_accuracy_delta_vs_gemini_ci95": [
+            -0.5,
+            0.125
+          ]
+        },
+        "attention-aware refit": {
+          "correct": 3,
+          "accuracy": 0.14285714285714285,
+          "paired_accuracy_delta_vs_gemini_ci95": [
+            -0.5238721804511278,
+            0.047619047619047616
+          ]
+        }
+      }
+    },
+    "joined same-role paragraphs": {
+      "rows": 28,
+      "unique_cases": 28,
+      "methods": {
+        "Gemini Decisions": {
+          "correct": 11,
+          "accuracy": 0.39285714285714285,
+          "paired_accuracy_delta_vs_gemini_ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "archived InLegalBERT excerpt MLP": {
+          "correct": 11,
+          "accuracy": 0.39285714285714285,
+          "paired_accuracy_delta_vs_gemini_ci95": [
+            -0.21428571428571427,
+            0.21428571428571427
+          ]
+        },
+        "current-20-percent": {
+          "correct": 9,
+          "accuracy": 0.32142857142857145,
+          "paired_accuracy_delta_vs_gemini_ci95": [
+            -0.32142857142857145,
+            0.17857142857142858
+          ]
+        },
+        "case model without edit": {
+          "correct": 9,
+          "accuracy": 0.32142857142857145,
+          "paired_accuracy_delta_vs_gemini_ci95": [
+            -0.32142857142857145,
+            0.17857142857142858
+          ]
+        },
+        "targeted": {
+          "correct": 9,
+          "accuracy": 0.32142857142857145,
+          "paired_accuracy_delta_vs_gemini_ci95": [
+            -0.32142857142857145,
+            0.17857142857142858
+          ]
+        },
+        "shuffled": {
+          "correct": 8,
+          "accuracy": 0.2857142857142857,
+          "paired_accuracy_delta_vs_gemini_ci95": [
+            -0.35714285714285715,
+            0.14285714285714285
+          ]
+        },
+        "pooled refit": {
+          "correct": 10,
+          "accuracy": 0.35714285714285715,
+          "paired_accuracy_delta_vs_gemini_ci95": [
+            -0.2857142857142857,
+            0.21428571428571427
+          ]
+        },
+        "attention-aware refit": {
+          "correct": 8,
+          "accuracy": 0.2857142857142857,
+          "paired_accuracy_delta_vs_gemini_ci95": [
+            -0.35714285714285715,
+            0.14285714285714285
+          ]
+        }
+      }
+    }
+  },
+  "episode": "The 384-case InLegalBERT edit and two refits evaluated on the previously archived identical isolated and paragraph inputs.",
+  "predictions_sha256": "5bfbf050bddcf250586f79c7771795ce5f7f520f2d933f5cc42a0afb4629abe9",
+  "same_frozen_gemini_requests": true,
+  "new_gemini_api_calls": 0
+}

@@ -1,0 +1,312 @@
+{
+  "no_gold_labels_accessed": true,
+  "fit_cases": [
+    "2750",
+    "1504",
+    "474"
+  ],
+  "rows": 87,
+  "plan_sha256": "722262a8a1990004e33be0c12846c67dbd5044d2bf4ff246fe82fe5f544dc8a5",
+  "states": {
+    "unchanged": {
+      "paired": {
+        "cross_validated_selection": {
+          "choice": 0.1,
+          "fidelity": 0.5517241379310345,
+          "centered_mae": 0.6675503849983215
+        },
+        "grid": [
+          {
+            "choice": "offset",
+            "fidelity": 0.5287356321839081,
+            "centered_mae": 0.8026658296585083
+          },
+          {
+            "choice": 0.02,
+            "fidelity": 0.5402298850574713,
+            "centered_mae": 0.6795265674591064
+          },
+          {
+            "choice": 0.1,
+            "fidelity": 0.5517241379310345,
+            "centered_mae": 0.6675503849983215
+          },
+          {
+            "choice": 0.5,
+            "fidelity": 0.5172413793103449,
+            "centered_mae": 0.6604235172271729
+          },
+          {
+            "choice": 2.0,
+            "fidelity": 0.5517241379310345,
+            "centered_mae": 0.6689484119415283
+          }
+        ],
+        "weights_sha256": "cd007261032ca297e234daad8ad555f539eb26bc14bd072aa7c51af6bea5c00a",
+        "physical_edit": {
+          "shape": [
+            255,
+            1024
+          ],
+          "dtype": "torch.bfloat16",
+          "changed_values": 7160,
+          "total_values": 261120,
+          "frobenius_delta": 2.3922555446624756,
+          "frobenius_original": 10.72443962097168,
+          "maximum_abs_delta": 0.1201171875,
+          "original_tensor_sha256": "fadb95f7e2aeb248f8aace4a9e0d3e59ee1883b14dce6daecffa6cef27aea85d",
+          "edited_tensor_sha256": "a906253772fb2b39a38c86af2b96c35178a92134738d502a28a93a97b0507faf"
+        }
+      },
+      "shuffled": {
+        "cross_validated_selection": {
+          "choice": 0.5,
+          "fidelity": 0.21839080459770116,
+          "centered_mae": 1.0235397815704346
+        },
+        "grid": [
+          {
+            "choice": "offset",
+            "fidelity": 0.13793103448275862,
+            "centered_mae": 1.395613670349121
+          },
+          {
+            "choice": 0.02,
+            "fidelity": 0.13793103448275862,
+            "centered_mae": 1.1286838054656982
+          },
+          {
+            "choice": 0.1,
+            "fidelity": 0.1724137931034483,
+            "centered_mae": 1.0815383195877075
+          },
+          {
+            "choice": 0.5,
+            "fidelity": 0.21839080459770116,
+            "centered_mae": 1.0235397815704346
+          },
+          {
+            "choice": 2.0,
+            "fidelity": 0.20689655172413793,
+            "centered_mae": 1.0140376091003418
+          }
+        ],
+        "weights_sha256": "09692ecaef2aaba31f299aae3d02cc75c0763bb67ba685c3445863e150460f43",
+        "physical_edit": {
+          "shape": [
+            255,
+            1024
+          ],
+          "dtype": "torch.bfloat16",
+          "changed_values": 7158,
+          "total_values": 261120,
+          "frobenius_delta": 1.6136046648025513,
+          "frobenius_original": 10.72443962097168,
+          "maximum_abs_delta": 0.0838623046875,
+          "original_tensor_sha256": "fadb95f7e2aeb248f8aace4a9e0d3e59ee1883b14dce6daecffa6cef27aea85d",
+          "edited_tensor_sha256": "64943d346c77acc2e6f08184d00c7b416977b9d0244707c7248c2dbbeb895017"
+        }
+      }
+    },
+    "same_written_readout": {
+      "paired": {
+        "cross_validated_selection": {
+          "choice": "offset",
+          "fidelity": 0.5402298850574713,
+          "centered_mae": 0.5853605270385742
+        },
+        "grid": [
+          {
+            "choice": "offset",
+            "fidelity": 0.5402298850574713,
+            "centered_mae": 0.5853605270385742
+          },
+          {
+            "choice": 0.02,
+            "fidelity": 0.4827586206896552,
+            "centered_mae": 0.4565054774284363
+          },
+          {
+            "choice": 0.1,
+            "fidelity": 0.47126436781609193,
+            "centered_mae": 0.4483020305633545
+          },
+          {
+            "choice": 0.5,
+            "fidelity": 0.4942528735632184,
+            "centered_mae": 0.44386428594589233
+          },
+          {
+            "choice": 2.0,
+            "fidelity": 0.5172413793103449,
+            "centered_mae": 0.45125025510787964
+          }
+        ],
+        "weights_sha256": "393af227d50ea3ca1f911f5fc3e23f61574103fbd5dd8100b8f289a5c5665e9f",
+        "physical_edit": {
+          "shape": [
+            255,
+            1024
+          ],
+          "dtype": "torch.bfloat16",
+          "changed_values": 2176,
+          "total_values": 261120,
+          "frobenius_delta": 0.015761621296405792,
+          "frobenius_original": 10.712027549743652,
+          "maximum_abs_delta": 0.0114593505859375,
+          "original_tensor_sha256": "6ea0fe2514c169689560c3e569d1d17b76f61ca5e46f048d8f694a812a0553a8",
+          "edited_tensor_sha256": "8e91d611017e835819a35d829a238f914d299c47c58910503df2f6bda0af1498"
+        }
+      },
+      "shuffled": {
+        "cross_validated_selection": {
+          "choice": 2.0,
+          "fidelity": 0.1724137931034483,
+          "centered_mae": 0.6582438945770264
+        },
+        "grid": [
+          {
+            "choice": "offset",
+            "fidelity": 0.13793103448275862,
+            "centered_mae": 0.9416413903236389
+          },
+          {
+            "choice": 0.02,
+            "fidelity": 0.13793103448275862,
+            "centered_mae": 0.712048351764679
+          },
+          {
+            "choice": 0.1,
+            "fidelity": 0.12643678160919541,
+            "centered_mae": 0.682045578956604
+          },
+          {
+            "choice": 0.5,
+            "fidelity": 0.11494252873563218,
+            "centered_mae": 0.6532042026519775
+          },
+          {
+            "choice": 2.0,
+            "fidelity": 0.1724137931034483,
+            "centered_mae": 0.6582438945770264
+          }
+        ],
+        "weights_sha256": "27069a1548233cfad7507d2367b5dc470a44fe7cd31db9a8f275709112842626",
+        "physical_edit": {
+          "shape": [
+            255,
+            1024
+          ],
+          "dtype": "torch.bfloat16",
+          "changed_values": 7133,
+          "total_values": 261120,
+          "frobenius_delta": 0.5825080871582031,
+          "frobenius_original": 10.712027549743652,
+          "maximum_abs_delta": 0.03216552734375,
+          "original_tensor_sha256": "6ea0fe2514c169689560c3e569d1d17b76f61ca5e46f048d8f694a812a0553a8",
+          "edited_tensor_sha256": "09879bcc5461ae5d934805e6b0334658c9a5b11aa9868a4cdf5e5c5e9f2762b0"
+        }
+      }
+    },
+    "same_written_internal": {
+      "paired": {
+        "cross_validated_selection": {
+          "choice": 0.02,
+          "fidelity": 0.5172413793103449,
+          "centered_mae": 0.451168417930603
+        },
+        "grid": [
+          {
+            "choice": "offset",
+            "fidelity": 0.4482758620689655,
+            "centered_mae": 0.7015680074691772
+          },
+          {
+            "choice": 0.02,
+            "fidelity": 0.5172413793103449,
+            "centered_mae": 0.451168417930603
+          },
+          {
+            "choice": 0.1,
+            "fidelity": 0.4942528735632184,
+            "centered_mae": 0.4487406015396118
+          },
+          {
+            "choice": 0.5,
+            "fidelity": 0.47126436781609193,
+            "centered_mae": 0.4584706425666809
+          },
+          {
+            "choice": 2.0,
+            "fidelity": 0.47126436781609193,
+            "centered_mae": 0.4873022735118866
+          }
+        ],
+        "weights_sha256": "3490eaba8992e7b295aad299c7582f84e80ba51e62cb47c0380b0564434d7faf",
+        "physical_edit": {
+          "shape": [
+            255,
+            1024
+          ],
+          "dtype": "torch.bfloat16",
+          "changed_values": 7160,
+          "total_values": 261120,
+          "frobenius_delta": 2.5123748779296875,
+          "frobenius_original": 10.72443962097168,
+          "maximum_abs_delta": 0.13623046875,
+          "original_tensor_sha256": "fadb95f7e2aeb248f8aace4a9e0d3e59ee1883b14dce6daecffa6cef27aea85d",
+          "edited_tensor_sha256": "64e26a9bea9877a5e3351f1466cff2a4565cc1bffcc24fafb4bead4dde6801a8"
+        }
+      },
+      "shuffled": {
+        "cross_validated_selection": {
+          "choice": "offset",
+          "fidelity": 0.1724137931034483,
+          "centered_mae": 0.9578116536140442
+        },
+        "grid": [
+          {
+            "choice": "offset",
+            "fidelity": 0.1724137931034483,
+            "centered_mae": 0.9578116536140442
+          },
+          {
+            "choice": 0.02,
+            "fidelity": 0.09195402298850575,
+            "centered_mae": 0.7120634913444519
+          },
+          {
+            "choice": 0.1,
+            "fidelity": 0.08045977011494253,
+            "centered_mae": 0.6872826814651489
+          },
+          {
+            "choice": 0.5,
+            "fidelity": 0.12643678160919541,
+            "centered_mae": 0.666331946849823
+          },
+          {
+            "choice": 2.0,
+            "fidelity": 0.12643678160919541,
+            "centered_mae": 0.6815246939659119
+          }
+        ],
+        "weights_sha256": "6c85b412a276698562bed59ff88230f9abb5009d40db45ce66e688403d8c5e61",
+        "physical_edit": {
+          "shape": [
+            255,
+            1024
+          ],
+          "dtype": "torch.bfloat16",
+          "changed_values": 3050,
+          "total_values": 261120,
+          "frobenius_delta": 0.027599021792411804,
+          "frobenius_original": 10.72443962097168,
+          "maximum_abs_delta": 0.015777587890625,
+          "original_tensor_sha256": "fadb95f7e2aeb248f8aace4a9e0d3e59ee1883b14dce6daecffa6cef27aea85d",
+          "edited_tensor_sha256": "bda54e796a50ff48d03fb6a934e226a024ee73f2a9e7bc526185a315b3a9434a"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "past-edited": {
+    "examples": 16,
+    "max_absolute_error": 9.5367431640625e-07,
+    "label_mismatches": 0,
+    "weight_frobenius": 1.2402445077896118,
+    "bias_frobenius": 1.1896415948867798,
+    "source_weight_norm": 1.5675262212753296,
+    "tensor": "classifier.weight and classifier.bias",
+    "rows_changed": 7
+  },
+  "past-pair": {
+    "examples": 16,
+    "max_absolute_error": 4.76837158203125e-07,
+    "label_mismatches": 0,
+    "weight_frobenius": 1.3623924255371094,
+    "bias_frobenius": 0.4395776391029358,
+    "source_weight_norm": 1.5675262212753296,
+    "tensor": "classifier.weight and classifier.bias",
+    "rows_changed": 2
+  },
+  "past-shuffled": {
+    "examples": 16,
+    "max_absolute_error": 4.76837158203125e-07,
+    "label_mismatches": 0,
+    "weight_frobenius": 1.2402445077896118,
+    "bias_frobenius": 1.9667011499404907,
+    "source_weight_norm": 1.5675262212753296,
+    "tensor": "classifier.weight and classifier.bias",
+    "rows_changed": 7
+  },
+  "both-edited": {
+    "examples": 16,
+    "max_absolute_error": 9.5367431640625e-07,
+    "label_mismatches": 0,
+    "weight_frobenius": 2.5954527854919434,
+    "bias_frobenius": 1.140889286994934,
+    "source_weight_norm": 1.5567915439605713,
+    "tensor": "classifier.weight and classifier.bias",
+    "rows_changed": 7
+  },
+  "both-pair": {
+    "examples": 16,
+    "max_absolute_error": 9.5367431640625e-07,
+    "label_mismatches": 0,
+    "weight_frobenius": 1.4208005666732788,
+    "bias_frobenius": 0.22592651844024658,
+    "source_weight_norm": 1.5567915439605713,
+    "tensor": "classifier.weight and classifier.bias",
+    "rows_changed": 2
+  },
+  "both-shuffled": {
+    "examples": 16,
+    "max_absolute_error": 4.76837158203125e-07,
+    "label_mismatches": 0,
+    "weight_frobenius": 2.5954525470733643,
+    "bias_frobenius": 2.158980369567871,
+    "source_weight_norm": 1.5567915439605713,
+    "tensor": "classifier.weight and classifier.bias",
+    "rows_changed": 7
+  }
+}

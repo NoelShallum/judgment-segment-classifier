@@ -1,0 +1,15 @@
+{
+  "hypothesis": "The seven-role input-embedding edit can add high-precision exceptions to the frozen Attoflow incumbent even if its complete classifier is weaker.",
+  "data": "The unchanged prior project provides cross-fitted predictions on its 144 official-training judgments. Exclude original input-embedding fit cases, train-selector and train-confirmation cases. Split remaining cases label-blind by case ID hash, using first two thirds for gate selection and last third as train-only repeat before prospective shared16.",
+  "method": "Use only a small deterministic threshold menu on the lexical score gap over the incumbent role, with optional neighboring role agreement. Compare input-embedding write gate, the same gate applied to native unedited token projections, equal-norm row-shuffled edit, and unchanged incumbent. Re-optimize the native gate on training cases as a fairer companion.",
+  "thresholds": [
+    1,
+    2,
+    4,
+    8,
+    16
+  ],
+  "decoding": "structured position/transition lexicon chosen by train selection; abstain if none improves train selection.",
+  "shared": "Exactly the previously frozen 16 IDs. The final selection will use only official training case labels.",
+  "time": "Registered before observing any UltraBERT shared4 or shared16 numerical results."
+}

@@ -1,0 +1,121 @@
+{
+  "split": "holdout",
+  "judgments": 384,
+  "total_sentences": 80163,
+  "reviewed_sentences": 3933,
+  "view_sha": "aa720a607534df4c6a65f9523b3f4c41b2988968f461fabe14d736a8e6419777",
+  "feature_sha": "be664052310fd526276b30435d521fea8f917bc94e79f82866b883dec952f83b",
+  "freeze_sha": "fe82bf3f411e158ed73454a51de9778e08dcdf68bc061bb7381e33891d203d86",
+  "arms": {
+    "public": {
+      "unchanged": {
+        "macro_f1": 0.4468957448714281,
+        "accuracy": 0.4630053394355454,
+        "per_role_f1": {
+          "none": 0.5324324324324324,
+          "facts": 0.33519553072625696,
+          "issue": 0.6408839779005525,
+          "petitioner_argument": 0.42015005359056806,
+          "respondent_argument": 0.3762057877813505,
+          "reasoning": 0.4013840830449827,
+          "decision": 0.42201834862385323
+        }
+      },
+      "targeted": {
+        "macro_f1": 0.4505547577531234,
+        "accuracy": 0.4642766336130181,
+        "per_role_f1": {
+          "none": 0.5318352059925093,
+          "facts": 0.3362549800796813,
+          "issue": 0.6419753086419753,
+          "petitioner_argument": 0.4236559139784946,
+          "respondent_argument": 0.3886255924170616,
+          "reasoning": 0.40034364261168387,
+          "decision": 0.43119266055045874
+        },
+        "delta_vs_unchanged_ci95": [
+          0.0001203381155364586,
+          0.007646709791113661
+        ],
+        "changed": 51,
+        "corrected": 19,
+        "broken": 14
+      },
+      "shuffled": {
+        "macro_f1": 0.4499139378106003,
+        "accuracy": 0.4647851512840071,
+        "per_role_f1": {
+          "none": 0.5328859060402684,
+          "facts": 0.3400160384923817,
+          "issue": 0.6398891966759003,
+          "petitioner_argument": 0.4152173913043478,
+          "respondent_argument": 0.38915470494417864,
+          "reasoning": 0.4010416666666667,
+          "decision": 0.43119266055045874
+        },
+        "delta_vs_unchanged_ci95": [
+          -0.0004113722678394965,
+          0.007027686511653898
+        ],
+        "changed": 46,
+        "corrected": 19,
+        "broken": 12
+      }
+    },
+    "document": {
+      "unchanged": {
+        "macro_f1": 0.6845679251263823,
+        "accuracy": 0.7097039781445306,
+        "per_role_f1": {
+          "none": 0.7183999044005617,
+          "facts": 0.8311759845772514,
+          "issue": 0.537117903930131,
+          "petitioner_argument": 0.6985638340077759,
+          "respondent_argument": 0.687873660462493,
+          "reasoning": 0.6186106042863756,
+          "decision": 0.7002335842200882
+        }
+      },
+      "targeted": {
+        "macro_f1": 0.6839615718523788,
+        "accuracy": 0.7096665543954194,
+        "per_role_f1": {
+          "none": 0.7183828249802183,
+          "facts": 0.8311858333907531,
+          "issue": 0.5332749562171629,
+          "petitioner_argument": 0.698427822772749,
+          "respondent_argument": 0.687888023478948,
+          "reasoning": 0.6188570339513736,
+          "decision": 0.6997145081754477
+        },
+        "delta_vs_unchanged_ci95": [
+          -0.001121396681735423,
+          -0.0001469369023193284
+        ],
+        "changed": 75,
+        "corrected": 30,
+        "broken": 33
+      },
+      "shuffled": {
+        "macro_f1": 0.6831118391082516,
+        "accuracy": 0.7093172660703816,
+        "per_role_f1": {
+          "none": 0.7179969261530657,
+          "facts": 0.8312484923670699,
+          "issue": 0.5287659200702679,
+          "petitioner_argument": 0.6975156758472895,
+          "respondent_argument": 0.6876622643639237,
+          "reasoning": 0.6185156931124673,
+          "decision": 0.700077901843677
+        },
+        "delta_vs_unchanged_ci95": [
+          -0.0023453451448355255,
+          -0.0006470905491887897
+        ],
+        "changed": 208,
+        "corrected": 65,
+        "broken": 96
+      }
+    }
+  }
+}

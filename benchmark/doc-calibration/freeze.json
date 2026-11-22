@@ -1,0 +1,3696 @@
+{
+  "protocol_sha256": "fa2974c42af1b78e5acac579b724ebb0efeec49098e6ce2677dcb5dfc3072943",
+  "temperature": 0.4000000059604645,
+  "arms": {
+    "bias": {
+      "kind": "bias",
+      "scope": "all",
+      "params": [
+        0.0,
+        0.025,
+        0.75
+      ],
+      "weights_sha256": "c2b7bf03f612cd1c43d46d702a558b790f23ff628758bdf1be6c77a58d963235",
+      "selection": {
+        "all": {
+          "macro_f1": 0.7367109310693488,
+          "accuracy": 0.7500629564341476,
+          "per_role_f1": {
+            "None": 0.7232597623089984,
+            "Facts": 0.844400396432111,
+            "Issue": 0.5928338762214984,
+            "Arguments of Petitioner": 0.7379310344827587,
+            "Arguments of Respondent": 0.7345050878815911,
+            "Reasoning": 0.7293695540748334,
+            "Decision": 0.7946768060836502
+          },
+          "none_to_reasoning": 500,
+          "reasoning_to_none": 358,
+          "pair_errors": 858,
+          "confusion": [
+            [
+              1917,
+              154,
+              23,
+              75,
+              38,
+              500,
+              29
+            ],
+            [
+              128,
+              1278,
+              15,
+              22,
+              14,
+              30,
+              4
+            ],
+            [
+              9,
+              57,
+              91,
+              7,
+              0,
+              2,
+              0
+            ],
+            [
+              107,
+              1,
+              2,
+              642,
+              106,
+              36,
+              4
+            ],
+            [
+              15,
+              8,
+              3,
+              76,
+              397,
+              10,
+              1
+            ],
+            [
+              358,
+              38,
+              7,
+              20,
+              16,
+              1423,
+              23
+            ],
+            [
+              31,
+              0,
+              0,
+              0,
+              0,
+              16,
+              209
+            ]
+          ]
+        },
+        "novel": {
+          "macro_f1": 0.7323792551554827,
+          "accuracy": 0.741478231522106,
+          "per_role_f1": {
+            "None": 0.7242839352428394,
+            "Facts": 0.8182208852599914,
+            "Issue": 0.596078431372549,
+            "Arguments of Petitioner": 0.7199424046076314,
+            "Arguments of Respondent": 0.7226107226107226,
+            "Reasoning": 0.7227759320782576,
+            "Decision": 0.822742474916388
+          },
+          "none_to_reasoning": 321,
+          "reasoning_to_none": 275,
+          "pair_errors": 596,
+          "confusion": [
+            [
+              1454,
+              141,
+              18,
+              70,
+              35,
+              321,
+              16
+            ],
+            [
+              116,
+              952,
+              4,
+              22,
+              13,
+              25,
+              3
+            ],
+            [
+              6,
+              56,
+              76,
+              7,
+              0,
+              1,
+              0
+            ],
+            [
+              91,
+              1,
+              2,
+              500,
+              82,
+              27,
+              3
+            ],
+            [
+              14,
+              8,
+              3,
+              66,
+              310,
+              6,
+              0
+            ],
+            [
+              275,
+              34,
+              6,
+              18,
+              11,
+              979,
+              18
+            ],
+            [
+              4,
+              0,
+              0,
+              0,
+              0,
+              9,
+              123
+            ]
+          ]
+        }
+      },
+      "identity_higher": false,
+      "eligible": true,
+      "grid": [
+        {
+          "parameters": [
+            0.0,
+            0.025,
+            0.08
+          ],
+          "macro_f1": 0.7345562164909385,
+          "novel_macro_f1": 0.7310272932280405,
+          "pair": 870,
+          "novel_pair": 596,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.0,
+            0.025,
+            0.22
+          ],
+          "macro_f1": 0.7354352653861648,
+          "novel_macro_f1": 0.7316463762918058,
+          "pair": 867,
+          "novel_pair": 594,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.0,
+            0.025,
+            0.45
+          ],
+          "macro_f1": 0.7359825458192107,
+          "novel_macro_f1": 0.7321114093521207,
+          "pair": 861,
+          "novel_pair": 591,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.0,
+            0.025,
+            0.75
+          ],
+          "macro_f1": 0.7367109310693488,
+          "novel_macro_f1": 0.7323792551554827,
+          "pair": 858,
+          "novel_pair": 596,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.0,
+            0.16,
+            0.08
+          ],
+          "macro_f1": 0.7345562164909385,
+          "novel_macro_f1": 0.7310272932280405,
+          "pair": 870,
+          "novel_pair": 596,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.0,
+            0.16,
+            0.22
+          ],
+          "macro_f1": 0.7354352653861648,
+          "novel_macro_f1": 0.7316463762918058,
+          "pair": 867,
+          "novel_pair": 594,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.0,
+            0.16,
+            0.45
+          ],
+          "macro_f1": 0.7359825458192107,
+          "novel_macro_f1": 0.7321114093521207,
+          "pair": 861,
+          "novel_pair": 591,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.0,
+            0.16,
+            0.75
+          ],
+          "macro_f1": 0.7366498212879842,
+          "novel_macro_f1": 0.7323792551554827,
+          "pair": 859,
+          "novel_pair": 596,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.35,
+            0.025,
+            0.08
+          ],
+          "macro_f1": 0.7340914300531948,
+          "novel_macro_f1": 0.730599514470699,
+          "pair": 873,
+          "novel_pair": 597,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.35,
+            0.025,
+            0.22
+          ],
+          "macro_f1": 0.7349951219832825,
+          "novel_macro_f1": 0.7311725601567393,
+          "pair": 870,
+          "novel_pair": 596,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.35,
+            0.025,
+            0.45
+          ],
+          "macro_f1": 0.735534678656917,
+          "novel_macro_f1": 0.7317744380426836,
+          "pair": 867,
+          "novel_pair": 594,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.35,
+            0.025,
+            0.75
+          ],
+          "macro_f1": 0.7345567026207489,
+          "novel_macro_f1": 0.7309104833253388,
+          "pair": 871,
+          "novel_pair": 599,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.35,
+            0.16,
+            0.08
+          ],
+          "macro_f1": 0.7340914300531948,
+          "novel_macro_f1": 0.730599514470699,
+          "pair": 873,
+          "novel_pair": 597,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.35,
+            0.16,
+            0.22
+          ],
+          "macro_f1": 0.7349951219832825,
+          "novel_macro_f1": 0.7311725601567393,
+          "pair": 870,
+          "novel_pair": 596,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.35,
+            0.16,
+            0.45
+          ],
+          "macro_f1": 0.7354732062015585,
+          "novel_macro_f1": 0.7317744380426836,
+          "pair": 868,
+          "novel_pair": 594,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.35,
+            0.16,
+            0.75
+          ],
+          "macro_f1": 0.7344256837839328,
+          "novel_macro_f1": 0.7307454133079478,
+          "pair": 871,
+          "novel_pair": 599,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.65,
+            0.025,
+            0.08
+          ],
+          "macro_f1": 0.734228049934867,
+          "novel_macro_f1": 0.7307664585745559,
+          "pair": 875,
+          "novel_pair": 599,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.65,
+            0.025,
+            0.22
+          ],
+          "macro_f1": 0.7339806907114917,
+          "novel_macro_f1": 0.7304452424076711,
+          "pair": 876,
+          "novel_pair": 600,
+          "allowed": false
+        },
+        {
+          "parameters": [
+            0.65,
+            0.025,
+            0.45
+          ],
+          "macro_f1": 0.7340810162631775,
+          "novel_macro_f1": 0.7301062073056991,
+          "pair": 878,
+          "novel_pair": 601,
+          "allowed": false
+        },
+        {
+          "parameters": [
+            0.65,
+            0.025,
+            0.75
+          ],
+          "macro_f1": 0.734499762340725,
+          "novel_macro_f1": 0.7307225295771219,
+          "pair": 878,
+          "novel_pair": 600,
+          "allowed": false
+        },
+        {
+          "parameters": [
+            0.65,
+            0.16,
+            0.08
+          ],
+          "macro_f1": 0.734228049934867,
+          "novel_macro_f1": 0.7307664585745559,
+          "pair": 875,
+          "novel_pair": 599,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.65,
+            0.16,
+            0.22
+          ],
+          "macro_f1": 0.7339806907114917,
+          "novel_macro_f1": 0.7304452424076711,
+          "pair": 876,
+          "novel_pair": 600,
+          "allowed": false
+        },
+        {
+          "parameters": [
+            0.65,
+            0.16,
+            0.45
+          ],
+          "macro_f1": 0.7340810162631775,
+          "novel_macro_f1": 0.7301062073056991,
+          "pair": 878,
+          "novel_pair": 601,
+          "allowed": false
+        },
+        {
+          "parameters": [
+            0.65,
+            0.16,
+            0.75
+          ],
+          "macro_f1": 0.7344657753976593,
+          "novel_macro_f1": 0.730602526303791,
+          "pair": 877,
+          "novel_pair": 600,
+          "allowed": false
+        }
+      ]
+    },
+    "score-affine": {
+      "kind": "score",
+      "scope": "all",
+      "params": [
+        0.0,
+        0.025,
+        0.45
+      ],
+      "weights_sha256": "497e574d96dfd08879481ed8de89d0fc43dabf7696ac30eafc87d1f09f090e84",
+      "selection": {
+        "all": {
+          "macro_f1": 0.7360218951286431,
+          "accuracy": 0.7493074792243767,
+          "per_role_f1": {
+            "None": 0.7208237986270023,
+            "Facts": 0.8449868073878628,
+            "Issue": 0.5909090909090909,
+            "Arguments of Petitioner": 0.738831615120275,
+            "Arguments of Respondent": 0.7301006404391582,
+            "Reasoning": 0.7295373665480427,
+            "Decision": 0.7969639468690702
+          },
+          "none_to_reasoning": 519,
+          "reasoning_to_none": 341,
+          "pair_errors": 860,
+          "confusion": [
+            [
+              1890,
+              155,
+              23,
+              78,
+              42,
+              519,
+              29
+            ],
+            [
+              122,
+              1281,
+              16,
+              23,
+              15,
+              30,
+              4
+            ],
+            [
+              9,
+              57,
+              91,
+              7,
+              0,
+              2,
+              0
+            ],
+            [
+              101,
+              1,
+              2,
+              645,
+              107,
+              38,
+              4
+            ],
+            [
+              14,
+              8,
+              3,
+              75,
+              399,
+              10,
+              1
+            ],
+            [
+              341,
+              39,
+              7,
+              20,
+              20,
+              1435,
+              23
+            ],
+            [
+              31,
+              0,
+              0,
+              0,
+              0,
+              15,
+              210
+            ]
+          ]
+        },
+        "novel": {
+          "macro_f1": 0.7321043949803648,
+          "accuracy": 0.7416469794127574,
+          "per_role_f1": {
+            "None": 0.7235649546827795,
+            "Facts": 0.8190394511149228,
+            "Issue": 0.596078431372549,
+            "Arguments of Petitioner": 0.7202295552367288,
+            "Arguments of Respondent": 0.7180667433831991,
+            "Reasoning": 0.7250091541559868,
+            "Decision": 0.822742474916388
+          },
+          "none_to_reasoning": 330,
+          "reasoning_to_none": 260,
+          "pair_errors": 590,
+          "confusion": [
+            [
+              1437,
+              142,
+              18,
+              73,
+              39,
+              330,
+              16
+            ],
+            [
+              111,
+              955,
+              4,
+              23,
+              14,
+              25,
+              3
+            ],
+            [
+              6,
+              56,
+              76,
+              7,
+              0,
+              1,
+              0
+            ],
+            [
+              86,
+              1,
+              2,
+              502,
+              83,
+              29,
+              3
+            ],
+            [
+              13,
+              8,
+              3,
+              65,
+              312,
+              6,
+              0
+            ],
+            [
+              260,
+              35,
+              6,
+              18,
+              14,
+              990,
+              18
+            ],
+            [
+              4,
+              0,
+              0,
+              0,
+              0,
+              9,
+              123
+            ]
+          ]
+        }
+      },
+      "identity_higher": false,
+      "eligible": true,
+      "grid": [
+        {
+          "parameters": [
+            0.0,
+            0.025,
+            0.08
+          ],
+          "macro_f1": 0.7347077041047374,
+          "novel_macro_f1": 0.7308884468975168,
+          "pair": 871,
+          "novel_pair": 596,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.0,
+            0.025,
+            0.22
+          ],
+          "macro_f1": 0.7344865587271965,
+          "novel_macro_f1": 0.7304143956506496,
+          "pair": 866,
+          "novel_pair": 594,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.0,
+            0.025,
+            0.45
+          ],
+          "macro_f1": 0.7360218951286431,
+          "novel_macro_f1": 0.7321043949803648,
+          "pair": 860,
+          "novel_pair": 590,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.0,
+            0.025,
+            0.75
+          ],
+          "macro_f1": 0.7363933075018135,
+          "novel_macro_f1": 0.7316720694946576,
+          "pair": 856,
+          "novel_pair": 593,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.0,
+            0.16,
+            0.08
+          ],
+          "macro_f1": 0.7342688669033579,
+          "novel_macro_f1": 0.7307432842692523,
+          "pair": 871,
+          "novel_pair": 596,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.0,
+            0.16,
+            0.22
+          ],
+          "macro_f1": 0.7348991581345979,
+          "novel_macro_f1": 0.7308867570504383,
+          "pair": 866,
+          "novel_pair": 594,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.0,
+            0.16,
+            0.45
+          ],
+          "macro_f1": 0.7349219979672755,
+          "novel_macro_f1": 0.7309115777777032,
+          "pair": 862,
+          "novel_pair": 592,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.0,
+            0.16,
+            0.75
+          ],
+          "macro_f1": 0.7359295941085021,
+          "novel_macro_f1": 0.7312429107755419,
+          "pair": 857,
+          "novel_pair": 592,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.35,
+            0.025,
+            0.08
+          ],
+          "macro_f1": 0.734485237856403,
+          "novel_macro_f1": 0.7310614617652779,
+          "pair": 876,
+          "novel_pair": 600,
+          "allowed": false
+        },
+        {
+          "parameters": [
+            0.35,
+            0.025,
+            0.22
+          ],
+          "macro_f1": 0.7341542998420982,
+          "novel_macro_f1": 0.730655772090769,
+          "pair": 875,
+          "novel_pair": 599,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.35,
+            0.025,
+            0.45
+          ],
+          "macro_f1": 0.7339492125238954,
+          "novel_macro_f1": 0.7299745986049361,
+          "pair": 875,
+          "novel_pair": 598,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.35,
+            0.025,
+            0.75
+          ],
+          "macro_f1": 0.7345510247888338,
+          "novel_macro_f1": 0.7307826983029512,
+          "pair": 874,
+          "novel_pair": 597,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.35,
+            0.16,
+            0.08
+          ],
+          "macro_f1": 0.7347909302723148,
+          "novel_macro_f1": 0.7314392798407824,
+          "pair": 875,
+          "novel_pair": 599,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.35,
+            0.16,
+            0.22
+          ],
+          "macro_f1": 0.7347909302723148,
+          "novel_macro_f1": 0.7314392798407824,
+          "pair": 875,
+          "novel_pair": 599,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.35,
+            0.16,
+            0.45
+          ],
+          "macro_f1": 0.7343927554088872,
+          "novel_macro_f1": 0.7309387824013864,
+          "pair": 875,
+          "novel_pair": 599,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.35,
+            0.16,
+            0.75
+          ],
+          "macro_f1": 0.7350656517427689,
+          "novel_macro_f1": 0.7309387824013864,
+          "pair": 875,
+          "novel_pair": 599,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.65,
+            0.025,
+            0.08
+          ],
+          "macro_f1": 0.7337289867877939,
+          "novel_macro_f1": 0.7302875723548176,
+          "pair": 876,
+          "novel_pair": 598,
+          "allowed": false
+        },
+        {
+          "parameters": [
+            0.65,
+            0.025,
+            0.22
+          ],
+          "macro_f1": 0.7327995436490647,
+          "novel_macro_f1": 0.7290578424670541,
+          "pair": 872,
+          "novel_pair": 596,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.65,
+            0.025,
+            0.45
+          ],
+          "macro_f1": 0.7320861432587135,
+          "novel_macro_f1": 0.7285977952669613,
+          "pair": 875,
+          "novel_pair": 598,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.65,
+            0.025,
+            0.75
+          ],
+          "macro_f1": 0.7299474190276297,
+          "novel_macro_f1": 0.7263529510528892,
+          "pair": 878,
+          "novel_pair": 599,
+          "allowed": false
+        },
+        {
+          "parameters": [
+            0.65,
+            0.16,
+            0.08
+          ],
+          "macro_f1": 0.7340335476783135,
+          "novel_macro_f1": 0.730578509917726,
+          "pair": 876,
+          "novel_pair": 599,
+          "allowed": false
+        },
+        {
+          "parameters": [
+            0.65,
+            0.16,
+            0.22
+          ],
+          "macro_f1": 0.7338573665974207,
+          "novel_macro_f1": 0.7296240300591673,
+          "pair": 875,
+          "novel_pair": 597,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.65,
+            0.16,
+            0.45
+          ],
+          "macro_f1": 0.7332517130676128,
+          "novel_macro_f1": 0.7295466346997704,
+          "pair": 872,
+          "novel_pair": 596,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.65,
+            0.16,
+            0.75
+          ],
+          "macro_f1": 0.7323841730282182,
+          "novel_macro_f1": 0.7296576312650408,
+          "pair": 879,
+          "novel_pair": 600,
+          "allowed": false
+        }
+      ]
+    },
+    "case-affine": {
+      "kind": "case",
+      "scope": "all",
+      "params": [
+        0.0,
+        0.025,
+        0.45
+      ],
+      "weights_sha256": "777a269a070189e18eadeefdd9a884b5b9b9b5e770c5196d2659395ef9ba4b7c",
+      "selection": {
+        "all": {
+          "macro_f1": 0.7362235386690753,
+          "accuracy": 0.7494333920926719,
+          "per_role_f1": {
+            "None": 0.720579820713332,
+            "Facts": 0.8452655889145496,
+            "Issue": 0.5909090909090909,
+            "Arguments of Petitioner": 0.7384087006296508,
+            "Arguments of Respondent": 0.7332722273143905,
+            "Reasoning": 0.7296747967479674,
+            "Decision": 0.7954545454545454
+          },
+          "none_to_reasoning": 518,
+          "reasoning_to_none": 342,
+          "pair_errors": 860,
+          "confusion": [
+            [
+              1889,
+              155,
+              23,
+              80,
+              41,
+              518,
+              30
+            ],
+            [
+              122,
+              1281,
+              16,
+              23,
+              14,
+              31,
+              4
+            ],
+            [
+              9,
+              57,
+              91,
+              7,
+              0,
+              2,
+              0
+            ],
+            [
+              101,
+              1,
+              2,
+              645,
+              107,
+              38,
+              4
+            ],
+            [
+              14,
+              8,
+              3,
+              74,
+              400,
+              10,
+              1
+            ],
+            [
+              342,
+              38,
+              7,
+              20,
+              19,
+              1436,
+              23
+            ],
+            [
+              30,
+              0,
+              0,
+              0,
+              0,
+              16,
+              210
+            ]
+          ]
+        },
+        "novel": {
+          "macro_f1": 0.7320909893592785,
+          "accuracy": 0.741478231522106,
+          "per_role_f1": {
+            "None": 0.7222782258064516,
+            "Facts": 0.8193908193908194,
+            "Issue": 0.596078431372549,
+            "Arguments of Petitioner": 0.7197132616487455,
+            "Arguments of Respondent": 0.7220299884659747,
+            "Reasoning": 0.7251461988304093,
+            "Decision": 0.82
+          },
+          "none_to_reasoning": 332,
+          "reasoning_to_none": 260,
+          "pair_errors": 592,
+          "confusion": [
+            [
+              1433,
+              142,
+              18,
+              75,
+              38,
+              332,
+              17
+            ],
+            [
+              111,
+              955,
+              4,
+              23,
+              13,
+              26,
+              3
+            ],
+            [
+              6,
+              56,
+              76,
+              7,
+              0,
+              1,
+              0
+            ],
+            [
+              86,
+              1,
+              2,
+              502,
+              83,
+              29,
+              3
+            ],
+            [
+              13,
+              8,
+              3,
+              64,
+              313,
+              6,
+              0
+            ],
+            [
+              260,
+              34,
+              6,
+              18,
+              13,
+              992,
+              18
+            ],
+            [
+              4,
+              0,
+              0,
+              0,
+              0,
+              9,
+              123
+            ]
+          ]
+        }
+      },
+      "identity_higher": false,
+      "eligible": true,
+      "grid": [
+        {
+          "parameters": [
+            0.0,
+            0.025,
+            0.08
+          ],
+          "macro_f1": 0.7345830923253457,
+          "novel_macro_f1": 0.7307150984489313,
+          "pair": 873,
+          "novel_pair": 598,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.0,
+            0.025,
+            0.22
+          ],
+          "macro_f1": 0.7347177103667539,
+          "novel_macro_f1": 0.7307032328030425,
+          "pair": 867,
+          "novel_pair": 595,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.0,
+            0.025,
+            0.45
+          ],
+          "macro_f1": 0.7362235386690753,
+          "novel_macro_f1": 0.7320909893592785,
+          "pair": 860,
+          "novel_pair": 592,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.0,
+            0.025,
+            0.75
+          ],
+          "macro_f1": 0.7363841036672935,
+          "novel_macro_f1": 0.7313402382843297,
+          "pair": 854,
+          "novel_pair": 592,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.0,
+            0.16,
+            0.08
+          ],
+          "macro_f1": 0.7341081345795895,
+          "novel_macro_f1": 0.7305313684049544,
+          "pair": 872,
+          "novel_pair": 597,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.0,
+            0.16,
+            0.22
+          ],
+          "macro_f1": 0.7350519454089994,
+          "novel_macro_f1": 0.7310732011357934,
+          "pair": 869,
+          "novel_pair": 597,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.0,
+            0.16,
+            0.45
+          ],
+          "macro_f1": 0.7354225309065533,
+          "novel_macro_f1": 0.7312042263456168,
+          "pair": 864,
+          "novel_pair": 594,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.0,
+            0.16,
+            0.75
+          ],
+          "macro_f1": 0.7358725856114207,
+          "novel_macro_f1": 0.7310102287182157,
+          "pair": 861,
+          "novel_pair": 596,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.35,
+            0.025,
+            0.08
+          ],
+          "macro_f1": 0.7343886571506764,
+          "novel_macro_f1": 0.731017686824656,
+          "pair": 876,
+          "novel_pair": 599,
+          "allowed": false
+        },
+        {
+          "parameters": [
+            0.35,
+            0.025,
+            0.22
+          ],
+          "macro_f1": 0.7340952688706626,
+          "novel_macro_f1": 0.7310644194059177,
+          "pair": 877,
+          "novel_pair": 599,
+          "allowed": false
+        },
+        {
+          "parameters": [
+            0.35,
+            0.025,
+            0.45
+          ],
+          "macro_f1": 0.7343223232585174,
+          "novel_macro_f1": 0.7303507250096036,
+          "pair": 871,
+          "novel_pair": 594,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.35,
+            0.025,
+            0.75
+          ],
+          "macro_f1": 0.7344849881096861,
+          "novel_macro_f1": 0.7306267619937471,
+          "pair": 870,
+          "novel_pair": 595,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.35,
+            0.16,
+            0.08
+          ],
+          "macro_f1": 0.7345986903205812,
+          "novel_macro_f1": 0.7311906390123779,
+          "pair": 876,
+          "novel_pair": 600,
+          "allowed": false
+        },
+        {
+          "parameters": [
+            0.35,
+            0.16,
+            0.22
+          ],
+          "macro_f1": 0.734616178050321,
+          "novel_macro_f1": 0.7313797914778631,
+          "pair": 877,
+          "novel_pair": 599,
+          "allowed": false
+        },
+        {
+          "parameters": [
+            0.35,
+            0.16,
+            0.45
+          ],
+          "macro_f1": 0.7341832150641753,
+          "novel_macro_f1": 0.7307186260346104,
+          "pair": 877,
+          "novel_pair": 599,
+          "allowed": false
+        },
+        {
+          "parameters": [
+            0.35,
+            0.16,
+            0.75
+          ],
+          "macro_f1": 0.7344979651282725,
+          "novel_macro_f1": 0.7306016971832253,
+          "pair": 877,
+          "novel_pair": 599,
+          "allowed": false
+        },
+        {
+          "parameters": [
+            0.65,
+            0.025,
+            0.08
+          ],
+          "macro_f1": 0.7332234040848561,
+          "novel_macro_f1": 0.7299911553571726,
+          "pair": 875,
+          "novel_pair": 597,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.65,
+            0.025,
+            0.22
+          ],
+          "macro_f1": 0.7327526850974959,
+          "novel_macro_f1": 0.7287755700952243,
+          "pair": 874,
+          "novel_pair": 597,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.65,
+            0.025,
+            0.45
+          ],
+          "macro_f1": 0.732473844709941,
+          "novel_macro_f1": 0.729145641830233,
+          "pair": 874,
+          "novel_pair": 597,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.65,
+            0.025,
+            0.75
+          ],
+          "macro_f1": 0.7307067001849612,
+          "novel_macro_f1": 0.7271577594218769,
+          "pair": 881,
+          "novel_pair": 602,
+          "allowed": false
+        },
+        {
+          "parameters": [
+            0.65,
+            0.16,
+            0.08
+          ],
+          "macro_f1": 0.7338456161766721,
+          "novel_macro_f1": 0.730338875451059,
+          "pair": 876,
+          "novel_pair": 599,
+          "allowed": false
+        },
+        {
+          "parameters": [
+            0.65,
+            0.16,
+            0.22
+          ],
+          "macro_f1": 0.7329399629890366,
+          "novel_macro_f1": 0.728715733095564,
+          "pair": 871,
+          "novel_pair": 595,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.65,
+            0.16,
+            0.45
+          ],
+          "macro_f1": 0.7327010915513631,
+          "novel_macro_f1": 0.7287726133898984,
+          "pair": 871,
+          "novel_pair": 596,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.65,
+            0.16,
+            0.75
+          ],
+          "macro_f1": 0.732175657009878,
+          "novel_macro_f1": 0.7286987441233974,
+          "pair": 879,
+          "novel_pair": 601,
+          "allowed": false
+        }
+      ],
+      "controls": {
+        "case-affine-shuffled-labels": "b1867d76dcc2259c377774e5e97156724c9836947a5dba16893140116d7e6005",
+        "case-affine-shuffled-cases": "ca8a1ab6a5359e721daf8acf91dda84eddfd782b787e6c85f7139a60a189aa6d"
+      }
+    },
+    "local-experts": {
+      "kind": "experts",
+      "scope": "all",
+      "params": [
+        0.0,
+        0.16,
+        0.75
+      ],
+      "weights_sha256": "048aa5749102e6738968fdd76ff29d2ade17cebc63d20de40fa67f0a42501e1a",
+      "selection": {
+        "all": {
+          "macro_f1": 0.7357110156012355,
+          "accuracy": 0.7496852178292621,
+          "per_role_f1": {
+            "None": 0.7227177832605808,
+            "Facts": 0.8441215323645971,
+            "Issue": 0.5882352941176471,
+            "Arguments of Petitioner": 0.7368421052631579,
+            "Arguments of Respondent": 0.7309458218549127,
+            "Reasoning": 0.7301506254786827,
+            "Decision": 0.7969639468690702
+          },
+          "none_to_reasoning": 508,
+          "reasoning_to_none": 346,
+          "pair_errors": 854,
+          "confusion": [
+            [
+              1904,
+              153,
+              23,
+              78,
+              41,
+              508,
+              29
+            ],
+            [
+              126,
+              1278,
+              15,
+              24,
+              14,
+              30,
+              4
+            ],
+            [
+              9,
+              58,
+              90,
+              7,
+              0,
+              2,
+              0
+            ],
+            [
+              103,
+              1,
+              2,
+              644,
+              107,
+              37,
+              4
+            ],
+            [
+              14,
+              8,
+              3,
+              76,
+              398,
+              10,
+              1
+            ],
+            [
+              346,
+              39,
+              7,
+              21,
+              19,
+              1430,
+              23
+            ],
+            [
+              31,
+              0,
+              0,
+              0,
+              0,
+              15,
+              210
+            ]
+          ]
+        },
+        "novel": {
+          "macro_f1": 0.7311219910022057,
+          "accuracy": 0.741478231522106,
+          "per_role_f1": {
+            "None": 0.724812030075188,
+            "Facts": 0.8183769858308286,
+            "Issue": 0.5905511811023622,
+            "Arguments of Petitioner": 0.7177650429799427,
+            "Arguments of Respondent": 0.7190751445086705,
+            "Reasoning": 0.7245310776020596,
+            "Decision": 0.822742474916388
+          },
+          "none_to_reasoning": 324,
+          "reasoning_to_none": 265,
+          "pair_errors": 589,
+          "confusion": [
+            [
+              1446,
+              140,
+              18,
+              73,
+              38,
+              324,
+              16
+            ],
+            [
+              113,
+              953,
+              4,
+              24,
+              13,
+              25,
+              3
+            ],
+            [
+              6,
+              57,
+              75,
+              7,
+              0,
+              1,
+              0
+            ],
+            [
+              88,
+              1,
+              2,
+              501,
+              83,
+              28,
+              3
+            ],
+            [
+              13,
+              8,
+              3,
+              66,
+              311,
+              6,
+              0
+            ],
+            [
+              265,
+              35,
+              6,
+              19,
+              13,
+              985,
+              18
+            ],
+            [
+              4,
+              0,
+              0,
+              0,
+              0,
+              9,
+              123
+            ]
+          ]
+        }
+      },
+      "identity_higher": false,
+      "eligible": true,
+      "grid": [
+        {
+          "parameters": [
+            0.0,
+            0.025,
+            0.08
+          ],
+          "macro_f1": 0.7347166560082,
+          "novel_macro_f1": 0.7308274124430858,
+          "pair": 869,
+          "novel_pair": 595,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.0,
+            0.025,
+            0.22
+          ],
+          "macro_f1": 0.7346100602860118,
+          "novel_macro_f1": 0.7305597105041198,
+          "pair": 865,
+          "novel_pair": 593,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.0,
+            0.025,
+            0.45
+          ],
+          "macro_f1": 0.7349946279986391,
+          "novel_macro_f1": 0.730781006184281,
+          "pair": 857,
+          "novel_pair": 588,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.0,
+            0.025,
+            0.75
+          ],
+          "macro_f1": 0.7354900206461382,
+          "novel_macro_f1": 0.730746152604821,
+          "pair": 856,
+          "novel_pair": 592,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.0,
+            0.16,
+            0.08
+          ],
+          "macro_f1": 0.7343163087169484,
+          "novel_macro_f1": 0.73080332801461,
+          "pair": 871,
+          "novel_pair": 596,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.0,
+            0.16,
+            0.22
+          ],
+          "macro_f1": 0.7350355498340885,
+          "novel_macro_f1": 0.7310672419545823,
+          "pair": 865,
+          "novel_pair": 593,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.0,
+            0.16,
+            0.45
+          ],
+          "macro_f1": 0.7352301836937426,
+          "novel_macro_f1": 0.7312627026602238,
+          "pair": 862,
+          "novel_pair": 591,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.0,
+            0.16,
+            0.75
+          ],
+          "macro_f1": 0.7357110156012355,
+          "novel_macro_f1": 0.7311219910022057,
+          "pair": 854,
+          "novel_pair": 589,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.35,
+            0.025,
+            0.08
+          ],
+          "macro_f1": 0.7345896787153412,
+          "novel_macro_f1": 0.7312047096432488,
+          "pair": 874,
+          "novel_pair": 598,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.35,
+            0.025,
+            0.22
+          ],
+          "macro_f1": 0.7340789568229972,
+          "novel_macro_f1": 0.730648767923438,
+          "pair": 874,
+          "novel_pair": 597,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.35,
+            0.025,
+            0.45
+          ],
+          "macro_f1": 0.7335847357557963,
+          "novel_macro_f1": 0.7302048670086788,
+          "pair": 871,
+          "novel_pair": 596,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.35,
+            0.025,
+            0.75
+          ],
+          "macro_f1": 0.7333157314137121,
+          "novel_macro_f1": 0.7292261354421669,
+          "pair": 871,
+          "novel_pair": 597,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.35,
+            0.16,
+            0.08
+          ],
+          "macro_f1": 0.7347909302723148,
+          "novel_macro_f1": 0.7314392798407824,
+          "pair": 875,
+          "novel_pair": 599,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.35,
+            0.16,
+            0.22
+          ],
+          "macro_f1": 0.7344102141404328,
+          "novel_macro_f1": 0.7309709751728298,
+          "pair": 874,
+          "novel_pair": 598,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.35,
+            0.16,
+            0.45
+          ],
+          "macro_f1": 0.7344102141404328,
+          "novel_macro_f1": 0.7309709751728298,
+          "pair": 874,
+          "novel_pair": 598,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.35,
+            0.16,
+            0.75
+          ],
+          "macro_f1": 0.7348563689998251,
+          "novel_macro_f1": 0.7306215556451987,
+          "pair": 872,
+          "novel_pair": 597,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.65,
+            0.025,
+            0.08
+          ],
+          "macro_f1": 0.7337251796294648,
+          "novel_macro_f1": 0.7302796179093767,
+          "pair": 876,
+          "novel_pair": 598,
+          "allowed": false
+        },
+        {
+          "parameters": [
+            0.65,
+            0.025,
+            0.22
+          ],
+          "macro_f1": 0.7327116226138907,
+          "novel_macro_f1": 0.7287682020443365,
+          "pair": 872,
+          "novel_pair": 596,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.65,
+            0.025,
+            0.45
+          ],
+          "macro_f1": 0.7313960209200259,
+          "novel_macro_f1": 0.7283437564138137,
+          "pair": 872,
+          "novel_pair": 595,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.65,
+            0.025,
+            0.75
+          ],
+          "macro_f1": 0.7296623364510906,
+          "novel_macro_f1": 0.7260653794397444,
+          "pair": 877,
+          "novel_pair": 599,
+          "allowed": false
+        },
+        {
+          "parameters": [
+            0.65,
+            0.16,
+            0.08
+          ],
+          "macro_f1": 0.7340335476783135,
+          "novel_macro_f1": 0.730578509917726,
+          "pair": 876,
+          "novel_pair": 599,
+          "allowed": false
+        },
+        {
+          "parameters": [
+            0.65,
+            0.16,
+            0.22
+          ],
+          "macro_f1": 0.7334669096101637,
+          "novel_macro_f1": 0.7290678656235512,
+          "pair": 874,
+          "novel_pair": 597,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.65,
+            0.16,
+            0.45
+          ],
+          "macro_f1": 0.7328771104559332,
+          "novel_macro_f1": 0.7291056566168935,
+          "pair": 871,
+          "novel_pair": 594,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.65,
+            0.16,
+            0.75
+          ],
+          "macro_f1": 0.7312865416142019,
+          "novel_macro_f1": 0.7271834415744683,
+          "pair": 873,
+          "novel_pair": 595,
+          "allowed": true
+        }
+      ]
+    },
+    "case-experts": {
+      "kind": "case-experts",
+      "scope": "all",
+      "params": [
+        0.0,
+        0.025,
+        0.75
+      ],
+      "weights_sha256": "3aa93860e5c4056ece63f42368974d556fa793a9e6bd4bda3b5b0c07740df460",
+      "selection": {
+        "all": {
+          "macro_f1": 0.7358840963879241,
+          "accuracy": 0.7503147821707379,
+          "per_role_f1": {
+            "None": 0.7244839992425677,
+            "Facts": 0.844782034346103,
+            "Issue": 0.5882352941176471,
+            "Arguments of Petitioner": 0.7382319173363949,
+            "Arguments of Respondent": 0.7304507819687213,
+            "Reasoning": 0.7295501022494888,
+            "Decision": 0.7954545454545454
+          },
+          "none_to_reasoning": 503,
+          "reasoning_to_none": 351,
+          "pair_errors": 854,
+          "confusion": [
+            [
+              1913,
+              152,
+              23,
+              74,
+              41,
+              503,
+              30
+            ],
+            [
+              126,
+              1279,
+              15,
+              22,
+              14,
+              31,
+              4
+            ],
+            [
+              9,
+              58,
+              90,
+              7,
+              0,
+              2,
+              0
+            ],
+            [
+              101,
+              2,
+              2,
+              643,
+              107,
+              39,
+              4
+            ],
+            [
+              14,
+              8,
+              3,
+              77,
+              397,
+              10,
+              1
+            ],
+            [
+              351,
+              38,
+              7,
+              21,
+              18,
+              1427,
+              23
+            ],
+            [
+              31,
+              0,
+              0,
+              0,
+              0,
+              15,
+              210
+            ]
+          ]
+        },
+        "novel": {
+          "macro_f1": 0.7309887597792387,
+          "accuracy": 0.7416469794127574,
+          "per_role_f1": {
+            "None": 0.7255883825738608,
+            "Facts": 0.8192357234864749,
+            "Issue": 0.5905511811023622,
+            "Arguments of Petitioner": 0.7199424046076314,
+            "Arguments of Respondent": 0.7190751445086705,
+            "Reasoning": 0.7225284821756707,
+            "Decision": 0.82
+          },
+          "none_to_reasoning": 325,
+          "reasoning_to_none": 268,
+          "pair_errors": 593,
+          "confusion": [
+            [
+              1449,
+              139,
+              18,
+              69,
+              38,
+              325,
+              17
+            ],
+            [
+              113,
+              954,
+              4,
+              22,
+              13,
+              26,
+              3
+            ],
+            [
+              6,
+              57,
+              75,
+              7,
+              0,
+              1,
+              0
+            ],
+            [
+              86,
+              2,
+              2,
+              500,
+              83,
+              30,
+              3
+            ],
+            [
+              13,
+              8,
+              3,
+              66,
+              311,
+              6,
+              0
+            ],
+            [
+              268,
+              34,
+              6,
+              19,
+              13,
+              983,
+              18
+            ],
+            [
+              4,
+              0,
+              0,
+              0,
+              0,
+              9,
+              123
+            ]
+          ]
+        }
+      },
+      "identity_higher": false,
+      "eligible": true,
+      "grid": [
+        {
+          "parameters": [
+            0.0,
+            0.025,
+            0.08
+          ],
+          "macro_f1": 0.7346510744390111,
+          "novel_macro_f1": 0.7306509293885227,
+          "pair": 870,
+          "novel_pair": 597,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.0,
+            0.025,
+            0.22
+          ],
+          "macro_f1": 0.7347082082949145,
+          "novel_macro_f1": 0.730672790586847,
+          "pair": 867,
+          "novel_pair": 595,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.0,
+            0.025,
+            0.45
+          ],
+          "macro_f1": 0.7350247356861139,
+          "novel_macro_f1": 0.7303570553258666,
+          "pair": 858,
+          "novel_pair": 593,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.0,
+            0.025,
+            0.75
+          ],
+          "macro_f1": 0.7358840963879241,
+          "novel_macro_f1": 0.7309887597792387,
+          "pair": 854,
+          "novel_pair": 593,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.0,
+            0.16,
+            0.08
+          ],
+          "macro_f1": 0.7344623904676837,
+          "novel_macro_f1": 0.7305585397271889,
+          "pair": 873,
+          "novel_pair": 598,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.0,
+            0.16,
+            0.22
+          ],
+          "macro_f1": 0.7349292613349913,
+          "novel_macro_f1": 0.7308822458048289,
+          "pair": 868,
+          "novel_pair": 595,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.0,
+            0.16,
+            0.45
+          ],
+          "macro_f1": 0.7355871708785521,
+          "novel_macro_f1": 0.731179260683275,
+          "pair": 861,
+          "novel_pair": 594,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.0,
+            0.16,
+            0.75
+          ],
+          "macro_f1": 0.7352969185816766,
+          "novel_macro_f1": 0.7306860698877093,
+          "pair": 857,
+          "novel_pair": 592,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.35,
+            0.025,
+            0.08
+          ],
+          "macro_f1": 0.7340258291825885,
+          "novel_macro_f1": 0.7305705009061886,
+          "pair": 876,
+          "novel_pair": 599,
+          "allowed": false
+        },
+        {
+          "parameters": [
+            0.35,
+            0.025,
+            0.22
+          ],
+          "macro_f1": 0.7340913802141914,
+          "novel_macro_f1": 0.7304870071227446,
+          "pair": 875,
+          "novel_pair": 599,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.35,
+            0.025,
+            0.45
+          ],
+          "macro_f1": 0.7341630832167704,
+          "novel_macro_f1": 0.7299613975752892,
+          "pair": 872,
+          "novel_pair": 597,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.35,
+            0.025,
+            0.75
+          ],
+          "macro_f1": 0.7345872971337956,
+          "novel_macro_f1": 0.7311682620049337,
+          "pair": 867,
+          "novel_pair": 593,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.35,
+            0.16,
+            0.08
+          ],
+          "macro_f1": 0.7341564786905467,
+          "novel_macro_f1": 0.730722545810812,
+          "pair": 876,
+          "novel_pair": 599,
+          "allowed": false
+        },
+        {
+          "parameters": [
+            0.35,
+            0.16,
+            0.22
+          ],
+          "macro_f1": 0.7340812801341196,
+          "novel_macro_f1": 0.7307099622937976,
+          "pair": 876,
+          "novel_pair": 598,
+          "allowed": false
+        },
+        {
+          "parameters": [
+            0.35,
+            0.16,
+            0.45
+          ],
+          "macro_f1": 0.7339153261876916,
+          "novel_macro_f1": 0.7306770472184992,
+          "pair": 874,
+          "novel_pair": 598,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.35,
+            0.16,
+            0.75
+          ],
+          "macro_f1": 0.7344141268150681,
+          "novel_macro_f1": 0.73057874637827,
+          "pair": 871,
+          "novel_pair": 597,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.65,
+            0.025,
+            0.08
+          ],
+          "macro_f1": 0.7331680867013682,
+          "novel_macro_f1": 0.7299180265407624,
+          "pair": 876,
+          "novel_pair": 598,
+          "allowed": false
+        },
+        {
+          "parameters": [
+            0.65,
+            0.025,
+            0.22
+          ],
+          "macro_f1": 0.7325426056365185,
+          "novel_macro_f1": 0.7284453105503824,
+          "pair": 871,
+          "novel_pair": 595,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.65,
+            0.025,
+            0.45
+          ],
+          "macro_f1": 0.731739844667391,
+          "novel_macro_f1": 0.7279919293676675,
+          "pair": 872,
+          "novel_pair": 598,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.65,
+            0.025,
+            0.75
+          ],
+          "macro_f1": 0.7303669100575555,
+          "novel_macro_f1": 0.7263840606602032,
+          "pair": 873,
+          "novel_pair": 599,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.65,
+            0.16,
+            0.08
+          ],
+          "macro_f1": 0.734099033479429,
+          "novel_macro_f1": 0.730670768356906,
+          "pair": 875,
+          "novel_pair": 598,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.65,
+            0.16,
+            0.22
+          ],
+          "macro_f1": 0.7330366147321181,
+          "novel_macro_f1": 0.7290437519634275,
+          "pair": 872,
+          "novel_pair": 596,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.65,
+            0.16,
+            0.45
+          ],
+          "macro_f1": 0.7325983240083564,
+          "novel_macro_f1": 0.7278268709393176,
+          "pair": 871,
+          "novel_pair": 595,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.65,
+            0.16,
+            0.75
+          ],
+          "macro_f1": 0.7307690930155725,
+          "novel_macro_f1": 0.726736442905987,
+          "pair": 877,
+          "novel_pair": 600,
+          "allowed": false
+        }
+      ],
+      "controls": {
+        "case-experts-shuffled-labels": "082ed0d6610af3dde9bfcaf8b2be1bd86cb2a291d70d50cd967a8f34da92d67a",
+        "case-experts-shuffled-cases": "05bb75eeba44a3244a0680fbbf35307cf96e885e48d05b7c5ee6d7e85c0fd43a"
+      }
+    },
+    "pair-affine": {
+      "kind": "score",
+      "scope": "pair",
+      "params": [
+        0.0,
+        0.16,
+        0.22
+      ],
+      "weights_sha256": "22798129a01456f907328a79b772843bc67122ee28329bf649255e1076f5d33d",
+      "selection": {
+        "all": {
+          "macro_f1": 0.7360238208776314,
+          "accuracy": 0.7488038277511961,
+          "per_role_f1": {
+            "None": 0.7199693955623565,
+            "Facts": 0.8447368421052631,
+            "Issue": 0.5968253968253968,
+            "Arguments of Petitioner": 0.7356452529846503,
+            "Arguments of Respondent": 0.7294332723948812,
+            "Reasoning": 0.7301020408163266,
+            "Decision": 0.7954545454545454
+          },
+          "none_to_reasoning": 511,
+          "reasoning_to_none": 344,
+          "pair_errors": 855,
+          "confusion": [
+            [
+              1882,
+              161,
+              24,
+              85,
+              43,
+              511,
+              30
+            ],
+            [
+              115,
+              1284,
+              19,
+              24,
+              15,
+              30,
+              4
+            ],
+            [
+              7,
+              56,
+              94,
+              7,
+              0,
+              2,
+              0
+            ],
+            [
+              101,
+              1,
+              2,
+              647,
+              107,
+              36,
+              4
+            ],
+            [
+              12,
+              8,
+              3,
+              77,
+              399,
+              10,
+              1
+            ],
+            [
+              344,
+              39,
+              7,
+              21,
+              20,
+              1431,
+              23
+            ],
+            [
+              31,
+              0,
+              0,
+              0,
+              0,
+              15,
+              210
+            ]
+          ]
+        },
+        "novel": {
+          "macro_f1": 0.7320603205999523,
+          "accuracy": 0.7404657441781978,
+          "per_role_f1": {
+            "None": 0.7214357937310415,
+            "Facts": 0.8196581196581196,
+            "Issue": 0.6053639846743295,
+            "Arguments of Petitioner": 0.716927453769559,
+            "Arguments of Respondent": 0.7172413793103448,
+            "Reasoning": 0.7237955130562707,
+            "Decision": 0.82
+          },
+          "none_to_reasoning": 326,
+          "reasoning_to_none": 265,
+          "pair_errors": 591,
+          "confusion": [
+            [
+              1427,
+              147,
+              19,
+              79,
+              40,
+              326,
+              17
+            ],
+            [
+              104,
+              959,
+              6,
+              24,
+              14,
+              25,
+              3
+            ],
+            [
+              4,
+              55,
+              79,
+              7,
+              0,
+              1,
+              0
+            ],
+            [
+              86,
+              1,
+              2,
+              504,
+              83,
+              27,
+              3
+            ],
+            [
+              11,
+              8,
+              3,
+              67,
+              312,
+              6,
+              0
+            ],
+            [
+              265,
+              35,
+              6,
+              19,
+              14,
+              984,
+              18
+            ],
+            [
+              4,
+              0,
+              0,
+              0,
+              0,
+              9,
+              123
+            ]
+          ]
+        }
+      },
+      "identity_higher": false,
+      "eligible": true,
+      "grid": [
+        {
+          "parameters": [
+            0.0,
+            0.025,
+            0.08
+          ],
+          "macro_f1": 0.7350514923099356,
+          "novel_macro_f1": 0.7315164677117184,
+          "pair": 871,
+          "novel_pair": 598,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.0,
+            0.025,
+            0.22
+          ],
+          "macro_f1": 0.7358303150803029,
+          "novel_macro_f1": 0.7318860413444267,
+          "pair": 858,
+          "novel_pair": 593,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.0,
+            0.025,
+            0.45
+          ],
+          "macro_f1": 0.7354887197511495,
+          "novel_macro_f1": 0.7317957022225945,
+          "pair": 862,
+          "novel_pair": 593,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.0,
+            0.025,
+            0.75
+          ],
+          "macro_f1": 0.7356471832144271,
+          "novel_macro_f1": 0.7323753908732148,
+          "pair": 858,
+          "novel_pair": 585,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.0,
+            0.16,
+            0.08
+          ],
+          "macro_f1": 0.7352377854125515,
+          "novel_macro_f1": 0.7317825683300702,
+          "pair": 868,
+          "novel_pair": 595,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.0,
+            0.16,
+            0.22
+          ],
+          "macro_f1": 0.7360238208776314,
+          "novel_macro_f1": 0.7320603205999523,
+          "pair": 855,
+          "novel_pair": 591,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.0,
+            0.16,
+            0.45
+          ],
+          "macro_f1": 0.7356380775638959,
+          "novel_macro_f1": 0.7319085174216952,
+          "pair": 860,
+          "novel_pair": 592,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.0,
+            0.16,
+            0.75
+          ],
+          "macro_f1": 0.735723080010909,
+          "novel_macro_f1": 0.7322759630630776,
+          "pair": 857,
+          "novel_pair": 586,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.35,
+            0.025,
+            0.08
+          ],
+          "macro_f1": 0.7352535212475403,
+          "novel_macro_f1": 0.7318912983028764,
+          "pair": 868,
+          "novel_pair": 594,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.35,
+            0.025,
+            0.22
+          ],
+          "macro_f1": 0.7349155783484748,
+          "novel_macro_f1": 0.731425999728538,
+          "pair": 873,
+          "novel_pair": 599,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.35,
+            0.025,
+            0.45
+          ],
+          "macro_f1": 0.734674830384518,
+          "novel_macro_f1": 0.7308591312813383,
+          "pair": 876,
+          "novel_pair": 605,
+          "allowed": false
+        },
+        {
+          "parameters": [
+            0.35,
+            0.025,
+            0.75
+          ],
+          "macro_f1": 0.7341577150440831,
+          "novel_macro_f1": 0.7309400376732562,
+          "pair": 884,
+          "novel_pair": 604,
+          "allowed": false
+        },
+        {
+          "parameters": [
+            0.35,
+            0.16,
+            0.08
+          ],
+          "macro_f1": 0.7350581835962168,
+          "novel_macro_f1": 0.7317875154166743,
+          "pair": 871,
+          "novel_pair": 595,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.35,
+            0.16,
+            0.22
+          ],
+          "macro_f1": 0.7351172253683037,
+          "novel_macro_f1": 0.731790780785105,
+          "pair": 870,
+          "novel_pair": 595,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.35,
+            0.16,
+            0.45
+          ],
+          "macro_f1": 0.7350691080695161,
+          "novel_macro_f1": 0.7311314155239959,
+          "pair": 870,
+          "novel_pair": 602,
+          "allowed": false
+        },
+        {
+          "parameters": [
+            0.35,
+            0.16,
+            0.75
+          ],
+          "macro_f1": 0.7343694839422107,
+          "novel_macro_f1": 0.7307136926019214,
+          "pair": 881,
+          "novel_pair": 607,
+          "allowed": false
+        },
+        {
+          "parameters": [
+            0.65,
+            0.025,
+            0.08
+          ],
+          "macro_f1": 0.7350053931309658,
+          "novel_macro_f1": 0.7318003664188467,
+          "pair": 872,
+          "novel_pair": 595,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.65,
+            0.025,
+            0.22
+          ],
+          "macro_f1": 0.734557111385213,
+          "novel_macro_f1": 0.7312916443406049,
+          "pair": 879,
+          "novel_pair": 601,
+          "allowed": false
+        },
+        {
+          "parameters": [
+            0.65,
+            0.025,
+            0.45
+          ],
+          "macro_f1": 0.7336638786750195,
+          "novel_macro_f1": 0.7301705153967762,
+          "pair": 893,
+          "novel_pair": 614,
+          "allowed": false
+        },
+        {
+          "parameters": [
+            0.65,
+            0.025,
+            0.75
+          ],
+          "macro_f1": 0.7340796347520021,
+          "novel_macro_f1": 0.7311949460361279,
+          "pair": 887,
+          "novel_pair": 603,
+          "allowed": false
+        },
+        {
+          "parameters": [
+            0.65,
+            0.16,
+            0.08
+          ],
+          "macro_f1": 0.7349437288160464,
+          "novel_macro_f1": 0.7317240476433021,
+          "pair": 873,
+          "novel_pair": 596,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.65,
+            0.16,
+            0.22
+          ],
+          "macro_f1": 0.7345581818851653,
+          "novel_macro_f1": 0.7312962443077886,
+          "pair": 879,
+          "novel_pair": 601,
+          "allowed": false
+        },
+        {
+          "parameters": [
+            0.65,
+            0.16,
+            0.45
+          ],
+          "macro_f1": 0.7335555782405964,
+          "novel_macro_f1": 0.7301876689984185,
+          "pair": 895,
+          "novel_pair": 614,
+          "allowed": false
+        },
+        {
+          "parameters": [
+            0.65,
+            0.16,
+            0.75
+          ],
+          "macro_f1": 0.7331947209446685,
+          "novel_macro_f1": 0.7304115562009174,
+          "pair": 901,
+          "novel_pair": 612,
+          "allowed": false
+        }
+      ]
+    },
+    "pair-case": {
+      "kind": "case-experts",
+      "scope": "pair",
+      "params": [
+        0.0,
+        0.16,
+        0.22
+      ],
+      "weights_sha256": "8ed90e96126de63082936afccf9d6bb1327c063752c405eac41c9cc83703652d",
+      "selection": {
+        "all": {
+          "macro_f1": 0.7362736974790034,
+          "accuracy": 0.7493074792243767,
+          "per_role_f1": {
+            "None": 0.7207966296438146,
+            "Facts": 0.8447368421052631,
+            "Issue": 0.5968253968253968,
+            "Arguments of Petitioner": 0.7356452529846503,
+            "Arguments of Respondent": 0.7294332723948812,
+            "Reasoning": 0.7310239429444727,
+            "Decision": 0.7954545454545454
+          },
+          "none_to_reasoning": 511,
+          "reasoning_to_none": 340,
+          "pair_errors": 851,
+          "confusion": [
+            [
+              1882,
+              161,
+              24,
+              85,
+              43,
+              511,
+              30
+            ],
+            [
+              115,
+              1284,
+              19,
+              24,
+              15,
+              30,
+              4
+            ],
+            [
+              7,
+              56,
+              94,
+              7,
+              0,
+              2,
+              0
+            ],
+            [
+              99,
+              1,
+              2,
+              647,
+              107,
+              38,
+              4
+            ],
+            [
+              12,
+              8,
+              3,
+              77,
+              399,
+              10,
+              1
+            ],
+            [
+              340,
+              39,
+              7,
+              21,
+              20,
+              1435,
+              23
+            ],
+            [
+              31,
+              0,
+              0,
+              0,
+              0,
+              15,
+              210
+            ]
+          ]
+        },
+        "novel": {
+          "macro_f1": 0.7323330920217171,
+          "accuracy": 0.7409719878501518,
+          "per_role_f1": {
+            "None": 0.722067392956676,
+            "Facts": 0.8196581196581196,
+            "Issue": 0.6053639846743295,
+            "Arguments of Petitioner": 0.716927453769559,
+            "Arguments of Respondent": 0.7172413793103448,
+            "Reasoning": 0.7250733137829912,
+            "Decision": 0.82
+          },
+          "none_to_reasoning": 328,
+          "reasoning_to_none": 260,
+          "pair_errors": 588,
+          "confusion": [
+            [
+              1425,
+              147,
+              19,
+              79,
+              40,
+              328,
+              17
+            ],
+            [
+              104,
+              959,
+              6,
+              24,
+              14,
+              25,
+              3
+            ],
+            [
+              4,
+              55,
+              79,
+              7,
+              0,
+              1,
+              0
+            ],
+            [
+              84,
+              1,
+              2,
+              504,
+              83,
+              29,
+              3
+            ],
+            [
+              11,
+              8,
+              3,
+              67,
+              312,
+              6,
+              0
+            ],
+            [
+              260,
+              35,
+              6,
+              19,
+              14,
+              989,
+              18
+            ],
+            [
+              4,
+              0,
+              0,
+              0,
+              0,
+              9,
+              123
+            ]
+          ]
+        }
+      },
+      "identity_higher": false,
+      "eligible": true,
+      "grid": [
+        {
+          "parameters": [
+            0.0,
+            0.025,
+            0.08
+          ],
+          "macro_f1": 0.7352337718341183,
+          "novel_macro_f1": 0.7318585254199844,
+          "pair": 868,
+          "novel_pair": 594,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.0,
+            0.025,
+            0.22
+          ],
+          "macro_f1": 0.7358271613037951,
+          "novel_macro_f1": 0.7316363810473492,
+          "pair": 858,
+          "novel_pair": 596,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.0,
+            0.025,
+            0.45
+          ],
+          "macro_f1": 0.7356898459966779,
+          "novel_macro_f1": 0.7315434431963,
+          "pair": 859,
+          "novel_pair": 596,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.0,
+            0.025,
+            0.75
+          ],
+          "macro_f1": 0.7351568751700681,
+          "novel_macro_f1": 0.7314381543320252,
+          "pair": 866,
+          "novel_pair": 596,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.0,
+            0.16,
+            0.08
+          ],
+          "macro_f1": 0.7351735851366524,
+          "novel_macro_f1": 0.7317793404018289,
+          "pair": 869,
+          "novel_pair": 595,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.0,
+            0.16,
+            0.22
+          ],
+          "macro_f1": 0.7362736974790034,
+          "novel_macro_f1": 0.7323330920217171,
+          "pair": 851,
+          "novel_pair": 588,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.0,
+            0.16,
+            0.45
+          ],
+          "macro_f1": 0.7353609664603502,
+          "novel_macro_f1": 0.7310916580318289,
+          "pair": 864,
+          "novel_pair": 601,
+          "allowed": false
+        },
+        {
+          "parameters": [
+            0.0,
+            0.16,
+            0.75
+          ],
+          "macro_f1": 0.7356744219331536,
+          "novel_macro_f1": 0.7317005623729724,
+          "pair": 858,
+          "novel_pair": 593,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.35,
+            0.025,
+            0.08
+          ],
+          "macro_f1": 0.7351853529073704,
+          "novel_macro_f1": 0.7317956279819683,
+          "pair": 869,
+          "novel_pair": 595,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.35,
+            0.025,
+            0.22
+          ],
+          "macro_f1": 0.7355421465181864,
+          "novel_macro_f1": 0.7316140912326193,
+          "pair": 863,
+          "novel_pair": 597,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.35,
+            0.025,
+            0.45
+          ],
+          "macro_f1": 0.7346726264344952,
+          "novel_macro_f1": 0.7305930066797932,
+          "pair": 876,
+          "novel_pair": 608,
+          "allowed": false
+        },
+        {
+          "parameters": [
+            0.35,
+            0.025,
+            0.75
+          ],
+          "macro_f1": 0.7341399726064256,
+          "novel_macro_f1": 0.7306575776253564,
+          "pair": 884,
+          "novel_pair": 607,
+          "allowed": false
+        },
+        {
+          "parameters": [
+            0.35,
+            0.16,
+            0.08
+          ],
+          "macro_f1": 0.7351198230971878,
+          "novel_macro_f1": 0.7317032730466212,
+          "pair": 870,
+          "novel_pair": 596,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.35,
+            0.16,
+            0.22
+          ],
+          "macro_f1": 0.7349323106212154,
+          "novel_macro_f1": 0.7313695540003923,
+          "pair": 873,
+          "novel_pair": 600,
+          "allowed": false
+        },
+        {
+          "parameters": [
+            0.35,
+            0.16,
+            0.45
+          ],
+          "macro_f1": 0.7352034885251177,
+          "novel_macro_f1": 0.7312350252083206,
+          "pair": 868,
+          "novel_pair": 601,
+          "allowed": false
+        },
+        {
+          "parameters": [
+            0.35,
+            0.16,
+            0.75
+          ],
+          "macro_f1": 0.7340431414323552,
+          "novel_macro_f1": 0.7299318562294969,
+          "pair": 886,
+          "novel_pair": 616,
+          "allowed": false
+        },
+        {
+          "parameters": [
+            0.65,
+            0.025,
+            0.08
+          ],
+          "macro_f1": 0.73519683429035,
+          "novel_macro_f1": 0.7318116659975971,
+          "pair": 869,
+          "novel_pair": 595,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.65,
+            0.025,
+            0.22
+          ],
+          "macro_f1": 0.7346223999618603,
+          "novel_macro_f1": 0.7312074150363133,
+          "pair": 878,
+          "novel_pair": 602,
+          "allowed": false
+        },
+        {
+          "parameters": [
+            0.65,
+            0.025,
+            0.45
+          ],
+          "macro_f1": 0.733978918826513,
+          "novel_macro_f1": 0.7305289042478884,
+          "pair": 888,
+          "novel_pair": 610,
+          "allowed": false
+        },
+        {
+          "parameters": [
+            0.65,
+            0.025,
+            0.75
+          ],
+          "macro_f1": 0.7342293133156927,
+          "novel_macro_f1": 0.7310607889608024,
+          "pair": 884,
+          "novel_pair": 604,
+          "allowed": false
+        },
+        {
+          "parameters": [
+            0.65,
+            0.16,
+            0.08
+          ],
+          "macro_f1": 0.7348756836498903,
+          "novel_macro_f1": 0.7316397814758479,
+          "pair": 874,
+          "novel_pair": 597,
+          "allowed": true
+        },
+        {
+          "parameters": [
+            0.65,
+            0.16,
+            0.22
+          ],
+          "macro_f1": 0.7344929215113287,
+          "novel_macro_f1": 0.7312152402682832,
+          "pair": 880,
+          "novel_pair": 602,
+          "allowed": false
+        },
+        {
+          "parameters": [
+            0.65,
+            0.16,
+            0.45
+          ],
+          "macro_f1": 0.7338623930003825,
+          "novel_macro_f1": 0.7303680073874569,
+          "pair": 890,
+          "novel_pair": 612,
+          "allowed": false
+        },
+        {
+          "parameters": [
+            0.65,
+            0.16,
+            0.75
+          ],
+          "macro_f1": 0.7334273455387991,
+          "novel_macro_f1": 0.730208055997417,
+          "pair": 897,
+          "novel_pair": 614,
+          "allowed": false
+        }
+      ],
+      "controls": {
+        "pair-case-shuffled-labels": "be0035fb85bf6a3c154036597273780a15929a9ec017b89a24e1e249bf611e6d",
+        "pair-case-shuffled-cases": "89182392db921adb03b08e8ae3493827eb9c440e41981b1069eb0c7dbeff2883"
+      }
+    }
+  },
+  "selected": "bias",
+  "fit_score_bank_sha256": "55c5da8e60108f4b3588b953cf21c5820d397d30ce12624485c47d7e849cc08d",
+  "select_score_bank_sha256": "700ef2ac04d8317307f942fb2a8cf0515bc1e28a6685213abd7bcf4a3158f740",
+  "fit_cases": [
+    "3268",
+    "354",
+    "467",
+    "1685",
+    "1135",
+    "4848",
+    "3863",
+    "3332",
+    "319",
+    "1017",
+    "1885",
+    "1547",
+    "755",
+    "1522",
+    "1890",
+    "1734",
+    "3966",
+    "3189",
+    "544",
+    "1285",
+    "966",
+    "3339",
+    "829",
+    "1920",
+    "3809",
+    "4601",
+    "4822",
+    "4929",
+    "3032",
+    "3542",
+    "3041",
+    "437",
+    "4641",
+    "3496",
+    "973",
+    "4616",
+    "3988",
+    "1283",
+    "357",
+    "2508",
+    "3623",
+    "2979",
+    "4574",
+    "4398",
+    "1014",
+    "2525",
+    "2913",
+    "3831",
+    "2803",
+    "1159",
+    "2327",
+    "1803",
+    "1599",
+    "1965",
+    "816",
+    "986",
+    "3841",
+    "897",
+    "17",
+    "4011",
+    "3299",
+    "3196",
+    "3170",
+    "3537",
+    "3048",
+    "1245",
+    "3914",
+    "4904",
+    "2865",
+    "3933",
+    "1722",
+    "2138",
+    "2288",
+    "2579",
+    "261",
+    "2252",
+    "1387",
+    "4920",
+    "1404",
+    "2449",
+    "3517",
+    "4533",
+    "3646",
+    "2332",
+    "4409",
+    "454",
+    "4532",
+    "3810",
+    "4658",
+    "4329",
+    "327",
+    "2165",
+    "4558",
+    "2224",
+    "4951",
+    "1296",
+    "1831",
+    "1303",
+    "4324",
+    "2194",
+    "1561",
+    "2376",
+    "729",
+    "4448",
+    "3241",
+    "381",
+    "2126",
+    "4345",
+    "2595",
+    "1240",
+    "4388",
+    "699",
+    "4231",
+    "43",
+    "2622",
+    "2476",
+    "270",
+    "1740",
+    "4165",
+    "2505",
+    "4975",
+    "933",
+    "2862",
+    "1402",
+    "2240",
+    "3402",
+    "2174",
+    "675",
+    "3561",
+    "691",
+    "4167",
+    "4373",
+    "1778",
+    "3391",
+    "4921",
+    "4738",
+    "1967",
+    "4548",
+    "241",
+    "789",
+    "810",
+    "448",
+    "2926",
+    "4267",
+    "989",
+    "1607",
+    "4820",
+    "336",
+    "2170",
+    "2858",
+    "1882",
+    "4031",
+    "4746",
+    "3038",
+    "1205",
+    "4006",
+    "2304",
+    "4839",
+    "4710",
+    "4119",
+    "3476",
+    "127",
+    "90",
+    "2573",
+    "1431",
+    "1270",
+    "494",
+    "2777",
+    "4205",
+    "2182",
+    "2080",
+    "1158",
+    "1006",
+    "2267",
+    "4917",
+    "3753",
+    "2929",
+    "2094",
+    "1972",
+    "4731",
+    "1696",
+    "3716",
+    "4636",
+    "4543",
+    "549",
+    "3179",
+    "3384",
+    "1425",
+    "4255",
+    "2669",
+    "4482",
+    "302"
+  ],
+  "select_cases": [
+    "6284",
+    "5153",
+    "5156",
+    "5162",
+    "6014",
+    "6108",
+    "6388",
+    "6299",
+    "5856",
+    "5534",
+    "5900",
+    "5753",
+    "6080",
+    "4998",
+    "6100",
+    "6114",
+    "6206",
+    "5731",
+    "5137",
+    "5476",
+    "5907",
+    "5282",
+    "6136",
+    "6253",
+    "5757",
+    "5720",
+    "5745",
+    "5742",
+    "5508",
+    "6238",
+    "6032",
+    "5968",
+    "5559",
+    "6152",
+    "6373",
+    "5045",
+    "5635",
+    "5399",
+    "6260",
+    "5679",
+    "5675",
+    "5147",
+    "5052",
+    "5606",
+    "5130",
+    "5832",
+    "6336",
+    "5395"
+  ],
+  "fit_rows": 43401,
+  "selector_rows": 7942,
+  "selector_novel_rows": 5926,
+  "selector_baseline": {
+    "all": {
+      "macro_f1": 0.7347909302723148,
+      "accuracy": 0.7462855703852934,
+      "per_role_f1": {
+        "None": 0.7148098088434061,
+        "Facts": 0.8447368421052631,
+        "Issue": 0.5968253968253968,
+        "Arguments of Petitioner": 0.7356452529846503,
+        "Arguments of Respondent": 0.7294332723948812,
+        "Reasoning": 0.7266313932980599,
+        "Decision": 0.7954545454545454
+      },
+      "none_to_reasoning": 542,
+      "reasoning_to_none": 333,
+      "pair_errors": 875,
+      "confusion": [
+        [
+          1851,
+          161,
+          24,
+          85,
+          43,
+          542,
+          30
+        ],
+        [
+          113,
+          1284,
+          19,
+          24,
+          15,
+          32,
+          4
+        ],
+        [
+          7,
+          56,
+          94,
+          7,
+          0,
+          2,
+          0
+        ],
+        [
+          97,
+          1,
+          2,
+          647,
+          107,
+          40,
+          4
+        ],
+        [
+          12,
+          8,
+          3,
+          77,
+          399,
+          10,
+          1
+        ],
+        [
+          333,
+          39,
+          7,
+          21,
+          20,
+          1442,
+          23
+        ],
+        [
+          30,
+          0,
+          0,
+          0,
+          0,
+          16,
+          210
+        ]
+      ]
+    },
+    "novel": {
+      "macro_f1": 0.7314392798407824,
+      "accuracy": 0.7391157610529868,
+      "per_role_f1": {
+        "None": 0.7178963492468726,
+        "Facts": 0.8196581196581196,
+        "Issue": 0.6053639846743295,
+        "Arguments of Petitioner": 0.716927453769559,
+        "Arguments of Respondent": 0.7172413793103448,
+        "Reasoning": 0.7229876722262509,
+        "Decision": 0.82
+      },
+      "none_to_reasoning": 347,
+      "reasoning_to_none": 252,
+      "pair_errors": 599,
+      "confusion": [
+        [
+          1406,
+          147,
+          19,
+          79,
+          40,
+          347,
+          17
+        ],
+        [
+          102,
+          959,
+          6,
+          24,
+          14,
+          27,
+          3
+        ],
+        [
+          4,
+          55,
+          79,
+          7,
+          0,
+          1,
+          0
+        ],
+        [
+          83,
+          1,
+          2,
+          504,
+          83,
+          30,
+          3
+        ],
+        [
+          11,
+          8,
+          3,
+          67,
+          312,
+          6,
+          0
+        ],
+        [
+          252,
+          35,
+          6,
+          19,
+          14,
+          997,
+          18
+        ],
+        [
+          4,
+          0,
+          0,
+          0,
+          0,
+          9,
+          123
+        ]
+      ]
+    }
+  },
+  "configuration": "48 previously used selector judgments. Rank by the mean of full-set and no-exact-key macro-F1, then combined pair error change and accuracy. Require that pair errors do not grow on either set and overall accuracy stays within 0.4 points in selection. Keep zero edit when it is stronger.",
+  "official_test_opened": false
+}

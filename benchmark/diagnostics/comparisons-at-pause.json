@@ -1,0 +1,122 @@
+{
+  "semantic_neighbors_vs_legal_context": {
+    "delta_points": 0.6574510768089792,
+    "accuracy_points": -0.06405636960525873,
+    "pair_delta": 22,
+    "ci": {
+      "macro_delta": [
+        0.0030481326713995586,
+        0.010049462191226313
+      ],
+      "accuracy_delta": [
+        -0.004254826094749969,
+        0.00274325621457538
+      ],
+      "pair_delta": [
+        -333.025,
+        384.0500000000002
+      ],
+      "none_to_reasoning_delta": [
+        -402.04999999999995,
+        313.0500000000002
+      ],
+      "reasoning_to_none_delta": [
+        -186.02499999999998,
+        332.0500000000002
+      ]
+    },
+    "changed": 14160,
+    "fixed": 5795,
+    "harmed": 5891
+  },
+  "anchored_scale_vs_legal_context": {
+    "delta_points": 0.21756791615986648,
+    "accuracy_points": 0.2722395708223191,
+    "pair_delta": -146,
+    "ci": {
+      "macro_delta": [
+        0.0010070743932889454,
+        0.003341655985178138
+      ],
+      "accuracy_delta": [
+        0.0015519450651239996,
+        0.003927298379596939
+      ],
+      "pair_delta": [
+        -313.0,
+        15.0
+      ],
+      "none_to_reasoning_delta": [
+        -933.025,
+        -639.9749999999999
+      ],
+      "reasoning_to_none_delta": [
+        523.975,
+        752.0
+      ]
+    },
+    "changed": 3650,
+    "fixed": 1733,
+    "harmed": 1325
+  },
+  "decoder_pair_vs_legal_context": {
+    "delta_points": -0.010801597016207864,
+    "accuracy_points": 0.14946486241225188,
+    "pair_delta": -240,
+    "ci": {
+      "macro_delta": [
+        -0.00137971582951662,
+        0.0012028134520202629
+      ],
+      "accuracy_delta": [
+        -0.0006782594188661256,
+        0.003676028324729031
+      ],
+      "pair_delta": [
+        -558.025,
+        68.0
+      ],
+      "none_to_reasoning_delta": [
+        -2147.0,
+        -1590.975
+      ],
+      "reasoning_to_none_delta": [
+        1391.0,
+        1855.0
+      ]
+    },
+    "changed": 5861,
+    "fixed": 2690,
+    "harmed": 2466
+  },
+  "semantic_neighbors_vs_anchored_scale": {
+    "delta_points": 0.4398831606491127,
+    "accuracy_points": -0.3362959404275778,
+    "pair_delta": 168,
+    "ci": {
+      "macro_delta": [
+        0.0008047968717263377,
+        0.007841439324748747
+      ],
+      "accuracy_delta": [
+        -0.007002423987717929,
+        -6.839050121446015e-06
+      ],
+      "pair_delta": [
+        -180.0,
+        536.0250000000001
+      ],
+      "none_to_reasoning_delta": [
+        398.0,
+        1101.0500000000002
+      ],
+      "reasoning_to_none_delta": [
+        -813.0,
+        -319.9749999999999
+      ]
+    },
+    "changed": 13565,
+    "fixed": 5373,
+    "harmed": 5877
+  }
+}

@@ -1,0 +1,2133 @@
+{
+  "task": "One of seven human roles per existing sentence, entire judgment context",
+  "source": "L-NLProc/LegalSeg_Hier_BiLSTM-CRF",
+  "base_parameters": 16816110,
+  "official_test_scored_in_this_lane": true,
+  "gradient_steps": 0,
+  "training_counts": {
+    "train_sha256": "60028fc085e3cb018e8d49a8879ba796dd03a0838367891f3312f9e576921794",
+    "docs": 4984,
+    "nonblank_sentences": 1122376,
+    "class_support": [
+      602988,
+      169647,
+      12769,
+      64985,
+      50088,
+      202328,
+      19571
+    ],
+    "vocab": 164108,
+    "seconds": 103.19441530699987
+  },
+  "trials": [
+    {
+      "trial": "Direct token-to-role writes in donor word embeddings",
+      "cohort": "select-16",
+      "rows": 3521,
+      "baseline": {
+        "macro_f1": 0.5905713680848103,
+        "accuracy": 0.6464072706617439
+      },
+      "arms": {
+        "cov-res:0.28": {
+          "macro_f1": 0.5779785683991268,
+          "accuracy": 0.6418631070718546,
+          "changed_word_rows": 25508,
+          "changed_float_entries": 2550800,
+          "L2": 252.00981358603573,
+          "tensor_sha256": "279789ada22ec7aaa9a86e1f2a69720643480d0a237de94979c32aa67e7eefdf",
+          "paired_macro_f1_95": [
+            -0.03925906539412706,
+            0.0186559873014751
+          ]
+        },
+        "probe-res:0.28": {
+          "macro_f1": 0.5948319452951253,
+          "accuracy": 0.6611758023288838,
+          "changed_word_rows": 25508,
+          "changed_float_entries": 2550800,
+          "L2": 278.8209239730227,
+          "tensor_sha256": "617c6dd6f1dd857c24eaa80bfe88f9f15b3984be4999bef54803c64690a16f36",
+          "paired_macro_f1_95": [
+            -0.010352244172250382,
+            0.02370112051234712
+          ]
+        },
+        "cov:0.28": {
+          "macro_f1": 0.5740437314591286,
+          "accuracy": 0.6421471172962226,
+          "changed_word_rows": 25508,
+          "changed_float_entries": 2550800,
+          "L2": 252.1034055737685,
+          "tensor_sha256": "aa4c93701814eb707e65c777335e95d37b29a5d58901488c99ff978ff6640e15",
+          "paired_macro_f1_95": [
+            -0.04838365460791413,
+            0.02012557419237378
+          ]
+        },
+        "probe:0.28": {
+          "macro_f1": 0.5873327554905446,
+          "accuracy": 0.6569156489633626,
+          "changed_word_rows": 25508,
+          "changed_float_entries": 2550797,
+          "L2": 279.35429877606623,
+          "tensor_sha256": "16c9f8009d4ba84f0f0915d8500bd70abfe922e38b957841f30253eb346c94c5",
+          "paired_macro_f1_95": [
+            -0.021945653987881533,
+            0.022189203695721284
+          ]
+        },
+        "probe-shuf:0.28": {
+          "macro_f1": 0.5965263043393902,
+          "accuracy": 0.6563476285146266,
+          "changed_word_rows": 25508,
+          "changed_float_entries": 2550797,
+          "L2": 279.61442797655303,
+          "tensor_sha256": "ca30b32f8e1262930106c1289dd227952a4c9e4f66fc92c2f4f6bed4b9c7a9fa",
+          "paired_macro_f1_95": [
+            -0.021944079119853247,
+            0.03340600920934829
+          ]
+        }
+      },
+      "controls": "Unchanged donor; sign reversal; frequency-binned permutation of lexical identities (subset varies by cohort).",
+      "changed_keys": [
+        "sent_encoder.emb.weight"
+      ],
+      "result_path": "select-16.json",
+      "exclusions": []
+    },
+    {
+      "trial": "Direct token-to-role writes in donor word embeddings",
+      "cohort": "select-72",
+      "rows": 14679,
+      "baseline": {
+        "macro_f1": 0.631409537705987,
+        "accuracy": 0.6616254513250222
+      },
+      "arms": {
+        "probe-res:0.28": {
+          "macro_f1": 0.6315967338625617,
+          "accuracy": 0.6646910552489952,
+          "changed_word_rows": 25508,
+          "changed_float_entries": 2550800,
+          "L2": 278.8209239730227,
+          "tensor_sha256": "617c6dd6f1dd857c24eaa80bfe88f9f15b3984be4999bef54803c64690a16f36",
+          "paired_macro_f1_95": [
+            -0.008163575265106698,
+            0.00856801093123839
+          ]
+        },
+        "probe-res-shuf:0.28": {
+          "macro_f1": 0.6377051292141207,
+          "accuracy": 0.6688466516792697,
+          "changed_word_rows": 25508,
+          "changed_float_entries": 2550800,
+          "L2": 280.23875577266637,
+          "tensor_sha256": "6fab52a3b917349b2d4472b14b449b7ed1abb0398f51935829c04d1511156910",
+          "paired_macro_f1_95": [
+            -0.004137586131112439,
+            0.01700025390949018
+          ]
+        },
+        "probe-res:0.12": {
+          "macro_f1": 0.6296638987106956,
+          "accuracy": 0.662102323046529,
+          "changed_word_rows": 25508,
+          "changed_float_entries": 2550798,
+          "L2": 119.49467859834684,
+          "tensor_sha256": "2d2b7f3234dc0767609886e62306c1a1306f986199dc39908623a228c7272c6e",
+          "paired_macro_f1_95": [
+            -0.007093086723123595,
+            0.0038366260734362676
+          ]
+        },
+        "probe-res:-0.12": {
+          "macro_f1": 0.6349621635357099,
+          "accuracy": 0.662987941957899,
+          "changed_word_rows": 25508,
+          "changed_float_entries": 2550798,
+          "L2": 119.49467862568166,
+          "tensor_sha256": "117102a04289d3ce85f5e91256985d5972134c8870a7e4b5b335a180816f077d",
+          "paired_macro_f1_95": [
+            -0.008384416808085562,
+            0.016394822391398917
+          ]
+        }
+      },
+      "controls": "Unchanged donor; sign reversal; frequency-binned permutation of lexical identities (subset varies by cohort).",
+      "changed_keys": [
+        "sent_encoder.emb.weight"
+      ],
+      "result_path": "select-72.json",
+      "exclusions": [
+        "5942"
+      ]
+    },
+    {
+      "trial": "native-base-240-71",
+      "cohort": "Historical selection, excluded new 48",
+      "rows": 14467,
+      "judgments": 71,
+      "metrics": {
+        "macro_f1": 0.6492964588933116,
+        "accuracy": 0.6837630469344025
+      },
+      "changed_keys": [
+        "emitter.hidden2tag.weight",
+        "emitter.hidden2tag.bias"
+      ],
+      "changed_float_entries": 1407,
+      "result_path": "native-base-240-71.json",
+      "checkpoint_sha256": "acc53b8ff2dcea0e12fd53565245d4f5182ae4c099da39c1ae8b246288ebf755",
+      "controls": "Unchanged native hierarchy and alternative closed-form head-only checkpoint",
+      "gradient_steps": 0
+    },
+    {
+      "trial": "native-odds-240-71",
+      "cohort": "Historical selection, excluded new 48",
+      "rows": 14467,
+      "judgments": 71,
+      "metrics": {
+        "macro_f1": 0.6416525289645556,
+        "accuracy": 0.6800304140457594
+      },
+      "changed_keys": [
+        "sent_encoder.emb.weight",
+        "sent_encoder.lstm.weight_ih_l0",
+        "sent_encoder.lstm.weight_hh_l0",
+        "sent_encoder.lstm.bias_ih_l0",
+        "sent_encoder.lstm.bias_hh_l0",
+        "sent_encoder.lstm.weight_ih_l0_reverse",
+        "sent_encoder.lstm.bias_ih_l0_reverse",
+        "emitter.lstm.weight_ih_l0",
+        "emitter.lstm.weight_hh_l0",
+        "emitter.lstm.bias_ih_l0",
+        "emitter.lstm.bias_hh_l0",
+        "emitter.lstm.weight_ih_l0_reverse",
+        "emitter.hidden2tag.weight",
+        "emitter.hidden2tag.bias"
+      ],
+      "changed_float_entries": 16514923,
+      "result_path": "native-odds-240-71.json",
+      "checkpoint_sha256": "edaabe69655330831199724ba64d18b2d2953e5f16fc4f251d8ea6926e151330",
+      "controls": "Unchanged native hierarchy and alternative closed-form head-only checkpoint",
+      "gradient_steps": 0
+    },
+    {
+      "trial": "native-residual-240-71",
+      "cohort": "Historical selection, excluded new 48",
+      "rows": 14467,
+      "judgments": 71,
+      "metrics": {
+        "macro_f1": 0.6443727330682876,
+        "accuracy": 0.6762977811571161
+      },
+      "changed_keys": [
+        "sent_encoder.emb.weight",
+        "sent_encoder.lstm.weight_ih_l0",
+        "sent_encoder.lstm.weight_hh_l0",
+        "sent_encoder.lstm.bias_ih_l0",
+        "sent_encoder.lstm.bias_hh_l0",
+        "sent_encoder.lstm.weight_ih_l0_reverse",
+        "sent_encoder.lstm.bias_ih_l0_reverse",
+        "emitter.lstm.weight_ih_l0",
+        "emitter.lstm.weight_hh_l0",
+        "emitter.lstm.bias_ih_l0",
+        "emitter.lstm.bias_hh_l0",
+        "emitter.lstm.weight_ih_l0_reverse",
+        "emitter.hidden2tag.weight",
+        "emitter.hidden2tag.bias"
+      ],
+      "changed_float_entries": 16514923,
+      "result_path": "native-residual-240-71.json",
+      "checkpoint_sha256": "f358de904d427d76b6dc8748e02d7c4aedbbb82243c200b76452fd968da0dcce",
+      "controls": "Unchanged native hierarchy and alternative closed-form head-only checkpoint",
+      "gradient_steps": 0
+    },
+    {
+      "trial": "replay-native-base-240-71-shared-16",
+      "cohort": "shared",
+      "rows": 3558,
+      "judgments": 16,
+      "metrics": {
+        "macro_f1": 0.6331425422777338,
+        "accuracy": 0.6124227093872963
+      },
+      "baseline": {
+        "macro_f1": 0.6288078342418538,
+        "accuracy": 0.6149522203485104
+      },
+      "changed": 410,
+      "corrected": 172,
+      "harmed": 181,
+      "intervals": [
+        [
+          -0.025423715247851992,
+          0.0454822337081257
+        ],
+        [
+          -0.029801911395871246,
+          0.020994641317291486
+        ]
+      ],
+      "result_path": "replay-native-base-240-71-shared-16.json",
+      "checkpoint_sha256": "acc53b8ff2dcea0e12fd53565245d4f5182ae4c099da39c1ae8b246288ebf755",
+      "controls": "Native donor on identical sentences",
+      "changed_keys": [
+        "emitter.hidden2tag.weight",
+        "emitter.hidden2tag.bias"
+      ]
+    },
+    {
+      "trial": "replay-native-odds-240-71-shared-16",
+      "cohort": "shared",
+      "rows": 3558,
+      "judgments": 16,
+      "metrics": {
+        "macro_f1": 0.6201712310038509,
+        "accuracy": 0.613265879707701
+      },
+      "baseline": {
+        "macro_f1": 0.6288078342418538,
+        "accuracy": 0.6149522203485104
+      },
+      "changed": 395,
+      "corrected": 158,
+      "harmed": 164,
+      "intervals": [
+        [
+          -0.043011398016758975,
+          0.02173535592513454
+        ],
+        [
+          -0.02949179956867865,
+          0.02114420095503808
+        ]
+      ],
+      "result_path": "replay-native-odds-240-71-shared-16.json",
+      "checkpoint_sha256": "edaabe69655330831199724ba64d18b2d2953e5f16fc4f251d8ea6926e151330",
+      "controls": "Native donor on identical sentences",
+      "changed_keys": [
+        "sent_encoder.emb.weight",
+        "sent_encoder.lstm.weight_ih_l0",
+        "sent_encoder.lstm.weight_hh_l0",
+        "sent_encoder.lstm.bias_ih_l0",
+        "sent_encoder.lstm.bias_hh_l0",
+        "sent_encoder.lstm.weight_ih_l0_reverse",
+        "sent_encoder.lstm.bias_ih_l0_reverse",
+        "emitter.lstm.weight_ih_l0",
+        "emitter.lstm.weight_hh_l0",
+        "emitter.lstm.bias_ih_l0",
+        "emitter.lstm.bias_hh_l0",
+        "emitter.lstm.weight_ih_l0_reverse",
+        "emitter.hidden2tag.weight",
+        "emitter.hidden2tag.bias"
+      ]
+    },
+    {
+      "trial": "fused-odds-select",
+      "cohort": "select",
+      "rows": 14467,
+      "judgments": 71,
+      "baseline": {
+        "macro_f1": 0.7158193240710251,
+        "accuracy": 0.724130780396765
+      },
+      "arms": {
+        "standalone": {
+          "macro_f1": 0.7158193240710251,
+          "accuracy": 0.724130780396765,
+          "changed": 0,
+          "corrected": 0,
+          "harmed": 0,
+          "paired95": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        "counterfactual": {
+          "macro_f1": 0.7158193240710251,
+          "accuracy": 0.724130780396765,
+          "changed": 0,
+          "corrected": 0,
+          "harmed": 0,
+          "paired95": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        "readout": {
+          "macro_f1": 0.7158193240710251,
+          "accuracy": 0.724130780396765,
+          "changed": 0,
+          "corrected": 0,
+          "harmed": 0,
+          "paired95": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ]
+        }
+      },
+      "result_path": "fused-odds-select.json",
+      "controls": "Exact frozen 20% InLegalBERT reviewer and native head-only evidence gate",
+      "changed_keys": "No additional tensor in fusion; native weights described in linked checkpoint and explicit conditional decision rule"
+    },
+    {
+      "trial": "fused-odds-shared",
+      "cohort": "shared",
+      "rows": 3558,
+      "judgments": 16,
+      "baseline": {
+        "macro_f1": 0.6988453883363343,
+        "accuracy": 0.707982012366498
+      },
+      "arms": {
+        "standalone": {
+          "macro_f1": 0.6988453883363343,
+          "accuracy": 0.707982012366498,
+          "changed": 0,
+          "corrected": 0,
+          "harmed": 0,
+          "paired95": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        "counterfactual": {
+          "macro_f1": 0.6988453883363343,
+          "accuracy": 0.707982012366498,
+          "changed": 0,
+          "corrected": 0,
+          "harmed": 0,
+          "paired95": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        "readout": {
+          "macro_f1": 0.6988453883363343,
+          "accuracy": 0.707982012366498,
+          "changed": 0,
+          "corrected": 0,
+          "harmed": 0,
+          "paired95": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ]
+        }
+      },
+      "result_path": "fused-odds-shared.json",
+      "controls": "Exact frozen 20% InLegalBERT reviewer and native head-only evidence gate",
+      "changed_keys": "No additional tensor in fusion; native weights described in linked checkpoint and explicit conditional decision rule"
+    },
+    {
+      "trial": "Function-preserving widening of both native directional LSTMs",
+      "cohort": "Historical selection, excluded new 48",
+      "rows": 14467,
+      "judgments": 71,
+      "metrics": {
+        "macro_f1": 0.654148117189579,
+        "accuracy": 0.6803760282021152
+      },
+      "parameters": 19234190,
+      "result_path": "widened-frozen.json",
+      "tensor_ledger": "widened-tensors.json",
+      "checkpoint_sha256": "1b17fcb144fae524a50a437750a62e14b337ab2b19d39d306de68482d5822d5a",
+      "changed_keys": [
+        "sent_encoder.emb.weight",
+        "sent_encoder.lstm.weight_ih_l0",
+        "sent_encoder.lstm.weight_hh_l0",
+        "sent_encoder.lstm.bias_ih_l0",
+        "sent_encoder.lstm.bias_hh_l0",
+        "sent_encoder.lstm.weight_ih_l0_reverse",
+        "sent_encoder.lstm.weight_hh_l0_reverse",
+        "sent_encoder.lstm.bias_ih_l0_reverse",
+        "sent_encoder.lstm.bias_hh_l0_reverse",
+        "emitter.lstm.weight_ih_l0",
+        "emitter.lstm.weight_hh_l0",
+        "emitter.lstm.bias_ih_l0",
+        "emitter.lstm.bias_hh_l0",
+        "emitter.lstm.weight_ih_l0_reverse",
+        "emitter.lstm.weight_hh_l0_reverse",
+        "emitter.lstm.bias_ih_l0_reverse",
+        "emitter.lstm.bias_hh_l0_reverse",
+        "emitter.hidden2tag.weight",
+        "emitter.hidden2tag.bias"
+      ],
+      "controls": "All incumbent units preserved and train-fitted seven-way readout-only arm. Native end-to-end forward parity included."
+    },
+    {
+      "trial": "widened-confirm-70",
+      "cohort": "confirm",
+      "rows": 10614,
+      "judgments": 70,
+      "arms": {
+        "widened": {
+          "macro_f1": 0.6604706634674932,
+          "accuracy": 0.6952138684755983
+        },
+        "donor": {
+          "macro_f1": 0.6622676354311183,
+          "accuracy": 0.6923874128509516
+        },
+        "readout": {
+          "macro_f1": 0.6626353045358797,
+          "accuracy": 0.698888260787639
+        },
+        "incumbent": {
+          "macro_f1": 0.7296650219619832,
+          "accuracy": 0.7422272470322216
+        }
+      },
+      "controls": "Native donor, head-only control and current 20% reviewer when available",
+      "changed_keys": "See native 19,234,190-parameter checkpoint in widened-frozen.json",
+      "paired": {
+        "donor": {
+          "corrected": 566,
+          "harmed": 536,
+          "changed": 1382,
+          "ci95": [
+            [
+              -0.0194522876510728,
+              0.01724119243000023
+            ],
+            [
+              -0.013203888329319374,
+              0.018163318913784268
+            ]
+          ]
+        },
+        "readout": {
+          "corrected": 361,
+          "harmed": 400,
+          "changed": 985,
+          "ci95": [
+            [
+              -0.019737700947586676,
+              0.019055195214970292
+            ],
+            [
+              -0.017967605102904717,
+              0.012147953435126013
+            ]
+          ]
+        },
+        "incumbent": {
+          "corrected": 537,
+          "harmed": 1036,
+          "changed": 1969,
+          "ci95": [
+            [
+              -0.09106531060241987,
+              -0.047009814522771545
+            ],
+            [
+              -0.06409403516964282,
+              -0.029563297458823287
+            ]
+          ]
+        }
+      },
+      "result_path": "widened-confirm-70.json"
+    },
+    {
+      "trial": "widened-shared-16",
+      "cohort": "shared",
+      "rows": 3558,
+      "judgments": 16,
+      "arms": {
+        "widened": {
+          "macro_f1": 0.6638076592931466,
+          "accuracy": 0.6374367622259697
+        },
+        "donor": {
+          "macro_f1": 0.6288078342418538,
+          "accuracy": 0.6149522203485104
+        },
+        "readout": {
+          "macro_f1": 0.6331425422777338,
+          "accuracy": 0.6124227093872963
+        },
+        "incumbent": {
+          "macro_f1": 0.6988453883363343,
+          "accuracy": 0.707982012366498
+        }
+      },
+      "controls": "Native donor, head-only control and current 20% reviewer when available",
+      "changed_keys": "See native 19,234,190-parameter checkpoint in widened-frozen.json",
+      "paired": {
+        "donor": {
+          "corrected": 296,
+          "harmed": 216,
+          "changed": 602,
+          "ci95": [
+            [
+              -0.011868622052540592,
+              0.07408147569204009
+            ],
+            [
+              -0.028131597664506715,
+              0.05789945493717706
+            ]
+          ]
+        },
+        "readout": {
+          "corrected": 236,
+          "harmed": 147,
+          "changed": 459,
+          "ci95": [
+            [
+              -0.004775135354576279,
+              0.05811276871073681
+            ],
+            [
+              -0.011756509206257168,
+              0.053973840828524446
+            ]
+          ]
+        },
+        "incumbent": {
+          "corrected": 211,
+          "harmed": 462,
+          "changed": 808,
+          "ci95": [
+            [
+              -0.07428434292388902,
+              -0.005648462171704383
+            ],
+            [
+              -0.10857222300107479,
+              -0.04080141049990418
+            ]
+          ]
+        }
+      },
+      "result_path": "widened-shared-16.json"
+    },
+    {
+      "trial": "production-word-table-confirm-24",
+      "cohort": "confirm",
+      "rows": 3588,
+      "judgments": 24,
+      "controls": "Original production pairwise model on identical input plus a frequency-matched permutation; 20% reviewer included where aligned",
+      "changed_keys": [
+        "sent_encoder.emb.weight"
+      ],
+      "arms": {
+        "base": {
+          "macro_f1": 0.7564380530985089,
+          "accuracy": 0.7572463768115942,
+          "changed": 0,
+          "corrected": 0,
+          "harmed": 0
+        },
+        "probe-res": {
+          "macro_f1": 0.7358257116665368,
+          "accuracy": 0.7402452619843924,
+          "changed": 183,
+          "corrected": 55,
+          "harmed": 116
+        },
+        "probe-res-shuf": {
+          "macro_f1": 0.7518382780518323,
+          "accuracy": 0.7555741360089187,
+          "changed": 158,
+          "corrected": 66,
+          "harmed": 72
+        }
+      },
+      "incumbent_20pct": {
+        "macro_f1": 0.7595048417262954,
+        "accuracy": 0.7600334448160535
+      },
+      "result_path": "production-word-table-confirm-24.json"
+    },
+    {
+      "trial": "production-word-table-select-16",
+      "cohort": "select",
+      "rows": 3521,
+      "judgments": 16,
+      "controls": "Original production pairwise model on identical input plus a frequency-matched permutation; 20% reviewer included where aligned",
+      "changed_keys": [
+        "sent_encoder.emb.weight"
+      ],
+      "arms": {
+        "base": {
+          "macro_f1": 0.6820816348610805,
+          "accuracy": 0.7091735302470888,
+          "changed": 0,
+          "corrected": 0,
+          "harmed": 0
+        },
+        "probe-res": {
+          "macro_f1": 0.6861970314154832,
+          "accuracy": 0.7179778472024992,
+          "changed": 157,
+          "corrected": 80,
+          "harmed": 49
+        },
+        "probe-res-shuf": {
+          "macro_f1": 0.680268093854513,
+          "accuracy": 0.705765407554672,
+          "changed": 177,
+          "corrected": 68,
+          "harmed": 80
+        }
+      },
+      "incumbent_20pct": {
+        "macro_f1": 0.6919395088981198,
+        "accuracy": 0.7114456120420335
+      },
+      "result_path": "production-word-table-select-16.json"
+    },
+    {
+      "trial": "conditional-widened-select",
+      "cohort": "select",
+      "rows": 14467,
+      "judgments": 71,
+      "baseline": {
+        "macro_f1": 0.7158193240710251,
+        "accuracy": 0.724130780396765
+      },
+      "arms": {
+        "readout": {
+          "macro_f1": 0.7158193240710251,
+          "accuracy": 0.724130780396765,
+          "changed": 0,
+          "corrected": 0,
+          "harmed": 0
+        },
+        "widened": {
+          "macro_f1": 0.7158193240710251,
+          "accuracy": 0.724130780396765,
+          "changed": 0,
+          "corrected": 0,
+          "harmed": 0
+        }
+      },
+      "controls": "Same residual arbiter without widened dictionary states; full 20% incumbent",
+      "changed_keys": [
+        "readout.weight",
+        "readout.mean",
+        "readout.scale",
+        "widened.weight",
+        "widened.mean",
+        "widened.scale"
+      ],
+      "result_path": "conditional-widened-select.json"
+    },
+    {
+      "trial": "conditional-widened-shared",
+      "cohort": "shared",
+      "rows": 3558,
+      "judgments": 16,
+      "baseline": {
+        "macro_f1": 0.6988453883363343,
+        "accuracy": 0.707982012366498
+      },
+      "arms": {
+        "readout": {
+          "macro_f1": 0.6988453883363343,
+          "accuracy": 0.707982012366498,
+          "changed": 0,
+          "corrected": 0,
+          "harmed": 0
+        },
+        "widened": {
+          "macro_f1": 0.6988453883363343,
+          "accuracy": 0.707982012366498,
+          "changed": 0,
+          "corrected": 0,
+          "harmed": 0
+        }
+      },
+      "controls": "Same residual arbiter without widened dictionary states; full 20% incumbent",
+      "changed_keys": [
+        "readout.weight",
+        "readout.mean",
+        "readout.scale",
+        "widened.weight",
+        "widened.mean",
+        "widened.scale"
+      ],
+      "result_path": "conditional-widened-shared.json"
+    },
+    {
+      "trial": "full-review-retention-confirm-24",
+      "cohort": "confirm",
+      "rows": 3588,
+      "judgments": 24,
+      "baseline": {
+        "macro_f1": 0.7595048417262954,
+        "accuracy": 0.7600334448160535
+      },
+      "arms": {
+        "targeted": {
+          "macro_f1": 0.7568537892291589,
+          "accuracy": 0.762263099219621,
+          "changed": 89,
+          "corrected": 42,
+          "harmed": 34,
+          "paired95": [
+            [
+              -0.010759786568221925,
+              0.010778427865419736
+            ],
+            [
+              -0.006229990476016004,
+              0.01244177117123052
+            ]
+          ]
+        },
+        "gate-shuffled": {
+          "macro_f1": 0.7549619784548894,
+          "accuracy": 0.7550167224080268,
+          "changed": 65,
+          "corrected": 16,
+          "harmed": 34,
+          "paired95": [
+            [
+              -0.01126319012875091,
+              0.004752689334013477
+            ],
+            [
+              -0.01164633713403681,
+              0.0026240795645777067
+            ]
+          ]
+        }
+      },
+      "controls": "Identical 20% reviewer with completely recalculated route; unchanged donor and matched vocabulary shuffling",
+      "changed_keys": [
+        "emitter.lstm.bias_ih_l0",
+        "emitter.lstm.bias_ih_l0_reverse"
+      ],
+      "result_path": "full-review-retention-confirm-24.json"
+    },
+    {
+      "trial": "full-review-word-table-shared-16",
+      "cohort": "Shared validation",
+      "rows": 3558,
+      "judgments": 16,
+      "baseline": {
+        "macro_f1": 0.6988453883363343,
+        "accuracy": 0.707982012366498
+      },
+      "arms": {},
+      "controls": "Identical 20% reviewer with completely recalculated route; unchanged donor and matched vocabulary shuffling",
+      "changed_keys": [
+        "sent_encoder.emb.weight"
+      ],
+      "result_path": "full-review-word-table-shared-16.json"
+    },
+    {
+      "trial": "Program document LSTM memory retention \u2013 confirm",
+      "cohort": "confirm",
+      "rows": 10614,
+      "judgments": 70,
+      "arms": {
+        "('base', 0.0)": {
+          "macro_f1": 0.6626353045358797,
+          "accuracy": 0.698888260787639,
+          "changed": 0,
+          "corrected": 0,
+          "harmed": 0,
+          "paired95": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        "('full', 0.12)": {
+          "macro_f1": 0.6605361021540179,
+          "accuracy": 0.6992651215375919,
+          "changed": 125,
+          "corrected": 50,
+          "harmed": 46,
+          "paired95": [
+            [
+              -0.00912380653441908,
+              0.004262690308542441
+            ],
+            [
+              -0.003810798439331531,
+              0.005335816611906345
+            ]
+          ]
+        },
+        "('permuted', 0.12)": {
+          "macro_f1": 0.6667338754219355,
+          "accuracy": 0.699736197475033,
+          "changed": 161,
+          "corrected": 65,
+          "harmed": 56,
+          "paired95": [
+            [
+              -0.0030894568348236117,
+              0.010864591183102137
+            ],
+            [
+              -0.0035877989927653427,
+              0.0054134152867611664
+            ]
+          ]
+        },
+        "('uniform', 0.8)": {
+          "macro_f1": 0.6745592829607236,
+          "accuracy": 0.7093461465988318,
+          "changed": 357,
+          "corrected": 203,
+          "harmed": 92,
+          "paired95": [
+            [
+              0.0023238917563394666,
+              0.021036659101327786
+            ],
+            [
+              0.001716779231248422,
+              0.022205465806908936
+            ]
+          ]
+        },
+        "('centered', 0.12)": {
+          "macro_f1": 0.6601126702285661,
+          "accuracy": 0.6985114000376861,
+          "changed": 150,
+          "corrected": 58,
+          "harmed": 62,
+          "paired95": [
+            [
+              -0.00966057710783325,
+              0.004079605582428656
+            ],
+            [
+              -0.004881455057514489,
+              0.004953771325496691
+            ]
+          ]
+        }
+      },
+      "controls": "Zero edit, frequency-independent uniform retention offset, magnitude-preserving shuffled cell assignments and negative gain (selection)",
+      "changed_keys": [
+        "emitter.lstm.bias_ih_l0",
+        "emitter.lstm.bias_ih_l0_reverse"
+      ],
+      "result_path": "forget-confirm.json"
+    },
+    {
+      "trial": "Program document LSTM memory retention \u2013 select",
+      "cohort": "select",
+      "rows": 14467,
+      "judgments": 71,
+      "arms": {
+        "('base', 0.0)": {
+          "macro_f1": 0.6492964588933116,
+          "accuracy": 0.6837630469344025,
+          "changed": 0,
+          "corrected": 0,
+          "harmed": 0,
+          "paired95": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        "('full', 0.12)": {
+          "macro_f1": 0.645443016821571,
+          "accuracy": 0.6798230455519458,
+          "changed": 243,
+          "corrected": 74,
+          "harmed": 131,
+          "paired95": [
+            [
+              -0.009151493196486657,
+              0.0008288582042638395
+            ],
+            [
+              -0.009146211106781665,
+              0.0007815754135295889
+            ]
+          ]
+        },
+        "('full', 0.35)": {
+          "macro_f1": 0.6386026264957335,
+          "accuracy": 0.6715974286306767,
+          "changed": 694,
+          "corrected": 186,
+          "harmed": 362,
+          "paired95": [
+            [
+              -0.019428598659143113,
+              -0.0007661716447432355
+            ],
+            [
+              -0.02064876010276404,
+              -0.0035476978355434953
+            ]
+          ]
+        },
+        "('full', 0.8)": {
+          "macro_f1": 0.6258371671843745,
+          "accuracy": 0.6579111080389852,
+          "changed": 1435,
+          "corrected": 376,
+          "harmed": 750,
+          "paired95": [
+            [
+              -0.0399343658940982,
+              -0.0067478357990161195
+            ],
+            [
+              -0.037803727443104056,
+              -0.01258918982331734
+            ]
+          ]
+        },
+        "('permuted', 0.12)": {
+          "macro_f1": 0.6474859432002076,
+          "accuracy": 0.6818967304900809,
+          "changed": 151,
+          "corrected": 44,
+          "harmed": 71,
+          "paired95": [
+            [
+              -0.004520053982766756,
+              0.0010715038382573148
+            ],
+            [
+              -0.005190354566397879,
+              0.0014615378442433514
+            ]
+          ]
+        },
+        "('permuted', 0.35)": {
+          "macro_f1": 0.6422039405063734,
+          "accuracy": 0.6721504112808461,
+          "changed": 577,
+          "corrected": 130,
+          "harmed": 298,
+          "paired95": [
+            [
+              -0.015510265587356967,
+              0.00018905380207772288
+            ],
+            [
+              -0.02283259540628989,
+              -0.002999365449447461
+            ]
+          ]
+        },
+        "('permuted', 0.8)": {
+          "macro_f1": 0.6432236263962104,
+          "accuracy": 0.6722886569433884,
+          "changed": 1060,
+          "corrected": 307,
+          "harmed": 473,
+          "paired95": [
+            [
+              -0.021711736641713993,
+              0.008227036429844415
+            ],
+            [
+              -0.025831268409703918,
+              0.0014362382769736745
+            ]
+          ]
+        },
+        "('uniform', 0.12)": {
+          "macro_f1": 0.6501280535196844,
+          "accuracy": 0.6845233980783852,
+          "changed": 42,
+          "corrected": 19,
+          "harmed": 8,
+          "paired95": [
+            [
+              -0.0004194226606044043,
+              0.0023515522841003576
+            ],
+            [
+              -0.0005753273335773079,
+              0.00229629331037513
+            ]
+          ]
+        },
+        "('uniform', 0.35)": {
+          "macro_f1": 0.6506571840798845,
+          "accuracy": 0.6849381350660123,
+          "changed": 136,
+          "corrected": 67,
+          "harmed": 50,
+          "paired95": [
+            [
+              -0.00179921439217125,
+              0.004868833371915229
+            ],
+            [
+              -0.002843902986271482,
+              0.004853007674031373
+            ]
+          ]
+        },
+        "('uniform', 0.8)": {
+          "macro_f1": 0.6540823619454664,
+          "accuracy": 0.6865279601852492,
+          "changed": 271,
+          "corrected": 137,
+          "harmed": 97,
+          "paired95": [
+            [
+              -0.001339116329843326,
+              0.012628457407064277
+            ],
+            [
+              -0.0029222513825602563,
+              0.008862289214331636
+            ]
+          ]
+        },
+        "('centered', 0.12)": {
+          "macro_f1": 0.642087328442584,
+          "accuracy": 0.6744314647127946,
+          "changed": 340,
+          "corrected": 75,
+          "harmed": 210,
+          "paired95": [
+            [
+              -0.012415215016079994,
+              -0.0017738728163274114
+            ],
+            [
+              -0.015391244179685671,
+              -0.0036149027611858497
+            ]
+          ]
+        },
+        "('centered', 0.35)": {
+          "macro_f1": 0.6359227623532533,
+          "accuracy": 0.6691090067049147,
+          "changed": 763,
+          "corrected": 201,
+          "harmed": 413,
+          "paired95": [
+            [
+              -0.022424770253420052,
+              -0.0036112579499868423
+            ],
+            [
+              -0.023305107757206463,
+              -0.005685763335025605
+            ]
+          ]
+        },
+        "('centered', 0.8)": {
+          "macro_f1": 0.6230882806761908,
+          "accuracy": 0.654938826294325,
+          "changed": 1718,
+          "corrected": 464,
+          "harmed": 881,
+          "paired95": [
+            [
+              -0.043009457707186984,
+              -0.007646996831302489
+            ],
+            [
+              -0.04237455997333413,
+              -0.012761769522469624
+            ]
+          ]
+        },
+        "('full', -0.35)": {
+          "macro_f1": 0.6550440259987486,
+          "accuracy": 0.6847998894034699,
+          "changed": 509,
+          "corrected": 206,
+          "harmed": 191,
+          "paired95": [
+            [
+              -0.0018625722555156877,
+              0.014177537923565605
+            ],
+            [
+              -0.006467642939944529,
+              0.008538295295849676
+            ]
+          ]
+        }
+      },
+      "controls": "Zero edit, frequency-independent uniform retention offset, magnitude-preserving shuffled cell assignments and negative gain (selection)",
+      "changed_keys": [
+        "emitter.lstm.bias_ih_l0",
+        "emitter.lstm.bias_ih_l0_reverse"
+      ],
+      "result_path": "forget-select.json"
+    },
+    {
+      "trial": "uniform-retention-reserved-score",
+      "cohort": "separately reserved validation",
+      "rows": 8956,
+      "judgments": 48,
+      "arms": {
+        "donor": {
+          "macro_f1": 0.637412911355282,
+          "accuracy": 0.6817775792764627
+        },
+        "head": {
+          "macro_f1": 0.6610822928022654,
+          "accuracy": 0.6974095578383207
+        },
+        "targeted": {
+          "macro_f1": 0.6744822079788497,
+          "accuracy": 0.704890576150067
+        },
+        "gate-shuffled": {
+          "macro_f1": 0.6680491596633399,
+          "accuracy": 0.698079499776686
+        },
+        "direction-shuffled": {
+          "macro_f1": 0.672858179122642,
+          "accuracy": 0.7042206342117017
+        }
+      },
+      "controls": "Unedited donor and head-only for all, direction-shuffled and equal-norm gate-shuffled on separate validation",
+      "changed_keys": [
+        "emitter.lstm.bias_ih_l0[100:200]",
+        "emitter.lstm.bias_ih_l0_reverse[100:200]"
+      ],
+      "changed_float_entries": 200,
+      "score_gate": true,
+      "paired": {
+        "donor": {
+          "changed": 763,
+          "corrected": 409,
+          "harmed": 202,
+          "boot95_F1_accuracy": [
+            [
+              0.005275155684584485,
+              0.06898678745037784
+            ],
+            [
+              0.012085272593591432,
+              0.036455116138149696
+            ]
+          ]
+        },
+        "head": {
+          "changed": 239,
+          "corrected": 137,
+          "harmed": 70,
+          "boot95_F1_accuracy": [
+            [
+              0.0029044840015177847,
+              0.02579980702710038
+            ],
+            [
+              -0.0009728434123889545,
+              0.01845102797879092
+            ]
+          ]
+        },
+        "gate-shuffled": {
+          "changed": 233,
+          "corrected": 135,
+          "harmed": 74,
+          "boot95_F1_accuracy": [
+            [
+              -0.006840439645197307,
+              0.021682182623000684
+            ],
+            [
+              -0.0012161756182835159,
+              0.01748422572954948
+            ]
+          ]
+        },
+        "direction-shuffled": {
+          "changed": 94,
+          "corrected": 39,
+          "harmed": 33,
+          "boot95_F1_accuracy": [
+            [
+              -0.0068339116769458395,
+              0.011306262013331061
+            ],
+            [
+              -0.003363397862526302,
+              0.004615473441108617
+            ]
+          ]
+        }
+      },
+      "result_path": "uniform-retention-reserved-score.json"
+    },
+    {
+      "trial": "uniform-retention-test-score",
+      "cohort": "official test",
+      "rows": 149868,
+      "judgments": 712,
+      "arms": {
+        "donor": {
+          "macro_f1": 0.5815306085983948,
+          "accuracy": 0.6058331331571783
+        },
+        "head": {
+          "macro_f1": 0.587901479564123,
+          "accuracy": 0.6261309952758427
+        },
+        "targeted": {
+          "macro_f1": 0.5899257116986255,
+          "accuracy": 0.627218619051432
+        }
+      },
+      "controls": "Unedited donor and head-only for all, direction-shuffled and equal-norm gate-shuffled on separate validation",
+      "changed_keys": [
+        "emitter.lstm.bias_ih_l0[100:200]",
+        "emitter.lstm.bias_ih_l0_reverse[100:200]"
+      ],
+      "changed_float_entries": 200,
+      "score_gate": null,
+      "paired": {
+        "donor": {
+          "changed": 19034,
+          "corrected": 8828,
+          "harmed": 5623,
+          "boot95_F1_accuracy": [
+            [
+              0.0015346125966407944,
+              0.015426873810851411
+            ],
+            [
+              0.01570070476517789,
+              0.027419162435436316
+            ]
+          ]
+        },
+        "head": {
+          "changed": 4461,
+          "corrected": 1893,
+          "harmed": 1730,
+          "boot95_F1_accuracy": [
+            [
+              -0.0008508592107077383,
+              0.004702879252780632
+            ],
+            [
+              -0.001395234605155632,
+              0.0037157237364186606
+            ]
+          ]
+        }
+      },
+      "result_path": "uniform-retention-test-score.json"
+    },
+    {
+      "trial": "Native closed-form readout at corpus scale",
+      "training_judgments": 240,
+      "training_rows": 57006,
+      "cohort": "Held-out train-side calibration, donor pretrained by authors",
+      "rows": 50171,
+      "judgments": 192,
+      "arms": {
+        "donor": {
+          "macro_f1": 0.6413555603713527,
+          "accuracy": 0.7592633194474896,
+          "settings": "0.28,0.03,0.5"
+        },
+        "retention": {
+          "macro_f1": 0.6440430191038548,
+          "accuracy": 0.7601004564389787,
+          "settings": "0.28,0.03,0.5"
+        }
+      },
+      "controls": "Native donor states and fixed timescale-edited states, identical training case ordering",
+      "changed_keys": [
+        "emitter.hidden2tag.weight",
+        "emitter.hidden2tag.bias"
+      ],
+      "result_path": "scale/train-side-240.json"
+    },
+    {
+      "trial": "Native closed-form readout at corpus scale",
+      "training_judgments": 2400,
+      "training_rows": 531815,
+      "cohort": "Held-out train-side calibration, donor pretrained by authors",
+      "rows": 50171,
+      "judgments": 192,
+      "arms": {
+        "donor": {
+          "macro_f1": 0.6424725803700679,
+          "accuracy": 0.7435968986067648,
+          "settings": "0.6,0.03,0.5"
+        },
+        "retention": {
+          "macro_f1": 0.6480816694306638,
+          "accuracy": 0.7462279005800163,
+          "settings": "0.6,0.3,0.5"
+        }
+      },
+      "controls": "Native donor states and fixed timescale-edited states, identical training case ordering",
+      "changed_keys": [
+        "emitter.hidden2tag.weight",
+        "emitter.hidden2tag.bias"
+      ],
+      "result_path": "scale/train-side-2400.json"
+    },
+    {
+      "trial": "Native closed-form readout at corpus scale",
+      "training_judgments": 4792,
+      "training_rows": 1072205,
+      "cohort": "Held-out train-side calibration, donor pretrained by authors",
+      "rows": 50171,
+      "judgments": 192,
+      "arms": {
+        "donor": {
+          "macro_f1": 0.6442341524364851,
+          "accuracy": 0.7456897410854876,
+          "settings": "0.6,0.3,0.5"
+        },
+        "retention": {
+          "macro_f1": 0.6457816491795294,
+          "accuracy": 0.7449323314265213,
+          "settings": "0.6,0.3,0.5"
+        }
+      },
+      "controls": "Native donor states and fixed timescale-edited states, identical training case ordering",
+      "changed_keys": [
+        "emitter.hidden2tag.weight",
+        "emitter.hidden2tag.bias"
+      ],
+      "result_path": "scale/train-side-4792.json"
+    },
+    {
+      "trial": "Native closed-form readout at corpus scale",
+      "training_judgments": 960,
+      "training_rows": 215501,
+      "cohort": "Held-out train-side calibration, donor pretrained by authors",
+      "rows": 50171,
+      "judgments": 192,
+      "arms": {
+        "donor": {
+          "macro_f1": 0.6396527808346711,
+          "accuracy": 0.7616352075900421,
+          "settings": "0.28,0.03,0.5"
+        },
+        "retention": {
+          "macro_f1": 0.6421145045040978,
+          "accuracy": 0.7409858284666441,
+          "settings": "0.6,0.03,0.5"
+        }
+      },
+      "controls": "Native donor states and fixed timescale-edited states, identical training case ordering",
+      "changed_keys": [
+        "emitter.hidden2tag.weight",
+        "emitter.hidden2tag.bias"
+      ],
+      "result_path": "scale/train-side-960.json"
+    },
+    {
+      "trial": "Corpus-scale direct native readout",
+      "cohort": "Separately reserved 72 validation judgments",
+      "rows": 15300,
+      "judgments": 72,
+      "arms": {
+        "donor-unedited_readout": {
+          "macro_f1": 0.6390360488374256,
+          "accuracy": 0.6837908496732026
+        },
+        "donor-legacy_240": {
+          "macro_f1": 0.631013387674321,
+          "accuracy": 0.6890849673202615
+        },
+        "retention-unedited_readout": {
+          "macro_f1": 0.6418864374296929,
+          "accuracy": 0.6877777777777778
+        },
+        "retention-legacy_240": {
+          "macro_f1": 0.6360905057808488,
+          "accuracy": 0.6932026143790849
+        },
+        "donor-240": {
+          "macro_f1": 0.616486345594997,
+          "accuracy": 0.681437908496732
+        },
+        "retention-240": {
+          "macro_f1": 0.6308153511973381,
+          "accuracy": 0.6915032679738562
+        },
+        "donor-240_equal_role_mass": {
+          "macro_f1": 0.6071248055949631,
+          "accuracy": 0.6452941176470588
+        },
+        "retention-240_equal_role_mass": {
+          "macro_f1": 0.614698286981041,
+          "accuracy": 0.6509150326797386
+        },
+        "donor-240_lda": {
+          "macro_f1": 0.6324080668558133,
+          "accuracy": 0.6711111111111111
+        },
+        "retention-240_lda": {
+          "macro_f1": 0.6341490596042131,
+          "accuracy": 0.6713725490196079
+        },
+        "donor-960": {
+          "macro_f1": 0.6272534451207472,
+          "accuracy": 0.6845751633986928
+        },
+        "retention-960": {
+          "macro_f1": 0.6400555277756268,
+          "accuracy": 0.6825490196078431
+        },
+        "donor-960_equal_role_mass": {
+          "macro_f1": 0.6099857576255902,
+          "accuracy": 0.6447058823529411
+        },
+        "retention-960_equal_role_mass": {
+          "macro_f1": 0.6106544971015938,
+          "accuracy": 0.6411111111111111
+        },
+        "donor-960_lda": {
+          "macro_f1": 0.6276728129161294,
+          "accuracy": 0.6660784313725491
+        },
+        "retention-960_lda": {
+          "macro_f1": 0.6383693568263415,
+          "accuracy": 0.672156862745098
+        },
+        "donor-2400": {
+          "macro_f1": 0.642947071873742,
+          "accuracy": 0.6872549019607843
+        },
+        "retention-2400": {
+          "macro_f1": 0.63913769291227,
+          "accuracy": 0.6858169934640523
+        },
+        "donor-2400_equal_role_mass": {
+          "macro_f1": 0.6159064908832546,
+          "accuracy": 0.6507843137254902
+        },
+        "retention-2400_equal_role_mass": {
+          "macro_f1": 0.6186257328964505,
+          "accuracy": 0.6511764705882352
+        },
+        "donor-2400_lda": {
+          "macro_f1": 0.6319338338336694,
+          "accuracy": 0.6677777777777778
+        },
+        "retention-2400_lda": {
+          "macro_f1": 0.6358601930901011,
+          "accuracy": 0.6692156862745098
+        },
+        "donor-4792": {
+          "macro_f1": 0.6374468180895423,
+          "accuracy": 0.6838562091503267
+        },
+        "retention-4792": {
+          "macro_f1": 0.6401438675405567,
+          "accuracy": 0.6848366013071896
+        },
+        "donor-4792_equal_role_mass": {
+          "macro_f1": 0.6175085050173541,
+          "accuracy": 0.6519607843137255
+        },
+        "retention-4792_equal_role_mass": {
+          "macro_f1": 0.6171739952815168,
+          "accuracy": 0.6511764705882352
+        },
+        "donor-4792_lda": {
+          "macro_f1": 0.6327912094167862,
+          "accuracy": 0.6671895424836601
+        },
+        "retention-4792_lda": {
+          "macro_f1": 0.6354980075123038,
+          "accuracy": 0.6709150326797385
+        },
+        "donor-4984": {
+          "macro_f1": 0.6369918859792596,
+          "accuracy": 0.6830065359477124
+        },
+        "retention-4984": {
+          "macro_f1": 0.6403808798280857,
+          "accuracy": 0.6844444444444444
+        },
+        "donor-4984_equal_role_mass": {
+          "macro_f1": 0.616649646421596,
+          "accuracy": 0.6516339869281046
+        },
+        "retention-4984_equal_role_mass": {
+          "macro_f1": 0.6170692417671779,
+          "accuracy": 0.6513725490196078
+        },
+        "donor-4984_lda": {
+          "macro_f1": 0.6320059251443285,
+          "accuracy": 0.6681699346405229
+        },
+        "retention-4984_lda": {
+          "macro_f1": 0.6372305399219768,
+          "accuracy": 0.6708496732026143
+        }
+      },
+      "selected": "retention-4984",
+      "gate": false,
+      "matched_intervals": {
+        "retention-legacy_240": {
+          "changed": 1309,
+          "corrected": 461,
+          "harmed": 595,
+          "paired95_F1_accuracy": [
+            [
+              -0.013968547442916307,
+              0.02145346613489945
+            ],
+            [
+              -0.022704671939780686,
+              0.003626601970291907
+            ]
+          ]
+        },
+        "retention-240": {
+          "changed": 1475,
+          "corrected": 538,
+          "harmed": 646,
+          "paired95_F1_accuracy": [
+            [
+              -0.009966382782442698,
+              0.028578935522053265
+            ],
+            [
+              -0.022077042533557856,
+              0.005964815028062443
+            ]
+          ]
+        },
+        "retention-960": {
+          "changed": 539,
+          "corrected": 224,
+          "harmed": 195,
+          "paired95_F1_accuracy": [
+            [
+              -0.006840051889248499,
+              0.0070571876539203895
+            ],
+            [
+              -0.005657692711367326,
+              0.009940204111646114
+            ]
+          ]
+        },
+        "retention-2400": {
+          "changed": 96,
+          "corrected": 21,
+          "harmed": 42,
+          "paired95_F1_accuracy": [
+            [
+              -0.0008133445377802111,
+              0.00353058469690625
+            ],
+            [
+              -0.0043404260711240265,
+              0.0008920628657838913
+            ]
+          ]
+        },
+        "donor-unedited_readout": {
+          "changed": 1939,
+          "corrected": 789,
+          "harmed": 779,
+          "paired95_F1_accuracy": [
+            [
+              -0.015173547255655822,
+              0.0163317183035427
+            ],
+            [
+              -0.012104530565467725,
+              0.013458090078539226
+            ]
+          ]
+        }
+      },
+      "changed_keys": [
+        "emitter.hidden2tag.weight",
+        "emitter.hidden2tag.bias"
+      ],
+      "result_path": "scale/reserved72.json"
+    },
+    {
+      "trial": "Native emitter fit to exact full-document CRF marginals",
+      "cohort": "Separately reserved 96 validation judgments",
+      "rows": 18478,
+      "judgments": 96,
+      "training_judgments": 4984,
+      "training_rows": 1122376,
+      "selected": "chain",
+      "arms": {
+        "chain": {
+          "macro_f1": 0.6533666251973932,
+          "accuracy": 0.6739906916332936,
+          "exact_span_f1": 0.3648098779290024
+        },
+        "identity": {
+          "macro_f1": 0.6493420452949563,
+          "accuracy": 0.6615434570841,
+          "exact_span_f1": 0.35141440653251677
+        },
+        "local": {
+          "macro_f1": 0.6493420452949563,
+          "accuracy": 0.6615434570841,
+          "exact_span_f1": 0.35141440653251677
+        },
+        "local-plus-transitions": {
+          "macro_f1": 0.6493420452949563,
+          "accuracy": 0.6615434570841,
+          "exact_span_f1": 0.35141440653251677
+        },
+        "identity-plus-transitions": {
+          "macro_f1": 0.6493420452949563,
+          "accuracy": 0.6615434570841,
+          "exact_span_f1": 0.35141440653251677
+        }
+      },
+      "changed_tensors": {
+        "emitter.hidden2tag.weight": {
+          "shape": [
+            10,
+            200
+          ],
+          "changed_values": 1400,
+          "delta_l2": 2.921868062235904,
+          "final_dtype": "float32"
+        },
+        "emitter.hidden2tag.bias": {
+          "shape": [
+            10
+          ],
+          "changed_values": 7,
+          "delta_l2": 0.5236807654609502,
+          "final_dtype": "float32"
+        },
+        "crf.transitions": {
+          "shape": [
+            10,
+            10
+          ],
+          "changed_values": 0,
+          "delta_l2": 0.0,
+          "final_dtype": "float32"
+        },
+        "emitter.lstm.bias_ih_l0": {
+          "shape": [
+            400
+          ],
+          "changed_values": 100,
+          "delta_l2": 2.2579723871778725,
+          "final_dtype": "float32"
+        },
+        "emitter.lstm.bias_ih_l0_reverse": {
+          "shape": [
+            400
+          ],
+          "changed_values": 100,
+          "delta_l2": 4.339135581051234,
+          "final_dtype": "float32"
+        }
+      },
+      "matched_intervals": {
+        "identity": {
+          "macro_f1_accuracy_ci95": [
+            [
+              -0.01769567027782293,
+              0.025615207342925706
+            ],
+            [
+              -0.00557480244692869,
+              0.031638454592387746
+            ]
+          ],
+          "exact_span_f1_ci95": [
+            0.0019943447320092374,
+            0.02411009601678342
+          ],
+          "corrected": 1138,
+          "harmed": 908
+        },
+        "local": {
+          "macro_f1_accuracy_ci95": [
+            [
+              -0.01769567027782293,
+              0.025615207342925706
+            ],
+            [
+              -0.00557480244692869,
+              0.031638454592387746
+            ]
+          ],
+          "exact_span_f1_ci95": [
+            0.0019943447320092374,
+            0.02411009601678342
+          ],
+          "corrected": 1138,
+          "harmed": 908
+        },
+        "local-plus-transitions": {
+          "macro_f1_accuracy_ci95": [
+            [
+              -0.01769567027782293,
+              0.025615207342925706
+            ],
+            [
+              -0.00557480244692869,
+              0.031638454592387746
+            ]
+          ],
+          "exact_span_f1_ci95": [
+            0.0019943447320092374,
+            0.02411009601678342
+          ],
+          "corrected": 1138,
+          "harmed": 908
+        },
+        "identity-plus-transitions": {
+          "macro_f1_accuracy_ci95": [
+            [
+              -0.01769567027782293,
+              0.025615207342925706
+            ],
+            [
+              -0.00557480244692869,
+              0.031638454592387746
+            ]
+          ],
+          "exact_span_f1_ci95": [
+            0.0019943447320092374,
+            0.02411009601678342
+          ],
+          "corrected": 1138,
+          "harmed": 908
+        }
+      },
+      "native_parity": {
+        "judgment": "5334",
+        "rows": 948,
+        "decoded_disagreements": 0
+      },
+      "result_path": "chain-program/reserved96.json",
+      "official_test_evaluated": false
+    },
+    {
+      "trial": "Case-conditioned writes to both native emitter tensors",
+      "cohort": "192 training-calibration judgments",
+      "rows": 50171,
+      "judgments": 192,
+      "training_judgments": 2400,
+      "training_rows": 531815,
+      "baseline": {
+        "macro_f1": 0.6474225009032863,
+        "accuracy": 0.7573299316338123
+      },
+      "arms": {
+        "static": {
+          "macro_f1": 0.6474225009032863,
+          "accuracy": 0.7573299316338123
+        },
+        "conditioned_bias": {
+          "macro_f1": 0.6482527118584918,
+          "accuracy": 0.7599808654401945
+        },
+        "conditioned_head": {
+          "macro_f1": 0.6489252630234513,
+          "accuracy": 0.7590241374499213
+        },
+        "shuffled_head": {
+          "macro_f1": 0.6474225009032863,
+          "accuracy": 0.7573299316338123
+        }
+      },
+      "validation_opened": true,
+      "result_path": "case-head-program/train-calibration-2400.json",
+      "official_test_evaluated": false
+    },
+    {
+      "trial": "Case-conditioned writes to both native emitter tensors",
+      "cohort": "Separately reserved 96 validation judgments",
+      "rows": 19230,
+      "judgments": 96,
+      "arms": {
+        "identity": {
+          "macro_f1": 0.6754312635871597,
+          "accuracy": 0.6959958398335934,
+          "exact_span_f1": 0.34307496823379924
+        },
+        "static": {
+          "macro_f1": 0.6754312635871597,
+          "accuracy": 0.6959958398335934,
+          "exact_span_f1": 0.34307496823379924
+        },
+        "conditioned_bias": {
+          "macro_f1": 0.6691406991166092,
+          "accuracy": 0.7029641185647426,
+          "exact_span_f1": 0.3519015306927568
+        },
+        "conditioned_head": {
+          "macro_f1": 0.6729285372615645,
+          "accuracy": 0.7057202288091524,
+          "exact_span_f1": 0.3559482486588829
+        },
+        "shuffled_head": {
+          "macro_f1": 0.6754312635871597,
+          "accuracy": 0.6959958398335934,
+          "exact_span_f1": 0.34307496823379924
+        }
+      },
+      "matched_intervals": {
+        "static": {
+          "macro_f1_ci95": [
+            -0.016565076275003796,
+            0.0121341948675142
+          ],
+          "exact_span_f1_ci95": [
+            0.0036697438803526216,
+            0.021692351779155093
+          ]
+        },
+        "conditioned_bias": {
+          "macro_f1_ci95": [
+            -0.0004333510794421791,
+            0.008582027811261139
+          ],
+          "exact_span_f1_ci95": [
+            -0.00040703970254549193,
+            0.008823139650727556
+          ]
+        },
+        "shuffled_head": {
+          "macro_f1_ci95": [
+            -0.016565076275003796,
+            0.0121341948675142
+          ],
+          "exact_span_f1_ci95": [
+            0.0036697438803526216,
+            0.021692351779155093
+          ]
+        },
+        "identity": {
+          "macro_f1_ci95": [
+            -0.016565076275003796,
+            0.0121341948675142
+          ],
+          "exact_span_f1_ci95": [
+            0.0036697438803526216,
+            0.021692351779155093
+          ]
+        }
+      },
+      "native_parity_rows": 177,
+      "case_weight_file_sha256": "7418f9de7f79e327053b59c1e9c974f4402834f731a33e9f11732362766a7a21",
+      "result_path": "case-head-program/reserved96.json",
+      "official_test_evaluated": false
+    }
+  ],
+  "posthoc_fixed_sentence_span_metrics": {
+    "result": "uniform-span-diagnostics.json",
+    "official_test": {
+      "donor": {
+        "exact_labeled_span_f1": 0.2176332821274774,
+        "boundary_f1": 0.38093248008358366,
+        "matched_spans": 4321,
+        "predicted_spans": 10830,
+        "gold_spans": 28879
+      },
+      "head": {
+        "exact_labeled_span_f1": 0.2172031242226755,
+        "boundary_f1": 0.38274279230491515,
+        "matched_spans": 4366,
+        "predicted_spans": 11323,
+        "gold_spans": 28879
+      },
+      "targeted": {
+        "exact_labeled_span_f1": 0.22216173413837473,
+        "boundary_f1": 0.3889914845593516,
+        "matched_spans": 4489,
+        "predicted_spans": 11533,
+        "gold_spans": 28879
+      }
+    }
+  },
+  "frozen_200_float_tensor_ledger": "uniform-ledger.json",
+  "corpus_scale": {
+    "plan": "scale/plan.json",
+    "fixed_prefixes": [
+      240,
+      960,
+      2400,
+      4792,
+      4984
+    ],
+    "validation_reserved": 72,
+    "train_side_calibration": 192,
+    "primary_class_reweighting": [
+      0.0,
+      0.28,
+      0.6
+    ],
+    "full_inverse_frequency_secondary": "scale/equal-role-control-plan.json",
+    "official_test_scored_for_scale": false,
+    "unique_completed_fit_judgments": 4792,
+    "progress": {
+      "fit_judgments": 4792,
+      "target": 4792,
+      "fit_rows": 1072205,
+      "calibration": 192,
+      "cache_usage_this_process": {
+        "lane_cache": 0,
+        "verified_word_cache": 174,
+        "new_word_encode": 3330,
+        "prior_state_reused": 1044,
+        "prior_state_mismatch": 0
+      },
+      "source_plan": "b119ce3ee5e4a51a27f8c3e7fd90584c6bf8982193de5c31b9bde1072c1ff777"
+    },
+    "reverse_worker": {
+      "shards": 31,
+      "training_judgments": 1480,
+      "lowest_completed_index": 3552,
+      "cache_usage": {
+        "lane_cache": 0,
+        "verified_word_cache": 66,
+        "new_word_encode": 1414,
+        "prior_state_reused": 419,
+        "prior_state_mismatch": 0
+      },
+      "source_plan": "b119ce3ee5e4a51a27f8c3e7fd90584c6bf8982193de5c31b9bde1072c1ff777"
+    },
+    "streamed_algebra_and_decoder_QA": "scale/streamed-qc.json",
+    "speed_probe": {
+      "result": "scale/dense-words-benchmark.json",
+      "used_in_main_job": false
+    },
+    "secondary_discriminant_control": "scale/lda-control-plan.json",
+    "exploratory_quadratic": {
+      "plan": "scale/quadratic/plan.json",
+      "reserved_separately": 48,
+      "chosen": "retention",
+      "advanced_from_train": false,
+      "extra_parameters": 11319,
+      "freeze": "scale/quadratic/freeze.json"
+    },
+    "same_calibration_baselines": {
+      "author-donor": {
+        "macro_f1": 0.6423663265053179,
+        "accuracy": 0.7573897271332044
+      },
+      "author-retention": {
+        "macro_f1": 0.6474225009032863,
+        "accuracy": 0.7573299316338123
+      },
+      "legacy_240-donor": {
+        "macro_f1": 0.6316776776945471,
+        "accuracy": 0.7588646827848757
+      },
+      "legacy_240-retention": {
+        "macro_f1": 0.6354361055012621,
+        "accuracy": 0.7538418608359411
+      }
+    },
+    "physical_audit": {
+      "path": "scale/reserved72-audit.json",
+      "native_parity": {
+        "judgments": [
+          "5533",
+          "5618",
+          "5826",
+          "6120"
+        ],
+        "rows": 1185,
+        "label_disagreements": 0
+      },
+      "changed_entries": 1607,
+      "exact_span_F1_with_supplied_cuts": 0.3566132091739955
+    },
+    "matched_incumbent": {
+      "path": "scale/shared48-audit.json",
+      "rows": 10469,
+      "judgments": 48,
+      "scores": {
+        "native_donor": {
+          "macro_f1": 0.625732042073898,
+          "accuracy": 0.6410354379596905
+        },
+        "frozen_4984": {
+          "macro_f1": 0.6351653810972859,
+          "accuracy": 0.6634826631005827
+        },
+        "crf_posterior": {
+          "macro_f1": 0.6474335959373906,
+          "accuracy": 0.6758047569013277
+        },
+        "current_review_20pct": {
+          "macro_f1": 0.6948490424279209,
+          "accuracy": 0.7186932849364791
+        }
+      }
+    }
+  },
+  "archived_fold4": {
+    "path": "author-fold4-audit.json",
+    "rows": 224167,
+    "judgments": 996,
+    "scores": {
+      "macro_f1": 0.5652791400040444,
+      "accuracy": 0.6693581124786432
+    },
+    "gold_role_sequence_matches": {
+      "train": 996,
+      "val": 1
+    }
+  }
+}

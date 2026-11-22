@@ -1,0 +1,53 @@
+{
+  "method": "Shipped full 20% reviewer, dynamic routing recomputed per candidate, entire judgment and frozen official boundaries",
+  "parent_cpu_reference": "Unchanged from cached unedited full FP32 reviewer; additionally replayed on two judgments for label parity.",
+  "gradient_steps": 0,
+  "tensor": "sent_encoder.emb.weight",
+  "rows": 3558,
+  "keys": [
+    "5343",
+    "6340",
+    "5379",
+    "5086",
+    "6348",
+    "5194",
+    "5523",
+    "6287",
+    "5878",
+    "5053",
+    "5191",
+    "5713",
+    "6055",
+    "6121",
+    "5565",
+    "5761"
+  ],
+  "arms": {},
+  "incumbent": {
+    "macro_f1": 0.6988453883363343,
+    "accuracy": 0.707982012366498,
+    "f1": [
+      0.6369098712446352,
+      0.903932946486138,
+      0.6808510638297872,
+      0.7274969173859432,
+      0.5268817204301075,
+      0.6582694414019715,
+      0.7575757575757576
+    ],
+    "support": [
+      1046,
+      753,
+      44,
+      417,
+      227,
+      1003,
+      68
+    ]
+  },
+  "cpu_baseline_replay_keys": [
+    "5343",
+    "6340"
+  ],
+  "baseline_cpu_parity_disagreements": 0
+}

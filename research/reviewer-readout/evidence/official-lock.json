@@ -1,0 +1,26 @@
+{
+  "selected": "doc-semantic",
+  "freeze_sha256": "296fdffeb275516a2bde015edb4820984e468b9b3144904b18a8969a29c8a4da",
+  "development_archive_sha256": "b5426e2058be10b57cff61308c021498fdbb0b168a99f6a5cab3eaac85eb761b",
+  "gold_source_sha256": "5e1a2f9a03fd7581d4585ef97f55787d058afbed063b5e03b6e3611cbe45f9ee",
+  "incumbent_predictions_sha256": "b0b70e63657904c4f90a73f77b8e48a1f123fba013faf195d35a9836d7fad4bc",
+  "official_input_sha256": "53bd3930cdbff5f1ae564f021601c971e4a431cdd0602e12ecf28fc84955ef1d",
+  "cases": 712,
+  "rows": 149868,
+  "blank_rows": [
+    28661,
+    29181,
+    44481,
+    45589,
+    47572,
+    48775,
+    56163,
+    93224,
+    119702,
+    128307,
+    131801,
+    137085,
+    140799
+  ],
+  "primary": "Previously frozen two-encoder semantic document readout. Compare to original system, centered reviewer, unedited encoder controls, and all validation-frozen ablations as secondary analyses; no choice based on official test."
+}

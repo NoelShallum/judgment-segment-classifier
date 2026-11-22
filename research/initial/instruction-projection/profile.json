@@ -1,0 +1,25 @@
+{
+  "labels": [
+    "none",
+    "facts",
+    "issue",
+    "petitioner_argument",
+    "respondent_argument",
+    "reasoning",
+    "decision"
+  ],
+  "head_sha256": "955e479cefd636c4c2856ee22f5deb22a563897c7b9dfd959157505c3a37e5a6",
+  "source": "ggml-org/gemma-4-E2B-it-GGUF",
+  "revision": "2a8538c2e2d4687953a86c422c7c623cfd022880",
+  "filename": "gemma-4-E2B-it-Q8_0.gguf",
+  "source_sha256": "c36d5e6be0d91124d8b995f5ad4e1ab0d307f6d95cdd08308820350dbd96ad15",
+  "context_length": 2048,
+  "method": {
+    "bias_coefficient": 0.25,
+    "damping": 1,
+    "margin": 1.602304458618164,
+    "accuracy": 0.17857142857142858,
+    "macro_f1": 0.1170892599464028,
+    "change_norm": 1.9383292198181152
+  }
+}

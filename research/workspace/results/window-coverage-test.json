@@ -1,0 +1,10 @@
+{
+  "split": "test",
+  "rows": 149881,
+  "over_capacity": 18,
+  "maximum_content_tokens": 1028,
+  "feature_file": "full-window-test-9731cd4a098bb763.npz",
+  "whole_population_fingerprint": "9731cd4a098bb763931d5c41e674df5450f4abceeef8ad625a005fcc3016d463",
+  "pooling": "Cover all content with 510-token windows and nominal overlap 128. Average window logits by nonduplicated coverage length, using midpoint boundaries. Equivalent to averaging pooled hidden vectors before the unchanged linear classifier.",
+  "uses_sentence_or_paragraph_flag": false
+}

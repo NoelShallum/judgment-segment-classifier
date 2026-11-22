@@ -1,0 +1,24 @@
+{
+  "model": "perplexity-ai/pplx-embed-v2-context-0.6b",
+  "device": {
+    "devices": [
+      "Tesla T4, 15360 MiB"
+    ],
+    "torch": "2.14.1+cu130",
+    "precision": "FP32"
+  },
+  "native_replay": {
+    "isolated": {
+      "targets": 12,
+      "max_score_difference": 2.2351741790771484e-07,
+      "all_labels_match": true,
+      "checkpoint_sha256": "759ff7fa715c2919a3ff1f803704958d0e38c771a26125c70dc31175bf1d6c2b"
+    },
+    "contextual": {
+      "targets": 12,
+      "max_score_difference": 3.5762786865234375e-07,
+      "all_labels_match": true,
+      "checkpoint_sha256": "bd51962b67db288433bf0795457465d688c9bff5030c4086a701c31099df39d7"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+AttoFlow role-pair transition edit
+
+Input is an English judgment in its original supplied character string. Output is a list of half-open Unicode character ranges and one of the seven LegalSeg roles per range. A frozen public hierarchy supplies the 16,816,110 base parameters. The prior discourse profile supplies the emission adjustments and the static CRF transition tensor.
+
+The additional tensor has one 7 × 7 matrix per observed boundary feature. Features include the first one to three terms of the unit starting at this boundary, the final one or two terms of the preceding unit, a cross-boundary word pair, punctuation and one of 16 relative position bins. Each side uses short local text windows. The vocabulary retains features occurring at least 16 times across the source edges. Integer terms have a shared representation. Each table entry is a clipped log likelihood ratio for the ordered pair of adjacent rhetorical roles. An empirical prior adds 60 observations distributed by the training split’s unconditional role-pair frequencies. The program writes these floats in one pass from labeled counts, with zero gradients and zero optimizer updates. Reconstructing and splitting the training judgments before counting supplies the same kinds of automatic cuts used at inference. The majority of labeled word starts determines the reference role for a candidate unit that crosses an official label boundary.
+
+The joint variant adds the complete matrix to the CRF edge at inference. A second variant subtracts the average of both corresponding diagonal entries. This subtraction leaves the scores of every identical-role transition unchanged. The ablations retain the additive label effect alone, pool every role change to a single value, or shift all lexical evidence to other locations in the same judgment. The distinction between a physical readout write from labeled occurrences and a weight edit authored entirely from rules matters for interpreting this result.
+
+The main statistical comparison pairs whole judgments. Selection uses 72 official validation judgments and freezes the tensor checksum, vocabulary and strengths before loading the full test. Additional validation comprises 72 judgments and 127 unique judgments from a 128-case audit cohort. A text check performed before setting selection found one duplicate of selection text in that latter cohort. All 712 official test cases are eligible for the full comparison. The judgment-level bootstrap is conditional on these frozen weights. Prior rounds have inspected aggregate results on the same test split.
+
+Sources for the methods and donor
+
+Conditional random fields, Lafferty, McCallum and Pereira (2001)
+https://mlanthology.org/icml/2001/lafferty2001icml-conditional/
+
+Dirichlet smoothing, Zhai and Lafferty (2004)
+https://doi.org/10.1145/984321.984322
+
+LegalSeg, Nigam et al. (2025)
+https://aclanthology.org/2025.findings-naacl.63/

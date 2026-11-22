@@ -1,0 +1,40 @@
+{
+  "edit": {
+    "max_absolute_logit_error": 2.954204276206518e-06,
+    "argmax_match": true,
+    "native_labels": [
+      3,
+      4,
+      5
+    ],
+    "stored_replacement_labels": [
+      3,
+      6,
+      6
+    ],
+    "tensor_sha256": {
+      "boundary_head.boundary_query_head.start_boundary_projection.weight": "5340ce81b5926ca7fe5cac1c44d842c1859d5e161c47706e3524a6f284fc8df7",
+      "boundary_head.boundary_query_head.end_boundary_projection.weight": "ce909a9e594442b187857a62af3fa5c6ce5118875c5b59d43907f06b67c950c8",
+      "boundary_head.boundary_query_head.inside_text_projection.weight": "5403381eba49f443587c59cf4b15463b1fae227523b8560183212f8350ec7b08"
+    }
+  },
+  "shuffled": {
+    "max_absolute_logit_error": 1.757928838941325e-06,
+    "argmax_match": true,
+    "native_labels": [
+      3,
+      4,
+      5
+    ],
+    "stored_replacement_labels": [
+      5,
+      0,
+      5
+    ],
+    "tensor_sha256": {
+      "boundary_head.boundary_query_head.start_boundary_projection.weight": "a1db93254899c526baf8f2296325247ebc4c0bddf6ebd877e1f7b46d8cea27bb",
+      "boundary_head.boundary_query_head.end_boundary_projection.weight": "4301f5b4b68fbd1c6c86075304a1e5fd880d594f8c9c48ff49ed3fe759b2722a",
+      "boundary_head.boundary_query_head.inside_text_projection.weight": "94d2e4445531438ef2709cf30e01f97a7afba3a7e4f3ec4da093cb21661f9894"
+    }
+  }
+}

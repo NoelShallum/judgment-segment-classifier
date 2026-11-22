@@ -1,0 +1,20 @@
+{
+  "strength": 0.125,
+  "files": {
+    "hier.safetensors": "b76ebc10abdfa248a88916b049e45b53fa18bcbb4e5307c3828c95342fe563ff",
+    "word2idx.json": "2656906ff69fd0ef6e0bd000be0828fcedf3af46bace438e20037fd97d495694",
+    "priors.safetensors": "40f784b5835c31962624462c7025c66db939d49e5a865d6448529136a1fa0376",
+    "retention.safetensors": "51fbf4e0773718d7e6e593278fa59bca3eefe6fa286e9b35d1ed97134e85022d"
+  },
+  "source": "https://huggingface.co/L-NLProc/LegalSeg_Hier_BiLSTM-CRF/tree/837c2a85ce9a6df21c9e3ef6d1b908b23b66d985",
+  "corpus": "https://huggingface.co/datasets/L-NLProc/LegalSeg_CSV",
+  "labels": [
+    "none",
+    "facts",
+    "issue",
+    "petitioner_argument",
+    "respondent_argument",
+    "reasoning",
+    "decision"
+  ]
+}

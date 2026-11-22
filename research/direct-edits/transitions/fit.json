@@ -1,0 +1,8 @@
+{
+  "weights_sha256": "220bff5f4adf097da47f84ecb92ad191f2b2d3ea7cf7f57a6766240388bae3f2",
+  "training_cases": 4984,
+  "training_rows": 1122376,
+  "actual_adjacent_pairs": 1117392,
+  "features": 392,
+  "gradient_updates": 0
+}

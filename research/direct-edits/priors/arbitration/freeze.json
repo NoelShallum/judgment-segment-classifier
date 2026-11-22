@@ -1,0 +1,25 @@
+{
+  "select_baseline": {
+    "macro_f1": 0.7158193240710251,
+    "accuracy": 0.724130780396765,
+    "per_role_f1": {
+      "none": 0.7413419043792688,
+      "facts": 0.8223310479921645,
+      "issue": 0.6180758017492711,
+      "petitioner_argument": 0.6832198638366039,
+      "respondent_argument": 0.6816431322207959,
+      "reasoning": 0.6344439230408259,
+      "decision": 0.8296795952782462
+    }
+  },
+  "choice": [
+    0.7158193240710251,
+    0.724130780396765,
+    0,
+    0.7,
+    1000000.0
+  ],
+  "weights": "9a221c91c23d68187b0ae6f02f37e62521e4a50c2d7680206d8ff9a7481a462a",
+  "protocol": "0e4d3b275dd8f07d64d661d03b5714c11374654c55f7384921fdd09adbcc730d",
+  "train_disagreements": 4875
+}

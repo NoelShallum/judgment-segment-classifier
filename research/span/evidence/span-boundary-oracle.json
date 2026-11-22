@@ -1,0 +1,119 @@
+{
+  "method": "Keep every reference span whose endpoints are candidate cuts. Fill each unresolved interval by one role distinct from adjacent exact spans. This realizes all attainable true positives using a minimum number of extra spans. Adding a reachable span can add at most two predicted spans and therefore cannot lower F1. Gold labels are used only to calculate this diagnostic ceiling.",
+  "tasks": {
+    "whole": {
+      "current": {
+        "cases": 712,
+        "exact_span_f1_attainable": 0.8744806190098059,
+        "counts": {
+          "matched": 23677,
+          "predicted": 25272,
+          "gold": 28879,
+          "precision": 0.936886672997784,
+          "recall": 0.8198691090411718,
+          "f1": 0.8744806190098059
+        }
+      },
+      "sentence": {
+        "cases": 712,
+        "exact_span_f1_attainable": 0.9197981937985888,
+        "counts": {
+          "matched": 25615,
+          "predicted": 26818,
+          "gold": 28879,
+          "precision": 0.9551420687597882,
+          "recall": 0.8869766958689705,
+          "f1": 0.9197981937985888
+        }
+      },
+      "all": {
+        "cases": 712,
+        "exact_span_f1_attainable": 0.9211555715054728,
+        "counts": {
+          "matched": 25668,
+          "predicted": 26851,
+          "gold": 28879,
+          "precision": 0.9559420505753976,
+          "recall": 0.8888119394715883,
+          "f1": 0.9211555715054728
+        }
+      }
+    },
+    "fragment": {
+      "current": {
+        "cases": 120,
+        "exact_span_f1_attainable": 0.920388349514563,
+        "counts": {
+          "matched": 237,
+          "predicted": 249,
+          "gold": 266,
+          "precision": 0.9518072289156626,
+          "recall": 0.8909774436090225,
+          "f1": 0.920388349514563
+        }
+      },
+      "sentence": {
+        "cases": 120,
+        "exact_span_f1_attainable": 0.9578544061302682,
+        "counts": {
+          "matched": 250,
+          "predicted": 256,
+          "gold": 266,
+          "precision": 0.9765625,
+          "recall": 0.9398496240601504,
+          "f1": 0.9578544061302682
+        }
+      },
+      "all": {
+        "cases": 120,
+        "exact_span_f1_attainable": 0.9578544061302682,
+        "counts": {
+          "matched": 250,
+          "predicted": 256,
+          "gold": 266,
+          "precision": 0.9765625,
+          "recall": 0.9398496240601504,
+          "f1": 0.9578544061302682
+        }
+      }
+    },
+    "matched": {
+      "current": {
+        "cases": 12,
+        "exact_span_f1_attainable": 1.0,
+        "counts": {
+          "matched": 28,
+          "predicted": 28,
+          "gold": 28,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "sentence": {
+        "cases": 12,
+        "exact_span_f1_attainable": 1.0,
+        "counts": {
+          "matched": 28,
+          "predicted": 28,
+          "gold": 28,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "all": {
+        "cases": 12,
+        "exact_span_f1_attainable": 1.0,
+        "counts": {
+          "matched": 28,
+          "predicted": 28,
+          "gold": 28,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "profile": "centroid",
+  "source_url": "https://huggingface.co/L-NLProc/LegalSeg_InLegalBERT/resolve/44d7925e5ab422ecf04acd5dcbb0b62a6f8d8f53/InLegalBERT/InLegalBERT(i)model.safetensors",
+  "source_sha256": "bbe8af20d1524c7535b1cbe68c6d4c3c844c6cc9fccef46c03c9ff56e7c18cea",
+  "target_sha256": "0a32fe939d96384c3cf3d879e5cfbce76c67172a8f3920961a99df3ba65b7edf",
+  "head_sha256": "bedecfa036e1f3ca6a98f2bc6b9596ba372c3aeb0bde632596dfbda1495533e5",
+  "parameters": 109487623,
+  "fp32_checkpoint_bytes": 437974028,
+  "head_scalars": 5383,
+  "replacement_keys": [
+    "classifier.weight",
+    "classifier.bias"
+  ],
+  "labels": [
+    "none",
+    "facts",
+    "issue",
+    "petitioner_argument",
+    "respondent_argument",
+    "reasoning",
+    "decision"
+  ],
+  "sequence": true,
+  "source_edit": {
+    "method": "Direct float32 output-head edit",
+    "selected": {
+      "prior": 0.65,
+      "margin": 4.0
+    },
+    "source_sha256": "bbe8af20d1524c7535b1cbe68c6d4c3c844c6cc9fccef46c03c9ff56e7c18cea",
+    "target_sha256": "0a32fe939d96384c3cf3d879e5cfbce76c67172a8f3920961a99df3ba65b7edf",
+    "changes": {
+      "classifier.weight": {
+        "shape": [
+          7,
+          768
+        ],
+        "changed": 5376
+      },
+      "classifier.bias": {
+        "shape": [
+          7
+        ],
+        "changed": 7
+      }
+    },
+    "labels": [
+      "none",
+      "facts",
+      "issue",
+      "petitioner_argument",
+      "respondent_argument",
+      "reasoning",
+      "decision"
+    ],
+    "anchors_source": "role_fixtures.py"
+  }
+}

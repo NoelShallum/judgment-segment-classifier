@@ -1,0 +1,16 @@
+{
+  "device": {
+    "devices": [
+      "Tesla T4, 15360, 580.82.07"
+    ],
+    "torch": "2.14.1+cu130",
+    "cuda": "13.0"
+  },
+  "input_sha256": "779cdb41d5d591116376a8f214a5eeb8dbb89d57fdc5e506d96908ad47c87c8d",
+  "model_sha256": "bbe8af20d1524c7535b1cbe68c6d4c3c844c6cc9fccef46c03c9ff56e7c18cea",
+  "output_sha256": "7cb08e61480a357f6f07c27ded803c1e04bf00f663033cde0e900d7e5770c016",
+  "rows": {
+    "confirm": 205,
+    "fresh": 392
+  }
+}

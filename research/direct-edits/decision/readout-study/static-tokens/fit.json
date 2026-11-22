@@ -1,0 +1,54 @@
+{
+  "pre_registration": "ecf6f18c2057f44cb6f44c9c23702ab87dc4387eb27c17e3f1bc4846682c1f07",
+  "train_rows": 357,
+  "fit_cases": [
+    "2750",
+    "1504",
+    "474",
+    "4063",
+    "838",
+    "3532",
+    "4128",
+    "2299",
+    "4623",
+    "416",
+    "624",
+    "283"
+  ],
+  "files": {
+    "roles": {
+      "sha256": "0d1dcb78c6c81830b671703d33803f761bd430133350820e9ae84b2fcee1437c",
+      "change": {
+        "shape": [
+          255,
+          1024
+        ],
+        "dtype": "torch.bfloat16",
+        "changed_values": 7165,
+        "total_values": 261120,
+        "frobenius_delta": 9.24306869506836,
+        "frobenius_original": 10.72443962097168,
+        "maximum_abs_delta": 0.68798828125,
+        "original_tensor_sha256": "fadb95f7e2aeb248f8aace4a9e0d3e59ee1883b14dce6daecffa6cef27aea85d",
+        "edited_tensor_sha256": "eb0d4f461f364b2c04ab14d708ce4b2277b70e5dcadf8e3988eafe8110053f09"
+      }
+    },
+    "shuffle": {
+      "sha256": "062a999386637e2037aba5f03d9cf681719a7d98cf10b657a32e882c7ace6a7a",
+      "change": {
+        "shape": [
+          255,
+          1024
+        ],
+        "dtype": "torch.bfloat16",
+        "changed_values": 7165,
+        "total_values": 261120,
+        "frobenius_delta": 9.4458589553833,
+        "frobenius_original": 10.72443962097168,
+        "maximum_abs_delta": 0.485931396484375,
+        "original_tensor_sha256": "fadb95f7e2aeb248f8aace4a9e0d3e59ee1883b14dce6daecffa6cef27aea85d",
+        "edited_tensor_sha256": "395f7674859702313af9ed22f14d606b1ca89e088b91fdc06909a6435dbeaacc"
+      }
+    }
+  }
+}

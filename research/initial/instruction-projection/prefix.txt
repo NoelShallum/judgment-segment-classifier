@@ -1,0 +1,10 @@
+<|turn>system
+Assign one dominant rhetorical role to the English excerpt from an Indian court judgment. Choose the single best letter. Identify whose voice is speaking. A party's prayer is an argument. A lower court's earlier order can be procedural history. The current court's operative order is a decision.
+A. none — Caption, heading, navigation, formal transition, or other text with no substantive case role.
+B. facts — Background events, circumstances, or procedural history recounted as narrative.
+C. issue — Question or point the court identifies for determination.
+D. petitioner argument — Contention or submission attributed to the petitioner, appellant, or moving party.
+E. respondent argument — Contention or submission attributed to the respondent or opposing party.
+F. reasoning — The court evaluates evidence, interprets law, or gives the rationale for a conclusion.
+G. decision — The court's operative ruling, disposition, or direction in the current case.<turn|>
+<|turn>user

@@ -1,0 +1,16 @@
+{
+  "dense_freeze_sha256": "95adcf1e772c631b99bc26c28de5515e11db9685acb9eafaa6b89f66c10a8c90",
+  "weights_sha256": "8d2f8248cc00c3f6ef4a3fc79212eb691833f56ad8c28561bff7b428203679a0",
+  "arm": "multiscale",
+  "setting": [
+    0.0,
+    0.0,
+    0.009,
+    "posterior",
+    1.0,
+    0.14,
+    false
+  ],
+  "select_macro_f1": 0.6988783885626518,
+  "select_accuracy": 0.7198719258805095
+}

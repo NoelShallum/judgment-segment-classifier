@@ -1,0 +1,6 @@
+{
+  "donor_sha256": "bbe8af20d1524c7535b1cbe68c6d4c3c844c6cc9fccef46c03c9ff56e7c18cea",
+  "result_sha256": "6a82dffd0f4ed26edc8684f7c265c263b948aa3ad46a22e2a7857d281576baee",
+  "patch_sha256": "4a3de40e7a45a4073d1921022ac8550062061ca9d892d17859ec4c2864e735f3",
+  "anchor": "https://huggingface.co/L-NLProc/LegalSeg_InLegalBERT/tree/44d7925e5ab422ecf04acd5dcbb0b62a6f8d8f53/InLegalBERT"
+}

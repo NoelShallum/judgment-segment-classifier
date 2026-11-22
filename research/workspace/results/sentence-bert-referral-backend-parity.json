@@ -1,0 +1,9 @@
+{
+  "vectors": 96,
+  "max_feature_error": 1.7716549336910248e-05,
+  "max_readout_error": 1.6630791757621388e-06,
+  "changed_labels": 0,
+  "select_feature_sha256": "eb8dc9b30e27ee09309d1d3cf97fcd29b5e52ebf9edd2c74e9c65eb0ac833eba",
+  "weights_sha256": "e70462f5a9bd376efdab223ebee4ffc855877ea7bd159a394bb240e379a703c3",
+  "frozen_sha256": "d01057e49dec1d9ceb93ee2f57da1de172e36a2df326d1aa33412ac06e5d09b0"
+}

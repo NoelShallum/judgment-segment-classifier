@@ -1,0 +1,60 @@
+{
+  "donor_sha256": "bbe8af20d1524c7535b1cbe68c6d4c3c844c6cc9fccef46c03c9ff56e7c18cea",
+  "variants": {
+    "ffn-28": {
+      "patches": [
+        "role.safetensors"
+      ],
+      "checkpoint_sha256": "a5e0cb6ac11e7392804473fa238161a46fe0ab1ec8a9dc288a183a577ab350d4"
+    },
+    "ffn-112": {
+      "patches": [
+        "role_pairs.safetensors"
+      ],
+      "checkpoint_sha256": "aa22492bc0d74eeab2394c720f96aee4d272f0f193bc1e62200140fe48a4bb7a"
+    },
+    "head-balanced": {
+      "patches": [
+        "classifier_refit.safetensors"
+      ],
+      "checkpoint_sha256": "2b197fdc2c0c7fa649b39f268530cb9e791b4cfe93559208a1cefd9c9a637685"
+    },
+    "combined-balanced": {
+      "patches": [
+        "role_pairs.safetensors",
+        "combined_balanced.safetensors"
+      ],
+      "checkpoint_sha256": "9c33245af888896ef1939af76faee807c908145efbefce40cd0fee1b9d7ec058"
+    },
+    "head-train-priors": {
+      "patches": [
+        "classifier_only_prevalence_weighted.safetensors"
+      ],
+      "checkpoint_sha256": "e769f2639b44fe9ed00a9d07336cfdbf8cf75d52404f76b177245847b33f4ce1"
+    },
+    "combined-train-priors": {
+      "patches": [
+        "role_pairs.safetensors",
+        "combined_prevalence_weighted.safetensors"
+      ],
+      "checkpoint_sha256": "c2e890a2375bbda659d7619498c761c8629e1bfe3d011dac168e7649e07ee8cb"
+    }
+  },
+  "patch_sha256": {
+    "classifier_only_prevalence_weighted.safetensors": "5b667c976e64389bfbe5cd195ec70a16cd72cb8892f26e726a868021049d6169",
+    "classifier_refit.safetensors": "7431fcf3d68794c80bfb8faab5ab0ec73efb78414e9807c76666e30895bfaa1d",
+    "combined_balanced.safetensors": "d6f8092ab2ef92cacd4ab25bd20424a8cad304ac2ca0ed432be74963d31495ce",
+    "combined_prevalence_weighted.safetensors": "568e35fefbe57cdcae53654fcc60d902f0c47590f7ba600f9aeeed4b1fc049d9",
+    "role.safetensors": "0811aee354881d45cc06292bfc6c365d2a005952450cb8ae978b8d3acd54c2c3",
+    "role_pairs.safetensors": "c09c63a7479cd904eee1102533f3144e39d6fe88fb32f2bcd6f253235e1c207e"
+  },
+  "support_files": [
+    "LICENSE",
+    "NOTICE",
+    "TOKENIZER-LICENSE.txt",
+    "config.json",
+    "special_tokens_map.json",
+    "tokenizer_config.json",
+    "vocab.txt"
+  ]
+}

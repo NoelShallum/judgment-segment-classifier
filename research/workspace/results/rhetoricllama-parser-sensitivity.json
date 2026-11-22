@@ -1,0 +1,67 @@
+{
+  "sources": {
+    "archive": "https://huggingface.co/datasets/L-NLProc/LegalSeg_RhetoricLLaMA_Predictions/blob/686d8082bdadc4f08cf21ff068b561ac38a88cc4/RhetoricLLaMA_predictions.csv",
+    "prompt_and_unparsed_export": "https://github.com/ShubhamKumarNigam/LegalSeg/blob/main/code/RhetoricLLaMA/inference.py",
+    "paper": "https://aclanthology.org/2025.findings-naacl.63/"
+  },
+  "hashes": {
+    "test.csv": "5e1a2f9a03fd7581d4585ef97f55787d058afbed063b5e03b6e3611cbe45f9ee",
+    "RhetoricLLaMA_predictions.csv": "f4a366643ab5b9edcee38e83549b5c88ff1511fa461b7e018ebaae65711ba1a1"
+  },
+  "cases_verified_by_id_text_and_role": 712,
+  "parse_counts": {
+    "lead_parsed": 149239,
+    "rows_with_generated_response_marker": 126438,
+    "leading_and_last_both_parsed_with_marker": 112474,
+    "leading_and_last_disagree_with_marker": 48492
+  },
+  "methods": {
+    "decoder": "First nonempty line of the section must be a whole canonical role, role-ID pair, digit 0..6, or digit followed by a period or closing parenthesis. Case insensitive. Uses the archive's original 0..6 role mapping.",
+    "leading_abstain": "Use the leading section. Invalid responses count as a wrong row, token, and predicted span with an eighth invalid label. Macro F1 averages the seven gold classes.",
+    "leading_none": "Use the leading section. Invalid responses fall back to None.",
+    "last_heading_none": "Use the final generated ### Response: or ### Answer: section when it exists, otherwise the leading section. Invalid responses fall back to None.",
+    "reference": "All reported spans are reconstructed by supplying the original nonblank row offsets and merging adjacent equal labels. Source case, text, and role equality are asserted on every row. Archive blank Label means the official class None.",
+    "attribution": "These decoders are replay assumptions. The cited inference script saves free generations without evaluation decoding. Table 3 separately reports macro F1 0.09 and accuracy 0.39."
+  },
+  "scores": {
+    "leading_abstain": {
+      "rows": 149881,
+      "sentence_accuracy": 0.34568090685276986,
+      "sentence_macro_f1": 0.13914759853033357,
+      "tokens": 4311245,
+      "token_accuracy": 0.3280347092313241,
+      "exact_spans": {
+        "matched": 1311,
+        "predicted": 65388,
+        "gold": 28879,
+        "micro_f1": 0.027814611688077483
+      }
+    },
+    "leading_none": {
+      "rows": 149881,
+      "sentence_accuracy": 0.3478759816120789,
+      "sentence_macro_f1": 0.1394186667822546,
+      "tokens": 4311245,
+      "token_accuracy": 0.33295904083391226,
+      "exact_spans": {
+        "matched": 1294,
+        "predicted": 64489,
+        "gold": 28879,
+        "micro_f1": 0.027718276068888697
+      }
+    },
+    "last_heading_none": {
+      "rows": 149881,
+      "sentence_accuracy": 0.36321481708822334,
+      "sentence_macro_f1": 0.11554553157580541,
+      "tokens": 4311245,
+      "token_accuracy": 0.3424762452609397,
+      "exact_spans": {
+        "matched": 385,
+        "predicted": 33073,
+        "gold": 28879,
+        "micro_f1": 0.012428977272727272
+      }
+    }
+  }
+}

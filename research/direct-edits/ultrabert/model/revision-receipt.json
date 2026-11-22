@@ -1,0 +1,42 @@
+{
+  "repo": "dmis-lab/UltraBERT-150M",
+  "revision": "545ac9d9c7aece444f014ada5a1e9818132b4d35",
+  "license": "Apache-2.0 per card",
+  "files": [
+    {
+      "file": "README.md",
+      "bytes": 12149,
+      "sha256": "070236a244598c91d34e62f8914a1dc38fe3aef763622adf840c1fd00af95afc"
+    },
+    {
+      "file": "config.json",
+      "bytes": 1717,
+      "sha256": "fa964fef36aad5866bcbb9393a26644a9ab9403aeec8a76b8cf0803be93c59dc"
+    },
+    {
+      "file": "configuration_ultrabert.py",
+      "bytes": 2209,
+      "sha256": "823d10bda19f5164da4f79f8f9c01e5ebd7a75569abce78c0a26b7674fc78cd9"
+    },
+    {
+      "file": "modeling_ultrabert.py",
+      "bytes": 30581,
+      "sha256": "bfca1bd08af72cd170e58b5a048c67b52bc9d06a2a42847c7a387751f527f333"
+    },
+    {
+      "file": "tokenizer.json",
+      "bytes": 3523470,
+      "sha256": "38734bb17ef19f84c67b5eb5692bea19801ffd02cb5c5ffc11429e76b0242e08"
+    },
+    {
+      "file": "tokenizer_config.json",
+      "bytes": 765,
+      "sha256": "3a612a73deb56eb875a917534a2436ee1934e0c6b9458e28b326cb3bfb4661a9"
+    },
+    {
+      "file": "model.safetensors",
+      "bytes": 759869312,
+      "sha256": "cade6bc9f5a0e7430a323fa2a0065a7d851b1751fa55b3df5a56212b6e084f44"
+    }
+  ]
+}

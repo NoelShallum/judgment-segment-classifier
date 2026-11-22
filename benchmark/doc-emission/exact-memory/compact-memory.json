@@ -1,0 +1,38 @@
+{
+  "weights_sha256": "2d40f6e7ce2fb46c9ea96eb4ae3bde65045cac1e4346548b6d897ce44f00f730",
+  "bytes": 73955408,
+  "profiles": {
+    "all-seven": [
+      [
+        9,
+        5,
+        3,
+        1
+      ],
+      1,
+      0.95
+    ],
+    "pair-only": [
+      [
+        9,
+        5,
+        3,
+        1
+      ],
+      1,
+      0.8
+    ]
+  },
+  "source_training_weights_sha256": "b2e1ab6d9b862508ad085b4348096c0f1cd6b08d3f3b545837339c7fef4779e2",
+  "freeze_sha256": "34113d1bbb02c98d3016e55a5d0f1dec7da89b7f6c7a2c464e0ca14c4e819098",
+  "label_order": [
+    "None",
+    "Facts",
+    "Issue",
+    "Arguments of Petitioner",
+    "Arguments of Respondent",
+    "Reasoning",
+    "Decision"
+  ],
+  "implementation": "Exact key lookup over the active sparse output weights, with each eligible output label quantized to three bits."
+}

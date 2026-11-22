@@ -1,0 +1,104 @@
+{
+  "judgments": 712,
+  "sentences": 149868,
+  "definition": "Maximal contiguous same-role run. Count true positive only if start sentence, end sentence and role match. Sentence cuts are supplied. Freeze captured before deriving these additional metrics.",
+  "sources": {
+    "native document prior": {
+      "file": "priors/official-targeted-predictions.npz",
+      "sha256": "13b4689b1e881b8a4e7135b1496552cfffbf631d6a4ddb53d407453e7d7e172b",
+      "array": "targeted"
+    },
+    "native donor": {
+      "file": "priors/official-targeted-predictions.npz",
+      "sha256": "13b4689b1e881b8a4e7135b1496552cfffbf631d6a4ddb53d407453e7d7e172b",
+      "array": "donor"
+    },
+    "native head only": {
+      "file": "hierarchy/uniform-retention-test-score.npz",
+      "sha256": "0f46c14e660d5f6cbc82e9ba1349ca256c11ffd878bc382f3ad1364662a527c1",
+      "array": "head"
+    },
+    "native head and retention": {
+      "file": "hierarchy/uniform-retention-test-score.npz",
+      "sha256": "0f46c14e660d5f6cbc82e9ba1349ca256c11ffd878bc382f3ad1364662a527c1",
+      "array": "targeted"
+    },
+    "native head, retention and document prior": {
+      "file": "priors/composition-test-predictions.npz",
+      "sha256": "e1a8c9afe5f04cf549b32c197f55bef680897ef6ffccb6d957670aa7f481de48",
+      "array": "gate and text bias"
+    }
+  },
+  "reference": {
+    "archived author previous-predicted role": 0.2337135259953817,
+    "historical AttoFlow span decoder": 0.26931123600114865,
+    "AttoFlow sentence system at 20% review": 0.25787719947777626
+  },
+  "scores": {
+    "native document prior": {
+      "matched": 4473,
+      "predicted": 11135,
+      "gold": 28879,
+      "precision": 0.4017063313875168,
+      "recall": 0.1548876346133869,
+      "exact_labeled_span_f1": 0.22357174988753936,
+      "role_boundary_f1": 0.38901269759004925,
+      "paired_exact_span_f1_delta_vs_native_donor_ci95": [
+        0.0017485572507714537,
+        0.010349901048149727
+      ]
+    },
+    "native donor": {
+      "matched": 4321,
+      "predicted": 10830,
+      "gold": 28879,
+      "precision": 0.3989843028624192,
+      "recall": 0.14962429447003012,
+      "exact_labeled_span_f1": 0.2176332821274774,
+      "role_boundary_f1": 0.38093248008358366,
+      "paired_exact_span_f1_delta_vs_native_donor_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    "native head only": {
+      "matched": 4366,
+      "predicted": 11323,
+      "gold": 28879,
+      "precision": 0.3855868586063764,
+      "recall": 0.151182520170366,
+      "exact_labeled_span_f1": 0.2172031242226755,
+      "role_boundary_f1": 0.38274279230491515,
+      "paired_exact_span_f1_delta_vs_native_donor_ci95": [
+        -0.004877024921930805,
+        0.0039170768483554
+      ]
+    },
+    "native head and retention": {
+      "matched": 4489,
+      "predicted": 11533,
+      "gold": 28879,
+      "precision": 0.3892309026272436,
+      "recall": 0.15544167041795076,
+      "exact_labeled_span_f1": 0.22216173413837473,
+      "role_boundary_f1": 0.3889914845593516,
+      "paired_exact_span_f1_delta_vs_native_donor_ci95": [
+        7.014574521308913e-05,
+        0.008998348641785094
+      ]
+    },
+    "native head, retention and document prior": {
+      "matched": 4525,
+      "predicted": 11789,
+      "gold": 28879,
+      "precision": 0.3838323861226567,
+      "recall": 0.15668825097821948,
+      "exact_labeled_span_f1": 0.22253368742008459,
+      "role_boundary_f1": 0.3907858526144124,
+      "paired_exact_span_f1_delta_vs_native_donor_ci95": [
+        0.00029201557210751177,
+        0.009458474064643445
+      ]
+    }
+  }
+}

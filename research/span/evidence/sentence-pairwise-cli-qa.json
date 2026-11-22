@@ -1,0 +1,16 @@
+{
+  "case": "6332",
+  "sentences": 44,
+  "methods": {
+    "direct": {
+      "changed_from_sequence": 1,
+      "exact_prediction_parity": true
+    },
+    "consensus": {
+      "changed_from_sequence": 1,
+      "exact_prediction_parity": true
+    }
+  },
+  "repair_freeze_sha256": "41f590e56a7836c732f939d62264c196a95aed9e06e78036463720b0084f199a",
+  "consensus_freeze_sha256": "2f88ec3a3b8764cb1d88088e6573f642db0c9a6d8fa9305f3475c99e56a09f99"
+}

@@ -1,0 +1,14 @@
+{
+  "fit_judgments": 4792,
+  "target": 4792,
+  "fit_rows": 1072205,
+  "calibration": 192,
+  "cache_usage_this_process": {
+    "lane_cache": 0,
+    "verified_word_cache": 174,
+    "new_word_encode": 3330,
+    "prior_state_reused": 1044,
+    "prior_state_mismatch": 0
+  },
+  "source_plan": "b119ce3ee5e4a51a27f8c3e7fd90584c6bf8982193de5c31b9bde1072c1ff777"
+}

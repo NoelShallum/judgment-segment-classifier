@@ -1,0 +1,774 @@
+{
+  "archive_sha256": "c7695b55d3ca6f4a887662e0c31a1208284816f3981b53a68501d5d0404132cd",
+  "complete": true,
+  "device": {
+    "devices": [
+      "Tesla T4, 15360, 580.82.07"
+    ],
+    "torch": "2.14.1+cu130",
+    "cuda": "13.0"
+  },
+  "by_cohort": {
+    "shared16": {
+      "source_cls": {
+        "macro_f1": 0.39487597194741675,
+        "accuracy": 0.42973580663293987,
+        "fixed": 292,
+        "broken": 1282,
+        "cases_with_any_unique_fixes": 16,
+        "cases_more_fixes_than_losses": 0,
+        "oracle_choose_only_true_fixes_macro_f1": 0.7688257408923732,
+        "fixes_by_human_class": [
+          223,
+          9,
+          1,
+          16,
+          15,
+          24,
+          4
+        ],
+        "losses_by_human_class": [
+          128,
+          432,
+          20,
+          163,
+          75,
+          445,
+          19
+        ]
+      },
+      "current_20pct": {
+        "macro_f1": 0.6988453883363343,
+        "accuracy": 0.707982012366498,
+        "fixed": 0,
+        "broken": 0,
+        "cases_with_any_unique_fixes": 0,
+        "cases_more_fixes_than_losses": 0,
+        "oracle_choose_only_true_fixes_macro_f1": 0.6988453883363343,
+        "fixes_by_human_class": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "losses_by_human_class": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "ordered.native": {
+        "macro_f1": 0.6079989504874818,
+        "accuracy": 0.6275997751545812,
+        "fixed": 361,
+        "broken": 647,
+        "cases_with_any_unique_fixes": 15,
+        "cases_more_fixes_than_losses": 2,
+        "oracle_choose_only_true_fixes_macro_f1": 0.8135029284898911,
+        "fixes_by_human_class": [
+          83,
+          16,
+          1,
+          31,
+          58,
+          159,
+          13
+        ],
+        "losses_by_human_class": [
+          243,
+          139,
+          11,
+          66,
+          31,
+          154,
+          3
+        ]
+      },
+      "ordered.position": {
+        "macro_f1": 0.639741464974969,
+        "accuracy": 0.6453063518830804,
+        "fixed": 369,
+        "broken": 592,
+        "cases_with_any_unique_fixes": 15,
+        "cases_more_fixes_than_losses": 4,
+        "oracle_choose_only_true_fixes_macro_f1": 0.816105617269579,
+        "fixes_by_human_class": [
+          104,
+          20,
+          1,
+          29,
+          65,
+          138,
+          12
+        ],
+        "losses_by_human_class": [
+          186,
+          125,
+          7,
+          80,
+          34,
+          157,
+          3
+        ]
+      },
+      "ordered.lexical": {
+        "macro_f1": 0.6092502877981545,
+        "accuracy": 0.6267566048341765,
+        "fixed": 365,
+        "broken": 654,
+        "cases_with_any_unique_fixes": 15,
+        "cases_more_fixes_than_losses": 2,
+        "oracle_choose_only_true_fixes_macro_f1": 0.8161497876337495,
+        "fixes_by_human_class": [
+          82,
+          16,
+          1,
+          31,
+          63,
+          159,
+          13
+        ],
+        "losses_by_human_class": [
+          247,
+          139,
+          10,
+          69,
+          30,
+          156,
+          3
+        ]
+      },
+      "ordered.position_lexical": {
+        "macro_f1": 0.6454813700678176,
+        "accuracy": 0.6475548060708263,
+        "fixed": 362,
+        "broken": 577,
+        "cases_with_any_unique_fixes": 15,
+        "cases_more_fixes_than_losses": 5,
+        "oracle_choose_only_true_fixes_macro_f1": 0.813600501794328,
+        "fixes_by_human_class": [
+          102,
+          19,
+          1,
+          29,
+          64,
+          135,
+          12
+        ],
+        "losses_by_human_class": [
+          186,
+          123,
+          6,
+          77,
+          28,
+          154,
+          3
+        ]
+      },
+      "shuffled.native": {
+        "macro_f1": 0.45718736713487085,
+        "accuracy": 0.5008431703204047,
+        "fixed": 303,
+        "broken": 1040,
+        "cases_with_any_unique_fixes": 15,
+        "cases_more_fixes_than_losses": 0,
+        "oracle_choose_only_true_fixes_macro_f1": 0.7769194104403983,
+        "fixes_by_human_class": [
+          137,
+          8,
+          1,
+          10,
+          35,
+          107,
+          5
+        ],
+        "losses_by_human_class": [
+          158,
+          246,
+          9,
+          211,
+          68,
+          337,
+          11
+        ]
+      },
+      "shuffled.position": {
+        "macro_f1": 0.5402975090777674,
+        "accuracy": 0.5652051714446318,
+        "fixed": 311,
+        "broken": 819,
+        "cases_with_any_unique_fixes": 14,
+        "cases_more_fixes_than_losses": 1,
+        "oracle_choose_only_true_fixes_macro_f1": 0.7894448487939594,
+        "fixes_by_human_class": [
+          95,
+          20,
+          1,
+          19,
+          46,
+          124,
+          6
+        ],
+        "losses_by_human_class": [
+          276,
+          72,
+          14,
+          188,
+          55,
+          212,
+          2
+        ]
+      },
+      "shuffled.lexical": {
+        "macro_f1": 0.46838399275334924,
+        "accuracy": 0.5067453625632378,
+        "fixed": 309,
+        "broken": 1025,
+        "cases_with_any_unique_fixes": 15,
+        "cases_more_fixes_than_losses": 1,
+        "oracle_choose_only_true_fixes_macro_f1": 0.7795563713341066,
+        "fixes_by_human_class": [
+          135,
+          8,
+          1,
+          10,
+          37,
+          112,
+          6
+        ],
+        "losses_by_human_class": [
+          156,
+          245,
+          8,
+          202,
+          68,
+          335,
+          11
+        ]
+      },
+      "shuffled.position_lexical": {
+        "macro_f1": 0.5329532486444007,
+        "accuracy": 0.5623946037099494,
+        "fixed": 308,
+        "broken": 826,
+        "cases_with_any_unique_fixes": 15,
+        "cases_more_fixes_than_losses": 1,
+        "oracle_choose_only_true_fixes_macro_f1": 0.7889540216938069,
+        "fixes_by_human_class": [
+          95,
+          19,
+          1,
+          18,
+          46,
+          123,
+          6
+        ],
+        "losses_by_human_class": [
+          277,
+          74,
+          14,
+          206,
+          52,
+          201,
+          2
+        ]
+      },
+      "isolated.native": {
+        "macro_f1": 0.5240424859086137,
+        "accuracy": 0.5466554243957279,
+        "fixed": 318,
+        "broken": 892,
+        "cases_with_any_unique_fixes": 14,
+        "cases_more_fixes_than_losses": 1,
+        "oracle_choose_only_true_fixes_macro_f1": 0.7964666572918585,
+        "fixes_by_human_class": [
+          105,
+          15,
+          2,
+          30,
+          42,
+          114,
+          10
+        ],
+        "losses_by_human_class": [
+          252,
+          147,
+          7,
+          129,
+          79,
+          273,
+          5
+        ]
+      },
+      "isolated.position": {
+        "macro_f1": 0.5687605641821497,
+        "accuracy": 0.5815064643057898,
+        "fixed": 283,
+        "broken": 733,
+        "cases_with_any_unique_fixes": 15,
+        "cases_more_fixes_than_losses": 1,
+        "oracle_choose_only_true_fixes_macro_f1": 0.7847257588923221,
+        "fixes_by_human_class": [
+          83,
+          26,
+          1,
+          30,
+          31,
+          103,
+          9
+        ],
+        "losses_by_human_class": [
+          297,
+          61,
+          12,
+          105,
+          66,
+          189,
+          3
+        ]
+      },
+      "isolated.lexical": {
+        "macro_f1": 0.5205780193186903,
+        "accuracy": 0.5480607082630692,
+        "fixed": 328,
+        "broken": 897,
+        "cases_with_any_unique_fixes": 15,
+        "cases_more_fixes_than_losses": 2,
+        "oracle_choose_only_true_fixes_macro_f1": 0.7967272865920922,
+        "fixes_by_human_class": [
+          121,
+          7,
+          2,
+          28,
+          40,
+          120,
+          10
+        ],
+        "losses_by_human_class": [
+          242,
+          167,
+          7,
+          111,
+          77,
+          288,
+          5
+        ]
+      },
+      "isolated.position_lexical": {
+        "macro_f1": 0.569784769598905,
+        "accuracy": 0.5801011804384486,
+        "fixed": 283,
+        "broken": 738,
+        "cases_with_any_unique_fixes": 15,
+        "cases_more_fixes_than_losses": 1,
+        "oracle_choose_only_true_fixes_macro_f1": 0.7847257588923221,
+        "fixes_by_human_class": [
+          83,
+          26,
+          1,
+          30,
+          31,
+          103,
+          9
+        ],
+        "losses_by_human_class": [
+          295,
+          60,
+          12,
+          110,
+          63,
+          195,
+          3
+        ]
+      }
+    },
+    "shared48": {
+      "source_cls": {
+        "macro_f1": 0.39690772386982215,
+        "accuracy": 0.4677619638933996,
+        "fixed": 937,
+        "broken": 3564,
+        "cases_with_any_unique_fixes": 47,
+        "cases_more_fixes_than_losses": 2,
+        "oracle_choose_only_true_fixes_macro_f1": 0.7657960909668622,
+        "fixes_by_human_class": [
+          762,
+          28,
+          4,
+          28,
+          31,
+          74,
+          10
+        ],
+        "losses_by_human_class": [
+          436,
+          1059,
+          38,
+          503,
+          236,
+          1238,
+          54
+        ]
+      },
+      "current_20pct": {
+        "macro_f1": 0.6948490424279209,
+        "accuracy": 0.7186932849364791,
+        "fixed": 0,
+        "broken": 0,
+        "cases_with_any_unique_fixes": 0,
+        "cases_more_fixes_than_losses": 0,
+        "oracle_choose_only_true_fixes_macro_f1": 0.6948490424279209,
+        "fixes_by_human_class": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "losses_by_human_class": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "ordered.native": {
+        "macro_f1": 0.5836221855012773,
+        "accuracy": 0.61448084821855,
+        "fixed": 950,
+        "broken": 2041,
+        "cases_with_any_unique_fixes": 46,
+        "cases_more_fixes_than_losses": 6,
+        "oracle_choose_only_true_fixes_macro_f1": 0.7961776866841618,
+        "fixes_by_human_class": [
+          352,
+          127,
+          7,
+          55,
+          98,
+          279,
+          32
+        ],
+        "losses_by_human_class": [
+          864,
+          246,
+          20,
+          316,
+          134,
+          457,
+          4
+        ]
+      },
+      "ordered.position": {
+        "macro_f1": 0.6039243157193394,
+        "accuracy": 0.6323431082242812,
+        "fixed": 954,
+        "broken": 1858,
+        "cases_with_any_unique_fixes": 46,
+        "cases_more_fixes_than_losses": 9,
+        "oracle_choose_only_true_fixes_macro_f1": 0.7959271588202272,
+        "fixes_by_human_class": [
+          368,
+          145,
+          6,
+          51,
+          105,
+          250,
+          29
+        ],
+        "losses_by_human_class": [
+          710,
+          188,
+          14,
+          333,
+          134,
+          476,
+          3
+        ]
+      },
+      "ordered.lexical": {
+        "macro_f1": 0.5834782220826848,
+        "accuracy": 0.6129525265068297,
+        "fixed": 955,
+        "broken": 2062,
+        "cases_with_any_unique_fixes": 46,
+        "cases_more_fixes_than_losses": 6,
+        "oracle_choose_only_true_fixes_macro_f1": 0.7969246286077267,
+        "fixes_by_human_class": [
+          353,
+          123,
+          7,
+          55,
+          101,
+          284,
+          32
+        ],
+        "losses_by_human_class": [
+          882,
+          247,
+          19,
+          319,
+          133,
+          458,
+          4
+        ]
+      },
+      "ordered.position_lexical": {
+        "macro_f1": 0.6042504491946967,
+        "accuracy": 0.6323431082242812,
+        "fixed": 955,
+        "broken": 1859,
+        "cases_with_any_unique_fixes": 46,
+        "cases_more_fixes_than_losses": 10,
+        "oracle_choose_only_true_fixes_macro_f1": 0.7943833902423995,
+        "fixes_by_human_class": [
+          375,
+          147,
+          6,
+          46,
+          103,
+          250,
+          28
+        ],
+        "losses_by_human_class": [
+          720,
+          185,
+          13,
+          332,
+          131,
+          475,
+          3
+        ]
+      },
+      "shuffled.native": {
+        "macro_f1": 0.44762556265209164,
+        "accuracy": 0.5090266501098482,
+        "fixed": 815,
+        "broken": 3010,
+        "cases_with_any_unique_fixes": 47,
+        "cases_more_fixes_than_losses": 1,
+        "oracle_choose_only_true_fixes_macro_f1": 0.7692554408342988,
+        "fixes_by_human_class": [
+          498,
+          60,
+          7,
+          11,
+          53,
+          173,
+          13
+        ],
+        "losses_by_human_class": [
+          555,
+          542,
+          23,
+          632,
+          215,
+          1007,
+          36
+        ]
+      },
+      "shuffled.position": {
+        "macro_f1": 0.5060380376696593,
+        "accuracy": 0.5580284649918807,
+        "fixed": 848,
+        "broken": 2530,
+        "cases_with_any_unique_fixes": 45,
+        "cases_more_fixes_than_losses": 3,
+        "oracle_choose_only_true_fixes_macro_f1": 0.7842150949235112,
+        "fixes_by_human_class": [
+          320,
+          162,
+          3,
+          22,
+          93,
+          225,
+          23
+        ],
+        "losses_by_human_class": [
+          967,
+          103,
+          27,
+          579,
+          204,
+          643,
+          7
+        ]
+      },
+      "shuffled.lexical": {
+        "macro_f1": 0.4514382584013692,
+        "accuracy": 0.5100773712866559,
+        "fixed": 825,
+        "broken": 3009,
+        "cases_with_any_unique_fixes": 47,
+        "cases_more_fixes_than_losses": 2,
+        "oracle_choose_only_true_fixes_macro_f1": 0.7711672142426761,
+        "fixes_by_human_class": [
+          496,
+          60,
+          7,
+          11,
+          55,
+          181,
+          15
+        ],
+        "losses_by_human_class": [
+          551,
+          543,
+          22,
+          625,
+          223,
+          1012,
+          33
+        ]
+      },
+      "shuffled.position_lexical": {
+        "macro_f1": 0.503376074308844,
+        "accuracy": 0.5583150253128284,
+        "fixed": 851,
+        "broken": 2530,
+        "cases_with_any_unique_fixes": 46,
+        "cases_more_fixes_than_losses": 3,
+        "oracle_choose_only_true_fixes_macro_f1": 0.7834422533029698,
+        "fixes_by_human_class": [
+          327,
+          161,
+          3,
+          21,
+          92,
+          224,
+          23
+        ],
+        "losses_by_human_class": [
+          978,
+          107,
+          27,
+          606,
+          198,
+          607,
+          7
+        ]
+      },
+      "isolated.native": {
+        "macro_f1": 0.528782519448721,
+        "accuracy": 0.5654790333365174,
+        "fixed": 857,
+        "broken": 2461,
+        "cases_with_any_unique_fixes": 46,
+        "cases_more_fixes_than_losses": 3,
+        "oracle_choose_only_true_fixes_macro_f1": 0.782272628818132,
+        "fixes_by_human_class": [
+          365,
+          94,
+          10,
+          41,
+          79,
+          247,
+          21
+        ],
+        "losses_by_human_class": [
+          816,
+          334,
+          18,
+          365,
+          205,
+          712,
+          11
+        ]
+      },
+      "isolated.position": {
+        "macro_f1": 0.557095089307828,
+        "accuracy": 0.5958544273569586,
+        "fixed": 822,
+        "broken": 2108,
+        "cases_with_any_unique_fixes": 47,
+        "cases_more_fixes_than_losses": 5,
+        "oracle_choose_only_true_fixes_macro_f1": 0.778825612739986,
+        "fixes_by_human_class": [
+          282,
+          179,
+          7,
+          38,
+          61,
+          238,
+          17
+        ],
+        "losses_by_human_class": [
+          923,
+          84,
+          22,
+          353,
+          213,
+          503,
+          10
+        ]
+      },
+      "isolated.lexical": {
+        "macro_f1": 0.5224126548595849,
+        "accuracy": 0.5634731110898844,
+        "fixed": 856,
+        "broken": 2481,
+        "cases_with_any_unique_fixes": 47,
+        "cases_more_fixes_than_losses": 4,
+        "oracle_choose_only_true_fixes_macro_f1": 0.7821132064836815,
+        "fixes_by_human_class": [
+          378,
+          80,
+          10,
+          40,
+          74,
+          253,
+          21
+        ],
+        "losses_by_human_class": [
+          829,
+          356,
+          20,
+          361,
+          206,
+          697,
+          12
+        ]
+      },
+      "isolated.position_lexical": {
+        "macro_f1": 0.5593004935493965,
+        "accuracy": 0.597573789282644,
+        "fixed": 837,
+        "broken": 2105,
+        "cases_with_any_unique_fixes": 47,
+        "cases_more_fixes_than_losses": 5,
+        "oracle_choose_only_true_fixes_macro_f1": 0.7798126097575182,
+        "fixes_by_human_class": [
+          287,
+          179,
+          7,
+          41,
+          61,
+          245,
+          17
+        ],
+        "losses_by_human_class": [
+          917,
+          87,
+          22,
+          350,
+          210,
+          509,
+          10
+        ]
+      }
+    }
+  },
+  "caveat": "Oracle uses gold labels to express the maximum gain from retaining observed complementary fixes. It is not a fitted hybrid. Shared outcomes have been used only for scoring and this audit."
+}

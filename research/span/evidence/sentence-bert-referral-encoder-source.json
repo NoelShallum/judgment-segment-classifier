@@ -1,0 +1,7 @@
+{
+  "source": "bbe8af20d1524c7535b1cbe68c6d4c3c844c6cc9fccef46c03c9ff56e7c18cea",
+  "openvino": "2024.6.0-17404-4c0f47d2335-releases/2024/6",
+  "encoder_bin_sha256": "d4cc6e1311c374ce8c59aafcaeee86cbffba05d21cc8e4e170c68d04fdc21cfd",
+  "xml_sha256": "0311cd0f9293ea57366fae56c9104d4b31688fa391ef43059a17aa4507f77dcc",
+  "compress_to_fp16": false
+}

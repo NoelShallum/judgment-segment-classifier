@@ -1,0 +1,1263 @@
+{
+  "freeze_sha256": "d8da8ed866d28db74709111bb02cc72cbb6c32a8c67c63565703bb54775b5d53",
+  "prediction_sha256": "4c3210955335a1043bc2b741b928266d6cf1c725892e9efd9919698f7bf3faa5",
+  "exploratory_reuse": true,
+  "groups": {
+    "balanced_2100": {
+      "rows": 2100,
+      "judgments": 602,
+      "arms": {
+        "donor": {
+          "baseline": {
+            "macro_f1": 0.3708571158761798,
+            "accuracy": 0.3676190476190476,
+            "correct": 772,
+            "eligible_population_reweighted_macro_f1": 0.4017658287464441,
+            "eligible_population_reweighted_accuracy": 0.49079829116037554,
+            "per_class_f1": {
+              "none": 0.33783783783783783,
+              "facts": 0.44482758620689655,
+              "issue": 0.35772357723577236,
+              "petitioner_argument": 0.44573643410852715,
+              "respondent_argument": 0.2367758186397985,
+              "reasoning": 0.2482758620689655,
+              "decision": 0.524822695035461
+            },
+            "supports": {
+              "none": 300,
+              "facts": 300,
+              "issue": 300,
+              "petitioner_argument": 300,
+              "respondent_argument": 300,
+              "reasoning": 300,
+              "decision": 300
+            },
+            "confusion": [
+              [
+                250,
+                19,
+                0,
+                5,
+                4,
+                20,
+                2
+              ],
+              [
+                147,
+                129,
+                1,
+                5,
+                7,
+                8,
+                3
+              ],
+              [
+                142,
+                70,
+                66,
+                6,
+                5,
+                7,
+                4
+              ],
+              [
+                136,
+                20,
+                1,
+                115,
+                23,
+                5,
+                0
+              ],
+              [
+                141,
+                19,
+                0,
+                79,
+                47,
+                13,
+                1
+              ],
+              [
+                215,
+                14,
+                0,
+                6,
+                9,
+                54,
+                2
+              ],
+              [
+                149,
+                9,
+                1,
+                0,
+                2,
+                28,
+                111
+              ]
+            ]
+          },
+          "baseline_pair": {
+            "none_as_reasoning": 20,
+            "reasoning_as_none": 215,
+            "total": 235
+          },
+          "targeted": {
+            "macro_f1": 0.37780394639351617,
+            "accuracy": 0.36904761904761907,
+            "correct": 775,
+            "eligible_population_reweighted_macro_f1": 0.40686500239120177,
+            "eligible_population_reweighted_accuracy": 0.48119766614922355,
+            "per_class_f1": {
+              "none": 0.32226148409893995,
+              "facts": 0.45840407470288624,
+              "issue": 0.3665768194070081,
+              "petitioner_argument": 0.44145873320537427,
+              "respondent_argument": 0.2430379746835443,
+              "reasoning": 0.2880658436213992,
+              "decision": 0.524822695035461
+            },
+            "supports": {
+              "none": 300,
+              "facts": 300,
+              "issue": 300,
+              "petitioner_argument": 300,
+              "respondent_argument": 300,
+              "reasoning": 300,
+              "decision": 300
+            },
+            "confusion": [
+              [
+                228,
+                21,
+                0,
+                6,
+                4,
+                39,
+                2
+              ],
+              [
+                136,
+                135,
+                1,
+                5,
+                8,
+                12,
+                3
+              ],
+              [
+                139,
+                70,
+                68,
+                6,
+                4,
+                9,
+                4
+              ],
+              [
+                133,
+                20,
+                1,
+                115,
+                21,
+                10,
+                0
+              ],
+              [
+                134,
+                20,
+                0,
+                81,
+                48,
+                16,
+                1
+              ],
+              [
+                199,
+                14,
+                0,
+                8,
+                7,
+                70,
+                2
+              ],
+              [
+                146,
+                9,
+                1,
+                0,
+                3,
+                30,
+                111
+              ]
+            ],
+            "none_reasoning": {
+              "none_as_reasoning": 39,
+              "reasoning_as_none": 199,
+              "total": 238
+            },
+            "vs_baseline": {
+              "macro_f1_ci95": [
+                0.0012418067817046713,
+                0.012827590197662931
+              ],
+              "accuracy_ci95": [
+                -0.0047078793932083755,
+                0.007680948560405173
+              ],
+              "fixed_errors": 25,
+              "new_errors": 22
+            }
+          },
+          "shuffled": {
+            "macro_f1": 0.37115562437322913,
+            "accuracy": 0.36666666666666664,
+            "correct": 770,
+            "eligible_population_reweighted_macro_f1": 0.40107739392454705,
+            "eligible_population_reweighted_accuracy": 0.48560126735540343,
+            "per_class_f1": {
+              "none": 0.3312883435582822,
+              "facts": 0.45315161839863716,
+              "issue": 0.35772357723577236,
+              "petitioner_argument": 0.44315992292870904,
+              "respondent_argument": 0.23737373737373738,
+              "reasoning": 0.2505694760820046,
+              "decision": 0.524822695035461
+            },
+            "supports": {
+              "none": 300,
+              "facts": 300,
+              "issue": 300,
+              "petitioner_argument": 300,
+              "respondent_argument": 300,
+              "reasoning": 300,
+              "decision": 300
+            },
+            "confusion": [
+              [
+                243,
+                21,
+                0,
+                6,
+                4,
+                24,
+                2
+              ],
+              [
+                143,
+                133,
+                1,
+                5,
+                7,
+                8,
+                3
+              ],
+              [
+                141,
+                71,
+                66,
+                6,
+                5,
+                7,
+                4
+              ],
+              [
+                137,
+                20,
+                1,
+                115,
+                22,
+                5,
+                0
+              ],
+              [
+                140,
+                19,
+                0,
+                81,
+                47,
+                12,
+                1
+              ],
+              [
+                215,
+                14,
+                0,
+                6,
+                8,
+                55,
+                2
+              ],
+              [
+                148,
+                9,
+                1,
+                0,
+                3,
+                28,
+                111
+              ]
+            ],
+            "none_reasoning": {
+              "none_as_reasoning": 24,
+              "reasoning_as_none": 215,
+              "total": 239
+            },
+            "vs_baseline": {
+              "macro_f1_ci95": [
+                -0.0026329326792682945,
+                0.0033427971210246094
+              ],
+              "accuracy_ci95": [
+                -0.0046853346233317215,
+                0.0026048419177809937
+              ],
+              "fixed_errors": 6,
+              "new_errors": 8
+            }
+          }
+        },
+        "neurons28": {
+          "baseline": {
+            "macro_f1": 0.4620234980016421,
+            "accuracy": 0.44952380952380955,
+            "correct": 944,
+            "eligible_population_reweighted_macro_f1": 0.4243986222853896,
+            "eligible_population_reweighted_accuracy": 0.4584512876198342,
+            "per_class_f1": {
+              "none": 0.3421686746987952,
+              "facts": 0.5014836795252225,
+              "issue": 0.6021978021978022,
+              "petitioner_argument": 0.40468227424749165,
+              "respondent_argument": 0.3216494845360825,
+              "reasoning": 0.37962962962962965,
+              "decision": 0.6823529411764706
+            },
+            "supports": {
+              "none": 300,
+              "facts": 300,
+              "issue": 300,
+              "petitioner_argument": 300,
+              "respondent_argument": 300,
+              "reasoning": 300,
+              "decision": 300
+            },
+            "confusion": [
+              [
+                142,
+                33,
+                4,
+                27,
+                14,
+                73,
+                7
+              ],
+              [
+                58,
+                169,
+                6,
+                12,
+                15,
+                32,
+                8
+              ],
+              [
+                50,
+                67,
+                137,
+                11,
+                5,
+                19,
+                11
+              ],
+              [
+                69,
+                27,
+                4,
+                121,
+                49,
+                29,
+                1
+              ],
+              [
+                62,
+                33,
+                1,
+                90,
+                78,
+                33,
+                3
+              ],
+              [
+                95,
+                26,
+                2,
+                29,
+                19,
+                123,
+                6
+              ],
+              [
+                54,
+                19,
+                1,
+                8,
+                5,
+                39,
+                174
+              ]
+            ]
+          },
+          "baseline_pair": {
+            "none_as_reasoning": 73,
+            "reasoning_as_none": 95,
+            "total": 168
+          },
+          "targeted": {
+            "macro_f1": 0.4621965336140016,
+            "accuracy": 0.45,
+            "correct": 945,
+            "eligible_population_reweighted_macro_f1": 0.423845854718475,
+            "eligible_population_reweighted_accuracy": 0.4576127224945389,
+            "per_class_f1": {
+              "none": 0.343409915356711,
+              "facts": 0.504424778761062,
+              "issue": 0.6021978021978022,
+              "petitioner_argument": 0.40397350993377484,
+              "respondent_argument": 0.319672131147541,
+              "reasoning": 0.37676609105180536,
+              "decision": 0.684931506849315
+            },
+            "supports": {
+              "none": 300,
+              "facts": 300,
+              "issue": 300,
+              "petitioner_argument": 300,
+              "respondent_argument": 300,
+              "reasoning": 300,
+              "decision": 300
+            },
+            "confusion": [
+              [
+                142,
+                33,
+                4,
+                27,
+                14,
+                73,
+                7
+              ],
+              [
+                56,
+                171,
+                6,
+                14,
+                15,
+                30,
+                8
+              ],
+              [
+                50,
+                67,
+                137,
+                11,
+                5,
+                19,
+                11
+              ],
+              [
+                70,
+                27,
+                4,
+                122,
+                50,
+                26,
+                1
+              ],
+              [
+                60,
+                35,
+                1,
+                92,
+                78,
+                31,
+                3
+              ],
+              [
+                95,
+                26,
+                2,
+                30,
+                21,
+                120,
+                6
+              ],
+              [
+                54,
+                19,
+                1,
+                8,
+                5,
+                38,
+                175
+              ]
+            ],
+            "none_reasoning": {
+              "none_as_reasoning": 73,
+              "reasoning_as_none": 95,
+              "total": 168
+            },
+            "vs_baseline": {
+              "macro_f1_ci95": [
+                -0.002408042566688605,
+                0.002751431025191164
+              ],
+              "accuracy_ci95": [
+                -0.0023727433482470944,
+                0.0033437229478714514
+              ],
+              "fixed_errors": 5,
+              "new_errors": 4
+            }
+          },
+          "shuffled": {
+            "macro_f1": 0.4630932482139768,
+            "accuracy": 0.45095238095238094,
+            "correct": 947,
+            "eligible_population_reweighted_macro_f1": 0.4247686422320567,
+            "eligible_population_reweighted_accuracy": 0.45852872578782755,
+            "per_class_f1": {
+              "none": 0.34382566585956414,
+              "facts": 0.504424778761062,
+              "issue": 0.6021978021978022,
+              "petitioner_argument": 0.4053156146179402,
+              "respondent_argument": 0.319672131147541,
+              "reasoning": 0.37871674491392804,
+              "decision": 0.6875
+            },
+            "supports": {
+              "none": 300,
+              "facts": 300,
+              "issue": 300,
+              "petitioner_argument": 300,
+              "respondent_argument": 300,
+              "reasoning": 300,
+              "decision": 300
+            },
+            "confusion": [
+              [
+                142,
+                33,
+                4,
+                27,
+                14,
+                73,
+                7
+              ],
+              [
+                56,
+                171,
+                6,
+                14,
+                15,
+                30,
+                8
+              ],
+              [
+                49,
+                67,
+                137,
+                11,
+                5,
+                20,
+                11
+              ],
+              [
+                70,
+                27,
+                4,
+                122,
+                50,
+                26,
+                1
+              ],
+              [
+                61,
+                35,
+                1,
+                91,
+                78,
+                31,
+                3
+              ],
+              [
+                95,
+                26,
+                2,
+                29,
+                21,
+                121,
+                6
+              ],
+              [
+                53,
+                19,
+                1,
+                8,
+                5,
+                38,
+                176
+              ]
+            ],
+            "none_reasoning": {
+              "none_as_reasoning": 73,
+              "reasoning_as_none": 95,
+              "total": 168
+            },
+            "vs_baseline": {
+              "macro_f1_ci95": [
+                -0.0011950942604056116,
+                0.003425054467011372
+              ],
+              "accuracy_ci95": [
+                -0.00098767894837469,
+                0.004005474887568091
+              ],
+              "fixed_errors": 5,
+              "new_errors": 2
+            }
+          }
+        }
+      }
+    },
+    "natural_4900": {
+      "rows": 4900,
+      "judgments": 263,
+      "arms": {
+        "donor": {
+          "baseline": {
+            "macro_f1": 0.4677621041130172,
+            "accuracy": 0.5285714285714286,
+            "correct": 2590,
+            "eligible_population_reweighted_macro_f1": 0.4677621041130172,
+            "eligible_population_reweighted_accuracy": 0.5285714285714286,
+            "per_class_f1": {
+              "none": 0.6285601265822784,
+              "facts": 0.5019390581717451,
+              "issue": 0.48148148148148145,
+              "petitioner_argument": 0.4584615384615385,
+              "respondent_argument": 0.28,
+              "reasoning": 0.3068712474983322,
+              "decision": 0.6170212765957447
+            },
+            "supports": {
+              "none": 1941,
+              "facts": 1010,
+              "issue": 76,
+              "petitioner_argument": 353,
+              "respondent_argument": 244,
+              "reasoning": 1119,
+              "decision": 157
+            },
+            "confusion": [
+              [
+                1589,
+                191,
+                3,
+                27,
+                31,
+                92,
+                8
+              ],
+              [
+                472,
+                453,
+                2,
+                31,
+                13,
+                33,
+                6
+              ],
+              [
+                24,
+                23,
+                26,
+                1,
+                1,
+                0,
+                1
+              ],
+              [
+                134,
+                32,
+                0,
+                149,
+                27,
+                10,
+                1
+              ],
+              [
+                95,
+                20,
+                0,
+                59,
+                56,
+                12,
+                2
+              ],
+              [
+                743,
+                70,
+                1,
+                28,
+                27,
+                230,
+                20
+              ],
+              [
+                58,
+                6,
+                0,
+                2,
+                1,
+                3,
+                87
+              ]
+            ]
+          },
+          "baseline_pair": {
+            "none_as_reasoning": 92,
+            "reasoning_as_none": 743,
+            "total": 835
+          },
+          "targeted": {
+            "macro_f1": 0.47424472407653073,
+            "accuracy": 0.529795918367347,
+            "correct": 2596,
+            "eligible_population_reweighted_macro_f1": 0.47424472407653073,
+            "eligible_population_reweighted_accuracy": 0.529795918367347,
+            "per_class_f1": {
+              "none": 0.6235462150581514,
+              "facts": 0.5051157781367798,
+              "issue": 0.48148148148148145,
+              "petitioner_argument": 0.4535768645357686,
+              "respondent_argument": 0.2835820895522388,
+              "reasoning": 0.35050251256281406,
+              "decision": 0.6219081272084805
+            },
+            "supports": {
+              "none": 1941,
+              "facts": 1010,
+              "issue": 76,
+              "petitioner_argument": 353,
+              "respondent_argument": 244,
+              "reasoning": 1119,
+              "decision": 157
+            },
+            "confusion": [
+              [
+                1528,
+                223,
+                3,
+                27,
+                31,
+                121,
+                8
+              ],
+              [
+                440,
+                469,
+                2,
+                35,
+                15,
+                43,
+                6
+              ],
+              [
+                24,
+                23,
+                26,
+                1,
+                1,
+                0,
+                1
+              ],
+              [
+                131,
+                33,
+                0,
+                149,
+                25,
+                14,
+                1
+              ],
+              [
+                89,
+                21,
+                0,
+                62,
+                57,
+                13,
+                2
+              ],
+              [
+                691,
+                72,
+                1,
+                28,
+                28,
+                279,
+                20
+              ],
+              [
+                57,
+                6,
+                0,
+                2,
+                1,
+                3,
+                88
+              ]
+            ],
+            "none_reasoning": {
+              "none_as_reasoning": 121,
+              "reasoning_as_none": 691,
+              "total": 812
+            },
+            "vs_baseline": {
+              "macro_f1_ci95": [
+                0.0029891398043016314,
+                0.010130560073013365
+              ],
+              "accuracy_ci95": [
+                -0.003450137012211851,
+                0.006127322606716554
+              ],
+              "fixed_errors": 67,
+              "new_errors": 61
+            }
+          },
+          "shuffled": {
+            "macro_f1": 0.4690467818486011,
+            "accuracy": 0.5259183673469388,
+            "correct": 2577,
+            "eligible_population_reweighted_macro_f1": 0.4690467818486011,
+            "eligible_population_reweighted_accuracy": 0.5259183673469388,
+            "per_class_f1": {
+              "none": 0.6218487394957983,
+              "facts": 0.5018888289260658,
+              "issue": 0.48148148148148145,
+              "petitioner_argument": 0.4608294930875576,
+              "respondent_argument": 0.2793017456359102,
+              "reasoning": 0.3160690571049137,
+              "decision": 0.6219081272084805
+            },
+            "supports": {
+              "none": 1941,
+              "facts": 1010,
+              "issue": 76,
+              "petitioner_argument": 353,
+              "respondent_argument": 244,
+              "reasoning": 1119,
+              "decision": 157
+            },
+            "confusion": [
+              [
+                1554,
+                225,
+                3,
+                27,
+                31,
+                93,
+                8
+              ],
+              [
+                462,
+                465,
+                2,
+                31,
+                13,
+                31,
+                6
+              ],
+              [
+                24,
+                23,
+                26,
+                1,
+                1,
+                0,
+                1
+              ],
+              [
+                133,
+                33,
+                0,
+                150,
+                27,
+                9,
+                1
+              ],
+              [
+                92,
+                21,
+                0,
+                60,
+                56,
+                13,
+                2
+              ],
+              [
+                735,
+                70,
+                1,
+                27,
+                28,
+                238,
+                20
+              ],
+              [
+                57,
+                6,
+                0,
+                2,
+                1,
+                3,
+                88
+              ]
+            ],
+            "none_reasoning": {
+              "none_as_reasoning": 93,
+              "reasoning_as_none": 735,
+              "total": 828
+            },
+            "vs_baseline": {
+              "macro_f1_ci95": [
+                -0.0010197388710161208,
+                0.003931299587792127
+              ],
+              "accuracy_ci95": [
+                -0.00582886398579594,
+                0.0006116541831437508
+              ],
+              "fixed_errors": 27,
+              "new_errors": 40
+            }
+          }
+        },
+        "neurons28": {
+          "baseline": {
+            "macro_f1": 0.4806844412968062,
+            "accuracy": 0.5079591836734694,
+            "correct": 2489,
+            "eligible_population_reweighted_macro_f1": 0.4806844412968062,
+            "eligible_population_reweighted_accuracy": 0.5079591836734694,
+            "per_class_f1": {
+              "none": 0.5702636586028812,
+              "facts": 0.5224564619615032,
+              "issue": 0.5,
+              "petitioner_argument": 0.40654205607476634,
+              "respondent_argument": 0.27906976744186046,
+              "reasoning": 0.45911330049261084,
+              "decision": 0.6273458445040214
+            },
+            "supports": {
+              "none": 1941,
+              "facts": 1010,
+              "issue": 76,
+              "petitioner_argument": 353,
+              "respondent_argument": 244,
+              "reasoning": 1119,
+              "decision": 157
+            },
+            "confusion": [
+              [
+                1049,
+                381,
+                30,
+                90,
+                63,
+                300,
+                28
+              ],
+              [
+                217,
+                570,
+                14,
+                69,
+                30,
+                82,
+                28
+              ],
+              [
+                7,
+                22,
+                41,
+                3,
+                1,
+                1,
+                1
+              ],
+              [
+                65,
+                44,
+                0,
+                174,
+                45,
+                24,
+                1
+              ],
+              [
+                33,
+                27,
+                0,
+                75,
+                72,
+                33,
+                4
+              ],
+              [
+                345,
+                119,
+                3,
+                90,
+                59,
+                466,
+                37
+              ],
+              [
+                22,
+                9,
+                0,
+                2,
+                2,
+                5,
+                117
+              ]
+            ]
+          },
+          "baseline_pair": {
+            "none_as_reasoning": 300,
+            "reasoning_as_none": 345,
+            "total": 645
+          },
+          "targeted": {
+            "macro_f1": 0.47928307922606744,
+            "accuracy": 0.5071428571428571,
+            "correct": 2485,
+            "eligible_population_reweighted_macro_f1": 0.47928307922606744,
+            "eligible_population_reweighted_accuracy": 0.5071428571428571,
+            "per_class_f1": {
+              "none": 0.5696271929824561,
+              "facts": 0.5246350364963503,
+              "issue": 0.5,
+              "petitioner_argument": 0.40415704387990764,
+              "respondent_argument": 0.27533460803059273,
+              "reasoning": 0.4588872476612506,
+              "decision": 0.6223404255319149
+            },
+            "supports": {
+              "none": 1941,
+              "facts": 1010,
+              "issue": 76,
+              "petitioner_argument": 353,
+              "respondent_argument": 244,
+              "reasoning": 1119,
+              "decision": 157
+            },
+            "confusion": [
+              [
+                1039,
+                384,
+                30,
+                92,
+                65,
+                301,
+                30
+              ],
+              [
+                209,
+                575,
+                14,
+                72,
+                30,
+                82,
+                28
+              ],
+              [
+                7,
+                23,
+                41,
+                3,
+                1,
+                0,
+                1
+              ],
+              [
+                64,
+                44,
+                0,
+                175,
+                45,
+                24,
+                1
+              ],
+              [
+                31,
+                27,
+                0,
+                76,
+                72,
+                34,
+                4
+              ],
+              [
+                335,
+                120,
+                3,
+                93,
+                64,
+                466,
+                38
+              ],
+              [
+                22,
+                9,
+                0,
+                2,
+                2,
+                5,
+                117
+              ]
+            ],
+            "none_reasoning": {
+              "none_as_reasoning": 301,
+              "reasoning_as_none": 335,
+              "total": 636
+            },
+            "vs_baseline": {
+              "macro_f1_ci95": [
+                -0.003385184752774524,
+                0.0005676648404379662
+              ],
+              "accuracy_ci95": [
+                -0.003229343199810761,
+                0.0017040141842704043
+              ],
+              "fixed_errors": 18,
+              "new_errors": 22
+            }
+          },
+          "shuffled": {
+            "macro_f1": 0.4789613349511589,
+            "accuracy": 0.506734693877551,
+            "correct": 2483,
+            "eligible_population_reweighted_macro_f1": 0.4789613349511589,
+            "eligible_population_reweighted_accuracy": 0.506734693877551,
+            "per_class_f1": {
+              "none": 0.5704935914916826,
+              "facts": 0.5230488361478777,
+              "issue": 0.5,
+              "petitioner_argument": 0.40418118466898956,
+              "respondent_argument": 0.27533460803059273,
+              "reasoning": 0.4556711243189698,
+              "decision": 0.624
+            },
+            "supports": {
+              "none": 1941,
+              "facts": 1010,
+              "issue": 76,
+              "petitioner_argument": 353,
+              "respondent_argument": 244,
+              "reasoning": 1119,
+              "decision": 157
+            },
+            "confusion": [
+              [
+                1046,
+                384,
+                30,
+                90,
+                65,
+                297,
+                29
+              ],
+              [
+                213,
+                573,
+                14,
+                71,
+                30,
+                81,
+                28
+              ],
+              [
+                7,
+                23,
+                41,
+                3,
+                1,
+                0,
+                1
+              ],
+              [
+                65,
+                44,
+                0,
+                174,
+                45,
+                24,
+                1
+              ],
+              [
+                32,
+                27,
+                0,
+                76,
+                72,
+                33,
+                4
+              ],
+              [
+                341,
+                121,
+                3,
+                92,
+                64,
+                460,
+                38
+              ],
+              [
+                22,
+                9,
+                0,
+                2,
+                2,
+                5,
+                117
+              ]
+            ],
+            "none_reasoning": {
+              "none_as_reasoning": 297,
+              "reasoning_as_none": 341,
+              "total": 638
+            },
+            "vs_baseline": {
+              "macro_f1_ci95": [
+                -0.003235227138746377,
+                -0.0002929404447847672
+              ],
+              "accuracy_ci95": [
+                -0.0031604456346025407,
+                0.0006753358221708953
+              ],
+              "fixed_errors": 8,
+              "new_errors": 14
+            }
+          }
+        }
+      }
+    }
+  }
+}

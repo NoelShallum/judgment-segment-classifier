@@ -1,0 +1,462 @@
+{
+  "native_readout_file_sha256": "f24c72d12cf9bd9beb54685cbce3b4533f411ca81aa19e156a5b92ec5e0f45f8",
+  "frozen_selection_sha256": "146564161e65d5acd47f8aa3fd1fccbea1284340acafb78e95df0d1d6f37643e",
+  "groups": {
+    "select": {
+      "native_baseline_agreement": 7942,
+      "gate_audit": {
+        "review_rows": 1607,
+        "within_route_pair_errors": 333,
+        "pair_errors_with_review_argmax_already_gold": 62,
+        "subset_above_margin_and_blocked_by_veto": 13,
+        "fixed_by_dominant_gold_pair_score_under_native_rule": 293,
+        "remaining_under_native_rule": 40,
+        "oracle_with_existing_gate": {
+          "macro_f1": 0.7176852231110703,
+          "accuracy": 0.762150591790481,
+          "none_reasoning_errors": 675,
+          "none_as_reasoning": 307,
+          "reasoning_as_none": 368,
+          "changed": 293,
+          "corrected": 293,
+          "harmed": 0,
+          "per_role_f1": {
+            "None": 0.7558139534883721,
+            "Facts": 0.8341608738828202,
+            "Issue": 0.47368421052631576,
+            "Petitioner argument": 0.7137681159420289,
+            "Respondent argument": 0.7228915662650602,
+            "Reasoning": 0.7677367143242514,
+            "Decision": 0.755741127348643
+          },
+          "confusion": [
+            [
+              2145,
+              150,
+              21,
+              57,
+              35,
+              307,
+              21
+            ],
+            [
+              155,
+              1260,
+              12,
+              19,
+              21,
+              21,
+              3
+            ],
+            [
+              23,
+              75,
+              63,
+              1,
+              0,
+              4,
+              0
+            ],
+            [
+              169,
+              1,
+              0,
+              591,
+              104,
+              33,
+              0
+            ],
+            [
+              27,
+              7,
+              3,
+              71,
+              390,
+              12,
+              0
+            ],
+            [
+              368,
+              37,
+              1,
+              19,
+              19,
+              1423,
+              18
+            ],
+            [
+              53,
+              0,
+              0,
+              0,
+              0,
+              22,
+              181
+            ]
+          ]
+        }
+      },
+      "methods": {
+        "pair-boundary": {
+          "prediction_differences": 0,
+          "sentences": 7942,
+          "weights_sha256": "c3ba5289eef3fe54d5e2ddc04c887ed335a2126dbe48d45e028a8f73a5655ee8"
+        },
+        "pair-boundary-shuffled": {
+          "prediction_differences": 0,
+          "sentences": 7942,
+          "weights_sha256": "c909f04af0e89f547594d8a25e7530281ada643c33677838034acbde0c57c912"
+        },
+        "pair-residual": {
+          "prediction_differences": 0,
+          "sentences": 7942,
+          "weights_sha256": "c3b83cc13af9b9af4530361d2f6cbab547b7eca5f9fd3de8b3b7e7c1e1b3952d"
+        },
+        "pair-residual-shuffled": {
+          "prediction_differences": 0,
+          "sentences": 7942,
+          "weights_sha256": "1217545e182946fe29d00ec68f36916743d9d69580d04ec299d7406467278722"
+        },
+        "pair-bias": {
+          "prediction_differences": 0,
+          "sentences": 7942,
+          "weights_sha256": "0b39f6959e260a9e320a27ce3cee7161a2404065bf5acb3bd612c418ad6f8666"
+        },
+        "pair-bias-shuffled": {
+          "prediction_differences": 0,
+          "sentences": 7942,
+          "weights_sha256": "1e53ef67e2f3c4d5bd45a65573c5d8efdc6ac974ad4cac8bf6d9781a42e944e6"
+        },
+        "pair-auxiliary": {
+          "prediction_differences": 0,
+          "sentences": 7942,
+          "weights_sha256": "826ea542276047b8b4602f88aa4271a6af0e637cb064c49f2a08a60750eccf5a"
+        },
+        "pair-auxiliary-shuffled": {
+          "prediction_differences": 0,
+          "sentences": 7942,
+          "weights_sha256": "14fad5fb77045b38d325959ddeeb6ee679168cca33a5d846089d7a085fe5c50d"
+        },
+        "all-role": {
+          "prediction_differences": 0,
+          "sentences": 7942,
+          "weights_sha256": "db701dc770fe3aa5cf26d3e83d89ff4e819df913be8c496e71bd949dc4dffd9b"
+        },
+        "all-role-shuffled": {
+          "prediction_differences": 0,
+          "sentences": 7942,
+          "weights_sha256": "48573a5cb1ceb8c27d10f64bb07aac954a70cb0136a4ad21fa3503c0a4370cc5"
+        },
+        "gap-only": {
+          "prediction_differences": 0,
+          "sentences": 7942,
+          "weights_sha256": "e70462f5a9bd376efdab223ebee4ffc855877ea7bd159a394bb240e379a703c3"
+        }
+      }
+    },
+    "confirm": {
+      "native_baseline_agreement": 14879,
+      "gate_audit": {
+        "review_rows": 3007,
+        "within_route_pair_errors": 530,
+        "pair_errors_with_review_argmax_already_gold": 113,
+        "subset_above_margin_and_blocked_by_veto": 31,
+        "fixed_by_dominant_gold_pair_score_under_native_rule": 464,
+        "remaining_under_native_rule": 66,
+        "oracle_with_existing_gate": {
+          "macro_f1": 0.6977041561911442,
+          "accuracy": 0.7419181396599234,
+          "none_reasoning_errors": 1406,
+          "none_as_reasoning": 499,
+          "reasoning_as_none": 907,
+          "changed": 464,
+          "corrected": 464,
+          "harmed": 0,
+          "per_role_f1": {
+            "None": 0.765981642433596,
+            "Facts": 0.8072289156626506,
+            "Issue": 0.5800865800865801,
+            "Petitioner argument": 0.6756329113924051,
+            "Respondent argument": 0.600547195622435,
+            "Reasoning": 0.6970553984362003,
+            "Decision": 0.757396449704142
+          },
+          "confusion": [
+            [
+              4715,
+              471,
+              17,
+              134,
+              92,
+              499,
+              40
+            ],
+            [
+              337,
+              2546,
+              29,
+              64,
+              45,
+              77,
+              3
+            ],
+            [
+              58,
+              67,
+              134,
+              3,
+              0,
+              8,
+              2
+            ],
+            [
+              229,
+              43,
+              3,
+              854,
+              81,
+              66,
+              0
+            ],
+            [
+              78,
+              32,
+              1,
+              168,
+              439,
+              55,
+              0
+            ],
+            [
+              907,
+              47,
+              5,
+              28,
+              32,
+              2095,
+              26
+            ],
+            [
+              19,
+              1,
+              1,
+              1,
+              0,
+              71,
+              256
+            ]
+          ]
+        }
+      },
+      "methods": {
+        "pair-boundary": {
+          "prediction_differences": 0,
+          "sentences": 14879,
+          "weights_sha256": "c3ba5289eef3fe54d5e2ddc04c887ed335a2126dbe48d45e028a8f73a5655ee8"
+        },
+        "pair-boundary-shuffled": {
+          "prediction_differences": 0,
+          "sentences": 14879,
+          "weights_sha256": "c909f04af0e89f547594d8a25e7530281ada643c33677838034acbde0c57c912"
+        },
+        "pair-residual": {
+          "prediction_differences": 0,
+          "sentences": 14879,
+          "weights_sha256": "c3b83cc13af9b9af4530361d2f6cbab547b7eca5f9fd3de8b3b7e7c1e1b3952d"
+        },
+        "pair-residual-shuffled": {
+          "prediction_differences": 0,
+          "sentences": 14879,
+          "weights_sha256": "1217545e182946fe29d00ec68f36916743d9d69580d04ec299d7406467278722"
+        },
+        "pair-bias": {
+          "prediction_differences": 0,
+          "sentences": 14879,
+          "weights_sha256": "0b39f6959e260a9e320a27ce3cee7161a2404065bf5acb3bd612c418ad6f8666"
+        },
+        "pair-bias-shuffled": {
+          "prediction_differences": 0,
+          "sentences": 14879,
+          "weights_sha256": "1e53ef67e2f3c4d5bd45a65573c5d8efdc6ac974ad4cac8bf6d9781a42e944e6"
+        },
+        "pair-auxiliary": {
+          "prediction_differences": 0,
+          "sentences": 14879,
+          "weights_sha256": "826ea542276047b8b4602f88aa4271a6af0e637cb064c49f2a08a60750eccf5a"
+        },
+        "pair-auxiliary-shuffled": {
+          "prediction_differences": 0,
+          "sentences": 14879,
+          "weights_sha256": "14fad5fb77045b38d325959ddeeb6ee679168cca33a5d846089d7a085fe5c50d"
+        },
+        "all-role": {
+          "prediction_differences": 0,
+          "sentences": 14879,
+          "weights_sha256": "db701dc770fe3aa5cf26d3e83d89ff4e819df913be8c496e71bd949dc4dffd9b"
+        },
+        "all-role-shuffled": {
+          "prediction_differences": 0,
+          "sentences": 14879,
+          "weights_sha256": "48573a5cb1ceb8c27d10f64bb07aac954a70cb0136a4ad21fa3503c0a4370cc5"
+        },
+        "gap-only": {
+          "prediction_differences": 0,
+          "sentences": 14879,
+          "weights_sha256": "e70462f5a9bd376efdab223ebee4ffc855877ea7bd159a394bb240e379a703c3"
+        }
+      }
+    },
+    "fresh": {
+      "native_baseline_agreement": 22400,
+      "gate_audit": {
+        "review_rows": 4521,
+        "within_route_pair_errors": 904,
+        "pair_errors_with_review_argmax_already_gold": 184,
+        "subset_above_margin_and_blocked_by_veto": 53,
+        "fixed_by_dominant_gold_pair_score_under_native_rule": 790,
+        "remaining_under_native_rule": 114,
+        "oracle_with_existing_gate": {
+          "macro_f1": 0.7049433419866542,
+          "accuracy": 0.7446875,
+          "none_reasoning_errors": 2286,
+          "none_as_reasoning": 679,
+          "reasoning_as_none": 1607,
+          "changed": 790,
+          "corrected": 790,
+          "harmed": 0,
+          "per_role_f1": {
+            "None": 0.774013024013024,
+            "Facts": 0.7964939024390244,
+            "Issue": 0.5936395759717314,
+            "Petitioner argument": 0.7241035856573705,
+            "Respondent argument": 0.6502463054187192,
+            "Reasoning": 0.6840148698884758,
+            "Decision": 0.7120921305182342
+          },
+          "confusion": [
+            [
+              7607,
+              699,
+              43,
+              247,
+              161,
+              679,
+              48
+            ],
+            [
+              443,
+              3135,
+              27,
+              48,
+              36,
+              183,
+              5
+            ],
+            [
+              62,
+              67,
+              168,
+              0,
+              1,
+              16,
+              1
+            ],
+            [
+              293,
+              32,
+              0,
+              1454,
+              135,
+              91,
+              5
+            ],
+            [
+              130,
+              17,
+              3,
+              209,
+              726,
+              54,
+              0
+            ],
+            [
+              1607,
+              45,
+              10,
+              48,
+              33,
+              3220,
+              59
+            ],
+            [
+              30,
+              0,
+              0,
+              0,
+              2,
+              150,
+              371
+            ]
+          ]
+        }
+      },
+      "methods": {
+        "pair-boundary": {
+          "prediction_differences": 0,
+          "sentences": 22400,
+          "weights_sha256": "c3ba5289eef3fe54d5e2ddc04c887ed335a2126dbe48d45e028a8f73a5655ee8"
+        },
+        "pair-boundary-shuffled": {
+          "prediction_differences": 0,
+          "sentences": 22400,
+          "weights_sha256": "c909f04af0e89f547594d8a25e7530281ada643c33677838034acbde0c57c912"
+        },
+        "pair-residual": {
+          "prediction_differences": 0,
+          "sentences": 22400,
+          "weights_sha256": "c3b83cc13af9b9af4530361d2f6cbab547b7eca5f9fd3de8b3b7e7c1e1b3952d"
+        },
+        "pair-residual-shuffled": {
+          "prediction_differences": 0,
+          "sentences": 22400,
+          "weights_sha256": "1217545e182946fe29d00ec68f36916743d9d69580d04ec299d7406467278722"
+        },
+        "pair-bias": {
+          "prediction_differences": 0,
+          "sentences": 22400,
+          "weights_sha256": "0b39f6959e260a9e320a27ce3cee7161a2404065bf5acb3bd612c418ad6f8666"
+        },
+        "pair-bias-shuffled": {
+          "prediction_differences": 0,
+          "sentences": 22400,
+          "weights_sha256": "1e53ef67e2f3c4d5bd45a65573c5d8efdc6ac974ad4cac8bf6d9781a42e944e6"
+        },
+        "pair-auxiliary": {
+          "prediction_differences": 0,
+          "sentences": 22400,
+          "weights_sha256": "826ea542276047b8b4602f88aa4271a6af0e637cb064c49f2a08a60750eccf5a"
+        },
+        "pair-auxiliary-shuffled": {
+          "prediction_differences": 0,
+          "sentences": 22400,
+          "weights_sha256": "14fad5fb77045b38d325959ddeeb6ee679168cca33a5d846089d7a085fe5c50d"
+        },
+        "all-role": {
+          "prediction_differences": 0,
+          "sentences": 22400,
+          "weights_sha256": "db701dc770fe3aa5cf26d3e83d89ff4e819df913be8c496e71bd949dc4dffd9b"
+        },
+        "all-role-shuffled": {
+          "prediction_differences": 0,
+          "sentences": 22400,
+          "weights_sha256": "48573a5cb1ceb8c27d10f64bb07aac954a70cb0136a4ad21fa3503c0a4370cc5"
+        },
+        "gap-only": {
+          "prediction_differences": 0,
+          "sentences": 22400,
+          "weights_sha256": "e70462f5a9bd376efdab223ebee4ffc855877ea7bd159a394bb240e379a703c3"
+        }
+      }
+    }
+  }
+}

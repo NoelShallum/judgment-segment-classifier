@@ -1,0 +1,312 @@
+{
+  "cases": 712,
+  "live_cases": [
+    "6723",
+    "6884",
+    "6993"
+  ],
+  "sha256": "8737db8d3199a0a4b1357b4280e41963a266a19ce5559a9c7e45604ad7075dc0",
+  "freeze_sha256": "7795e3f7db015915e8c96cdb82d0b7265af6083a5b13c92aca5d9010b48e4ba7",
+  "scores": {
+    "tokens": 4311245,
+    "token_accuracy": 0.5062342780333755,
+    "token_macro_f1": 0.5291981881202591,
+    "exact_labeled_spans": {
+      "matched": 7076,
+      "predicted": 17889,
+      "gold": 28879,
+      "precision": 0.39555033819665714,
+      "recall": 0.24502233456837147,
+      "f1": 0.30260006842285325
+    },
+    "exact_role_boundaries": {
+      "matched": 10957,
+      "predicted": 17177,
+      "gold": 28167,
+      "precision": 0.637887873318973,
+      "recall": 0.389001313593922,
+      "f1": 0.4832833450952717
+    },
+    "token_confusion": [
+      [
+        125287,
+        197703,
+        20532,
+        51285,
+        45833,
+        1119549,
+        10241
+      ],
+      [
+        29838,
+        627185,
+        13814,
+        14895,
+        2526,
+        33798,
+        423
+      ],
+      [
+        2594,
+        21392,
+        43118,
+        631,
+        637,
+        6832,
+        304
+      ],
+      [
+        16935,
+        53761,
+        3254,
+        215545,
+        43681,
+        100323,
+        253
+      ],
+      [
+        7762,
+        25724,
+        1869,
+        42284,
+        137121,
+        86706,
+        451
+      ],
+      [
+        37794,
+        46746,
+        6022,
+        19449,
+        16989,
+        971247,
+        23285
+      ],
+      [
+        1859,
+        1283,
+        363,
+        692,
+        921,
+        17512,
+        62997
+      ]
+    ],
+    "roles": {
+      "none": {
+        "matched": 3727,
+        "predicted": 7432,
+        "gold": 12373,
+        "span_f1": 0.3763696036354456
+      },
+      "facts": {
+        "matched": 800,
+        "predicted": 2631,
+        "gold": 3543,
+        "span_f1": 0.25915127955944284
+      },
+      "issue": {
+        "matched": 333,
+        "predicted": 1054,
+        "gold": 1034,
+        "span_f1": 0.31896551724137934
+      },
+      "petitioner_argument": {
+        "matched": 223,
+        "predicted": 1091,
+        "gold": 2658,
+        "span_f1": 0.1189650573486263
+      },
+      "respondent_argument": {
+        "matched": 338,
+        "predicted": 1064,
+        "gold": 1985,
+        "span_f1": 0.2217120367333552
+      },
+      "reasoning": {
+        "matched": 1136,
+        "predicted": 3551,
+        "gold": 6103,
+        "span_f1": 0.23534286306194324
+      },
+      "decision": {
+        "matched": 519,
+        "predicted": 1066,
+        "gold": 1183,
+        "span_f1": 0.46153846153846156
+      }
+    }
+  },
+  "same_weights_original_lattice": {
+    "tokens": 4311245,
+    "token_accuracy": 0.5178506440714921,
+    "token_macro_f1": 0.5447257965826847,
+    "exact_labeled_spans": {
+      "matched": 7207,
+      "predicted": 18663,
+      "gold": 28879,
+      "precision": 0.38616513958098914,
+      "recall": 0.24955850271823818,
+      "f1": 0.3031845526061167
+    },
+    "exact_role_boundaries": {
+      "matched": 11333,
+      "predicted": 17951,
+      "gold": 28167,
+      "precision": 0.6313297309342097,
+      "recall": 0.4023502680441652,
+      "f1": 0.4914783815429984
+    },
+    "token_confusion": [
+      [
+        159475,
+        191212,
+        19883,
+        41906,
+        35234,
+        1112403,
+        10317
+      ],
+      [
+        17998,
+        631926,
+        11593,
+        17402,
+        2771,
+        40366,
+        423
+      ],
+      [
+        2306,
+        21622,
+        43645,
+        614,
+        553,
+        6464,
+        304
+      ],
+      [
+        9660,
+        50057,
+        1405,
+        227582,
+        45499,
+        99296,
+        253
+      ],
+      [
+        5445,
+        24068,
+        958,
+        39391,
+        141589,
+        89925,
+        541
+      ],
+      [
+        45559,
+        45376,
+        4556,
+        19343,
+        15766,
+        966806,
+        24126
+      ],
+      [
+        3879,
+        746,
+        285,
+        658,
+        953,
+        17548,
+        61558
+      ]
+    ],
+    "roles": {
+      "none": {
+        "matched": 3782,
+        "predicted": 7695,
+        "gold": 12373,
+        "span_f1": 0.3769184771775962
+      },
+      "facts": {
+        "matched": 802,
+        "predicted": 2685,
+        "gold": 3543,
+        "span_f1": 0.2575465639049454
+      },
+      "issue": {
+        "matched": 337,
+        "predicted": 1097,
+        "gold": 1034,
+        "span_f1": 0.3162834350070389
+      },
+      "petitioner_argument": {
+        "matched": 236,
+        "predicted": 1176,
+        "gold": 2658,
+        "span_f1": 0.12310902451747523
+      },
+      "respondent_argument": {
+        "matched": 346,
+        "predicted": 1112,
+        "gold": 1985,
+        "span_f1": 0.2234420406845334
+      },
+      "reasoning": {
+        "matched": 1183,
+        "predicted": 3823,
+        "gold": 6103,
+        "span_f1": 0.2383638928067701
+      },
+      "decision": {
+        "matched": 521,
+        "predicted": 1075,
+        "gold": 1183,
+        "span_f1": 0.46147032772364927
+      }
+    }
+  },
+  "gap_ci95_same_weights_original_lattice": {
+    "exact_span_f1": [
+      -0.001990587554448746,
+      0.0007970469392125896
+    ],
+    "token_accuracy": [
+      -0.01859625444289424,
+      -0.004564845607492933
+    ]
+  },
+  "chosen_span_sources": [
+    {
+      "tier": 0,
+      "predicted": 17541,
+      "exact_matches": 7072
+    },
+    {
+      "tier": 1,
+      "predicted": 316,
+      "exact_matches": 2
+    },
+    {
+      "tier": 2,
+      "predicted": 3,
+      "exact_matches": 0
+    },
+    {
+      "tier": 3,
+      "predicted": 5,
+      "exact_matches": 1
+    },
+    {
+      "tier": 4,
+      "predicted": 24,
+      "exact_matches": 1
+    },
+    {
+      "tier": 5,
+      "predicted": 0,
+      "exact_matches": 0
+    }
+  ]
+}

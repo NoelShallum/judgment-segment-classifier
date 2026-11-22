@@ -1,0 +1,16 @@
+{
+  "public": {
+    "checkpoint_sha256": "6a82dffd0f4ed26edc8684f7c265c263b948aa3ad46a22e2a7857d281576baee",
+    "torch_probe_count": 12,
+    "max_abs_feature_error": 1.6782056174724502e-06,
+    "native_public_label_disagreements": 0,
+    "probe_identity": "first twelve previous-two-and-target windows from select"
+  },
+  "document": {
+    "checkpoint_sha256": "6a112f242a683d9f274f57ab0bdd9115e59f7a0635f9fd46b1a9c25885ffd81e",
+    "torch_probe_count": 12,
+    "max_abs_feature_error": 1.0672976121645084e-06,
+    "native_public_label_disagreements": 0,
+    "probe_identity": "first twelve previous-two-and-target windows from select"
+  }
+}

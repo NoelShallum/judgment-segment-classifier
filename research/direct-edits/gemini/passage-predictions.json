@@ -1,0 +1,542 @@
+{
+  "Gemini Decisions": {
+    "7028": [
+      "reasoning",
+      "reasoning",
+      "reasoning",
+      "reasoning",
+      "reasoning"
+    ],
+    "6918": [
+      "petitioner_argument",
+      "respondent_argument",
+      "petitioner_argument",
+      "petitioner_argument",
+      "reasoning"
+    ],
+    "6590": [
+      "reasoning",
+      "reasoning",
+      "reasoning",
+      "reasoning",
+      "reasoning"
+    ],
+    "6840": [
+      "reasoning",
+      "reasoning",
+      "reasoning",
+      "reasoning",
+      "reasoning"
+    ],
+    "6632": [
+      "reasoning",
+      "reasoning",
+      "reasoning",
+      "reasoning",
+      "decision",
+      "decision"
+    ],
+    "7044": [
+      "decision",
+      "decision",
+      "decision",
+      "decision",
+      "decision"
+    ],
+    "6595": [
+      "petitioner_argument",
+      "reasoning",
+      "reasoning",
+      "reasoning",
+      "reasoning",
+      "reasoning"
+    ],
+    "6644": [
+      "facts",
+      "reasoning",
+      "reasoning",
+      "reasoning",
+      "reasoning"
+    ],
+    "6681": [
+      "petitioner_argument",
+      "reasoning",
+      "reasoning",
+      "reasoning",
+      "reasoning"
+    ],
+    "6870": [
+      "reasoning",
+      "reasoning",
+      "reasoning",
+      "reasoning",
+      "reasoning",
+      "reasoning"
+    ],
+    "6892": [
+      "reasoning",
+      "reasoning",
+      "reasoning",
+      "reasoning",
+      "reasoning"
+    ],
+    "6626": [
+      "respondent_argument",
+      "petitioner_argument",
+      "facts",
+      "facts",
+      "reasoning",
+      "reasoning"
+    ]
+  },
+  "source": {
+    "7028": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "none"
+    ],
+    "6918": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "none"
+    ],
+    "6590": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "none"
+    ],
+    "6840": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "none"
+    ],
+    "6632": [
+      "none",
+      "decision",
+      "decision",
+      "decision",
+      "decision",
+      "decision"
+    ],
+    "7044": [
+      "decision",
+      "decision",
+      "decision",
+      "decision",
+      "decision"
+    ],
+    "6595": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none"
+    ],
+    "6644": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "none"
+    ],
+    "6681": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "none"
+    ],
+    "6870": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none"
+    ],
+    "6892": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "none"
+    ],
+    "6626": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none"
+    ]
+  },
+  "retention": {
+    "7028": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "none"
+    ],
+    "6918": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "none"
+    ],
+    "6590": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "none"
+    ],
+    "6840": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "none"
+    ],
+    "6632": [
+      "reasoning",
+      "reasoning",
+      "reasoning",
+      "reasoning",
+      "decision",
+      "decision"
+    ],
+    "7044": [
+      "decision",
+      "decision",
+      "decision",
+      "decision",
+      "decision"
+    ],
+    "6595": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none"
+    ],
+    "6644": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "none"
+    ],
+    "6681": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "none"
+    ],
+    "6870": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none"
+    ],
+    "6892": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "none"
+    ],
+    "6626": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none"
+    ]
+  },
+  "document-prior": {
+    "7028": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "none"
+    ],
+    "6918": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "none"
+    ],
+    "6590": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "none"
+    ],
+    "6840": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "none"
+    ],
+    "6632": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none"
+    ],
+    "7044": [
+      "none",
+      "none",
+      "decision",
+      "decision",
+      "decision"
+    ],
+    "6595": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none"
+    ],
+    "6644": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "none"
+    ],
+    "6681": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "none"
+    ],
+    "6870": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none"
+    ],
+    "6892": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "none"
+    ],
+    "6626": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none"
+    ]
+  },
+  "retention-prior": {
+    "7028": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "none"
+    ],
+    "6918": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "none"
+    ],
+    "6590": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "none"
+    ],
+    "6840": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "none"
+    ],
+    "6632": [
+      "reasoning",
+      "reasoning",
+      "reasoning",
+      "reasoning",
+      "decision",
+      "decision"
+    ],
+    "7044": [
+      "decision",
+      "decision",
+      "decision",
+      "decision",
+      "decision"
+    ],
+    "6595": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none"
+    ],
+    "6644": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "none"
+    ],
+    "6681": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "none"
+    ],
+    "6870": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none"
+    ],
+    "6892": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "none"
+    ],
+    "6626": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none"
+    ]
+  },
+  "current-20-percent": {
+    "7028": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "none"
+    ],
+    "6918": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "none"
+    ],
+    "6590": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "none"
+    ],
+    "6840": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "reasoning"
+    ],
+    "6632": [
+      "reasoning",
+      "reasoning",
+      "reasoning",
+      "reasoning",
+      "decision",
+      "decision"
+    ],
+    "7044": [
+      "reasoning",
+      "decision",
+      "decision",
+      "decision",
+      "decision"
+    ],
+    "6595": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none"
+    ],
+    "6644": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "none"
+    ],
+    "6681": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "none"
+    ],
+    "6870": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "none",
+      "none"
+    ],
+    "6892": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "none"
+    ],
+    "6626": [
+      "none",
+      "none",
+      "none",
+      "none",
+      "reasoning",
+      "reasoning"
+    ]
+  }
+}

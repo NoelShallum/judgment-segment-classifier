@@ -1,0 +1,32 @@
+{
+  "device": {
+    "devices": [
+      "Tesla T4, 15360, 580.82.07"
+    ],
+    "torch": "2.14.1+cu130",
+    "cuda": "13.0"
+  },
+  "model_sha256": "bbe8af20d1524c7535b1cbe68c6d4c3c844c6cc9fccef46c03c9ff56e7c18cea",
+  "groups": {
+    "select": {
+      "cases": 48,
+      "reviews": 1607,
+      "file_sha256": "7d840c5e3c5db7e8261d9b0f05aa3858e64834e26449493734de5a7804bdf189"
+    },
+    "confirm": {
+      "cases": 72,
+      "reviews": 3007,
+      "file_sha256": "a7066031766a186c3c8ad614075fc9ef0c2b99626583f071caad11fa5314a437"
+    },
+    "fresh": {
+      "cases": 96,
+      "reviews": 4521,
+      "file_sha256": "7d8f0340c870e4939297ed4334d7da47554305c35f297c78fac804c2aa380d19"
+    },
+    "fit": {
+      "cases": 384,
+      "reviews": 18218,
+      "file_sha256": "1e11c6cb3d10deb93830c89f66770e5b7b85290a914e0a40a6bb562a06c542f2"
+    }
+  }
+}

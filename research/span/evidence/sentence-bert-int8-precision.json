@@ -1,0 +1,71 @@
+{
+  "source": {
+    "source_weights_sha256": "bbe8af20d1524c7535b1cbe68c6d4c3c844c6cc9fccef46c03c9ff56e7c18cea",
+    "fp32_sha256": "8e115c0e258b8473c48fb426b6fe0dce376d38b12200372e2f180348b2c83dd1",
+    "quantized_sha256": "ce9168212bbafe8c9b9f1402a7bec33e7f6e285895d1a9e5f3d1eafd3c8a9944",
+    "fp32_bytes": 438202338,
+    "quantized_bytes": 182249652,
+    "onnxruntime": "1.32.0",
+    "weight_type": "QUInt8",
+    "per_channel": true,
+    "reduce_range": true
+  },
+  "cohort": "confirm",
+  "positions": [
+    6,
+    19,
+    36,
+    83,
+    88,
+    109,
+    118,
+    124,
+    145,
+    187,
+    209,
+    249,
+    271,
+    272,
+    284,
+    287,
+    289,
+    319,
+    329,
+    341,
+    342,
+    383,
+    453,
+    458,
+    467,
+    484,
+    539,
+    553,
+    583,
+    600,
+    628,
+    638
+  ],
+  "results": {
+    "unsigned-reduced": {
+      "mean_abs_pooler_error": 0.29030460119247437,
+      "peak_pooler_error": 1.9943783283233643,
+      "graph_size_bytes": 182249652,
+      "graph_sha256": "ce9168212bbafe8c9b9f1402a7bec33e7f6e285895d1a9e5f3d1eafd3c8a9944",
+      "seconds": 23.92293433099985
+    },
+    "unsigned-full": {
+      "mean_abs_pooler_error": 0.2858268916606903,
+      "peak_pooler_error": 1.9925425052642822,
+      "graph_size_bytes": 182290642,
+      "graph_sha256": "1e27a86560793fe7a82229562a4032293ef03a17cfbce48616146ec8ecd6b8cb",
+      "seconds": 25.370743535000656
+    },
+    "signed-reduced": {
+      "mean_abs_pooler_error": 0.28391188383102417,
+      "peak_pooler_error": 1.9946043491363525,
+      "graph_size_bytes": 182249652,
+      "graph_sha256": "bfcb54cc7c7c88a20d0d5c1cdd2601cfca673ce041f8d3b9ad3c76c1f624a087",
+      "seconds": 20.41334559200186
+    }
+  }
+}

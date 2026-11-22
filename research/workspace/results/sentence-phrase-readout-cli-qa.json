@@ -1,0 +1,21 @@
+{
+  "freeze_sha256": "b35555ba11d5810c856a1ae27e452c1f2f0f68386915521125fd5e04b27ce242",
+  "arm": "target phrases",
+  "cases": [
+    {
+      "case": "6332",
+      "sentences": 44,
+      "changes": 4
+    },
+    {
+      "case": "5905",
+      "sentences": 132,
+      "changes": 6
+    },
+    {
+      "case": "6108",
+      "sentences": 688,
+      "changes": 15
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "checkpoint_sha256": "6ce814b04a87cc11865a7cb8f1540cb26d4696018b726514e580ec41bdda9045",
+  "parameter_count": 16816110,
+  "max_logit_difference_vs_evaluated_overlay": 0.0,
+  "sentences": [
+    "The appellant challenged the High Court order.",
+    "Counsel for the respondent submitted that the proceeding was barred.",
+    "The appeal is accordingly dismissed."
+  ],
+  "native_role_ids": [
+    0,
+    0,
+    6
+  ]
+}

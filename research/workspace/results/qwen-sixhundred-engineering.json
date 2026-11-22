@@ -1,0 +1,530 @@
+{
+  "group": "cloud",
+  "documents": 2,
+  "case_ids": [
+    "7028",
+    "6918"
+  ],
+  "source_rows": 10,
+  "model_units": 10,
+  "unique_windows": 10,
+  "weights_sha256": "cb6f574417083e5ccad64123c96835c72091c61f05452550422e70e770b62d93",
+  "results": {
+    "native_runtime": {
+      "tokens": 270,
+      "token_accuracy": 0.0,
+      "token_macro_f1": 0.0,
+      "exact_labeled_spans": {
+        "matched": 0,
+        "predicted": 5,
+        "gold": 5,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "exact_role_boundaries": {
+        "matched": 0,
+        "predicted": 3,
+        "gold": 3,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "token_confusion": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          72,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          38,
+          0,
+          0,
+          0,
+          59,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          101,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "native_rows": {
+      "tokens": 270,
+      "token_accuracy": 0.0,
+      "token_macro_f1": 0.0,
+      "exact_labeled_spans": {
+        "matched": 0,
+        "predicted": 3,
+        "gold": 5,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "exact_role_boundaries": {
+        "matched": 0,
+        "predicted": 1,
+        "gold": 3,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "token_confusion": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          72,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          20,
+          0,
+          0,
+          0,
+          77,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          101,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "bias_control": {
+      "tokens": 270,
+      "token_accuracy": 0.08148148148148149,
+      "token_macro_f1": 0.0668693009118541,
+      "exact_labeled_spans": {
+        "matched": 0,
+        "predicted": 5,
+        "gold": 5,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "exact_role_boundaries": {
+        "matched": 2,
+        "predicted": 3,
+        "gold": 3,
+        "precision": 0.6666666666666666,
+        "recall": 0.6666666666666666,
+        "f1": 0.6666666666666666
+      },
+      "token_confusion": [
+        [
+          22,
+          50,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          97,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          74,
+          0,
+          0,
+          0,
+          27
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "lexicon": {
+      "tokens": 270,
+      "token_accuracy": 0.0,
+      "token_macro_f1": 0.0,
+      "exact_labeled_spans": {
+        "matched": 0,
+        "predicted": 3,
+        "gold": 5,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "exact_role_boundaries": {
+        "matched": 0,
+        "predicted": 1,
+        "gold": 3,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "token_confusion": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          72,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          20,
+          0,
+          0,
+          0,
+          77,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          101,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "associative": {
+      "tokens": 270,
+      "token_accuracy": 0.08148148148148149,
+      "token_macro_f1": 0.0668693009118541,
+      "exact_labeled_spans": {
+        "matched": 0,
+        "predicted": 6,
+        "gold": 5,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "exact_role_boundaries": {
+        "matched": 1,
+        "predicted": 4,
+        "gold": 3,
+        "precision": 0.25,
+        "recall": 0.3333333333333333,
+        "f1": 0.2857142857142857
+      },
+      "token_confusion": [
+        [
+          22,
+          34,
+          0,
+          0,
+          0,
+          16,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          55,
+          0,
+          0,
+          0,
+          42,
+          0
+        ],
+        [
+          0,
+          0,
+          74,
+          0,
+          0,
+          27,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "gemini_archive": {
+      "tokens": 270,
+      "token_accuracy": 0.2222222222222222,
+      "token_macro_f1": 0.08975317875841436,
+      "exact_labeled_spans": {
+        "matched": 0,
+        "predicted": 5,
+        "gold": 5,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "exact_role_boundaries": {
+        "matched": 1,
+        "predicted": 3,
+        "gold": 3,
+        "precision": 0.3333333333333333,
+        "recall": 0.3333333333333333,
+        "f1": 0.3333333333333333
+      },
+      "token_confusion": [
+        [
+          0,
+          0,
+          0,
+          34,
+          0,
+          38,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          60,
+          17,
+          20,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          101,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  }
+}

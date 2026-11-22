@@ -1,0 +1,85 @@
+{
+  "figure": 3,
+  "paper_page": 1137,
+  "pdf_page": 9,
+  "pdf_sha256": "888e14933985dc2151b71afb9b298f5830fe1e53f975026a45fc3feb4a2b7960",
+  "paper": "https://aclanthology.org/2025.findings-naacl.63.pdf#page=9",
+  "reported_table_3": {
+    "accuracy": 0.62,
+    "macro_f1": 0.77
+  },
+  "figure_3": {
+    "rows": 149825,
+    "correct": 58844,
+    "accuracy": 0.3927515434673786,
+    "macro_f1": 0.26961981606742647,
+    "confusion": [
+      [
+        30830,
+        8322,
+        466,
+        4084,
+        3118,
+        10385,
+        1265
+      ],
+      [
+        5583,
+        11949,
+        139,
+        3425,
+        2046,
+        1656,
+        111
+      ],
+      [
+        545,
+        753,
+        84,
+        166,
+        113,
+        162,
+        20
+      ],
+      [
+        4277,
+        1106,
+        60,
+        4008,
+        3015,
+        1842,
+        199
+      ],
+      [
+        3594,
+        785,
+        71,
+        1071,
+        2424,
+        1501,
+        133
+      ],
+      [
+        15558,
+        6177,
+        341,
+        2155,
+        1882,
+        9158,
+        1407
+      ],
+      [
+        765,
+        1682,
+        96,
+        400,
+        218,
+        287,
+        391
+      ]
+    ]
+  },
+  "same_matrix_in_author_file": "Hier_BiLSTM_predictions.csv",
+  "independent_reproduction_note": "https://arxiv.org/html/2611.20191v1",
+  "tdm_repository": "https://github.com/NaiveNeuron/TDM-Gauntlet"
+}

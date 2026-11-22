@@ -1,0 +1,14 @@
+{
+  "repo_id": "mixedbread-ai/mxbai-embed-xsmall-v1",
+  "revision": "e6ac24e5d6efb8782b59de1647b3ececb4ece94e",
+  "parameters": 24089472,
+  "sha256": {
+    "config.json": "55f755d351fd04b0fef37760e07e195eb47e15f7aed6fc42d9be3dde3d38bca4",
+    "model.safetensors": "8a1a58f701e103c02ad3a519c04293f57e037b7a47aaac184466d6dd3e76708e",
+    "tokenizer.json": "da0e79933b9ed51798a3ae27893d3c5fa4a201126cef75586296df9b4d2c62a0",
+    "tokenizer_config.json": "bd2e06a5b20fd1b13ca988bedc8763d332d242381b4fbc98f8fead4524158f79",
+    "special_tokens_map.json": "5d5b662e421ea9fac075174bb0688ee0d9431699900b90662acd44b2a350503a",
+    "vocab.txt": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+    "README.md": "e3577a342ee5a97f504478e8e77afc49074d2018f5534b0b66c3067e05244283"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "isolated": {
+    "rows": 45,
+    "min_cosine_similarity": 0.9999998807907104,
+    "max_difference": 1.7881393432617188e-07,
+    "cpu_s": 34.72268375600106,
+    "gpu_s": 5.312203574998421
+  },
+  "bidirectional": {
+    "rows": 45,
+    "min_cosine_similarity": 0.9999999403953552,
+    "max_difference": 2.384185791015625e-07,
+    "cpu_s": 30.066356445000565,
+    "gpu_s": 5.19671233400004
+  }
+}

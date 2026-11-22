@@ -1,0 +1,75 @@
+{
+  "reserved": {
+    "arms": {
+      "donor": {
+        "exact_labeled_span_f1": 0.34760705289672544,
+        "boundary_f1": 0.5103896103896104,
+        "matched_spans": 552,
+        "predicted_spans": 996,
+        "gold_spans": 2180
+      },
+      "head": {
+        "exact_labeled_span_f1": 0.341570222083203,
+        "boundary_f1": 0.5146726862302483,
+        "matched_spans": 546,
+        "predicted_spans": 1017,
+        "gold_spans": 2180
+      },
+      "targeted": {
+        "exact_labeled_span_f1": 0.34623722514710437,
+        "boundary_f1": 0.5209064794127035,
+        "matched_spans": 559,
+        "predicted_spans": 1049,
+        "gold_spans": 2180
+      }
+    },
+    "target_minus_head_95": [
+      [
+        -0.0005533737335428307,
+        0.012266586898368188
+      ],
+      [
+        -3.519961374962295e-05,
+        0.012249663288478296
+      ]
+    ],
+    "source_predictions_sha256": "f33b5ae9c3a34c6b3465489d92084ed9bde40c51075bc84f4b0becadaa4ed07c"
+  },
+  "test": {
+    "arms": {
+      "donor": {
+        "exact_labeled_span_f1": 0.2176332821274774,
+        "boundary_f1": 0.38093248008358366,
+        "matched_spans": 4321,
+        "predicted_spans": 10830,
+        "gold_spans": 28879
+      },
+      "head": {
+        "exact_labeled_span_f1": 0.2172031242226755,
+        "boundary_f1": 0.38274279230491515,
+        "matched_spans": 4366,
+        "predicted_spans": 11323,
+        "gold_spans": 28879
+      },
+      "targeted": {
+        "exact_labeled_span_f1": 0.22216173413837473,
+        "boundary_f1": 0.3889914845593516,
+        "matched_spans": 4489,
+        "predicted_spans": 11533,
+        "gold_spans": 28879
+      }
+    },
+    "target_minus_head_95": [
+      [
+        0.0028339142999406707,
+        0.007039875110615385
+      ],
+      [
+        0.004043357181710899,
+        0.008477437850947834
+      ]
+    ],
+    "source_predictions_sha256": "0f46c14e660d5f6cbc82e9ba1349ca256c11ffd878bc382f3ad1364662a527c1"
+  },
+  "interpretation": "Post-hoc descriptive metrics on the existing immutable prediction files. Exact spans require both sentence-index endpoints and the role to agree, on the fixed official sentence units; boundary F1 ignores the role. These diagnostics did not enter selection and do not rerun any model."
+}

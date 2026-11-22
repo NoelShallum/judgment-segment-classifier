@@ -1,0 +1,88 @@
+{
+  "case": "5343",
+  "backend": {
+    "nvidia_smi": [
+      "Tesla T4"
+    ],
+    "torch": "2.14.1+cu130",
+    "cuda": "13.0",
+    "transformers": "5.21.0",
+    "device_capability": [
+      7,
+      5
+    ],
+    "compute_dtype": "torch.float32",
+    "protocol_sha256": "a571e4e5b78e46f712586670fffad146b8b1f8efcd1b0470ba5c7dc4e86ffd6e",
+    "runner_sha256": "054ffdfec1438fe5333f30f320b2308648e830493f285e2937040e790ba6959d"
+  },
+  "attention": "bidirectional",
+  "template": "karpo-joint-preview-v1",
+  "result": [
+    {
+      "seconds": 1.4098940899998524,
+      "gpu_peak_bytes": 3472966656,
+      "tokens": 320,
+      "markers": [
+        310
+      ],
+      "digest": "07795e905488cd456da05946b0366e76886073ff4680a5e7d6d687c9e7efd620",
+      "keys": [
+        "0"
+      ],
+      "predicted": [
+        0
+      ],
+      "state_norm": 18.082426071166992
+    },
+    {
+      "seconds": 0.25379925800007186,
+      "gpu_peak_bytes": 3511102464,
+      "tokens": 592,
+      "markers": [
+        410,
+        582
+      ],
+      "digest": "3cc70e627587c9d2d5379dc208d5649ab5a547e11c67913e6330bc1abdfc0c01",
+      "keys": [
+        "0",
+        "1"
+      ],
+      "predicted": [
+        0,
+        1
+      ],
+      "state_norm": 24.109159469604492
+    },
+    {
+      "seconds": 0.5371169509999163,
+      "gpu_peak_bytes": 3611081216,
+      "tokens": 1302,
+      "markers": [
+        604,
+        776,
+        948,
+        1120,
+        1292
+      ],
+      "digest": "53b42db90788ed44216a77da487cf83354964707f1d55598812538982748ff72",
+      "keys": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "predicted": [
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "state_norm": 36.615848541259766
+    }
+  ],
+  "weight_sha256": "656bc586f18e9c26df29033ebd50036b33004de82b2c61e4a670124e88d3143f",
+  "readout_sha256": "e290da9edde55094aff5aa26c7b6d0f5a65b08eac590570af35a2c6fb0d6983e",
+  "choice_temperature": 1.0
+}

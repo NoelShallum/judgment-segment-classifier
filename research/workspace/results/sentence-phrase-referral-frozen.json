@@ -1,0 +1,9 @@
+{
+  "phrase_freeze_sha256": "b35555ba11d5810c856a1ae27e452c1f2f0f68386915521125fd5e04b27ce242",
+  "bert_freeze_sha256": "d01057e49dec1d9ceb93ee2f57da1de172e36a2df326d1aa33412ac06e5d09b0",
+  "rule": "Use the frozen BERT decision on all referred rows. Apply the frozen phrase decision on other rows.",
+  "variants": [
+    "target phrases",
+    "contextual phrases"
+  ]
+}

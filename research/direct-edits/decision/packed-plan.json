@@ -1,0 +1,10 @@
+{
+  "format": "One list of seven options followed by full sentences; each sentence ends with its own readout cue. This is a new prompt format, distinct from publisher-native single-decision prompting.",
+  "prefix": "Indian court judgment. Decide the rhetorical role of each sentence. Options: (A) None, (B) Facts, (C) Issue, (D) Argument of the petitioner, (E) Argument of the respondent, (F) Reasoning of the court, (G) Decision. Respond with the option letter.",
+  "anchor": "\nAnswer: (",
+  "maximum_sentences_per_block": 8,
+  "maximum_tokens_per_block": 512,
+  "target_input": "A single unusually long sentence gets its own longer block, up to 7,999 with both ends retained. No sentence is silently dropped.",
+  "ordering": "ordered natural blocks or same-block deterministic shuffle; block partition and target text are identical.",
+  "fit": "same complete training judgments, readout and last feed-forward ridge writes as native trial; use no validation labels in selection."
+}

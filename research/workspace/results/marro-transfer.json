@@ -1,0 +1,411 @@
+{
+  "source": "subinay612/MARRO_Rhetorical-Role-Labeling",
+  "revision": "668bc2d187d934f8e3cb71c15b887459ded347f4",
+  "mapping": {
+    "FAC": "facts",
+    "Ratio": "reasoning",
+    "RPC": "decision"
+  },
+  "design": "Up to 80 sentences per mapped gold class per country. Weighted to the actual prevalence of these three source classes. All seven output labels remained available. Other gold roles excluded. No model selection on this corpus.",
+  "limitations": "MARRO ratio is a narrower annotation than LegalSeg reasoning. Gold for arguments lacks party identity. This slice cannot estimate seven-role or paragraph accuracy. Identity overlap between Indian corpora has not been verified.",
+  "countries": {
+    "IN": {
+      "all_source_counts": {
+        "FAC": 557,
+        "RLC": 192,
+        "Ratio": 901,
+        "RPC": 119,
+        "ARG": 150,
+        "STA": 285,
+        "PRE": 398
+      },
+      "sampled": 240,
+      "sampled_documents": 20,
+      "eligible_mapped_rows": 1577,
+      "observed_sample_counts": {
+        "facts": 80,
+        "reasoning": 80,
+        "decision": 80
+      },
+      "models": {
+        "original": {
+          "macro_f1_on_mapped_gold_roles": 0.44326348696633033,
+          "accuracy_on_mapped_slice": 0.27536461636017756,
+          "prediction_outside_mapped_roles": 0.6753804692454025,
+          "per_role_f1": {
+            "facts": 0.5792362354844303,
+            "reasoning": 0.2743637492240843,
+            "decision": 0.4761904761904764
+          },
+          "per_role_recall": {
+            "facts": 0.4500000000000002,
+            "reasoning": 0.16249999999999992,
+            "decision": 0.31250000000000017
+          },
+          "confusion_rows_and_columns": [
+            "none",
+            "facts",
+            "issue",
+            "petitioner_argument",
+            "respondent_argument",
+            "reasoning",
+            "decision"
+          ],
+          "weighted_confusion": [
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              271.5375000000001,
+              250.65000000000015,
+              0.0,
+              13.925,
+              6.9625,
+              13.925,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              664.4875000000003,
+              56.3125,
+              0.0,
+              11.2625,
+              22.525,
+              146.4125,
+              0.0
+            ],
+            [
+              68.42499999999994,
+              1.4875,
+              0.0,
+              1.4875,
+              4.4625,
+              5.95,
+              37.1875
+            ]
+          ]
+        },
+        "direct_edit": {
+          "macro_f1_on_mapped_gold_roles": 0.5952984906322084,
+          "accuracy_on_mapped_slice": 0.4458465440710209,
+          "prediction_outside_mapped_roles": 0.4550015852885225,
+          "per_role_f1": {
+            "facts": 0.6629061651562674,
+            "reasoning": 0.5022996515679442,
+            "decision": 0.6206896551724138
+          },
+          "per_role_recall": {
+            "facts": 0.5999999999999999,
+            "reasoning": 0.3499999999999999,
+            "decision": 0.44999999999999996
+          },
+          "confusion_rows_and_columns": [
+            "none",
+            "facts",
+            "issue",
+            "petitioner_argument",
+            "respondent_argument",
+            "reasoning",
+            "decision"
+          ],
+          "weighted_confusion": [
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              153.17500000000007,
+              334.1999999999999,
+              13.925,
+              13.925,
+              6.9625,
+              34.8125,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              394.1874999999998,
+              112.62500000000001,
+              0.0,
+              11.2625,
+              67.575,
+              315.34999999999985,
+              0.0
+            ],
+            [
+              50.574999999999974,
+              4.4625,
+              0.0,
+              2.975,
+              2.975,
+              4.4625,
+              53.54999999999997
+            ]
+          ]
+        }
+      }
+    },
+    "UK": {
+      "all_source_counts": {
+        "STA": 77,
+        "Ratio": 1536,
+        "FAC": 305,
+        "RLC": 40,
+        "ARG": 40,
+        "PRE": 169,
+        "RPC": 13
+      },
+      "sampled": 173,
+      "sampled_documents": 9,
+      "eligible_mapped_rows": 1854,
+      "observed_sample_counts": {
+        "facts": 80,
+        "reasoning": 80,
+        "decision": 13
+      },
+      "models": {
+        "original": {
+          "macro_f1_on_mapped_gold_roles": 0.26762370281699926,
+          "accuracy_on_mapped_slice": 0.1659385113268607,
+          "prediction_outside_mapped_roles": 0.8309263754045307,
+          "per_role_f1": {
+            "facts": 0.4,
+            "reasoning": 0.2600139655938549,
+            "decision": 0.14285714285714285
+          },
+          "per_role_recall": {
+            "facts": 0.25,
+            "reasoning": 0.14999999999999983,
+            "decision": 0.07692307692307693
+          },
+          "confusion_rows_and_columns": [
+            "none",
+            "facts",
+            "issue",
+            "petitioner_argument",
+            "respondent_argument",
+            "reasoning",
+            "decision"
+          ],
+          "weighted_confusion": [
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              217.3125,
+              76.25,
+              3.8125,
+              0.0,
+              3.8125,
+              3.8125,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              1228.8000000000015,
+              0.0,
+              0.0,
+              19.2,
+              57.599999999999994,
+              230.39999999999995,
+              0.0
+            ],
+            [
+              10.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              2.0,
+              1.0
+            ]
+          ]
+        },
+        "direct_edit": {
+          "macro_f1_on_mapped_gold_roles": 0.5083160485391097,
+          "accuracy_on_mapped_slice": 0.3579288025889966,
+          "prediction_outside_mapped_roles": 0.6074770765911541,
+          "per_role_f1": {
+            "facts": 0.5468399820708203,
+            "reasoning": 0.5075199282523909,
+            "decision": 0.47058823529411764
+          },
+          "per_role_recall": {
+            "facts": 0.4,
+            "reasoning": 0.3499999999999998,
+            "decision": 0.3076923076923077
+          },
+          "confusion_rows_and_columns": [
+            "none",
+            "facts",
+            "issue",
+            "petitioner_argument",
+            "respondent_argument",
+            "reasoning",
+            "decision"
+          ],
+          "weighted_confusion": [
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              110.5625,
+              122.0,
+              7.625,
+              15.25,
+              7.625,
+              41.9375,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              748.8000000000004,
+              19.2,
+              57.599999999999994,
+              19.2,
+              153.6,
+              537.5999999999999,
+              0.0
+            ],
+            [
+              5.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              3.0,
+              4.0
+            ]
+          ]
+        }
+      }
+    }
+  }
+}

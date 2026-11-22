@@ -1,0 +1,37 @@
+{
+  "csv_sha256": "5e1a2f9a03fd7581d4585ef97f55787d058afbed063b5e03b6e3611cbe45f9ee",
+  "weights_sha256": "e0b7f98c90b9d82997b9c32b0d2dacf9abaf8b1a45297b7546fa4d823683915e",
+  "cases": 712,
+  "sentences": 149868,
+  "profile": "sentence-document",
+  "encoder_parameters": 16816110,
+  "cpu_threads": 2,
+  "peak_process_mib": 636.14453125,
+  "token_definition": "Lowercased whitespace words after replacement of ASCII punctuation with spaces; unknown words still occupy a token.",
+  "probes": [
+    {
+      "case": "6883",
+      "purpose": "Most tokens in a judgment",
+      "tokens": 60957,
+      "sentences": 2100,
+      "labels_returned": 2100,
+      "cpu_seconds": 6.5895547949985485
+    },
+    {
+      "case": "6883",
+      "purpose": "Most supplied sentences in a judgment",
+      "tokens": 60957,
+      "sentences": 2100,
+      "labels_returned": 2100,
+      "cpu_seconds": 6.044093695003539
+    },
+    {
+      "case": "7062",
+      "purpose": "Longest single supplied sentence",
+      "tokens": 845,
+      "sentences": 1,
+      "labels_returned": 1,
+      "cpu_seconds": 0.41787730499345344
+    }
+  ]
+}

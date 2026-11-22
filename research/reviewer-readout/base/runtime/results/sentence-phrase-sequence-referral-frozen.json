@@ -1,0 +1,6 @@
+{
+  "source_sequence_sha256": "db69792a1b6c079ea6f96dbb739c58176fa7502fc4e2639d3b53bf7676834b3a",
+  "dense_freeze_sha256": "95adcf1e772c631b99bc26c28de5515e11db9685acb9eafaa6b89f66c10a8c90",
+  "bert_freeze_sha256": "d01057e49dec1d9ceb93ee2f57da1de172e36a2df326d1aa33412ac06e5d09b0",
+  "rule": "Use the frozen span decoder and target-phrase scores anchored to each incumbent. Protect every BERT referral and all issue membership assignments."
+}

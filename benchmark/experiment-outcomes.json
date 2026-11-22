@@ -1,0 +1,52 @@
+{
+  "scale_rows": [
+    [
+      "Expanded readout and transitions",
+      "512, 1,536, 4,600",
+      "Selector chose 512 cases, blend 0.00 and transition strength 0.000. Official F1 67.22."
+    ],
+    [
+      "Semantic nearest neighbors",
+      "512, 1,536, 4,600",
+      "At most one vote per training judgment. Selected memory strength 0.85. Official F1 67.88."
+    ],
+    [
+      "Case-specific emission and transition tables",
+      "1,536 and 4,600",
+      "Six training-case regimes. Selector strength 0.00. Locked F1 72.57 and 72.39 on the two confirmation cohorts."
+    ],
+    [
+      "Last contextual BERT feed-forward layer",
+      "192 cases",
+      "184 neuron columns and 768 biases. On 168 validation cases, 21 fewer swaps and macro-F1 72.445 \u2192 72.443."
+    ],
+    [
+      "Fixed partitions of contextual scores",
+      "192 cases",
+      "Stored role residuals in fixed leaves. Pooled F1 72.439 against 72.445. The matched shuffled control also scored 72.439."
+    ],
+    [
+      "Speaker and reported-speech cues",
+      "1,536 cases",
+      "337,971 training sentences supplied role and transition counts. Pooled F1 72.445 \u2192 72.467, with 26 fewer swaps. The 96-case F1 fell slightly."
+    ],
+    [
+      "Additional judgments with the original reviewer\u2019s labels",
+      "256 and 512",
+      "The 48-case selector chose 256 training cases. Official F1 67.44, accuracy 66.84% and 25,062 swaps."
+    ],
+    [
+      "Direct edit of the released document matrix",
+      "512 cases",
+      "2,756 coefficients changed. On 72 and 96 validation cases F1 was 72.88 and 72.47. Official F1 67.21."
+    ],
+    [
+      "ModernBERT role entailment",
+      "Routed text and 7 role descriptions",
+      "Pooled validation macro-F1 rose from 72.445 to 72.470, while None\u2013Reasoning swaps increased from 4,208 to 4,212 and both norm-matched shuffles recorded 4,199."
+    ]
+  ],
+  "additional": [
+    "The public training and validation text contains no literal quotation marks of the types checked. Attribution used signals such as reporting verbs and phrases introducing reported material. This limits what a quotation-boundary edit can recover from these CSVs."
+  ]
+}

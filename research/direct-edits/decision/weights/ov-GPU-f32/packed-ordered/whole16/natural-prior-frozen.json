@@ -1,0 +1,30 @@
+{
+  "specification": "c16c1c5cd74248c9ef210f2982a9aadb1602675832a6e8ff98eb1c4365e81ab9",
+  "parent": "d10551d092ec02bdaaa539eb09be110369897bf124cda280b3c30c3ca15e2a20",
+  "patch": "b19ca9bd3a463ef42afea2837c63932800ea659e3672abae199d2c4e02b35747",
+  "logit_direction": [
+    0.96325512149537,
+    0.3946393219417297,
+    -0.8106906724471772,
+    -0.07504328672294941,
+    -0.11603223293707249,
+    0.3290089364964797,
+    -0.6851371878263803
+  ],
+  "mean_approximate_constant": 0.9999999999999999,
+  "sd_approximate_constant": 0.01093214238142419,
+  "change_from_parent": {
+    "shape": [
+      255,
+      1024
+    ],
+    "dtype": "torch.bfloat16",
+    "changed_values": 3003,
+    "total_values": 261120,
+    "frobenius_delta": 0.02505069226026535,
+    "frobenius_original": 10.73898696899414,
+    "maximum_abs_delta": 0.015254974365234375,
+    "original_tensor_sha256": "11898887cf87a59b93998c0a67eef814dfa5e328abc0fe9a6f44b232f8fc6d50",
+    "edited_tensor_sha256": "2484931b5362f384a66da8d5d61bf8e5f99c647a529656bed0bd037c276c65fb"
+  }
+}

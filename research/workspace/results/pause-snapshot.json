@@ -1,0 +1,19 @@
+{
+  "as_of_local": "2026-11-22 01:12:51 +0530",
+  "stopped": [
+    "finalize_benchmarks.py",
+    "projection_follow.py",
+    "project-semantic",
+    "cache_full.py",
+    "openvino_worker.py"
+  ],
+  "bert_official_cached_blocks": 189,
+  "bert_official_total_blocks": 293,
+  "bert_official_cached_rows": 96633,
+  "bert_official_total_rows": 149881,
+  "semantic_decoder_saved_vectors": 92,
+  "semantic_decoder_expected_vectors": 137,
+  "prospective_candidates_drawn": 305,
+  "prospective_api_answers": 0,
+  "training_active": false
+}

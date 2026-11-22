@@ -1,0 +1,41 @@
+{
+  "sample_count": 8,
+  "includes_overlength_excerpt": true,
+  "empty_input_rejected": true,
+  "single_window_batch_matches_individual_calls": true,
+  "full_excerpt_matches_independent_window_aggregation": true,
+  "overlength_window_count": 3,
+  "target_sha256": "0a32fe939d96384c3cf3d879e5cfbce76c67172a8f3920961a99df3ba65b7edf",
+  "parameters": 109487623,
+  "max_logit_delta_error": 9.5367431640625e-07,
+  "examples": [
+    {
+      "text": "Notice was served on 3 May. We therefore allow the appeal.",
+      "label": "decision"
+    },
+    {
+      "text": "The case is listed before the Division Bench on Monday.",
+      "label": "none"
+    },
+    {
+      "text": "The appellant submits that the order was made without notice.",
+      "label": "petitioner_argument"
+    },
+    {
+      "text": "Learned counsel for the respondent supports the High Court's order.",
+      "label": "respondent_argument"
+    },
+    {
+      "text": "The question for determination is whether the appeal is within time.",
+      "label": "none"
+    },
+    {
+      "text": "The evidence supports that inference because the two accounts agree.",
+      "label": "none"
+    },
+    {
+      "text": "The claimant bought the property in 2004 and moved in the following year.",
+      "label": "facts"
+    }
+  ]
+}

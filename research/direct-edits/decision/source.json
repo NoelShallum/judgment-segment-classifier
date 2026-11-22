@@ -1,0 +1,96 @@
+{
+  "repo": "fastino/GLiDE-0.4B",
+  "revision": "16fb9d63cc34d1b4b5a1fb7cbf2d9d4a3dd5ad71",
+  "files": {
+    "LICENSE": {
+      "sha256": "7381146597b418d6fa4c1345c43ca2450ccccd6c6322257356efabfece9ebb9a",
+      "size": 5182,
+      "publisher_lfs_sha256": null
+    },
+    "NOTICE": {
+      "sha256": "54576106686e7b0c3796ac7d81a5df94cf471b24d747feee22d257adf5edbbfd",
+      "size": 579,
+      "publisher_lfs_sha256": null
+    },
+    "README.md": {
+      "sha256": "1971b7bdc57360467884f3f06176df67f6b5ca4f4b3d8e3765b91c1da6f01466",
+      "size": 14045,
+      "publisher_lfs_sha256": null
+    },
+    "config.json": {
+      "sha256": "778102ed6dca61fe4258ca87cd302927cc991c239d218e57f33ae272d7324b38",
+      "size": 1243,
+      "publisher_lfs_sha256": null
+    },
+    "decision_config.json": {
+      "sha256": "33e58b79cf4228abff85153ee630a80461dff5c97f7aed9d26abd1738be3b5b5",
+      "size": 4487,
+      "publisher_lfs_sha256": null
+    },
+    "glide/encoder.py": {
+      "sha256": "e2767770c3cc645c0a61eb4580e39e215406083ef5d9ba01bc91d0af33d3127d",
+      "size": 5129,
+      "publisher_lfs_sha256": null
+    },
+    "glide/model.py": {
+      "sha256": "8efc9a72b26b3b05885ce1d34fccb94b1139d3c43511ec52f598fedd3f2a662c",
+      "size": 24245,
+      "publisher_lfs_sha256": null
+    },
+    "glide/prompt.py": {
+      "sha256": "e47149ac980fe12c3cb24ea0ee63822d5bcde71f32d4a5cc9f37499853948338",
+      "size": 6434,
+      "publisher_lfs_sha256": null
+    },
+    "model-00001-of-00001.safetensors": {
+      "sha256": "4540aa6d168fd15b06f7d6a61c34dd45523b5a0a1a72f98f1b2a81cf60774f34",
+      "size": 789581344,
+      "publisher_lfs_sha256": "4540aa6d168fd15b06f7d6a61c34dd45523b5a0a1a72f98f1b2a81cf60774f34"
+    },
+    "model.safetensors.index.json": {
+      "sha256": "911f8dfccf8af55999c6cb14d08f72e86b3450a123be4add338d77b47eb4b613",
+      "size": 12329,
+      "publisher_lfs_sha256": null
+    },
+    "readout.safetensors": {
+      "sha256": "0cb6da049081b05dc60dcf0c9f95dc4309c8849ab921f61f67f4658172b57f2a",
+      "size": 522320,
+      "publisher_lfs_sha256": "0cb6da049081b05dc60dcf0c9f95dc4309c8849ab921f61f67f4658172b57f2a"
+    },
+    "render_tokenizer/chat_template.jinja": {
+      "sha256": "c3cf9e34abf4f9e36c2d72165aa9c132d3e2a725b6c2586aaa3a8af9d7a81041",
+      "size": 8952,
+      "publisher_lfs_sha256": null
+    },
+    "render_tokenizer/tokenizer.json": {
+      "sha256": "06b9509352d2af50381ab2247e083b80d32d5c0aba91c272ca9ff729b6a0e523",
+      "size": 19989325,
+      "publisher_lfs_sha256": "06b9509352d2af50381ab2247e083b80d32d5c0aba91c272ca9ff729b6a0e523"
+    },
+    "render_tokenizer/tokenizer_config.json": {
+      "sha256": "66e427c470fe580fe8c7b5725d857af23d8417e37fae62667ec698306a19987b",
+      "size": 1124,
+      "publisher_lfs_sha256": null
+    },
+    "special_tokens_map.json": {
+      "sha256": "ea97ecdbcc73713039d8d64dbb05e3689495c96657fbd9a18f5bed381be81049",
+      "size": 694,
+      "publisher_lfs_sha256": null
+    },
+    "tokenizer.json": {
+      "sha256": "9fd55248d51d33976b324fc11592e28071da7d41e0e9401dfb7082e30574b7b1",
+      "size": 2132967,
+      "publisher_lfs_sha256": null
+    },
+    "tokenizer_config.json": {
+      "sha256": "3cd2017ff46d0a527e5d39cae39272eccfa1f19bb9f89b05d166aab2e38354e2",
+      "size": 20810,
+      "publisher_lfs_sha256": null
+    },
+    "licenses/Ettin-encoder-400m-LICENSE": {
+      "sha256": "9cec9e5a835df0bdc65cc3405c1177763c87da63a99d650b75cc288e046ac9f3",
+      "size": 1106,
+      "publisher_lfs_sha256": null
+    }
+  }
+}

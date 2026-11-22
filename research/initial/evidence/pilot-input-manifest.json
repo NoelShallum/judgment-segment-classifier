@@ -1,0 +1,898 @@
+[
+  {
+    "id": "sentence-61490",
+    "source": "sentence",
+    "doc": "6711",
+    "gold": "none",
+    "sha256": "9a2a3e540f419d81fd2dc4500a665e48d1398b178fa9e9b1cf56b7e8b183fbdc",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-101252",
+    "source": "sentence",
+    "doc": "6890",
+    "gold": "none",
+    "sha256": "e344cfac0d3415ae7fba28731ccb132d3c6b2b60b829a8cd860ca4de3b198e79",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-76089",
+    "source": "sentence",
+    "doc": "6774",
+    "gold": "none",
+    "sha256": "d3f810b03b8be16c71837d75ba399d397e557184f2dfb1e74231365253f1df13",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-3394",
+    "source": "sentence",
+    "doc": "6430",
+    "gold": "none",
+    "sha256": "0cf68d3d2b173aac8b28bfd121cf74a925fdfa9b4fcdb6bd12a1eb9ad012df65",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-102637",
+    "source": "sentence",
+    "doc": "6895",
+    "gold": "none",
+    "sha256": "6647bffeabc067e1801eb890bf0756301de99843c93c6e9d58b8ae5c4dc14918",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-73190",
+    "source": "sentence",
+    "doc": "6763",
+    "gold": "none",
+    "sha256": "bb079128d95c4faec97db80c00b5cff5cdb1b7c333196770a8b1dd0cd7040bb0",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-59929",
+    "source": "sentence",
+    "doc": "6705",
+    "gold": "none",
+    "sha256": "c3744b17eff1198c75ae5f61670d532a2b452895e572ca703b8eca64bb6e9fc2",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-99131",
+    "source": "sentence",
+    "doc": "6883",
+    "gold": "none",
+    "sha256": "78ae47df7fb44348d0c19f4f54291d125a7717c33a82f7ea316443f69ef92438",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-128896",
+    "source": "sentence",
+    "doc": "7014",
+    "gold": "none",
+    "sha256": "f767d1619f4a987dee9ce35fa056c2b71bfe1721956c19744919d9327b6e346a",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-45864",
+    "source": "sentence",
+    "doc": "6640",
+    "gold": "none",
+    "sha256": "e1600ab48f638f19b400add802ab1fd29197096d057eff8e06f33434c767130d",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-15370",
+    "source": "sentence",
+    "doc": "6493",
+    "gold": "none",
+    "sha256": "80614fb69451406db6a8f8a21f92f1c2846a5be51b38d467c9d89ed162e86197",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-41764",
+    "source": "sentence",
+    "doc": "6623",
+    "gold": "none",
+    "sha256": "2aa90f18d9427870a631408949005fb1588af6aadd4f39079cc496ce92c6b77d",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-93724",
+    "source": "sentence",
+    "doc": "6862",
+    "gold": "none",
+    "sha256": "8d91336fe2d8b989d09dcda1789f3ce15864ccec03d223be99cc72417fa3dde4",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-63309",
+    "source": "sentence",
+    "doc": "6719",
+    "gold": "none",
+    "sha256": "88676a358bcc7860d6b14e46d4af1e09c3ebb6e096b7cecc8c6fc227506e4d4c",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-127269",
+    "source": "sentence",
+    "doc": "7006",
+    "gold": "none",
+    "sha256": "9beb28786c0feb0ec8e4060445d0a9f2ace6bee63cb8f8487dbe5582d03070ec",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-90369",
+    "source": "sentence",
+    "doc": "6846",
+    "gold": "none",
+    "sha256": "34adc9baca227876d1efbcb2987dd589ba56fe7e722685a85c65eb4368f9475c",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-17428",
+    "source": "sentence",
+    "doc": "6506",
+    "gold": "facts",
+    "sha256": "e6b27b6fb15a618f32144c25c267a4180928c863d3a96c87195e25fdea4a582c",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-94128",
+    "source": "sentence",
+    "doc": "6864",
+    "gold": "facts",
+    "sha256": "bf174bae93fede7d4a1259ac9d7865b21842e85a5dc8efe252544354c5008205",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-145534",
+    "source": "sentence",
+    "doc": "7099",
+    "gold": "facts",
+    "sha256": "add6726ded1f1398dbd3ec1da923b016c2fefd6d979005f0af96031c0408565e",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-87705",
+    "source": "sentence",
+    "doc": "6832",
+    "gold": "facts",
+    "sha256": "c0b39843ae35f07090cd1c5372818f71962f65a2e3895db957fdf0f55b679348",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-134976",
+    "source": "sentence",
+    "doc": "7048",
+    "gold": "facts",
+    "sha256": "eb84d6f2d7dfe6a92fde182f22b347cb7ab7e86cc3fc3507ec03c0fb43560b68",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-12676",
+    "source": "sentence",
+    "doc": "6481",
+    "gold": "facts",
+    "sha256": "ecded40402cdf6f6192761c9c8111af701f2e4daf6430990df160be020bd0230",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-14456",
+    "source": "sentence",
+    "doc": "6490",
+    "gold": "facts",
+    "sha256": "a755f7575628fca5c57cfeceb5469c0e9135f059a5a6c2c39e242fcc9ce08b78",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-93261",
+    "source": "sentence",
+    "doc": "6860",
+    "gold": "facts",
+    "sha256": "06aae4de8fab2bc56c903605f431d67a03e087a155be71437f5428b86390cdba",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-21948",
+    "source": "sentence",
+    "doc": "6529",
+    "gold": "facts",
+    "sha256": "7e5b74913c17c068ef7c6d4e963786769dca44d280586aa9da67248def5cf971",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-132107",
+    "source": "sentence",
+    "doc": "7036",
+    "gold": "facts",
+    "sha256": "970d0727b773827507ee32b5327c51dee7f7c57b3c084d0893e6182038d5f76e",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-107723",
+    "source": "sentence",
+    "doc": "6927",
+    "gold": "facts",
+    "sha256": "786a3e35591243d09f552361d908903dc383dca645b7dd8466d13631650988cf",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-53474",
+    "source": "sentence",
+    "doc": "6674",
+    "gold": "facts",
+    "sha256": "9d192665ed8e6a299ae11f5d8b6754ed5182101d2c82801c9ef98e3d5e0a04ad",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-10052",
+    "source": "sentence",
+    "doc": "6463",
+    "gold": "facts",
+    "sha256": "b178aa3aad6d70b023add57c848be07827182577816427815cf6437213c553db",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-52646",
+    "source": "sentence",
+    "doc": "6672",
+    "gold": "facts",
+    "sha256": "ed9371f0423c0a2217f72de276f8a88f7de0e0f76f419772b3543c6bae7877c5",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-72776",
+    "source": "sentence",
+    "doc": "6762",
+    "gold": "facts",
+    "sha256": "9f701ccb7fac9d0348501c179f68718b8830ab87658984ade6078667880508f6",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-20772",
+    "source": "sentence",
+    "doc": "6523",
+    "gold": "facts",
+    "sha256": "ef3bb839e31b0685df2bfcfaa4281871de64c8cab0367387a976d87a53a556b0",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-21626",
+    "source": "sentence",
+    "doc": "6527",
+    "gold": "issue",
+    "sha256": "3f9d4312b36ac59da17660ab2f450c597bebdb550fcd8baada9bfca7f294c17c",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-96506",
+    "source": "sentence",
+    "doc": "6878",
+    "gold": "issue",
+    "sha256": "14a3de11a4fc60594cdbfaea1c0784e59e4a7ebaba0b51292d56a433481c795f",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-88765",
+    "source": "sentence",
+    "doc": "6841",
+    "gold": "issue",
+    "sha256": "52b4cbf38b50c212fda4ef6adf2345b87db5d6978c390772fcbc273d230c3a06",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-104973",
+    "source": "sentence",
+    "doc": "6907",
+    "gold": "issue",
+    "sha256": "dd703bc4358e8d0e946cda991baa1e1ce1bc6809f662d6a016cd787940349c08",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-146852",
+    "source": "sentence",
+    "doc": "7105",
+    "gold": "issue",
+    "sha256": "c7af4ca9ef16fb7cbcb4bd0c63fce44a1f87bbebaf8435673af333e8c0b5c678",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-4362",
+    "source": "sentence",
+    "doc": "6436",
+    "gold": "issue",
+    "sha256": "c3f5b492216d97bcb99104ef623943509d3f4ebe4b842044b02c8720294bf911",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-95866",
+    "source": "sentence",
+    "doc": "6873",
+    "gold": "issue",
+    "sha256": "40b9a3be21371a5fb93611de8a69f6569d05f58b0e36aae3e36cff08d5d2fa61",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-112395",
+    "source": "sentence",
+    "doc": "6949",
+    "gold": "issue",
+    "sha256": "fa327ff501f685bddee1ed19fd9e1f6c443cb35c11463c3374d081fe72fdb0fc",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-149644",
+    "source": "sentence",
+    "doc": "7118",
+    "gold": "issue",
+    "sha256": "4212b24107ac4d4b41e0b75119ccda23eb21305bda7d3a2f2a8511aefe6a93bc",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-24264",
+    "source": "sentence",
+    "doc": "6540",
+    "gold": "issue",
+    "sha256": "0eeba52647396bf6a69125a5b16cd9ee325e7af713cf6124f54913730f85b9c9",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-115988",
+    "source": "sentence",
+    "doc": "6962",
+    "gold": "issue",
+    "sha256": "0b87720fe0bd696e55a0a35ab0bfd2aa398a71f871a6b5d9be697e99cc8d879f",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-28298",
+    "source": "sentence",
+    "doc": "6560",
+    "gold": "issue",
+    "sha256": "51440b324ef0bf0cd9c757251322dfde75527ac44019dab44565f871f97498bf",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-61927",
+    "source": "sentence",
+    "doc": "6714",
+    "gold": "issue",
+    "sha256": "eefd3e15b311fabdf22464b4fa2e7dff6ffcd9d399bde9ae6691e06d9e48a3c8",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-51280",
+    "source": "sentence",
+    "doc": "6666",
+    "gold": "issue",
+    "sha256": "00b33c7bd0bef0d790e1c8e5ec29f99fd7d746ca598f4eba7f416d22d1887465",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-107307",
+    "source": "sentence",
+    "doc": "6924",
+    "gold": "issue",
+    "sha256": "700b2267a99152e3ade9167cecd128c85e216ed7623b1d209353cebb673b2877",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-143598",
+    "source": "sentence",
+    "doc": "7087",
+    "gold": "issue",
+    "sha256": "19df1d2ea08211aace40edf8f555dc82c07282c7ecb56d16471e8e70ef50ea8a",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-137111",
+    "source": "sentence",
+    "doc": "7052",
+    "gold": "petitioner_argument",
+    "sha256": "455446cbde5ae5ee81b026638d4cb0d3986ef6d33f8627264ae4f152d10ed563",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-55291",
+    "source": "sentence",
+    "doc": "6682",
+    "gold": "petitioner_argument",
+    "sha256": "d94cc548d6652b562c0053886fd72aeea29edc774bbf2d2f430c2f3facd790f3",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-63609",
+    "source": "sentence",
+    "doc": "6721",
+    "gold": "petitioner_argument",
+    "sha256": "29be7ecdf2940ca24d4a1466e64afc5de78e97404ca940661faacf3c9759d32e",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-1402",
+    "source": "sentence",
+    "doc": "6420",
+    "gold": "petitioner_argument",
+    "sha256": "8df83f7a65d649147dd87b69405c88737bbb6922c43a2037c29bff905fc5b7d6",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-89183",
+    "source": "sentence",
+    "doc": "6841",
+    "gold": "petitioner_argument",
+    "sha256": "3d6935e79636443f308721a11c3393532744a51a95fd770e65aed737f81828dd",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-64041",
+    "source": "sentence",
+    "doc": "6723",
+    "gold": "petitioner_argument",
+    "sha256": "a6bfaa12e0d2914f31938b6dcfc143bd5336c484b035369f2193c7b963b2398c",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-146265",
+    "source": "sentence",
+    "doc": "7102",
+    "gold": "petitioner_argument",
+    "sha256": "7050c98235d6455367860b4c11f7cf45b30d48e84666ef72684024a25049a2bd",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-11994",
+    "source": "sentence",
+    "doc": "6474",
+    "gold": "petitioner_argument",
+    "sha256": "351ac77ed13c53c45e7e3c965fa542cdd9308d96257e2357c311e59f159cd5ca",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-138551",
+    "source": "sentence",
+    "doc": "7061",
+    "gold": "petitioner_argument",
+    "sha256": "bdf50a401a731fadd46e0fcefc5cf223f4f1ccecca35cc8b53e4e248aa0b23f5",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-60567",
+    "source": "sentence",
+    "doc": "6707",
+    "gold": "petitioner_argument",
+    "sha256": "a4bd21d8c52698d8d6783422150735cd8e76badb5181ddba9b11c59834f24b39",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-78168",
+    "source": "sentence",
+    "doc": "6781",
+    "gold": "petitioner_argument",
+    "sha256": "245c2e9e7f0203d7661beeb6d64d8ce15e8ef67a0a9b43314e532493d338d791",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-83953",
+    "source": "sentence",
+    "doc": "6813",
+    "gold": "petitioner_argument",
+    "sha256": "068ccff112ac0f5febf9d489fe07cc4f3cd236bd8d5ff8b3585d66690862a513",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-57904",
+    "source": "sentence",
+    "doc": "6696",
+    "gold": "petitioner_argument",
+    "sha256": "d81bf84b6064a5f1c92bbea78f9dc94a7070685f7f8a7634ee61ce5b2b7c9646",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-70558",
+    "source": "sentence",
+    "doc": "6755",
+    "gold": "petitioner_argument",
+    "sha256": "3814720ccdcb72eef218e69532ec9febbfd75a6e5c1b366bea84f43bda6f7f64",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-17809",
+    "source": "sentence",
+    "doc": "6509",
+    "gold": "petitioner_argument",
+    "sha256": "b4db029c8b727133c2e546a5df6c2bf3689c6ac367250ebb150858796195a001",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-86449",
+    "source": "sentence",
+    "doc": "6826",
+    "gold": "petitioner_argument",
+    "sha256": "dcf587c5060cb7d99d1e583d2ef47b3c6a9f795012c0f5843a6d3b711ba48cb0",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-83334",
+    "source": "sentence",
+    "doc": "6811",
+    "gold": "respondent_argument",
+    "sha256": "a6db092ca38b5f013dc691dabef627e245c8450cb117576c986679aa94b42a86",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-108195",
+    "source": "sentence",
+    "doc": "6930",
+    "gold": "respondent_argument",
+    "sha256": "d9ae330311612fa4c38f9d6aef69253ac0024ddbf2bd733513d44f73a253a76d",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-138610",
+    "source": "sentence",
+    "doc": "7061",
+    "gold": "respondent_argument",
+    "sha256": "dd5a2d587b25f271d1e114901bc9c4e368853b203b213888611910e64f075955",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-85606",
+    "source": "sentence",
+    "doc": "6821",
+    "gold": "respondent_argument",
+    "sha256": "8f55cdcb20eb67974e15e2a9044acc98cb4436d456cf0dc9a87c94df63a68002",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-137126",
+    "source": "sentence",
+    "doc": "7052",
+    "gold": "respondent_argument",
+    "sha256": "914b76c63ce34a40e4b6528f24b8b159d5affb438683a894e94b5c755aa12504",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-58707",
+    "source": "sentence",
+    "doc": "6700",
+    "gold": "respondent_argument",
+    "sha256": "df7cdcccd708433bea38908063c720c2973c368d1f7601f8e5faea86c03a91f7",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-55479",
+    "source": "sentence",
+    "doc": "6682",
+    "gold": "respondent_argument",
+    "sha256": "d27c2fab4bb3d0daba502522418b15e596bce9636254138f11debbc45a896d2d",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-64192",
+    "source": "sentence",
+    "doc": "6723",
+    "gold": "respondent_argument",
+    "sha256": "3b4e1b70f02495cd7fb319762d42c4dca718de41cd0bb3470fdf95dfb6374ecb",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-64920",
+    "source": "sentence",
+    "doc": "6725",
+    "gold": "respondent_argument",
+    "sha256": "66ebacafd3ffd157cbc61e8e88261a1aba08ac8c95e54f03152815a614311012",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-529",
+    "source": "sentence",
+    "doc": "6411",
+    "gold": "respondent_argument",
+    "sha256": "4cb26b86cefafac053e574b9874b4adc11519ea5555609d2de50f857921381a1",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-53487",
+    "source": "sentence",
+    "doc": "6674",
+    "gold": "respondent_argument",
+    "sha256": "643079bee467ce332ad8e97e39c108c9a6fb832dd4ce26a17e527c6892381b93",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-110216",
+    "source": "sentence",
+    "doc": "6940",
+    "gold": "respondent_argument",
+    "sha256": "004557a5fa9948b6b9cee036280f5dd92b1b12de558f73ea4a557f318dab1256",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-128863",
+    "source": "sentence",
+    "doc": "7014",
+    "gold": "respondent_argument",
+    "sha256": "137a2e88d4d46a9c1acbf96d51a91929c69c190b1e6d5fe5a3cea26b836fab2a",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-31996",
+    "source": "sentence",
+    "doc": "6580",
+    "gold": "respondent_argument",
+    "sha256": "30c2b2c12bd8343f5061a53ebf9c2ae865c41bb01653633025a296cdc32f11a6",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-147817",
+    "source": "sentence",
+    "doc": "7110",
+    "gold": "respondent_argument",
+    "sha256": "ebc7358eefb6295cda39d96298154f58ed01859af90ecc2453aa23496d05a417",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-94193",
+    "source": "sentence",
+    "doc": "6864",
+    "gold": "respondent_argument",
+    "sha256": "c468722dfd26f55e242a43185d891c26cbafaf82d53d1816f5e9275cbc712e68",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-96800",
+    "source": "sentence",
+    "doc": "6878",
+    "gold": "reasoning",
+    "sha256": "106ec71b00cfbeef7b3568fde24d0ac96cd8a634a747426faf7f99c248b33ff5",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-28792",
+    "source": "sentence",
+    "doc": "6561",
+    "gold": "reasoning",
+    "sha256": "5fc7d9ae6586cf07c0f94a3a651b3055e32ce3cbe93d2027a0c6bc05cafd0c96",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-38341",
+    "source": "sentence",
+    "doc": "6601",
+    "gold": "reasoning",
+    "sha256": "cb2b506d97c001d0bcc2f770243e6994aa6bf76218e5ccf5e9c541c0dc1fdfef",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-7438",
+    "source": "sentence",
+    "doc": "6447",
+    "gold": "reasoning",
+    "sha256": "632b307b1c7a93ee454e2d3d70688974cddf2ce73ca97a851b1dca50b249c988",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-53223",
+    "source": "sentence",
+    "doc": "6673",
+    "gold": "reasoning",
+    "sha256": "c1bf0e047be483336ac69f31e504ada963b480621311e50fdee3dd001b22445c",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-85746",
+    "source": "sentence",
+    "doc": "6821",
+    "gold": "reasoning",
+    "sha256": "0f50e82fc925222d024c1282c6079c87f4b2bf3e67e4f8cd069b1acd13cb6135",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-54793",
+    "source": "sentence",
+    "doc": "6679",
+    "gold": "reasoning",
+    "sha256": "32baf3d43a15b54f5d8477c62dba436a78a9431e39d72535e8974c126a7a998a",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-90269",
+    "source": "sentence",
+    "doc": "6845",
+    "gold": "reasoning",
+    "sha256": "cea457be2f2d359b4fb2600e0e6c6286b4af6726205e20e1917adbb8f37f1bab",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-5600",
+    "source": "sentence",
+    "doc": "6441",
+    "gold": "reasoning",
+    "sha256": "e65d8189a25192d9cf6a18ea83956abc004b68923f69c1f0c4ba5d568f7d4278",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-127051",
+    "source": "sentence",
+    "doc": "7004",
+    "gold": "reasoning",
+    "sha256": "1e0e02ad64faa264b38fe277a3ed8d842cac2594cdd59690ef0cc6c809177562",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-80652",
+    "source": "sentence",
+    "doc": "6797",
+    "gold": "reasoning",
+    "sha256": "d5083a28e628395b0d4b7eecc4ed3aecbbb6fed22f1257e4e9b9a3c66045fb5c",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-68860",
+    "source": "sentence",
+    "doc": "6748",
+    "gold": "reasoning",
+    "sha256": "874cb249d3c0dc9e628795b43a0f451df6377e17b8870fd81363fe804a8ca05f",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-75158",
+    "source": "sentence",
+    "doc": "6770",
+    "gold": "reasoning",
+    "sha256": "54b0b64cf0750b117b0d039c265bbc68ddc952271550eb63c28b32887947916c",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-39865",
+    "source": "sentence",
+    "doc": "6611",
+    "gold": "reasoning",
+    "sha256": "ad113f4ea55011d98be3f9e5352d238838f561ab48167b0ed0812c2f81c949d7",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-111645",
+    "source": "sentence",
+    "doc": "6945",
+    "gold": "reasoning",
+    "sha256": "182b6673f0395066ef2009fd11db3e8b28448d29249c5a52b81e8294913d50a7",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-89826",
+    "source": "sentence",
+    "doc": "6842",
+    "gold": "reasoning",
+    "sha256": "edf53ea1d4118a5c95bba8f3f41067dd2689c25de9648bfa53d5750ba64557b2",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-118874",
+    "source": "sentence",
+    "doc": "6972",
+    "gold": "decision",
+    "sha256": "d89c4dac4979138c16f76594c3eeca4916c0506b04c697685db087b100878eaa",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-48772",
+    "source": "sentence",
+    "doc": "6654",
+    "gold": "decision",
+    "sha256": "a31d0ed8cc6053808397203f5f96029d9ee92c7e12b6d8ed01c9c662eb84ecbd",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-141824",
+    "source": "sentence",
+    "doc": "7073",
+    "gold": "decision",
+    "sha256": "d871bbaf1e7b06e87f94e7141a5d4785be9982cb54e93f4bd10ad09856f91336",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-24103",
+    "source": "sentence",
+    "doc": "6538",
+    "gold": "decision",
+    "sha256": "56328ae898c0387442e7a245e27338ac84b8f7be944047776deebd53e464e019",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-108111",
+    "source": "sentence",
+    "doc": "6929",
+    "gold": "decision",
+    "sha256": "7a94b85ee6238e2b1e38663c53ebc4a1bb6e5a05fd135be34488295a71f1a5bd",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-128249",
+    "source": "sentence",
+    "doc": "7011",
+    "gold": "decision",
+    "sha256": "17f293e70ad2367a32be138278d5cd3caeda6d9c0ceeb5ba81e69e41af38942d",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-87412",
+    "source": "sentence",
+    "doc": "6830",
+    "gold": "decision",
+    "sha256": "f582b46bf884ec68a0a96c103c7edeb88e51f72ad6ec20ab572c3f2050213d94",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-7887",
+    "source": "sentence",
+    "doc": "6449",
+    "gold": "decision",
+    "sha256": "cb92008f8b6f5d568b4eada461ed3f86ad08fdf80ba8998497ca8fd937851f56",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-104761",
+    "source": "sentence",
+    "doc": "6906",
+    "gold": "decision",
+    "sha256": "415ef2c2c65ef2b66bf712a7d82b6b89ee27a77c2080f1c31a557d0c25db5224",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-149766",
+    "source": "sentence",
+    "doc": "7118",
+    "gold": "decision",
+    "sha256": "b54970b3110e027222c4f5ded33754ab36f73fbbefdf78b1626fddd2678af943",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-96026",
+    "source": "sentence",
+    "doc": "6873",
+    "gold": "decision",
+    "sha256": "dd8cc3f2389a4cfdde638c337b5c43609fbaff3f5986452560092a5407b5f45c",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-101674",
+    "source": "sentence",
+    "doc": "6890",
+    "gold": "decision",
+    "sha256": "1a963914cf5de05e0a694a123f5250be6503324787168c908bccddc4cec14d6e",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-137239",
+    "source": "sentence",
+    "doc": "7052",
+    "gold": "decision",
+    "sha256": "c879044f489fbec9d380b676d363b238669bca751a58254221d05e01e379631e",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-110822",
+    "source": "sentence",
+    "doc": "6941",
+    "gold": "decision",
+    "sha256": "e55fd7a8dea2ab3822349ed273d3463f8eb8fcec929645c4e1182d4d5e01c4ae",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-120342",
+    "source": "sentence",
+    "doc": "6982",
+    "gold": "decision",
+    "sha256": "bfa71c939ec14209c65006365602f6929ba0583de02587551dcf8e1542ef9a94",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  },
+  {
+    "id": "sentence-8182",
+    "source": "sentence",
+    "doc": "6452",
+    "gold": "decision",
+    "sha256": "741004be6391df53387b1858d924ece949c06339a2116529d8df2fdc10c1aa82",
+    "transformation": "whitespace normalized; leading enumerator removed when present"
+  }
+]

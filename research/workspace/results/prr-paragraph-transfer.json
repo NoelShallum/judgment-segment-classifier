@@ -1,0 +1,558 @@
+{
+  "dataset": "Nikita D, Dipti Rana and Rupa Mehta, Annotated Judgments from the Supreme Court of India, version 1",
+  "doi": "10.17632/97khn9nswp.1",
+  "dataset_url": "https://data.mendeley.com/datasets/97khn9nswp/1",
+  "license": "CC BY 4.0",
+  "source_sha256": {
+    "PRR.zip": "afc69352aaaa9b7512a12456821f98f685208ec9052dd2011d80c3020abedfd1",
+    "SRR.zip": "6e0a7a01c36bd9348b4dbc0e2e4fa9a0e277f396331706c209008eb2f259ecf2"
+  },
+  "prediction_projection": {
+    "none": "outside",
+    "facts": "Fact",
+    "issue": "outside",
+    "petitioner_argument": "Argument",
+    "respondent_argument": "Argument",
+    "reasoning": "Analysis",
+    "decision": "Verdict"
+  },
+  "protocol": "One prediction per original paragraph. Map the predicted LegalSeg role to the four reference roles; retain none and issue as outside and count them wrong. No provider calls, training or score-based mapping on this corpus.",
+  "backend": "intel",
+  "median_content_tokens": 198.0,
+  "paragraphs_truncated_to_last_510": 123,
+  "overlap_check": "Case flagged if any paragraph or source companion sentence of at least 12 normalized words matches a complete LegalSeg training sentence. This conservative check cannot prove case identities differ.",
+  "cases_with_matching_spans": {
+    "D58": 59,
+    "D37": 65,
+    "D5": 74,
+    "D56": 39,
+    "D9": 44,
+    "D52": 17,
+    "D39": 21,
+    "D29": 63,
+    "D40": 1,
+    "D50": 1,
+    "D38": 34,
+    "D33": 5,
+    "D47": 51,
+    "D45": 54,
+    "D59": 13,
+    "D14": 5,
+    "D27": 11,
+    "D42": 2,
+    "D17": 2,
+    "D13": 2,
+    "D35": 2,
+    "D25": 3,
+    "D34": 1,
+    "D49": 3,
+    "D60": 2,
+    "D16": 1,
+    "D55": 1,
+    "D32": 1,
+    "D51": 1,
+    "D6": 1,
+    "D28": 1,
+    "D4": 1
+  },
+  "all": {
+    "rows": 1076,
+    "judgments": 60,
+    "models": {
+      "original": {
+        "four_role_macro_f1": 0.407288385614233,
+        "accuracy": 0.29460966542750927,
+        "per_role_f1": {
+          "Fact": 0.4637096774193548,
+          "Argument": 0.14814814814814814,
+          "Analysis": 0.37667071688942894,
+          "Verdict": 0.640625
+        },
+        "support": {
+          "Fact": 353,
+          "Argument": 22,
+          "Analysis": 623,
+          "Verdict": 78
+        },
+        "outside_predictions": 624,
+        "confusion_rows": [
+          "Fact",
+          "Argument",
+          "Analysis",
+          "Verdict"
+        ],
+        "confusion_columns": [
+          "Fact",
+          "Argument",
+          "Analysis",
+          "Verdict",
+          "outside"
+        ],
+        "confusion": [
+          [
+            115,
+            22,
+            28,
+            1,
+            187
+          ],
+          [
+            1,
+            6,
+            4,
+            0,
+            11
+          ],
+          [
+            27,
+            31,
+            155,
+            8,
+            402
+          ],
+          [
+            0,
+            0,
+            13,
+            41,
+            24
+          ]
+        ]
+      },
+      "direct": {
+        "four_role_macro_f1": 0.47407351951948956,
+        "accuracy": 0.387546468401487,
+        "per_role_f1": {
+          "Fact": 0.5046382189239332,
+          "Argument": 0.1276595744680851,
+          "Analysis": 0.49158249158249157,
+          "Verdict": 0.7724137931034483
+        },
+        "support": {
+          "Fact": 353,
+          "Argument": 22,
+          "Analysis": 623,
+          "Verdict": 78
+        },
+        "outside_predictions": 483,
+        "confusion_rows": [
+          "Fact",
+          "Argument",
+          "Analysis",
+          "Verdict"
+        ],
+        "confusion_columns": [
+          "Fact",
+          "Argument",
+          "Analysis",
+          "Verdict",
+          "outside"
+        ],
+        "confusion": [
+          [
+            136,
+            26,
+            32,
+            1,
+            158
+          ],
+          [
+            1,
+            6,
+            5,
+            0,
+            10
+          ],
+          [
+            49,
+            40,
+            219,
+            10,
+            305
+          ],
+          [
+            0,
+            0,
+            12,
+            56,
+            10
+          ]
+        ]
+      },
+      "gold_discriminant": {
+        "four_role_macro_f1": 0.44793219042654364,
+        "accuracy": 0.34014869888475835,
+        "per_role_f1": {
+          "Fact": 0.43873517786561267,
+          "Argument": 0.09876543209876543,
+          "Analysis": 0.4306987399770905,
+          "Verdict": 0.8235294117647058
+        },
+        "support": {
+          "Fact": 353,
+          "Argument": 22,
+          "Analysis": 623,
+          "Verdict": 78
+        },
+        "outside_predictions": 539,
+        "confusion_rows": [
+          "Fact",
+          "Argument",
+          "Analysis",
+          "Verdict"
+        ],
+        "confusion_columns": [
+          "Fact",
+          "Argument",
+          "Analysis",
+          "Verdict",
+          "outside"
+        ],
+        "confusion": [
+          [
+            111,
+            24,
+            45,
+            1,
+            172
+          ],
+          [
+            1,
+            4,
+            7,
+            0,
+            10
+          ],
+          [
+            41,
+            31,
+            188,
+            11,
+            352
+          ],
+          [
+            0,
+            0,
+            10,
+            63,
+            5
+          ]
+        ]
+      },
+      "gemini_reviewed": {
+        "four_role_macro_f1": 0.4549656314424272,
+        "accuracy": 0.3513011152416357,
+        "per_role_f1": {
+          "Fact": 0.44881889763779526,
+          "Argument": 0.10752688172043011,
+          "Analysis": 0.44772727272727275,
+          "Verdict": 0.8157894736842105
+        },
+        "support": {
+          "Fact": 353,
+          "Argument": 22,
+          "Analysis": 623,
+          "Verdict": 78
+        },
+        "outside_predictions": 519,
+        "confusion_rows": [
+          "Fact",
+          "Argument",
+          "Analysis",
+          "Verdict"
+        ],
+        "confusion_columns": [
+          "Fact",
+          "Argument",
+          "Analysis",
+          "Verdict",
+          "outside"
+        ],
+        "confusion": [
+          [
+            114,
+            25,
+            43,
+            1,
+            170
+          ],
+          [
+            1,
+            5,
+            6,
+            0,
+            10
+          ],
+          [
+            40,
+            41,
+            197,
+            11,
+            334
+          ],
+          [
+            0,
+            0,
+            11,
+            62,
+            5
+          ]
+        ]
+      }
+    },
+    "direct_minus_original_paired_case_95pct": [
+      0.04876885959357072,
+      0.08768550068111859
+    ]
+  },
+  "no_detected_training_match": {
+    "rows": 451,
+    "judgments": 28,
+    "models": {
+      "original": {
+        "four_role_macro_f1": 0.39495693339287097,
+        "accuracy": 0.3082039911308204,
+        "per_role_f1": {
+          "Fact": 0.4298245614035088,
+          "Argument": 0.11764705882352941,
+          "Analysis": 0.4194528875379939,
+          "Verdict": 0.6129032258064516
+        },
+        "support": {
+          "Fact": 167,
+          "Argument": 13,
+          "Analysis": 231,
+          "Verdict": 40
+        },
+        "outside_predictions": 249,
+        "confusion_rows": [
+          "Fact",
+          "Argument",
+          "Analysis",
+          "Verdict"
+        ],
+        "confusion_columns": [
+          "Fact",
+          "Argument",
+          "Analysis",
+          "Verdict",
+          "outside"
+        ],
+        "confusion": [
+          [
+            49,
+            9,
+            17,
+            0,
+            92
+          ],
+          [
+            1,
+            2,
+            3,
+            0,
+            7
+          ],
+          [
+            11,
+            10,
+            69,
+            3,
+            138
+          ],
+          [
+            0,
+            0,
+            9,
+            19,
+            12
+          ]
+        ]
+      },
+      "direct": {
+        "four_role_macro_f1": 0.4699458450046685,
+        "accuracy": 0.41019955654101997,
+        "per_role_f1": {
+          "Fact": 0.488,
+          "Argument": 0.1111111111111111,
+          "Analysis": 0.5378151260504201,
+          "Verdict": 0.7428571428571429
+        },
+        "support": {
+          "Fact": 167,
+          "Argument": 13,
+          "Analysis": 231,
+          "Verdict": 40
+        },
+        "outside_predictions": 189,
+        "confusion_rows": [
+          "Fact",
+          "Argument",
+          "Analysis",
+          "Verdict"
+        ],
+        "confusion_columns": [
+          "Fact",
+          "Argument",
+          "Analysis",
+          "Verdict",
+          "outside"
+        ],
+        "confusion": [
+          [
+            61,
+            9,
+            18,
+            0,
+            79
+          ],
+          [
+            1,
+            2,
+            4,
+            0,
+            6
+          ],
+          [
+            21,
+            12,
+            96,
+            4,
+            98
+          ],
+          [
+            0,
+            0,
+            8,
+            26,
+            6
+          ]
+        ]
+      },
+      "gold_discriminant": {
+        "four_role_macro_f1": 0.44922768936853447,
+        "accuracy": 0.36363636363636365,
+        "per_role_f1": {
+          "Fact": 0.4069264069264069,
+          "Argument": 0.1111111111111111,
+          "Analysis": 0.4788732394366197,
+          "Verdict": 0.8
+        },
+        "support": {
+          "Fact": 167,
+          "Argument": 13,
+          "Analysis": 231,
+          "Verdict": 40
+        },
+        "outside_predictions": 205,
+        "confusion_rows": [
+          "Fact",
+          "Argument",
+          "Analysis",
+          "Verdict"
+        ],
+        "confusion_columns": [
+          "Fact",
+          "Argument",
+          "Analysis",
+          "Verdict",
+          "outside"
+        ],
+        "confusion": [
+          [
+            47,
+            10,
+            26,
+            0,
+            84
+          ],
+          [
+            1,
+            2,
+            6,
+            0,
+            4
+          ],
+          [
+            16,
+            11,
+            85,
+            5,
+            114
+          ],
+          [
+            0,
+            0,
+            7,
+            30,
+            3
+          ]
+        ]
+      },
+      "gemini_reviewed": {
+        "four_role_macro_f1": 0.451784378903023,
+        "accuracy": 0.36807095343680707,
+        "per_role_f1": {
+          "Fact": 0.4188034188034188,
+          "Argument": 0.10810810810810811,
+          "Analysis": 0.480225988700565,
+          "Verdict": 0.8
+        },
+        "support": {
+          "Fact": 167,
+          "Argument": 13,
+          "Analysis": 231,
+          "Verdict": 40
+        },
+        "outside_predictions": 202,
+        "confusion_rows": [
+          "Fact",
+          "Argument",
+          "Analysis",
+          "Verdict"
+        ],
+        "confusion_columns": [
+          "Fact",
+          "Argument",
+          "Analysis",
+          "Verdict",
+          "outside"
+        ],
+        "confusion": [
+          [
+            49,
+            9,
+            26,
+            0,
+            83
+          ],
+          [
+            1,
+            2,
+            5,
+            0,
+            5
+          ],
+          [
+            17,
+            13,
+            85,
+            5,
+            111
+          ],
+          [
+            0,
+            0,
+            7,
+            30,
+            3
+          ]
+        ]
+      }
+    },
+    "direct_minus_original_paired_case_95pct": [
+      0.05095363253638097,
+      0.09880006233082714
+    ]
+  }
+}

@@ -1,0 +1,2847 @@
+{
+  "followup_freeze_sha256": "0927392773a9042dcb37a8f440cc060a8463095a537cdc3d375d61ff37202047",
+  "summary": "Frozen models on the same cached Gemini Decisions inputs. No new requests. Secondary analysis.",
+  "predictions_sha256": "66babe66637f3a0e06f80a1e9a6cdda303c9bfe33360470fcc0520684885e335",
+  "panels": {
+    "Gemini_balanced": {
+      "rows": 112,
+      "judgments": 98,
+      "methods": {
+        "untouched_donor": {
+          "macro_f1": 0.28650339362798255,
+          "accuracy": 0.29464285714285715,
+          "correct": 33,
+          "eligible_population_reweighted_macro_f1": 0.28650339362798255,
+          "eligible_population_reweighted_accuracy": 0.29464285714285715,
+          "per_class_f1": {
+            "none": 0.28888888888888886,
+            "facts": 0.4,
+            "issue": 0.11764705882352941,
+            "petitioner_argument": 0.19047619047619047,
+            "respondent_argument": 0.19047619047619047,
+            "reasoning": 0.2962962962962963,
+            "decision": 0.5217391304347826
+          },
+          "supports": {
+            "none": 16,
+            "facts": 16,
+            "issue": 16,
+            "petitioner_argument": 16,
+            "respondent_argument": 16,
+            "reasoning": 16,
+            "decision": 16
+          },
+          "confusion": [
+            [
+              13,
+              1,
+              0,
+              0,
+              0,
+              2,
+              0
+            ],
+            [
+              11,
+              5,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              10,
+              2,
+              1,
+              0,
+              1,
+              1,
+              1
+            ],
+            [
+              10,
+              1,
+              0,
+              2,
+              1,
+              2,
+              0
+            ],
+            [
+              10,
+              0,
+              0,
+              3,
+              2,
+              1,
+              0
+            ],
+            [
+              11,
+              0,
+              0,
+              0,
+              1,
+              4,
+              0
+            ],
+            [
+              9,
+              0,
+              0,
+              0,
+              0,
+              1,
+              6
+            ]
+          ]
+        },
+        "ffn_only_balanced": {
+          "macro_f1": 0.3921800978455899,
+          "accuracy": 0.4017857142857143,
+          "correct": 45,
+          "eligible_population_reweighted_macro_f1": 0.3921800978455899,
+          "eligible_population_reweighted_accuracy": 0.4017857142857143,
+          "per_class_f1": {
+            "none": 0.15384615384615385,
+            "facts": 0.6153846153846154,
+            "issue": 0.47619047619047616,
+            "petitioner_argument": 0.23076923076923078,
+            "respondent_argument": 0.4,
+            "reasoning": 0.35294117647058826,
+            "decision": 0.5161290322580645
+          },
+          "supports": {
+            "none": 16,
+            "facts": 16,
+            "issue": 16,
+            "petitioner_argument": 16,
+            "respondent_argument": 16,
+            "reasoning": 16,
+            "decision": 16
+          },
+          "confusion": [
+            [
+              2,
+              1,
+              0,
+              1,
+              1,
+              8,
+              3
+            ],
+            [
+              1,
+              12,
+              0,
+              1,
+              0,
+              2,
+              0
+            ],
+            [
+              1,
+              6,
+              5,
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              4,
+              1,
+              0,
+              3,
+              2,
+              6,
+              0
+            ],
+            [
+              1,
+              2,
+              0,
+              0,
+              6,
+              7,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              3,
+              9,
+              3
+            ],
+            [
+              1,
+              1,
+              0,
+              3,
+              1,
+              2,
+              8
+            ]
+          ]
+        },
+        "classifier_only_balanced": {
+          "macro_f1": 0.38004341989683815,
+          "accuracy": 0.4017857142857143,
+          "correct": 45,
+          "eligible_population_reweighted_macro_f1": 0.38004341989683815,
+          "eligible_population_reweighted_accuracy": 0.4017857142857143,
+          "per_class_f1": {
+            "none": 0.20689655172413793,
+            "facts": 0.6190476190476191,
+            "issue": 0.5925925925925926,
+            "petitioner_argument": 0.15384615384615385,
+            "respondent_argument": 0.16666666666666666,
+            "reasoning": 0.2926829268292683,
+            "decision": 0.6285714285714286
+          },
+          "supports": {
+            "none": 16,
+            "facts": 16,
+            "issue": 16,
+            "petitioner_argument": 16,
+            "respondent_argument": 16,
+            "reasoning": 16,
+            "decision": 16
+          },
+          "confusion": [
+            [
+              3,
+              0,
+              1,
+              1,
+              1,
+              7,
+              3
+            ],
+            [
+              0,
+              13,
+              1,
+              2,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              6,
+              8,
+              0,
+              0,
+              0,
+              2
+            ],
+            [
+              4,
+              2,
+              0,
+              2,
+              2,
+              6,
+              0
+            ],
+            [
+              3,
+              3,
+              0,
+              4,
+              2,
+              4,
+              0
+            ],
+            [
+              3,
+              2,
+              0,
+              1,
+              1,
+              6,
+              3
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              2,
+              2,
+              11
+            ]
+          ]
+        },
+        "combined_balanced": {
+          "macro_f1": 0.39767217824990103,
+          "accuracy": 0.41964285714285715,
+          "correct": 47,
+          "eligible_population_reweighted_macro_f1": 0.39767217824990103,
+          "eligible_population_reweighted_accuracy": 0.41964285714285715,
+          "per_class_f1": {
+            "none": 0.3225806451612903,
+            "facts": 0.5853658536585366,
+            "issue": 0.5185185185185185,
+            "petitioner_argument": 0.09090909090909091,
+            "respondent_argument": 0.2962962962962963,
+            "reasoning": 0.34146341463414637,
+            "decision": 0.6285714285714286
+          },
+          "supports": {
+            "none": 16,
+            "facts": 16,
+            "issue": 16,
+            "petitioner_argument": 16,
+            "respondent_argument": 16,
+            "reasoning": 16,
+            "decision": 16
+          },
+          "confusion": [
+            [
+              5,
+              0,
+              1,
+              1,
+              2,
+              3,
+              4
+            ],
+            [
+              2,
+              12,
+              1,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              6,
+              7,
+              1,
+              0,
+              0,
+              2
+            ],
+            [
+              3,
+              1,
+              1,
+              1,
+              3,
+              7,
+              0
+            ],
+            [
+              1,
+              4,
+              0,
+              1,
+              4,
+              6,
+              0
+            ],
+            [
+              4,
+              2,
+              1,
+              0,
+              0,
+              7,
+              2
+            ],
+            [
+              0,
+              0,
+              0,
+              2,
+              1,
+              2,
+              11
+            ]
+          ]
+        },
+        "classifier_only_prevalence_weighted": {
+          "macro_f1": 0.2657960126308416,
+          "accuracy": 0.2857142857142857,
+          "correct": 32,
+          "eligible_population_reweighted_macro_f1": 0.2657960126308416,
+          "eligible_population_reweighted_accuracy": 0.2857142857142857,
+          "per_class_f1": {
+            "none": 0.2962962962962963,
+            "facts": 0.2857142857142857,
+            "issue": 0.0,
+            "petitioner_argument": 0.2,
+            "respondent_argument": 0.21052631578947367,
+            "reasoning": 0.3225806451612903,
+            "decision": 0.5454545454545454
+          },
+          "supports": {
+            "none": 16,
+            "facts": 16,
+            "issue": 16,
+            "petitioner_argument": 16,
+            "respondent_argument": 16,
+            "reasoning": 16,
+            "decision": 16
+          },
+          "confusion": [
+            [
+              12,
+              1,
+              0,
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              11,
+              5,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              9,
+              5,
+              0,
+              0,
+              0,
+              2,
+              0
+            ],
+            [
+              10,
+              2,
+              0,
+              2,
+              0,
+              2,
+              0
+            ],
+            [
+              7,
+              3,
+              0,
+              2,
+              2,
+              2,
+              0
+            ],
+            [
+              9,
+              2,
+              0,
+              0,
+              0,
+              5,
+              0
+            ],
+            [
+              7,
+              1,
+              0,
+              0,
+              1,
+              1,
+              6
+            ]
+          ]
+        },
+        "combined_prevalence_weighted": {
+          "macro_f1": 0.29749199449630254,
+          "accuracy": 0.30357142857142855,
+          "correct": 34,
+          "eligible_population_reweighted_macro_f1": 0.29749199449630254,
+          "eligible_population_reweighted_accuracy": 0.30357142857142855,
+          "per_class_f1": {
+            "none": 0.27848101265822783,
+            "facts": 0.4375,
+            "issue": 0.0,
+            "petitioner_argument": 0.2857142857142857,
+            "respondent_argument": 0.3,
+            "reasoning": 0.23529411764705882,
+            "decision": 0.5454545454545454
+          },
+          "supports": {
+            "none": 16,
+            "facts": 16,
+            "issue": 16,
+            "petitioner_argument": 16,
+            "respondent_argument": 16,
+            "reasoning": 16,
+            "decision": 16
+          },
+          "confusion": [
+            [
+              11,
+              0,
+              0,
+              0,
+              1,
+              4,
+              0
+            ],
+            [
+              8,
+              7,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              10,
+              3,
+              0,
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              10,
+              1,
+              0,
+              3,
+              0,
+              2,
+              0
+            ],
+            [
+              7,
+              3,
+              0,
+              1,
+              3,
+              2,
+              0
+            ],
+            [
+              11,
+              1,
+              0,
+              0,
+              0,
+              4,
+              0
+            ],
+            [
+              6,
+              1,
+              0,
+              1,
+              0,
+              2,
+              6
+            ]
+          ]
+        }
+      },
+      "gemini": {
+        "macro_f1": 0.388135456202683,
+        "accuracy": 0.41964285714285715,
+        "correct": 47,
+        "eligible_population_reweighted_macro_f1": 0.388135456202683,
+        "eligible_population_reweighted_accuracy": 0.41964285714285715,
+        "per_class_f1": {
+          "none": 0.11764705882352941,
+          "facts": 0.6285714285714286,
+          "issue": 0.45454545454545453,
+          "petitioner_argument": 0.2962962962962963,
+          "respondent_argument": 0.19047619047619047,
+          "reasoning": 0.38235294117647056,
+          "decision": 0.6470588235294118
+        },
+        "supports": {
+          "none": 16,
+          "facts": 16,
+          "issue": 16,
+          "petitioner_argument": 16,
+          "respondent_argument": 16,
+          "reasoning": 16,
+          "decision": 16
+        },
+        "confusion": [
+          [
+            1,
+            2,
+            0,
+            1,
+            0,
+            10,
+            2
+          ],
+          [
+            0,
+            11,
+            1,
+            0,
+            0,
+            2,
+            2
+          ],
+          [
+            0,
+            5,
+            5,
+            0,
+            1,
+            3,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            4,
+            1,
+            11,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            3,
+            2,
+            10,
+            1
+          ],
+          [
+            0,
+            1,
+            0,
+            1,
+            1,
+            13,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            2,
+            0,
+            3,
+            11
+          ]
+        ]
+      },
+      "vs_gemini": {
+        "untouched_donor": {
+          "macro_f1_ci95": [
+            -0.20338024329175333,
+            -0.001702306202562517
+          ],
+          "accuracy_ci95": [
+            -0.2353424938474159,
+            -0.009130525437864882
+          ],
+          "fixed_errors": 14,
+          "new_errors": 28
+        },
+        "ffn_only_balanced": {
+          "macro_f1_ci95": [
+            -0.09513558132211215,
+            0.09693577893100648
+          ],
+          "accuracy_ci95": [
+            -0.11403508771929827,
+            0.07488901869158882
+          ],
+          "fixed_errors": 14,
+          "new_errors": 16
+        },
+        "classifier_only_balanced": {
+          "macro_f1_ci95": [
+            -0.10089443297452744,
+            0.0821757959442646
+          ],
+          "accuracy_ci95": [
+            -0.10909090909090907,
+            0.06928035982009001
+          ],
+          "fixed_errors": 11,
+          "new_errors": 13
+        },
+        "combined_balanced": {
+          "macro_f1_ci95": [
+            -0.08862628268274877,
+            0.10800892845766001
+          ],
+          "accuracy_ci95": [
+            -0.09433962264150941,
+            0.0905200655200656
+          ],
+          "fixed_errors": 14,
+          "new_errors": 14
+        },
+        "classifier_only_prevalence_weighted": {
+          "macro_f1_ci95": [
+            -0.22407715193485372,
+            -0.026255309043631117
+          ],
+          "accuracy_ci95": [
+            -0.25,
+            -0.025862068965517238
+          ],
+          "fixed_errors": 13,
+          "new_errors": 28
+        },
+        "combined_prevalence_weighted": {
+          "macro_f1_ci95": [
+            -0.19282847905948497,
+            0.0072110939858924476
+          ],
+          "accuracy_ci95": [
+            -0.23008849557522126,
+            -0.003861788617885434
+          ],
+          "fixed_errors": 14,
+          "new_errors": 27
+        }
+      }
+    },
+    "Gemini_singletons": {
+      "rows": 196,
+      "judgments": 196,
+      "methods": {
+        "untouched_donor": {
+          "macro_f1": 0.2582437387252922,
+          "accuracy": 0.37755102040816324,
+          "correct": 74,
+          "eligible_population_reweighted_macro_f1": 0.2582437387252922,
+          "eligible_population_reweighted_accuracy": 0.37755102040816324,
+          "per_class_f1": {
+            "none": 0.4807692307692308,
+            "facts": 0.13333333333333333,
+            "issue": 0.0,
+            "petitioner_argument": 0.375,
+            "respondent_argument": 0.14285714285714285,
+            "reasoning": 0.24096385542168675,
+            "decision": 0.43478260869565216
+          },
+          "supports": {
+            "none": 65,
+            "facts": 20,
+            "issue": 0,
+            "petitioner_argument": 17,
+            "respondent_argument": 10,
+            "reasoning": 68,
+            "decision": 16
+          },
+          "confusion": [
+            [
+              50,
+              6,
+              1,
+              2,
+              2,
+              2,
+              2
+            ],
+            [
+              16,
+              2,
+              1,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              10,
+              1,
+              0,
+              6,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              5,
+              1,
+              1,
+              0
+            ],
+            [
+              56,
+              0,
+              0,
+              2,
+              0,
+              10,
+              0
+            ],
+            [
+              8,
+              1,
+              0,
+              0,
+              0,
+              2,
+              5
+            ]
+          ]
+        },
+        "ffn_only_balanced": {
+          "macro_f1": 0.2873172045816924,
+          "accuracy": 0.37244897959183676,
+          "correct": 73,
+          "eligible_population_reweighted_macro_f1": 0.2873172045816924,
+          "eligible_population_reweighted_accuracy": 0.37244897959183676,
+          "per_class_f1": {
+            "none": 0.2391304347826087,
+            "facts": 0.29411764705882354,
+            "issue": 0.0,
+            "petitioner_argument": 0.2857142857142857,
+            "respondent_argument": 0.16,
+            "reasoning": 0.5161290322580645,
+            "decision": 0.5161290322580645
+          },
+          "supports": {
+            "none": 65,
+            "facts": 20,
+            "issue": 0,
+            "petitioner_argument": 17,
+            "respondent_argument": 10,
+            "reasoning": 68,
+            "decision": 16
+          },
+          "confusion": [
+            [
+              11,
+              7,
+              1,
+              7,
+              11,
+              26,
+              2
+            ],
+            [
+              0,
+              5,
+              2,
+              5,
+              0,
+              7,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              1,
+              7,
+              1,
+              7,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              5,
+              2,
+              2,
+              0
+            ],
+            [
+              14,
+              0,
+              1,
+              8,
+              1,
+              40,
+              4
+            ],
+            [
+              2,
+              1,
+              0,
+              0,
+              0,
+              5,
+              8
+            ]
+          ]
+        },
+        "classifier_only_balanced": {
+          "macro_f1": 0.27381031479246476,
+          "accuracy": 0.33163265306122447,
+          "correct": 65,
+          "eligible_population_reweighted_macro_f1": 0.27381031479246476,
+          "eligible_population_reweighted_accuracy": 0.33163265306122447,
+          "per_class_f1": {
+            "none": 0.29473684210526313,
+            "facts": 0.34146341463414637,
+            "issue": 0.0,
+            "petitioner_argument": 0.15384615384615385,
+            "respondent_argument": 0.13793103448275862,
+            "reasoning": 0.4172661870503597,
+            "decision": 0.5714285714285714
+          },
+          "supports": {
+            "none": 65,
+            "facts": 20,
+            "issue": 0,
+            "petitioner_argument": 17,
+            "respondent_argument": 10,
+            "reasoning": 68,
+            "decision": 16
+          },
+          "confusion": [
+            [
+              14,
+              6,
+              5,
+              5,
+              8,
+              23,
+              4
+            ],
+            [
+              1,
+              7,
+              3,
+              2,
+              1,
+              6,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              1,
+              3,
+              4,
+              8,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              5,
+              2,
+              2,
+              0
+            ],
+            [
+              14,
+              6,
+              4,
+              6,
+              4,
+              29,
+              5
+            ],
+            [
+              1,
+              1,
+              0,
+              1,
+              0,
+              3,
+              10
+            ]
+          ]
+        },
+        "combined_balanced": {
+          "macro_f1": 0.3140683499259796,
+          "accuracy": 0.3826530612244898,
+          "correct": 75,
+          "eligible_population_reweighted_macro_f1": 0.3140683499259796,
+          "eligible_population_reweighted_accuracy": 0.3826530612244898,
+          "per_class_f1": {
+            "none": 0.36363636363636365,
+            "facts": 0.358974358974359,
+            "issue": 0.0,
+            "petitioner_argument": 0.2631578947368421,
+            "respondent_argument": 0.16666666666666666,
+            "reasoning": 0.4460431654676259,
+            "decision": 0.6
+          },
+          "supports": {
+            "none": 65,
+            "facts": 20,
+            "issue": 0,
+            "petitioner_argument": 17,
+            "respondent_argument": 10,
+            "reasoning": 68,
+            "decision": 16
+          },
+          "confusion": [
+            [
+              18,
+              6,
+              4,
+              6,
+              5,
+              21,
+              5
+            ],
+            [
+              1,
+              7,
+              3,
+              1,
+              2,
+              5,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              1,
+              5,
+              1,
+              9,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              5,
+              2,
+              2,
+              0
+            ],
+            [
+              14,
+              6,
+              4,
+              3,
+              4,
+              31,
+              6
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              0,
+              3,
+              12
+            ]
+          ]
+        },
+        "classifier_only_prevalence_weighted": {
+          "macro_f1": 0.29436179098997967,
+          "accuracy": 0.41836734693877553,
+          "correct": 82,
+          "eligible_population_reweighted_macro_f1": 0.29436179098997967,
+          "eligible_population_reweighted_accuracy": 0.41836734693877553,
+          "per_class_f1": {
+            "none": 0.5102040816326531,
+            "facts": 0.45161290322580644,
+            "issue": 0.0,
+            "petitioner_argument": 0.2857142857142857,
+            "respondent_argument": 0.0,
+            "reasoning": 0.2912621359223301,
+            "decision": 0.5217391304347826
+          },
+          "supports": {
+            "none": 65,
+            "facts": 20,
+            "issue": 0,
+            "petitioner_argument": 17,
+            "respondent_argument": 10,
+            "reasoning": 68,
+            "decision": 16
+          },
+          "confusion": [
+            [
+              50,
+              2,
+              1,
+              2,
+              0,
+              9,
+              1
+            ],
+            [
+              9,
+              7,
+              0,
+              0,
+              0,
+              4,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              10,
+              0,
+              0,
+              4,
+              0,
+              3,
+              0
+            ],
+            [
+              4,
+              0,
+              0,
+              5,
+              0,
+              1,
+              0
+            ],
+            [
+              51,
+              2,
+              0,
+              0,
+              0,
+              15,
+              0
+            ],
+            [
+              7,
+              0,
+              0,
+              0,
+              0,
+              3,
+              6
+            ]
+          ]
+        },
+        "combined_prevalence_weighted": {
+          "macro_f1": 0.29639398713808873,
+          "accuracy": 0.39285714285714285,
+          "correct": 77,
+          "eligible_population_reweighted_macro_f1": 0.29639398713808873,
+          "eligible_population_reweighted_accuracy": 0.39285714285714285,
+          "per_class_f1": {
+            "none": 0.4842105263157895,
+            "facts": 0.36363636363636365,
+            "issue": 0.0,
+            "petitioner_argument": 0.27586206896551724,
+            "respondent_argument": 0.18181818181818182,
+            "reasoning": 0.2692307692307692,
+            "decision": 0.5
+          },
+          "supports": {
+            "none": 65,
+            "facts": 20,
+            "issue": 0,
+            "petitioner_argument": 17,
+            "respondent_argument": 10,
+            "reasoning": 68,
+            "decision": 16
+          },
+          "confusion": [
+            [
+              46,
+              3,
+              1,
+              3,
+              0,
+              10,
+              2
+            ],
+            [
+              8,
+              6,
+              0,
+              0,
+              0,
+              6,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              10,
+              1,
+              0,
+              4,
+              0,
+              2,
+              0
+            ],
+            [
+              4,
+              0,
+              0,
+              4,
+              1,
+              1,
+              0
+            ],
+            [
+              51,
+              2,
+              0,
+              1,
+              0,
+              14,
+              0
+            ],
+            [
+              6,
+              1,
+              0,
+              0,
+              0,
+              3,
+              6
+            ]
+          ]
+        }
+      },
+      "gemini": {
+        "macro_f1": 0.36367130340915504,
+        "accuracy": 0.4336734693877551,
+        "correct": 85,
+        "eligible_population_reweighted_macro_f1": 0.36367130340915504,
+        "eligible_population_reweighted_accuracy": 0.4336734693877551,
+        "per_class_f1": {
+          "none": 0.08695652173913043,
+          "facts": 0.2564102564102564,
+          "issue": 0.0,
+          "petitioner_argument": 0.32432432432432434,
+          "respondent_argument": 0.5882352941176471,
+          "reasoning": 0.5625,
+          "decision": 0.7272727272727273
+        },
+        "supports": {
+          "none": 65,
+          "facts": 20,
+          "issue": 0,
+          "petitioner_argument": 17,
+          "respondent_argument": 10,
+          "reasoning": 68,
+          "decision": 16
+        },
+        "confusion": [
+          [
+            3,
+            6,
+            0,
+            8,
+            0,
+            45,
+            3
+          ],
+          [
+            0,
+            5,
+            1,
+            3,
+            0,
+            11,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            1,
+            6,
+            0,
+            9,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            2,
+            5,
+            2,
+            0
+          ],
+          [
+            1,
+            6,
+            2,
+            1,
+            2,
+            54,
+            2
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            3,
+            12
+          ]
+        ]
+      },
+      "vs_gemini": {
+        "untouched_donor": {
+          "macro_f1_ci95": [
+            -0.1854455981709711,
+            -0.021707596854967544
+          ],
+          "accuracy_ci95": [
+            -0.15306122448979592,
+            0.05102040816326531
+          ],
+          "fixed_errors": 51,
+          "new_errors": 62
+        },
+        "ffn_only_balanced": {
+          "macro_f1_ci95": [
+            -0.14538372551428325,
+            -0.004696138404233606
+          ],
+          "accuracy_ci95": [
+            -0.13022959183673466,
+            0.010204081632653017
+          ],
+          "fixed_errors": 18,
+          "new_errors": 30
+        },
+        "classifier_only_balanced": {
+          "macro_f1_ci95": [
+            -0.15616578248441523,
+            -0.01961535916035161
+          ],
+          "accuracy_ci95": [
+            -0.17346938775510207,
+            -0.03061224489795919
+          ],
+          "fixed_errors": 17,
+          "new_errors": 37
+        },
+        "combined_balanced": {
+          "macro_f1_ci95": [
+            -0.11411617804290275,
+            0.01880345801693713
+          ],
+          "accuracy_ci95": [
+            -0.12244897959183676,
+            0.025510204081632626
+          ],
+          "fixed_errors": 24,
+          "new_errors": 34
+        },
+        "classifier_only_prevalence_weighted": {
+          "macro_f1_ci95": [
+            -0.1417112438196216,
+            0.00716434538222607
+          ],
+          "accuracy_ci95": [
+            -0.11224489795918369,
+            0.086734693877551
+          ],
+          "fixed_errors": 52,
+          "new_errors": 55
+        },
+        "combined_prevalence_weighted": {
+          "macro_f1_ci95": [
+            -0.15012004556524824,
+            0.013198071426832377
+          ],
+          "accuracy_ci95": [
+            -0.13775510204081634,
+            0.06632653061224486
+          ],
+          "fixed_errors": 49,
+          "new_errors": 57
+        }
+      }
+    },
+    "Gemini_rows": {
+      "rows": 21,
+      "judgments": 17,
+      "methods": {
+        "untouched_donor": {
+          "macro_f1": 0.18809523809523807,
+          "accuracy": 0.23809523809523808,
+          "correct": 5,
+          "eligible_population_reweighted_macro_f1": 0.18809523809523807,
+          "eligible_population_reweighted_accuracy": 0.23809523809523808,
+          "per_class_f1": {
+            "none": 0.3333333333333333,
+            "facts": 0.25,
+            "issue": 0.0,
+            "petitioner_argument": 0.3333333333333333,
+            "respondent_argument": 0.0,
+            "reasoning": 0.0,
+            "decision": 0.4
+          },
+          "supports": {
+            "none": 3,
+            "facts": 3,
+            "issue": 3,
+            "petitioner_argument": 3,
+            "respondent_argument": 3,
+            "reasoning": 3,
+            "decision": 3
+          },
+          "confusion": [
+            [
+              2,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              2,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              1,
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              1,
+              0,
+              1,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ]
+          ]
+        },
+        "ffn_only_balanced": {
+          "macro_f1": 0.33287981859410426,
+          "accuracy": 0.3333333333333333,
+          "correct": 7,
+          "eligible_population_reweighted_macro_f1": 0.33287981859410426,
+          "eligible_population_reweighted_accuracy": 0.3333333333333333,
+          "per_class_f1": {
+            "none": 0.0,
+            "facts": 0.4444444444444444,
+            "issue": 0.8,
+            "petitioner_argument": 0.2857142857142857,
+            "respondent_argument": 0.0,
+            "reasoning": 0.4,
+            "decision": 0.4
+          },
+          "supports": {
+            "none": 3,
+            "facts": 3,
+            "issue": 3,
+            "petitioner_argument": 3,
+            "respondent_argument": 3,
+            "reasoning": 3,
+            "decision": 3
+          },
+          "confusion": [
+            [
+              0,
+              2,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              2,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              1,
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              1,
+              0,
+              1,
+              0
+            ],
+            [
+              1,
+              1,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ]
+          ]
+        },
+        "classifier_only_balanced": {
+          "macro_f1": 0.3741496598639456,
+          "accuracy": 0.38095238095238093,
+          "correct": 8,
+          "eligible_population_reweighted_macro_f1": 0.3741496598639456,
+          "eligible_population_reweighted_accuracy": 0.38095238095238093,
+          "per_class_f1": {
+            "none": 0.3333333333333333,
+            "facts": 0.4,
+            "issue": 0.8,
+            "petitioner_argument": 0.2857142857142857,
+            "respondent_argument": 0.0,
+            "reasoning": 0.4,
+            "decision": 0.4
+          },
+          "supports": {
+            "none": 3,
+            "facts": 3,
+            "issue": 3,
+            "petitioner_argument": 3,
+            "respondent_argument": 3,
+            "reasoning": 3,
+            "decision": 3
+          },
+          "confusion": [
+            [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              2,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              1,
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              1,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              2,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ]
+          ]
+        },
+        "combined_balanced": {
+          "macro_f1": 0.3662337662337662,
+          "accuracy": 0.38095238095238093,
+          "correct": 8,
+          "eligible_population_reweighted_macro_f1": 0.3662337662337662,
+          "eligible_population_reweighted_accuracy": 0.38095238095238093,
+          "per_class_f1": {
+            "none": 0.0,
+            "facts": 0.36363636363636365,
+            "issue": 0.8,
+            "petitioner_argument": 0.3333333333333333,
+            "respondent_argument": 0.0,
+            "reasoning": 0.4,
+            "decision": 0.6666666666666666
+          },
+          "supports": {
+            "none": 3,
+            "facts": 3,
+            "issue": 3,
+            "petitioner_argument": 3,
+            "respondent_argument": 3,
+            "reasoning": 3,
+            "decision": 3
+          },
+          "confusion": [
+            [
+              0,
+              2,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              2,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              1,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              1,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              2,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              2
+            ]
+          ]
+        },
+        "classifier_only_prevalence_weighted": {
+          "macro_f1": 0.3391941391941392,
+          "accuracy": 0.3333333333333333,
+          "correct": 7,
+          "eligible_population_reweighted_macro_f1": 0.3391941391941392,
+          "eligible_population_reweighted_accuracy": 0.3333333333333333,
+          "per_class_f1": {
+            "none": 0.3076923076923077,
+            "facts": 0.3333333333333333,
+            "issue": 0.5,
+            "petitioner_argument": 0.3333333333333333,
+            "respondent_argument": 0.0,
+            "reasoning": 0.5,
+            "decision": 0.4
+          },
+          "supports": {
+            "none": 3,
+            "facts": 3,
+            "issue": 3,
+            "petitioner_argument": 3,
+            "respondent_argument": 3,
+            "reasoning": 3,
+            "decision": 3
+          },
+          "confusion": [
+            [
+              2,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              1,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              1,
+              1,
+              0,
+              0
+            ],
+            [
+              2,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              1,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ]
+          ]
+        },
+        "combined_prevalence_weighted": {
+          "macro_f1": 0.21666666666666665,
+          "accuracy": 0.23809523809523808,
+          "correct": 5,
+          "eligible_population_reweighted_macro_f1": 0.21666666666666665,
+          "eligible_population_reweighted_accuracy": 0.23809523809523808,
+          "per_class_f1": {
+            "none": 0.25,
+            "facts": 0.2,
+            "issue": 0.0,
+            "petitioner_argument": 0.3333333333333333,
+            "respondent_argument": 0.0,
+            "reasoning": 0.3333333333333333,
+            "decision": 0.4
+          },
+          "supports": {
+            "none": 3,
+            "facts": 3,
+            "issue": 3,
+            "petitioner_argument": 3,
+            "respondent_argument": 3,
+            "reasoning": 3,
+            "decision": 3
+          },
+          "confusion": [
+            [
+              1,
+              0,
+              0,
+              1,
+              0,
+              1,
+              0
+            ],
+            [
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              2,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              1,
+              1,
+              0,
+              0
+            ],
+            [
+              2,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              2,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1
+            ]
+          ]
+        }
+      },
+      "gemini": {
+        "macro_f1": 0.3904761904761904,
+        "accuracy": 0.38095238095238093,
+        "correct": 8,
+        "eligible_population_reweighted_macro_f1": 0.3904761904761904,
+        "eligible_population_reweighted_accuracy": 0.38095238095238093,
+        "per_class_f1": {
+          "none": 0.0,
+          "facts": 0.16666666666666666,
+          "issue": 0.5,
+          "petitioner_argument": 0.5,
+          "respondent_argument": 0.5,
+          "reasoning": 0.4,
+          "decision": 0.6666666666666666
+        },
+        "supports": {
+          "none": 3,
+          "facts": 3,
+          "issue": 3,
+          "petitioner_argument": 3,
+          "respondent_argument": 3,
+          "reasoning": 3,
+          "decision": 3
+        },
+        "confusion": [
+          [
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            2
+          ]
+        ]
+      },
+      "vs_gemini": {
+        "untouched_donor": {
+          "macro_f1_ci95": [
+            -0.40238636363636354,
+            0.005610221361271897
+          ],
+          "accuracy_ci95": [
+            -0.380952380952381,
+            0.08903162055336007
+          ],
+          "fixed_errors": 2,
+          "new_errors": 5
+        },
+        "ffn_only_balanced": {
+          "macro_f1_ci95": [
+            -0.20434137291280152,
+            0.1074938157081014
+          ],
+          "accuracy_ci95": [
+            -0.2173913043478261,
+            0.10526315789473684
+          ],
+          "fixed_errors": 2,
+          "new_errors": 3
+        },
+        "classifier_only_balanced": {
+          "macro_f1_ci95": [
+            -0.178612012987013,
+            0.16408258408258414
+          ],
+          "accuracy_ci95": [
+            -0.19047619047619047,
+            0.19047619047619047
+          ],
+          "fixed_errors": 3,
+          "new_errors": 3
+        },
+        "combined_balanced": {
+          "macro_f1_ci95": [
+            -0.17500666000665993,
+            0.16210034013605448
+          ],
+          "accuracy_ci95": [
+            -0.19999999999999998,
+            0.19047619047619047
+          ],
+          "fixed_errors": 2,
+          "new_errors": 2
+        },
+        "classifier_only_prevalence_weighted": {
+          "macro_f1_ci95": [
+            -0.21604617604617612,
+            0.09997294372294381
+          ],
+          "accuracy_ci95": [
+            -0.2631578947368421,
+            0.1481481481481482
+          ],
+          "fixed_errors": 3,
+          "new_errors": 4
+        },
+        "combined_prevalence_weighted": {
+          "macro_f1_ci95": [
+            -0.378428416821274,
+            0.015680926216640502
+          ],
+          "accuracy_ci95": [
+            -0.35,
+            0.047619047619047616
+          ],
+          "fixed_errors": 1,
+          "new_errors": 4
+        }
+      }
+    },
+    "Gemini_joined": {
+      "rows": 28,
+      "judgments": 28,
+      "methods": {
+        "untouched_donor": {
+          "macro_f1": 0.3759288330716902,
+          "accuracy": 0.39285714285714285,
+          "correct": 11,
+          "eligible_population_reweighted_macro_f1": 0.3759288330716902,
+          "eligible_population_reweighted_accuracy": 0.39285714285714285,
+          "per_class_f1": {
+            "none": 0.3076923076923077,
+            "facts": 0.6666666666666666,
+            "issue": 0.4,
+            "petitioner_argument": 0.0,
+            "respondent_argument": 0.0,
+            "reasoning": 0.4,
+            "decision": 0.8571428571428571
+          },
+          "supports": {
+            "none": 4,
+            "facts": 4,
+            "issue": 4,
+            "petitioner_argument": 4,
+            "respondent_argument": 4,
+            "reasoning": 4,
+            "decision": 4
+          },
+          "confusion": [
+            [
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0
+            ],
+            [
+              1,
+              3,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              1,
+              0,
+              0,
+              2,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              2,
+              0,
+              2,
+              0
+            ],
+            [
+              2,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              3
+            ]
+          ]
+        },
+        "ffn_only_balanced": {
+          "macro_f1": 0.38350340136054417,
+          "accuracy": 0.42857142857142855,
+          "correct": 12,
+          "eligible_population_reweighted_macro_f1": 0.38350340136054417,
+          "eligible_population_reweighted_accuracy": 0.42857142857142855,
+          "per_class_f1": {
+            "none": 0.0,
+            "facts": 0.6666666666666666,
+            "issue": 0.5,
+            "petitioner_argument": 0.0,
+            "respondent_argument": 0.2857142857142857,
+            "reasoning": 0.375,
+            "decision": 0.8571428571428571
+          },
+          "supports": {
+            "none": 4,
+            "facts": 4,
+            "issue": 4,
+            "petitioner_argument": 4,
+            "respondent_argument": 4,
+            "reasoning": 4,
+            "decision": 4
+          },
+          "confusion": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              4,
+              0
+            ],
+            [
+              0,
+              3,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              2,
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              2,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              1,
+              2,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              3
+            ]
+          ]
+        },
+        "classifier_only_balanced": {
+          "macro_f1": 0.4373626373626374,
+          "accuracy": 0.4642857142857143,
+          "correct": 13,
+          "eligible_population_reweighted_macro_f1": 0.4373626373626374,
+          "eligible_population_reweighted_accuracy": 0.4642857142857143,
+          "per_class_f1": {
+            "none": 0.2857142857142857,
+            "facts": 0.6,
+            "issue": 0.5714285714285714,
+            "petitioner_argument": 0.2857142857142857,
+            "respondent_argument": 0.0,
+            "reasoning": 0.46153846153846156,
+            "decision": 0.8571428571428571
+          },
+          "supports": {
+            "none": 4,
+            "facts": 4,
+            "issue": 4,
+            "petitioner_argument": 4,
+            "respondent_argument": 4,
+            "reasoning": 4,
+            "decision": 4
+          },
+          "confusion": [
+            [
+              1,
+              0,
+              0,
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              1,
+              3,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              2,
+              2,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              2,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              3
+            ]
+          ]
+        },
+        "combined_balanced": {
+          "macro_f1": 0.3741496598639456,
+          "accuracy": 0.42857142857142855,
+          "correct": 12,
+          "eligible_population_reweighted_macro_f1": 0.3741496598639456,
+          "eligible_population_reweighted_accuracy": 0.42857142857142855,
+          "per_class_f1": {
+            "none": 0.0,
+            "facts": 0.6666666666666666,
+            "issue": 0.6666666666666666,
+            "petitioner_argument": 0.0,
+            "respondent_argument": 0.0,
+            "reasoning": 0.42857142857142855,
+            "decision": 0.8571428571428571
+          },
+          "supports": {
+            "none": 4,
+            "facts": 4,
+            "issue": 4,
+            "petitioner_argument": 4,
+            "respondent_argument": 4,
+            "reasoning": 4,
+            "decision": 4
+          },
+          "confusion": [
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              4,
+              0
+            ],
+            [
+              0,
+              3,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              3,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              2,
+              1,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              2,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              3
+            ]
+          ]
+        },
+        "classifier_only_prevalence_weighted": {
+          "macro_f1": 0.35359477124183003,
+          "accuracy": 0.35714285714285715,
+          "correct": 10,
+          "eligible_population_reweighted_macro_f1": 0.35359477124183003,
+          "eligible_population_reweighted_accuracy": 0.35714285714285715,
+          "per_class_f1": {
+            "none": 0.35294117647058826,
+            "facts": 0.5,
+            "issue": 0.4,
+            "petitioner_argument": 0.3333333333333333,
+            "respondent_argument": 0.0,
+            "reasoning": 0.2222222222222222,
+            "decision": 0.6666666666666666
+          },
+          "supports": {
+            "none": 4,
+            "facts": 4,
+            "issue": 4,
+            "petitioner_argument": 4,
+            "respondent_argument": 4,
+            "reasoning": 4,
+            "decision": 4
+          },
+          "confusion": [
+            [
+              3,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              2,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              2,
+              2
+            ]
+          ]
+        },
+        "combined_prevalence_weighted": {
+          "macro_f1": 0.41465677179962895,
+          "accuracy": 0.4642857142857143,
+          "correct": 13,
+          "eligible_population_reweighted_macro_f1": 0.41465677179962895,
+          "eligible_population_reweighted_accuracy": 0.4642857142857143,
+          "per_class_f1": {
+            "none": 0.5,
+            "facts": 0.6,
+            "issue": 0.4,
+            "petitioner_argument": 0.0,
+            "respondent_argument": 0.0,
+            "reasoning": 0.5454545454545454,
+            "decision": 0.8571428571428571
+          },
+          "supports": {
+            "none": 4,
+            "facts": 4,
+            "issue": 4,
+            "petitioner_argument": 4,
+            "respondent_argument": 4,
+            "reasoning": 4,
+            "decision": 4
+          },
+          "confusion": [
+            [
+              3,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              1,
+              3,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              2,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              2,
+              1,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              0,
+              0,
+              3,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              3
+            ]
+          ]
+        }
+      },
+      "gemini": {
+        "macro_f1": 0.3794665234514859,
+        "accuracy": 0.39285714285714285,
+        "correct": 11,
+        "eligible_population_reweighted_macro_f1": 0.3794665234514859,
+        "eligible_population_reweighted_accuracy": 0.39285714285714285,
+        "per_class_f1": {
+          "none": 0.0,
+          "facts": 0.2857142857142857,
+          "issue": 0.3333333333333333,
+          "petitioner_argument": 0.5714285714285714,
+          "respondent_argument": 0.4,
+          "reasoning": 0.3157894736842105,
+          "decision": 0.75
+        },
+        "supports": {
+          "none": 4,
+          "facts": 4,
+          "issue": 4,
+          "petitioner_argument": 4,
+          "respondent_argument": 4,
+          "reasoning": 4,
+          "decision": 4
+        },
+        "confusion": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            4,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0,
+            0,
+            3,
+            0
+          ],
+          [
+            0,
+            2,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            2,
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            1,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0,
+            0,
+            3,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            3
+          ]
+        ]
+      },
+      "vs_gemini": {
+        "untouched_donor": {
+          "macro_f1_ci95": [
+            -0.14328426825275564,
+            0.15058453451310613
+          ],
+          "accuracy_ci95": [
+            -0.21428571428571425,
+            0.1785714285714286
+          ],
+          "fixed_errors": 4,
+          "new_errors": 4
+        },
+        "ffn_only_balanced": {
+          "macro_f1_ci95": [
+            -0.19945934500282325,
+            0.21632082203510777
+          ],
+          "accuracy_ci95": [
+            -0.17857142857142855,
+            0.25
+          ],
+          "fixed_errors": 5,
+          "new_errors": 4
+        },
+        "classifier_only_balanced": {
+          "macro_f1_ci95": [
+            -0.1005510875678943,
+            0.2240076094540381
+          ],
+          "accuracy_ci95": [
+            -0.1071428571428571,
+            0.25
+          ],
+          "fixed_errors": 4,
+          "new_errors": 2
+        },
+        "combined_balanced": {
+          "macro_f1_ci95": [
+            -0.1926443397871969,
+            0.18785809530055056
+          ],
+          "accuracy_ci95": [
+            -0.17857142857142855,
+            0.25
+          ],
+          "fixed_errors": 5,
+          "new_errors": 4
+        },
+        "classifier_only_prevalence_weighted": {
+          "macro_f1_ci95": [
+            -0.18635467123912508,
+            0.13100809904381336
+          ],
+          "accuracy_ci95": [
+            -0.24999999999999994,
+            0.17857142857142855
+          ],
+          "fixed_errors": 4,
+          "new_errors": 5
+        },
+        "combined_prevalence_weighted": {
+          "macro_f1_ci95": [
+            -0.12049755916352553,
+            0.20468707482993206
+          ],
+          "accuracy_ci95": [
+            -0.14285714285714285,
+            0.28571428571428575
+          ],
+          "fixed_errors": 6,
+          "new_errors": 4
+        }
+      }
+    }
+  }
+}

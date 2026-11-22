@@ -1,0 +1,141 @@
+{
+  "official_train_judgments": 4984,
+  "train_length_quartile_cutpoints": [
+    89,
+    142,
+    242
+  ],
+  "method": "Sentence-pooled metrics within train-defined length bands. Empirical absolute 95% intervals for the semantic neighbor model resample entire official test judgments 4,000 times.",
+  "length_bands": [
+    {
+      "judgments": 158,
+      "sentences": 10380,
+      "observed_length_range": [
+        22,
+        89
+      ],
+      "metrics": {
+        "original": {
+          "accuracy": 0.7184971098265895,
+          "macro_f1": 0.7072503415726891,
+          "pair_errors": 1122
+        },
+        "legal_context": {
+          "accuracy": 0.7454720616570327,
+          "macro_f1": 0.7397978472883464,
+          "pair_errors": 996
+        },
+        "anchored_scale": {
+          "accuracy": 0.7454720616570327,
+          "macro_f1": 0.742658942780685,
+          "pair_errors": 1019
+        },
+        "semantic_neighbors": {
+          "accuracy": 0.7506743737957611,
+          "macro_f1": 0.7518320540046723,
+          "pair_errors": 990
+        }
+      }
+    },
+    {
+      "judgments": 164,
+      "sentences": 18953,
+      "observed_length_range": [
+        90,
+        142
+      ],
+      "metrics": {
+        "original": {
+          "accuracy": 0.6893895425526302,
+          "macro_f1": 0.689427125513584,
+          "pair_errors": 2845
+        },
+        "legal_context": {
+          "accuracy": 0.7032132116287659,
+          "macro_f1": 0.71940928533766,
+          "pair_errors": 2733
+        },
+        "anchored_scale": {
+          "accuracy": 0.7055875059357357,
+          "macro_f1": 0.7216812135244589,
+          "pair_errors": 2710
+        },
+        "semantic_neighbors": {
+          "accuracy": 0.7052709333614731,
+          "macro_f1": 0.7236339525349067,
+          "pair_errors": 2674
+        }
+      }
+    },
+    {
+      "judgments": 210,
+      "sentences": 39273,
+      "observed_length_range": [
+        143,
+        241
+      ],
+      "metrics": {
+        "original": {
+          "accuracy": 0.6760878975377486,
+          "macro_f1": 0.6561953947504674,
+          "pair_errors": 6256
+        },
+        "legal_context": {
+          "accuracy": 0.686578565426629,
+          "macro_f1": 0.6873926523601129,
+          "pair_errors": 6159
+        },
+        "anchored_scale": {
+          "accuracy": 0.687851704733532,
+          "macro_f1": 0.6888884355267555,
+          "pair_errors": 6168
+        },
+        "semantic_neighbors": {
+          "accuracy": 0.6849744098999313,
+          "macro_f1": 0.6948030359680978,
+          "pair_errors": 6232
+        }
+      }
+    },
+    {
+      "judgments": 180,
+      "sentences": 81262,
+      "observed_length_range": [
+        243,
+        2100
+      ],
+      "metrics": {
+        "original": {
+          "accuracy": 0.6379242450345796,
+          "macro_f1": 0.600715144732692,
+          "pair_errors": 15189
+        },
+        "legal_context": {
+          "accuracy": 0.6366444340528168,
+          "macro_f1": 0.6302034386154073,
+          "pair_errors": 15320
+        },
+        "anchored_scale": {
+          "accuracy": 0.6404961728729295,
+          "macro_f1": 0.6327017473466711,
+          "pair_errors": 15165
+        },
+        "semantic_neighbors": {
+          "accuracy": 0.635093893824912,
+          "macro_f1": 0.6371654656388674,
+          "pair_errors": 15334
+        }
+      }
+    }
+  ],
+  "absolute_intervals": {
+    "macro_f1": [
+      0.6663879768865969,
+      0.6911263404375734
+    ],
+    "accuracy": [
+      0.6529021640443466,
+      0.6769959526347634
+    ]
+  }
+}

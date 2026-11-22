@@ -1,0 +1,9 @@
+{
+  "cpus": 2,
+  "rows": 116,
+  "reference_case": "5343",
+  "label_disagreements": 0,
+  "wordpieces": 3929,
+  "windows": 11,
+  "wall_seconds_after_loading": 42.24168027799169
+}

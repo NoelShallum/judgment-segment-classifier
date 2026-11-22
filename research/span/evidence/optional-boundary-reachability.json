@@ -1,0 +1,42 @@
+{
+  "cases": 712,
+  "gold_roles": {
+    "none": 12373,
+    "issue": 1034,
+    "facts": 3543,
+    "petitioner_argument": 2658,
+    "respondent_argument": 1985,
+    "reasoning": 6103,
+    "decision": 1183
+  },
+  "sets": {
+    "original": {
+      "reachable": 23677,
+      "reachable_by_role": {
+        "none": 10199,
+        "issue": 866,
+        "facts": 2760,
+        "petitioner_argument": 2097,
+        "respondent_argument": 1563,
+        "reasoning": 5185,
+        "decision": 1007
+      },
+      "extra_gap_runs": 1595,
+      "oracle_exact_span_f1": 0.8744806190098059
+    },
+    "optional": {
+      "reachable": 26246,
+      "reachable_by_role": {
+        "none": 11241,
+        "issue": 929,
+        "facts": 3130,
+        "petitioner_argument": 2374,
+        "respondent_argument": 1763,
+        "reasoning": 5718,
+        "decision": 1091
+      },
+      "extra_gap_runs": 990,
+      "oracle_exact_span_f1": 0.9354361578900472
+    }
+  }
+}

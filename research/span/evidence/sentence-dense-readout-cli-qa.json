@@ -1,0 +1,28 @@
+{
+  "freeze_sha256": "95adcf1e772c631b99bc26c28de5515e11db9685acb9eafaa6b89f66c10a8c90",
+  "arm": "nonlinear",
+  "weights_sha256": "cff8a10e559bef865815c15a5a3151937b56dd0d0fc3bd40f9be76f570e57095",
+  "backbone_parameters": 16816110,
+  "cases": [
+    {
+      "case": "6332",
+      "sentences": 44,
+      "edited_labels": 2
+    },
+    {
+      "case": "6064",
+      "sentences": 128,
+      "edited_labels": 2
+    },
+    {
+      "case": "6108",
+      "sentences": 688,
+      "edited_labels": 15
+    }
+  ],
+  "issue_guard": {
+    "case": "5901",
+    "sentences": 75,
+    "preserved": 4
+  }
+}

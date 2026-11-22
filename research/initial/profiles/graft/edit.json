@@ -1,0 +1,54 @@
+{
+  "profile": "graft",
+  "source_url": "https://huggingface.co/L-NLProc/LegalSeg_InLegalBERT/resolve/44d7925e5ab422ecf04acd5dcbb0b62a6f8d8f53/InLegalBERT/InLegalBERT(i-2%2C%20i-1%2C%20i)model.safetensors",
+  "source_sha256": "a81f509d250f98b44872e89e10186d5dcc17d37905b69aa1d9a077fb841a62ac",
+  "target_sha256": "f1b7494b1240159fc21906bdf361f9ca27039c43bc9a44be440937b4db603ceb",
+  "head_sha256": "e0fc28b115a1e4eb9805a261c8be5bcd4834f9963967267857c3374d1b79e733",
+  "parameters": 109487623,
+  "fp32_checkpoint_bytes": 437974028,
+  "head_scalars": 5383,
+  "replacement_keys": [
+    "classifier.weight",
+    "classifier.bias"
+  ],
+  "labels": [
+    "none",
+    "facts",
+    "issue",
+    "petitioner_argument",
+    "respondent_argument",
+    "reasoning",
+    "decision"
+  ],
+  "sequence": false,
+  "source_edit": {
+    "target_sha256": "f1b7494b1240159fc21906bdf361f9ca27039c43bc9a44be440937b4db603ceb",
+    "parent_sha256": "a81f509d250f98b44872e89e10186d5dcc17d37905b69aa1d9a077fb841a62ac",
+    "source_encoder": "b",
+    "changes": {
+      "classifier.weight": {
+        "shape": [
+          7,
+          768
+        ],
+        "changed": 0
+      },
+      "classifier.bias": {
+        "shape": [
+          7
+        ],
+        "changed": 2
+      }
+    },
+    "selected_actual_edit": {
+      "donor": "a_edit",
+      "role_group": "speaker",
+      "part": "bias",
+      "coefficient": 1.0,
+      "backbone": "b",
+      "parent": "b",
+      "accuracy": 0.5826059652034045,
+      "macro_f1": 0.4812714888008518
+    }
+  }
+}

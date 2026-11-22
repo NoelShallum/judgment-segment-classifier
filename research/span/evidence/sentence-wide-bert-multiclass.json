@@ -1,0 +1,427 @@
+{
+  "freeze_sha256": "0c378ed9ea380e630aa6cb20bccf0618708a1008d91dccf14c4ac510a139d36b",
+  "splits": {
+    "select": {
+      "cases": 72,
+      "reviewed": 2965,
+      "candidate": {
+        "labels": {
+          "rows": 14679,
+          "correct": 10641,
+          "accuracy": 0.7249131412221541,
+          "macro_f1": 0.7141757876325435,
+          "per_role_f1": {
+            "none": 0.7441495209674887,
+            "facts": 0.8226120857699805,
+            "issue": 0.6184971098265896,
+            "petitioner_argument": 0.6847133757961783,
+            "respondent_argument": 0.6844783715012722,
+            "reasoning": 0.6322800495662949,
+            "decision": 0.8125
+          },
+          "confusion": [
+            [
+              4738,
+              330,
+              27,
+              157,
+              70,
+              891,
+              13
+            ],
+            [
+              283,
+              2110,
+              17,
+              45,
+              34,
+              61,
+              7
+            ],
+            [
+              13,
+              66,
+              107,
+              0,
+              0,
+              3,
+              2
+            ],
+            [
+              210,
+              35,
+              0,
+              860,
+              116,
+              58,
+              2
+            ],
+            [
+              69,
+              3,
+              0,
+              137,
+              538,
+              34,
+              0
+            ],
+            [
+              1173,
+              26,
+              3,
+              31,
+              32,
+              2041,
+              16
+            ],
+            [
+              22,
+              3,
+              1,
+              1,
+              1,
+              46,
+              247
+            ]
+          ]
+        },
+        "referred": 0,
+        "changed": 0,
+        "fixed": 0,
+        "broken": 0,
+        "referred_disagreement": 0,
+        "spans": {
+          "exact_labeled_span_f1": 0.3879406603924071,
+          "role_boundary_f1": 0.5857959183673469,
+          "matched_spans": 1216,
+          "predicted_spans": 2789,
+          "gold_spans": 3480
+        }
+      },
+      "parent": {
+        "rows": 14679,
+        "correct": 10641,
+        "accuracy": 0.7249131412221541,
+        "macro_f1": 0.7141757876325435,
+        "per_role_f1": {
+          "none": 0.7441495209674887,
+          "facts": 0.8226120857699805,
+          "issue": 0.6184971098265896,
+          "petitioner_argument": 0.6847133757961783,
+          "respondent_argument": 0.6844783715012722,
+          "reasoning": 0.6322800495662949,
+          "decision": 0.8125
+        },
+        "confusion": [
+          [
+            4738,
+            330,
+            27,
+            157,
+            70,
+            891,
+            13
+          ],
+          [
+            283,
+            2110,
+            17,
+            45,
+            34,
+            61,
+            7
+          ],
+          [
+            13,
+            66,
+            107,
+            0,
+            0,
+            3,
+            2
+          ],
+          [
+            210,
+            35,
+            0,
+            860,
+            116,
+            58,
+            2
+          ],
+          [
+            69,
+            3,
+            0,
+            137,
+            538,
+            34,
+            0
+          ],
+          [
+            1173,
+            26,
+            3,
+            31,
+            32,
+            2041,
+            16
+          ],
+          [
+            22,
+            3,
+            1,
+            1,
+            1,
+            46,
+            247
+          ]
+        ]
+      },
+      "paired": {
+        "macro_f1": [
+          0.0,
+          0.0
+        ],
+        "accuracy": [
+          0.0,
+          0.0
+        ],
+        "reasoning": [
+          0.0,
+          0.0
+        ],
+        "decision": [
+          0.0,
+          0.0
+        ]
+      },
+      "priority_pairs": {
+        "none ↔ reasoning": {
+          "fixed": 0,
+          "broken": 0
+        },
+        "facts ↔ issue": {
+          "fixed": 0,
+          "broken": 0
+        },
+        "petitioner_argument ↔ respondent_argument": {
+          "fixed": 0,
+          "broken": 0
+        }
+      },
+      "embedding_sha256": "9a49f4f0ff5f05c7c74e3a9b3e6bfbdfcfee1f1b9322e756761b9d2e53f15926"
+    },
+    "confirm": {
+      "cases": 72,
+      "reviewed": 2292,
+      "candidate": {
+        "labels": {
+          "rows": 11301,
+          "correct": 8343,
+          "accuracy": 0.7382532519246084,
+          "macro_f1": 0.725315084722433,
+          "per_role_f1": {
+            "none": 0.7234544596507787,
+            "facts": 0.8541191118489313,
+            "issue": 0.599406528189911,
+            "petitioner_argument": 0.7456896551724138,
+            "respondent_argument": 0.6602870813397129,
+            "reasoning": 0.6634795260860528,
+            "decision": 0.8307692307692308
+          },
+          "confusion": [
+            [
+              3066,
+              234,
+              20,
+              109,
+              89,
+              647,
+              31
+            ],
+            [
+              213,
+              2058,
+              21,
+              42,
+              17,
+              70,
+              3
+            ],
+            [
+              29,
+              49,
+              101,
+              1,
+              0,
+              4,
+              0
+            ],
+            [
+              186,
+              16,
+              0,
+              865,
+              68,
+              20,
+              0
+            ],
+            [
+              70,
+              12,
+              3,
+              116,
+              414,
+              25,
+              0
+            ],
+            [
+              707,
+              25,
+              8,
+              32,
+              26,
+              1596,
+              19
+            ],
+            [
+              9,
+              1,
+              0,
+              0,
+              0,
+              36,
+              243
+            ]
+          ]
+        },
+        "referred": 0,
+        "changed": 0,
+        "fixed": 0,
+        "broken": 0,
+        "referred_disagreement": 0,
+        "spans": {
+          "exact_labeled_span_f1": 0.4576493762311228,
+          "role_boundary_f1": 0.6469401479488904,
+          "matched_spans": 1394,
+          "predicted_spans": 2818,
+          "gold_spans": 3274
+        }
+      },
+      "parent": {
+        "rows": 11301,
+        "correct": 8343,
+        "accuracy": 0.7382532519246084,
+        "macro_f1": 0.725315084722433,
+        "per_role_f1": {
+          "none": 0.7234544596507787,
+          "facts": 0.8541191118489313,
+          "issue": 0.599406528189911,
+          "petitioner_argument": 0.7456896551724138,
+          "respondent_argument": 0.6602870813397129,
+          "reasoning": 0.6634795260860528,
+          "decision": 0.8307692307692308
+        },
+        "confusion": [
+          [
+            3066,
+            234,
+            20,
+            109,
+            89,
+            647,
+            31
+          ],
+          [
+            213,
+            2058,
+            21,
+            42,
+            17,
+            70,
+            3
+          ],
+          [
+            29,
+            49,
+            101,
+            1,
+            0,
+            4,
+            0
+          ],
+          [
+            186,
+            16,
+            0,
+            865,
+            68,
+            20,
+            0
+          ],
+          [
+            70,
+            12,
+            3,
+            116,
+            414,
+            25,
+            0
+          ],
+          [
+            707,
+            25,
+            8,
+            32,
+            26,
+            1596,
+            19
+          ],
+          [
+            9,
+            1,
+            0,
+            0,
+            0,
+            36,
+            243
+          ]
+        ]
+      },
+      "paired": {
+        "macro_f1": [
+          0.0,
+          0.0
+        ],
+        "accuracy": [
+          0.0,
+          0.0
+        ],
+        "reasoning": [
+          0.0,
+          0.0
+        ],
+        "decision": [
+          0.0,
+          0.0
+        ]
+      },
+      "priority_pairs": {
+        "none ↔ reasoning": {
+          "fixed": 0,
+          "broken": 0
+        },
+        "facts ↔ issue": {
+          "fixed": 0,
+          "broken": 0
+        },
+        "petitioner_argument ↔ respondent_argument": {
+          "fixed": 0,
+          "broken": 0
+        }
+      },
+      "embedding_sha256": "31603a6ff1f740dd312685253d835feac381b7d1fba340eb238836bb6254dea0"
+    }
+  }
+}

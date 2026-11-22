@@ -1,0 +1,635 @@
+{
+  "model": "gemini-decision-1",
+  "api_calls_in_this_replay": 0,
+  "local_input": "Exactly the archived normalized string submitted to Gemini, one independent upload at a time. The current BERT reviewer applies its 96-token window.",
+  "note": "Absent roles receive F1 zero in the fixed seven-class average. Use accuracy and class support in sparse panels. The four panels have different sampling procedures. The joined paragraph gold is derived from same-role sentences.",
+  "roles": [
+    "none",
+    "facts",
+    "issue",
+    "petitioner_argument",
+    "respondent_argument",
+    "reasoning",
+    "decision"
+  ],
+  "panels": {
+    "balanced isolated sentences": {
+      "n": 112,
+      "cases": 98,
+      "supports": {
+        "none": 16,
+        "facts": 16,
+        "issue": 16,
+        "petitioner_argument": 16,
+        "respondent_argument": 16,
+        "reasoning": 16,
+        "decision": 16
+      },
+      "sources": {
+        "approved_sha256": "956e2e2ef4da0ef8415ddab12d9a9f8226d7154f46279043110f8e4cfa49a77c",
+        "answers_sha256": "3496e4fe3428d974a5abe13da13fb763d1bdf500e20c0e9fdd2e9a7f0c2bfdb8",
+        "archived_specialist_predictions_sha256": "3a683a6d3030fe8134b66a1a72f7eda598077a740226dfff0a74a396da525109",
+        "specialist_checkpoint_sha256": "db6d79db77eb09db46b7567a1977a44a761ed3ff40f7472d12be9691a4223453"
+      },
+      "scores": {
+        "Gemini Decisions": {
+          "macro_f1": 0.388135456202683,
+          "accuracy": 0.41964285714285715,
+          "per_role_f1": {
+            "none": 0.11764705882352941,
+            "facts": 0.6285714285714286,
+            "issue": 0.45454545454545453,
+            "petitioner_argument": 0.2962962962962963,
+            "respondent_argument": 0.19047619047619047,
+            "reasoning": 0.38235294117647056,
+            "decision": 0.6470588235294118
+          },
+          "correct": 47,
+          "agrees_with_gemini": 112,
+          "accuracy_delta_vs_gemini_ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "archived InLegalBERT excerpt MLP": {
+          "macro_f1": 0.40914169485598045,
+          "accuracy": 0.4107142857142857,
+          "per_role_f1": {
+            "none": 0.22727272727272727,
+            "facts": 0.5945945945945946,
+            "issue": 0.47619047619047616,
+            "petitioner_argument": 0.2857142857142857,
+            "respondent_argument": 0.2857142857142857,
+            "reasoning": 0.4230769230769231,
+            "decision": 0.5714285714285714
+          },
+          "correct": 46,
+          "agrees_with_gemini": 63,
+          "accuracy_delta_vs_gemini_ci95": [
+            -0.09345794392523366,
+            0.07760307346326827
+          ]
+        },
+        "source": {
+          "macro_f1": 0.08168421052631579,
+          "accuracy": 0.16964285714285715,
+          "per_role_f1": {
+            "none": 0.256,
+            "facts": 0.0,
+            "issue": 0.0,
+            "petitioner_argument": 0.0,
+            "respondent_argument": 0.0,
+            "reasoning": 0.0,
+            "decision": 0.3157894736842105
+          },
+          "correct": 19,
+          "agrees_with_gemini": 4,
+          "accuracy_delta_vs_gemini_ci95": [
+            -0.3760703363914373,
+            -0.12497234513274351
+          ]
+        },
+        "document-prior": {
+          "macro_f1": 0.08168421052631579,
+          "accuracy": 0.16964285714285715,
+          "per_role_f1": {
+            "none": 0.256,
+            "facts": 0.0,
+            "issue": 0.0,
+            "petitioner_argument": 0.0,
+            "respondent_argument": 0.0,
+            "reasoning": 0.0,
+            "decision": 0.3157894736842105
+          },
+          "correct": 19,
+          "agrees_with_gemini": 4,
+          "accuracy_delta_vs_gemini_ci95": [
+            -0.3760703363914373,
+            -0.12497234513274351
+          ]
+        },
+        "retention": {
+          "macro_f1": 0.08168421052631579,
+          "accuracy": 0.16964285714285715,
+          "per_role_f1": {
+            "none": 0.256,
+            "facts": 0.0,
+            "issue": 0.0,
+            "petitioner_argument": 0.0,
+            "respondent_argument": 0.0,
+            "reasoning": 0.0,
+            "decision": 0.3157894736842105
+          },
+          "correct": 19,
+          "agrees_with_gemini": 4,
+          "accuracy_delta_vs_gemini_ci95": [
+            -0.3760703363914373,
+            -0.12497234513274351
+          ]
+        },
+        "retention-prior": {
+          "macro_f1": 0.08168421052631579,
+          "accuracy": 0.16964285714285715,
+          "per_role_f1": {
+            "none": 0.256,
+            "facts": 0.0,
+            "issue": 0.0,
+            "petitioner_argument": 0.0,
+            "respondent_argument": 0.0,
+            "reasoning": 0.0,
+            "decision": 0.3157894736842105
+          },
+          "correct": 19,
+          "agrees_with_gemini": 4,
+          "accuracy_delta_vs_gemini_ci95": [
+            -0.3760703363914373,
+            -0.12497234513274351
+          ]
+        },
+        "current-20-percent": {
+          "macro_f1": 0.11430045702491522,
+          "accuracy": 0.1875,
+          "per_role_f1": {
+            "none": 0.26666666666666666,
+            "facts": 0.0,
+            "issue": 0.11764705882352941,
+            "petitioner_argument": 0.0,
+            "respondent_argument": 0.0,
+            "reasoning": 0.1,
+            "decision": 0.3157894736842105
+          },
+          "correct": 21,
+          "agrees_with_gemini": 8,
+          "accuracy_delta_vs_gemini_ci95": [
+            -0.35779816513761464,
+            -0.10810810810810811
+          ]
+        }
+      }
+    },
+    "independent singleton case sample": {
+      "n": 196,
+      "cases": 196,
+      "supports": {
+        "none": 65,
+        "facts": 20,
+        "issue": 0,
+        "petitioner_argument": 17,
+        "respondent_argument": 10,
+        "reasoning": 68,
+        "decision": 16
+      },
+      "sources": {
+        "approved_sha256": "25b6460cd7b8c070d3610e9a02b57f5ecc9d0629a72014a407f448d1cc35520a",
+        "answers_sha256": "33abcbf1fe35f979068035a8aaa6d5b4f532e832b99f53d55fdb0b9b4215a59d",
+        "archived_specialist_predictions_sha256": "2c8626ff2a7a3cfda412983f12d257f6d61429a30b3cb441ba11710a2a19a0b3",
+        "specialist_checkpoint_sha256": "db6d79db77eb09db46b7567a1977a44a761ed3ff40f7472d12be9691a4223453"
+      },
+      "scores": {
+        "Gemini Decisions": {
+          "macro_f1": 0.36367130340915504,
+          "accuracy": 0.4336734693877551,
+          "per_role_f1": {
+            "none": 0.08695652173913043,
+            "facts": 0.2564102564102564,
+            "issue": 0.0,
+            "petitioner_argument": 0.32432432432432434,
+            "respondent_argument": 0.5882352941176471,
+            "reasoning": 0.5625,
+            "decision": 0.7272727272727273
+          },
+          "correct": 85,
+          "agrees_with_gemini": 196,
+          "accuracy_delta_vs_gemini_ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "archived InLegalBERT excerpt MLP": {
+          "macro_f1": 0.3455255052212456,
+          "accuracy": 0.4387755102040816,
+          "per_role_f1": {
+            "none": 0.3793103448275862,
+            "facts": 0.35,
+            "issue": 0.0,
+            "petitioner_argument": 0.3888888888888889,
+            "respondent_argument": 0.23529411764705882,
+            "reasoning": 0.5466666666666666,
+            "decision": 0.5185185185185185
+          },
+          "correct": 86,
+          "agrees_with_gemini": 112,
+          "accuracy_delta_vs_gemini_ci95": [
+            -0.06632653061224486,
+            0.08163265306122447
+          ]
+        },
+        "source": {
+          "macro_f1": 0.10345038916467487,
+          "accuracy": 0.34183673469387754,
+          "per_role_f1": {
+            "none": 0.5019305019305019,
+            "facts": 0.0,
+            "issue": 0.0,
+            "petitioner_argument": 0.0,
+            "respondent_argument": 0.0,
+            "reasoning": 0.0,
+            "decision": 0.2222222222222222
+          },
+          "correct": 67,
+          "agrees_with_gemini": 6,
+          "accuracy_delta_vs_gemini_ci95": [
+            -0.20408163265306123,
+            0.030612244897959218
+          ]
+        },
+        "document-prior": {
+          "macro_f1": 0.08823529411764706,
+          "accuracy": 0.336734693877551,
+          "per_role_f1": {
+            "none": 0.5,
+            "facts": 0.0,
+            "issue": 0.0,
+            "petitioner_argument": 0.0,
+            "respondent_argument": 0.0,
+            "reasoning": 0.0,
+            "decision": 0.11764705882352941
+          },
+          "correct": 66,
+          "agrees_with_gemini": 5,
+          "accuracy_delta_vs_gemini_ci95": [
+            -0.21428571428571425,
+            0.02551020408163268
+          ]
+        },
+        "retention": {
+          "macro_f1": 0.1294052251250695,
+          "accuracy": 0.3520408163265306,
+          "per_role_f1": {
+            "none": 0.5058365758754864,
+            "facts": 0.0,
+            "issue": 0.0,
+            "petitioner_argument": 0.0,
+            "respondent_argument": 0.0,
+            "reasoning": 0.0,
+            "decision": 0.4
+          },
+          "correct": 69,
+          "agrees_with_gemini": 8,
+          "accuracy_delta_vs_gemini_ci95": [
+            -0.1989795918367347,
+            0.040816326530612235
+          ]
+        },
+        "retention-prior": {
+          "macro_f1": 0.1294052251250695,
+          "accuracy": 0.3520408163265306,
+          "per_role_f1": {
+            "none": 0.5058365758754864,
+            "facts": 0.0,
+            "issue": 0.0,
+            "petitioner_argument": 0.0,
+            "respondent_argument": 0.0,
+            "reasoning": 0.0,
+            "decision": 0.4
+          },
+          "correct": 69,
+          "agrees_with_gemini": 8,
+          "accuracy_delta_vs_gemini_ci95": [
+            -0.1989795918367347,
+            0.040816326530612235
+          ]
+        },
+        "current-20-percent": {
+          "macro_f1": 0.16954865775688324,
+          "accuracy": 0.37755102040816324,
+          "per_role_f1": {
+            "none": 0.5163934426229508,
+            "facts": 0.0,
+            "issue": 0.0,
+            "petitioner_argument": 0.0,
+            "respondent_argument": 0.18181818181818182,
+            "reasoning": 0.1728395061728395,
+            "decision": 0.3157894736842105
+          },
+          "correct": 74,
+          "agrees_with_gemini": 16,
+          "accuracy_delta_vs_gemini_ci95": [
+            -0.163265306122449,
+            0.06122448979591838
+          ]
+        }
+      }
+    },
+    "single human-labeled multi-statement rows": {
+      "n": 21,
+      "cases": 17,
+      "supports": {
+        "none": 3,
+        "facts": 3,
+        "issue": 3,
+        "petitioner_argument": 3,
+        "respondent_argument": 3,
+        "reasoning": 3,
+        "decision": 3
+      },
+      "sources": {
+        "approved_sha256": "4213045eaffadb01c4ce9b044d2e97ca25f80b87049761f66fc588999f69b9bc",
+        "answers_sha256": "02a8f6243eb3b3fb07b9f91026a34708e78f157099c9aef3a706ec1f1ec84d28",
+        "archived_specialist_predictions_sha256": "ee5b090d63f9beeccd6448c241b2920bc7f306ee9be9f3b3a9e0deda786f3f23",
+        "specialist_checkpoint_sha256": "db6d79db77eb09db46b7567a1977a44a761ed3ff40f7472d12be9691a4223453"
+      },
+      "scores": {
+        "Gemini Decisions": {
+          "macro_f1": 0.3904761904761904,
+          "accuracy": 0.38095238095238093,
+          "per_role_f1": {
+            "none": 0.0,
+            "facts": 0.16666666666666666,
+            "issue": 0.5,
+            "petitioner_argument": 0.5,
+            "respondent_argument": 0.5,
+            "reasoning": 0.4,
+            "decision": 0.6666666666666666
+          },
+          "correct": 8,
+          "agrees_with_gemini": 21,
+          "accuracy_delta_vs_gemini_ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "archived InLegalBERT excerpt MLP": {
+          "macro_f1": 0.2852813852813853,
+          "accuracy": 0.3333333333333333,
+          "per_role_f1": {
+            "none": 0.36363636363636365,
+            "facts": 0.5,
+            "issue": 0.0,
+            "petitioner_argument": 0.3333333333333333,
+            "respondent_argument": 0.0,
+            "reasoning": 0.4,
+            "decision": 0.4
+          },
+          "correct": 7,
+          "agrees_with_gemini": 9,
+          "accuracy_delta_vs_gemini_ci95": [
+            -0.25,
+            0.16666666666666669
+          ]
+        },
+        "source": {
+          "macro_f1": 0.09610389610389611,
+          "accuracy": 0.19047619047619047,
+          "per_role_f1": {
+            "none": 0.2727272727272727,
+            "facts": 0.0,
+            "issue": 0.0,
+            "petitioner_argument": 0.0,
+            "respondent_argument": 0.0,
+            "reasoning": 0.0,
+            "decision": 0.4
+          },
+          "correct": 4,
+          "agrees_with_gemini": 2,
+          "accuracy_delta_vs_gemini_ci95": [
+            -0.5,
+            0.11121794871794813
+          ]
+        },
+        "document-prior": {
+          "macro_f1": 0.09610389610389611,
+          "accuracy": 0.19047619047619047,
+          "per_role_f1": {
+            "none": 0.2727272727272727,
+            "facts": 0.0,
+            "issue": 0.0,
+            "petitioner_argument": 0.0,
+            "respondent_argument": 0.0,
+            "reasoning": 0.0,
+            "decision": 0.4
+          },
+          "correct": 4,
+          "agrees_with_gemini": 2,
+          "accuracy_delta_vs_gemini_ci95": [
+            -0.5,
+            0.11121794871794813
+          ]
+        },
+        "retention": {
+          "macro_f1": 0.09610389610389611,
+          "accuracy": 0.19047619047619047,
+          "per_role_f1": {
+            "none": 0.2727272727272727,
+            "facts": 0.0,
+            "issue": 0.0,
+            "petitioner_argument": 0.0,
+            "respondent_argument": 0.0,
+            "reasoning": 0.0,
+            "decision": 0.4
+          },
+          "correct": 4,
+          "agrees_with_gemini": 2,
+          "accuracy_delta_vs_gemini_ci95": [
+            -0.5,
+            0.11121794871794813
+          ]
+        },
+        "retention-prior": {
+          "macro_f1": 0.09610389610389611,
+          "accuracy": 0.19047619047619047,
+          "per_role_f1": {
+            "none": 0.2727272727272727,
+            "facts": 0.0,
+            "issue": 0.0,
+            "petitioner_argument": 0.0,
+            "respondent_argument": 0.0,
+            "reasoning": 0.0,
+            "decision": 0.4
+          },
+          "correct": 4,
+          "agrees_with_gemini": 2,
+          "accuracy_delta_vs_gemini_ci95": [
+            -0.5,
+            0.11121794871794813
+          ]
+        },
+        "current-20-percent": {
+          "macro_f1": 0.09610389610389611,
+          "accuracy": 0.19047619047619047,
+          "per_role_f1": {
+            "none": 0.2727272727272727,
+            "facts": 0.0,
+            "issue": 0.0,
+            "petitioner_argument": 0.0,
+            "respondent_argument": 0.0,
+            "reasoning": 0.0,
+            "decision": 0.4
+          },
+          "correct": 4,
+          "agrees_with_gemini": 2,
+          "accuracy_delta_vs_gemini_ci95": [
+            -0.5,
+            0.11121794871794813
+          ]
+        }
+      }
+    },
+    "joined same-role paragraphs": {
+      "n": 28,
+      "cases": 28,
+      "supports": {
+        "none": 4,
+        "facts": 4,
+        "issue": 4,
+        "petitioner_argument": 4,
+        "respondent_argument": 4,
+        "reasoning": 4,
+        "decision": 4
+      },
+      "sources": {
+        "approved_sha256": "65d80afa4bcd48884bdd6904ac29169e193f39c76dc3593b5aa74a185413a1ff",
+        "answers_sha256": "35b25d0ab3312e120946b7a28604396c81ac3a2379593223023fa3df317ff445",
+        "archived_specialist_predictions_sha256": "6ff91c90999ee34b01739fc3af84d6b70ce73832d045583e9ae1afeef9e97c30",
+        "specialist_checkpoint_sha256": "db6d79db77eb09db46b7567a1977a44a761ed3ff40f7472d12be9691a4223453"
+      },
+      "scores": {
+        "Gemini Decisions": {
+          "macro_f1": 0.3794665234514859,
+          "accuracy": 0.39285714285714285,
+          "per_role_f1": {
+            "none": 0.0,
+            "facts": 0.2857142857142857,
+            "issue": 0.3333333333333333,
+            "petitioner_argument": 0.5714285714285714,
+            "respondent_argument": 0.4,
+            "reasoning": 0.3157894736842105,
+            "decision": 0.75
+          },
+          "correct": 11,
+          "agrees_with_gemini": 28,
+          "accuracy_delta_vs_gemini_ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "archived InLegalBERT excerpt MLP": {
+          "macro_f1": 0.36224489795918363,
+          "accuracy": 0.39285714285714285,
+          "per_role_f1": {
+            "none": 0.25,
+            "facts": 0.6666666666666666,
+            "issue": 0.3333333333333333,
+            "petitioner_argument": 0.0,
+            "respondent_argument": 0.0,
+            "reasoning": 0.42857142857142855,
+            "decision": 0.8571428571428571
+          },
+          "correct": 11,
+          "agrees_with_gemini": 15,
+          "accuracy_delta_vs_gemini_ci95": [
+            -0.21428571428571425,
+            0.21428571428571425
+          ]
+        },
+        "source": {
+          "macro_f1": 0.13333333333333333,
+          "accuracy": 0.21428571428571427,
+          "per_role_f1": {
+            "none": 0.26666666666666666,
+            "facts": 0.0,
+            "issue": 0.0,
+            "petitioner_argument": 0.0,
+            "respondent_argument": 0.0,
+            "reasoning": 0.0,
+            "decision": 0.6666666666666666
+          },
+          "correct": 6,
+          "agrees_with_gemini": 2,
+          "accuracy_delta_vs_gemini_ci95": [
+            -0.42857142857142855,
+            0.07142857142857145
+          ]
+        },
+        "document-prior": {
+          "macro_f1": 0.09400921658986175,
+          "accuracy": 0.17857142857142858,
+          "per_role_f1": {
+            "none": 0.25806451612903225,
+            "facts": 0.0,
+            "issue": 0.0,
+            "petitioner_argument": 0.0,
+            "respondent_argument": 0.0,
+            "reasoning": 0.0,
+            "decision": 0.4
+          },
+          "correct": 5,
+          "agrees_with_gemini": 1,
+          "accuracy_delta_vs_gemini_ci95": [
+            -0.4642857142857143,
+            0.0357142857142857
+          ]
+        },
+        "retention": {
+          "macro_f1": 0.13333333333333333,
+          "accuracy": 0.21428571428571427,
+          "per_role_f1": {
+            "none": 0.26666666666666666,
+            "facts": 0.0,
+            "issue": 0.0,
+            "petitioner_argument": 0.0,
+            "respondent_argument": 0.0,
+            "reasoning": 0.0,
+            "decision": 0.6666666666666666
+          },
+          "correct": 6,
+          "agrees_with_gemini": 2,
+          "accuracy_delta_vs_gemini_ci95": [
+            -0.42857142857142855,
+            0.07142857142857145
+          ]
+        },
+        "retention-prior": {
+          "macro_f1": 0.13333333333333333,
+          "accuracy": 0.21428571428571427,
+          "per_role_f1": {
+            "none": 0.26666666666666666,
+            "facts": 0.0,
+            "issue": 0.0,
+            "petitioner_argument": 0.0,
+            "respondent_argument": 0.0,
+            "reasoning": 0.0,
+            "decision": 0.6666666666666666
+          },
+          "correct": 6,
+          "agrees_with_gemini": 2,
+          "accuracy_delta_vs_gemini_ci95": [
+            -0.42857142857142855,
+            0.07142857142857145
+          ]
+        },
+        "current-20-percent": {
+          "macro_f1": 0.3091156462585034,
+          "accuracy": 0.32142857142857145,
+          "per_role_f1": {
+            "none": 0.24,
+            "facts": 0.6666666666666666,
+            "issue": 0.4,
+            "petitioner_argument": 0.0,
+            "respondent_argument": 0.0,
+            "reasoning": 0.0,
+            "decision": 0.8571428571428571
+          },
+          "correct": 9,
+          "agrees_with_gemini": 5,
+          "accuracy_delta_vs_gemini_ci95": [
+            -0.3214285714285714,
+            0.17857142857142855
+          ]
+        }
+      }
+    }
+  },
+  "local_predictions_sha256": "e95871b0c5a6c8ea0d95febd8534fbb36931022f205c8888e7627afefd5e62b0",
+  "per_item_ledger_sha256": "296fdc55b670057f096de330e1300a8aaec9ed8e8a03dfc1e2dee9fb5a02ad94"
+}

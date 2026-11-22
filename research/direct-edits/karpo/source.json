@@ -1,0 +1,69 @@
+{
+  "repo": "MachinePulseAI/karpo-decision-0.8B",
+  "revision": "fae75d7bf93fc7e5c37b1ff631b64e9474e4d797",
+  "source_commit": "6600011eb5cf46232d056ec0717dc726146d29de",
+  "license": "apache-2.0",
+  "backbone_parameters": 852985920,
+  "files": {
+    "LICENSE": {
+      "size": 11353,
+      "git_blob": "c984238c626133272c99281bd160a52afe8e28fd",
+      "sha256": null
+    },
+    "NOTICE": {
+      "size": 855,
+      "git_blob": "ed4be9eb29e6fabf1f5478026a9f24a037e44213",
+      "sha256": null
+    },
+    "licenses/Qwen3.5-LICENSE": {
+      "size": 11544,
+      "git_blob": "f938136e3adacfd92be087f6e113b5d6d97f678f",
+      "sha256": null
+    },
+    "chat_template.jinja": {
+      "size": 7755,
+      "git_blob": "0ef09f214eaa6d9bca297988afc1454b5827b2c7",
+      "sha256": null
+    },
+    "config.json": {
+      "size": 2676,
+      "git_blob": "81f1ff4af76b9862ae9608cb36cee887b5787bc1",
+      "sha256": null
+    },
+    "decision_config.json": {
+      "size": 4463,
+      "git_blob": "42eace176bdfb75a8383ded116a543a6c35caa8d",
+      "sha256": null
+    },
+    "model.safetensors.index.json": {
+      "size": 39155,
+      "git_blob": "17e986ed69dfe8cf2797cb2c1a440c271bc64d3a",
+      "sha256": null
+    },
+    "processor_config.json": {
+      "size": 1219,
+      "git_blob": "424539fa61b2d9d23bf0e481ca3078e9ff404b12",
+      "sha256": null
+    },
+    "readout.safetensors": {
+      "size": 1044560,
+      "git_blob": "f46a584af7e03d0a2c2bdbb19c7881799e5e387d",
+      "sha256": "e290da9edde55094aff5aa26c7b6d0f5a65b08eac590570af35a2c6fb0d6983e"
+    },
+    "tokenizer.json": {
+      "size": 19989339,
+      "git_blob": "a200a8dd650a52c17957673398767ac34b96dbeb",
+      "sha256": "a5cd9732badce41de57e6efce8302930ded1c1188c5f81feb2bd6c24c4a1941f"
+    },
+    "tokenizer_config.json": {
+      "size": 1506,
+      "git_blob": "4d465a76c11541f47e986c4cf119038fc91a2fb4",
+      "sha256": null
+    },
+    "model-00001-of-00001.safetensors": {
+      "size": 1706027688,
+      "git_blob": "f7cc84fd2a7ce212a1ab3b826d368ea563bad903",
+      "sha256": "656bc586f18e9c26df29033ebd50036b33004de82b2c61e4a670124e88d3143f"
+    }
+  }
+}

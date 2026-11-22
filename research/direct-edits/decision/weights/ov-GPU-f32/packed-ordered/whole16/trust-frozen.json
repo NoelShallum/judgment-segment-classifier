@@ -1,0 +1,43 @@
+{
+  "plan_sha256": "cb40cecd820f5b7aa5f69c680fe6b4a144482edce278e5af51da0167532bb161",
+  "parents": {
+    "readout": "d10551d092ec02bdaaa539eb09be110369897bf124cda280b3c30c3ca15e2a20",
+    "internal": "48ce97a67f3a1dabc91db23b068b2174cae247dfcfab64cc594c75b2d959cd29"
+  },
+  "changes": {
+    "readout": {
+      "factor": 0.2391711063585806,
+      "sha256": "07b53d16e3c6a5b1370d4426619c39bd210b3ced2f7044330173d7e7614e6335",
+      "target": "weight",
+      "shape": [
+        255,
+        1024
+      ],
+      "dtype": "torch.bfloat16",
+      "changed_values": 7021,
+      "total_values": 261120,
+      "frobenius_delta": 0.1635577380657196,
+      "frobenius_original": 10.72443962097168,
+      "maximum_abs_delta": 0.0079345703125,
+      "original_tensor_sha256": "fadb95f7e2aeb248f8aace4a9e0d3e59ee1883b14dce6daecffa6cef27aea85d",
+      "edited_tensor_sha256": "4851e2332c64b705619db2c07b95903703b49c7a04fec8054ebedfeb69ecd947"
+    },
+    "internal": {
+      "factor": 0.24161334261728112,
+      "sha256": "c941cb610b66a6996b404779ef14ad95d9ad9214183eb58ab2709e1cd84c3acc",
+      "target": "model.layers.27.mlp.Wo.weight",
+      "shape": [
+        1024,
+        2624
+      ],
+      "dtype": "torch.bfloat16",
+      "changed_values": 2552560,
+      "total_values": 2686976,
+      "frobenius_delta": 12.518513679504395,
+      "frobenius_original": 125.18991088867188,
+      "maximum_abs_delta": 0.18194580078125,
+      "original_tensor_sha256": "aa236ec2d86f509738904349e5de74ee503f51fa148bfab994f7730421cb9db2",
+      "edited_tensor_sha256": "1f28b152625e9b745b75efdc6876da66f08cfbd73a5998c709f7b87652c54883"
+    }
+  }
+}

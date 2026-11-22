@@ -1,0 +1,98 @@
+{
+  "donor_revision": "16fb9d63cc34d1b4b5a1fb7cbf2d9d4a3dd5ad71",
+  "encoder_sha256": "4540aa6d168fd15b06f7d6a61c34dd45523b5a0a1a72f98f1b2a81cf60774f34",
+  "readout_sha256": "0cb6da049081b05dc60dcf0c9f95dc4309c8849ab921f61f67f4658172b57f2a",
+  "plan_sha256": "fec1969a3019410c0c52fc6c8d871d707d4eeb459038e5eb985d98223e283cf5",
+  "backend": "int8",
+  "arm": "alone",
+  "training": "pilot",
+  "train_sentences": 87,
+  "training_judgments": [
+    "2750",
+    "1504",
+    "474"
+  ],
+  "support": [
+    14,
+    15,
+    7,
+    11,
+    12,
+    18,
+    10
+  ],
+  "maximum_replay_native_error": 1.430511474609375e-06,
+  "gradient_steps": 0,
+  "files": {
+    "roles-readout.safetensors": {
+      "sha256": "deb1dabed8cee6c027e5a355a0e42fa6f19cbe9eb560eec6d03cb8f20d42747f",
+      "tensor": "weight",
+      "native_name": "readout.safetensors:weight",
+      "edited_rows": "0-6 inclusive",
+      "shape": [
+        255,
+        1024
+      ],
+      "dtype": "torch.bfloat16",
+      "changed_values": 7124,
+      "total_values": 261120,
+      "frobenius_delta": 0.5481052398681641,
+      "frobenius_original": 10.72443962097168,
+      "maximum_abs_delta": 0.031982421875,
+      "original_tensor_sha256": "fadb95f7e2aeb248f8aace4a9e0d3e59ee1883b14dce6daecffa6cef27aea85d",
+      "edited_tensor_sha256": "b60e39927e85347a46ac634e83230abdde8d0c028cca339c5c034c6e88276cea"
+    },
+    "roles-internal.safetensors": {
+      "sha256": "9cb141590defebc7088a1b06a227e83e28a7293d0f085cb262de809fd9c3759f",
+      "tensor": "model.layers.27.mlp.Wo.weight",
+      "calculated_rank_before_rounding": 6,
+      "shape": [
+        1024,
+        2624
+      ],
+      "dtype": "torch.bfloat16",
+      "changed_values": 2669099,
+      "total_values": 2686976,
+      "frobenius_delta": 61.92530822753906,
+      "frobenius_original": 125.18991088867188,
+      "maximum_abs_delta": 0.88427734375,
+      "original_tensor_sha256": "aa236ec2d86f509738904349e5de74ee503f51fa148bfab994f7730421cb9db2",
+      "edited_tensor_sha256": "ed251b22c95a4edec9a174b957f502cf46e29bcbb46ee871d1902c8b47248e0c"
+    },
+    "shuffled-readout.safetensors": {
+      "sha256": "1f01021136e85d275dee1bfe8f4629f34072a4f8ed8d3346643a6c4cc1280b85",
+      "tensor": "weight",
+      "native_name": "readout.safetensors:weight",
+      "edited_rows": "0-6 inclusive",
+      "shape": [
+        255,
+        1024
+      ],
+      "dtype": "torch.bfloat16",
+      "changed_values": 7135,
+      "total_values": 261120,
+      "frobenius_delta": 0.6405965685844421,
+      "frobenius_original": 10.72443962097168,
+      "maximum_abs_delta": 0.055908203125,
+      "original_tensor_sha256": "fadb95f7e2aeb248f8aace4a9e0d3e59ee1883b14dce6daecffa6cef27aea85d",
+      "edited_tensor_sha256": "b06b2dbc7c45f08df28fea21575ee10c053280d2ccb899c1444297bc618e0fd6"
+    },
+    "shuffled-internal.safetensors": {
+      "sha256": "baa2b783ee3bbb564d423840c1e0e86ae01d87bdc64a866558cb99cadc2ad106",
+      "tensor": "model.layers.27.mlp.Wo.weight",
+      "calculated_rank_before_rounding": 6,
+      "shape": [
+        1024,
+        2624
+      ],
+      "dtype": "torch.bfloat16",
+      "changed_values": 2669739,
+      "total_values": 2686976,
+      "frobenius_delta": 66.71477508544922,
+      "frobenius_original": 125.18991088867188,
+      "maximum_abs_delta": 0.81298828125,
+      "original_tensor_sha256": "aa236ec2d86f509738904349e5de74ee503f51fa148bfab994f7730421cb9db2",
+      "edited_tensor_sha256": "3afd7b630ee02bf38f1400e08d8ba08f3a9e20c7736bd9d27afcc56433d48cd8"
+    }
+  }
+}

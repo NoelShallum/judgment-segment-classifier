@@ -1,0 +1,347 @@
+[
+  {
+    "id": "joined-30432-30433",
+    "source": "homogeneous",
+    "doc": "6573",
+    "gold": "none",
+    "source_rows": [
+      30432,
+      30433
+    ],
+    "sha256": "b361d3f9fa2fc0da64dedbb56b039ff420cef6809cc599fd480cc540f9ca7308",
+    "transformation": "joined adjacent unreordered rows from the same judgment; every source label agrees"
+  },
+  {
+    "id": "joined-27447-27448",
+    "source": "homogeneous",
+    "doc": "6559",
+    "gold": "none",
+    "source_rows": [
+      27447,
+      27448
+    ],
+    "sha256": "4c713b86375c6e02159f1ea151f6390be5a16259a60fd4decbe4e0d0d5f77ed5",
+    "transformation": "joined adjacent unreordered rows from the same judgment; every source label agrees"
+  },
+  {
+    "id": "joined-122575-122576",
+    "source": "homogeneous",
+    "doc": "6994",
+    "gold": "none",
+    "source_rows": [
+      122575,
+      122576
+    ],
+    "sha256": "59139fbd3ea281cc0d5b9b08f6ba679e62d2a660bc8dd85db9732c04bb29a901",
+    "transformation": "joined adjacent unreordered rows from the same judgment; every source label agrees"
+  },
+  {
+    "id": "joined-87251-87252",
+    "source": "homogeneous",
+    "doc": "6829",
+    "gold": "none",
+    "source_rows": [
+      87251,
+      87252
+    ],
+    "sha256": "68b792d4ed3570d12ac3ddf7501973d2180a32b6521fb2684b9a44d11838b528",
+    "transformation": "joined adjacent unreordered rows from the same judgment; every source label agrees"
+  },
+  {
+    "id": "joined-82062-82064",
+    "source": "homogeneous",
+    "doc": "6806",
+    "gold": "facts",
+    "source_rows": [
+      82062,
+      82063,
+      82064
+    ],
+    "sha256": "df16792f174536e4fda4fa4da6c177601fb11f1f5039dde5c7926c3295512fef",
+    "transformation": "joined adjacent unreordered rows from the same judgment; every source label agrees"
+  },
+  {
+    "id": "joined-81104-81105",
+    "source": "homogeneous",
+    "doc": "6802",
+    "gold": "facts",
+    "source_rows": [
+      81104,
+      81105
+    ],
+    "sha256": "c88a461e57ee0e99d3b79a5dfdfd3ff8af3dd286f16802ea6fda8b2774eabc94",
+    "transformation": "joined adjacent unreordered rows from the same judgment; every source label agrees"
+  },
+  {
+    "id": "joined-66506-66508",
+    "source": "homogeneous",
+    "doc": "6732",
+    "gold": "facts",
+    "source_rows": [
+      66506,
+      66507,
+      66508
+    ],
+    "sha256": "798afe62ac63a29f5a16ee1aa969bc99789871ae257b905452b2fce46c7bd7fc",
+    "transformation": "joined adjacent unreordered rows from the same judgment; every source label agrees"
+  },
+  {
+    "id": "joined-38828-38830",
+    "source": "homogeneous",
+    "doc": "6605",
+    "gold": "facts",
+    "source_rows": [
+      38828,
+      38829,
+      38830
+    ],
+    "sha256": "3bf47731a5f3888cd907cc4ff7fe294ebe99fe305dd883e3fee4d4da70d35f20",
+    "transformation": "joined adjacent unreordered rows from the same judgment; every source label agrees"
+  },
+  {
+    "id": "joined-13621-13622",
+    "source": "homogeneous",
+    "doc": "6488",
+    "gold": "issue",
+    "source_rows": [
+      13621,
+      13622
+    ],
+    "sha256": "0d94086c0e5695d19b7bd9728c4bb42d712bcf86d5556328fa3b98e8f7d42cb1",
+    "transformation": "joined adjacent unreordered rows from the same judgment; every source label agrees"
+  },
+  {
+    "id": "joined-54412-54413",
+    "source": "homogeneous",
+    "doc": "6677",
+    "gold": "issue",
+    "source_rows": [
+      54412,
+      54413
+    ],
+    "sha256": "6853cb8e9ef71521ea274fefefe60048e143599ffac06db74c1b04defc41637b",
+    "transformation": "joined adjacent unreordered rows from the same judgment; every source label agrees"
+  },
+  {
+    "id": "joined-16814-16815",
+    "source": "homogeneous",
+    "doc": "6501",
+    "gold": "issue",
+    "source_rows": [
+      16814,
+      16815
+    ],
+    "sha256": "d3635b7fc12cbb786165e8b60213d752c653e8f349b4eb932c6eac6fe9e6c34f",
+    "transformation": "joined adjacent unreordered rows from the same judgment; every source label agrees"
+  },
+  {
+    "id": "joined-10597-10598",
+    "source": "homogeneous",
+    "doc": "6467",
+    "gold": "issue",
+    "source_rows": [
+      10597,
+      10598
+    ],
+    "sha256": "571652dd88d950c7f9511b4781ae1b0cdcc758e84d6c55f34c57ca94b345c745",
+    "transformation": "joined adjacent unreordered rows from the same judgment; every source label agrees"
+  },
+  {
+    "id": "joined-46075-46076",
+    "source": "homogeneous",
+    "doc": "6641",
+    "gold": "petitioner_argument",
+    "source_rows": [
+      46075,
+      46076
+    ],
+    "sha256": "a89c86ca5b222a19997ecf65e7ce0f2bf4f269f0abf187db6305538be946dd89",
+    "transformation": "joined adjacent unreordered rows from the same judgment; every source label agrees"
+  },
+  {
+    "id": "joined-56736-56738",
+    "source": "homogeneous",
+    "doc": "6688",
+    "gold": "petitioner_argument",
+    "source_rows": [
+      56736,
+      56737,
+      56738
+    ],
+    "sha256": "4737cbd7593dbafc3f282ff577674c58e926b753729ed64f61f0887a07b81a0c",
+    "transformation": "joined adjacent unreordered rows from the same judgment; every source label agrees"
+  },
+  {
+    "id": "joined-65345-65346",
+    "source": "homogeneous",
+    "doc": "6726",
+    "gold": "petitioner_argument",
+    "source_rows": [
+      65345,
+      65346
+    ],
+    "sha256": "0da886b94bed41ec4eb590d048174b9ce5d2e8c9d5ee1a0126bf6130d03ab49a",
+    "transformation": "joined adjacent unreordered rows from the same judgment; every source label agrees"
+  },
+  {
+    "id": "joined-92631-92633",
+    "source": "homogeneous",
+    "doc": "6854",
+    "gold": "petitioner_argument",
+    "source_rows": [
+      92631,
+      92632,
+      92633
+    ],
+    "sha256": "1aa3f914de473e833fb20a93b408cdbf4416ee93ce216d936813a0d44abf35d4",
+    "transformation": "joined adjacent unreordered rows from the same judgment; every source label agrees"
+  },
+  {
+    "id": "joined-2353-2354",
+    "source": "homogeneous",
+    "doc": "6426",
+    "gold": "respondent_argument",
+    "source_rows": [
+      2353,
+      2354
+    ],
+    "sha256": "24b013fda4571e3145c5dc0ff85bb2afd03dfb0c0a3522d04406c38a68967b90",
+    "transformation": "joined adjacent unreordered rows from the same judgment; every source label agrees"
+  },
+  {
+    "id": "joined-74658-74660",
+    "source": "homogeneous",
+    "doc": "6768",
+    "gold": "respondent_argument",
+    "source_rows": [
+      74658,
+      74659,
+      74660
+    ],
+    "sha256": "7bac2436e315273181d0bd2f0789b3ac8018c160dd8f6f190b412fe2ee9c5775",
+    "transformation": "joined adjacent unreordered rows from the same judgment; every source label agrees"
+  },
+  {
+    "id": "joined-58201-58203",
+    "source": "homogeneous",
+    "doc": "6697",
+    "gold": "respondent_argument",
+    "source_rows": [
+      58201,
+      58202,
+      58203
+    ],
+    "sha256": "3663ede753802cd187216945c8dc8488e811ebb8d9ee1348fb82cbad9923dc90",
+    "transformation": "joined adjacent unreordered rows from the same judgment; every source label agrees"
+  },
+  {
+    "id": "joined-17661-17662",
+    "source": "homogeneous",
+    "doc": "6508",
+    "gold": "respondent_argument",
+    "source_rows": [
+      17661,
+      17662
+    ],
+    "sha256": "3856ef39d32bdaf84fc2b2251327109e69ce533a36a0c32e41b4fe6df9ee8219",
+    "transformation": "joined adjacent unreordered rows from the same judgment; every source label agrees"
+  },
+  {
+    "id": "joined-109366-109367",
+    "source": "homogeneous",
+    "doc": "6936",
+    "gold": "reasoning",
+    "source_rows": [
+      109366,
+      109367
+    ],
+    "sha256": "62fb8768308616bbcd7c62d97d1a24507a7433e92ae7746b343ea79d457d1228",
+    "transformation": "joined adjacent unreordered rows from the same judgment; every source label agrees"
+  },
+  {
+    "id": "joined-86944-86945",
+    "source": "homogeneous",
+    "doc": "6828",
+    "gold": "reasoning",
+    "source_rows": [
+      86944,
+      86945
+    ],
+    "sha256": "072222e7fbf4a29b7ad8a3b322a07d9162b3f7d8c582547859e7a61ad73150a0",
+    "transformation": "joined adjacent unreordered rows from the same judgment; every source label agrees"
+  },
+  {
+    "id": "joined-39697-39698",
+    "source": "homogeneous",
+    "doc": "6610",
+    "gold": "reasoning",
+    "source_rows": [
+      39697,
+      39698
+    ],
+    "sha256": "998e1e7dac82b1975d348b0665969a80a6333f5c13ffc91413df4e8695e8ed03",
+    "transformation": "joined adjacent unreordered rows from the same judgment; every source label agrees"
+  },
+  {
+    "id": "joined-22267-22268",
+    "source": "homogeneous",
+    "doc": "6532",
+    "gold": "reasoning",
+    "source_rows": [
+      22267,
+      22268
+    ],
+    "sha256": "2fe910a240abbb977d97a580d0437e00fa65b475fa6b6c4785bda2d4d1ef0737",
+    "transformation": "joined adjacent unreordered rows from the same judgment; every source label agrees"
+  },
+  {
+    "id": "joined-17612-17613",
+    "source": "homogeneous",
+    "doc": "6507",
+    "gold": "decision",
+    "source_rows": [
+      17612,
+      17613
+    ],
+    "sha256": "232c6df938854991b82d18c3630e2ff251f90947e7567e110b8e7db50a8685ee",
+    "transformation": "joined adjacent unreordered rows from the same judgment; every source label agrees"
+  },
+  {
+    "id": "joined-75255-75256",
+    "source": "homogeneous",
+    "doc": "6771",
+    "gold": "decision",
+    "source_rows": [
+      75255,
+      75256
+    ],
+    "sha256": "07f72aa3a3592d56fcecb10e7af31192d9a9ad0e35d7f247deee34b73b9f7a89",
+    "transformation": "joined adjacent unreordered rows from the same judgment; every source label agrees"
+  },
+  {
+    "id": "joined-1279-1281",
+    "source": "homogeneous",
+    "doc": "6418",
+    "gold": "decision",
+    "source_rows": [
+      1279,
+      1280,
+      1281
+    ],
+    "sha256": "f8ab7238a66d45f6ab3d1279070ffed7edae7bfad4a8f2bf3a0012e82279263a",
+    "transformation": "joined adjacent unreordered rows from the same judgment; every source label agrees"
+  },
+  {
+    "id": "joined-146839-146841",
+    "source": "homogeneous",
+    "doc": "7104",
+    "gold": "decision",
+    "source_rows": [
+      146839,
+      146840,
+      146841
+    ],
+    "sha256": "629c55cb09a03a3949778d38a5b849a460988e75f14a1858f9dcec23fed8eb6a",
+    "transformation": "joined adjacent unreordered rows from the same judgment; every source label agrees"
+  }
+]

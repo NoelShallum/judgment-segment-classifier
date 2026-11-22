@@ -1,0 +1,191 @@
+[
+  {
+    "source": "multi_sentence",
+    "id": "multisentence-82740",
+    "doc": "6809",
+    "gold": "none",
+    "sha256": "a630fd13d96db79e889766b3da25a8dfd74caaba74b8c05947c62118160f613d",
+    "original_sha256": "a630fd13d96db79e889766b3da25a8dfd74caaba74b8c05947c62118160f613d",
+    "transformation": "whitespace normalized; monetary amounts and dates masked when present"
+  },
+  {
+    "source": "multi_sentence",
+    "id": "multisentence-104084",
+    "doc": "6902",
+    "gold": "none",
+    "sha256": "27571e5f5714963d984ec68945db8dc9664d3947190b6103e789f738944990f4",
+    "original_sha256": "e0a329f81d1f39d7e6b2997f9f8536f821634b7122fed8aacc6ece52e7449dec",
+    "transformation": "whitespace normalized; monetary amounts and dates masked when present"
+  },
+  {
+    "source": "multi_sentence",
+    "id": "multisentence-66753",
+    "doc": "6734",
+    "gold": "none",
+    "sha256": "ca7a5fb53d4e6814fe6397c4d9fb2f3890ea10dd0caadfc89f4d4dca88887e37",
+    "original_sha256": "6929283aba9831c767397abb9eb4a7c8b762225d0b5c68821e15e869f89bf505",
+    "transformation": "whitespace normalized; monetary amounts and dates masked when present"
+  },
+  {
+    "source": "multi_sentence",
+    "id": "multisentence-21044",
+    "doc": "6524",
+    "gold": "facts",
+    "sha256": "04f8802047ae21b490adc879d10c01ea4643efb7512f59b889ff26e66865a262",
+    "original_sha256": "0bcc46c4e1f54d075a55e9066941682c66832a5ee742e60270243a7b8013505d",
+    "transformation": "whitespace normalized; monetary amounts and dates masked when present"
+  },
+  {
+    "source": "multi_sentence",
+    "id": "multisentence-92701",
+    "doc": "6855",
+    "gold": "facts",
+    "sha256": "3ee05068a6bc608589e45f4098b6b478eea4b067a87c5294946053dd59782315",
+    "original_sha256": "d226a5aa73f0502f5a36212e628116803addf61df05c5757e370f3e271ead4d6",
+    "transformation": "whitespace normalized; monetary amounts and dates masked when present"
+  },
+  {
+    "source": "multi_sentence",
+    "id": "multisentence-12478",
+    "doc": "6479",
+    "gold": "facts",
+    "sha256": "e4f7f5758d16738717fd27d63dea9c24f517b698d88bd89c7d0eb6a349bc1c19",
+    "original_sha256": "a2a6a5cdde86af289f02faff919fcfe831d15c6281a1f2e7d6f474f5b5bec681",
+    "transformation": "whitespace normalized; monetary amounts and dates masked when present"
+  },
+  {
+    "source": "multi_sentence",
+    "id": "multisentence-39710",
+    "doc": "6611",
+    "gold": "issue",
+    "sha256": "dc93b759da2a8064cf0ddb3c4dbab3e1f7c602124cd987754e0e06bc7aea4eca",
+    "original_sha256": "8a805865e8e0b67417414cf61113a28806d2be341f779eabc2115b09ee2d7104",
+    "transformation": "whitespace normalized; monetary amounts and dates masked when present"
+  },
+  {
+    "source": "multi_sentence",
+    "id": "multisentence-92686",
+    "doc": "6855",
+    "gold": "issue",
+    "sha256": "4496deb701165a746c1dbd3aa766a44e39f6f3457681d54e3e9a6e304802e597",
+    "original_sha256": "f5b9582246d745d97a89893e00d053de79836ab130d4c8e4b3d98238e9637a3d",
+    "transformation": "whitespace normalized; monetary amounts and dates masked when present"
+  },
+  {
+    "source": "multi_sentence",
+    "id": "multisentence-104070",
+    "doc": "6902",
+    "gold": "issue",
+    "sha256": "f7179792a8178780402ba0ca72d93c0187c492ad4d830c5b4e4bad7d467ac6c2",
+    "original_sha256": "3c1c0f2bcd4b5093fd1fd68fcec7a2e5317aef164493bf6c19dfb2a9c2cc246c",
+    "transformation": "whitespace normalized; monetary amounts and dates masked when present"
+  },
+  {
+    "source": "multi_sentence",
+    "id": "multisentence-114662",
+    "doc": "6954",
+    "gold": "petitioner_argument",
+    "sha256": "df29d8506a995d59a59c3f4b07cfa5a263e0a8b90030038e23ef477b90e46884",
+    "original_sha256": "df29d8506a995d59a59c3f4b07cfa5a263e0a8b90030038e23ef477b90e46884",
+    "transformation": "whitespace normalized; monetary amounts and dates masked when present"
+  },
+  {
+    "source": "multi_sentence",
+    "id": "multisentence-145222",
+    "doc": "7098",
+    "gold": "petitioner_argument",
+    "sha256": "598825dd206f75d609ccbafd699f85b2cb67fdf896e1bf219a5ae336846a898f",
+    "original_sha256": "33d422746380b518ecf2f4680bfbdf97878384366ec0088c4a300ea415212aed",
+    "transformation": "whitespace normalized; monetary amounts and dates masked when present"
+  },
+  {
+    "source": "multi_sentence",
+    "id": "multisentence-144926",
+    "doc": "7095",
+    "gold": "petitioner_argument",
+    "sha256": "4fa16fa89210ed55c609d0da3adf92f1ac9a44f5b0aa545792c68ace6bc8a376",
+    "original_sha256": "a0a557fc9b869fa44575c7a41b7f05f860ca1f264a935ccfe724f5348b03692e",
+    "transformation": "whitespace normalized; monetary amounts and dates masked when present"
+  },
+  {
+    "source": "multi_sentence",
+    "id": "multisentence-94381",
+    "doc": "6864",
+    "gold": "respondent_argument",
+    "sha256": "cd41913821e6c8108b23828e93d0cd652ab9662c8ec46471458cdc7a4936ee76",
+    "original_sha256": "76a56b72fad7100c50f73f56aa0dc9357aa33f1c5fa4b15abe32b1adb00cd18c",
+    "transformation": "whitespace normalized; monetary amounts and dates masked when present"
+  },
+  {
+    "source": "multi_sentence",
+    "id": "multisentence-123153",
+    "doc": "6995",
+    "gold": "respondent_argument",
+    "sha256": "48af080a58dbd1f5bcf401bb372a64ab40b71b89884c470919376a8384cb310b",
+    "original_sha256": "0b97dc10044596900d1fa3f9188152704c17e2ac5abc1c9cb6177de6913b08cb",
+    "transformation": "whitespace normalized; monetary amounts and dates masked when present"
+  },
+  {
+    "source": "multi_sentence",
+    "id": "multisentence-28152",
+    "doc": "6560",
+    "gold": "respondent_argument",
+    "sha256": "6d5aa203637b2f6544526009be6cf8ed3eed3f440ea4c776c974e7fb246fea68",
+    "original_sha256": "6d5aa203637b2f6544526009be6cf8ed3eed3f440ea4c776c974e7fb246fea68",
+    "transformation": "whitespace normalized; monetary amounts and dates masked when present"
+  },
+  {
+    "source": "multi_sentence",
+    "id": "multisentence-119836",
+    "doc": "6978",
+    "gold": "reasoning",
+    "sha256": "cbb62cd902ed4eb1c77ffba986916c9a1886a9436676f526b3cedeaf2da6517d",
+    "original_sha256": "429d9a1a999abb47291ae6f82ebe0bdea83fff4d35dbb75fa2f9b8145cc627c3",
+    "transformation": "whitespace normalized; monetary amounts and dates masked when present"
+  },
+  {
+    "source": "multi_sentence",
+    "id": "multisentence-42279",
+    "doc": "6625",
+    "gold": "reasoning",
+    "sha256": "f0eda98f5485035ce4b11759c0a5f429ddeba283b93edcd368f23517f243d41a",
+    "original_sha256": "1e80a40d17ad955cf90c47670c834620c53b41eb35b2412488b2948a6bbd8a0a",
+    "transformation": "whitespace normalized; monetary amounts and dates masked when present"
+  },
+  {
+    "source": "multi_sentence",
+    "id": "multisentence-15384",
+    "doc": "6493",
+    "gold": "reasoning",
+    "sha256": "c0fee6928fdd32a39618915c4cac854d48f50f4b6105dbf3fcc38b0cc7511a9b",
+    "original_sha256": "02e74c6a522afab825737b9639e4d42a002f23211d9a794b77b3ce0fdb917adf",
+    "transformation": "whitespace normalized; monetary amounts and dates masked when present"
+  },
+  {
+    "source": "multi_sentence",
+    "id": "multisentence-21191",
+    "doc": "6524",
+    "gold": "decision",
+    "sha256": "f5d9dcfffd38a20f49d1bbe600b02aacd98cce809a4e7957dd83c95bad382a80",
+    "original_sha256": "5840fa980134fd3439a249ebf82fe6ef023ee7fb867492e5eba05bac399deac6",
+    "transformation": "whitespace normalized; monetary amounts and dates masked when present"
+  },
+  {
+    "source": "multi_sentence",
+    "id": "multisentence-104504",
+    "doc": "6902",
+    "gold": "decision",
+    "sha256": "cdd1289a58f19f33c8a7caea036978ec9646bc94f5adb1872636c48221ba30cf",
+    "original_sha256": "cdd1289a58f19f33c8a7caea036978ec9646bc94f5adb1872636c48221ba30cf",
+    "transformation": "whitespace normalized; monetary amounts and dates masked when present"
+  },
+  {
+    "source": "multi_sentence",
+    "id": "multisentence-109838",
+    "doc": "6940",
+    "gold": "decision",
+    "sha256": "b684bb94f67705639b820180ac21c3a6ba024e3afdee69d5fe36c6e396034b7a",
+    "original_sha256": "b684bb94f67705639b820180ac21c3a6ba024e3afdee69d5fe36c6e396034b7a",
+    "transformation": "whitespace normalized; monetary amounts and dates masked when present"
+  }
+]

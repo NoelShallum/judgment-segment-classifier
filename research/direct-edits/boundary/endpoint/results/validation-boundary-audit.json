@@ -1,0 +1,235 @@
+{
+  "definition": "An exact directed boundary requires the same sentence cut and the same labels before and after. The gold-informed oracle keeps the same role sequence and the same extent limits.",
+  "protocol_sha256": "41c93d2513d6ecd01b744e37ac5c8a564b30461cd0a18a54cf52fd9401933475",
+  "freeze_sha256": "094e0e071630d3579ea3477c2ea2efb68efc9bf937a83b9a32f773fd8a9da30d",
+  "cohorts": {
+    "select": {
+      "judgments": 72,
+      "rows": 14679,
+      "incumbent_exact_spans": 1216,
+      "oracle_same_topology": {
+        "macro_f1": 0.7246144797117117,
+        "accuracy": 0.7353361945636624,
+        "role_f1": [
+          0.7570859686109159,
+          0.8322809786898184,
+          0.6395348837209303,
+          0.6857369884783472,
+          0.6967577876668786,
+          0.6418258034466697,
+          0.819078947368421
+        ],
+        "exact_span_micro_f1": 0.4552560216940501,
+        "exact_matches": 1427,
+        "gold_spans": 3480,
+        "predicted_spans": 2789,
+        "rows": 14679,
+        "confusion": [
+          [
+            4848,
+            273,
+            20,
+            159,
+            64,
+            850,
+            12
+          ],
+          [
+            277,
+            2109,
+            17,
+            52,
+            34,
+            60,
+            8
+          ],
+          [
+            12,
+            63,
+            110,
+            1,
+            0,
+            3,
+            2
+          ],
+          [
+            208,
+            35,
+            0,
+            863,
+            113,
+            59,
+            3
+          ],
+          [
+            67,
+            2,
+            0,
+            129,
+            548,
+            35,
+            0
+          ],
+          [
+            1148,
+            26,
+            5,
+            31,
+            32,
+            2067,
+            13
+          ],
+          [
+            21,
+            3,
+            1,
+            1,
+            1,
+            45,
+            249
+          ]
+        ],
+        "support": [
+          6226,
+          2557,
+          191,
+          1281,
+          781,
+          3322,
+          321
+        ],
+        "judgments": 72
+      },
+      "directional_boundary_counts": {
+        "targeted": {
+          "moved": 126,
+          "corrected": 24,
+          "broken": 13,
+          "wrong_both": 89,
+          "both_correct": 0
+        },
+        "shuffled": {
+          "moved": 207,
+          "corrected": 28,
+          "broken": 21,
+          "wrong_both": 156,
+          "both_correct": 2
+        }
+      }
+    },
+    "confirm": {
+      "judgments": 72,
+      "rows": 11301,
+      "incumbent_exact_spans": 1394,
+      "oracle_same_topology": {
+        "macro_f1": 0.7398943755274038,
+        "accuracy": 0.754092558180692,
+        "role_f1": [
+          0.7447433337248913,
+          0.8641872127037192,
+          0.611764705882353,
+          0.7507533362031855,
+          0.6746221161495625,
+          0.6814011676396997,
+          0.8517887563884157
+        ],
+        "exact_span_micro_f1": 0.5272488509520683,
+        "exact_matches": 1606,
+        "gold_spans": 3274,
+        "predicted_spans": 2818,
+        "rows": 11301,
+        "confusion": [
+          [
+            3170,
+            194,
+            19,
+            106,
+            84,
+            597,
+            26
+          ],
+          [
+            200,
+            2068,
+            20,
+            42,
+            17,
+            74,
+            3
+          ],
+          [
+            27,
+            48,
+            104,
+            1,
+            0,
+            4,
+            0
+          ],
+          [
+            181,
+            16,
+            0,
+            872,
+            65,
+            21,
+            0
+          ],
+          [
+            64,
+            11,
+            3,
+            114,
+            424,
+            24,
+            0
+          ],
+          [
+            666,
+            24,
+            10,
+            33,
+            27,
+            1634,
+            19
+          ],
+          [
+            9,
+            1,
+            0,
+            0,
+            0,
+            29,
+            250
+          ]
+        ],
+        "support": [
+          4196,
+          2424,
+          184,
+          1155,
+          640,
+          2413,
+          289
+        ],
+        "judgments": 72
+      },
+      "directional_boundary_counts": {
+        "targeted": {
+          "moved": 124,
+          "corrected": 22,
+          "broken": 7,
+          "wrong_both": 95,
+          "both_correct": 0
+        },
+        "shuffled": {
+          "moved": 186,
+          "corrected": 25,
+          "broken": 12,
+          "wrong_both": 148,
+          "both_correct": 1
+        }
+      }
+    }
+  }
+}

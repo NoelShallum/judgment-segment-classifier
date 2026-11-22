@@ -1,0 +1,17 @@
+{
+  "source": "Pinned anonymous tasksource ModernBERT NLI cross-encoder",
+  "route": "Public train-only case-weighted analytic ridge to incumbent residual error. Confident misses and worse class imbalance receive lower weights. Score and donor agreement, probabilities, case positions and hard-pair flags only. Reserve per-case positions for Facts\u2013Issue, between the parties and None\u2013Reasoning before residual risk fill.",
+  "budget": "ceil(7.5% of each judgment), minimum 1, maximum 24, with 20/20/35% respective quotas",
+  "fit": "192 public official train judgments used upstream as well. No iterative gradient steps.",
+  "validation": "Selector 48 complete cases, confirmations 72 and 96 complete cases, previously used by the broader project. Weight prediction controls include zero (current document model), donor unchanged and label-shuffled per-case norm-matched edit.",
+  "context": "Source sentence boundaries. One previous and next sentence, explicit target marker, head/tail clipping, seven identical published role definitions for every row. 160 tokens including the hypothesis per input pair.",
+  "decision": "Select only on the 48 set, guard accuracy within 0.4pp and None\u2013Reasoning errors on both all sentences and no exact train keys. For official consideration require higher seven-role macro-F1 and fewer pair swaps on each confirm set. Official test excluded from input and offline score processing pending positive confirmation.",
+  "case_split": {
+    "fit": "train",
+    "select": "val",
+    "confirm": "val",
+    "fresh": "val"
+  },
+  "constraints": "Run inference only on a single Colab Tesla T4 (all least squares and scoring CPU)",
+  "tolerance": 0.004
+}

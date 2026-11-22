@@ -1,0 +1,22 @@
+{
+  "invalid_original_archive_sha256": "bcd58d65d6f1a77f18e5f82e9e779a35005d4d3bc1421fb1c589f11e57fd8787",
+  "corrected_archive_sha256": "c7695b55d3ca6f4a887662e0c31a1208284816f3981b53a68501d5d0404132cd",
+  "columns_reconstructed_exactly": [
+    "ordered.native.weight",
+    "isolated.lexical.weight",
+    "shuffled.lexical.weight",
+    "shuffled.native.weight",
+    "isolated.position_lexical.weight",
+    "shuffled.position.weight",
+    "isolated.native.weight",
+    "shuffled.position_lexical.weight",
+    "ordered.position.weight",
+    "ordered.lexical.weight",
+    "ordered.position_lexical.weight",
+    "isolated.position.weight"
+  ],
+  "same_frozen_rules": true,
+  "native_physical_head_unchanged": true,
+  "selection_arms_verified": 12,
+  "new_encode_calls": 0
+}

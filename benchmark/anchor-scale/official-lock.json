@@ -1,0 +1,345 @@
+{
+  "chosen_cases": 256,
+  "chosen_arm": "exact-reviewed",
+  "stages": {
+    "256": {
+      "selected_arm": "exact-reviewed",
+      "quality": [
+        0.7363935155406485,
+        -1452,
+        0.7508184336439184
+      ],
+      "freeze_sha256": "3d233c60c0f0b759fb25fd840d1f05851cc4bf4834d13698b03afe85e0450159",
+      "results_sha256": "6cb721b4df56f3a3b51d9aa5d0a68aeaac936b90c81a6065d6c322763f27f83f",
+      "weight_sha256": "22c15e4e7485f003c2da1cc5c18403e9d10c3b05c919b130d7ade73dffbe62da",
+      "basis_sha256": "b665284c4f2670e72584c1049f3b2a7b226696289043e2ddc3611200922e869c",
+      "protocol_sha256": "bfd859ab9dd6b6bed191754d197c7930aad918c8bd99c1453f321692e4a1c520",
+      "runtime_receipt_sha256": "e92ba942053161bd7e205e32cbe871b523290dce4d01b693ad8e66f2a7e8dcc5",
+      "device": {
+        "devices": [
+          "Tesla T4, 15360, 580.82.07"
+        ],
+        "torch": "2.14.1+cu130",
+        "cuda": "13.0"
+      },
+      "selector": {
+        "all": {
+          "macro_f1": 0.739309666815296,
+          "accuracy": 0.7508184336439184,
+          "pair_errors": 859,
+          "none_to_reasoning": 490,
+          "reasoning_to_none": 369,
+          "confusion": [
+            [
+              1922,
+              161,
+              22,
+              73,
+              40,
+              490,
+              28
+            ],
+            [
+              121,
+              1285,
+              15,
+              24,
+              14,
+              29,
+              3
+            ],
+            [
+              9,
+              55,
+              93,
+              7,
+              0,
+              2,
+              0
+            ],
+            [
+              102,
+              1,
+              2,
+              646,
+              106,
+              37,
+              4
+            ],
+            [
+              15,
+              8,
+              3,
+              78,
+              396,
+              9,
+              1
+            ],
+            [
+              369,
+              39,
+              5,
+              22,
+              15,
+              1412,
+              23
+            ],
+            [
+              31,
+              0,
+              0,
+              0,
+              0,
+              16,
+              209
+            ]
+          ]
+        },
+        "novel": {
+          "macro_f1": 0.7334773642660009,
+          "accuracy": 0.7421532230847114,
+          "pair_errors": 593,
+          "none_to_reasoning": 312,
+          "reasoning_to_none": 281,
+          "confusion": [
+            [
+              1456,
+              147,
+              18,
+              70,
+              37,
+              312,
+              15
+            ],
+            [
+              107,
+              959,
+              5,
+              24,
+              13,
+              24,
+              3
+            ],
+            [
+              6,
+              55,
+              77,
+              7,
+              0,
+              1,
+              0
+            ],
+            [
+              86,
+              1,
+              2,
+              500,
+              85,
+              29,
+              3
+            ],
+            [
+              14,
+              8,
+              3,
+              66,
+              310,
+              6,
+              0
+            ],
+            [
+              281,
+              35,
+              4,
+              19,
+              11,
+              973,
+              18
+            ],
+            [
+              4,
+              0,
+              0,
+              0,
+              0,
+              9,
+              123
+            ]
+          ]
+        }
+      },
+      "selector_source_sha256": "8a3bd01403578d77879b5fb29dffd9ffebc6a1fdac0665bba84e8a7868e4dde5"
+    },
+    "512": {
+      "selected_arm": "exact-reviewed",
+      "quality": [
+        0.7360662136058326,
+        -1351,
+        0.7534626038781164
+      ],
+      "freeze_sha256": "5acf8c48d4494f70905a6aaf865ac54d449f888e7745a0592e184bd6fdc74f23",
+      "results_sha256": "4d6b8ec3f52ca1407d1357078603c3b3278be104ac408211685704ae0af3b6dd",
+      "weight_sha256": "952bc3028da6c06a44170c797333cc19eff6b7a03205be27538353910da2a008",
+      "basis_sha256": "b665284c4f2670e72584c1049f3b2a7b226696289043e2ddc3611200922e869c",
+      "protocol_sha256": "bfd859ab9dd6b6bed191754d197c7930aad918c8bd99c1453f321692e4a1c520",
+      "runtime_receipt_sha256": "37dc43b4d94593e3e63e709554124bc1a47f2d5ec719476fda47acef45ec0c5e",
+      "device": {
+        "devices": [
+          "Tesla T4, 15360, 580.82.07"
+        ],
+        "torch": "2.14.1+cu130",
+        "cuda": "13.0"
+      },
+      "selector": {
+        "all": {
+          "macro_f1": 0.743097989656517,
+          "accuracy": 0.7534626038781164,
+          "pair_errors": 804,
+          "none_to_reasoning": 410,
+          "reasoning_to_none": 394,
+          "confusion": [
+            [
+              1956,
+              174,
+              27,
+              86,
+              53,
+              410,
+              30
+            ],
+            [
+              102,
+              1285,
+              22,
+              25,
+              18,
+              35,
+              4
+            ],
+            [
+              5,
+              44,
+              106,
+              9,
+              0,
+              2,
+              0
+            ],
+            [
+              92,
+              2,
+              3,
+              658,
+              101,
+              37,
+              5
+            ],
+            [
+              17,
+              6,
+              3,
+              89,
+              388,
+              6,
+              1
+            ],
+            [
+              394,
+              35,
+              8,
+              32,
+              20,
+              1368,
+              28
+            ],
+            [
+              15,
+              0,
+              0,
+              1,
+              0,
+              17,
+              223
+            ]
+          ]
+        },
+        "novel": {
+          "macro_f1": 0.7290344375551482,
+          "accuracy": 0.7411407357408032,
+          "pair_errors": 547,
+          "none_to_reasoning": 259,
+          "reasoning_to_none": 288,
+          "confusion": [
+            [
+              1464,
+              162,
+              22,
+              81,
+              50,
+              259,
+              17
+            ],
+            [
+              91,
+              961,
+              8,
+              25,
+              17,
+              30,
+              3
+            ],
+            [
+              4,
+              44,
+              88,
+              9,
+              0,
+              1,
+              0
+            ],
+            [
+              78,
+              2,
+              3,
+              501,
+              87,
+              31,
+              4
+            ],
+            [
+              16,
+              6,
+              3,
+              73,
+              305,
+              4,
+              0
+            ],
+            [
+              288,
+              30,
+              8,
+              26,
+              13,
+              952,
+              24
+            ],
+            [
+              4,
+              0,
+              0,
+              0,
+              0,
+              11,
+              121
+            ]
+          ]
+        }
+      },
+      "selector_source_sha256": "8a3bd01403578d77879b5fb29dffd9ffebc6a1fdac0665bba84e8a7868e4dde5"
+    }
+  },
+  "selection_rule": "Maximize the recorded 48-judgment selector tuple. The shorter prefix wins exact ties.",
+  "official_selection": false,
+  "gradient_steps": 0
+}

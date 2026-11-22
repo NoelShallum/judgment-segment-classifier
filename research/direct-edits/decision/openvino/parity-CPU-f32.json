@@ -1,0 +1,26 @@
+{
+  "precision": "f32",
+  "device": "CPU",
+  "torch_source_dtype": "pinned BF16 weights promoted to FP32 for reference arithmetic",
+  "native_source": "2e91117b358918c6c1d6e6aea4000ad9edf3d0bc71854218b05344b94019bbd9",
+  "rows": [
+    {
+      "tokens": 168,
+      "seconds": 116.17298122998909,
+      "max_absolute_logit_difference": 3.0994415283203125e-06,
+      "mean_absolute_logit_difference": 1.1239733014787947e-06,
+      "exporter_top_option": 6,
+      "torch_top_option": 6
+    },
+    {
+      "tokens": 174,
+      "seconds": 118.15470618499967,
+      "max_absolute_logit_difference": 3.337860107421875e-06,
+      "mean_absolute_logit_difference": 1.5156609671456472e-06,
+      "exporter_top_option": 2,
+      "torch_top_option": 2
+    }
+  ],
+  "last_probe_hidden_cosine": 1.0,
+  "early_acceptance": true
+}

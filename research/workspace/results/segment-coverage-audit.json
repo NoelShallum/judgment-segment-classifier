@@ -1,0 +1,140 @@
+{
+  "cases": 712,
+  "candidates": {
+    "recombined": {
+      "counts": {
+        "missing_raw_endpoint": 5202,
+        "offset_pair_missing_from_candidates": 13312,
+        "role_missing_for_present_offset_pair": 1362,
+        "exact_span_present": 9003,
+        "gold": 28879
+      },
+      "roles": {
+        "none": {
+          "missing_raw_endpoint": 2174,
+          "offset_pair_missing_from_candidates": 5637,
+          "role_missing_for_present_offset_pair": 202,
+          "exact_span_present": 4360,
+          "gold": 12373
+        },
+        "facts": {
+          "missing_raw_endpoint": 783,
+          "offset_pair_missing_from_candidates": 1711,
+          "role_missing_for_present_offset_pair": 127,
+          "exact_span_present": 922,
+          "gold": 3543
+        },
+        "issue": {
+          "missing_raw_endpoint": 168,
+          "offset_pair_missing_from_candidates": 337,
+          "role_missing_for_present_offset_pair": 62,
+          "exact_span_present": 467,
+          "gold": 1034
+        },
+        "petitioner_argument": {
+          "missing_raw_endpoint": 561,
+          "offset_pair_missing_from_candidates": 1166,
+          "role_missing_for_present_offset_pair": 461,
+          "exact_span_present": 470,
+          "gold": 2658
+        },
+        "respondent_argument": {
+          "missing_raw_endpoint": 422,
+          "offset_pair_missing_from_candidates": 904,
+          "role_missing_for_present_offset_pair": 165,
+          "exact_span_present": 494,
+          "gold": 1985
+        },
+        "reasoning": {
+          "missing_raw_endpoint": 918,
+          "offset_pair_missing_from_candidates": 3196,
+          "role_missing_for_present_offset_pair": 299,
+          "exact_span_present": 1690,
+          "gold": 6103
+        },
+        "decision": {
+          "missing_raw_endpoint": 176,
+          "offset_pair_missing_from_candidates": 361,
+          "role_missing_for_present_offset_pair": 46,
+          "exact_span_present": 600,
+          "gold": 1183
+        }
+      },
+      "exact_corpus_f1_upper_bound": {
+        "f1": 0.399100142551675,
+        "matched": 8959,
+        "predicted": 16017,
+        "gold": 28879,
+        "iterations": 3
+      }
+    },
+    "posterior_endpoints": {
+      "counts": {
+        "missing_raw_endpoint": 5202,
+        "offset_pair_missing_from_candidates": 11345,
+        "role_missing_for_present_offset_pair": 1737,
+        "exact_span_present": 10595,
+        "gold": 28879
+      },
+      "roles": {
+        "none": {
+          "missing_raw_endpoint": 2174,
+          "offset_pair_missing_from_candidates": 4896,
+          "role_missing_for_present_offset_pair": 382,
+          "exact_span_present": 4921,
+          "gold": 12373
+        },
+        "facts": {
+          "missing_raw_endpoint": 783,
+          "offset_pair_missing_from_candidates": 1490,
+          "role_missing_for_present_offset_pair": 135,
+          "exact_span_present": 1135,
+          "gold": 3543
+        },
+        "issue": {
+          "missing_raw_endpoint": 168,
+          "offset_pair_missing_from_candidates": 255,
+          "role_missing_for_present_offset_pair": 76,
+          "exact_span_present": 535,
+          "gold": 1034
+        },
+        "petitioner_argument": {
+          "missing_raw_endpoint": 561,
+          "offset_pair_missing_from_candidates": 924,
+          "role_missing_for_present_offset_pair": 543,
+          "exact_span_present": 630,
+          "gold": 2658
+        },
+        "respondent_argument": {
+          "missing_raw_endpoint": 422,
+          "offset_pair_missing_from_candidates": 717,
+          "role_missing_for_present_offset_pair": 213,
+          "exact_span_present": 633,
+          "gold": 1985
+        },
+        "reasoning": {
+          "missing_raw_endpoint": 918,
+          "offset_pair_missing_from_candidates": 2775,
+          "role_missing_for_present_offset_pair": 333,
+          "exact_span_present": 2077,
+          "gold": 6103
+        },
+        "decision": {
+          "missing_raw_endpoint": 176,
+          "offset_pair_missing_from_candidates": 288,
+          "role_missing_for_present_offset_pair": 55,
+          "exact_span_present": 664,
+          "gold": 1183
+        }
+      },
+      "exact_corpus_f1_upper_bound": {
+        "f1": 0.45442764578833694,
+        "matched": 9994,
+        "predicted": 15106,
+        "gold": 28879,
+        "iterations": 3
+      }
+    }
+  },
+  "protocol": "Attribute gold spans to the first stage that cannot express them. Compute the exact maximum corpus F1 under each frozen candidate set and non-overlapping tiling constraint, using human annotations for analysis. The optimizer solves an additive path problem with cost equal to half the current F1 and repeats until convergence."
+}

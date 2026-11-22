@@ -1,0 +1,18 @@
+{
+  "case": "6340",
+  "position": 41,
+  "native_label": 2,
+  "tokens": 202,
+  "checks": {
+    "roles-readout": {
+      "max_abs_logit_error": 3.5762786865234375e-07,
+      "same_argmax": true,
+      "edited_label": 4
+    },
+    "roles-internal": {
+      "max_abs_logit_error": 1.6391277313232422e-07,
+      "same_argmax": true,
+      "edited_label": 5
+    }
+  }
+}

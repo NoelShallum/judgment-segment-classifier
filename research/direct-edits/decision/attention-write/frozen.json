@@ -1,0 +1,109 @@
+{
+  "train_cues_with_competitors": 356,
+  "mean_own_mass_other_mass_log_per_token_rate_ratio_fraction_heads_preferring_other": [
+    0.08830742191083812,
+    0.32361750490440244,
+    0.0787816275598038,
+    0.3693820224719101
+  ],
+  "mean_native_own_minus_other_attention_logit": 0.9367519617080688,
+  "median_per_cue": [
+    0.09646560251712799,
+    0.3244064599275589,
+    0.528953823591385,
+    0.125
+  ],
+  "position_in_packed_block": {
+    "first": {
+      "cues": 50,
+      "average": [
+        0.055281185004860164,
+        0.2944514890015125,
+        -0.4833214208643229,
+        0.5275
+      ]
+    },
+    "interior": {
+      "cues": 256,
+      "average": [
+        0.09548874020401854,
+        0.352088982850546,
+        0.0013296681685426278,
+        0.38330078125
+      ]
+    },
+    "last": {
+      "cues": 50,
+      "average": [
+        0.08456530915573239,
+        0.20700955372303725,
+        1.0374387080671883,
+        0.14
+      ]
+    }
+  },
+  "original_logits_vs_fp32_max_error": 6.198883056640625e-06,
+  "protected_rows": 128,
+  "protected_input_subspace_rank": 128,
+  "rank_before_storage": 8,
+  "singular_values_before_storage": [
+    1.3053231489737753,
+    0.9872298044093271,
+    0.8224964280751145,
+    0.7433824039507851,
+    0.7041377392828756,
+    0.5819605638527898,
+    0.5339767399744262,
+    0.4980424119405367
+  ],
+  "controls": {
+    "target": {
+      "file": "ce8bd8b62c198e909e09299a865dd5d5d6bed63fc7e9151c3e89a77925833824",
+      "changed_rows": "0-1023 only",
+      "bf16_norm_match_scale": 1.0,
+      "stored_q_delta_frobenius": 2.298048734664917,
+      "target_stored_q_delta_frobenius": 2.297877073287964,
+      "before_rounding_protected_displacement_max": 2.167710455580618e-14,
+      "after_rounding_protected_displacement_max": 0.012787579343187971,
+      "relative_frobenius_to_q": 0.050027262419462204,
+      "tensor": {
+        "shape": [
+          3072,
+          1024
+        ],
+        "dtype": "torch.bfloat16",
+        "changed_values": 958891,
+        "total_values": 3145728,
+        "frobenius_delta": 2.298048734664917,
+        "frobenius_original": 110.12418365478516,
+        "maximum_abs_delta": 0.03289794921875,
+        "original_tensor_sha256": "125b524eea21d9e9ee99afb459c4560a0b03f2bcace4bca36aabd95ffea3c663",
+        "edited_tensor_sha256": "230affcc29e1412f151b9b1bbb01312ee90432c38c85ff7be6c030b13c3e72ee"
+      }
+    },
+    "norm_matched": {
+      "file": "5f161e4842ba574b6c608dc10feb57b4b3de3acfe796ec90ab535753f73b03ce",
+      "changed_rows": "0-1023 only",
+      "bf16_norm_match_scale": 0.9999866485595703,
+      "stored_q_delta_frobenius": 2.2980539798736572,
+      "target_stored_q_delta_frobenius": 2.297877073287964,
+      "before_rounding_protected_displacement_max": 9.991873813937216e-16,
+      "after_rounding_protected_displacement_max": 0.015225565451256529,
+      "relative_frobenius_to_q": 0.050027377903461456,
+      "tensor": {
+        "shape": [
+          3072,
+          1024
+        ],
+        "dtype": "torch.bfloat16",
+        "changed_values": 1007207,
+        "total_values": 3145728,
+        "frobenius_delta": 2.2980539798736572,
+        "frobenius_original": 110.12418365478516,
+        "maximum_abs_delta": 0.0162353515625,
+        "original_tensor_sha256": "125b524eea21d9e9ee99afb459c4560a0b03f2bcace4bca36aabd95ffea3c663",
+        "edited_tensor_sha256": "e0f908b27c5a6c0d2e8d12882134d616dfc392aaa86380b6bcdf701c580de01c"
+      }
+    }
+  }
+}

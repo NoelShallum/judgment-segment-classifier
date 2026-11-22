@@ -1,0 +1,11 @@
+{
+  "fixture": "synthetic intermediate residuals; no legal benchmark outcome",
+  "max_source_logit_error": 2.2202730178833008e-06,
+  "max_rotary_inverse_error": 4.76837158203125e-07,
+  "rows": 3,
+  "native_source_tensor": "model.layers.27.attn.Wqkv.weight",
+  "shape": [
+    3072,
+    1024
+  ]
+}

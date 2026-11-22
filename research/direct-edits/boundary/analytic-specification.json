@@ -1,0 +1,25 @@
+{
+  "scope": "Frozen before fit or validation metrics. Region-restricted sample unchanged.",
+  "role_contrast": "6*(onehot - 1/7)",
+  "basis": "First six SVD directions of training mean centered native query projections per channel.",
+  "methods": [
+    "independent local pseudoinverse then ridge, all three / start+end / single channel",
+    "joint three-channel least squares normal equations, matrix-free conjugate gradient, each native state projection has rank at most six"
+  ],
+  "regularization": [
+    0.03,
+    0.3,
+    3.0
+  ],
+  "gain": [
+    0,
+    0.5,
+    1,
+    2
+  ],
+  "selection": "highest macro F1 on training selector judgments; lower number of changed matrices then smaller gain on exact ties; unchanged wins ties",
+  "shuffle": "same deterministic sentence-wise permutation, seed 901112, separate per-tensor Frobenius matching",
+  "sha256_protocol": "774935ce7a811363514d5d1703840aaba8372bd30833168362fb0b50034cc6ac",
+  "utc": "2026-11-22 09:10:13 UTC",
+  "numerical_solver_note": "Before observing any selector or validation results, the cap was increased from 125 to 400 CG iterations after the fit-pool numerical dry-run missed its fixed relative normal-equation tolerance of 0.0005. The objective and candidates are unchanged."
+}

@@ -1,0 +1,334 @@
+{
+  "official_test_rows": 149881,
+  "official_test_documents": 712,
+  "audited_predictions": {
+    "InLegalBert(i)_predictions.csv": {
+      "examples": 149881,
+      "macro_f1": 0.49095046410841475,
+      "accuracy": 0.532422388428153,
+      "per_role_f1": {
+        "None": 0.6141649807010747,
+        "Facts": 0.5905076470165865,
+        "Issue": 0.4885077186963979,
+        "Arguments of Petitioner": 0.4061052283256122,
+        "Arguments of Respondent": 0.3408368823092003,
+        "Reasoning": 0.36711028650943733,
+        "Decision": 0.6294205052005943
+      },
+      "confusion": [
+        [
+          42803,
+          7155,
+          199,
+          1406,
+          697,
+          5909,
+          331
+        ],
+        [
+          6574,
+          16448,
+          85,
+          505,
+          215,
+          922,
+          160
+        ],
+        [
+          350,
+          704,
+          712,
+          27,
+          1,
+          35,
+          14
+        ],
+        [
+          5812,
+          1407,
+          17,
+          4909,
+          1393,
+          959,
+          23
+        ],
+        [
+          3062,
+          1127,
+          4,
+          2024,
+          2521,
+          830,
+          11
+        ],
+        [
+          21378,
+          3678,
+          46,
+          725,
+          341,
+          10289,
+          232
+        ],
+        [
+          907,
+          280,
+          9,
+          60,
+          46,
+          421,
+          2118
+        ]
+      ],
+      "released_true_labels_equal_official_in_row_order": true
+    },
+    "InLegalBert(i-2, i-1, i)_predictions.csv": {
+      "examples": 149881,
+      "macro_f1": 0.5814493579951476,
+      "accuracy": 0.5873059293706341,
+      "per_role_f1": {
+        "None": 0.6119033062903786,
+        "Facts": 0.6722710298919417,
+        "Issue": 0.5679408930292322,
+        "Arguments of Petitioner": 0.5431218318475791,
+        "Arguments of Respondent": 0.4863925883034163,
+        "Reasoning": 0.5096086885658828,
+        "Decision": 0.6789071680376029
+      },
+      "confusion": [
+        [
+          37033,
+          6866,
+          241,
+          2491,
+          1007,
+          10555,
+          307
+        ],
+        [
+          4278,
+          18633,
+          88,
+          553,
+          300,
+          967,
+          90
+        ],
+        [
+          209,
+          643,
+          884,
+          28,
+          3,
+          63,
+          13
+        ],
+        [
+          3307,
+          931,
+          10,
+          7768,
+          1680,
+          808,
+          16
+        ],
+        [
+          1586,
+          800,
+          1,
+          2254,
+          4200,
+          731,
+          7
+        ],
+        [
+          15414,
+          2416,
+          39,
+          924,
+          476,
+          17197,
+          223
+        ],
+        [
+          715,
+          235,
+          7,
+          67,
+          25,
+          481,
+          2311
+        ]
+      ],
+      "released_true_labels_equal_official_in_row_order": true
+    },
+    "Hier_BiLSTM_predictions.csv": {
+      "examples": 149825,
+      "macro_f1": 0.26961981606742647,
+      "accuracy": 0.3927515434673786,
+      "per_role_f1": {
+        "None": 0.5154570229556437,
+        "Facts": 0.42917946231345294,
+        "Issue": 0.05419354838709677,
+        "Arguments of Petitioner": 0.26884894016635363,
+        "Arguments of Respondent": 0.21647689216342933,
+        "Reasoning": 0.2970049781900144,
+        "Decision": 0.10617786829599457
+      },
+      "confusion": [
+        [
+          30830,
+          8322,
+          466,
+          4084,
+          3118,
+          10385,
+          1265
+        ],
+        [
+          5583,
+          11949,
+          139,
+          3425,
+          2046,
+          1656,
+          111
+        ],
+        [
+          545,
+          753,
+          84,
+          166,
+          113,
+          162,
+          20
+        ],
+        [
+          4277,
+          1106,
+          60,
+          4008,
+          3015,
+          1842,
+          199
+        ],
+        [
+          3594,
+          785,
+          71,
+          1071,
+          2424,
+          1501,
+          133
+        ],
+        [
+          15558,
+          6177,
+          341,
+          2155,
+          1882,
+          9158,
+          1407
+        ],
+        [
+          765,
+          1682,
+          96,
+          400,
+          218,
+          287,
+          391
+        ]
+      ],
+      "released_true_labels_equal_official_in_row_order": false
+    }
+  },
+  "named_hierarchical": {
+    "alignment": "Author case files are numbered 6409..7120; CSV Index is 6408..7119. Subtract one from filename ID. Apply author's plain-text punctuation/empty-token filter, then accept exact per-case lengths only.",
+    "filtered_official_population": 149825,
+    "predicted_docs": 712,
+    "unrecognized_labels": [],
+    "matched_docs_of_equal_length": 712,
+    "missing_official_docs": 0,
+    "same_id_different_length": 0,
+    "score_on_exactly_aligned_docs": {
+      "examples": 149825,
+      "macro_f1": 0.5982681670403431,
+      "accuracy": 0.6173602536292341,
+      "per_role_f1": {
+        "None": 0.6368515205724508,
+        "Facts": 0.7677994108772181,
+        "Issue": 0.4306498545101843,
+        "Arguments of Petitioner": 0.59279128248114,
+        "Arguments of Respondent": 0.5281771903188354,
+        "Reasoning": 0.4815061051743988,
+        "Decision": 0.7501018053481743
+      },
+      "confusion": [
+        [
+          38092,
+          5884,
+          333,
+          2776,
+          2694,
+          8315,
+          380
+        ],
+        [
+          2151,
+          21374,
+          203,
+          751,
+          203,
+          201,
+          19
+        ],
+        [
+          376,
+          717,
+          666,
+          10,
+          14,
+          44,
+          9
+        ],
+        [
+          2184,
+          841,
+          15,
+          8840,
+          2087,
+          539,
+          10
+        ],
+        [
+          1040,
+          441,
+          6,
+          1633,
+          5914,
+          532,
+          12
+        ],
+        [
+          16810,
+          1502,
+          33,
+          1280,
+          1873,
+          14847,
+          333
+        ],
+        [
+          499,
+          15,
+          1,
+          19,
+          31,
+          513,
+          2763
+        ]
+      ]
+    }
+  }
+}

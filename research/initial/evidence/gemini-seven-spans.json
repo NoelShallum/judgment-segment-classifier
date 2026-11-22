@@ -1,0 +1,968 @@
+{
+  "cases": 12,
+  "source_rows": 64,
+  "proposed_units": 64,
+  "agreement_units": 26,
+  "local": {
+    "tokens": 1413,
+    "token_accuracy": 0.37154989384288745,
+    "token_macro_f1": 0.22481211977491555,
+    "exact_labeled_spans": {
+      "matched": 3,
+      "predicted": 46,
+      "gold": 28,
+      "precision": 0.06521739130434782,
+      "recall": 0.10714285714285714,
+      "f1": 0.08108108108108109
+    },
+    "exact_role_boundaries": {
+      "matched": 10,
+      "predicted": 34,
+      "gold": 16,
+      "precision": 0.29411764705882354,
+      "recall": 0.625,
+      "f1": 0.4
+    },
+    "token_confusion": [
+      [
+        155,
+        0,
+        0,
+        0,
+        34,
+        148,
+        0
+      ],
+      [
+        48,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        23,
+        0,
+        0,
+        17,
+        0,
+        110,
+        0
+      ],
+      [
+        59,
+        0,
+        0,
+        0,
+        0,
+        42,
+        0
+      ],
+      [
+        296,
+        25,
+        0,
+        0,
+        0,
+        278,
+        58
+      ],
+      [
+        30,
+        15,
+        0,
+        0,
+        0,
+        0,
+        75
+      ]
+    ]
+  },
+  "gemini": {
+    "tokens": 1413,
+    "token_accuracy": 0.6185421089879689,
+    "token_macro_f1": 0.35075875641450666,
+    "exact_labeled_spans": {
+      "matched": 4,
+      "predicted": 22,
+      "gold": 28,
+      "precision": 0.18181818181818182,
+      "recall": 0.14285714285714285,
+      "f1": 0.16
+    },
+    "exact_role_boundaries": {
+      "matched": 5,
+      "predicted": 10,
+      "gold": 16,
+      "precision": 0.5,
+      "recall": 0.3125,
+      "f1": 0.38461538461538464
+    },
+    "token_confusion": [
+      [
+        0,
+        39,
+        0,
+        60,
+        0,
+        233,
+        5
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        48,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        113,
+        17,
+        20,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        101,
+        0
+      ],
+      [
+        0,
+        16,
+        0,
+        0,
+        0,
+        641,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        120
+      ]
+    ]
+  },
+  "ci_order": [
+    "token_accuracy",
+    "exact_labeled_spans_f1",
+    "exact_role_boundaries_f1"
+  ],
+  "paired_document_gap_95pct": [
+    [
+      -0.49804453742674143,
+      0.027897630902226887
+    ],
+    [
+      -0.2857142857142857,
+      0.1076757865273631
+    ],
+    [
+      -0.23931623931623935,
+      0.28001754385964917
+    ]
+  ],
+  "records": [
+    {
+      "case": "7028",
+      "raw_sha256": "378bab6a6997b10b5a436f80c1d634656ab1f677d0ed8006d08701efb62218d8",
+      "source_rows": [
+        131327,
+        131328,
+        131329,
+        131330,
+        131331
+      ],
+      "units": [
+        [
+          0,
+          218
+        ],
+        [
+          218,
+          493
+        ],
+        [
+          493,
+          634
+        ],
+        [
+          634,
+          717
+        ],
+        [
+          717,
+          875
+        ]
+      ],
+      "gold_spans": [
+        {
+          "start": 0,
+          "end": 493,
+          "label": "respondent_argument"
+        },
+        {
+          "start": 493,
+          "end": 717,
+          "label": "none"
+        },
+        {
+          "start": 717,
+          "end": 875,
+          "label": "respondent_argument"
+        }
+      ],
+      "local": [
+        "none",
+        "reasoning",
+        "none",
+        "reasoning",
+        "none"
+      ],
+      "gemini": [
+        "reasoning",
+        "reasoning",
+        "reasoning",
+        "reasoning",
+        "reasoning"
+      ],
+      "provider_timestamp": "2026-11-21T18:55:56.858962+00:00"
+    },
+    {
+      "case": "6918",
+      "raw_sha256": "ffbfbffdafaec0040b3eced645367c4c6145465f48fcca8fac5021b3b86e93c7",
+      "source_rows": [
+        106362,
+        106363,
+        106364,
+        106365,
+        106366
+      ],
+      "units": [
+        [
+          0,
+          198
+        ],
+        [
+          198,
+          305
+        ],
+        [
+          305,
+          402
+        ],
+        [
+          402,
+          660
+        ],
+        [
+          660,
+          797
+        ]
+      ],
+      "gold_spans": [
+        {
+          "start": 0,
+          "end": 198,
+          "label": "none"
+        },
+        {
+          "start": 198,
+          "end": 797,
+          "label": "petitioner_argument"
+        }
+      ],
+      "local": [
+        "respondent_argument",
+        "petitioner_argument",
+        "reasoning",
+        "reasoning",
+        "reasoning"
+      ],
+      "gemini": [
+        "petitioner_argument",
+        "respondent_argument",
+        "petitioner_argument",
+        "petitioner_argument",
+        "reasoning"
+      ],
+      "provider_timestamp": "2026-11-21T18:55:57.788008+00:00"
+    },
+    {
+      "case": "6590",
+      "raw_sha256": "3c9c9568e37c2b308205fb7337f01b0f7ba8a3e305de6cafdb69351f980478e3",
+      "source_rows": [
+        34646,
+        34647,
+        34648,
+        34649,
+        34650
+      ],
+      "units": [
+        [
+          0,
+          135
+        ],
+        [
+          135,
+          202
+        ],
+        [
+          202,
+          258
+        ],
+        [
+          258,
+          344
+        ],
+        [
+          344,
+          517
+        ]
+      ],
+      "gold_spans": [
+        {
+          "start": 0,
+          "end": 135,
+          "label": "none"
+        },
+        {
+          "start": 135,
+          "end": 517,
+          "label": "reasoning"
+        }
+      ],
+      "local": [
+        "reasoning",
+        "reasoning",
+        "facts",
+        "none",
+        "reasoning"
+      ],
+      "gemini": [
+        "reasoning",
+        "reasoning",
+        "reasoning",
+        "reasoning",
+        "reasoning"
+      ],
+      "provider_timestamp": "2026-11-21T18:55:58.916757+00:00"
+    },
+    {
+      "case": "6840",
+      "raw_sha256": "863c4210bb22dfca7aeb57faec90a35928d30a770f81044f69ebf8b5156d1b4f",
+      "source_rows": [
+        88749,
+        88750,
+        88751,
+        88752,
+        88753
+      ],
+      "units": [
+        [
+          0,
+          106
+        ],
+        [
+          106,
+          292
+        ],
+        [
+          292,
+          364
+        ],
+        [
+          364,
+          481
+        ],
+        [
+          481,
+          582
+        ]
+      ],
+      "gold_spans": [
+        {
+          "start": 0,
+          "end": 106,
+          "label": "none"
+        },
+        {
+          "start": 106,
+          "end": 582,
+          "label": "reasoning"
+        }
+      ],
+      "local": [
+        "none",
+        "none",
+        "reasoning",
+        "none",
+        "none"
+      ],
+      "gemini": [
+        "reasoning",
+        "reasoning",
+        "reasoning",
+        "reasoning",
+        "reasoning"
+      ],
+      "provider_timestamp": "2026-11-21T18:55:59.904121+00:00"
+    },
+    {
+      "case": "6632",
+      "raw_sha256": "46db7d1f818f111f755aabc5acbe8d494cfec4ab8bc5f67d8b542bc9aea17c1f",
+      "source_rows": [
+        43744,
+        43745,
+        43746,
+        43747,
+        43748,
+        43749
+      ],
+      "units": [
+        [
+          0,
+          62
+        ],
+        [
+          62,
+          225
+        ],
+        [
+          225,
+          320
+        ],
+        [
+          320,
+          688
+        ],
+        [
+          688,
+          738
+        ],
+        [
+          738,
+          894
+        ]
+      ],
+      "gold_spans": [
+        {
+          "start": 0,
+          "end": 62,
+          "label": "none"
+        },
+        {
+          "start": 62,
+          "end": 688,
+          "label": "reasoning"
+        },
+        {
+          "start": 688,
+          "end": 894,
+          "label": "decision"
+        }
+      ],
+      "local": [
+        "reasoning",
+        "none",
+        "none",
+        "decision",
+        "decision",
+        "none"
+      ],
+      "gemini": [
+        "reasoning",
+        "reasoning",
+        "reasoning",
+        "reasoning",
+        "decision",
+        "decision"
+      ],
+      "provider_timestamp": "2026-11-21T18:56:00.941880+00:00"
+    },
+    {
+      "case": "7044",
+      "raw_sha256": "be3bd049838c27f5c594c095e107ca0aafd04806306530f4e20ad6271b71b3bb",
+      "source_rows": [
+        134135,
+        134136,
+        134137,
+        134138,
+        134139
+      ],
+      "units": [
+        [
+          0,
+          86
+        ],
+        [
+          86,
+          172
+        ],
+        [
+          172,
+          215
+        ],
+        [
+          215,
+          345
+        ],
+        [
+          345,
+          518
+        ]
+      ],
+      "gold_spans": [
+        {
+          "start": 0,
+          "end": 172,
+          "label": "decision"
+        },
+        {
+          "start": 172,
+          "end": 215,
+          "label": "none"
+        },
+        {
+          "start": 215,
+          "end": 518,
+          "label": "decision"
+        }
+      ],
+      "local": [
+        "decision",
+        "facts",
+        "none",
+        "decision",
+        "decision"
+      ],
+      "gemini": [
+        "decision",
+        "decision",
+        "decision",
+        "decision",
+        "decision"
+      ],
+      "provider_timestamp": "2026-11-21T18:56:01.972289+00:00"
+    },
+    {
+      "case": "6595",
+      "raw_sha256": "3b1f2eeaaaaf1bef6e5ed0d97e683f5752c0a24c2fcc5182b12955cb3b0a0ff2",
+      "source_rows": [
+        35920,
+        35921,
+        35922,
+        35923,
+        35924,
+        35925
+      ],
+      "units": [
+        [
+          0,
+          163
+        ],
+        [
+          163,
+          201
+        ],
+        [
+          201,
+          334
+        ],
+        [
+          334,
+          443
+        ],
+        [
+          443,
+          549
+        ],
+        [
+          549,
+          663
+        ]
+      ],
+      "gold_spans": [
+        {
+          "start": 0,
+          "end": 163,
+          "label": "petitioner_argument"
+        },
+        {
+          "start": 163,
+          "end": 201,
+          "label": "none"
+        },
+        {
+          "start": 201,
+          "end": 663,
+          "label": "reasoning"
+        }
+      ],
+      "local": [
+        "reasoning",
+        "none",
+        "reasoning",
+        "none",
+        "reasoning",
+        "reasoning"
+      ],
+      "gemini": [
+        "petitioner_argument",
+        "reasoning",
+        "reasoning",
+        "reasoning",
+        "reasoning",
+        "reasoning"
+      ],
+      "provider_timestamp": "2026-11-21T18:56:03.100969+00:00"
+    },
+    {
+      "case": "6644",
+      "raw_sha256": "0b2722509a7e4af4c8d2795ed09b659833ac50686fd8eb24a9e71f9bc438755c",
+      "source_rows": [
+        46777,
+        46778,
+        46779,
+        46780,
+        46781
+      ],
+      "units": [
+        [
+          0,
+          92
+        ],
+        [
+          92,
+          173
+        ],
+        [
+          173,
+          268
+        ],
+        [
+          268,
+          344
+        ],
+        [
+          344,
+          384
+        ]
+      ],
+      "gold_spans": [
+        {
+          "start": 0,
+          "end": 344,
+          "label": "reasoning"
+        },
+        {
+          "start": 344,
+          "end": 384,
+          "label": "none"
+        }
+      ],
+      "local": [
+        "facts",
+        "none",
+        "reasoning",
+        "none",
+        "none"
+      ],
+      "gemini": [
+        "facts",
+        "reasoning",
+        "reasoning",
+        "reasoning",
+        "reasoning"
+      ],
+      "provider_timestamp": "2026-11-21T18:56:04.115587+00:00"
+    },
+    {
+      "case": "6681",
+      "raw_sha256": "2168b50faa88aaf573614447cab5eb26d84a0e4edc523696ea424a15c47855cd",
+      "source_rows": [
+        55165,
+        55166,
+        55167,
+        55168,
+        55169
+      ],
+      "units": [
+        [
+          0,
+          125
+        ],
+        [
+          125,
+          170
+        ],
+        [
+          170,
+          340
+        ],
+        [
+          340,
+          460
+        ],
+        [
+          460,
+          556
+        ]
+      ],
+      "gold_spans": [
+        {
+          "start": 0,
+          "end": 125,
+          "label": "petitioner_argument"
+        },
+        {
+          "start": 125,
+          "end": 556,
+          "label": "reasoning"
+        }
+      ],
+      "local": [
+        "none",
+        "none",
+        "reasoning",
+        "reasoning",
+        "reasoning"
+      ],
+      "gemini": [
+        "petitioner_argument",
+        "reasoning",
+        "reasoning",
+        "reasoning",
+        "reasoning"
+      ],
+      "provider_timestamp": "2026-11-21T18:56:05.089724+00:00"
+    },
+    {
+      "case": "6870",
+      "raw_sha256": "aec54131d154b4c8ab7a09684a99b4400c5bf6bba9944f6a8e5fadc72b4ab2f9",
+      "source_rows": [
+        95372,
+        95373,
+        95374,
+        95375,
+        95376,
+        95377
+      ],
+      "units": [
+        [
+          0,
+          121
+        ],
+        [
+          121,
+          249
+        ],
+        [
+          249,
+          410
+        ],
+        [
+          410,
+          563
+        ],
+        [
+          563,
+          792
+        ],
+        [
+          792,
+          878
+        ]
+      ],
+      "gold_spans": [
+        {
+          "start": 0,
+          "end": 121,
+          "label": "none"
+        },
+        {
+          "start": 121,
+          "end": 878,
+          "label": "reasoning"
+        }
+      ],
+      "local": [
+        "reasoning",
+        "none",
+        "none",
+        "none",
+        "reasoning",
+        "none"
+      ],
+      "gemini": [
+        "reasoning",
+        "reasoning",
+        "reasoning",
+        "reasoning",
+        "reasoning",
+        "reasoning"
+      ],
+      "provider_timestamp": "2026-11-21T18:56:06.168633+00:00"
+    },
+    {
+      "case": "6892",
+      "raw_sha256": "6283194637fe73574d66bd2202ca12b0c65821c94c9587d5c7d944d1e4c1c08f",
+      "source_rows": [
+        101959,
+        101960,
+        101961,
+        101962,
+        101963
+      ],
+      "units": [
+        [
+          0,
+          180
+        ],
+        [
+          180,
+          255
+        ],
+        [
+          255,
+          345
+        ],
+        [
+          345,
+          426
+        ],
+        [
+          426,
+          556
+        ]
+      ],
+      "gold_spans": [
+        {
+          "start": 0,
+          "end": 180,
+          "label": "none"
+        },
+        {
+          "start": 180,
+          "end": 556,
+          "label": "reasoning"
+        }
+      ],
+      "local": [
+        "reasoning",
+        "none",
+        "reasoning",
+        "none",
+        "reasoning"
+      ],
+      "gemini": [
+        "reasoning",
+        "reasoning",
+        "reasoning",
+        "reasoning",
+        "reasoning"
+      ],
+      "provider_timestamp": "2026-11-21T18:56:06.987588+00:00"
+    },
+    {
+      "case": "6626",
+      "raw_sha256": "7db10cc207f82510dd5b1c1d123a778622ef1ec485d4a2a54d831eb3b762d275",
+      "source_rows": [
+        42525,
+        42526,
+        42527,
+        42528,
+        42529,
+        42530
+      ],
+      "units": [
+        [
+          0,
+          300
+        ],
+        [
+          300,
+          446
+        ],
+        [
+          446,
+          557
+        ],
+        [
+          557,
+          698
+        ],
+        [
+          698,
+          936
+        ],
+        [
+          936,
+          1116
+        ]
+      ],
+      "gold_spans": [
+        {
+          "start": 0,
+          "end": 300,
+          "label": "facts"
+        },
+        {
+          "start": 300,
+          "end": 1116,
+          "label": "none"
+        }
+      ],
+      "local": [
+        "none",
+        "none",
+        "none",
+        "none",
+        "reasoning",
+        "none"
+      ],
+      "gemini": [
+        "respondent_argument",
+        "petitioner_argument",
+        "facts",
+        "facts",
+        "reasoning",
+        "reasoning"
+      ],
+      "provider_timestamp": "2026-11-21T18:56:08.011764+00:00"
+    }
+  ],
+  "protocol": "Same unmarked shared input, same gold-blind candidate units, seven role choices. Gemini receives one question per candidate unit with its location and excerpt; the local decoder uses the same units. Merge adjoining equal predictions and score half-open Unicode character ranges. Every reference boundary comes from contiguous official LegalSeg source rows."
+}

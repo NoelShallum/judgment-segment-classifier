@@ -1,0 +1,12 @@
+{
+  "case": "5685",
+  "sentences": 170,
+  "changed": 1,
+  "bert_revisions": 1,
+  "template_revisions_after_bert": 1,
+  "memory_source_sha256": "f002c23495d89c4c0b10d28882937564782eb2b226ecaedcc8fdd75b14c8c2ab",
+  "freeze_sha256": "03d4943e414b7a970e0bb38289cad9ac5c37f88ae9853f784f6a5392c2ec9b56",
+  "local_overlay_freeze_sha256": "d89429cd2b464d03b4666416ff0dc8b0aaaa662b092cea3011e0f940275a3ee6",
+  "labels_and_spans_exact_parity": true,
+  "composed_bert_labels_and_spans_exact_parity": true
+}

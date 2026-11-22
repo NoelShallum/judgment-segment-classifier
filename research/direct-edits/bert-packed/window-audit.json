@@ -1,0 +1,75 @@
+{
+  "protocol_sha256": "47ebf029f6056b563868a5fe1a48c767fd937d82c13df43203705ce5c2208635",
+  "checked": {
+    "fit": {
+      "rows": 19184,
+      "cases": 96,
+      "rows_longer_than_payload": 2,
+      "max_wordpieces_in_one_sentence": 676,
+      "views": {
+        "ordered": {
+          "windows": 1995,
+          "visible": 1002684,
+          "wordpieces_retained": 736438
+        },
+        "shuffled": {
+          "windows": 1995,
+          "visible": 1002684,
+          "wordpieces_retained": 736438
+        },
+        "isolated": {
+          "windows": 19186,
+          "visible": 774810,
+          "wordpieces_retained": 736438
+        }
+      }
+    },
+    "select": {
+      "rows": 8324,
+      "cases": 32,
+      "rows_longer_than_payload": 0,
+      "max_wordpieces_in_one_sentence": 454,
+      "views": {
+        "ordered": {
+          "windows": 769,
+          "visible": 387705,
+          "wordpieces_retained": 283507
+        },
+        "shuffled": {
+          "windows": 769,
+          "visible": 387705,
+          "wordpieces_retained": 283507
+        },
+        "isolated": {
+          "windows": 8324,
+          "visible": 300155,
+          "wordpieces_retained": 283507
+        }
+      }
+    },
+    "shared": {
+      "rows": 10469,
+      "cases": 48,
+      "rows_longer_than_payload": 2,
+      "max_wordpieces_in_one_sentence": 1004,
+      "views": {
+        "ordered": {
+          "windows": 941,
+          "visible": 472388,
+          "wordpieces_retained": 345733
+        },
+        "shuffled": {
+          "windows": 941,
+          "visible": 472388,
+          "wordpieces_retained": 345733
+        },
+        "isolated": {
+          "windows": 10471,
+          "visible": 366675,
+          "wordpieces_retained": 345733
+        }
+      }
+    }
+  },
+  "check": "Recovered each row's complete ordered wordpiece vector, exactly once, in every context. Verified by direct array equality."
+}

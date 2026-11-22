@@ -1,0 +1,152 @@
+{
+  "cohort": "probe",
+  "blocks": 2,
+  "cues_with_other_sentences": 14,
+  "measure": "log(mean probability per own token / mean probability per other token), calculated separately for each cue and head",
+  "heads": [
+    {
+      "head": 0,
+      "mean_log_ratio": -0.10209503121842024,
+      "median_log_ratio": -0.0982577818784457,
+      "fraction_preferring_others_per_token": 0.5714285714285714,
+      "own_mass": 0.05806540697813034,
+      "other_mass": 0.27815499901771545,
+      "mean_attention_entropy_normalized": 0.5218615635875296
+    },
+    {
+      "head": 1,
+      "mean_log_ratio": -0.11691585168159327,
+      "median_log_ratio": 0.39570910664113434,
+      "fraction_preferring_others_per_token": 0.2857142857142857,
+      "own_mass": 0.0421987846493721,
+      "other_mass": 0.17803959548473358,
+      "mean_attention_entropy_normalized": 0.544098624062033
+    },
+    {
+      "head": 2,
+      "mean_log_ratio": -0.5010966201211701,
+      "median_log_ratio": 0.6303408629122861,
+      "fraction_preferring_others_per_token": 0.42857142857142855,
+      "own_mass": 0.15152965486049652,
+      "other_mass": 0.48330214619636536,
+      "mean_attention_entropy_normalized": 0.35071212867356216
+    },
+    {
+      "head": 3,
+      "mean_log_ratio": -0.07564398429275555,
+      "median_log_ratio": 0.39213726687848927,
+      "fraction_preferring_others_per_token": 0.35714285714285715,
+      "own_mass": 0.0804203525185585,
+      "other_mass": 0.2983490526676178,
+      "mean_attention_entropy_normalized": 0.5165945600542547
+    },
+    {
+      "head": 4,
+      "mean_log_ratio": 0.12921351480218898,
+      "median_log_ratio": 0.5243588184360335,
+      "fraction_preferring_others_per_token": 0.42857142857142855,
+      "own_mass": 0.168929323554039,
+      "other_mass": 0.5217350721359253,
+      "mean_attention_entropy_normalized": 0.4940250282283466
+    },
+    {
+      "head": 5,
+      "mean_log_ratio": 0.254318610419573,
+      "median_log_ratio": 0.32545421332253716,
+      "fraction_preferring_others_per_token": 0.2857142857142857,
+      "own_mass": 0.1200280636548996,
+      "other_mass": 0.43088316917419434,
+      "mean_attention_entropy_normalized": 0.6828971610868787
+    },
+    {
+      "head": 6,
+      "mean_log_ratio": 0.2373085991559427,
+      "median_log_ratio": 0.343785347195507,
+      "fraction_preferring_others_per_token": 0.2857142857142857,
+      "own_mass": 0.06975974142551422,
+      "other_mass": 0.26372990012168884,
+      "mean_attention_entropy_normalized": 0.638269721146064
+    },
+    {
+      "head": 7,
+      "mean_log_ratio": -0.055723931701847876,
+      "median_log_ratio": 0.19461455159873564,
+      "fraction_preferring_others_per_token": 0.2857142857142857,
+      "own_mass": 0.06743353605270386,
+      "other_mass": 0.24934528768062592,
+      "mean_attention_entropy_normalized": 0.5196791932911424
+    },
+    {
+      "head": 8,
+      "mean_log_ratio": -0.2549117583872003,
+      "median_log_ratio": 0.11406822440608455,
+      "fraction_preferring_others_per_token": 0.42857142857142855,
+      "own_mass": 0.06765902787446976,
+      "other_mass": 0.30403000116348267,
+      "mean_attention_entropy_normalized": 0.564274515118081
+    },
+    {
+      "head": 9,
+      "mean_log_ratio": 0.18074830920849383,
+      "median_log_ratio": 0.5667986043426461,
+      "fraction_preferring_others_per_token": 0.2857142857142857,
+      "own_mass": 0.09971871227025986,
+      "other_mass": 0.32989734411239624,
+      "mean_attention_entropy_normalized": 0.5838064543914011
+    },
+    {
+      "head": 10,
+      "mean_log_ratio": -0.9834776719129358,
+      "median_log_ratio": 0.2080687509114557,
+      "fraction_preferring_others_per_token": 0.42857142857142855,
+      "own_mass": 0.11353319138288498,
+      "other_mass": 0.5301432013511658,
+      "mean_attention_entropy_normalized": 0.4207070746479168
+    },
+    {
+      "head": 11,
+      "mean_log_ratio": -0.16497889436651386,
+      "median_log_ratio": -0.011326728749314832,
+      "fraction_preferring_others_per_token": 0.5714285714285714,
+      "own_mass": 0.020406577736139297,
+      "other_mass": 0.10922950506210327,
+      "mean_attention_entropy_normalized": 0.531921019465143
+    },
+    {
+      "head": 12,
+      "mean_log_ratio": 0.02498587544307943,
+      "median_log_ratio": 0.3897248627220385,
+      "fraction_preferring_others_per_token": 0.42857142857142855,
+      "own_mass": 0.1335839182138443,
+      "other_mass": 0.49570637941360474,
+      "mean_attention_entropy_normalized": 0.6298351127306983
+    },
+    {
+      "head": 13,
+      "mean_log_ratio": 0.6212046435486186,
+      "median_log_ratio": 0.37892730897559546,
+      "fraction_preferring_others_per_token": 0.21428571428571427,
+      "own_mass": 0.040031611919403076,
+      "other_mass": 0.10760610550642014,
+      "mean_attention_entropy_normalized": 0.47439451393091847
+    },
+    {
+      "head": 14,
+      "mean_log_ratio": -0.7482491051682566,
+      "median_log_ratio": 0.2426723603908711,
+      "fraction_preferring_others_per_token": 0.42857142857142855,
+      "own_mass": 0.0577920563519001,
+      "other_mass": 0.3074242174625397,
+      "mean_attention_entropy_normalized": 0.482473319278694
+    },
+    {
+      "head": 15,
+      "mean_log_ratio": 0.25105918225828555,
+      "median_log_ratio": 0.3077211804165403,
+      "fraction_preferring_others_per_token": 0.2857142857142857,
+      "own_mass": 0.13073572516441345,
+      "other_mass": 0.41636961698532104,
+      "mean_attention_entropy_normalized": 0.5831736958274331
+    }
+  ]
+}

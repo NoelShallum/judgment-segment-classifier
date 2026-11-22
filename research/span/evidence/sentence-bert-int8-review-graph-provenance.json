@@ -1,0 +1,11 @@
+{
+  "source_weights_sha256": "bbe8af20d1524c7535b1cbe68c6d4c3c844c6cc9fccef46c03c9ff56e7c18cea",
+  "fp32_sha256": "8e115c0e258b8473c48fb426b6fe0dce376d38b12200372e2f180348b2c83dd1",
+  "quantized_sha256": "ce9168212bbafe8c9b9f1402a7bec33e7f6e285895d1a9e5f3d1eafd3c8a9944",
+  "fp32_bytes": 438202338,
+  "quantized_bytes": 182249652,
+  "onnxruntime": "1.32.0",
+  "weight_type": "QUInt8",
+  "per_channel": true,
+  "reduce_range": true
+}

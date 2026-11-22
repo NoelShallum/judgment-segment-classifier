@@ -1,0 +1,730 @@
+{
+  "training_rows": 1011,
+  "select_rows": 447,
+  "fit_label_support": [
+    424,
+    254,
+    19,
+    66,
+    40,
+    175,
+    33
+  ],
+  "selector_unchanged": 0.17151857730657255,
+  "selected": {
+    "method": "joint_normal_equations",
+    "reg": 0.03,
+    "channels": [
+      0,
+      1,
+      2
+    ],
+    "gain": 1.0,
+    "macro_f1": 0.3038881502314394,
+    "accuracy": 0.378076062639821,
+    "exact_span_micro_f1": 0.04481792717086835
+  },
+  "joint_solver": {
+    "0.03": {
+      "iterations": 400,
+      "status": 400,
+      "relative_normal_equation_residual": 0.0012373254074405976
+    },
+    "0.3": {
+      "iterations": 175,
+      "status": 0,
+      "relative_normal_equation_residual": 0.0004927897464740956
+    },
+    "3.0": {
+      "iterations": 63,
+      "status": 0,
+      "relative_normal_equation_residual": 0.00047753454752503204
+    }
+  },
+  "checkpoint_parameters": 73881879,
+  "tensors": {
+    "boundary_head.boundary_query_head.start_boundary_projection.weight": {
+      "shape": [
+        128,
+        128
+      ],
+      "entries": 16384,
+      "changed_entries": 16384,
+      "frobenius": 35.868072509765625,
+      "null_frobenius": 35.86807632446289,
+      "numerical_rank": 6,
+      "native_sha256": "d1e39e5a62f22769f3c64965678f281a315f0938d7cbd2f7adcee2c6564e72a0",
+      "edited_sha256": "5340ce81b5926ca7fe5cac1c44d842c1859d5e161c47706e3524a6f284fc8df7",
+      "null_sha256": "a1db93254899c526baf8f2296325247ebc4c0bddf6ebd877e1f7b46d8cea27bb"
+    },
+    "boundary_head.boundary_query_head.end_boundary_projection.weight": {
+      "shape": [
+        128,
+        128
+      ],
+      "entries": 16384,
+      "changed_entries": 16384,
+      "frobenius": 31.199270248413086,
+      "null_frobenius": 31.199270248413086,
+      "numerical_rank": 6,
+      "native_sha256": "3b6a87e83231b4cfae280dd6143395896db491c75e70823e5754e6706406b898",
+      "edited_sha256": "ce909a9e594442b187857a62af3fa5c6ce5118875c5b59d43907f06b67c950c8",
+      "null_sha256": "4301f5b4b68fbd1c6c86075304a1e5fd880d594f8c9c48ff49ed3fe759b2722a"
+    },
+    "boundary_head.boundary_query_head.inside_text_projection.weight": {
+      "shape": [
+        128,
+        384
+      ],
+      "entries": 49152,
+      "changed_entries": 49152,
+      "frobenius": 46.4664421081543,
+      "null_frobenius": 46.4664421081543,
+      "numerical_rank": 6,
+      "native_sha256": "886f2878991190c4e40671f7b82b3f8ae6628930a2a20e3a44c2b9edabed7a2f",
+      "edited_sha256": "5403381eba49f443587c59cf4b15463b1fae227523b8560183212f8350ec7b08",
+      "null_sha256": "94d2e4445531438ef2709cf30e01f97a7afba3a7e4f3ec4da093cb21661f9894"
+    }
+  },
+  "all_selection": [
+    {
+      "method": "joint_normal_equations",
+      "reg": 0.03,
+      "channels": [
+        0,
+        1,
+        2
+      ],
+      "gain": 1.0,
+      "macro_f1": 0.3038881502314394,
+      "accuracy": 0.378076062639821,
+      "exact_span_micro_f1": 0.04481792717086835
+    },
+    {
+      "method": "joint_normal_equations",
+      "reg": 0.3,
+      "channels": [
+        0,
+        1,
+        2
+      ],
+      "gain": 2.0,
+      "macro_f1": 0.303285830666499,
+      "accuracy": 0.378076062639821,
+      "exact_span_micro_f1": 0.022222222222222223
+    },
+    {
+      "method": "joint_normal_equations",
+      "reg": 0.03,
+      "channels": [
+        0,
+        1,
+        2
+      ],
+      "gain": 2.0,
+      "macro_f1": 0.29998044995645806,
+      "accuracy": 0.37583892617449666,
+      "exact_span_micro_f1": 0.03409090909090909
+    },
+    {
+      "method": "joint_normal_equations",
+      "reg": 0.3,
+      "channels": [
+        0,
+        1,
+        2
+      ],
+      "gain": 1.0,
+      "macro_f1": 0.29765615124305966,
+      "accuracy": 0.38031319910514544,
+      "exact_span_micro_f1": 0.01643835616438356
+    },
+    {
+      "method": "local_inverse",
+      "reg": 0.03,
+      "channels": [
+        0,
+        1,
+        2
+      ],
+      "gain": 2.0,
+      "macro_f1": 0.2825956303734905,
+      "accuracy": 0.3691275167785235,
+      "exact_span_micro_f1": 0.020066889632107024
+    },
+    {
+      "method": "joint_normal_equations",
+      "reg": 0.03,
+      "channels": [
+        0,
+        1,
+        2
+      ],
+      "gain": 0.5,
+      "macro_f1": 0.27721999532100844,
+      "accuracy": 0.3691275167785235,
+      "exact_span_micro_f1": 0.028409090909090908
+    },
+    {
+      "method": "local_inverse",
+      "reg": 0.03,
+      "channels": [
+        0,
+        1,
+        2
+      ],
+      "gain": 1.0,
+      "macro_f1": 0.27550300299651553,
+      "accuracy": 0.3668903803131991,
+      "exact_span_micro_f1": 0.021052631578947368
+    },
+    {
+      "method": "local_inverse",
+      "reg": 0.03,
+      "channels": [
+        0,
+        1,
+        2
+      ],
+      "gain": 0.5,
+      "macro_f1": 0.2574980036462681,
+      "accuracy": 0.3378076062639821,
+      "exact_span_micro_f1": 0.030864197530864196
+    },
+    {
+      "method": "joint_normal_equations",
+      "reg": 3.0,
+      "channels": [
+        0,
+        1,
+        2
+      ],
+      "gain": 2.0,
+      "macro_f1": 0.24738413309852386,
+      "accuracy": 0.3400447427293065,
+      "exact_span_micro_f1": 0.010309278350515464
+    },
+    {
+      "method": "joint_normal_equations",
+      "reg": 3.0,
+      "channels": [
+        0,
+        1,
+        2
+      ],
+      "gain": 1.0,
+      "macro_f1": 0.24657043729776823,
+      "accuracy": 0.319910514541387,
+      "exact_span_micro_f1": 0.020887728459530026
+    },
+    {
+      "method": "local_inverse",
+      "reg": 0.03,
+      "channels": [
+        2
+      ],
+      "gain": 2.0,
+      "macro_f1": 0.2459617686270583,
+      "accuracy": 0.3087248322147651,
+      "exact_span_micro_f1": 0.023391812865497075
+    },
+    {
+      "method": "local_inverse",
+      "reg": 0.03,
+      "channels": [
+        0,
+        1
+      ],
+      "gain": 1.0,
+      "macro_f1": 0.24579381235983305,
+      "accuracy": 0.3333333333333333,
+      "exact_span_micro_f1": 0.018633540372670808
+    },
+    {
+      "method": "joint_normal_equations",
+      "reg": 0.3,
+      "channels": [
+        0,
+        1,
+        2
+      ],
+      "gain": 0.5,
+      "macro_f1": 0.24554621195609988,
+      "accuracy": 0.33557046979865773,
+      "exact_span_micro_f1": 0.020618556701030927
+    },
+    {
+      "method": "local_inverse",
+      "reg": 0.03,
+      "channels": [
+        2
+      ],
+      "gain": 0.5,
+      "macro_f1": 0.2438305683919613,
+      "accuracy": 0.2930648769574944,
+      "exact_span_micro_f1": 0.03836930455635491
+    },
+    {
+      "method": "local_inverse",
+      "reg": 0.03,
+      "channels": [
+        2
+      ],
+      "gain": 1.0,
+      "macro_f1": 0.2433623861481827,
+      "accuracy": 0.3131991051454139,
+      "exact_span_micro_f1": 0.0213903743315508
+    },
+    {
+      "method": "local_inverse",
+      "reg": 0.03,
+      "channels": [
+        0
+      ],
+      "gain": 2.0,
+      "macro_f1": 0.22868905919194096,
+      "accuracy": 0.30201342281879195,
+      "exact_span_micro_f1": 0.01639344262295082
+    },
+    {
+      "method": "local_inverse",
+      "reg": 0.03,
+      "channels": [
+        0,
+        1
+      ],
+      "gain": 2.0,
+      "macro_f1": 0.22770348280807787,
+      "accuracy": 0.3243847874720358,
+      "exact_span_micro_f1": 0.013245033112582781
+    },
+    {
+      "method": "local_inverse",
+      "reg": 0.03,
+      "channels": [
+        1
+      ],
+      "gain": 2.0,
+      "macro_f1": 0.22438032618158973,
+      "accuracy": 0.3131991051454139,
+      "exact_span_micro_f1": 0.02702702702702703
+    },
+    {
+      "method": "local_inverse",
+      "reg": 0.03,
+      "channels": [
+        0
+      ],
+      "gain": 1.0,
+      "macro_f1": 0.22236987525156074,
+      "accuracy": 0.2930648769574944,
+      "exact_span_micro_f1": 0.02040816326530612
+    },
+    {
+      "method": "local_inverse",
+      "reg": 0.3,
+      "channels": [
+        2
+      ],
+      "gain": 2.0,
+      "macro_f1": 0.2223326834322365,
+      "accuracy": 0.2796420581655481,
+      "exact_span_micro_f1": 0.006097560975609756
+    },
+    {
+      "method": "local_inverse",
+      "reg": 0.03,
+      "channels": [
+        1
+      ],
+      "gain": 0.5,
+      "macro_f1": 0.21801914183779592,
+      "accuracy": 0.27069351230425054,
+      "exact_span_micro_f1": 0.028169014084507043
+    },
+    {
+      "method": "local_inverse",
+      "reg": 0.03,
+      "channels": [
+        0,
+        1
+      ],
+      "gain": 0.5,
+      "macro_f1": 0.2127809469737576,
+      "accuracy": 0.28859060402684567,
+      "exact_span_micro_f1": 0.015957446808510637
+    },
+    {
+      "method": "local_inverse",
+      "reg": 0.03,
+      "channels": [
+        0
+      ],
+      "gain": 0.5,
+      "macro_f1": 0.2126871355523589,
+      "accuracy": 0.2796420581655481,
+      "exact_span_micro_f1": 0.02912621359223301
+    },
+    {
+      "method": "local_inverse",
+      "reg": 0.3,
+      "channels": [
+        2
+      ],
+      "gain": 0.5,
+      "macro_f1": 0.2082169783629315,
+      "accuracy": 0.26174496644295303,
+      "exact_span_micro_f1": 0.03225806451612903
+    },
+    {
+      "method": "local_inverse",
+      "reg": 0.3,
+      "channels": [
+        0
+      ],
+      "gain": 1.0,
+      "macro_f1": 0.20585965791800592,
+      "accuracy": 0.27293064876957496,
+      "exact_span_micro_f1": 0.02457002457002457
+    },
+    {
+      "method": "joint_normal_equations",
+      "reg": 3.0,
+      "channels": [
+        0,
+        1,
+        2
+      ],
+      "gain": 0.5,
+      "macro_f1": 0.203755000716321,
+      "accuracy": 0.27293064876957496,
+      "exact_span_micro_f1": 0.029850746268656716
+    },
+    {
+      "method": "local_inverse",
+      "reg": 0.3,
+      "channels": [
+        0
+      ],
+      "gain": 2.0,
+      "macro_f1": 0.20227361878660538,
+      "accuracy": 0.2751677852348993,
+      "exact_span_micro_f1": 0.016172506738544475
+    },
+    {
+      "method": "local_inverse",
+      "reg": 0.3,
+      "channels": [
+        2
+      ],
+      "gain": 1.0,
+      "macro_f1": 0.2017549866030616,
+      "accuracy": 0.27293064876957496,
+      "exact_span_micro_f1": 0.010362694300518135
+    },
+    {
+      "method": "local_inverse",
+      "reg": 0.3,
+      "channels": [
+        1
+      ],
+      "gain": 2.0,
+      "macro_f1": 0.20114132764760723,
+      "accuracy": 0.2751677852348993,
+      "exact_span_micro_f1": 0.011428571428571429
+    },
+    {
+      "method": "local_inverse",
+      "reg": 0.3,
+      "channels": [
+        0
+      ],
+      "gain": 0.5,
+      "macro_f1": 0.2001067331247221,
+      "accuracy": 0.2684563758389262,
+      "exact_span_micro_f1": 0.03398058252427184
+    },
+    {
+      "method": "local_inverse",
+      "reg": 0.3,
+      "channels": [
+        0,
+        1,
+        2
+      ],
+      "gain": 0.5,
+      "macro_f1": 0.19963508078747114,
+      "accuracy": 0.28635346756152125,
+      "exact_span_micro_f1": 0.017241379310344827
+    },
+    {
+      "method": "local_inverse",
+      "reg": 0.03,
+      "channels": [
+        1
+      ],
+      "gain": 1.0,
+      "macro_f1": 0.19694372867478765,
+      "accuracy": 0.2751677852348993,
+      "exact_span_micro_f1": 0.010309278350515464
+    },
+    {
+      "method": "local_inverse",
+      "reg": 0.3,
+      "channels": [
+        1
+      ],
+      "gain": 1.0,
+      "macro_f1": 0.19602998305885494,
+      "accuracy": 0.27293064876957496,
+      "exact_span_micro_f1": 0.01485148514851485
+    },
+    {
+      "method": "local_inverse",
+      "reg": 0.3,
+      "channels": [
+        1
+      ],
+      "gain": 0.5,
+      "macro_f1": 0.19495449935105105,
+      "accuracy": 0.24384787472035793,
+      "exact_span_micro_f1": 0.03263403263403263
+    },
+    {
+      "method": "local_inverse",
+      "reg": 3.0,
+      "channels": [
+        0
+      ],
+      "gain": 0.5,
+      "macro_f1": 0.19109662967240562,
+      "accuracy": 0.24384787472035793,
+      "exact_span_micro_f1": 0.033816425120772944
+    },
+    {
+      "method": "local_inverse",
+      "reg": 3.0,
+      "channels": [
+        2
+      ],
+      "gain": 1.0,
+      "macro_f1": 0.19048055171991576,
+      "accuracy": 0.23937360178970918,
+      "exact_span_micro_f1": 0.01932367149758454
+    },
+    {
+      "method": "local_inverse",
+      "reg": 3.0,
+      "channels": [
+        0,
+        1,
+        2
+      ],
+      "gain": 0.5,
+      "macro_f1": 0.19005409944298085,
+      "accuracy": 0.2639821029082774,
+      "exact_span_micro_f1": 0.0110803324099723
+    },
+    {
+      "method": "local_inverse",
+      "reg": 0.3,
+      "channels": [
+        0,
+        1
+      ],
+      "gain": 1.0,
+      "macro_f1": 0.18954297315256377,
+      "accuracy": 0.29082774049217003,
+      "exact_span_micro_f1": 0.018867924528301886
+    },
+    {
+      "method": "local_inverse",
+      "reg": 0.3,
+      "channels": [
+        0,
+        1
+      ],
+      "gain": 0.5,
+      "macro_f1": 0.18682758011202272,
+      "accuracy": 0.27740492170022374,
+      "exact_span_micro_f1": 0.010126582278481013
+    },
+    {
+      "method": "local_inverse",
+      "reg": 3.0,
+      "channels": [
+        1
+      ],
+      "gain": 0.5,
+      "macro_f1": 0.1829411323087975,
+      "accuracy": 0.22818791946308725,
+      "exact_span_micro_f1": 0.03255813953488372
+    },
+    {
+      "method": "local_inverse",
+      "reg": 3.0,
+      "channels": [
+        1
+      ],
+      "gain": 1.0,
+      "macro_f1": 0.18168982774098472,
+      "accuracy": 0.24384787472035793,
+      "exact_span_micro_f1": 0.019417475728155338
+    },
+    {
+      "method": "local_inverse",
+      "reg": 3.0,
+      "channels": [
+        2
+      ],
+      "gain": 0.5,
+      "macro_f1": 0.17828501158861337,
+      "accuracy": 0.21923937360178972,
+      "exact_span_micro_f1": 0.027522935779816515
+    },
+    {
+      "method": "local_inverse",
+      "reg": 0.3,
+      "channels": [
+        0,
+        1
+      ],
+      "gain": 2.0,
+      "macro_f1": 0.17483424661107533,
+      "accuracy": 0.2975391498881432,
+      "exact_span_micro_f1": 0.0072992700729927005
+    },
+    {
+      "method": "local_inverse",
+      "reg": 3.0,
+      "channels": [
+        0
+      ],
+      "gain": 1.0,
+      "macro_f1": 0.17340584857647,
+      "accuracy": 0.2505592841163311,
+      "exact_span_micro_f1": 0.004962779156327543
+    },
+    {
+      "method": "local_inverse",
+      "reg": 3.0,
+      "channels": [
+        2
+      ],
+      "gain": 2.0,
+      "macro_f1": 0.1721073706637102,
+      "accuracy": 0.2371364653243848,
+      "exact_span_micro_f1": 0.012903225806451613
+    },
+    {
+      "method": "local_inverse",
+      "reg": 3.0,
+      "channels": [
+        0,
+        1
+      ],
+      "gain": 0.5,
+      "macro_f1": 0.17121762959425282,
+      "accuracy": 0.24608501118568232,
+      "exact_span_micro_f1": 0.014778325123152709
+    },
+    {
+      "method": "local_inverse",
+      "reg": 0.3,
+      "channels": [
+        0,
+        1,
+        2
+      ],
+      "gain": 2.0,
+      "macro_f1": 0.16955854404740164,
+      "accuracy": 0.2841163310961969,
+      "exact_span_micro_f1": 0.008438818565400843
+    },
+    {
+      "method": "local_inverse",
+      "reg": 0.3,
+      "channels": [
+        0,
+        1,
+        2
+      ],
+      "gain": 1.0,
+      "macro_f1": 0.16120695577205119,
+      "accuracy": 0.2930648769574944,
+      "exact_span_micro_f1": 0.016260162601626018
+    },
+    {
+      "method": "local_inverse",
+      "reg": 3.0,
+      "channels": [
+        0
+      ],
+      "gain": 2.0,
+      "macro_f1": 0.15239948762195418,
+      "accuracy": 0.26174496644295303,
+      "exact_span_micro_f1": 0.0
+    },
+    {
+      "method": "local_inverse",
+      "reg": 3.0,
+      "channels": [
+        1
+      ],
+      "gain": 2.0,
+      "macro_f1": 0.14889226952791038,
+      "accuracy": 0.24384787472035793,
+      "exact_span_micro_f1": 0.011799410029498525
+    },
+    {
+      "method": "local_inverse",
+      "reg": 3.0,
+      "channels": [
+        0,
+        1
+      ],
+      "gain": 1.0,
+      "macro_f1": 0.14275421723734044,
+      "accuracy": 0.24608501118568232,
+      "exact_span_micro_f1": 0.006153846153846154
+    },
+    {
+      "method": "local_inverse",
+      "reg": 3.0,
+      "channels": [
+        0,
+        1,
+        2
+      ],
+      "gain": 1.0,
+      "macro_f1": 0.11953639045602592,
+      "accuracy": 0.232662192393736,
+      "exact_span_micro_f1": 0.0
+    },
+    {
+      "method": "local_inverse",
+      "reg": 3.0,
+      "channels": [
+        0,
+        1
+      ],
+      "gain": 2.0,
+      "macro_f1": 0.10892798297617513,
+      "accuracy": 0.232662192393736,
+      "exact_span_micro_f1": 0.008695652173913044
+    },
+    {
+      "method": "local_inverse",
+      "reg": 3.0,
+      "channels": [
+        0,
+        1,
+        2
+      ],
+      "gain": 2.0,
+      "macro_f1": 0.08529753847624622,
+      "accuracy": 0.2058165548098434,
+      "exact_span_micro_f1": 0.012903225806451613
+    }
+  ]
+}

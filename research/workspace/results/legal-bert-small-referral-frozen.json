@@ -1,0 +1,32 @@
+{
+  "backbone_sha256": "98a6b9520c494c016a04d20f340997f0d07dd10380169b41387e0cb17cc00078",
+  "parameters": 35068416,
+  "rows_fit": 1476,
+  "layers": 6,
+  "window_cap": 96,
+  "backend": "GPU",
+  "arms": {
+    "document scores": {
+      "validation_macro_f1": 0.6959032828686065,
+      "validation_accuracy": 0.7170106955514681,
+      "settings": [
+        0.55,
+        0.025,
+        1.0,
+        0.15
+      ],
+      "weights_sha256": "7b19454bf27267bc8514bf28a3898d3de09b0616d78d4e326b465cf461d1b9a0"
+    },
+    "target-pooled Legal-BERT Small": {
+      "validation_macro_f1": 0.6959654617660715,
+      "validation_accuracy": 0.717078820083112,
+      "settings": [
+        0.28,
+        0.16,
+        1.0,
+        0.15
+      ],
+      "weights_sha256": "3800e9e7d72f292f81078f33a1f6fed4767e08768fe95fd862336f5f01c8efaf"
+    }
+  }
+}

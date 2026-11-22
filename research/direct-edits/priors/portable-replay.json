@@ -1,0 +1,69 @@
+{
+  "cases": [
+    {
+      "id": "6408",
+      "rows": 248,
+      "label_disagreements": 0
+    },
+    {
+      "id": "6409",
+      "rows": 40,
+      "label_disagreements": 0
+    },
+    {
+      "id": "6410",
+      "rows": 160,
+      "label_disagreements": 0
+    },
+    {
+      "id": "6411",
+      "rows": 157,
+      "label_disagreements": 0
+    }
+  ],
+  "alternative_methods": {
+    "source": {
+      "ids": [
+        "6408",
+        "6409",
+        "6410"
+      ],
+      "rows": 448,
+      "disagreements": 0,
+      "source": "official-targeted-predictions.npz"
+    },
+    "retention": {
+      "ids": [
+        "6408",
+        "6409",
+        "6410"
+      ],
+      "rows": 448,
+      "disagreements": 0,
+      "source": "uniform-retention-test-score.npz"
+    },
+    "retention-prior": {
+      "ids": [
+        "6408",
+        "6409",
+        "6410"
+      ],
+      "rows": 448,
+      "disagreements": 0,
+      "source": "composition-test-predictions.npz"
+    }
+  },
+  "single_string_api": {
+    "label": "none"
+  },
+  "single_paragraph_api": {
+    "label": "none"
+  },
+  "source": "Public LegalSeg replay and synthetic interface smoke examples.",
+  "versions": {
+    "numpy": "2.4.6",
+    "safetensors": "0.8.0",
+    "scikit-learn": "1.9.1",
+    "torch": "2.8.0+cpu"
+  }
+}

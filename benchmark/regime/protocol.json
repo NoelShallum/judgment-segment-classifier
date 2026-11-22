@@ -1,0 +1,9 @@
+{
+  "study": "Latent annotation regimes and two-direction seven-state message passing",
+  "training": "First 24 and all 72 of the train-only, case-disjoint, deterministic shards in the scale protocol",
+  "selection": "Select on the same 48 judgments by mean full and lexical-unmatched macro-F1. Require no net increase in None/Reasoning swaps on either selector slice. Prefer fewer swaps, then higher accuracy on ties. Earlier stage wins an exact tie.",
+  "confirmation": "Evaluate both separately frozen stages on 72 and 96 previously examined validation judgments. For the selector-chosen stage, require higher seven-role macro-F1 and fewer swaps on each confirmation cohort before promoting to an official run.",
+  "parameters": "Six training-case regimes, 3528 discrete observation bins, seven role values per bin, seven by seven transition matrices, start and prevalence priors, closed-form linear case gate.",
+  "controls": "Zero strength, global count tables, shuffled train-case regime assignments and posterior-only classification. All statistics are reset at judgment boundaries.",
+  "data_boundary": "Use only the public seven-role train corpus for empirical parameter writes. Use model outputs and sentence position at inference. Freeze before opening any official score."
+}

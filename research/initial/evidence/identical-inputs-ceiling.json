@@ -1,0 +1,254 @@
+{
+  "test": {
+    "nonblank_rows": 149868,
+    "blank_rows": 13,
+    "unique_raw_inputs": 139447,
+    "raw_inputs_with_incompatible_labels": 669,
+    "affected_rows": 9041,
+    "minimum_errors_on_nonblank_rows": 2165,
+    "empirical_maximum_accuracy": 0.9855539541463154,
+    "examples": [
+      {
+        "sha256": "267c23695b6e8fc29bd88b9f5d1962d3d208fa9c2fafd974614e6ab3b84fa55c",
+        "gold_counts": {
+          "None": 228,
+          "Arguments of Petitioner": 7,
+          "Reasoning": 3,
+          "Facts": 13
+        }
+      },
+      {
+        "sha256": "6bc54f13bea593dc5e1c8e6b16249e669d1ce99cbeac65f2a10f36e1d86f1fd4",
+        "gold_counts": {
+          "None": 219,
+          "Reasoning": 4,
+          "Facts": 10,
+          "Arguments of Respondent": 2,
+          "Arguments of Petitioner": 2
+        }
+      },
+      {
+        "sha256": "d80edd7fb074b51d1fbf46a3dcf5cae5237ceb888dcdd8bd1b7df117d53afdc4",
+        "gold_counts": {
+          "None": 205,
+          "Arguments of Petitioner": 22,
+          "Facts": 8,
+          "Reasoning": 1,
+          "Arguments of Respondent": 1
+        }
+      },
+      {
+        "sha256": "99a1b84b98650fd4581b7156cd830ef74402cc54b6b834b677c269a41e731915",
+        "gold_counts": {
+          "None": 210,
+          "Arguments of Petitioner": 23,
+          "Reasoning": 3,
+          "Facts": 1
+        }
+      },
+      {
+        "sha256": "6ce012fd1056714b493ab0a7b473923e52b597bdb7cde60a0d97ef6f54e60c4d",
+        "gold_counts": {
+          "None": 206,
+          "Arguments of Petitioner": 24,
+          "Facts": 3,
+          "Reasoning": 3
+        }
+      },
+      {
+        "sha256": "e3b7e7a038be142c2a042fc1f7374d00fe4caaf7b6b65a3175e33d11644b7499",
+        "gold_counts": {
+          "None": 207,
+          "Arguments of Petitioner": 21,
+          "Facts": 5,
+          "Reasoning": 2
+        }
+      },
+      {
+        "sha256": "5bc524c305ccad938fddf68f69a6c86dcb48f4725e4fbc5c1adc6948dcd8a368",
+        "gold_counts": {
+          "None": 205,
+          "Arguments of Petitioner": 19,
+          "Facts": 4,
+          "Reasoning": 3
+        }
+      },
+      {
+        "sha256": "540dd397b2d380dcc3f59796c4facc43379929f1a3b5e6cc9a218274391b635b",
+        "gold_counts": {
+          "None": 200,
+          "Arguments of Petitioner": 12,
+          "Facts": 16,
+          "Reasoning": 1,
+          "Arguments of Respondent": 2
+        }
+      },
+      {
+        "sha256": "45d873d4bfdc6bbe6925297328210da8ae3312cab9052df873f350d1bb3b8a65",
+        "gold_counts": {
+          "None": 174,
+          "Arguments of Petitioner": 36,
+          "Facts": 9,
+          "Reasoning": 2,
+          "Arguments of Respondent": 2
+        }
+      },
+      {
+        "sha256": "a50aa8b9a9806899e1d67d0d09c1ce40221cb0dffc52483e8e6da18ff1753a38",
+        "gold_counts": {
+          "None": 204,
+          "Arguments of Petitioner": 12,
+          "Facts": 4
+        }
+      },
+      {
+        "sha256": "25602777cecc667d222cfeb509c62be1591a64d751c3142c1381dee13677a294",
+        "gold_counts": {
+          "None": 182,
+          "Arguments of Petitioner": 27,
+          "Facts": 4,
+          "Reasoning": 4
+        }
+      },
+      {
+        "sha256": "352e15aaca7dcf8dec5093dacd9256df4d66ba8677558e1cbba32c709cadeece",
+        "gold_counts": {
+          "None": 167,
+          "Facts": 6,
+          "Arguments of Petitioner": 38,
+          "Reasoning": 2,
+          "Decision": 1,
+          "Arguments of Respondent": 1
+        }
+      }
+    ]
+  },
+  "val": {
+    "nonblank_rows": 293362,
+    "blank_rows": 8,
+    "unique_raw_inputs": 250524,
+    "raw_inputs_with_incompatible_labels": 2441,
+    "affected_rows": 38058,
+    "minimum_errors_on_nonblank_rows": 7221,
+    "empirical_maximum_accuracy": 0.9753853600670843,
+    "examples": [
+      {
+        "sha256": "6bc54f13bea593dc5e1c8e6b16249e669d1ce99cbeac65f2a10f36e1d86f1fd4",
+        "gold_counts": {
+          "None": 1013,
+          "Arguments of Petitioner": 23,
+          "Reasoning": 7,
+          "Facts": 9,
+          "Arguments of Respondent": 2
+        }
+      },
+      {
+        "sha256": "267c23695b6e8fc29bd88b9f5d1962d3d208fa9c2fafd974614e6ab3b84fa55c",
+        "gold_counts": {
+          "None": 995,
+          "Arguments of Petitioner": 31,
+          "Facts": 9,
+          "Arguments of Respondent": 1,
+          "Reasoning": 1
+        }
+      },
+      {
+        "sha256": "d80edd7fb074b51d1fbf46a3dcf5cae5237ceb888dcdd8bd1b7df117d53afdc4",
+        "gold_counts": {
+          "None": 929,
+          "Arguments of Petitioner": 79,
+          "Facts": 6,
+          "Reasoning": 1,
+          "Arguments of Respondent": 3
+        }
+      },
+      {
+        "sha256": "540dd397b2d380dcc3f59796c4facc43379929f1a3b5e6cc9a218274391b635b",
+        "gold_counts": {
+          "None": 914,
+          "Arguments of Petitioner": 55,
+          "Facts": 8,
+          "Reasoning": 1,
+          "Arguments of Respondent": 6
+        }
+      },
+      {
+        "sha256": "99a1b84b98650fd4581b7156cd830ef74402cc54b6b834b677c269a41e731915",
+        "gold_counts": {
+          "None": 868,
+          "Arguments of Petitioner": 65,
+          "Reasoning": 4,
+          "Facts": 10
+        }
+      },
+      {
+        "sha256": "6ce012fd1056714b493ab0a7b473923e52b597bdb7cde60a0d97ef6f54e60c4d",
+        "gold_counts": {
+          "None": 868,
+          "Arguments of Petitioner": 62,
+          "Reasoning": 2,
+          "Facts": 12
+        }
+      },
+      {
+        "sha256": "5bc524c305ccad938fddf68f69a6c86dcb48f4725e4fbc5c1adc6948dcd8a368",
+        "gold_counts": {
+          "None": 870,
+          "Arguments of Petitioner": 56,
+          "Facts": 4,
+          "Reasoning": 5
+        }
+      },
+      {
+        "sha256": "e3b7e7a038be142c2a042fc1f7374d00fe4caaf7b6b65a3175e33d11644b7499",
+        "gold_counts": {
+          "Arguments of Respondent": 3,
+          "None": 842,
+          "Arguments of Petitioner": 55,
+          "Facts": 4
+        }
+      },
+      {
+        "sha256": "25602777cecc667d222cfeb509c62be1591a64d751c3142c1381dee13677a294",
+        "gold_counts": {
+          "None": 789,
+          "Arguments of Petitioner": 78,
+          "Reasoning": 3,
+          "Facts": 5,
+          "Arguments of Respondent": 3
+        }
+      },
+      {
+        "sha256": "23f663630e2f28250c09d7a0c370f55eebf635772f9ce27e46797ab8ef297f4b",
+        "gold_counts": {
+          "None": 837,
+          "Arguments of Petitioner": 24,
+          "Facts": 6,
+          "Arguments of Respondent": 1
+        }
+      },
+      {
+        "sha256": "45d873d4bfdc6bbe6925297328210da8ae3312cab9052df873f350d1bb3b8a65",
+        "gold_counts": {
+          "None": 750,
+          "Arguments of Respondent": 5,
+          "Arguments of Petitioner": 92,
+          "Facts": 7,
+          "Decision": 1,
+          "Reasoning": 4
+        }
+      },
+      {
+        "sha256": "a50aa8b9a9806899e1d67d0d09c1ce40221cb0dffc52483e8e6da18ff1753a38",
+        "gold_counts": {
+          "None": 793,
+          "Arguments of Petitioner": 54,
+          "Facts": 5,
+          "Reasoning": 3,
+          "Arguments of Respondent": 1
+        }
+      }
+    ]
+  },
+  "interpretation": "For identical nonblank text bytes and a single deterministic output, at least total minus the most frequent label in each conflicting group must be wrong. This upper bound applies only to these exact recorded splits and says nothing about the attainability of the remaining accuracy."
+}

@@ -1,0 +1,4557 @@
+{
+  "freeze_sha256": "2f88ec3a3b8764cb1d88088e6573f642db0c9a6d8fa9305f3475c99e56a09f99",
+  "splits": {
+    "select": {
+      "cases": 72,
+      "arms": {
+        "sequence only": {
+          "baseline": {
+            "rows": 14679,
+            "correct": 10615,
+            "accuracy": 0.7231419033994141,
+            "macro_f1": 0.7029477419103224,
+            "per_role_f1": {
+              "none": 0.7413587604290822,
+              "facts": 0.821917808219178,
+              "issue": 0.5614035087719298,
+              "petitioner_argument": 0.6832,
+              "respondent_argument": 0.6847195357833655,
+              "reasoning": 0.6392557022809123,
+              "decision": 0.7887788778877888
+            },
+            "confusion": [
+              [
+                4665,
+                322,
+                28,
+                153,
+                63,
+                979,
+                16
+              ],
+              [
+                278,
+                2100,
+                23,
+                42,
+                34,
+                73,
+                7
+              ],
+              [
+                20,
+                69,
+                96,
+                0,
+                0,
+                4,
+                2
+              ],
+              [
+                216,
+                32,
+                1,
+                854,
+                112,
+                64,
+                2
+              ],
+              [
+                70,
+                2,
+                0,
+                142,
+                531,
+                36,
+                0
+              ],
+              [
+                1090,
+                25,
+                2,
+                27,
+                29,
+                2130,
+                19
+              ],
+              [
+                20,
+                3,
+                1,
+                1,
+                1,
+                56,
+                239
+              ]
+            ]
+          },
+          "labels": {
+            "rows": 14679,
+            "correct": 10631,
+            "accuracy": 0.7242318959057157,
+            "macro_f1": 0.70685557557605,
+            "per_role_f1": {
+              "none": 0.7423656592756254,
+              "facts": 0.8215264187866927,
+              "issue": 0.5714285714285714,
+              "petitioner_argument": 0.6821086261980831,
+              "respondent_argument": 0.6837387964148528,
+              "reasoning": 0.6395721925133689,
+              "decision": 0.8072487644151565
+            },
+            "confusion": [
+              [
+                4704,
+                324,
+                33,
+                158,
+                68,
+                925,
+                14
+              ],
+              [
+                292,
+                2099,
+                24,
+                42,
+                34,
+                59,
+                7
+              ],
+              [
+                16,
+                68,
+                102,
+                0,
+                0,
+                3,
+                2
+              ],
+              [
+                217,
+                32,
+                2,
+                854,
+                114,
+                60,
+                2
+              ],
+              [
+                72,
+                2,
+                0,
+                140,
+                534,
+                33,
+                0
+              ],
+              [
+                1126,
+                25,
+                4,
+                28,
+                30,
+                2093,
+                16
+              ],
+              [
+                20,
+                3,
+                1,
+                1,
+                1,
+                50,
+                245
+              ]
+            ]
+          },
+          "paired_labels": {
+            "macro_f1": [
+              -5.213023945055404e-05,
+              0.008232847211033636
+            ],
+            "accuracy": [
+              -0.0008994308292318869,
+              0.003234636765795973
+            ],
+            "reasoning": [
+              -0.005150889138036016,
+              0.0055647966255922094
+            ],
+            "decision": [
+              0.00298889007221744,
+              0.03495680447610175
+            ]
+          },
+          "spans": {
+            "exact_labeled_span_f1": 0.3951534733441034,
+            "role_boundary_f1": 0.5941118094608006,
+            "matched_spans": 1223,
+            "predicted_spans": 2710,
+            "gold_spans": 3480
+          },
+          "baseline_spans": {
+            "exact_labeled_span_f1": 0.39585021883611604,
+            "role_boundary_f1": 0.5988381742738589,
+            "matched_spans": 1221,
+            "predicted_spans": 2689,
+            "gold_spans": 3480
+          },
+          "paired_spans": {
+            "exact_labeled_span_f1": [
+              -0.006357828311714342,
+              0.004665557321934638
+            ],
+            "role_boundary_f1": [
+              -0.011567325202596197,
+              0.00172824731540352
+            ]
+          },
+          "changed": 193,
+          "decisions_by_pair": [
+            {
+              "roles": [
+                "none",
+                "facts"
+              ],
+              "changed": 18,
+              "fixed": 6,
+              "broken": 10
+            },
+            {
+              "roles": [
+                "none",
+                "issue"
+              ],
+              "changed": 13,
+              "fixed": 5,
+              "broken": 4
+            },
+            {
+              "roles": [
+                "none",
+                "petitioner_argument"
+              ],
+              "changed": 11,
+              "fixed": 3,
+              "broken": 8
+            },
+            {
+              "roles": [
+                "none",
+                "respondent_argument"
+              ],
+              "changed": 10,
+              "fixed": 2,
+              "broken": 5
+            },
+            {
+              "roles": [
+                "none",
+                "reasoning"
+              ],
+              "changed": 110,
+              "fixed": 52,
+              "broken": 37
+            },
+            {
+              "roles": [
+                "none",
+                "decision"
+              ],
+              "changed": 6,
+              "fixed": 3,
+              "broken": 2
+            },
+            {
+              "roles": [
+                "facts",
+                "issue"
+              ],
+              "changed": 4,
+              "fixed": 2,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "facts",
+                "petitioner_argument"
+              ],
+              "changed": 0,
+              "fixed": 0,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "facts",
+                "respondent_argument"
+              ],
+              "changed": 0,
+              "fixed": 0,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "facts",
+                "reasoning"
+              ],
+              "changed": 2,
+              "fixed": 0,
+              "broken": 1
+            },
+            {
+              "roles": [
+                "facts",
+                "decision"
+              ],
+              "changed": 0,
+              "fixed": 0,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "issue",
+                "petitioner_argument"
+              ],
+              "changed": 0,
+              "fixed": 0,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "issue",
+                "respondent_argument"
+              ],
+              "changed": 0,
+              "fixed": 0,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "issue",
+                "reasoning"
+              ],
+              "changed": 0,
+              "fixed": 0,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "issue",
+                "decision"
+              ],
+              "changed": 0,
+              "fixed": 0,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "petitioner_argument",
+                "respondent_argument"
+              ],
+              "changed": 2,
+              "fixed": 2,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "petitioner_argument",
+                "reasoning"
+              ],
+              "changed": 3,
+              "fixed": 1,
+              "broken": 1
+            },
+            {
+              "roles": [
+                "petitioner_argument",
+                "decision"
+              ],
+              "changed": 0,
+              "fixed": 0,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "respondent_argument",
+                "reasoning"
+              ],
+              "changed": 1,
+              "fixed": 0,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "respondent_argument",
+                "decision"
+              ],
+              "changed": 0,
+              "fixed": 0,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "reasoning",
+                "decision"
+              ],
+              "changed": 13,
+              "fixed": 10,
+              "broken": 2
+            }
+          ],
+          "baseline_confusions_ranked": [
+            [
+              2069,
+              "none",
+              "reasoning"
+            ],
+            [
+              600,
+              "none",
+              "facts"
+            ],
+            [
+              369,
+              "none",
+              "petitioner_argument"
+            ],
+            [
+              254,
+              "petitioner_argument",
+              "respondent_argument"
+            ],
+            [
+              133,
+              "none",
+              "respondent_argument"
+            ],
+            [
+              98,
+              "facts",
+              "reasoning"
+            ],
+            [
+              92,
+              "facts",
+              "issue"
+            ],
+            [
+              91,
+              "petitioner_argument",
+              "reasoning"
+            ],
+            [
+              75,
+              "reasoning",
+              "decision"
+            ],
+            [
+              74,
+              "facts",
+              "petitioner_argument"
+            ],
+            [
+              65,
+              "respondent_argument",
+              "reasoning"
+            ],
+            [
+              48,
+              "none",
+              "issue"
+            ],
+            [
+              36,
+              "none",
+              "decision"
+            ],
+            [
+              36,
+              "facts",
+              "respondent_argument"
+            ],
+            [
+              10,
+              "facts",
+              "decision"
+            ],
+            [
+              6,
+              "issue",
+              "reasoning"
+            ],
+            [
+              3,
+              "petitioner_argument",
+              "decision"
+            ],
+            [
+              3,
+              "issue",
+              "decision"
+            ],
+            [
+              1,
+              "respondent_argument",
+              "decision"
+            ],
+            [
+              1,
+              "issue",
+              "petitioner_argument"
+            ],
+            [
+              0,
+              "issue",
+              "respondent_argument"
+            ]
+          ]
+        },
+        "BERT hybrid": {
+          "baseline": {
+            "rows": 14679,
+            "correct": 10589,
+            "accuracy": 0.7213706655766742,
+            "macro_f1": 0.7028210089128296,
+            "per_role_f1": {
+              "none": 0.74032,
+              "facts": 0.8154623154623155,
+              "issue": 0.5706666666666667,
+              "petitioner_argument": 0.6856916369401506,
+              "respondent_argument": 0.6776232616940582,
+              "reasoning": 0.6384522370012092,
+              "decision": 0.7915309446254072
+            },
+            "confusion": [
+              [
+                4627,
+                350,
+                33,
+                163,
+                77,
+                960,
+                16
+              ],
+              [
+                260,
+                2099,
+                40,
+                44,
+                36,
+                70,
+                8
+              ],
+              [
+                13,
+                65,
+                107,
+                0,
+                0,
+                4,
+                2
+              ],
+              [
+                203,
+                33,
+                0,
+                865,
+                120,
+                58,
+                2
+              ],
+              [
+                60,
+                8,
+                0,
+                141,
+                536,
+                36,
+                0
+              ],
+              [
+                1092,
+                33,
+                4,
+                28,
+                31,
+                2112,
+                22
+              ],
+              [
+                19,
+                3,
+                0,
+                1,
+                1,
+                54,
+                243
+              ]
+            ]
+          },
+          "labels": {
+            "rows": 14679,
+            "correct": 10603,
+            "accuracy": 0.722324409019688,
+            "macro_f1": 0.7060422614626626,
+            "per_role_f1": {
+              "none": 0.7422567239081,
+              "facts": 0.8162551040248882,
+              "issue": 0.5783783783783784,
+              "petitioner_argument": 0.685940594059406,
+              "respondent_argument": 0.6767676767676768,
+              "reasoning": 0.6322398367603203,
+              "decision": 0.8104575163398693
+            },
+            "confusion": [
+              [
+                4733,
+                346,
+                33,
+                165,
+                78,
+                857,
+                14
+              ],
+              [
+                290,
+                2099,
+                34,
+                44,
+                36,
+                46,
+                8
+              ],
+              [
+                14,
+                65,
+                107,
+                0,
+                0,
+                3,
+                2
+              ],
+              [
+                207,
+                32,
+                1,
+                866,
+                119,
+                54,
+                2
+              ],
+              [
+                71,
+                7,
+                0,
+                138,
+                536,
+                29,
+                0
+              ],
+              [
+                1190,
+                34,
+                4,
+                30,
+                33,
+                2014,
+                17
+              ],
+              [
+                22,
+                3,
+                0,
+                1,
+                1,
+                46,
+                248
+              ]
+            ]
+          },
+          "paired_labels": {
+            "macro_f1": [
+              -0.0003289874681464078,
+              0.006794312646338612
+            ],
+            "accuracy": [
+              -0.0029824662854499194,
+              0.0051785171491381945
+            ],
+            "reasoning": [
+              -0.014899408402398503,
+              0.002575367368579081
+            ],
+            "decision": [
+              0.004701629325056603,
+              0.03406425199976838
+            ]
+          },
+          "spans": {
+            "exact_labeled_span_f1": 0.38122790099646414,
+            "role_boundary_f1": 0.5820993747943403,
+            "matched_spans": 1186,
+            "predicted_spans": 2742,
+            "gold_spans": 3480
+          },
+          "baseline_spans": {
+            "exact_labeled_span_f1": 0.39680729760547323,
+            "role_boundary_f1": 0.5981651376146789,
+            "matched_spans": 1218,
+            "predicted_spans": 2659,
+            "gold_spans": 3480
+          },
+          "paired_spans": {
+            "exact_labeled_span_f1": [
+              -0.02253500412883656,
+              -0.008963165464074035
+            ],
+            "role_boundary_f1": [
+              -0.02326041292274349,
+              -0.00894447758759923
+            ]
+          },
+          "changed": 337,
+          "decisions_by_pair": [
+            {
+              "roles": [
+                "none",
+                "facts"
+              ],
+              "changed": 31,
+              "fixed": 14,
+              "broken": 15
+            },
+            {
+              "roles": [
+                "none",
+                "issue"
+              ],
+              "changed": 1,
+              "fixed": 1,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "none",
+                "petitioner_argument"
+              ],
+              "changed": 9,
+              "fixed": 3,
+              "broken": 6
+            },
+            {
+              "roles": [
+                "none",
+                "respondent_argument"
+              ],
+              "changed": 7,
+              "fixed": 1,
+              "broken": 5
+            },
+            {
+              "roles": [
+                "none",
+                "reasoning"
+              ],
+              "changed": 246,
+              "fixed": 106,
+              "broken": 103
+            },
+            {
+              "roles": [
+                "none",
+                "decision"
+              ],
+              "changed": 7,
+              "fixed": 4,
+              "broken": 3
+            },
+            {
+              "roles": [
+                "facts",
+                "issue"
+              ],
+              "changed": 6,
+              "fixed": 6,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "facts",
+                "petitioner_argument"
+              ],
+              "changed": 0,
+              "fixed": 0,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "facts",
+                "respondent_argument"
+              ],
+              "changed": 0,
+              "fixed": 0,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "facts",
+                "reasoning"
+              ],
+              "changed": 2,
+              "fixed": 0,
+              "broken": 1
+            },
+            {
+              "roles": [
+                "facts",
+                "decision"
+              ],
+              "changed": 0,
+              "fixed": 0,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "issue",
+                "petitioner_argument"
+              ],
+              "changed": 0,
+              "fixed": 0,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "issue",
+                "respondent_argument"
+              ],
+              "changed": 0,
+              "fixed": 0,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "issue",
+                "reasoning"
+              ],
+              "changed": 2,
+              "fixed": 0,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "issue",
+                "decision"
+              ],
+              "changed": 0,
+              "fixed": 0,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "petitioner_argument",
+                "respondent_argument"
+              ],
+              "changed": 5,
+              "fixed": 5,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "petitioner_argument",
+                "reasoning"
+              ],
+              "changed": 4,
+              "fixed": 1,
+              "broken": 2
+            },
+            {
+              "roles": [
+                "petitioner_argument",
+                "decision"
+              ],
+              "changed": 0,
+              "fixed": 0,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "respondent_argument",
+                "reasoning"
+              ],
+              "changed": 2,
+              "fixed": 0,
+              "broken": 2
+            },
+            {
+              "roles": [
+                "respondent_argument",
+                "decision"
+              ],
+              "changed": 0,
+              "fixed": 0,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "reasoning",
+                "decision"
+              ],
+              "changed": 15,
+              "fixed": 12,
+              "broken": 2
+            }
+          ],
+          "baseline_confusions_ranked": [
+            [
+              2052,
+              "none",
+              "reasoning"
+            ],
+            [
+              610,
+              "none",
+              "facts"
+            ],
+            [
+              366,
+              "none",
+              "petitioner_argument"
+            ],
+            [
+              261,
+              "petitioner_argument",
+              "respondent_argument"
+            ],
+            [
+              137,
+              "none",
+              "respondent_argument"
+            ],
+            [
+              105,
+              "facts",
+              "issue"
+            ],
+            [
+              103,
+              "facts",
+              "reasoning"
+            ],
+            [
+              86,
+              "petitioner_argument",
+              "reasoning"
+            ],
+            [
+              77,
+              "facts",
+              "petitioner_argument"
+            ],
+            [
+              76,
+              "reasoning",
+              "decision"
+            ],
+            [
+              67,
+              "respondent_argument",
+              "reasoning"
+            ],
+            [
+              46,
+              "none",
+              "issue"
+            ],
+            [
+              44,
+              "facts",
+              "respondent_argument"
+            ],
+            [
+              35,
+              "none",
+              "decision"
+            ],
+            [
+              11,
+              "facts",
+              "decision"
+            ],
+            [
+              8,
+              "issue",
+              "reasoning"
+            ],
+            [
+              3,
+              "petitioner_argument",
+              "decision"
+            ],
+            [
+              2,
+              "issue",
+              "decision"
+            ],
+            [
+              1,
+              "respondent_argument",
+              "decision"
+            ],
+            [
+              0,
+              "issue",
+              "respondent_argument"
+            ],
+            [
+              0,
+              "issue",
+              "petitioner_argument"
+            ]
+          ]
+        }
+      }
+    },
+    "confirm": {
+      "cases": 72,
+      "arms": {
+        "sequence only": {
+          "baseline": {
+            "rows": 11301,
+            "correct": 8250,
+            "accuracy": 0.7300238916910008,
+            "macro_f1": 0.7156204255654182,
+            "per_role_f1": {
+              "none": 0.7108404966571156,
+              "facts": 0.853338880798835,
+              "issue": 0.5679012345679012,
+              "petitioner_argument": 0.7441860465116279,
+              "respondent_argument": 0.6623376623376623,
+              "reasoning": 0.6534972787744406,
+              "decision": 0.8172413793103448
+            },
+            "confusion": [
+              [
+                2977,
+                233,
+                14,
+                110,
+                84,
+                747,
+                31
+              ],
+              [
+                204,
+                2051,
+                21,
+                40,
+                14,
+                90,
+                4
+              ],
+              [
+                38,
+                48,
+                92,
+                1,
+                0,
+                5,
+                0
+              ],
+              [
+                190,
+                16,
+                1,
+                864,
+                63,
+                21,
+                0
+              ],
+              [
+                76,
+                11,
+                3,
+                117,
+                408,
+                25,
+                0
+              ],
+              [
+                685,
+                23,
+                7,
+                35,
+                23,
+                1621,
+                19
+              ],
+              [
+                10,
+                1,
+                2,
+                0,
+                0,
+                39,
+                237
+              ]
+            ]
+          },
+          "labels": {
+            "rows": 11301,
+            "correct": 8296,
+            "accuracy": 0.7340943279355809,
+            "macro_f1": 0.7211248702262674,
+            "per_role_f1": {
+              "none": 0.7164461247637051,
+              "facts": 0.8541103017689906,
+              "issue": 0.5906432748538012,
+              "petitioner_argument": 0.7434238896075894,
+              "respondent_argument": 0.6607287449392713,
+              "reasoning": 0.6598023064250412,
+              "decision": 0.8227194492254734
+            },
+            "confusion": [
+              [
+                3032,
+                233,
+                18,
+                110,
+                86,
+                686,
+                31
+              ],
+              [
+                220,
+                2052,
+                24,
+                40,
+                15,
+                70,
+                3
+              ],
+              [
+                30,
+                47,
+                101,
+                1,
+                0,
+                5,
+                0
+              ],
+              [
+                196,
+                14,
+                1,
+                862,
+                63,
+                19,
+                0
+              ],
+              [
+                80,
+                11,
+                3,
+                114,
+                408,
+                24,
+                0
+              ],
+              [
+                701,
+                23,
+                9,
+                36,
+                23,
+                1602,
+                19
+              ],
+              [
+                9,
+                1,
+                2,
+                1,
+                0,
+                37,
+                239
+              ]
+            ]
+          },
+          "paired_labels": {
+            "macro_f1": [
+              0.0012641965270141526,
+              0.010282793489324229
+            ],
+            "accuracy": [
+              0.0011387872092108425,
+              0.0070565946105792185
+            ],
+            "reasoning": [
+              -0.00011848071496919064,
+              0.012061411026566639
+            ],
+            "decision": [
+              -0.004056078746063949,
+              0.0169237081013539
+            ]
+          },
+          "spans": {
+            "exact_labeled_span_f1": 0.4596707134541826,
+            "role_boundary_f1": 0.6539444539103766,
+            "matched_spans": 1382,
+            "predicted_spans": 2739,
+            "gold_spans": 3274
+          },
+          "baseline_spans": {
+            "exact_labeled_span_f1": 0.45921249376972917,
+            "role_boundary_f1": 0.6563404255319149,
+            "matched_spans": 1382,
+            "predicted_spans": 2745,
+            "gold_spans": 3274
+          },
+          "paired_spans": {
+            "exact_labeled_span_f1": [
+              -0.0043187032925393306,
+              0.005423120917604138
+            ],
+            "role_boundary_f1": [
+              -0.007010624768637066,
+              0.002637391496680828
+            ]
+          },
+          "changed": 164,
+          "decisions_by_pair": [
+            {
+              "roles": [
+                "none",
+                "facts"
+              ],
+              "changed": 15,
+              "fixed": 4,
+              "broken": 7
+            },
+            {
+              "roles": [
+                "none",
+                "issue"
+              ],
+              "changed": 16,
+              "fixed": 8,
+              "broken": 3
+            },
+            {
+              "roles": [
+                "none",
+                "petitioner_argument"
+              ],
+              "changed": 10,
+              "fixed": 2,
+              "broken": 4
+            },
+            {
+              "roles": [
+                "none",
+                "respondent_argument"
+              ],
+              "changed": 6,
+              "fixed": 1,
+              "broken": 3
+            },
+            {
+              "roles": [
+                "none",
+                "reasoning"
+              ],
+              "changed": 99,
+              "fixed": 61,
+              "broken": 19
+            },
+            {
+              "roles": [
+                "none",
+                "decision"
+              ],
+              "changed": 2,
+              "fixed": 1,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "facts",
+                "issue"
+              ],
+              "changed": 4,
+              "fixed": 2,
+              "broken": 1
+            },
+            {
+              "roles": [
+                "facts",
+                "petitioner_argument"
+              ],
+              "changed": 0,
+              "fixed": 0,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "facts",
+                "respondent_argument"
+              ],
+              "changed": 1,
+              "fixed": 0,
+              "broken": 1
+            },
+            {
+              "roles": [
+                "facts",
+                "reasoning"
+              ],
+              "changed": 4,
+              "fixed": 4,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "facts",
+                "decision"
+              ],
+              "changed": 0,
+              "fixed": 0,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "issue",
+                "petitioner_argument"
+              ],
+              "changed": 0,
+              "fixed": 0,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "issue",
+                "respondent_argument"
+              ],
+              "changed": 0,
+              "fixed": 0,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "issue",
+                "reasoning"
+              ],
+              "changed": 0,
+              "fixed": 0,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "issue",
+                "decision"
+              ],
+              "changed": 0,
+              "fixed": 0,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "petitioner_argument",
+                "respondent_argument"
+              ],
+              "changed": 2,
+              "fixed": 1,
+              "broken": 1
+            },
+            {
+              "roles": [
+                "petitioner_argument",
+                "reasoning"
+              ],
+              "changed": 0,
+              "fixed": 0,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "petitioner_argument",
+                "decision"
+              ],
+              "changed": 1,
+              "fixed": 0,
+              "broken": 1
+            },
+            {
+              "roles": [
+                "respondent_argument",
+                "reasoning"
+              ],
+              "changed": 0,
+              "fixed": 0,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "respondent_argument",
+                "decision"
+              ],
+              "changed": 0,
+              "fixed": 0,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "reasoning",
+                "decision"
+              ],
+              "changed": 4,
+              "fixed": 3,
+              "broken": 1
+            }
+          ],
+          "baseline_confusions_ranked": [
+            [
+              1432,
+              "none",
+              "reasoning"
+            ],
+            [
+              437,
+              "none",
+              "facts"
+            ],
+            [
+              300,
+              "none",
+              "petitioner_argument"
+            ],
+            [
+              180,
+              "petitioner_argument",
+              "respondent_argument"
+            ],
+            [
+              160,
+              "none",
+              "respondent_argument"
+            ],
+            [
+              113,
+              "facts",
+              "reasoning"
+            ],
+            [
+              69,
+              "facts",
+              "issue"
+            ],
+            [
+              58,
+              "reasoning",
+              "decision"
+            ],
+            [
+              56,
+              "petitioner_argument",
+              "reasoning"
+            ],
+            [
+              56,
+              "facts",
+              "petitioner_argument"
+            ],
+            [
+              52,
+              "none",
+              "issue"
+            ],
+            [
+              48,
+              "respondent_argument",
+              "reasoning"
+            ],
+            [
+              41,
+              "none",
+              "decision"
+            ],
+            [
+              25,
+              "facts",
+              "respondent_argument"
+            ],
+            [
+              12,
+              "issue",
+              "reasoning"
+            ],
+            [
+              5,
+              "facts",
+              "decision"
+            ],
+            [
+              3,
+              "issue",
+              "respondent_argument"
+            ],
+            [
+              2,
+              "issue",
+              "petitioner_argument"
+            ],
+            [
+              2,
+              "issue",
+              "decision"
+            ],
+            [
+              0,
+              "respondent_argument",
+              "decision"
+            ],
+            [
+              0,
+              "petitioner_argument",
+              "decision"
+            ]
+          ]
+        },
+        "BERT hybrid": {
+          "baseline": {
+            "rows": 11301,
+            "correct": 8254,
+            "accuracy": 0.7303778426687904,
+            "macro_f1": 0.7211603586479315,
+            "per_role_f1": {
+              "none": 0.7132211538461538,
+              "facts": 0.8495943415851883,
+              "issue": 0.6033519553072626,
+              "petitioner_argument": 0.7436668097896093,
+              "respondent_argument": 0.665086887835703,
+              "reasoning": 0.6520770010131712,
+              "decision": 0.8211243611584327
+            },
+            "confusion": [
+              [
+                2967,
+                233,
+                26,
+                116,
+                89,
+                734,
+                31
+              ],
+              [
+                200,
+                2042,
+                29,
+                39,
+                17,
+                91,
+                6
+              ],
+              [
+                23,
+                46,
+                108,
+                1,
+                0,
+                6,
+                0
+              ],
+              [
+                183,
+                16,
+                0,
+                866,
+                70,
+                20,
+                0
+              ],
+              [
+                61,
+                15,
+                2,
+                117,
+                421,
+                24,
+                0
+              ],
+              [
+                681,
+                30,
+                9,
+                35,
+                29,
+                1609,
+                20
+              ],
+              [
+                9,
+                1,
+                0,
+                0,
+                0,
+                38,
+                241
+              ]
+            ]
+          },
+          "labels": {
+            "rows": 11301,
+            "correct": 8326,
+            "accuracy": 0.7367489602690027,
+            "macro_f1": 0.7236447181122804,
+            "per_role_f1": {
+              "none": 0.7249650675360969,
+              "facts": 0.8482068390325271,
+              "issue": 0.5988700564971752,
+              "petitioner_argument": 0.7438656909169178,
+              "respondent_argument": 0.6645569620253164,
+              "reasoning": 0.6597059450245046,
+              "decision": 0.8253424657534246
+            },
+            "confusion": [
+              [
+                3113,
+                232,
+                26,
+                114,
+                89,
+                592,
+                30
+              ],
+              [
+                243,
+                2034,
+                27,
+                39,
+                18,
+                59,
+                4
+              ],
+              [
+                26,
+                46,
+                106,
+                1,
+                0,
+                5,
+                0
+              ],
+              [
+                192,
+                14,
+                0,
+                864,
+                68,
+                16,
+                1
+              ],
+              [
+                65,
+                15,
+                2,
+                116,
+                420,
+                22,
+                0
+              ],
+              [
+                744,
+                30,
+                9,
+                34,
+                29,
+                1548,
+                19
+              ],
+              [
+                9,
+                1,
+                0,
+                0,
+                0,
+                38,
+                241
+              ]
+            ]
+          },
+          "paired_labels": {
+            "macro_f1": [
+              -0.00037619989301652945,
+              0.005568549196629943
+            ],
+            "accuracy": [
+              0.0019004095438265116,
+              0.011511049657292213
+            ],
+            "reasoning": [
+              -0.0018413187485562946,
+              0.01740866144712298
+            ],
+            "decision": [
+              -0.00298922467764452,
+              0.013228541214133421
+            ]
+          },
+          "spans": {
+            "exact_labeled_span_f1": 0.44841402337228714,
+            "role_boundary_f1": 0.6421484775915156,
+            "matched_spans": 1343,
+            "predicted_spans": 2716,
+            "gold_spans": 3274
+          },
+          "baseline_spans": {
+            "exact_labeled_span_f1": 0.4540901502504174,
+            "role_boundary_f1": 0.6517276770441327,
+            "matched_spans": 1360,
+            "predicted_spans": 2716,
+            "gold_spans": 3274
+          },
+          "paired_spans": {
+            "exact_labeled_span_f1": [
+              -0.014294721844973721,
+              0.002604808320476286
+            ],
+            "role_boundary_f1": [
+              -0.018302144412721294,
+              -0.0022839315970635153
+            ]
+          },
+          "changed": 293,
+          "decisions_by_pair": [
+            {
+              "roles": [
+                "none",
+                "facts"
+              ],
+              "changed": 21,
+              "fixed": 3,
+              "broken": 13
+            },
+            {
+              "roles": [
+                "none",
+                "issue"
+              ],
+              "changed": 2,
+              "fixed": 0,
+              "broken": 1
+            },
+            {
+              "roles": [
+                "none",
+                "petitioner_argument"
+              ],
+              "changed": 8,
+              "fixed": 2,
+              "broken": 4
+            },
+            {
+              "roles": [
+                "none",
+                "respondent_argument"
+              ],
+              "changed": 5,
+              "fixed": 2,
+              "broken": 2
+            },
+            {
+              "roles": [
+                "none",
+                "reasoning"
+              ],
+              "changed": 240,
+              "fixed": 142,
+              "broken": 62
+            },
+            {
+              "roles": [
+                "none",
+                "decision"
+              ],
+              "changed": 4,
+              "fixed": 1,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "facts",
+                "issue"
+              ],
+              "changed": 2,
+              "fixed": 1,
+              "broken": 1
+            },
+            {
+              "roles": [
+                "facts",
+                "petitioner_argument"
+              ],
+              "changed": 0,
+              "fixed": 0,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "facts",
+                "respondent_argument"
+              ],
+              "changed": 1,
+              "fixed": 0,
+              "broken": 1
+            },
+            {
+              "roles": [
+                "facts",
+                "reasoning"
+              ],
+              "changed": 5,
+              "fixed": 4,
+              "broken": 1
+            },
+            {
+              "roles": [
+                "facts",
+                "decision"
+              ],
+              "changed": 0,
+              "fixed": 0,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "issue",
+                "petitioner_argument"
+              ],
+              "changed": 0,
+              "fixed": 0,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "issue",
+                "respondent_argument"
+              ],
+              "changed": 0,
+              "fixed": 0,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "issue",
+                "reasoning"
+              ],
+              "changed": 0,
+              "fixed": 0,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "issue",
+                "decision"
+              ],
+              "changed": 0,
+              "fixed": 0,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "petitioner_argument",
+                "respondent_argument"
+              ],
+              "changed": 2,
+              "fixed": 1,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "petitioner_argument",
+                "reasoning"
+              ],
+              "changed": 0,
+              "fixed": 0,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "petitioner_argument",
+                "decision"
+              ],
+              "changed": 0,
+              "fixed": 0,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "respondent_argument",
+                "reasoning"
+              ],
+              "changed": 0,
+              "fixed": 0,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "respondent_argument",
+                "decision"
+              ],
+              "changed": 0,
+              "fixed": 0,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "reasoning",
+                "decision"
+              ],
+              "changed": 3,
+              "fixed": 2,
+              "broken": 1
+            }
+          ],
+          "baseline_confusions_ranked": [
+            [
+              1415,
+              "none",
+              "reasoning"
+            ],
+            [
+              433,
+              "none",
+              "facts"
+            ],
+            [
+              299,
+              "none",
+              "petitioner_argument"
+            ],
+            [
+              187,
+              "petitioner_argument",
+              "respondent_argument"
+            ],
+            [
+              150,
+              "none",
+              "respondent_argument"
+            ],
+            [
+              121,
+              "facts",
+              "reasoning"
+            ],
+            [
+              75,
+              "facts",
+              "issue"
+            ],
+            [
+              58,
+              "reasoning",
+              "decision"
+            ],
+            [
+              55,
+              "petitioner_argument",
+              "reasoning"
+            ],
+            [
+              55,
+              "facts",
+              "petitioner_argument"
+            ],
+            [
+              53,
+              "respondent_argument",
+              "reasoning"
+            ],
+            [
+              49,
+              "none",
+              "issue"
+            ],
+            [
+              40,
+              "none",
+              "decision"
+            ],
+            [
+              32,
+              "facts",
+              "respondent_argument"
+            ],
+            [
+              15,
+              "issue",
+              "reasoning"
+            ],
+            [
+              7,
+              "facts",
+              "decision"
+            ],
+            [
+              2,
+              "issue",
+              "respondent_argument"
+            ],
+            [
+              1,
+              "issue",
+              "petitioner_argument"
+            ],
+            [
+              0,
+              "respondent_argument",
+              "decision"
+            ],
+            [
+              0,
+              "petitioner_argument",
+              "decision"
+            ],
+            [
+              0,
+              "issue",
+              "decision"
+            ]
+          ]
+        }
+      }
+    },
+    "holdout": {
+      "cases": 384,
+      "arms": {
+        "sequence only": {
+          "baseline": {
+            "rows": 80163,
+            "correct": 57155,
+            "accuracy": 0.7129847934832778,
+            "macro_f1": 0.6914832265717141,
+            "per_role_f1": {
+              "none": 0.7210892443070337,
+              "facts": 0.8357814131569787,
+              "issue": 0.5706914344685242,
+              "petitioner_argument": 0.6984484283302517,
+              "respondent_argument": 0.6841147018661812,
+              "reasoning": 0.6236012207527976,
+              "decision": 0.7066561431202315
+            },
+            "confusion": [
+              [
+                24256,
+                1873,
+                121,
+                575,
+                395,
+                5811,
+                126
+              ],
+              [
+                1155,
+                12006,
+                96,
+                188,
+                25,
+                326,
+                16
+              ],
+              [
+                225,
+                278,
+                553,
+                7,
+                3,
+                49,
+                1
+              ],
+              [
+                1402,
+                143,
+                13,
+                4344,
+                492,
+                280,
+                3
+              ],
+              [
+                752,
+                121,
+                8,
+                498,
+                3006,
+                325,
+                2
+              ],
+              [
+                6141,
+                273,
+                27,
+                147,
+                144,
+                11647,
+                121
+              ],
+              [
+                188,
+                224,
+                4,
+                3,
+                11,
+                416,
+                1343
+              ]
+            ]
+          },
+          "labels": {
+            "rows": 80163,
+            "correct": 57288,
+            "accuracy": 0.7146439130272071,
+            "macro_f1": 0.6935913986624332,
+            "per_role_f1": {
+              "none": 0.7237489322847633,
+              "facts": 0.8368186254008085,
+              "issue": 0.5759059745347699,
+              "petitioner_argument": 0.6975848511594319,
+              "respondent_argument": 0.6858698117486959,
+              "reasoning": 0.6226461504823854,
+              "decision": 0.712565445026178
+            },
+            "confusion": [
+              [
+                24572,
+                1862,
+                160,
+                595,
+                404,
+                5436,
+                128
+              ],
+              [
+                1184,
+                12005,
+                110,
+                187,
+                25,
+                287,
+                14
+              ],
+              [
+                210,
+                268,
+                588,
+                7,
+                2,
+                39,
+                2
+              ],
+              [
+                1419,
+                145,
+                15,
+                4347,
+                501,
+                248,
+                2
+              ],
+              [
+                775,
+                111,
+                10,
+                494,
+                3024,
+                298,
+                0
+              ],
+              [
+                6380,
+                269,
+                39,
+                151,
+                146,
+                11391,
+                124
+              ],
+              [
+                205,
+                220,
+                4,
+                5,
+                4,
+                390,
+                1361
+              ]
+            ]
+          },
+          "paired_labels": {
+            "macro_f1": [
+              -7.796075334603191e-05,
+              0.00411301234755764
+            ],
+            "accuracy": [
+              0.0003888589449343449,
+              0.0029027048368852107
+            ],
+            "reasoning": [
+              -0.003717122351689928,
+              0.0017398943003749557
+            ],
+            "decision": [
+              0.0015565174671312105,
+              0.011081509985557954
+            ]
+          },
+          "spans": {
+            "exact_labeled_span_f1": 0.3958685884343818,
+            "role_boundary_f1": 0.5993553393422074,
+            "matched_spans": 6784,
+            "predicted_spans": 15556,
+            "gold_spans": 18718
+          },
+          "baseline_spans": {
+            "exact_labeled_span_f1": 0.40204738227551917,
+            "role_boundary_f1": 0.6063072227873856,
+            "matched_spans": 6873,
+            "predicted_spans": 15472,
+            "gold_spans": 18718
+          },
+          "paired_spans": {
+            "exact_labeled_span_f1": [
+              -0.009090634891618796,
+              -0.003523542475574167
+            ],
+            "role_boundary_f1": [
+              -0.009740772377099036,
+              -0.004183421301479837
+            ]
+          },
+          "changed": 1143,
+          "decisions_by_pair": [
+            {
+              "roles": [
+                "none",
+                "facts"
+              ],
+              "changed": 116,
+              "fixed": 48,
+              "broken": 37
+            },
+            {
+              "roles": [
+                "none",
+                "issue"
+              ],
+              "changed": 95,
+              "fixed": 33,
+              "broken": 36
+            },
+            {
+              "roles": [
+                "none",
+                "petitioner_argument"
+              ],
+              "changed": 60,
+              "fixed": 19,
+              "broken": 28
+            },
+            {
+              "roles": [
+                "none",
+                "respondent_argument"
+              ],
+              "changed": 35,
+              "fixed": 12,
+              "broken": 8
+            },
+            {
+              "roles": [
+                "none",
+                "reasoning"
+              ],
+              "changed": 723,
+              "fixed": 367,
+              "broken": 248
+            },
+            {
+              "roles": [
+                "none",
+                "decision"
+              ],
+              "changed": 23,
+              "fixed": 10,
+              "broken": 7
+            },
+            {
+              "roles": [
+                "facts",
+                "issue"
+              ],
+              "changed": 7,
+              "fixed": 1,
+              "broken": 5
+            },
+            {
+              "roles": [
+                "facts",
+                "petitioner_argument"
+              ],
+              "changed": 4,
+              "fixed": 1,
+              "broken": 2
+            },
+            {
+              "roles": [
+                "facts",
+                "respondent_argument"
+              ],
+              "changed": 1,
+              "fixed": 1,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "facts",
+                "reasoning"
+              ],
+              "changed": 3,
+              "fixed": 1,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "facts",
+                "decision"
+              ],
+              "changed": 1,
+              "fixed": 0,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "issue",
+                "petitioner_argument"
+              ],
+              "changed": 2,
+              "fixed": 0,
+              "broken": 2
+            },
+            {
+              "roles": [
+                "issue",
+                "respondent_argument"
+              ],
+              "changed": 0,
+              "fixed": 0,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "issue",
+                "reasoning"
+              ],
+              "changed": 4,
+              "fixed": 1,
+              "broken": 1
+            },
+            {
+              "roles": [
+                "issue",
+                "decision"
+              ],
+              "changed": 0,
+              "fixed": 0,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "petitioner_argument",
+                "respondent_argument"
+              ],
+              "changed": 24,
+              "fixed": 9,
+              "broken": 9
+            },
+            {
+              "roles": [
+                "petitioner_argument",
+                "reasoning"
+              ],
+              "changed": 8,
+              "fixed": 2,
+              "broken": 2
+            },
+            {
+              "roles": [
+                "petitioner_argument",
+                "decision"
+              ],
+              "changed": 0,
+              "fixed": 0,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "respondent_argument",
+                "reasoning"
+              ],
+              "changed": 4,
+              "fixed": 2,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "respondent_argument",
+                "decision"
+              ],
+              "changed": 0,
+              "fixed": 0,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "reasoning",
+                "decision"
+              ],
+              "changed": 33,
+              "fixed": 20,
+              "broken": 9
+            }
+          ],
+          "baseline_confusions_ranked": [
+            [
+              11952,
+              "none",
+              "reasoning"
+            ],
+            [
+              3028,
+              "none",
+              "facts"
+            ],
+            [
+              1977,
+              "none",
+              "petitioner_argument"
+            ],
+            [
+              1147,
+              "none",
+              "respondent_argument"
+            ],
+            [
+              990,
+              "petitioner_argument",
+              "respondent_argument"
+            ],
+            [
+              599,
+              "facts",
+              "reasoning"
+            ],
+            [
+              537,
+              "reasoning",
+              "decision"
+            ],
+            [
+              469,
+              "respondent_argument",
+              "reasoning"
+            ],
+            [
+              427,
+              "petitioner_argument",
+              "reasoning"
+            ],
+            [
+              374,
+              "facts",
+              "issue"
+            ],
+            [
+              346,
+              "none",
+              "issue"
+            ],
+            [
+              331,
+              "facts",
+              "petitioner_argument"
+            ],
+            [
+              314,
+              "none",
+              "decision"
+            ],
+            [
+              240,
+              "facts",
+              "decision"
+            ],
+            [
+              146,
+              "facts",
+              "respondent_argument"
+            ],
+            [
+              76,
+              "issue",
+              "reasoning"
+            ],
+            [
+              20,
+              "issue",
+              "petitioner_argument"
+            ],
+            [
+              13,
+              "respondent_argument",
+              "decision"
+            ],
+            [
+              11,
+              "issue",
+              "respondent_argument"
+            ],
+            [
+              6,
+              "petitioner_argument",
+              "decision"
+            ],
+            [
+              5,
+              "issue",
+              "decision"
+            ]
+          ]
+        },
+        "BERT hybrid": {
+          "baseline": {
+            "rows": 80163,
+            "correct": 57101,
+            "accuracy": 0.7123111659992765,
+            "macro_f1": 0.6863132756159668,
+            "per_role_f1": {
+              "none": 0.7212348269144313,
+              "facts": 0.8342920507311664,
+              "issue": 0.537117903930131,
+              "petitioner_argument": 0.6992529009696392,
+              "respondent_argument": 0.6856179775280898,
+              "reasoning": 0.6241589061743016,
+              "decision": 0.7025183630640084
+            },
+            "confusion": [
+              [
+                24064,
+                2037,
+                172,
+                620,
+                431,
+                5699,
+                134
+              ],
+              [
+                1053,
+                12038,
+                152,
+                197,
+                28,
+                325,
+                19
+              ],
+              [
+                172,
+                266,
+                615,
+                10,
+                4,
+                48,
+                1
+              ],
+              [
+                1335,
+                156,
+                10,
+                4399,
+                505,
+                270,
+                2
+              ],
+              [
+                690,
+                144,
+                7,
+                512,
+                3051,
+                305,
+                3
+              ],
+              [
+                6054,
+                363,
+                45,
+                164,
+                154,
+                11595,
+                125
+              ],
+              [
+                205,
+                42,
+                173,
+                3,
+                15,
+                412,
+                1339
+              ]
+            ]
+          },
+          "labels": {
+            "rows": 80163,
+            "correct": 57283,
+            "accuracy": 0.7145815401120218,
+            "macro_f1": 0.69071312474499,
+            "per_role_f1": {
+              "none": 0.7272224968738186,
+              "facts": 0.8331429758072889,
+              "issue": 0.5647167204053432,
+              "petitioner_argument": 0.6998410174880764,
+              "respondent_argument": 0.6878995177750364,
+              "reasoning": 0.6145009951663349,
+              "decision": 0.7076681496990317
+            },
+            "confusion": [
+              [
+                25007,
+                2006,
+                174,
+                624,
+                444,
+                4768,
+                134
+              ],
+              [
+                1169,
+                12036,
+                141,
+                193,
+                28,
+                231,
+                14
+              ],
+              [
+                194,
+                260,
+                613,
+                10,
+                2,
+                35,
+                2
+              ],
+              [
+                1398,
+                154,
+                10,
+                4402,
+                507,
+                203,
+                3
+              ],
+              [
+                747,
+                129,
+                7,
+                506,
+                3067,
+                255,
+                1
+              ],
+              [
+                6858,
+                347,
+                45,
+                164,
+                154,
+                10806,
+                126
+              ],
+              [
+                244,
+                149,
+                65,
+                4,
+                3,
+                372,
+                1352
+              ]
+            ]
+          },
+          "paired_labels": {
+            "macro_f1": [
+              -0.0002901774711576405,
+              0.010700452245302342
+            ],
+            "accuracy": [
+              -0.0005155463080570494,
+              0.004729925353472188
+            ],
+            "reasoning": [
+              -0.015652917587619237,
+              -0.004108365662588335
+            ],
+            "decision": [
+              0.0007052774852606248,
+              0.009583582848278784
+            ]
+          },
+          "spans": {
+            "exact_labeled_span_f1": 0.3819983771878985,
+            "role_boundary_f1": 0.5842323651452282,
+            "matched_spans": 6591,
+            "predicted_spans": 15790,
+            "gold_spans": 18718
+          },
+          "baseline_spans": {
+            "exact_labeled_span_f1": 0.4006667056553015,
+            "role_boundary_f1": 0.6047262937481305,
+            "matched_spans": 6851,
+            "predicted_spans": 15480,
+            "gold_spans": 18718
+          },
+          "paired_spans": {
+            "exact_labeled_span_f1": [
+              -0.022378537218734323,
+              -0.015127143078354747
+            ],
+            "role_boundary_f1": [
+              -0.024662897294768112,
+              -0.016318676326332
+            ]
+          },
+          "changed": 2435,
+          "decisions_by_pair": [
+            {
+              "roles": [
+                "none",
+                "facts"
+              ],
+              "changed": 149,
+              "fixed": 58,
+              "broken": 45
+            },
+            {
+              "roles": [
+                "none",
+                "issue"
+              ],
+              "changed": 4,
+              "fixed": 1,
+              "broken": 2
+            },
+            {
+              "roles": [
+                "none",
+                "petitioner_argument"
+              ],
+              "changed": 36,
+              "fixed": 11,
+              "broken": 16
+            },
+            {
+              "roles": [
+                "none",
+                "respondent_argument"
+              ],
+              "changed": 40,
+              "fixed": 12,
+              "broken": 14
+            },
+            {
+              "roles": [
+                "none",
+                "reasoning"
+              ],
+              "changed": 1958,
+              "fixed": 934,
+              "broken": 790
+            },
+            {
+              "roles": [
+                "none",
+                "decision"
+              ],
+              "changed": 39,
+              "fixed": 12,
+              "broken": 13
+            },
+            {
+              "roles": [
+                "facts",
+                "issue"
+              ],
+              "changed": 122,
+              "fixed": 11,
+              "broken": 2
+            },
+            {
+              "roles": [
+                "facts",
+                "petitioner_argument"
+              ],
+              "changed": 4,
+              "fixed": 3,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "facts",
+                "respondent_argument"
+              ],
+              "changed": 3,
+              "fixed": 0,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "facts",
+                "reasoning"
+              ],
+              "changed": 3,
+              "fixed": 3,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "facts",
+                "decision"
+              ],
+              "changed": 0,
+              "fixed": 0,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "issue",
+                "petitioner_argument"
+              ],
+              "changed": 0,
+              "fixed": 0,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "issue",
+                "respondent_argument"
+              ],
+              "changed": 0,
+              "fixed": 0,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "issue",
+                "reasoning"
+              ],
+              "changed": 5,
+              "fixed": 1,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "issue",
+                "decision"
+              ],
+              "changed": 0,
+              "fixed": 0,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "petitioner_argument",
+                "respondent_argument"
+              ],
+              "changed": 19,
+              "fixed": 9,
+              "broken": 6
+            },
+            {
+              "roles": [
+                "petitioner_argument",
+                "reasoning"
+              ],
+              "changed": 7,
+              "fixed": 4,
+              "broken": 1
+            },
+            {
+              "roles": [
+                "petitioner_argument",
+                "decision"
+              ],
+              "changed": 0,
+              "fixed": 0,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "respondent_argument",
+                "reasoning"
+              ],
+              "changed": 8,
+              "fixed": 5,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "respondent_argument",
+                "decision"
+              ],
+              "changed": 1,
+              "fixed": 1,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "reasoning",
+                "decision"
+              ],
+              "changed": 37,
+              "fixed": 20,
+              "broken": 14
+            }
+          ],
+          "baseline_confusions_ranked": [
+            [
+              11753,
+              "none",
+              "reasoning"
+            ],
+            [
+              3090,
+              "none",
+              "facts"
+            ],
+            [
+              1955,
+              "none",
+              "petitioner_argument"
+            ],
+            [
+              1121,
+              "none",
+              "respondent_argument"
+            ],
+            [
+              1017,
+              "petitioner_argument",
+              "respondent_argument"
+            ],
+            [
+              688,
+              "facts",
+              "reasoning"
+            ],
+            [
+              537,
+              "reasoning",
+              "decision"
+            ],
+            [
+              459,
+              "respondent_argument",
+              "reasoning"
+            ],
+            [
+              434,
+              "petitioner_argument",
+              "reasoning"
+            ],
+            [
+              418,
+              "facts",
+              "issue"
+            ],
+            [
+              353,
+              "facts",
+              "petitioner_argument"
+            ],
+            [
+              344,
+              "none",
+              "issue"
+            ],
+            [
+              339,
+              "none",
+              "decision"
+            ],
+            [
+              174,
+              "issue",
+              "decision"
+            ],
+            [
+              172,
+              "facts",
+              "respondent_argument"
+            ],
+            [
+              93,
+              "issue",
+              "reasoning"
+            ],
+            [
+              61,
+              "facts",
+              "decision"
+            ],
+            [
+              20,
+              "issue",
+              "petitioner_argument"
+            ],
+            [
+              18,
+              "respondent_argument",
+              "decision"
+            ],
+            [
+              11,
+              "issue",
+              "respondent_argument"
+            ],
+            [
+              5,
+              "petitioner_argument",
+              "decision"
+            ]
+          ]
+        }
+      }
+    },
+    "phrase-prospect": {
+      "cases": 196,
+      "arms": {
+        "sequence only": {
+          "baseline": {
+            "rows": 46248,
+            "correct": 33170,
+            "accuracy": 0.7172202041169348,
+            "macro_f1": 0.6830933698344245,
+            "per_role_f1": {
+              "none": 0.7481075558445177,
+              "facts": 0.8227159830838424,
+              "issue": 0.537121906507791,
+              "petitioner_argument": 0.6545210984594776,
+              "respondent_argument": 0.6267832489645652,
+              "reasoning": 0.6197819862359973,
+              "decision": 0.7726218097447796
+            },
+            "confusion": [
+              [
+                16109,
+                1069,
+                74,
+                394,
+                309,
+                3191,
+                85
+              ],
+              [
+                790,
+                6128,
+                51,
+                105,
+                52,
+                140,
+                12
+              ],
+              [
+                152,
+                167,
+                293,
+                1,
+                1,
+                34,
+                0
+              ],
+              [
+                1069,
+                79,
+                5,
+                2443,
+                161,
+                237,
+                3
+              ],
+              [
+                383,
+                44,
+                6,
+                451,
+                1362,
+                122,
+                0
+              ],
+              [
+                3287,
+                132,
+                14,
+                73,
+                93,
+                6169,
+                77
+              ],
+              [
+                45,
+                0,
+                0,
+                1,
+                0,
+                169,
+                666
+              ]
+            ]
+          },
+          "labels": {
+            "rows": 46248,
+            "correct": 33269,
+            "accuracy": 0.7193608372253936,
+            "macro_f1": 0.6879179104049731,
+            "per_role_f1": {
+              "none": 0.7504843620260172,
+              "facts": 0.8242098184263618,
+              "issue": 0.5593073593073593,
+              "petitioner_argument": 0.6550253265795788,
+              "respondent_argument": 0.6279550149185219,
+              "reasoning": 0.6197644649257552,
+              "decision": 0.7786790266512167
+            },
+            "confusion": [
+              [
+                16269,
+                1061,
+                91,
+                406,
+                312,
+                3008,
+                84
+              ],
+              [
+                818,
+                6128,
+                57,
+                104,
+                52,
+                111,
+                8
+              ],
+              [
+                130,
+                163,
+                323,
+                1,
+                1,
+                29,
+                1
+              ],
+              [
+                1071,
+                80,
+                5,
+                2457,
+                164,
+                217,
+                3
+              ],
+              [
+                394,
+                36,
+                7,
+                453,
+                1368,
+                110,
+                0
+              ],
+              [
+                3393,
+                124,
+                24,
+                83,
+                92,
+                6052,
+                77
+              ],
+              [
+                50,
+                0,
+                0,
+                1,
+                0,
+                158,
+                672
+              ]
+            ]
+          },
+          "paired_labels": {
+            "macro_f1": [
+              0.001910082745252839,
+              0.007978410656826238
+            ],
+            "accuracy": [
+              0.0008780224543051218,
+              0.0033587064335231205
+            ],
+            "reasoning": [
+              -0.0031577368384298975,
+              0.0029852944606292313
+            ],
+            "decision": [
+              -0.0012452866537502772,
+              0.013768929606942653
+            ]
+          },
+          "spans": {
+            "exact_labeled_span_f1": 0.3839029410171695,
+            "role_boundary_f1": 0.5822588677992363,
+            "matched_spans": 3544,
+            "predicted_spans": 8227,
+            "gold_spans": 10236
+          },
+          "baseline_spans": {
+            "exact_labeled_span_f1": 0.38619940233632166,
+            "role_boundary_f1": 0.5875756398156887,
+            "matched_spans": 3554,
+            "predicted_spans": 8169,
+            "gold_spans": 10236
+          },
+          "paired_spans": {
+            "exact_labeled_span_f1": [
+              -0.005560420671208689,
+              0.0014042145135003713
+            ],
+            "role_boundary_f1": [
+              -0.008819260245849045,
+              -0.0023047498989544183
+            ]
+          },
+          "changed": 611,
+          "decisions_by_pair": [
+            {
+              "roles": [
+                "none",
+                "facts"
+              ],
+              "changed": 69,
+              "fixed": 30,
+              "broken": 22
+            },
+            {
+              "roles": [
+                "none",
+                "issue"
+              ],
+              "changed": 55,
+              "fixed": 27,
+              "broken": 14
+            },
+            {
+              "roles": [
+                "none",
+                "petitioner_argument"
+              ],
+              "changed": 51,
+              "fixed": 19,
+              "broken": 15
+            },
+            {
+              "roles": [
+                "none",
+                "respondent_argument"
+              ],
+              "changed": 16,
+              "fixed": 5,
+              "broken": 7
+            },
+            {
+              "roles": [
+                "none",
+                "reasoning"
+              ],
+              "changed": 357,
+              "fixed": 179,
+              "broken": 115
+            },
+            {
+              "roles": [
+                "none",
+                "decision"
+              ],
+              "changed": 14,
+              "fixed": 4,
+              "broken": 6
+            },
+            {
+              "roles": [
+                "facts",
+                "issue"
+              ],
+              "changed": 6,
+              "fixed": 2,
+              "broken": 2
+            },
+            {
+              "roles": [
+                "facts",
+                "petitioner_argument"
+              ],
+              "changed": 1,
+              "fixed": 0,
+              "broken": 1
+            },
+            {
+              "roles": [
+                "facts",
+                "respondent_argument"
+              ],
+              "changed": 3,
+              "fixed": 3,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "facts",
+                "reasoning"
+              ],
+              "changed": 1,
+              "fixed": 0,
+              "broken": 1
+            },
+            {
+              "roles": [
+                "facts",
+                "decision"
+              ],
+              "changed": 1,
+              "fixed": 1,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "issue",
+                "petitioner_argument"
+              ],
+              "changed": 0,
+              "fixed": 0,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "issue",
+                "respondent_argument"
+              ],
+              "changed": 0,
+              "fixed": 0,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "issue",
+                "reasoning"
+              ],
+              "changed": 3,
+              "fixed": 1,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "issue",
+                "decision"
+              ],
+              "changed": 0,
+              "fixed": 0,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "petitioner_argument",
+                "respondent_argument"
+              ],
+              "changed": 6,
+              "fixed": 3,
+              "broken": 2
+            },
+            {
+              "roles": [
+                "petitioner_argument",
+                "reasoning"
+              ],
+              "changed": 7,
+              "fixed": 2,
+              "broken": 2
+            },
+            {
+              "roles": [
+                "petitioner_argument",
+                "decision"
+              ],
+              "changed": 0,
+              "fixed": 0,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "respondent_argument",
+                "reasoning"
+              ],
+              "changed": 2,
+              "fixed": 1,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "respondent_argument",
+                "decision"
+              ],
+              "changed": 0,
+              "fixed": 0,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "reasoning",
+                "decision"
+              ],
+              "changed": 19,
+              "fixed": 13,
+              "broken": 4
+            }
+          ],
+          "baseline_confusions_ranked": [
+            [
+              6478,
+              "none",
+              "reasoning"
+            ],
+            [
+              1859,
+              "none",
+              "facts"
+            ],
+            [
+              1463,
+              "none",
+              "petitioner_argument"
+            ],
+            [
+              692,
+              "none",
+              "respondent_argument"
+            ],
+            [
+              612,
+              "petitioner_argument",
+              "respondent_argument"
+            ],
+            [
+              310,
+              "petitioner_argument",
+              "reasoning"
+            ],
+            [
+              272,
+              "facts",
+              "reasoning"
+            ],
+            [
+              246,
+              "reasoning",
+              "decision"
+            ],
+            [
+              226,
+              "none",
+              "issue"
+            ],
+            [
+              218,
+              "facts",
+              "issue"
+            ],
+            [
+              215,
+              "respondent_argument",
+              "reasoning"
+            ],
+            [
+              184,
+              "facts",
+              "petitioner_argument"
+            ],
+            [
+              130,
+              "none",
+              "decision"
+            ],
+            [
+              96,
+              "facts",
+              "respondent_argument"
+            ],
+            [
+              48,
+              "issue",
+              "reasoning"
+            ],
+            [
+              12,
+              "facts",
+              "decision"
+            ],
+            [
+              7,
+              "issue",
+              "respondent_argument"
+            ],
+            [
+              6,
+              "issue",
+              "petitioner_argument"
+            ],
+            [
+              4,
+              "petitioner_argument",
+              "decision"
+            ],
+            [
+              0,
+              "respondent_argument",
+              "decision"
+            ],
+            [
+              0,
+              "issue",
+              "decision"
+            ]
+          ]
+        }
+      }
+    },
+    "test": {
+      "cases": 712,
+      "arms": {
+        "sequence only": {
+          "baseline": {
+            "rows": 149868,
+            "correct": 98464,
+            "accuracy": 0.6570048309178744,
+            "macro_f1": 0.6367191924457011,
+            "per_role_f1": {
+              "none": 0.6574894775934638,
+              "facts": 0.8028844279867472,
+              "issue": 0.49404761904761907,
+              "petitioner_argument": 0.6252142518507713,
+              "respondent_argument": 0.5722199304614297,
+              "reasoning": 0.5863688007337139,
+              "decision": 0.718809839446163
+            },
+            "confusion": [
+              [
+                39834,
+                3444,
+                244,
+                1580,
+                942,
+                12187,
+                265
+              ],
+              [
+                3091,
+                20598,
+                126,
+                541,
+                128,
+                414,
+                10
+              ],
+              [
+                315,
+                681,
+                747,
+                9,
+                5,
+                71,
+                8
+              ],
+              [
+                3362,
+                734,
+                14,
+                8572,
+                1056,
+                780,
+                2
+              ],
+              [
+                1787,
+                422,
+                10,
+                1673,
+                4855,
+                829,
+                3
+              ],
+              [
+                13602,
+                517,
+                44,
+                502,
+                385,
+                21418,
+                220
+              ],
+              [
+                683,
+                6,
+                3,
+                24,
+                19,
+                666,
+                2440
+              ]
+            ]
+          },
+          "labels": {
+            "rows": 149868,
+            "correct": 98658,
+            "accuracy": 0.6582993033869805,
+            "macro_f1": 0.6400139550537958,
+            "per_role_f1": {
+              "none": 0.6595627652675046,
+              "facts": 0.8038725796377264,
+              "issue": 0.5130462118830557,
+              "petitioner_argument": 0.625622387788479,
+              "respondent_argument": 0.5744942832014072,
+              "reasoning": 0.5858905058905058,
+              "decision": 0.7176089517078916
+            },
+            "confusion": [
+              [
+                40171,
+                3414,
+                300,
+                1618,
+                956,
+                11769,
+                268
+              ],
+              [
+                3130,
+                20592,
+                141,
+                542,
+                128,
+                365,
+                10
+              ],
+              [
+                277,
+                656,
+                816,
+                9,
+                5,
+                65,
+                8
+              ],
+              [
+                3370,
+                729,
+                16,
+                8607,
+                1071,
+                725,
+                2
+              ],
+              [
+                1816,
+                420,
+                10,
+                1669,
+                4899,
+                762,
+                3
+              ],
+              [
+                13838,
+                509,
+                58,
+                526,
+                398,
+                21136,
+                223
+              ],
+              [
+                713,
+                4,
+                4,
+                24,
+                19,
+                640,
+                2437
+              ]
+            ]
+          },
+          "paired_labels": {
+            "macro_f1": [
+              0.001744544700570122,
+              0.004932323092997928
+            ],
+            "accuracy": [
+              0.0006821599941349094,
+              0.0019523932633484537
+            ],
+            "reasoning": [
+              -0.001633775348512448,
+              0.0006060219345945632
+            ],
+            "decision": [
+              -0.0043009003954687704,
+              0.0018950612048997978
+            ]
+          },
+          "spans": {
+            "exact_labeled_span_f1": 0.26397303695381774,
+            "role_boundary_f1": 0.46532567841063976,
+            "matched_spans": 6579,
+            "predicted_spans": 20967,
+            "gold_spans": 28879
+          },
+          "baseline_spans": {
+            "exact_labeled_span_f1": 0.2683703494699504,
+            "role_boundary_f1": 0.471469477528323,
+            "matched_spans": 6658,
+            "predicted_spans": 20739,
+            "gold_spans": 28879
+          },
+          "paired_spans": {
+            "exact_labeled_span_f1": [
+              -0.006312451520232375,
+              -0.0025032445020342067
+            ],
+            "role_boundary_f1": [
+              -0.008519813405592701,
+              -0.003782581386197104
+            ]
+          },
+          "changed": 1621,
+          "decisions_by_pair": [
+            {
+              "roles": [
+                "none",
+                "facts"
+              ],
+              "changed": 197,
+              "fixed": 93,
+              "broken": 68
+            },
+            {
+              "roles": [
+                "none",
+                "issue"
+              ],
+              "changed": 119,
+              "fixed": 51,
+              "broken": 46
+            },
+            {
+              "roles": [
+                "none",
+                "petitioner_argument"
+              ],
+              "changed": 173,
+              "fixed": 56,
+              "broken": 60
+            },
+            {
+              "roles": [
+                "none",
+                "respondent_argument"
+              ],
+              "changed": 62,
+              "fixed": 17,
+              "broken": 11
+            },
+            {
+              "roles": [
+                "none",
+                "reasoning"
+              ],
+              "changed": 853,
+              "fixed": 407,
+              "broken": 272
+            },
+            {
+              "roles": [
+                "none",
+                "decision"
+              ],
+              "changed": 55,
+              "fixed": 20,
+              "broken": 31
+            },
+            {
+              "roles": [
+                "facts",
+                "issue"
+              ],
+              "changed": 36,
+              "fixed": 18,
+              "broken": 7
+            },
+            {
+              "roles": [
+                "facts",
+                "petitioner_argument"
+              ],
+              "changed": 6,
+              "fixed": 2,
+              "broken": 2
+            },
+            {
+              "roles": [
+                "facts",
+                "respondent_argument"
+              ],
+              "changed": 2,
+              "fixed": 2,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "facts",
+                "reasoning"
+              ],
+              "changed": 2,
+              "fixed": 1,
+              "broken": 1
+            },
+            {
+              "roles": [
+                "facts",
+                "decision"
+              ],
+              "changed": 1,
+              "fixed": 1,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "issue",
+                "petitioner_argument"
+              ],
+              "changed": 1,
+              "fixed": 0,
+              "broken": 1
+            },
+            {
+              "roles": [
+                "issue",
+                "respondent_argument"
+              ],
+              "changed": 0,
+              "fixed": 0,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "issue",
+                "reasoning"
+              ],
+              "changed": 3,
+              "fixed": 0,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "issue",
+                "decision"
+              ],
+              "changed": 0,
+              "fixed": 0,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "petitioner_argument",
+                "respondent_argument"
+              ],
+              "changed": 43,
+              "fixed": 25,
+              "broken": 9
+            },
+            {
+              "roles": [
+                "petitioner_argument",
+                "reasoning"
+              ],
+              "changed": 14,
+              "fixed": 1,
+              "broken": 5
+            },
+            {
+              "roles": [
+                "petitioner_argument",
+                "decision"
+              ],
+              "changed": 1,
+              "fixed": 0,
+              "broken": 1
+            },
+            {
+              "roles": [
+                "respondent_argument",
+                "reasoning"
+              ],
+              "changed": 17,
+              "fixed": 11,
+              "broken": 2
+            },
+            {
+              "roles": [
+                "respondent_argument",
+                "decision"
+              ],
+              "changed": 0,
+              "fixed": 0,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "reasoning",
+                "decision"
+              ],
+              "changed": 36,
+              "fixed": 18,
+              "broken": 13
+            }
+          ],
+          "baseline_confusions_ranked": [
+            [
+              25789,
+              "none",
+              "reasoning"
+            ],
+            [
+              6535,
+              "none",
+              "facts"
+            ],
+            [
+              4942,
+              "none",
+              "petitioner_argument"
+            ],
+            [
+              2729,
+              "petitioner_argument",
+              "respondent_argument"
+            ],
+            [
+              2729,
+              "none",
+              "respondent_argument"
+            ],
+            [
+              1282,
+              "petitioner_argument",
+              "reasoning"
+            ],
+            [
+              1275,
+              "facts",
+              "petitioner_argument"
+            ],
+            [
+              1214,
+              "respondent_argument",
+              "reasoning"
+            ],
+            [
+              948,
+              "none",
+              "decision"
+            ],
+            [
+              931,
+              "facts",
+              "reasoning"
+            ],
+            [
+              886,
+              "reasoning",
+              "decision"
+            ],
+            [
+              807,
+              "facts",
+              "issue"
+            ],
+            [
+              559,
+              "none",
+              "issue"
+            ],
+            [
+              550,
+              "facts",
+              "respondent_argument"
+            ],
+            [
+              115,
+              "issue",
+              "reasoning"
+            ],
+            [
+              26,
+              "petitioner_argument",
+              "decision"
+            ],
+            [
+              23,
+              "issue",
+              "petitioner_argument"
+            ],
+            [
+              22,
+              "respondent_argument",
+              "decision"
+            ],
+            [
+              16,
+              "facts",
+              "decision"
+            ],
+            [
+              15,
+              "issue",
+              "respondent_argument"
+            ],
+            [
+              11,
+              "issue",
+              "decision"
+            ]
+          ]
+        },
+        "BERT hybrid": {
+          "baseline": {
+            "rows": 149868,
+            "correct": 98473,
+            "accuracy": 0.6570648837643793,
+            "macro_f1": 0.6407435975685527,
+            "per_role_f1": {
+              "none": 0.6575406380443748,
+              "facts": 0.8023931294026826,
+              "issue": 0.5244974874371859,
+              "petitioner_argument": 0.6246773731000861,
+              "respondent_argument": 0.5730695596681558,
+              "reasoning": 0.585236485558029,
+              "decision": 0.7177905097693551
+            },
+            "confusion": [
+              [
+                39460,
+                3660,
+                282,
+                1749,
+                994,
+                12077,
+                274
+              ],
+              [
+                2833,
+                20788,
+                169,
+                563,
+                138,
+                407,
+                10
+              ],
+              [
+                281,
+                623,
+                835,
+                8,
+                7,
+                74,
+                8
+              ],
+              [
+                3142,
+                767,
+                16,
+                8713,
+                1108,
+                772,
+                2
+              ],
+              [
+                1652,
+                457,
+                5,
+                1713,
+                4939,
+                808,
+                5
+              ],
+              [
+                13472,
+                607,
+                36,
+                605,
+                449,
+                21295,
+                224
+              ],
+              [
+                687,
+                5,
+                5,
+                25,
+                23,
+                653,
+                2443
+              ]
+            ]
+          },
+          "labels": {
+            "rows": 149868,
+            "correct": 98793,
+            "accuracy": 0.6592000960845544,
+            "macro_f1": 0.6410735250692285,
+            "per_role_f1": {
+              "none": 0.6642650474754472,
+              "facts": 0.8025512176265945,
+              "issue": 0.5236294896030246,
+              "petitioner_argument": 0.6250179211469534,
+              "respondent_argument": 0.5745172852352873,
+              "reasoning": 0.5794720403884824,
+              "decision": 0.7180616740088106
+            },
+            "confusion": [
+              [
+                40751,
+                3638,
+                279,
+                1757,
+                1006,
+                10787,
+                278
+              ],
+              [
+                2965,
+                20762,
+                161,
+                564,
+                136,
+                314,
+                6
+              ],
+              [
+                301,
+                617,
+                831,
+                8,
+                7,
+                64,
+                8
+              ],
+              [
+                3247,
+                763,
+                16,
+                8719,
+                1116,
+                657,
+                2
+              ],
+              [
+                1765,
+                455,
+                5,
+                1698,
+                4969,
+                682,
+                5
+              ],
+              [
+                14444,
+                592,
+                41,
+                608,
+                462,
+                20316,
+                225
+              ],
+              [
+                726,
+                5,
+                5,
+                26,
+                23,
+                611,
+                2445
+              ]
+            ]
+          },
+          "paired_labels": {
+            "macro_f1": [
+              -0.000662154037819454,
+              0.0013816483898194123
+            ],
+            "accuracy": [
+              0.0007285970981827067,
+              0.003633552464714721
+            ],
+            "reasoning": [
+              -0.00849170085949238,
+              -0.0030998651095950234
+            ],
+            "decision": [
+              -0.0034338241871291865,
+              0.004050656711513258
+            ]
+          },
+          "spans": {
+            "exact_labeled_span_f1": 0.2514155394778232,
+            "role_boundary_f1": 0.4559061488673139,
+            "matched_spans": 6394,
+            "predicted_spans": 21985,
+            "gold_spans": 28879
+          },
+          "baseline_spans": {
+            "exact_labeled_span_f1": 0.26514697060587883,
+            "role_boundary_f1": 0.470505907051414,
+            "matched_spans": 6630,
+            "predicted_spans": 21131,
+            "gold_spans": 28879
+          },
+          "paired_spans": {
+            "exact_labeled_span_f1": [
+              -0.01678331688752528,
+              -0.010914524328318515
+            ],
+            "role_boundary_f1": [
+              -0.018033232759488177,
+              -0.011263051284760434
+            ]
+          },
+          "changed": 3423,
+          "decisions_by_pair": [
+            {
+              "roles": [
+                "none",
+                "facts"
+              ],
+              "changed": 305,
+              "fixed": 116,
+              "broken": 122
+            },
+            {
+              "roles": [
+                "none",
+                "issue"
+              ],
+              "changed": 7,
+              "fixed": 3,
+              "broken": 1
+            },
+            {
+              "roles": [
+                "none",
+                "petitioner_argument"
+              ],
+              "changed": 130,
+              "fixed": 44,
+              "broken": 45
+            },
+            {
+              "roles": [
+                "none",
+                "respondent_argument"
+              ],
+              "changed": 77,
+              "fixed": 19,
+              "broken": 23
+            },
+            {
+              "roles": [
+                "none",
+                "reasoning"
+              ],
+              "changed": 2667,
+              "fixed": 1307,
+              "broken": 999
+            },
+            {
+              "roles": [
+                "none",
+                "decision"
+              ],
+              "changed": 72,
+              "fixed": 29,
+              "broken": 35
+            },
+            {
+              "roles": [
+                "facts",
+                "issue"
+              ],
+              "changed": 17,
+              "fixed": 7,
+              "broken": 5
+            },
+            {
+              "roles": [
+                "facts",
+                "petitioner_argument"
+              ],
+              "changed": 12,
+              "fixed": 4,
+              "broken": 7
+            },
+            {
+              "roles": [
+                "facts",
+                "respondent_argument"
+              ],
+              "changed": 0,
+              "fixed": 0,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "facts",
+                "reasoning"
+              ],
+              "changed": 3,
+              "fixed": 2,
+              "broken": 1
+            },
+            {
+              "roles": [
+                "facts",
+                "decision"
+              ],
+              "changed": 0,
+              "fixed": 0,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "issue",
+                "petitioner_argument"
+              ],
+              "changed": 0,
+              "fixed": 0,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "issue",
+                "respondent_argument"
+              ],
+              "changed": 0,
+              "fixed": 0,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "issue",
+                "reasoning"
+              ],
+              "changed": 6,
+              "fixed": 0,
+              "broken": 4
+            },
+            {
+              "roles": [
+                "issue",
+                "decision"
+              ],
+              "changed": 0,
+              "fixed": 0,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "petitioner_argument",
+                "respondent_argument"
+              ],
+              "changed": 47,
+              "fixed": 28,
+              "broken": 12
+            },
+            {
+              "roles": [
+                "petitioner_argument",
+                "reasoning"
+              ],
+              "changed": 6,
+              "fixed": 0,
+              "broken": 1
+            },
+            {
+              "roles": [
+                "petitioner_argument",
+                "decision"
+              ],
+              "changed": 1,
+              "fixed": 0,
+              "broken": 1
+            },
+            {
+              "roles": [
+                "respondent_argument",
+                "reasoning"
+              ],
+              "changed": 15,
+              "fixed": 10,
+              "broken": 2
+            },
+            {
+              "roles": [
+                "respondent_argument",
+                "decision"
+              ],
+              "changed": 0,
+              "fixed": 0,
+              "broken": 0
+            },
+            {
+              "roles": [
+                "reasoning",
+                "decision"
+              ],
+              "changed": 58,
+              "fixed": 29,
+              "broken": 20
+            }
+          ],
+          "baseline_confusions_ranked": [
+            [
+              25549,
+              "none",
+              "reasoning"
+            ],
+            [
+              6493,
+              "none",
+              "facts"
+            ],
+            [
+              4891,
+              "none",
+              "petitioner_argument"
+            ],
+            [
+              2821,
+              "petitioner_argument",
+              "respondent_argument"
+            ],
+            [
+              2646,
+              "none",
+              "respondent_argument"
+            ],
+            [
+              1377,
+              "petitioner_argument",
+              "reasoning"
+            ],
+            [
+              1330,
+              "facts",
+              "petitioner_argument"
+            ],
+            [
+              1257,
+              "respondent_argument",
+              "reasoning"
+            ],
+            [
+              1014,
+              "facts",
+              "reasoning"
+            ],
+            [
+              961,
+              "none",
+              "decision"
+            ],
+            [
+              877,
+              "reasoning",
+              "decision"
+            ],
+            [
+              792,
+              "facts",
+              "issue"
+            ],
+            [
+              595,
+              "facts",
+              "respondent_argument"
+            ],
+            [
+              563,
+              "none",
+              "issue"
+            ],
+            [
+              110,
+              "issue",
+              "reasoning"
+            ],
+            [
+              28,
+              "respondent_argument",
+              "decision"
+            ],
+            [
+              27,
+              "petitioner_argument",
+              "decision"
+            ],
+            [
+              24,
+              "issue",
+              "petitioner_argument"
+            ],
+            [
+              15,
+              "facts",
+              "decision"
+            ],
+            [
+              13,
+              "issue",
+              "decision"
+            ],
+            [
+              12,
+              "issue",
+              "respondent_argument"
+            ]
+          ]
+        }
+      }
+    }
+  }
+}
